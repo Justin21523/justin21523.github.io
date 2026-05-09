@@ -1,11 +1,8 @@
-name: Deploy Portfolio
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main, master]
-    paths:
-      - "justin-portfolio/**"
-      - ".project-index.toml"
+    branches: [ master ]
   workflow_dispatch:
 
 permissions:
@@ -24,32 +21,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: justin-portfolio/package-lock.json
-
-      - name: Sync projects
-        run: |
-          cd justin-portfolio
-          node scripts/sync-projects.mjs
 
       - name: Install dependencies
-        run: |
-          cd justin-portfolio
-          npm ci
+        run: npm ci
 
-      - name: Build
-        run: |
-          cd justin-portfolio
-          npm run build
+      - name: Build with Vite (GitHub Pages)
+        run: GITHUB_PAGES=true npm run build
+        env:
+          GITHUB_PAGES: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: justin-portfolio/dist
+          path: ./dist
 
   deploy:
     environment:
