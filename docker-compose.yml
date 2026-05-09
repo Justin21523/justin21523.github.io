@@ -1,0 +1,513 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      args:
+        SITE_URL: "${SITE_URL:-http://localhost:3000}"
+    environment:
+      SITE_URL: "${SITE_URL:-http://localhost:3000}"
+    ports:
+      - "${WEB_HOST_PORT:-3000}:80"
+    restart: unless-stopped
+
+  # Project demos (mounted under /p/<slug>/ via the portfolio nginx gateway).
+  # Note: these build contexts are expected to exist (e.g. on the server):
+  #   ./projects/<slug>  (repo checkout)
+  threejs-product-viewer:
+    build:
+      context: ./projects/threejs-product-viewer
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_PATH: "/p/threejs-product-viewer/"
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  rigview3d:
+    build:
+      context: ./projects/rigview3d
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_PATH: "/p/rigview3d/"
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  3d-platformer-runner:
+    build:
+      context: ./projects/3d-platformer-runner
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_PATH: "/p/3d-platformer-runner/"
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  3d-rendering-showcase:
+    build:
+      context: ./projects/3d-rendering-showcase
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_PATH: "/p/3d-rendering-showcase/"
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  javascript-platformer-concepts:
+    build:
+      context: ./projects/javascript-platformer-concepts
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_PATH: "/p/javascript-platformer-concepts/"
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  ai-game-website:
+    build:
+      context: ./projects/ai-game-website
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_PATH: "/p/ai-game-website/"
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  3d-maze-explorer:
+    build:
+      context: ./projects/3d-maze-explorer
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_PATH: "/p/3d-maze-explorer/"
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  vanilla-dom-playground:
+    build:
+      context: ./projects/vanilla-dom-playground
+      dockerfile: Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  poker-ai-web:
+    build:
+      context: ./projects/poker-ai-web
+      dockerfile: docker/Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  html-css-interactive-lab:
+    build:
+      context: ./projects/html-css-interactive-lab
+      dockerfile: docker/Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  css-advanced-mastery:
+    build:
+      context: ./projects/css-advanced-mastery
+      dockerfile: docker/Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  commute-reliability-analysis:
+    build:
+      context: ./projects/commute-reliability-analysis
+      dockerfile: docker/Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  excel-python-data-analysis:
+    build:
+      context: ./projects/excel-python-data-analysis
+      dockerfile: docker/Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  procedural-3d-maze:
+    build:
+      context: ./projects/procedural-3d-maze
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_PATH: "/p/procedural-3d-maze/"
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  game-dialogue-simulator:
+    build:
+      context: ./projects/game-dialogue-simulator
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  image-process:
+    build:
+      context: ./projects/image-process
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_PATH: "/p/image-process/"
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  my-3d-platformer:
+    build:
+      context: ./projects/my-3d-platformer
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_PATH: "/p/my-3d-platformer/"
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  # Portfolio landing (full GPU pipeline is deployed separately).
+  ytp-factory:
+    build:
+      context: ./projects/ytp-factory
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  # Portfolio landing (full stack is deployed separately).
+  youtube-web-automation-analysis:
+    build:
+      context: ./projects/youtube-web-automation-analysis
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  tripscore:
+    build:
+      context: ./projects/tripscore
+      dockerfile: Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  traffic-pulse:
+    build:
+      context: ./projects/traffic-pulse
+      dockerfile: docker/Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  mrt-ubike-analysis:
+    build:
+      context: ./projects/mrt-ubike-analysis
+      dockerfile: docker/Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  library-reach-analysis:
+    build:
+      context: ./projects/library-reach-analysis
+      dockerfile: docker/report.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  discord-clone:
+    build:
+      context: ./projects/discord-clone
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  elio-discord-bot:
+    build:
+      context: ./projects/elio-discord-bot
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  fandom-gui-scraper:
+    build:
+      context: ./projects/fandom-gui-scraper
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  information-retrieval:
+    build:
+      context: ./projects/information-retrieval
+      dockerfile: Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  school-library-lms:
+    build:
+      context: ./projects/school-library-lms
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  # Note: URL slug uses lowercase; project folder keeps original name.
+  starforge-ai-narrative:
+    build:
+      context: ./projects/starforge-AI-narrative
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  # AI project demo landings (full demos will be deployed incrementally).
+  video-gen-factory:
+    build:
+      context: ./projects/video-gen-factory
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  2d-animation-lora-pipeline:
+    build:
+      context: ./projects/2d-animation-lora-pipeline
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  3d-animation-lora-pipeline:
+    build:
+      context: ./projects/3d-animation-lora-pipeline
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  ai-gen-hub:
+    build:
+      context: ./projects/ai-gen-hub
+      dockerfile: docker/demo.Dockerfile
+    expose:
+      - "80"
+    depends_on:
+      - ai-gen-hub-backend
+    restart: unless-stopped
+
+  ai-gen-hub-backend:
+    build:
+      context: ./projects/ai-gen-hub
+      dockerfile: docker/demo.backend.Dockerfile
+    expose:
+      - "8000"
+    restart: unless-stopped
+
+  animation-ai-studio:
+    build:
+      context: ./projects/animation-ai-studio
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  anime-adventure-lab:
+    build:
+      context: ./projects/anime-adventure-lab
+      dockerfile: docker/demo.Dockerfile
+    expose:
+      - "80"
+    depends_on:
+      - anime-adventure-lab-backend
+    restart: unless-stopped
+
+  anime-adventure-lab-backend:
+    build:
+      context: ./projects/anime-adventure-lab
+      dockerfile: docker/demo.backend.Dockerfile
+    expose:
+      - "8000"
+    restart: unless-stopped
+
+  # Note: URL slug uses lowercase; project folder keeps original name.
+  charaforge-t2i-lab:
+    build:
+      context: ./projects/charaforge-T2I-Lab
+      dockerfile: docker/demo.Dockerfile
+    expose:
+      - "80"
+    depends_on:
+      - charaforge-t2i-lab-backend
+    restart: unless-stopped
+
+  charaforge-t2i-lab-backend:
+    build:
+      context: ./projects/charaforge-T2I-Lab
+      dockerfile: docker/demo.backend.Dockerfile
+    expose:
+      - "8000"
+    restart: unless-stopped
+
+  intro-to-dl:
+    build:
+      context: ./projects/intro-to-dl
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  edge-deid-studio:
+    build:
+      context: ./projects/edge-deid-studio
+      dockerfile: docker/demo.Dockerfile
+    expose:
+      - "80"
+    depends_on:
+      - edge-deid-studio-backend
+    restart: unless-stopped
+
+  edge-deid-studio-backend:
+    build:
+      context: ./projects/edge-deid-studio
+      dockerfile: docker/demo.backend.Dockerfile
+    expose:
+      - "8000"
+    environment:
+      USE_STUB: "true"
+      USE_ONNX: "false"
+      OCR_ENABLED: "false"
+      LOG_LEVEL: "INFO"
+    restart: unless-stopped
+
+  gan-ae-vision-suite:
+    build:
+      context: ./projects/gan-ae-vision-suite
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  intro-to-ml:
+    build:
+      context: ./projects/intro-to-ml
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  intro-to-vml:
+    build:
+      context: ./projects/intro-to-vml
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  llm-train-eval-ship:
+    build:
+      context: ./projects/llm-train-eval-ship
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  mock-master:
+    build:
+      context: ./projects/mock-master
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  anime-lora-pipeline:
+    build:
+      context: ./projects/anime-lora-pipeline
+      dockerfile: docker/portfolio.Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  ai-dispatch-center:
+    build:
+      context: ./projects/ai-dispatch-center
+      dockerfile: docker/demo.Dockerfile
+    expose:
+      - "80"
+    depends_on:
+      - ai-dispatch-center-backend
+    restart: unless-stopped
+
+  ai-dispatch-center-backend:
+    build:
+      context: ./projects/ai-dispatch-center
+      dockerfile: docker/demo.backend.Dockerfile
+    expose:
+      - "8000"
+    restart: unless-stopped
+
+  # Note: URL slug uses lowercase; project folder keeps original name.
+  restoreai-studio:
+    build:
+      context: ./projects/restoreAI-studio
+      dockerfile: docker/demo.Dockerfile
+    expose:
+      - "80"
+    depends_on:
+      - restoreai-studio-backend
+    restart: unless-stopped
+
+  restoreai-studio-backend:
+    build:
+      context: ./projects/restoreAI-studio
+      dockerfile: docker/demo.backend.Dockerfile
+    expose:
+      - "8000"
+    restart: unless-stopped
+
+  sd-multimodal-platform:
+    build:
+      context: ./projects/sd-multimodal-platform
+      dockerfile: docker/demo.Dockerfile
+    expose:
+      - "80"
+    depends_on:
+      - sd-multimodal-platform-backend
+    restart: unless-stopped
+
+  sd-multimodal-platform-backend:
+    build:
+      context: ./projects/sd-multimodal-platform
+      dockerfile: docker/demo.backend.Dockerfile
+    expose:
+      - "8000"
+    restart: unless-stopped
+
+  vision-quest:
+    build:
+      context: ./projects/vision-quest
+      dockerfile: docker/demo.Dockerfile
+    expose:
+      - "80"
+    depends_on:
+      - vision-quest-backend
+    restart: unless-stopped
+
+  vision-quest-backend:
+    build:
+      context: ./projects/vision-quest/backend
+      dockerfile: Dockerfile
+    expose:
+      - "8000"
+    environment:
+      ENV: "production"
+      DEBUG: "false"
+    restart: unless-stopped

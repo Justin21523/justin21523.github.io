@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "首頁",
+    "projects": "專案列表",
+    "github": "GitHub"
+  },
+  "hero": {
+    "available": "目前開放接受新專案與工作機會",
+    "headline_prefix": "打造連結想像與現實的",
+    "headline_highlight": "3D 數位體驗",
+    "headline_suffix": "",
+    "subheadline": "我是 Justin，全端工程師與 3D Web 開發者。我專注於構建高效能、可擴展的應用程式，用優雅的程式碼解決複雜的技術難題。",
+    "cta_projects": "瀏覽作品",
+    "cta_github": "GitHub 連結"
+  },
+  "showcase": {
+    "title": "精選作品",
+    "subtitle": "挑戰 Web 開發極限的專案合集：從沉浸式 3D 視覺化到 AI 賦能的平台。",
+    "view_all": "查看所有專案",
+    "case_study": "查看案例",
+    "preview": "專案預覽"
+  },
+  "about": {
+    "title": "關於我",
+    "philosophy": "工程哲學",
+    "p1": "我相信偉大的軟體誕生於效能、可維護性與使用者體驗的交集。我不盲目追求框架，而是深入理解底層原理。",
+    "p2": "無論是優化 Web 3D 渲染管線，還是設計 AI 應用的後端架構，我都堅持寫出乾淨、自我解釋且經得起時間考驗的程式碼。我將每個專案視為一個產品，致力於打造穩健且直覺的數位體驗。",
+    "stack": "技術軍火庫"
+  },
+  "footer": {
+    "rights": "Justin 作品集網站。使用 React & Tailwind 構建。"
+  },
+  "projects": {
+    "title": "所有專案",
+    "subtitle": "探索我的開源專案、實驗性作品以及生產級應用程式完整清單。",
+    "filter_all": "全部",
+    "no_results": "沒有找到符合此標籤的專案。",
+    "clear_filters": "清除篩選",
+    "back": "返回列表",
+    "view_code": "查看原始碼",
+    "live_demo": "線上試用",
+    "tech_stack": "技術棧",
+    "details": "詳細資訊",
+    "type": "類型",
+    "status": "狀態",
+    "featured": "精選專案"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "threejs-product-viewer": {
+    "title": "3D 產品展示器 Pro",
+    "summary": "基於 Three.js 的高效能 3D 產品視覺化平台。支援 360 度旋轉、即時材質更換與互動式光影效果，專為電商與作品集展示設計。"
+  },
+  "video-gen-factory": {
+    "title": "AI 短影音生成工廠",
+    "summary": "自動化內容生成流水線。利用 LLM 撰寫腳本，串接語音合成 (TTS) 與 Stable Diffusion 圖像生成，一鍵產出高品質短影音。"
+  },
+  "school-library-lms": {
+    "title": "智慧圖書館管理系統",
+    "summary": "完整的全端圖書館解決方案。整合書籍追蹤、借閱流程自動化、學生信用評分系統，並提供管理員直覺的數據儀表板。"
+  },
+  "procedural-3d-maze": {
+    "title": "程序化 3D 迷宮探險",
+    "summary": "結合演算法與遊戲設計的 3D 迷宮。使用遞歸回溯算法即時生成地圖，每次遊玩都是獨一無二的體驗，展示了程序化內容生成 (PCG) 的潛力。"
+  },
+  "mrt-ubike-analysis": {
+    "title": "台北捷運與 YouBike 數據分析",
+    "summary": "城市交通數據視覺化。透過 Python Pandas 分析百萬筆交通數據，揭示捷運站與公共自行車之間的轉乘熱點與人流模式。"
+  },
+  "fandom-gui-scraper": {
+    "title": "Fandom Wiki 視覺化爬蟲",
+    "summary": "無需程式碼的資料擷取工具。提供圖形化介面 (GUI)，讓使用者能輕鬆從 Fandom Wiki 網站爬取角色數據與設定資料。"
+  },
+  "excel-python-data-analysis": {
+    "title": "Excel/Python 自動化分析",
+    "summary": "辦公室自動化腳本合集。利用 Python 批次處理 Excel 報表，自動生成圖表與統計數據，大幅提升工作效率。"
+  },
+  "2d-animation-lora-pipeline": {
+    "title": "2D Animation LoRA Pipeline",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: A comprehensive, production-ready pipeline for tra...)"
+  },
+  "3d-animation-lora-pipeline": {
+    "title": "3D Animation LoRA Pipeline",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: A comprehensive toolkit for training high-quality ...)"
+  },
+  "3d-maze-explorer": {
+    "title": "3D Maze Explorer (Procedural FPS Prototype)",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 前端採用 React 生態系構建，強調互動性與效能。 整合了 3D 圖形技術，提供沉浸式的視覺體驗。 (原始描述: A first-person procedural maze prototype built wit...)"
+  },
+  "ai-dispatch-center": {
+    "title": "AI 任務調度中心",
+    "summary": "分散式 AI 任務管理系統。負責協調多個 GPU Worker，智慧分配推理任務，並提供即時的任務狀態監控與日誌分析。"
+  },
+  "ai-gen-hub": {
+    "title": "AI Gen Hub",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: Central workspace for custom prompts, character as...)"
+  },
+  "ai-ocr-tool": {
+    "title": "AI OCR 工具",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 包含響應式設計與直覺的使用者介面。 (原始描述: 一個基於 FastAPI 和 Celery 的高效影像轉文字工具，支援多語言 OCR 處理。...)"
+  },
+  "animation-ai-studio": {
+    "title": "Animation AI Studio",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: **🎉 Complete AI-Powered Creative Content Generati...)"
+  },
+  "anime-adventure-lab": {
+    "title": "動漫冒險實驗室",
+    "summary": "結合 AI 敘事與圖像生成的文字冒險遊戲引擎。根據玩家的選擇即時生成劇情分支與對應的插圖。"
+  },
+  "3d-platformer-runner": {
+    "title": "Atlas Runner",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 前端採用 React 生態系構建，強調互動性與效能。 整合了 3D 圖形技術，提供沉浸式的視覺體驗。 (原始描述: A third-person 3D platformer exploration game buil...)"
+  },
+  "charaforge-T2I-Lab": {
+    "title": "CharaForge T2I Lab",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: Text-to-Image generation + LoRA fine-tuning lab wi...)"
+  },
+  "commute-reliability-analysis": {
+    "title": "CommuteReliability (Baseline MVP)",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 包含響應式設計與直覺的使用者介面。 (原始描述: CommuteReliability is a multi-modal commute reliab...)"
+  },
+  "css-advanced-mastery": {
+    "title": "Css Mastery Lab",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 包含響應式設計與直覺的使用者介面。 (原始描述: 專為「做中學」CSS 的練習與案例庫。所有範例只用原生 HTML/CSS（必要時少量 JS 只做行為...)"
+  },
+  "intro-to-dl": {
+    "title": "Deep Learning 教程",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: 系統化學習深度學習的實戰教程，整合台大李宏毅老師課程內容： - [ML 2021 Spring](h...)"
+  },
+  "discord-clone": {
+    "title": "Discord 社群平台復刻",
+    "summary": "即時通訊平台的全端實作。支援即時文字聊天、語音通話、伺服器與頻道管理，還原了 Discord 的核心功能。"
+  },
+  "edge-deid-studio": {
+    "title": "EdgeDeID Studio",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: Offline-first, edge-optimized de-identification to...)"
+  },
+  "elio-discord-bot": {
+    "title": "Elio Discord Bot",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 前端採用 React 生態系構建，強調互動性與效能。 包含響應式設計與直覺的使用者介面。 (原始描述: A production-ready Discord bot with **LLM (fine-tu...)"
+  },
+  "game-dialogue-simulator": {
+    "title": "遊戲對話模擬器",
+    "summary": "RPG 遊戲對話系統的原型設計工具。支援分支劇情編輯、表情差分切換，並可匯出為 JSON 格式供遊戲引擎使用。"
+  },
+  "gan-ae-vision-suite": {
+    "title": "Gan Ae Vision Suite",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: A focused Artificial Intelligence project leveragi...)"
+  },
+  "image-process": {
+    "title": "Image Process + Three.js Model Viewer",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 前端採用 React 生態系構建，強調互動性與效能。 整合了 3D 圖形技術，提供沉浸式的視覺體驗。 (原始描述: Python image-processing utilities + a tutorial-sty...)"
+  },
+  "information-retrieval": {
+    "title": "Information Retrieval System",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 包含響應式設計與直覺的使用者介面。 (原始描述: A comprehensive Information Retrieval (IR) system ...)"
+  },
+  "html-css-interactive-lab": {
+    "title": "InteractCSS",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 包含響應式設計與直覺的使用者介面。 (原始描述: **An interactive HTML/CSS learning laboratory** th...)"
+  },
+  "intro-to-ml": {
+    "title": "Intro To Ml",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: A focused Artificial Intelligence project leveragi...)"
+  },
+  "intro-to-vml": {
+    "title": "Intro To Vml",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: A focused Artificial Intelligence project leveragi...)"
+  },
+  "javascript-platformer-concepts": {
+    "title": "Javascript Platformer Concepts",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 前端採用 React 生態系構建，強調互動性與效能。 包含響應式設計與直覺的使用者介面。 (原始描述: A **zero-dependency 2D platformer** built with pur...)"
+  },
+  "library-reach-analysis": {
+    "title": "LibraryReach",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 包含響應式設計與直覺的使用者介面。 (原始描述: LibraryReach is a narrative-first, public-policy-s...)"
+  },
+  "llm-train-eval-ship": {
+    "title": "LLM Train-Eval-Ship",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: A portfolio-ready, one-click pipeline to **fine-tu...)"
+  },
+  "mock-master": {
+    "title": "MockMaster",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: MockMaster 是一個多功能的內容編輯工具，旨在將自定義內容無縫整合到現有媒體中，使修改後的內...)"
+  },
+  "anime-lora-pipeline": {
+    "title": "Multi-Anime LoRA Training Toolkit",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: Professional toolkit for training character and st...)"
+  },
+  "multi_modal_storytelling_agent": {
+    "title": "Multi-Modal Storytelling Agent",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: An AI-powered system that transforms a single sent...)"
+  },
+  "my-3d-platformer": {
+    "title": "My 3D Platformer (WIP)",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 前端採用 React 生態系構建，強調互動性與效能。 整合了 3D 圖形技術，提供沉浸式的視覺體驗。 (原始描述: A React + TypeScript + Three.js playground for bui...)"
+  },
+  "3d-rendering-showcase": {
+    "title": "3D 渲染技術展示室",
+    "summary": "Web 3D 渲染技術的實驗場。包含 PBR 材質、後期處理效果 (Post-processing)、粒子系統與光線追蹤模擬的互動展示。"
+  },
+  "poker-ai-web": {
+    "title": "Poker AI Web",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 前端採用 React 生態系構建，強調互動性與效能。 整合了 3D 圖形技術，提供沉浸式的視覺體驗。 (原始描述: Poker AI web platform with multiple card games, a ...)"
+  },
+  "ai-game-website": {
+    "title": "ReactAI Game Website（React + Vite）",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 前端採用 React 生態系構建，強調互動性與效能。 包含響應式設計與直覺的使用者介面。 (原始描述: 此專案是「React + Vite」前端，並在 `/battle` 掛載 Phaser 3 來製作「...)"
+  },
+  "restoreAI-studio": {
+    "title": "RestorAI MVP 🎨",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: **RestorAI MVP** is a simple, fast, and portable s...)"
+  },
+  "rigview3d": {
+    "title": "RigView3D",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 前端採用 React 生態系構建，強調互動性與效能。 整合了 3D 圖形技術，提供沉浸式的視覺體驗。 (原始描述: RigView3D is a lightweight, front-end-only 3D view...)"
+  },
+  "sd-multimodal-platform": {
+    "title": "SD Multi-Modal Platform",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: A focused Artificial Intelligence project leveragi...)"
+  },
+  "coding-agent": {
+    "title": "Self-Improving Coding Agent",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 旨在解決特定的資料處理或模型推理問題。 (原始描述: A local coding assistant that can read entire repo...)"
+  },
+  "starforge-AI-narrative": {
+    "title": "Starforge AI Narrative",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 包含響應式設計與直覺的使用者介面。 (原始描述: - Activate env: `conda activate ai_env` - Install ...)"
+  },
+  "traffic-pulse": {
+    "title": "Traffic Pulse 交通脈動",
+    "summary": "即時道路監控儀表板。串接交通局 API，視覺化呈現城市道路擁塞指數，幫助使用者避開塞車路段。"
+  },
+  "tripscore": {
+    "title": "TripScore 旅遊評分助手",
+    "summary": "智慧旅遊規劃工具。根據使用者的興趣偏好，利用演算法為旅遊景點打分，自動規劃最佳路線。"
+  },
+  "vanilla-dom-playground": {
+    "title": "Vanilla DOM Playground",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 包含響應式設計與直覺的使用者介面。 (原始描述: **一個全功能的 DOM 學習平台** - 通過遊戲、教程和實戰項目，深入掌握 JavaScript...)"
+  },
+  "vision-quest": {
+    "title": "VisionQuest 🎯",
+    "summary": "[Project] 這是一個專注於人工智慧與機器學習的專案。 使用 Python 進行核心邏輯開發。 已容器化以便於部署。 旨在解決特定的資料處理或模型推理問題。 (原始描述: A portable, production-ready MVP that seamlessly i...)"
+  },
+  "YouTube-Web-Automation-Analysis": {
+    "title": "YouTube Web Automation Analysis",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 包含響應式設計與直覺的使用者介面。 (原始描述: Expected output:...)"
+  },
+  "ytp-factory": {
+    "title": "YTP Factory",
+    "summary": "[Project] 這是一個現代化的 Web 應用程式開發專案。 包含響應式設計與直覺的使用者介面。 (原始描述: **AI-Driven YouTube Poop Generation System with Ad...)"
+  }
+}

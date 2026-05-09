@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "web:threejs-product-viewer",
+    "slug": "threejs-product-viewer",
+    "name": "threejs-product-viewer",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/threejs-product-viewer",
+    "readme": "README.md",
+    "title": "🎯 3D Product Viewer Pro",
+    "summary": "A modern, performant, and feature-rich 3D product visualization platform designed for e-commerce, portfolio showcases, and commercial demonstrations.",
+    "stack": [
+      "Vite",
+      "Three.js",
+      "Vitest",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/threejs-product-viewer",
+    "tags": [
+      "web",
+      "Vite",
+      "Three.js",
+      "Vitest",
+      "Docker",
+      "3D"
+    ],
+    "detectedImage": "/images/projects/threejs-product-viewer.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/threejs-product-viewer/",
+    "image": "/media/projects/threejs-product-viewer-screenshot.png",
+    "video": "/media/projects/threejs-product-viewer-demo.webm"
+  },
+  {
+    "id": "ai:video-gen-factory",
+    "slug": "video-gen-factory",
+    "name": "video-gen-factory",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/video-gen-factory",
+    "readme": "README.md",
+    "title": "🎬 Video Generation Factory",
+    "summary": "本项目提供完整的工作流，将 3D 动画帧序列转换为风格化视频，同时： - ✅ 保留原始动作和镜头节奏 - ✅ 应用电影级光影材质（S1/S2/S3 三档风格） - ✅ 维持角色跨片段一致性（L1/L2 两种方案） - ✅ 支持批次处理多段素材 - ✅ 针对 16GB VRAM 优化",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/video-gen-factory",
+    "tags": [
+      "ai",
+      "Docker",
+      "3D"
+    ],
+    "detectedImage": "/images/projects/video-gen-factory.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/video-gen-factory/",
+    "image": "/media/projects/video-gen-factory-screenshot.png",
+    "video": "/media/projects/video-gen-factory-demo.webm"
+  },
+  {
+    "id": "web:school-library-lms",
+    "slug": "school-library-lms",
+    "name": "school-library-lms",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/school-library-lms",
+    "readme": "README.md",
+    "title": "中小學雲端圖書館系統（Lean School Library LMS）",
+    "summary": "A modern web application demonstrating frontend best practices. Features a responsive design and intuitive user interface.",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/school-library-lms",
+    "tags": [
+      "web",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/school-library-lms.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/school-library-lms/",
+    "image": "/media/projects/school-library-lms-screenshot.png",
+    "video": "/media/projects/school-library-lms-demo.webm"
+  },
+  {
+    "id": "web:procedural-3d-maze",
+    "slug": "procedural-3d-maze",
+    "name": "procedural-3d-maze",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/procedural-3d-maze",
+    "readme": "README.md",
+    "title": "Procedural 3D Maze",
+    "summary": "A first-person procedural maze game prototype built with **JavaScript (ES Modules)** and **Three.js**. Each run generates a new maze, then spawns missions, enemies, and pickups from per-level JSON configuration. Complete the required objectives to unlock th...",
+    "stack": [
+      "Vite",
+      "React",
+      "Three.js",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/procedural-3d-maze",
+    "tags": [
+      "web",
+      "Vite",
+      "React",
+      "Three.js",
+      "Docker",
+      "3D",
+      "Game"
+    ],
+    "detectedImage": "/images/projects/procedural-3d-maze.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/procedural-3d-maze/",
+    "image": "/media/projects/procedural-3d-maze-screenshot.png",
+    "video": "/media/projects/procedural-3d-maze-demo.webm"
+  },
+  {
+    "id": "web:mrt-ubike-analysis",
+    "slug": "mrt-ubike-analysis",
+    "name": "mrt-ubike-analysis",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/mrt-ubike-analysis",
+    "readme": "README.md",
+    "title": "MetroBikeAtlas",
+    "summary": "MetroBikeAtlas is an MVP web app + data pipeline for urban mobility analysis in Taiwan: Metro (MRT/rail) stations and flows (or feasible proxies when station-level flows are unavailable), shared bike stations, and city factors (district/POI density, accessi...",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/mrt-ubike-analysis",
+    "tags": [
+      "web",
+      "Python",
+      "Docker",
+      "Data"
+    ],
+    "detectedImage": "/images/projects/mrt-ubike-analysis.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/mrt-ubike-analysis/",
+    "image": "/media/projects/mrt-ubike-analysis-screenshot.png",
+    "video": "/media/projects/mrt-ubike-analysis-demo.webm"
+  },
+  {
+    "id": "web:fandom-gui-scraper",
+    "slug": "fandom-gui-scraper",
+    "name": "fandom-gui-scraper",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/fandom-gui-scraper",
+    "readme": "README.md",
+    "title": "🎯 Fandom Scraper GUI Application",
+    "summary": "A comprehensive desktop application for scraping, managing, and exploring anime character data from Fandom wikis through an intuitive PyQt GUI interface powered by advanced web scraping technology.",
+    "stack": [
+      "Jest",
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/fandom-gui-scraper",
+    "tags": [
+      "web",
+      "Jest",
+      "Python",
+      "Docker",
+      "Data"
+    ],
+    "detectedImage": "/images/projects/fandom-gui-scraper.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/fandom-gui-scraper/",
+    "image": "/media/projects/fandom-gui-scraper-screenshot.png",
+    "video": "/media/projects/fandom-gui-scraper-demo.webm"
+  },
+  {
+    "id": "web:excel-python-data-analysis",
+    "slug": "excel-python-data-analysis",
+    "name": "excel-python-data-analysis",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/excel-python-data-analysis",
+    "readme": "README.md",
+    "title": "🚀 Excel to Python Advanced Analytics - 進階資料分析實戰專案",
+    "summary": "這是一套完整的「從 Excel 進階技巧到 Python 資料分析專家」的學習專案，專為已有 Python 基礎、熟悉 pandas 但需要**大量實戰經驗**的學習者設計。",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/excel-python-data-analysis",
+    "tags": [
+      "web",
+      "Python",
+      "Docker",
+      "Data"
+    ],
+    "detectedImage": "/images/projects/excel-python-data-analysis.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/excel-python-data-analysis/",
+    "image": "/media/projects/excel-python-data-analysis-screenshot.png",
+    "video": "/media/projects/excel-python-data-analysis-demo.webm"
+  },
+  {
+    "id": "ai:2d-animation-lora-pipeline",
+    "slug": "2d-animation-lora-pipeline",
+    "name": "2d-animation-lora-pipeline",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/2d-animation-lora-pipeline",
+    "readme": "README.md",
+    "title": "2D Animation LoRA Pipeline",
+    "summary": "A comprehensive, production-ready pipeline for training character LoRA adapters from 2D animated content. Built on proven infrastructure from 3D animation pipelines, adapted for the unique characteristics of Western 2D animation.",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "ai",
+      "Docker",
+      "3D",
+      "AI"
+    ],
+    "detectedImage": "/images/projects/2d-animation-lora-pipeline.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/2d-animation-lora-pipeline/",
+    "image": "/media/projects/2d-animation-lora-pipeline-screenshot.png",
+    "video": "/media/projects/2d-animation-lora-pipeline-demo.webm"
+  },
+  {
+    "id": "ai:3d-animation-lora-pipeline",
+    "slug": "3d-animation-lora-pipeline",
+    "name": "3d-animation-lora-pipeline",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/3d-animation-lora-pipeline",
+    "readme": "README.md",
+    "title": "3D Animation LoRA Pipeline",
+    "summary": "A comprehensive toolkit for training high-quality LoRA models for **3D animated characters**, specifically optimized for **Pixar-style animation** and other 3D CGI content.",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/3d-animation-lora-pipeline",
+    "tags": [
+      "ai",
+      "Docker",
+      "3D",
+      "AI"
+    ],
+    "detectedImage": "/images/projects/3d-animation-lora-pipeline.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/3d-animation-lora-pipeline/",
+    "image": "/media/projects/3d-animation-lora-pipeline-screenshot.png",
+    "video": "/media/projects/3d-animation-lora-pipeline-demo.webm"
+  },
+  {
+    "id": "web:3d-maze-explorer",
+    "slug": "3d-maze-explorer",
+    "name": "3d-maze-explorer",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/3d-maze-explorer",
+    "readme": "README.md",
+    "title": "3D Maze Explorer (Procedural FPS Prototype)",
+    "summary": "A first-person procedural maze prototype built with Three.js, featuring endless levels, missions, enemies, tools, and an Autopilot AI for demos/stress testing.",
+    "stack": [
+      "Vite",
+      "Three.js",
+      "Docker"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "web",
+      "Vite",
+      "Three.js",
+      "Docker",
+      "3D",
+      "Game"
+    ],
+    "detectedImage": "/images/projects/3d-maze-explorer.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/3d-maze-explorer/",
+    "image": "/media/projects/3d-maze-explorer-screenshot.png",
+    "video": "/media/projects/3d-maze-explorer-demo.webm"
+  },
+  {
+    "id": "ai:ai-dispatch-center",
+    "slug": "ai-dispatch-center",
+    "name": "ai-dispatch-center",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/ai-dispatch-center",
+    "readme": null,
+    "title": "AI Dispatch Center",
+    "summary": "一個輕量的任務調度/監控 demo：前端送出 prompt → 後端建立 job → 輪詢進度與結果（可作為未來接 Stable Diffusion/worker queue 的骨架）。",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/ai-dispatch-center.svg",
+    "featured": true,
+    "demoUrl": "https://neojustin.dothost.net/p/ai-dispatch-center/",
+    "image": "/media/projects/ai-dispatch-center-screenshot.png",
+    "video": "/media/projects/ai-dispatch-center-demo.webm"
+  },
+  {
+    "id": "ai:ai-gen-hub",
+    "slug": "ai-gen-hub",
+    "name": "ai-gen-hub",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/ai-gen-hub",
+    "readme": "README.md",
+    "title": "AI Gen Hub",
+    "summary": "Central workspace for custom prompts, character assets, and scripts. This project calls the existing tool repos without modifying them: - /mnt/c/ai_tools/AnimateDiff - /mnt/c/ai_tools/Wan2.1",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "ai",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/ai-gen-hub.svg",
+    "featured": true,
+    "demoUrl": "https://neojustin.dothost.net/p/ai-gen-hub/",
+    "image": "/media/projects/ai-gen-hub-screenshot.png",
+    "video": "/media/projects/ai-gen-hub-demo.webm"
+  },
+  {
+    "id": "web:ai-ocr-tool",
+    "slug": "ai-ocr-tool",
+    "name": "ai-ocr-tool",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/ai-ocr-tool",
+    "readme": "README.md",
+    "title": "AI OCR 工具",
+    "summary": "一個基於 FastAPI 和 Celery 的高效影像轉文字工具，支援多語言 OCR 處理。",
+    "stack": [
+      "Python"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "web",
+      "Python"
+    ],
+    "detectedImage": "",
+    "featured": false,
+    "demoUrl": "",
+    "image": "/media/projects/ai-ocr-tool-screenshot.png",
+    "video": "/media/projects/ai-ocr-tool-demo.webm"
+  },
+  {
+    "id": "ai:animation-ai-studio",
+    "slug": "animation-ai-studio",
+    "name": "animation-ai-studio",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/animation-ai-studio",
+    "readme": "README.md",
+    "title": "Animation AI Studio",
+    "summary": "**🎉 Complete AI-Powered Creative Content Generation Platform 🎉**",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/animation-ai-studio",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/animation-ai-studio.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/animation-ai-studio/",
+    "image": "/media/projects/animation-ai-studio-screenshot.png",
+    "video": "/media/projects/animation-ai-studio-demo.webm"
+  },
+  {
+    "id": "ai:anime-adventure-lab",
+    "slug": "anime-adventure-lab",
+    "name": "anime-adventure-lab",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/anime-adventure-lab",
+    "readme": "README.md",
+    "title": "Anime Adventure Lab",
+    "summary": "**LLM + RAG + T2I + VLM + LoRA** service stack for story-driven experiences. FastAPI backend, Celery workers, and a React (Vite) WebUI, with AI_WAREHOUSE 3.0 storage roots.",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/anime-adventure-lab",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker",
+      "AI"
+    ],
+    "detectedImage": "/images/projects/anime-adventure-lab.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/anime-adventure-lab/",
+    "image": "/media/projects/anime-adventure-lab-screenshot.png",
+    "video": "/media/projects/anime-adventure-lab-demo.webm"
+  },
+  {
+    "id": "web:3d-platformer-runner",
+    "slug": "3d-platformer-runner",
+    "name": "3d-platformer-runner",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/3d-platformer-runner",
+    "readme": "README.md",
+    "title": "Atlas Runner",
+    "summary": "A third-person 3D platformer exploration game built with Three.js + React, featuring an AI Player for autonomous playtesting and two progression loops (exploration unlocks + quests).",
+    "stack": [
+      "Vite",
+      "React",
+      "Three.js",
+      "Vitest",
+      "Docker"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "web",
+      "Vite",
+      "React",
+      "Three.js",
+      "Vitest",
+      "Docker",
+      "3D",
+      "Game"
+    ],
+    "detectedImage": "/images/projects/3d-platformer-runner.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/3d-platformer-runner/",
+    "image": "/media/projects/3d-platformer-runner-screenshot.png",
+    "video": "/media/projects/3d-platformer-runner-demo.webm"
+  },
+  {
+    "id": "ai:charaforge-T2I-Lab",
+    "slug": "charaforge-T2I-Lab",
+    "name": "charaforge-T2I-Lab",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/charaforge-T2I-Lab",
+    "readme": "README.md",
+    "title": "CharaForge T2I Lab",
+    "summary": "Text-to-Image generation + LoRA fine-tuning lab with a FastAPI backend and a React frontend.",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/charaforge-T2I-Lab",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker",
+      "AI"
+    ],
+    "detectedImage": "/images/projects/charaforge-T2I-Lab.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/charaforge-t2i-lab/",
+    "image": "/media/projects/charaforge-T2I-Lab-screenshot.png",
+    "aliases": [
+      "charaforge-T2I-Lab"
+    ],
+    "video": "/media/projects/charaforge-T2I-Lab-demo.webm"
+  },
+  {
+    "id": "web:commute-reliability-analysis",
+    "slug": "commute-reliability-analysis",
+    "name": "commute-reliability-analysis",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/commute-reliability-analysis",
+    "readme": "README.md",
+    "title": "CommuteReliability (Baseline MVP)",
+    "summary": "CommuteReliability is a multi-modal commute reliability analytics app focused on explainable, baseline statistics first (no ML in the MVP).",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/commute-reliability-analysis",
+    "tags": [
+      "web",
+      "Python",
+      "Docker",
+      "Data"
+    ],
+    "detectedImage": "/images/projects/commute-reliability-analysis.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/commute-reliability-analysis/",
+    "image": "/media/projects/commute-reliability-analysis-screenshot.png",
+    "video": "/media/projects/commute-reliability-analysis-demo.webm"
+  },
+  {
+    "id": "web:css-advanced-mastery",
+    "slug": "css-advanced-mastery",
+    "name": "css-advanced-mastery",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/css-advanced-mastery",
+    "readme": "README.md",
+    "title": "Css Mastery Lab",
+    "summary": "專為「做中學」CSS 的練習與案例庫。所有範例只用原生 HTML/CSS（必要時少量 JS 只做行為示範），目標涵蓋佈局、動畫、響應式、可維護性與現代 CSS 特性。",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/css-advanced-practice",
+    "tags": [
+      "web",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/css-advanced-mastery.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/css-advanced-mastery/",
+    "image": "/media/projects/css-advanced-mastery-screenshot.png",
+    "video": "/media/projects/css-advanced-mastery-demo.webm"
+  },
+  {
+    "id": "ai:intro-to-dl",
+    "slug": "intro-to-dl",
+    "name": "intro-to-dl",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/intro-to-dl",
+    "readme": "README.md",
+    "title": "Deep Learning 教程",
+    "summary": "系統化學習深度學習的實戰教程，整合台大李宏毅老師課程內容： - [ML 2021 Spring](https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php) - 機器學習基礎 - [ML 2025 Spring](https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php) - 進階 LLM 技術 (NEW) - [GenAI-ML 2025 Fall](https://speech.ee.ntu.edu.t...",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/intro-to-dl-practice",
+    "tags": [
+      "ai",
+      "Docker",
+      "AI"
+    ],
+    "detectedImage": "/images/projects/intro-to-dl.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/intro-to-dl/",
+    "image": "/media/projects/intro-to-dl-screenshot.png",
+    "video": "/media/projects/intro-to-dl-demo.webm"
+  },
+  {
+    "id": "web:discord-clone",
+    "slug": "discord-clone",
+    "name": "discord-clone",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/discord-clone",
+    "readme": "README.md",
+    "title": "Discord Clone",
+    "summary": "此專案目前為作品集收錄用的資料夾（尚在整理中）。",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "web",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/discord-clone.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/discord-clone/",
+    "image": "/media/projects/discord-clone-screenshot.png",
+    "video": "/media/projects/discord-clone-demo.webm"
+  },
+  {
+    "id": "ai:edge-deid-studio",
+    "slug": "edge-deid-studio",
+    "name": "edge-deid-studio",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/edge-deid-studio",
+    "readme": "README.md",
+    "title": "EdgeDeID Studio",
+    "summary": "Offline-first, edge-optimized de-identification toolkit for multi-format documents.",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/edge-deid-studio",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/edge-deid-studio.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/edge-deid-studio/",
+    "image": "/media/projects/edge-deid-studio-screenshot.png",
+    "video": "/media/projects/edge-deid-studio-demo.webm"
+  },
+  {
+    "id": "web:elio-discord-bot",
+    "slug": "elio-discord-bot",
+    "name": "elio-discord-bot",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/elio-discord-bot",
+    "readme": "README.md",
+    "title": "Elio Discord Bot",
+    "summary": "A production-ready Discord bot with **LLM (fine-tuned personas), RAG, VLM (images), agent-style orchestration, proactive jobs, DM games, and multi-persona routing**—all packaged for Docker and tuned for real workloads.",
+    "stack": [
+      "Vite",
+      "React",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/elio-discord-bot",
+    "tags": [
+      "web",
+      "Vite",
+      "React",
+      "Docker",
+      "AI",
+      "Game"
+    ],
+    "detectedImage": "/images/projects/elio-discord-bot.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/elio-discord-bot/",
+    "image": "/media/projects/elio-discord-bot-screenshot.png",
+    "video": "/media/projects/elio-discord-bot-demo.webm"
+  },
+  {
+    "id": "web:game-dialogue-simulator",
+    "slug": "game-dialogue-simulator",
+    "name": "game-dialogue-simulator",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/game-dialogue-simulator",
+    "readme": "README.md",
+    "title": "Game Dialogue Simulator (Web Game)",
+    "summary": "A browser-based simulation game inspired by the Super Wings animated series, using high-quality character art generated from SDXL LoRA models.",
+    "stack": [
+      "Vite",
+      "React",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/game-dialogue-simulator",
+    "tags": [
+      "web",
+      "Vite",
+      "React",
+      "Docker",
+      "AI",
+      "Game"
+    ],
+    "detectedImage": "/images/projects/game-dialogue-simulator.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/game-dialogue-simulator/",
+    "image": "/media/projects/game-dialogue-simulator-screenshot.png",
+    "video": "/media/projects/game-dialogue-simulator-demo.webm"
+  },
+  {
+    "id": "ai:gan-ae-vision-suite",
+    "slug": "gan-ae-vision-suite",
+    "name": "gan-ae-vision-suite",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/gan-ae-vision-suite",
+    "readme": null,
+    "title": "Gan Ae Vision Suite",
+    "summary": "A focused Artificial Intelligence project leveraging machine learning techniques. Built with Python for robust data processing. Containerized for reproducible deployments. Designed to solve specific computational challenges in the AI domain.",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/GAN-AE-vision-suite",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/gan-ae-vision-suite.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/gan-ae-vision-suite/",
+    "image": "/media/projects/gan-ae-vision-suite-screenshot.png",
+    "video": "/media/projects/gan-ae-vision-suite-demo.webm"
+  },
+  {
+    "id": "web:image-process",
+    "slug": "image-process",
+    "name": "image-process",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/image-process",
+    "readme": "docs/00_overview.md",
+    "title": "Image Process + Three.js Model Viewer",
+    "summary": "Python image-processing utilities + a tutorial-style Three.js 3D model viewer (drag & drop loaders, animation mixer, gizmos, inspector, multi-format GLB/FBX/OBJ/STL/PLY).",
+    "stack": [
+      "Vite",
+      "Three.js",
+      "Docker"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "web",
+      "Vite",
+      "Three.js",
+      "Docker",
+      "3D"
+    ],
+    "detectedImage": "/images/projects/image-process.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/image-process/",
+    "image": "/media/projects/image-process-screenshot.png",
+    "video": "/media/projects/image-process-demo.webm"
+  },
+  {
+    "id": "web:information-retrieval",
+    "slug": "information-retrieval",
+    "name": "information-retrieval",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/information-retrieval",
+    "readme": "README.md",
+    "title": "Information Retrieval System",
+    "summary": "A comprehensive Information Retrieval (IR) system implementation for **LIS5033 - Automatic Classification and Indexing** at National Taiwan University. This project implements traditional IR techniques based on the textbook \"Introduction to Information Retr...",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/news-information-retrieval-system",
+    "tags": [
+      "web",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/information-retrieval.svg",
+    "featured": true,
+    "demoUrl": "https://neojustin.dothost.net/p/information-retrieval/",
+    "image": "/media/projects/information-retrieval-screenshot.png",
+    "video": "/media/projects/information-retrieval-demo.webm"
+  },
+  {
+    "id": "web:html-css-interactive-lab",
+    "slug": "html-css-interactive-lab",
+    "name": "html-css-interactive-lab",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/html-css-interactive-lab",
+    "readme": "README.md",
+    "title": "InteractCSS",
+    "summary": "**An interactive HTML/CSS learning laboratory** that transforms CSS properties and components into live, manipulable controls with real-time preview.",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/html-css-interactive-lab",
+    "tags": [
+      "web",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/html-css-interactive-lab.svg",
+    "featured": true,
+    "demoUrl": "https://neojustin.dothost.net/p/html-css-interactive-lab/",
+    "image": "/media/projects/html-css-interactive-lab-screenshot.png",
+    "video": "/media/projects/html-css-interactive-lab-demo.webm"
+  },
+  {
+    "id": "ai:intro-to-ml",
+    "slug": "intro-to-ml",
+    "name": "intro-to-ml",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/intro-to-ml",
+    "readme": null,
+    "title": "Intro To Ml",
+    "summary": "A focused Artificial Intelligence project leveraging machine learning techniques. Containerized for reproducible deployments. Designed to solve specific computational challenges in the AI domain.",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/intro-to-ml-practice",
+    "tags": [
+      "ai",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/intro-to-ml.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/intro-to-ml/",
+    "image": "/media/projects/intro-to-ml-screenshot.png",
+    "video": "/media/projects/intro-to-ml-demo.webm"
+  },
+  {
+    "id": "ai:intro-to-vml",
+    "slug": "intro-to-vml",
+    "name": "intro-to-vml",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/intro-to-vml",
+    "readme": null,
+    "title": "Intro To Vml",
+    "summary": "A focused Artificial Intelligence project leveraging machine learning techniques. Built with Python for robust data processing. Containerized for reproducible deployments. Designed to solve specific computational challenges in the AI domain.",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/intro-to-vml-practice",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/intro-to-vml.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/intro-to-vml/",
+    "image": "/media/projects/intro-to-vml-screenshot.png",
+    "video": "/media/projects/intro-to-vml-demo.webm"
+  },
+  {
+    "id": "web:javascript-platformer-concepts",
+    "slug": "javascript-platformer-concepts",
+    "name": "javascript-platformer-concepts",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/javascript-platformer-concepts",
+    "readme": "README.md",
+    "title": "Javascript Platformer Concepts",
+    "summary": "A **zero-dependency 2D platformer** built with pure JavaScript, HTML Canvas, and ECS (Entity-Component-System) architecture. No external libraries—just hand-crafted game engine fundamentals.",
+    "stack": [
+      "Vite",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/javascript-platformer-concepts",
+    "tags": [
+      "web",
+      "Vite",
+      "Docker",
+      "Game"
+    ],
+    "detectedImage": "/images/projects/javascript-platformer-concepts.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/javascript-platformer-concepts/",
+    "image": "/media/projects/javascript-platformer-concepts-screenshot.png",
+    "video": "/media/projects/javascript-platformer-concepts-demo.webm"
+  },
+  {
+    "id": "web:library-reach-analysis",
+    "slug": "library-reach-analysis",
+    "name": "library-reach-analysis",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/library-reach-analysis",
+    "readme": "README.md",
+    "title": "LibraryReach",
+    "summary": "LibraryReach is a narrative-first, public-policy-style dashboard for **library accessibility** and **outreach planning**. It turns transit accessibility signals into explainable KPIs, maps, and a shareable brief.",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/library-reach-analysis",
+    "tags": [
+      "web",
+      "Python",
+      "Docker",
+      "Data"
+    ],
+    "detectedImage": "/images/projects/library-reach-analysis.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/library-reach-analysis/",
+    "image": "/media/projects/library-reach-analysis-screenshot.png",
+    "video": "/media/projects/library-reach-analysis-demo.webm"
+  },
+  {
+    "id": "ai:llm-train-eval-ship",
+    "slug": "llm-train-eval-ship",
+    "name": "llm-train-eval-ship",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/llm-train-eval-ship",
+    "readme": "README.md",
+    "title": "LLM Train-Eval-Ship",
+    "summary": "A portfolio-ready, one-click pipeline to **fine-tune LLMs**, **auto-evaluate**, and **deploy** via **vLLM** or **TGI** with **shared model caches**. Includes FastAPI skeleton, cache path prints, and ready-to-extend hooks for LoRA/DPO, RAG/Agent, and HIL fee...",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/LLM-train-eval-ship",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker",
+      "AI"
+    ],
+    "detectedImage": "/images/projects/llm-train-eval-ship.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/llm-train-eval-ship/",
+    "image": "/media/projects/llm-train-eval-ship-screenshot.png",
+    "video": "/media/projects/llm-train-eval-ship-demo.webm"
+  },
+  {
+    "id": "ai:mock-master",
+    "slug": "mock-master",
+    "name": "mock-master",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/mock-master",
+    "readme": "README.md",
+    "title": "MockMaster",
+    "summary": "MockMaster 是一個多功能的內容編輯工具，旨在將自定義內容無縫整合到現有媒體中，使修改後的內容看起來完全真實自然。本專案採用混合技術方案，針對不同類型的內容使用最適合的處理技術。",
+    "stack": [
+      "Playwright",
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/mock-master",
+    "tags": [
+      "ai",
+      "Playwright",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/mock-master.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/mock-master/",
+    "image": "/media/projects/mock-master-screenshot.png",
+    "video": "/media/projects/mock-master-demo.webm"
+  },
+  {
+    "id": "ai:anime-lora-pipeline",
+    "slug": "anime-lora-pipeline",
+    "name": "anime-lora-pipeline",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/anime-lora-pipeline",
+    "readme": "README.md",
+    "title": "Multi-Anime LoRA Training Toolkit",
+    "summary": "Professional toolkit for training character and style LoRAs from anime series.",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/anime-lora-pipeline",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker",
+      "AI"
+    ],
+    "detectedImage": "/images/projects/anime-lora-pipeline.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/anime-lora-pipeline/",
+    "image": "/media/projects/anime-lora-pipeline-screenshot.png",
+    "video": "/media/projects/anime-lora-pipeline-demo.webm"
+  },
+  {
+    "id": "ai:multi_modal_storytelling_agent",
+    "slug": "multi_modal_storytelling_agent",
+    "name": "multi_modal_storytelling_agent",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/multi_modal_storytelling_agent",
+    "readme": "README.md",
+    "title": "Multi-Modal Storytelling Agent",
+    "summary": "An AI-powered system that transforms a single sentence story into a ~10 second animated video through multiple specialized agents.",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "",
+    "featured": false,
+    "demoUrl": "",
+    "image": ""
+  },
+  {
+    "id": "web:my-3d-platformer",
+    "slug": "my-3d-platformer",
+    "name": "my-3d-platformer",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/my-3d-platformer",
+    "readme": "README.md",
+    "title": "My 3D Platformer (WIP)",
+    "summary": "A React + TypeScript + Three.js playground for building a 3D platformer, focusing on deterministic simulation and AI-driven playtesting.",
+    "stack": [
+      "Vite",
+      "React",
+      "Three.js",
+      "Docker"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "web",
+      "Vite",
+      "React",
+      "Three.js",
+      "Docker",
+      "3D",
+      "Game"
+    ],
+    "detectedImage": "/images/projects/my-3d-platformer.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/my-3d-platformer/",
+    "image": "/media/projects/my-3d-platformer-screenshot.png",
+    "video": "/media/projects/my-3d-platformer-demo.webm"
+  },
+  {
+    "id": "web:3d-rendering-showcase",
+    "slug": "3d-rendering-showcase",
+    "name": "3d-rendering-showcase",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/3d-rendering-showcase",
+    "readme": "README.md",
+    "title": "Ocean/Island Adventure（航海登島原型）",
+    "summary": "Three.js 3D 航海 + 登島探索原型：Ocean/Island 雙模式、任務與收集、導航 HUD、資源/背包/營地/升級循環，並提供 Model Lab 方便調整模型/材質。",
+    "stack": [
+      "Vite",
+      "React",
+      "Three.js",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/3d-rendering-basic",
+    "tags": [
+      "web",
+      "Vite",
+      "React",
+      "Three.js",
+      "Docker",
+      "3D"
+    ],
+    "detectedImage": "/images/projects/3d-rendering-showcase.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/3d-rendering-showcase/",
+    "image": "/media/projects/3d-rendering-showcase-screenshot.png",
+    "video": "/media/projects/3d-rendering-showcase-demo.webm"
+  },
+  {
+    "id": "web:poker-ai-web",
+    "slug": "poker-ai-web",
+    "name": "poker-ai-web",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/poker-ai-web",
+    "readme": null,
+    "title": "Poker AI Web",
+    "summary": "Poker AI web platform with multiple card games, a learning AI opponent, and a modular event-driven architecture (vanilla ES modules).",
+    "stack": [
+      "Vite",
+      "Three.js",
+      "Vitest",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/poker-AI-web",
+    "tags": [
+      "web",
+      "Vite",
+      "Three.js",
+      "Vitest",
+      "Docker",
+      "3D"
+    ],
+    "detectedImage": "/images/projects/poker-ai-web.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/poker-ai-web/",
+    "image": "/media/projects/poker-ai-web-screenshot.png",
+    "video": "/media/projects/poker-ai-web-demo.webm"
+  },
+  {
+    "id": "web:ai-game-website",
+    "slug": "ai-game-website",
+    "name": "ai-game-website",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/ai-game-website",
+    "readme": "README.md",
+    "title": "ReactAI Game Website（React + Vite）",
+    "summary": "此專案是「React + Vite」前端，並在 `/battle` 掛載 Phaser 3 來製作「橫向 2D 平台格鬥」原型。目前已具備： - **HP 制**的快節奏 1v1 對戰（暫以幾何方塊呈現） - **雙 AI（AI vs AI）**：兩邊都用同一套 Behavior Tree（BT）原理產生 intent，降低人工測試成本 - **BT 實驗室（JSON）**：可編輯/儲存 BT，並套用到對戰頁 - **可解釋資料（debug）**：BT trace / reasons / blackboard...",
+    "stack": [
+      "Vite",
+      "React",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/ai-game-website",
+    "tags": [
+      "web",
+      "Vite",
+      "React",
+      "Docker",
+      "Game"
+    ],
+    "detectedImage": "/images/projects/ai-game-website.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/ai-game-website/",
+    "image": "/images/projects/ai-game-website.svg"
+  },
+  {
+    "id": "ai:restoreAI-studio",
+    "slug": "restoreAI-studio",
+    "name": "restoreAI-studio",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/restoreAI-studio",
+    "readme": "README.md",
+    "title": "RestorAI MVP 🎨",
+    "summary": "**RestorAI MVP** is a simple, fast, and portable solution for AI-powered image enhancement. No complex setup, no heavy dependencies - just drag, drop, and enhance!",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/restoreAI-studio",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker",
+      "AI"
+    ],
+    "detectedImage": "/images/projects/restoreAI-studio.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/restoreai-studio/",
+    "image": "/media/projects/restoreAI-studio-screenshot.png",
+    "aliases": [
+      "restoreAI-studio"
+    ],
+    "video": "/media/projects/restoreAI-studio-demo.webm"
+  },
+  {
+    "id": "web:rigview3d",
+    "slug": "rigview3d",
+    "name": "rigview3d",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/rigview3d",
+    "readme": "README.md",
+    "title": "RigView3D",
+    "summary": "RigView3D is a lightweight, front-end-only 3D viewer built with Vite, TypeScript, and Three.js.",
+    "stack": [
+      "Vite",
+      "Three.js",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/rigview3d",
+    "tags": [
+      "web",
+      "Vite",
+      "Three.js",
+      "Docker",
+      "3D"
+    ],
+    "detectedImage": "/images/projects/rigview3d.svg",
+    "featured": true,
+    "demoUrl": "https://neojustin.dothost.net/p/rigview3d/",
+    "image": "/media/projects/rigview3d-screenshot.png",
+    "video": "/media/projects/rigview3d-demo.webm"
+  },
+  {
+    "id": "ai:sd-multimodal-platform",
+    "slug": "sd-multimodal-platform",
+    "name": "sd-multimodal-platform",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/sd-multimodal-platform",
+    "readme": "README.md",
+    "title": "SD Multi-Modal Platform",
+    "summary": "A focused Artificial Intelligence project leveraging machine learning techniques. Built with Python for robust data processing. Containerized for reproducible deployments. Designed to solve specific computational challenges in the AI domain.",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/sd-multimodal-platform",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker",
+      "Data"
+    ],
+    "detectedImage": "/images/projects/sd-multimodal-platform.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/sd-multimodal-platform/",
+    "image": "/media/projects/sd-multimodal-platform-screenshot.png",
+    "video": "/media/projects/sd-multimodal-platform-demo.webm"
+  },
+  {
+    "id": "ai:coding-agent",
+    "slug": "coding-agent",
+    "name": "coding-agent",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/coding-agent",
+    "readme": "README.md",
+    "title": "Self-Improving Coding Agent",
+    "summary": "A local coding assistant that can read entire repositories using RAG + local LLMs. Capabilities include:",
+    "stack": [
+      "Python"
+    ],
+    "repoUrl": "",
+    "tags": [
+      "ai",
+      "Python",
+      "AI"
+    ],
+    "detectedImage": "",
+    "featured": false,
+    "demoUrl": "",
+    "image": ""
+  },
+  {
+    "id": "web:starforge-AI-narrative",
+    "slug": "starforge-AI-narrative",
+    "name": "starforge-AI-narrative",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/starforge-AI-narrative",
+    "readme": "README.md",
+    "title": "Starforge AI Narrative",
+    "summary": "- Activate env: `conda activate ai_env` - Install deps (minimal): `pip install fastapi uvicorn pydantic httpx` - Run API (mock LLM, no GPU): `cd backend/app && uvicorn app.main:app --reload` - Key routes: - `GET /health` — health check - `POST /ai/dialogue`...",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/starforge-AI-narrative",
+    "tags": [
+      "web",
+      "Docker",
+      "AI"
+    ],
+    "detectedImage": "/images/projects/starforge-AI-narrative.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/starforge-ai-narrative/",
+    "image": "/media/projects/starforge-AI-narrative-screenshot.png",
+    "aliases": [
+      "starforge-AI-narrative"
+    ],
+    "video": "/media/projects/starforge-AI-narrative-demo.webm"
+  },
+  {
+    "id": "web:traffic-pulse",
+    "slug": "traffic-pulse",
+    "name": "traffic-pulse",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/traffic-pulse",
+    "readme": "README.md",
+    "title": "TrafficPulse",
+    "summary": "TrafficPulse is a road congestion analytics and visualization web app for Taiwan, powered by TDX (Transport Data eXchange).",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/traffic-pulse",
+    "tags": [
+      "web",
+      "Python",
+      "Docker",
+      "Data"
+    ],
+    "detectedImage": "/images/projects/traffic-pulse.svg",
+    "featured": true,
+    "demoUrl": "https://neojustin.dothost.net/p/traffic-pulse/",
+    "image": "/media/projects/traffic-pulse-screenshot.png",
+    "video": "/media/projects/traffic-pulse-demo.webm"
+  },
+  {
+    "id": "web:tripscore",
+    "slug": "tripscore",
+    "name": "tripscore",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/tripscore",
+    "readme": "README.md",
+    "title": "TripScore",
+    "summary": "TripScore is a rule-based, explainable destination scoring and recommendation system.",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/tripscore",
+    "tags": [
+      "web",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/tripscore.svg",
+    "featured": true,
+    "demoUrl": "https://neojustin.dothost.net/p/tripscore/",
+    "image": "/media/projects/tripscore-screenshot.png",
+    "video": "/media/projects/tripscore-demo.webm"
+  },
+  {
+    "id": "web:vanilla-dom-playground",
+    "slug": "vanilla-dom-playground",
+    "name": "vanilla-dom-playground",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/vanilla-dom-playground",
+    "readme": "README.md",
+    "title": "Vanilla DOM Playground",
+    "summary": "**一個全功能的 DOM 學習平台** - 通過遊戲、教程和實戰項目，深入掌握 JavaScript DOM 操作與事件處理",
+    "stack": [
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/vanilla-dom-playground",
+    "tags": [
+      "web",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/vanilla-dom-playground.svg",
+    "featured": true,
+    "demoUrl": "https://neojustin.dothost.net/p/vanilla-dom-playground/",
+    "image": "/media/projects/vanilla-dom-playground-screenshot.png",
+    "video": "/media/projects/vanilla-dom-playground-demo.webm"
+  },
+  {
+    "id": "ai:vision-quest",
+    "slug": "vision-quest",
+    "name": "vision-quest",
+    "group": "ai",
+    "sourcePath": "/mnt/c/ai_projects/vision-quest",
+    "readme": "README.md",
+    "title": "VisionQuest 🎯",
+    "summary": "A portable, production-ready MVP that seamlessly integrates computer vision, natural language processing, knowledge retrieval, and gamification into a unified platform. Built for researchers, developers, and AI enthusiasts who want cutting-edge multi-modal ...",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/vision-quest",
+    "tags": [
+      "ai",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/vision-quest.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/vision-quest/",
+    "image": "/media/projects/vision-quest-screenshot.png",
+    "video": "/media/projects/vision-quest-demo.webm"
+  },
+  {
+    "id": "web:YouTube-Web-Automation-Analysis",
+    "slug": "YouTube-Web-Automation-Analysis",
+    "name": "YouTube-Web-Automation-Analysis",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/YouTube-Web-Automation-Analysis",
+    "readme": "README.md",
+    "title": "YouTube Web Automation Analysis",
+    "summary": "Expected output:",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/YouTube-Web-Automation-Analysis",
+    "tags": [
+      "web",
+      "Python",
+      "Docker",
+      "Data"
+    ],
+    "detectedImage": "/images/projects/YouTube-Web-Automation-Analysis.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/youtube-web-automation-analysis/",
+    "image": "/media/projects/YouTube-Web-Automation-Analysis-screenshot.png",
+    "aliases": [
+      "YouTube-Web-Automation-Analysis"
+    ],
+    "video": "/media/projects/YouTube-Web-Automation-Analysis-demo.webm"
+  },
+  {
+    "id": "web:ytp-factory",
+    "slug": "ytp-factory",
+    "name": "ytp-factory",
+    "group": "web",
+    "sourcePath": "/home/justin/web-projects/ytp-factory",
+    "readme": "README.md",
+    "title": "YTP Factory",
+    "summary": "**AI-Driven YouTube Poop Generation System with Advanced Intelligence**",
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "repoUrl": "https://github.com/Justin21523/ytp-studio-factory",
+    "tags": [
+      "web",
+      "Python",
+      "Docker"
+    ],
+    "detectedImage": "/images/projects/ytp-factory.svg",
+    "featured": false,
+    "demoUrl": "https://neojustin.dothost.net/p/ytp-factory/",
+    "image": "/media/projects/ytp-factory-screenshot.png",
+    "video": "/media/projects/ytp-factory-demo.webm"
+  }
+]
