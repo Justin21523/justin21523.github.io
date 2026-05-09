@@ -1,578 +1,350 @@
 # Animation AI Studio
 
-**🎉 Complete AI-Powered Creative Content Generation Platform 🎉**
+Animation AI Studio is a local-first, modular AI animation pipeline for short-form, shot-based production workflows.
 
-[![Status](https://img.shields.io/badge/Status-Complete-success)]()
-[![Completion](https://img.shields.io/badge/Overall-100%25%20Complete-brightgreen)]()
-[![Modules](https://img.shields.io/badge/Modules-9%2F9-blue)]()
-[![Python](https://img.shields.io/badge/Python-3.10-blue)]()
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.7.0-orange)]()
-[![CUDA](https://img.shields.io/badge/CUDA-12.8-green)]()
+This repository is being refactored toward a project structure centered on:
 
----
+- project and story planning
+- character and asset registry
+- shot definitions with prompt and reference binding
+- provider-based video generation
+- LoRA metadata management
+- audio task preparation
+- composition and export scaffolding
+- continuity and QC scaffolding
 
-## 🎯 Overview
+## Current MVP Direction
 
-**Animation AI Studio** is a **complete, production-ready** AI platform that integrates 9 modules for autonomous creative content generation. Uses LLM decision-making, RAG knowledge retrieval, and agent orchestration to create funny/parody videos, analyze content, and generate multimodal content.
+The current implementation focus is architecture and workflow scaffolding, not full backend completion.
 
-### 🏆 Project Complete!
+Implemented in this refactor:
 
-**All 9 modules implemented** (2025-11-16 to 2025-11-17):
-- ✅ **25,000+** lines of Python code
-- ✅ **8,000+** lines of documentation
-- ✅ **3,000+** lines of tests
-- ✅ **95+** files created
-- ✅ **Production-ready** deployment
+- `studio/` package for the new animation-oriented architecture
+- typed project, character, shot, video, audio, composition, and QC models
+- project workspace creation under `data/projects/<project_slug>/`
+- character and shot registries
+- project-oriented CLI for creating projects, registering characters, listing shots, preparing render tasks, and executing audio/video task manifests
+- FFmpeg-based export task preparation and execution
+- dialogue-driven subtitle generation for export tasks
+- provider scaffolding for Wan-family video workflows
+- LTX-2.3 provider scaffolding for API-first and local runtime preparation
+- unified TTS adapter scaffolding
+- dialogue-aware TTS task generation for shots
+- source-video audio analysis for speaker segmentation and transcript indexing
+- per-character voice training dataset export for voice clone and RVC preparation
 
----
+Scaffolded but not fully implemented yet:
 
-## 🚀 Quick Start
+- Wan-family inference
+- automatic I2V continuation execution
+- audio synthesis/alignment execution in the new CLI
+- FFmpeg-based composition/export pipeline
+- continuity scoring and QC execution
 
-### Installation
+Existing subsystems under `scripts/` remain available and are intentionally not rewritten in this phase.
+
+## Repository Shape
+
+The repo currently contains two layers:
+
+- `studio/`
+  New project-facing architecture for animation production workflows.
+- `scripts/`
+  Existing subsystem implementations for generation, synthesis, analysis, editing, orchestration, training, and legacy creative-studio flows.
+
+This allows the refactor to be conservative: new project orchestration can wrap existing modules instead of replacing them immediately.
+
+## New CLI
+
+Use the new studio CLI for project-level workflows:
 
 ```bash
-# Clone repository
-git clone <repo-url> animation-ai-studio
-cd animation-ai-studio
-
-# Run setup
-bash deploy/setup.sh
-
-# Activate environment
-source venv/bin/activate
-
-# Start services
-bash start.sh
+python -m studio.cli.main create-project --name "Demo Project"
+python -m studio.cli.main add-character --project demo-project --character-id hero --display-name "Hero"
+python -m studio.cli.main add-shot --project demo-project --shot-id shot-001 --title "Opening" --sequence-index 1 --prompt "Hero enters the scene." --dialogue "I am ready."
+python -m studio.cli.main list-shots --project demo-project
+python -m studio.cli.main prepare-render --project demo-project --shot-id shot-001 --provider wan
+python -m studio.cli.main run-audio-task --project demo-project --shot-id shot-001
+python -m studio.cli.main analyze-audio --project demo-project --input-video /path/to/source.mp4 --num-speakers 2
+python -m studio.cli.main map-speakers --project demo-project --mapping speaker_00=hero --mapping speaker_01=friend
+python -m studio.cli.main export-voice-datasets --project demo-project
+python -m studio.cli.main prepare-rvc-training --project demo-project --character-id hero
+python -m studio.cli.main run-rvc-training --project demo-project --character-id hero --stage all
+python -m studio.cli.main prepare-export --project demo-project --shot-id shot-001 --subtitles external
+python -m studio.cli.main run-export-task --project demo-project
 ```
 
-### First Run
+Example LTX-2.3 shot definitions:
 
 ```bash
-# Test everything works
-python tests/run_all_tests.py
+python -m studio.cli.main add-shot \
+  --project demo-project \
+  --shot-id shot-010 \
+  --title "Hero Delivers Line" \
+  --sequence-index 10 \
+  --prompt "A close-up of the hero speaking to camera in a cinematic animated style." \
+  --mode i2v \
+  --generation-mode image_audio_to_video \
+  --dialogue "We begin now." \
+  --character-id hero \
+  --reference-image data/projects/demo-project/assets/images/hero.png \
+  --reference-audio data/projects/demo-project/assets/audio/hero_line.wav \
+  --model-variant ltx-2-3-pro \
+  --lip-sync-priority high
 
-# List all capabilities
-python scripts/applications/creative_studio/cli.py list
-
-# Try parody video generation
-python scripts/applications/creative_studio/cli.py parody \
-    input.mp4 output.mp4 --style dramatic --duration 30
+python -m studio.cli.main prepare-render --project demo-project --shot-id shot-010 --provider ltx23_api
+python -m studio.cli.main run-video-task --project demo-project --shot-id shot-010 --provider ltx23_api
 ```
 
----
+## Workspace Layout
 
-## 📊 Module Architecture
+Project workspaces are stored under:
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│           Module 9: Creative Studio (Complete) ✅            │
-│        Autonomous Parody Video Generator + CLI               │
-└──────────────────────┬──────────────────────────────────────┘
-                       │
-         ┌─────────────┴─────────────┐
-         │                           │
-┌────────▼─────────┐      ┌──────────▼───────────┐
-│ Module 7: Video  │      │ Module 8: Video      │
-│ Analysis ✅      │      │ Editing ✅           │
-│ - Scenes         │      │ - LLM Decisions      │
-│ - Composition    │      │ - Parody Effects     │
-│ - Camera         │      │ - Quality Eval       │
-│ - Temporal       │      │ - SAM2 Segmentation  │
-└────────┬─────────┘      └──────────┬───────────┘
-         │                           │
-         └─────────────┬─────────────┘
-                       │
-         ┌─────────────▼─────────────┐
-         │ Module 6: Agent Framework │
-         │ (Complete) ✅              │
-         │ - Tool Orchestration      │
-         │ - Multi-step Reasoning    │
-         └────────────┬──────────────┘
-                      │
-    ┌─────────────────┼─────────────────┐
-    │                 │                 │
-┌───▼────┐   ┌────────▼────┐   ┌───────▼──────┐
-│ Module │   │ Module      │   │ Module       │
-│ 2: SDXL│   │ 3: Voice    │   │ 5: RAG       │
-│ +LoRA ✅│   │ GPT-SoVITS ✅│   │ FAISS/Chroma✅│
-└───┬────┘   └────────┬────┘   └───────┬──────┘
-    │                 │                 │
-    └─────────────────┼─────────────────┘
-                      │
-         ┌────────────▼───────────┐
-         │ Module 4: Model Manager│
-         │ (VRAM Management) ✅   │
-         └────────────┬───────────┘
-                      │
-         ┌────────────▼───────────┐
-         │ Module 1: LLM Backend  │
-         │ (vLLM + FastAPI) ✅    │
-         │ - Qwen2.5-VL-7B        │
-         │ - Qwen2.5-14B          │
-         │ - Qwen2.5-Coder-7B     │
-         └────────────────────────┘
+```text
+data/projects/<project_slug>/
+├── project.yaml
+├── characters/
+├── shots/
+├── assets/
+│   └── loras/
+├── audio/
+├── renders/
+└── exports/
 ```
 
----
+Audio analysis artifacts are written under:
 
-## ✅ All Modules Complete
-
-### Module 1: LLM Backend (✅ 100%)
-**Self-hosted LLM inference with vLLM + FastAPI**
-
-- vLLM service (3 models with dynamic switching)
-- FastAPI Gateway (OpenAI-compatible API)
-- Redis caching layer
-- Docker orchestration
-- Prometheus + Grafana monitoring
-
-**Performance**:
-- Qwen2.5-VL-7B: ~40 tok/s, 13.8GB VRAM
-- Qwen2.5-14B: ~45 tok/s, 11.5GB VRAM
-- Model switching: 20-35 seconds
-
----
-
-### Module 2: Image Generation (✅ 100%)
-**SDXL + LoRA + ControlNet for character images**
-
-- SDXL pipeline with quality presets
-- LoRA loading (character, style, background)
-- ControlNet (pose, depth, canny, seg, normal)
-- Character consistency validation
-- Batch generation
-
-**Performance**: <20s for 1024x1024 image
-
----
-
-### Module 3: Voice Synthesis (✅ 100%)
-**GPT-SoVITS for character voice cloning**
-
-- Voice model training from film audio
-- Emotion control (8 presets)
-- Multi-language support (EN, IT)
-- Batch synthesis
-
-**Performance**: <5s for 3s audio
-
----
-
-### Module 4: Model Manager (✅ 100%)
-**Dynamic VRAM management for RTX 5080 16GB**
-
-- Only one heavy model at a time (LLM OR SDXL)
-- Automatic model switching
-- VRAM monitoring
-- Service orchestration
-
-**Switching Time**: 20-35 seconds
-
----
-
-### Module 5: RAG System (✅ 100%)
-**Knowledge retrieval for context-aware operations**
-
-- FAISS + ChromaDB vector stores
-- LLM-based embeddings (1024-dim)
-- Character/style/scene knowledge
-- Q&A with source attribution
-
-**Performance**: <200ms end-to-end retrieval
-
----
-
-### Module 6: Agent Framework (✅ 100%)
-**LLM-powered autonomous agent with 7 sub-modules**
-
-1. Thinking Module - Intent understanding
-2. Reasoning Module - ReAct, Chain-of-Thought
-3. Web Search Module - Real-time information
-4. RAG Usage Module - Knowledge retrieval
-5. Tool Calling Module - Dynamic tool selection
-6. Function Calling Module - Type-safe execution
-7. Multi-Step Reasoning - Workflow execution
-
-**Capabilities**: Autonomous creative decision-making
-
----
-
-### Module 7: Video Analysis (✅ 100%)
-**Comprehensive video understanding**
-
-- Scene detection (PySceneDetect)
-- Composition analysis (rule of thirds, balance)
-- Camera movement tracking (optical flow)
-- Temporal coherence checking (SSIM)
-
-**Performance**: ~60s for 30s video (all analyses)
-
----
-
-### Module 8: Video Editing (✅ 100%)
-**AI-driven autonomous video editing**
-
-**Core Innovation**: LLM makes ALL editing decisions
-
-- Character segmentation (SAM2 from LoRA pipeline)
-- Video editing operations (MoviePy)
-- LLM Decision Engine (create plans, evaluate quality)
-- Quality Evaluator (technical + creative metrics)
-- Parody Generator (zoom punch, speed ramp, meme-style)
-
-**Performance**: ~2-3 minutes for 30s parody video
-
----
-
-### Module 9: Creative Studio (✅ 100%)
-**Complete integration layer - User-facing applications**
-
-**The "大壓軸" - Autonomous Creative Platform**
-
-1. **Parody Video Generator** - Autonomous funny video creation
-2. **Multimodal Analysis Pipeline** - Complete content analysis
-3. **Creative Workflows** - Pre-defined end-to-end workflows
-4. **CLI Interface** - User-friendly command-line interface
-
-**Usage**:
-```bash
-# Generate parody video (fully automatic)
-python scripts/applications/creative_studio/cli.py parody \
-    luca.mp4 luca_funny.mp4 --style dramatic --duration 30
-
-# Analyze video
-python scripts/applications/creative_studio/cli.py analyze \
-    luca.mp4 --visual --audio --output analysis.json
-
-# List all capabilities
-python scripts/applications/creative_studio/cli.py list
+```text
+data/projects/<project_slug>/audio/
+├── analysis/
+│   ├── source_audio.wav
+│   ├── audio_analysis_report.json
+│   ├── speaker_summary.json
+│   ├── speaker_map_template.yaml
+│   └── segments/
+└── training/
+    └── <character_id>/
+        ├── voice_samples/
+        ├── gpt_sovits/
+        └── rvc/
 ```
 
----
+RVC training tasks are written next to the exported RVC dataset:
 
-## 🎬 Key Features
-
-### 🤖 Autonomous Parody Video Generation
-
-**Complete AI-driven pipeline**:
-1. Analyze video (Module 7) → scenes, composition, camera
-2. LLM creates funny edit plan (Module 8)
-3. Execute parody effects (zoom punch, speed ramp, etc.)
-4. LLM evaluates quality
-5. Iterate until quality threshold met
-
-**One command, fully automatic**:
-```bash
-python scripts/applications/creative_studio/cli.py parody input.mp4 output.mp4
+```text
+data/projects/<project_slug>/audio/training/<character_id>/
+├── manifest.json
+├── rvc/
+│   └── dataset_manifest.json
+└── rvc_training_task.yaml
 ```
 
-### 🔍 Multimodal Analysis
+## Architecture Outline
 
-**Comprehensive content understanding**:
-- Visual: scenes, composition, camera movement, temporal coherence
-- Audio: (placeholder for voice analysis)
-- Context: (placeholder for RAG retrieval)
-- Automated insights and recommendations
-
-### 🎨 Creative Workflows
-
-**Pre-defined end-to-end workflows**:
-- Parody video generation
-- Analysis & report generation
-- Custom creative workflows (natural language)
-
-### 💻 User-Friendly CLI
-
-**Professional command-line interface**:
-- Commands: `parody`, `analyze`, `workflow`, `list`
-- Comprehensive help and examples
-- Progress tracking and status reporting
-
----
-
-## 🖥️ Hardware Requirements
-
-### Minimum
-
-- **GPU**: NVIDIA RTX 3080 (10GB VRAM)
-- **RAM**: 32GB
-- **Storage**: 100GB SSD
-- **CPU**: 8 cores
-
-### Recommended (Current Setup)
-
-- **GPU**: NVIDIA RTX 5080 (16GB VRAM) ✅
-- **RAM**: 64GB DDR5
-- **Storage**: 500GB NVMe SSD
-- **CPU**: AMD Ryzen 9 9950X (16 cores)
-- **CUDA**: 12.8
-- **PyTorch**: 2.7.0
-
----
-
-## 📂 Project Structure
-
-```
-animation-ai-studio/
-├── llm_backend/                  # Module 1: LLM Backend
-│   ├── gateway/                  # FastAPI Gateway
-│   ├── services/                 # vLLM configurations
-│   └── scripts/                  # Management scripts
-├── scripts/
-│   ├── core/                     # Shared utilities
-│   │   ├── llm_client/           # LLM client
-│   │   └── model_management/     # Model Manager (Module 4)
-│   ├── generation/image/         # Module 2: Image Generation
-│   ├── synthesis/tts/            # Module 3: Voice Synthesis
-│   ├── rag/                      # Module 5: RAG System
-│   ├── agent/                    # Module 6: Agent Framework
-│   ├── analysis/video/           # Module 7: Video Analysis
-│   ├── editing/                  # Module 8: Video Editing
-│   └── applications/creative_studio/  # Module 9: Creative Studio
-├── configs/                      # All configurations
-├── tests/                        # Test suites
-│   └── run_all_tests.py         # Master test runner
-├── deploy/                       # Deployment scripts
-│   └── setup.sh                 # Complete setup script
-├── start.sh                      # Start all services
-├── stop.sh                       # Stop all services
-├── requirements.txt              # All dependencies
-├── DEPLOYMENT.md                 # Deployment guide
-├── LLM_PROVIDER.md                     # Project instructions
-└── README.md                     # This file
+```text
+studio/
+├── core/        Shared result models, paths, storage helpers
+├── story/       Project and shot schemas
+├── assets/      Character and LoRA registries
+├── video/       Video task models, provider interfaces, provider registry
+├── audio/       Audio task models and provider interfaces
+├── editing/     Composition task schemas
+├── evaluation/  QC report schemas
+├── pipelines/   Project and shot orchestration helpers
+└── cli/         Project-facing command line interface
 ```
 
----
+## Existing Reusable Subsystems
 
-## 🧪 Testing
+This refactor deliberately leaves existing implementations in place for later integration, including:
 
-### Run All Tests
+- image provider registry under `scripts/generation/image/`
+- action/control workflows under `scripts/generation/action/`
+- unified TTS adapter under `scripts/synthesis/tts/unified_tts.py`
+- orchestration infrastructure under `scripts/orchestration/`
+
+## LTX-2.3 Direction
+
+The video stack is being reoriented around `LTX-2.3`, with a deliberate split between:
+
+- `ltx23_api`
+  Primary near-term provider for synchronized audio-video generation tasks.
+- `ltx23_comfy`
+  ComfyUI-backed route for local node-based LTX-2.3 workflows.
+- `ltx23_local`
+  Future isolated local runtime path for high-VRAM deployments.
+
+In this phase, the repository prepares normalized `LTX-2.3` task manifests only. It does not claim that API execution, local runtime execution, uploads, or artifact downloads are complete.
+
+Planned LTX-2.3 task coverage:
+
+- `t2v`
+- `i2v`
+- `a2v`
+- `image_audio_to_video`
+- `extend`
+- `retake`
+
+Current execution status:
+
+- `ltx23_api`
+  Can prepare manifests and execute HTTP requests when `LTX_API_KEY` is set.
+- `ltx23_comfy`
+  Can prepare and execute against a running ComfyUI server when a real exported workflow JSON is configured.
+- `ltx23_local`
+  Manifest-only scaffold for a future isolated runtime.
+
+Example ComfyUI route:
 
 ```bash
-# All modules
-python tests/run_all_tests.py
-
-# With verbose output
-python tests/run_all_tests.py --verbose
-
-# With coverage
-python tests/run_all_tests.py --coverage
-
-# Specific module
-python tests/run_all_tests.py --module creative
+python -m studio.cli.main prepare-render --project demo-project --shot-id shot-010 --provider ltx23_comfy
+python -m studio.cli.main run-video-task --project demo-project --shot-id shot-010 --provider ltx23_comfy
 ```
 
-### Test Results
+Before `ltx23_comfy` execution, configure:
 
-**Test Coverage**:
-- Module 6 (Agent): 15 tests
-- Module 8 (Editing): 8 test classes
-- Module 9 (Creative): 4 test classes + integration tests
+- `configs/studio/ltx23.yaml`
+  Set `comfy.enabled`, `comfy.base_url`, and `comfy.workflow_template`
+- `configs/studio/workflows/ltx23_comfy_template.json`
+  Replace the placeholder file with a real exported workflow from your ComfyUI installation
 
----
+Supported ComfyUI template placeholders:
 
-## 📚 Documentation
+- `__PROMPT__`
+- `__NEGATIVE_PROMPT__`
+- `__WIDTH__`
+- `__HEIGHT__`
+- `__DURATION__`
+- `__FPS__`
+- `__MODEL_VARIANT__`
+- `__OUTPUT_PREFIX__`
+- `__IMAGE_URI__`
+- `__AUDIO_URI__`
+- `__VIDEO_URI__`
 
-### Essential Docs
-
-1. **[DEPLOYMENT.md](DEPLOYMENT.md)** - Complete deployment guide
-2. **[LLM_PROVIDER.md](LLM_PROVIDER.md)** - Project instructions
-3. **[docs/modules/module-progress.md](docs/modules/module-progress.md)** - Progress tracking
-
-### Module Docs
-
-- **[scripts/applications/creative_studio/README.md](scripts/applications/creative_studio/README.md)** - Creative Studio guide
-- **[scripts/editing/README.md](scripts/editing/README.md)** - Video Editing guide
-- **[scripts/analysis/video/README.md](scripts/analysis/video/README.md)** - Video Analysis guide
-- **[scripts/agent/README.md](scripts/agent/README.md)** - Agent Framework guide
-- **[scripts/rag/README.md](scripts/rag/README.md)** - RAG System guide
-
-### Architecture Docs
-
-- **[docs/architecture/project-architecture.md](docs/architecture/project-architecture.md)**
-- **[docs/architecture/llm-backend.md](docs/architecture/llm-backend.md)**
-- **[docs/modules/agent-framework.md](docs/modules/agent-framework.md)**
-
----
-
-## 🚀 Deployment
-
-### Development Setup
+Template validation helpers:
 
 ```bash
-# 1. Setup
-bash deploy/setup.sh
-
-# 2. Activate environment
-source venv/bin/activate
-
-# 3. Start services
-bash start.sh
-
-# 4. Verify
-python tests/run_all_tests.py
+python -m studio.cli.main validate-comfy-workflow --project demo-project --shot-id shot-010
+python -m studio.cli.main render-comfy-workflow --project demo-project --shot-id shot-010
 ```
 
-### Production Deployment
+## Singing Cover Roadmap
+
+The repository now has a documented roadmap for moving from dialogue voice cloning into character singing covers.
+
+Priority plan:
+
+1. `Demucs`
+   Song stem separation for vocals and accompaniment.
+2. `Seed-VC`
+   Character-based singing voice conversion from real vocal stems.
+3. Remix / mastering
+   Recombine converted vocals with instrumental backing.
+
+Secondary and future systems are also part of the roadmap:
+
+- `so-vits-svc`
+  Comparison and fallback singing voice conversion path.
+- `DiffSinger`
+  Future original singing synthesis from lyrics and notes.
+- `OpenUtau`
+  Future MIDI and lyric editing / authoring workflow.
+- `w-okada voice-changer`
+  Optional realtime audition utility.
+
+See:
+
+- [docs/architecture/singing-cover-roadmap.md](docs/architecture/singing-cover-roadmap.md)
+- [docs/audio/diffsinger-v170-runbook.md](docs/audio/diffsinger-v170-runbook.md)
+- [docs/audio/openutau-diffsinger-bridge.md](docs/audio/openutau-diffsinger-bridge.md)
+- [docs/audio/singing-model-benchmark.md](docs/audio/singing-model-benchmark.md)
+
+Create a benchmark workspace for the current Elio song:
 
 ```bash
-# Docker Compose (recommended)
-docker-compose up -d
-
-# Or systemd service
-sudo systemctl start animation-ai-studio
-
-# With Nginx reverse proxy
-sudo systemctl start nginx
+python -m studio.cli.main prepare-singing-model-benchmark \
+  --project elio \
+  --title "Elio Singing Model Benchmark" \
+  --source-song-path /mnt/c/ai_projects/animation-ai-studio/data/projects/elio/audio/openutau/songs/elio-follow-the-starlight-cn-v1/outputs/final/elio_follow_the_starlight_final.wav
 ```
 
-**See [DEPLOYMENT.md](DEPLOYMENT.md) for complete guide**
+## RVC Training
 
----
+`studio` can now prepare and run staged RVC training jobs against an existing RVC checkout such as `/mnt/c/ai_tools/RVC`.
 
-## 📈 Performance Metrics
+Recommended first pass:
 
-### End-to-End Parody Generation (30s video)
+```bash
+python -m studio.cli.main prepare-rvc-training \
+  --project demo-project \
+  --character-id hero \
+  --rvc-root /mnt/c/ai_tools/RVC \
+  --sample-rate 40k \
+  --version v2 \
+  --f0-method rmvpe
 
-| Stage | Time | VRAM |
-|-------|------|------|
-| Module 7: Analysis | ~60s | 0GB (CPU) |
-| Module 8: LLM Plan | ~10-15s | 0GB (uses backend) |
-| Module 8: Parody Effects | ~20-40s | 0GB |
-| Module 8: Quality Eval | ~5s | 0GB |
-| **Total** | **~2-3 min** | **Peak: 6GB (SAM2)** |
+python -m studio.cli.main run-rvc-training \
+  --project demo-project \
+  --character-id hero \
+  --stage all
+```
 
-### Individual Modules
+Stages:
 
-- **LLM Inference**: 30-50 tok/s
-- **Image Generation**: <20s (1024x1024)
-- **Voice Synthesis**: <5s (3s audio)
-- **Video Analysis**: ~60s (30s video)
-- **Model Switching**: 20-35s
+- `preprocess`
+- `extract`
+- `train`
+- `index`
+- `all`
 
----
+Notes:
 
-## 🎓 Key Concepts
+- The current `/mnt/c/ai_tools/RVC/assets/pretrained_v2/` contents indicate that `v2 + 40k + f0` is the safest default on this machine.
+- `prepare-rvc-training` reads the exported `audio/training/<character_id>/rvc/dataset_manifest.json` produced by `export-voice-datasets`.
+- The RVC integration uses subprocess execution for preprocess, feature extraction, and model training, then builds the Faiss index from extracted features.
 
-### LLM as Creative Brain
+## Scene Dialogue Pipeline
 
-The LLM doesn't just execute - it **makes creative decisions**:
-- Understands user's artistic intent
-- Plans execution steps
-- Selects appropriate tools
-- Evaluates quality of results
-- Iterates until achieving desired quality
+`studio` can now turn a scene script into a multi-character dialogue package using the saved character voice profiles.
 
-### RAG for Context
+Scene script example:
 
-Retrieves relevant knowledge for informed decisions:
-- Character descriptions and personalities
-- Style guides and artistic references
-- Past successful generations
-- Film analysis and scene breakdowns
+```json
+{
+  "title": "Signal Corridor",
+  "lines": [
+    {"character_id": "elio", "text": "The beacon is closer than before."},
+    {"character_id": "bryce", "text": "Then stop staring and hand me the scanner."},
+    {"character_id": "glordon", "text": "You are already too late."}
+  ]
+}
+```
 
-### Agent for Automation
+Generate the scene:
 
-Autonomous workflow execution:
-- Tool calling and orchestration
-- Multi-step planning and execution
-- Quality-driven iteration
-- Self-improvement through reflection
+```bash
+python -m studio.cli.main generate-scene-dialogue \
+  --project elio \
+  --scene-id signal-corridor \
+  --script-path /path/to/scene_script.json
+```
 
----
+Outputs are written under `data/projects/<project>/audio/scenes/<scene-id>/`:
 
-## 🔗 Related Projects
+- `source_tts/`
+- `source_wav/`
+- `converted/`
+- `final/scene_dialogue_mix.wav`
+- `final/scene_dialogue.srt`
+- `scene_manifest.json`
 
-### 3D Animation LoRA Pipeline
+## Next Steps
 
-**Location**: `/mnt/c/AI_LLM_projects/3d-animation-lora-pipeline`
+Planned follow-up work:
 
-**Purpose**: Train LoRA adapters for character/background/pose generation
-
-**Integration**: Module 8 reuses SAM2 implementation from LoRA pipeline
-
----
-
-## ⚠️ Critical Requirements
-
-### MUST Use
-
-- ✅ Qwen2.5 models (VL-7B, 14B, Coder-7B)
-- ✅ vLLM for self-hosted inference
-- ✅ PyTorch 2.7.0 + CUDA 12.8
-- ✅ PyTorch native SDPA (NOT xformers)
-- ✅ Open-source models only
-
-### MUST NOT Use
-
-- ❌ xformers (breaks PyTorch compatibility)
-- ❌ Closed-source APIs (GPT-4, LLMProvider, Gemini)
-- ❌ Ollama (we use vLLM)
-- ❌ Modify PyTorch/CUDA versions
-
----
-
-## 📊 Project Statistics
-
-**Development Timeline**: 2025-11-16 to 2025-11-17 (2 days)
-
-**Code Statistics**:
-- Total Lines: ~25,000+ Python
-- Documentation: ~8,000+ lines
-- Tests: ~3,000+ lines
-- Files Created: ~95+
-- Modules: 9/9 (100% complete)
-
-**Git Commits**:
-- Total: 20+ commits
-- Latest: Module 9 completion
-
----
-
-## 🎉 Achievement Unlocked
-
-**✨ Complete AI-Powered Creative Platform ✨**
-
-- 🏆 9 Fully Integrated AI Modules
-- 🎬 Autonomous Parody Video Generator
-- 🔍 Multimodal Analysis Pipeline
-- 🤖 Production-Ready Deployment
-- 📦 Comprehensive Documentation
-- 🧪 Complete Test Coverage
-
----
-
-## 📞 Support
-
-**For Setup**: See [DEPLOYMENT.md](DEPLOYMENT.md)
-
-**For Usage**: See module READMEs in `scripts/*/README.md`
-
-**For Architecture**: See `docs/architecture/*.md`
-
-**For Issues**: Check logs in `logs/` directory
-
----
-
-## 📄 License
-
-Internal research project.
-
----
-
-## 🙏 Acknowledgments
-
-- **LLM**: Qwen2.5 by Alibaba Cloud
-- **Image**: Stable Diffusion XL by Stability AI
-- **Voice**: GPT-SoVITS by RVC-Boss
-- **Segmentation**: SAM2 by Meta AI
-- **Framework**: LangGraph by LangChain
-
----
-
-**Version**: 1.0.0
-**Status**: ✅ Complete
-**Last Updated**: 2025-11-17
-**Maintainer**: Animation AI Studio Team
-
-🎊 **PROJECT COMPLETE!** 🎊
+1. Implement the LTX-2.3 API transport layer and response normalization.
+2. Expand project manifests to cover continuation chains, retakes, and media transport settings.
+3. Build isolated local-runtime support for LTX-2.3 without destabilizing the main repo environment.
+4. Expand the export pipeline beyond the current FFmpeg MVP.
+5. Add QC and continuity evaluation adapters.

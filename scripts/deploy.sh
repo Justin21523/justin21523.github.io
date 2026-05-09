@@ -1,55 +1,55 @@
 #!/bin/bash
+# deploy.sh — 部署作品集到 GitHub Pages / Vercel / Netlify
+# Usage: bash scripts/deploy.sh [provider]
+# Providers: github-pages (default), vercel, netlify
 
-# Configuration
-SERVER_HOST="live.dothost.net"
-SERVER_PORT="2965"
-SERVER_USER="neojustin"
-SERVER_PATH="/home/neojustin/justin-portfolio"
-SSH_KEY="/home/justin/.ssh/school-library-lms_live_dothost_ed25519"
+set -euo pipefail
 
-echo "🚀 Starting deployment to $SERVER_HOST..."
+PROVIDER="${1:-github-pages}"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 
-# 1. Sync Codebase (excluding large folders and git)
-# We sync the 'dist' folder separately to the web root if needed, 
-# BUT based on your docker-compose, the 'web' service builds from context '.'.
-# So we need to sync the source code and rebuild on server, OR sync the built artifacts.
-# The Dockerfile does a multi-stage build (npm run build inside docker).
-# To speed things up, we can stick to that, OR change Dockerfile to just serve existing dist.
-# For now, let's stick to the robust method: Sync Code -> Rebuild on Server.
+echo "🚀 Deploying portfolio via $PROVIDER..."
 
-echo "📦 Syncing source code..."
-rsync -azvhP --delete \
-  --exclude '.git' \
-  --exclude 'node_modules' \
-  --exclude 'dist' \
-  --exclude '.env' \
-  -e "ssh -p $SERVER_PORT -i $SSH_KEY" \
-  ./ \
-  $SERVER_USER@$SERVER_HOST:$SERVER_PATH/
-
-# 2. Sync Generated Media (Important!)
-# The generated videos/images are in public/media and public/images.
-# These need to be synced because they were generated locally by Playwright.
-echo "🖼️ Syncing generated media assets..."
-rsync -azvhP \
-  -e "ssh -p $SERVER_PORT -i $SSH_KEY" \
-  ./public/media/ \
-  $SERVER_USER@$SERVER_HOST:$SERVER_PATH/public/media/
-
-rsync -azvhP \
-  -e "ssh -p $SERVER_PORT -i $SSH_KEY" \
-  ./public/images/ \
-  $SERVER_USER@$SERVER_HOST:$SERVER_PATH/public/images/
-  
-# 3. Sync Content (Markdown)
-echo "📝 Syncing markdown content..."
-rsync -azvhP \
-  -e "ssh -p $SERVER_PORT -i $SSH_KEY" \
-  ./public/content/ \
-  $SERVER_USER@$SERVER_HOST:$SERVER_PATH/public/content/
-
-# 4. Trigger Rebuild on Server
-echo "🔄 Rebuilding and restarting web service on server..."
-ssh -p $SERVER_PORT -i $SSH_KEY $SERVER_USER@$SERVER_HOST "cd $SERVER_PATH && docker-compose up -d --build web"
-
-echo "✅ Deployment complete! Visit https://neojustin.dothost.net/"
+case "$PROVIDER" in
+  github-pages)
+    echo "📦 Deploying to GitHub Pages..."
+    echo "   (Requires GitHub Pages to be enabled for this repo)"
+    echo "   Push to main/master branch — GitHub Actions will auto-deploy)"
+    echo ""
+    echo "   To enable GitHub Pages:"
+    echo "   1. Go to repo Settings → Pages"
+    echo "   2. Source: Deploy from a branch"
+    echo "   3. Branch: main / / (root)"
+    echo ""
+    echo "✅ GitHub Actions workflow configured at .github/workflows/deploy.yml"
+    echo "   Push your changes to trigger deployment."
+    ;;
+  vercel)
+    if command -v vercel &>/dev/null; then
+      echo "📦 Deploying to Vercel..."
+      cd "$PROJECT_DIR"
+      vercel --prod --confirm
+      echo "✅ Deployed to Vercel!"
+    else
+      echo "❌ Vercel CLI not installed. Install with: npm i -g vercel"
+      echo "   Or deploy manually at https://vercel.com"
+    fi
+    ;;
+  netlify)
+    if command -v netlify &>/dev/null; then
+      echo "📦 Deploying to Netlify..."
+      cd "$PROJECT_DIR"
+      netlify deploy --prod --dir=dist
+      echo "✅ Deployed to Netlify!"
+    else
+      echo "❌ Netlify CLI not installed. Install with: npm i -g netlify-cli"
+      echo "   Or deploy manually at https://app.netlify.com"
+    fi
+    ;;
+  *)
+    echo "❌ Unknown provider: $PROVIDER"
+    echo "   Supported: github-pages, vercel, netlify"
+    exit 1
+    ;;
+esac

@@ -1,109 +1,125 @@
 import fs from "node:fs";
 import path from "node:path";
-import { spawnSync } from "node:child_process";
-
-const repoRoot = path.resolve(process.cwd());
-const dataPath = path.join(repoRoot, "data", "projects.json");
+import { execSync } from "node:child_process";
 
 const roots = [
-  { group: "web", root: "/home/justin/web-projects", exclude: new Set(["AI_LLM_projects", "justin-portfolio"]) },
-  // Keep this aligned with scripts/sync-projects.mjs `excludedNames`.
-  { group: "ai", root: "/mnt/c/ai_projects", exclude: new Set(["character-settings"]) },
+  { group: "web", root: "/home/justin/web-projects" },
+  { group: "ai", root: "/mnt/c/ai_projects" },
 ];
+const excludedNames = new Set([
+  "AI_LLM_projects", "justin-portfolio", "character-settings",
+  "gpu-migration-r900", "monitor",
+]);
 
-function die(message) {
-  console.error(message);
-  process.exit(1);
+function execQuiet(cmd, opts = {}) {
+  try {
+    return execSync(cmd, { ...opts, stdio: ["ignore","pipe","ignore"] }).toString().trim();
+  } catch { return ""; }
 }
 
-function readJson(filePath) {
-  const raw = fs.readFileSync(filePath, "utf8");
-  return JSON.parse(raw);
+function lineCount(dir) {
+  const exts = ["*.py","*.js","*.jsx","*.ts","*.tsx","*.html","*.css","*.vue","*.svelte","*.rs","*.go"];
+  const patterns = exts.map(e => `-name '${e}'`).join(" -o ");
+  try {
+    const out = execQuiet(`find . -maxdepth 5 \\( -name '*.py' -o -name '*.js' -o -name '*.jsx' -o -name '*.ts' -o -name '*.tsx' -o -name '*.html' -o -name '*.css' -o -name '*.vue' -o -name '*.svelte' \\) ! -path '*/node_modules/*' ! -path '*/.git/*' ! -path '*/dist/*' ! -path '*/build/*' ! -path '*/__pycache__/*' | xargs wc -l 2>/dev/null | tail -1`, { cwd: dir });
+    const n = parseInt(out, 10);
+    return isNaN(n) ? 0 : n;
+  } catch { return 0; }
 }
 
-function listDirs(root, exclude) {
-  if (!fs.existsSync(root)) return [];
-  return fs
-    .readdirSync(root, { withFileTypes: true })
-    .filter((e) => e.isDirectory() && !e.name.startsWith(".") && !exclude.has(e.name))
-    .map((e) => e.name)
-    .sort((a, b) => a.localeCompare(b, "en"));
+function fmtLines(n) {
+  if (n >= 1000) return `${(n/1000).toFixed(1)}K`;
+  return String(n);
 }
 
-function isGitRepo(dir) {
-  return fs.existsSync(path.join(dir, ".git"));
-}
+function auditProject(dir, group) {
+  const name = path.basename(dir);
+  const gitPath = path.join(dir, ".git");
+  const hasGit = fs.existsSync(gitPath) && fs.statSync(gitPath).isDirectory();
+  const result = { name, group, path: dir, hasGit };
 
-function gitRemoteOrigin(dir) {
-  const res = spawnSync("git", ["remote", "get-url", "origin"], { cwd: dir, encoding: "utf8" });
-  if (res.status !== 0) return "";
-  return String(res.stdout || "").trim();
+  if (hasGit) {
+    result.commits = parseInt(execQuiet("git rev-list --count HEAD", { cwd: dir }), 10) || 0;
+    result.lastCommit = execQuiet("git log -1 --format=%ci", { cwd: dir }) || "?";
+    result.branches = execQuiet("git branch -l", { cwd: dir })
+      .split("\n").map(b => b.replace(/^\*?\s*/, "").trim()).filter(Boolean).length;
+    const status = execQuiet("git status --porcelain", { cwd: dir });
+    result.hasUncommitted = status.length > 0;
+    result.daysSinceLast = (() => {
+      const d = new Date(result.lastCommit);
+      const now = new Date();
+      return Math.floor((now - d) / 86400000);
+    })();
+  } else {
+    result.commits = 0;
+    result.lastCommit = "no-git";
+    result.branches = 0;
+    result.hasUncommitted = false;
+    result.daysSinceLast = -1;
+  }
+
+  result.lines = lineCount(dir);
+  result.hasReadme = fs.existsSync(path.join(dir, "README.md")) || fs.existsSync(path.join(dir, "readme.md"));
+  result.hasDocker = fs.existsSync(path.join(dir, "Dockerfile")) || fs.existsSync(path.join(dir, "docker-compose.yml"));
+
+  return result;
 }
 
 function main() {
-  if (!fs.existsSync(dataPath)) die(`[audit] missing data file: ${dataPath}`);
-  const projects = readJson(dataPath);
-  if (!Array.isArray(projects)) die("[audit] data/projects.json must be an array");
+  console.log("🔍 Project Audit Report");
+  console.log("═".repeat(90));
 
-  const byGroup = new Map();
-  for (const p of projects) {
-    const group = p?.group;
-    if (!byGroup.has(group)) byGroup.set(group, []);
-    byGroup.get(group).push(p);
-  }
+  const all = [];
+  for (const { group, root } of roots) {
+    if (!fs.existsSync(root)) { console.log(`⚠️  Root not found: ${root}`); continue; }
+    const entries = fs.readdirSync(root, { withFileTypes: true })
+      .filter(e => e.isDirectory() && !e.name.startsWith(".") && !excludedNames.has(e.name));
 
-  let ok = true;
+    console.log(`\n📂 ${root} (${entries.length} projects)`);
+    console.log("─".repeat(90));
+    console.log(`${"Name".padEnd(35)} ${"Commits".padStart(7)} ${"Lines".padStart(8)} ${"Last Update".padEnd(12)} ${"Days".padStart(5)} ${"Git".padStart(4)} ${"README".padStart(6)} ${"Docker".padStart(6)} ${"Uncommitted"}`);
+    console.log("─".repeat(90));
 
-  // 1) Ensure JSON matches folders exactly
-  for (const { group, root, exclude } of roots) {
-    const folders = listDirs(root, exclude);
-    const jsonNames = (byGroup.get(group) || []).map((p) => p.name).sort((a, b) => a.localeCompare(b, "en"));
-    const setFolders = new Set(folders);
-    const setJson = new Set(jsonNames);
+    for (const entry of entries) {
+      const dir = path.join(root, entry.name);
+      const p = auditProject(dir, group);
+      all.push(p);
 
-    const extra = [...setJson].filter((n) => !setFolders.has(n)).sort();
-    const missing = [...setFolders].filter((n) => !setJson.has(n)).sort();
+      const days = p.daysSinceLast < 0 ? "N/A" : (p.daysSinceLast > 30 ? `${p.daysSinceLast}⚠️` : `${p.daysSinceLast}`);
+      const git = p.hasGit ? "✅" : "❌";
+      const readme = p.hasReadme ? "✅" : "❌";
+      const docker = p.hasDocker ? "✅" : "  ";
+      const uncommitted = p.hasUncommitted ? "⚠️" : "  ";
+      const lines = fmtLines(p.lines);
 
-    if (extra.length || missing.length) {
-      ok = false;
-      console.error(`\n[audit] group=${group} mismatch`);
-      if (extra.length) console.error(`[audit]  extra_in_json (${extra.length}): ${extra.join(", ")}`);
-      if (missing.length) console.error(`[audit]  missing_in_json (${missing.length}): ${missing.join(", ")}`);
+      console.log(
+        `${p.name.padEnd(35)} ${String(p.commits).padStart(7)} ${lines.padStart(8)} ${p.lastCommit.slice(0, 10).padEnd(12)} ${days.padStart(5)} ${git.padStart(4)} ${readme.padStart(6)} ${docker.padStart(6)} ${uncommitted}`
+      );
     }
   }
 
-  // 2) Ensure id + slug policy
-  const ids = new Set();
-  for (const p of projects) {
-    const expectedId = `${p.group}:${p.name}`;
-    if (p.id !== expectedId) {
-      ok = false;
-      console.error(`[audit] bad id for ${p.group}/${p.name}: got=${JSON.stringify(p.id)} expected=${JSON.stringify(expectedId)}`);
-    }
-    if (p.slug !== p.name) {
-      ok = false;
-      console.error(`[audit] bad slug for ${p.group}/${p.name}: got=${JSON.stringify(p.slug)} expected=${JSON.stringify(p.name)}`);
-    }
-    if (ids.has(p.id)) {
-      ok = false;
-      console.error(`[audit] duplicate id: ${p.id}`);
-    }
-    ids.add(p.id);
-  }
+  // Summary
+  console.log("\n" + "═".repeat(90));
+  console.log("📊 Summary");
+  const totalLines = all.reduce((s, p) => s + p.lines, 0);
+  const totalCommits = all.reduce((s, p) => s + p.commits, 0);
+  const withGit = all.filter(p => p.hasGit).length;
+  const noReadme = all.filter(p => !p.hasReadme).length;
+  const stale = all.filter(p => p.daysSinceLast > 90 && p.daysSinceLast >= 0).length;
+  const uncommitted = all.filter(p => p.hasUncommitted).length;
 
-  // 3) Soft warnings: git repos without repoUrl
-  const warnings = [];
-  for (const p of projects) {
-    const dir = p.sourcePath;
-    if (!dir || !fs.existsSync(dir)) continue;
-    if (!isGitRepo(dir)) continue;
-    const origin = gitRemoteOrigin(dir);
-    if (origin && !p.repoUrl) warnings.push(`${p.group}/${p.name} has git origin but repoUrl is empty`);
-  }
-  for (const w of warnings) console.warn(`[audit] warn: ${w}`);
+  console.log(`  Total projects: ${all.length}`);
+  console.log(`  Total commits: ${totalCommits.toLocaleString()}`);
+  console.log(`  Total lines: ${fmtLines(totalLines)}`);
+  console.log(`  With git: ${withGit}/${all.length}`);
+  console.log(`  Missing README: ${noReadme}`);
+  console.log(`  Stale (>90 days): ${stale}`);
+  console.log(`  Uncommitted changes: ${uncommitted}`);
 
-  if (!ok) process.exit(1);
-  console.log(`[audit] OK: ${projects.length} projects match folders and naming policy`);
+  // Write report
+  const reportPath = path.join("/home/justin/web-projects", "PROJECT-AUDIT.json");
+  fs.writeFileSync(reportPath, JSON.stringify(all, null, 2) + "\n", "utf8");
+  console.log(`\n  Report saved: ${reportPath}`);
 }
 
 main();

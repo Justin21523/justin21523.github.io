@@ -10,7 +10,7 @@ FastAPI backend, Celery workers, and a React (Vite) WebUI, with AI_WAREHOUSE 3.0
 - **AI_WAREHOUSE 3.0**: No large models/datasets in the repo. Use split roots:
   - `AI_CACHE_ROOT` (HF/torch/XDG cache) → `/mnt/c/ai_cache`
   - `AI_MODELS_ROOT` (managed weights / LoRAs / checkpoints) → `/mnt/c/ai_models`
-  - `AI_OUTPUT_ROOT` (runs / generated media / exports) → `/mnt/data/training/runs/anime-adventure-lab`
+  - `AI_OUTPUT_ROOT` (runs / generated media / exports) → `/mnt/c/ai_output/anime-adventure-lab`
 - **Low-VRAM Defaults**: Prefer device_map="auto", fp16/bf16, gradient checkpointing, and LoRA over full fine-tuning.
 - **Security & Governance**: Never commit secrets; use `.env`. Optional NSFW/face-blur for public demos.
 
@@ -36,7 +36,8 @@ Set these in `.env` (see `.env.example`):
 ```
 AI_CACHE_ROOT=/mnt/c/ai_cache
 AI_MODELS_ROOT=/mnt/c/ai_models
-AI_OUTPUT_ROOT=/mnt/data/training/runs/anime-adventure-lab
+AI_OUTPUT_ROOT=/mnt/c/ai_output/anime-adventure-lab
+AI_DATASETS_ROOT=/mnt/c/ai_datasets/anime-adventure-lab
 ```
 
 ### 2) Run API
