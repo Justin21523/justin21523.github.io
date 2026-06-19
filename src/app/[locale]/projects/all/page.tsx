@@ -1,84 +1,81 @@
-"use client";
+import type {
+  Metadata,
+} from "next";
 
-import { useState } from "react";
-import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
-import { projects } from "@/data/projects";
-import { ProjectCategory } from "@/types/projects";
-import { ProjectCard } from "@/components/projects/project-card";
+import {
+  Suspense,
+} from "react";
 
-export default function AllProjectsPage() {
-  const t = useTranslations("projects");
-  const [activeCategory, setActiveCategory] = useState<ProjectCategory | "all">("all");
+import {
+  ProjectExplorer,
+} from "@/components/projects/archive/project-explorer";
 
-  const categories = [
-    { key: "all", label: t("all") },
-    { key: "web", label: t("web") },
-    { key: "mobile", label: t("mobile") },
-    { key: "design", label: t("design") },
-    { key: "opensource", label: t("opensource") },
-  ];
+import {
+  projects,
+} from "@/data/projects";
 
-  const filteredProjects = activeCategory === "all" 
-    ? projects 
-    : projects.filter(p => p.category === activeCategory);
+import {
+  normalizePortfolioLocale,
+} from "@/lib/projects";
+
+interface AllProjectsPageProps {
+  params: Promise<{
+    locale: string;
+  }>;
+}
+
+export const metadata: Metadata = {
+  title:
+    "Project Archive | Justin",
+  description:
+    "Browse Justin's projects by technology, domain, platform, capability, and development status.",
+};
+
+export default async function AllProjectsPage({
+  params,
+}: AllProjectsPageProps) {
+  const {
+    locale: localeParam,
+  } = await params;
+
+  const locale =
+    normalizePortfolioLocale(
+      localeParam
+    );
 
   return (
-    <div className="min-h-screen pt-24 pb-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-12"
-        >
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            {t("title")}
-          </h1>
-          <p className="text-lg text-muted-foreground">
-            {t("subtitle")}
-          </p>
-        </motion.div>
+    <Suspense
+      fallback={
+        <ProjectExplorerSkeleton />
+      }
+    >
+      <ProjectExplorer
+        projects={projects}
+        locale={locale}
+      />
+    </Suspense>
+  );
+}
 
-        {/* Filter Tabs */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1 }}
-          className="flex flex-wrap justify-center gap-2 mb-12"
-        >
-          {categories.map((cat) => (
-            <button
-              key={cat.key}
-              onClick={() => setActiveCategory(cat.key as ProjectCategory | "all")}
-              className={`px-6 py-2 rounded-full text-sm font-medium transition-all ${
-                activeCategory === cat.key
-                  ? "bg-primary text-primary-foreground shadow-md"
-                  : "bg-secondary/50 text-secondary-foreground hover:bg-secondary"
-              }`}
-            >
-              {cat.label}
-            </button>
+function ProjectExplorerSkeleton() {
+  return (
+    <main className="min-h-screen pb-24 pt-28">
+      <div className="section-shell">
+        <div className="mx-auto mb-12 h-36 max-w-3xl animate-pulse rounded-3xl bg-secondary" />
+
+        <div className="mb-10 h-40 animate-pulse rounded-3xl bg-secondary" />
+
+        <div className="grid gap-7 md:grid-cols-2 xl:grid-cols-3">
+          {Array.from({
+            length: 6,
+          }).map((_, index) => (
+            <div
+              key={index}
+              className="h-[32rem] animate-pulse rounded-3xl bg-secondary"
+            />
           ))}
-        </motion.div>
-
-        {/* Projects Grid */}
-        <motion.div 
-          layout
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
-        >
-          {filteredProjects.map((project, index) => (
-            <ProjectCard key={project.slug} project={project} index={index} />
-          ))}
-        </motion.div>
-
-        {/* Empty State */}
-        {filteredProjects.length === 0 && (
-          <div className="text-center py-20 text-muted-foreground">
-            此分類尚無作品。
-          </div>
-        )}
+        </div>
       </div>
-    </div>
+    </main>
   );
 }

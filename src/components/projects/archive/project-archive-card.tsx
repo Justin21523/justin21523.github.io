@@ -1,0 +1,480 @@
+"use client";
+
+import Image from "next/image";
+
+import {
+  ArrowUpRight,
+  Eye,
+  Layers3,
+} from "lucide-react";
+
+import {
+  m,
+  useReducedMotion,
+} from "motion/react";
+
+import { Link } from "@/i18n/navigation";
+
+import {
+  categoryLabels,
+  statusLabels,
+} from "@/lib/project-taxonomy";
+
+import type {
+  PortfolioLocale,
+  Project,
+} from "@/types/projects";
+import {
+  Columns3,
+  Heart,
+} from "lucide-react";
+
+import {
+  useState,
+} from "react";
+
+import {
+  useProjectPreferences,
+} from "@/stores/project-preferences-store";
+
+import {
+  useMounted,
+} from "@/hooks/use-mounted";
+import {
+  AnimatePresence,
+} from "motion/react";
+
+export type ProjectViewMode =
+  | "grid"
+  | "list";
+
+interface ProjectArchiveCardProps {
+  project: Project;
+  locale: PortfolioLocale;
+  index: number;
+  viewMode: ProjectViewMode;
+
+  onPreview: (
+    project: Project
+  ) => void;
+}
+
+export function ProjectArchiveCard({
+  project,
+  locale,
+  index,
+  viewMode,
+  onPreview,
+}: ProjectArchiveCardProps) {
+    const mounted =
+    useMounted();
+
+    const [
+    compareLimitReached,
+    setCompareLimitReached,
+    ] = useState(false);
+
+    const favoriteSlugs =
+    useProjectPreferences(
+        (state) =>
+        state.favoriteSlugs
+    );
+
+    const compareSlugs =
+    useProjectPreferences(
+        (state) =>
+        state.compareSlugs
+    );
+
+    const toggleFavorite =
+    useProjectPreferences(
+        (state) =>
+        state.toggleFavorite
+    );
+
+    const addToCompare =
+    useProjectPreferences(
+        (state) =>
+        state.addToCompare
+    );
+
+    const removeFromCompare =
+    useProjectPreferences(
+        (state) =>
+        state.removeFromCompare
+    );
+
+    const isFavorite =
+    mounted &&
+    favoriteSlugs.includes(
+        project.slug
+    );
+
+    const isCompared =
+    mounted &&
+    compareSlugs.includes(
+        project.slug
+    );
+
+    function handleCompare() {
+    setCompareLimitReached(false);
+
+    if (isCompared) {
+        removeFromCompare(
+        project.slug
+        );
+
+        return;
+    }
+
+    const added =
+        addToCompare(
+        project.slug
+        );
+
+    if (!added) {
+        setCompareLimitReached(
+        true
+        );
+
+        window.setTimeout(
+        () => {
+            setCompareLimitReached(
+            false
+            );
+        },
+        2200
+        );
+    }
+    }
+  const shouldReduceMotion =
+    useReducedMotion();
+
+  const content =
+    project.content[locale];
+
+  const image =
+    project.coverImage ??
+    project.media.find(
+      (item) =>
+        item.type === "image"
+    )?.src;
+
+  const features =
+    content.features ?? [];
+
+  const isList =
+    viewMode === "list";
+
+  return (
+    <m.article
+      layout
+      initial={{
+        opacity: 0,
+        y: 28,
+        scale: 0.98,
+      }}
+      animate={{
+        opacity: 1,
+        y: 0,
+        scale: 1,
+      }}
+      exit={{
+        opacity: 0,
+        y: 18,
+        scale: 0.96,
+      }}
+      whileHover={
+        shouldReduceMotion
+          ? undefined
+          : {
+              y: -7,
+            }
+      }
+      transition={{
+        layout: {
+          type: "spring",
+          stiffness: 280,
+          damping: 28,
+        },
+
+        delay:
+          Math.min(
+            index * 0.04,
+            0.25
+          ),
+      }}
+      className={`group overflow-hidden rounded-3xl border border-border bg-card shadow-sm transition-shadow hover:shadow-2xl hover:shadow-primary/10 ${
+        isList
+          ? "grid md:grid-cols-[20rem_1fr]"
+          : "flex h-full flex-col"
+      }`}
+    >
+      <m.div
+        layoutId={`project-cover-${project.slug}`}
+        className={`relative overflow-hidden bg-gradient-to-br from-primary/20 via-background to-secondary ${
+          isList
+            ? "min-h-64 md:min-h-full"
+            : "aspect-[16/10]"
+        }`}
+      >
+        {image ? (
+          <Image
+            src={image}
+            alt={content.title}
+            fill
+            sizes={
+              isList
+                ? "(max-width: 768px) 100vw, 320px"
+                : "(max-width: 768px) 100vw, 33vw"
+            }
+            className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Layers3 className="h-16 w-16 text-primary/25" />
+          </div>
+        )}
+
+        <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+<div className="absolute inset-x-4 top-4 flex items-start justify-between gap-3">
+  <div className="flex flex-col items-start gap-2">
+    <span className="rounded-full border border-border bg-background/85 px-3 py-1 text-xs font-medium backdrop-blur">
+      {
+        categoryLabels[
+          locale
+        ][project.category]
+      }
+    </span>
+
+    <span className="rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
+      {
+        statusLabels[
+          locale
+        ][project.status]
+      }
+    </span>
+  </div>
+<AnimatePresence>
+  {compareLimitReached && (
+    <m.p
+      initial={{
+        opacity: 0,
+        y: 6,
+      }}
+      animate={{
+        opacity: 1,
+        y: 0,
+      }}
+      exit={{
+        opacity: 0,
+      }}
+      className="mb-3 rounded-lg bg-destructive/10 px-3 py-2 text-xs text-destructive"
+    >
+      {locale === "en"
+        ? "You can compare up to three projects."
+        : "最多只能同時比較三個作品。"}
+    </m.p>
+  )}
+</AnimatePresence>
+  <div className="flex gap-2">
+    <m.button
+      type="button"
+      whileHover={{
+        scale: 1.08,
+      }}
+      whileTap={{
+        scale: 0.9,
+      }}
+      onClick={() =>
+        toggleFavorite(
+          project.slug
+        )
+      }
+      aria-label={
+        isFavorite
+          ? locale === "en"
+            ? "Remove favorite"
+            : "取消收藏"
+          : locale === "en"
+            ? "Add favorite"
+            : "收藏作品"
+      }
+      aria-pressed={
+        isFavorite
+      }
+      className={`inline-flex h-10 w-10 items-center justify-center rounded-full border backdrop-blur transition-colors ${
+        isFavorite
+          ? "border-rose-500/40 bg-rose-500 text-white"
+          : "border-border bg-background/85 hover:bg-accent"
+      }`}
+    >
+      <Heart
+        className={`h-4 w-4 ${
+          isFavorite
+            ? "fill-current"
+            : ""
+        }`}
+      />
+    </m.button>
+
+    <m.button
+      type="button"
+      whileHover={{
+        scale: 1.08,
+      }}
+      whileTap={{
+        scale: 0.9,
+      }}
+      onClick={
+        handleCompare
+      }
+      aria-label={
+        isCompared
+          ? locale === "en"
+            ? "Remove comparison"
+            : "移出比較"
+          : locale === "en"
+            ? "Add comparison"
+            : "加入比較"
+      }
+      aria-pressed={
+        isCompared
+      }
+      className={`inline-flex h-10 w-10 items-center justify-center rounded-full border backdrop-blur transition-colors ${
+        isCompared
+          ? "border-primary bg-primary text-primary-foreground"
+          : "border-border bg-background/85 hover:bg-accent"
+      }`}
+    >
+      <Columns3 className="h-4 w-4" />
+    </m.button>
+  </div>
+</div>
+      </m.div>
+
+      <div className="flex flex-1 flex-col p-6">
+        <div className="mb-4 flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
+          <span>{project.year}</span>
+
+          {project.metadata
+            .platforms[0] && (
+            <>
+              <span>•</span>
+
+              <span>
+                {
+                  project
+                    .metadata
+                    .platforms[0]
+                }
+              </span>
+            </>
+          )}
+
+          {project.metadata
+            .duration && (
+            <>
+              <span>•</span>
+
+              <span>
+                {
+                  project
+                    .metadata
+                    .duration
+                }
+              </span>
+            </>
+          )}
+        </div>
+
+        <h2 className="mb-3 text-xl font-bold tracking-tight transition-colors group-hover:text-primary">
+          {content.title}
+        </h2>
+
+        {content.tagline && (
+          <p className="mb-3 font-medium text-foreground/80">
+            {content.tagline}
+          </p>
+        )}
+
+        <p className="mb-5 line-clamp-3 leading-7 text-muted-foreground">
+          {content.summary}
+        </p>
+
+        {features.length > 0 && (
+          <div className="mb-5">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-primary">
+              {locale === "en"
+                ? "Key features"
+                : "核心功能"}
+            </p>
+
+            <ul className="space-y-1 text-sm text-muted-foreground">
+              {features
+                .slice(0, 3)
+                .map((feature) => (
+                  <li
+                    key={
+                      feature.id
+                    }
+                    className="flex gap-2"
+                  >
+                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+
+                    <span>
+                      {
+                        feature.title
+                      }
+                    </span>
+                  </li>
+                ))}
+            </ul>
+          </div>
+        )}
+
+        <div className="mb-6 flex flex-wrap gap-2">
+          {project.technologies
+            .slice(0, 6)
+            .map(
+              (technology) => (
+                <span
+                  key={technology}
+                  className="rounded-md bg-secondary px-2 py-1 text-xs"
+                >
+                  {technology}
+                </span>
+              )
+            )}
+        </div>
+
+        <div className="mt-auto flex flex-wrap gap-3">
+          <button
+            type="button"
+            onClick={() =>
+              onPreview(project)
+            }
+            className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl border border-border px-4 py-3 text-sm font-medium transition-colors hover:bg-accent"
+          >
+            <Eye className="h-4 w-4" />
+
+            {locale === "en"
+              ? "Quick preview"
+              : "快速預覽"}
+          </button>
+
+          <Link
+            href={`/projects/${project.slug}`}
+            className="group/link inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3 text-sm font-medium text-primary-foreground"
+          >
+            {locale === "en"
+              ? "Case study"
+              : "完整案例"}
+
+            <ArrowUpRight className="h-4 w-4 transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5" />
+          </Link>
+        </div>
+      </div>
+    </m.article>
+  );
+}
