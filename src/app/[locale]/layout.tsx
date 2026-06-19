@@ -7,6 +7,19 @@ import "../globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
 import { routing } from "@/i18n/routing";
+import { MotionProvider } from "@/components/motion/motion-provider";
+import { ScrollProgress } from "@/components/motion/scroll-progress";
+import {
+  ProjectCommandPalette,
+} from "@/components/command/project-command-palette";
+
+import {
+  projects,
+} from "@/data/projects";
+
+import {
+  normalizePortfolioLocale,
+} from "@/lib/projects";
 
 // 預先載入字體，優化效能
 const inter = Inter({ 
@@ -20,6 +33,11 @@ const notoSansTC = Noto_Sans_TC({
   variable: "--font-noto-sans-tc",
   display: "swap",
 });
+
+const portfolioLocale =
+  normalizePortfolioLocale(
+    locale
+  );
 
 export const metadata: Metadata = {
   title: {
@@ -58,21 +76,40 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
 
-  return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className={`${inter.variable} ${notoSansTC.variable} font-sans antialiased`}>
-        <NextIntlClientProvider messages={messages}>
-          <ThemeProvider
+    return (
+    <html
+        lang={locale}
+        suppressHydrationWarning
+    >
+        <body
+        className={`${inter.variable} font-sans antialiased`}
+        >
+        <NextIntlClientProvider
+            messages={messages}
+        >
+            <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
-          >
-            <Header />
-            {children}
-          </ThemeProvider>
+            >
+              <MotionProvider>
+                <ScrollProgress />
+
+                <Header />
+
+                <ProjectCommandPalette
+                    projects={projects}
+                    locale={
+                    portfolioLocale
+                    }
+                />
+
+                {children}
+              </MotionProvider>
+            </ThemeProvider>
         </NextIntlClientProvider>
-      </body>
+        </body>
     </html>
-  );
+    );
 }

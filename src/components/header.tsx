@@ -32,6 +32,9 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import {
+  ProjectCommandButton,
+} from "@/components/command/project-command-button";
 
 // 定義導航結構
 const navStructure = {
@@ -84,6 +87,11 @@ export function Header() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
+            <ProjectCommandButton />
+
+            <LanguageToggle />
+
+            <ThemeToggle />
             {/* Logo */}
             <Link 
               href="/" 
@@ -206,6 +214,18 @@ export function Header() {
         <div className="lg:hidden fixed inset-0 z-50 bg-background/95 backdrop-blur-sm">
           <div className="flex flex-col h-full">
             <div className="flex items-center justify-between p-4 border-b">
+              <button
+              type="button"
+              onClick={() => {
+                  window.dispatchEvent(
+                  new CustomEvent(
+                      "portfolio:open-command"
+                  )
+                  );
+              }}
+              >
+              搜尋所有作品
+              </button>
               <h2 className="text-lg font-semibold">選單</h2>
               <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(false)}>
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
