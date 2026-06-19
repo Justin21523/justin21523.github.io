@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "首頁",
+    "about": "關於我",
+    "projects": "作品集",
+    "tech": "技術專區",
+    "contact": "聯絡我"
+  },
+  "hero": {
+    "greeting": "你好，我是",
+    "name": "Justin",
+    "title": "前端工程師",
+    "description": "我熱愛打造優雅、高效且使用者友好的數位體驗。專注於 React、Next.js 和現代前端技術。",
+    "cta": "探索我的作品"
+  },
+  "about": {
+    "profile": {
+      "title": "個人簡介",
+      "subtitle": "認識我",
+      "bio_title": "關於我",
+      "interests_title": "興趣與專長",
+      "contact_title": "聯絡方式"
+    },
+    "skills": {
+      "title": "技能樹",
+      "subtitle": "我的技術能力",
+      "frontend": "前端開發",
+      "backend": "後端開發",
+      "tools": "開發工具",
+      "design": "設計能力"
+    },
+    "experience": {
+      "title": "工作經歷",
+      "subtitle": "我的職業歷程",
+      "current": "目前",
+      "achievements": "主要成就"
+    },
+    "education": {
+      "title": "教育背景",
+      "subtitle": "學歷與學習經歷"
+    },
+    "projects": {
+      "title": "作品集",
+      "subtitle": "我近期完成的專案",
+      "all": "全部",
+      "web": "Web 應用",
+      "mobile": "移動應用",
+      "design": "UI/UX 設計",
+      "opensource": "開源專案",
+      "viewDetails": "查看詳情",
+      "viewCode": "查看程式碼",
+      "viewLive": "線上預覽",
+      "techStack": "技術棧",
+      "featured": "精選作品"
+    }
+  }
+}

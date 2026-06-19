@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "tech": "Tech",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Justin",
+    "title": "Frontend Engineer",
+    "description": "I love crafting elegant, efficient, and user-friendly digital experiences. Specialized in React, Next.js, and modern frontend technologies.",
+    "cta": "Explore My Work"
+  },
+  "about": {
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Get to know me",
+      "bio_title": "About Me",
+      "interests_title": "Interests",
+      "contact_title": "Contact"
+    },
+    "skills": {
+      "title": "Skills",
+      "subtitle": "My technical abilities",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools",
+      "design": "Design"
+    },
+    "experience": {
+      "title": "Experience",
+      "subtitle": "My career journey",
+      "current": "Current",
+      "achievements": "Key Achievements"
+    },
+    "education": {
+      "title": "Education",
+      "subtitle": "Academic background"
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "Some of my recent work",
+        "all": "All",
+        "web": "Web Apps",
+        "mobile": "Mobile Apps",
+        "design": "UI/UX Design",
+        "opensource": "Open Source",
+        "viewDetails": "View Details",
+        "viewCode": "View Code",
+        "viewLive": "Live Demo",
+        "techStack": "Tech Stack",
+        "featured": "Featured"
+    }
+  }
+}
