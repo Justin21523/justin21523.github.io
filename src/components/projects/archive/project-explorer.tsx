@@ -33,6 +33,29 @@ import {
   categoryLabels,
   statusLabels,
 } from "@/lib/project-taxonomy";
+import {
+  applyProjectFilters,
+  buildFacetOptions,
+  createDefaultFilterState,
+  getHasFacetLabel,
+  getUpdatedPresetLabel,
+  getYearBounds,
+  hasFacetValues,
+  normalizeFilterState,
+  parseFilterState,
+  projectCategories,
+  projectMatchesHas,
+  projectStatuses,
+  removeFilterValue,
+  serializeFilterState,
+  toggleFilterValue,
+  type FacetOption,
+  type FilterListKey,
+  type FilterState,
+  type HasFacet,
+  type ProjectSort,
+  type UpdatedPreset,
+} from "@/lib/project-filters";
 import type {
   PortfolioLocale,
   Project,
@@ -42,7 +65,6 @@ import type {
 
 import {
   ProjectArchiveCard,
-  type ProjectViewMode,
 } from "./project-archive-card";
 import {
   ProjectPreviewDialog,
@@ -53,82 +75,6 @@ interface ProjectExplorerProps {
   locale: PortfolioLocale;
 }
 
-type ProjectSort =
-  | "featured"
-  | "newest"
-  | "oldest"
-  | "title";
-
-type UpdatedPreset =
-  | "any"
-  | "30d"
-  | "90d"
-  | "1y";
-
-type HasFacet =
-  | "github"
-  | "demo"
-  | "media"
-  | "documentation"
-  | "featured"
-  | "needs-review";
-
-interface FacetOption {
-  value: string;
-  label: string;
-  count: number;
-}
-
-interface FilterState {
-  q: string;
-  categories: ProjectCategory[];
-  statuses: ProjectStatus[];
-  technologies: string[];
-  languages: string[];
-  frameworks: string[];
-  platforms: string[];
-  databases: string[];
-  capabilities: string[];
-  projectTypes: string[];
-  domains: string[];
-  subjects: string[];
-  keywords: string[];
-  audiences: string[];
-  contentTypes: string[];
-  dataTypes: string[];
-  roles: string[];
-  has: HasFacet[];
-  fromYear: number;
-  toYear: number;
-  updatedPreset: UpdatedPreset;
-  sort: ProjectSort;
-  viewMode: ProjectViewMode;
-}
-
-const categories: ProjectCategory[] = [
-  "information-system",
-  "interactive-3d",
-  "ai-data",
-  "frontend",
-  "backend-desktop",
-];
-
-const statuses: ProjectStatus[] = [
-  "completed",
-  "in-progress",
-  "prototype",
-  "planned",
-  "archived",
-];
-
-const hasFacetValues: HasFacet[] = [
-  "github",
-  "demo",
-  "media",
-  "documentation",
-  "featured",
-  "needs-review",
-];
 
 export function ProjectExplorer({
   projects,
@@ -177,14 +123,22 @@ export function ProjectExplorer({
 
   const handleSearchChange = (val: string) => {
     setSearchVal(val);
-    setFilters((prev) => ({ ...prev, q: val }));
+    const nextFilters =
+      normalizeFilterState(
+        {
+          ...filters,
+          q: val,
+        },
+        yearBounds
+      );
+    setFilters(nextFilters);
 
     if (debounceTimerRef.current) {
       clearTimeout(debounceTimerRef.current);
     }
     
     debounceTimerRef.current = setTimeout(() => {
-      setSingleParam("q", val || undefined);
+      commitFilters(nextFilters);
     }, 300);
   };
 
@@ -213,31 +167,16 @@ export function ProjectExplorer({
   const viewMode = filters.viewMode;
 
   const facetOptions = useMemo(() => {
-    return {
-      technologies: countOptions(projects.flatMap((project) => project.technologies)).slice(0, 18),
-      languages: countOptions(projects.flatMap((project) => project.metadata.languages ?? [])).slice(0, 14),
-      frameworks: countOptions(projects.flatMap((project) => project.metadata.frameworks ?? [])).slice(0, 14),
-      platforms: countOptions(projects.flatMap((project) => project.metadata.platforms ?? [])).slice(0, 14),
-      databases: countOptions(projects.flatMap((project) => project.metadata.database ?? [])).slice(0, 12),
-      capabilities: countOptions(projects.flatMap((project) => project.metadata.capabilities ?? [])).slice(0, 18),
-      projectTypes: countOptions(projects.flatMap((project) => project.metadata.projectType ? [project.metadata.projectType] : [])).slice(0, 12),
-      domains: countOptions(projects.flatMap((project) => project.metadata.domains ?? [])).slice(0, 18),
-      subjects: countOptions(projects.flatMap((project) => project.metadata.subjects ?? [])).slice(0, 14),
-      keywords: countOptions(projects.flatMap((project) => project.metadata.keywords ?? [])).slice(0, 18),
-      audiences: countOptions(projects.flatMap((project) => project.metadata.audiences ?? [])).slice(0, 12),
-      contentTypes: countOptions(projects.flatMap((project) => project.metadata.contentTypes ?? [])).slice(0, 12),
-      dataTypes: countOptions(projects.flatMap((project) => project.metadata.dataTypes ?? [])).slice(0, 12),
-      roles: countOptions(projects.flatMap((project) => project.metadata.roles ?? [])).slice(0, 12),
-    };
+    return buildFacetOptions(projects);
   }, [projects]);
 
-  const categoryOptions: FacetOption[] = categories.map((category) => ({
+  const categoryOptions: FacetOption[] = projectCategories.map((category) => ({
     value: category,
     label: categoryLabels[locale][category],
     count: projects.filter((project) => project.category === category).length,
   }));
 
-  const statusOptions: FacetOption[] = statuses.map((status) => ({
+  const statusOptions: FacetOption[] = projectStatuses.map((status) => ({
     value: status,
     label: statusLabels[locale][status],
     count: projects.filter((project) => project.status === status).length,
@@ -250,124 +189,8 @@ export function ProjectExplorer({
   }));
 
   const filteredProjects = useMemo(() => {
-    const normalizedQuery = query.trim().toLowerCase();
-
-    return projects
-      .filter((project) => {
-        const content = project.content[locale];
-        const matchesCategory =
-          selectedCategories.length === 0 ||
-          selectedCategories.includes(project.category);
-        const matchesStatus =
-          selectedStatuses.length === 0 ||
-          selectedStatuses.includes(project.status);
-        const matchesTechnologies = includesAny(project.technologies, selectedTechnologies);
-        const matchesLanguages = includesAny(project.metadata.languages ?? [], selectedLanguages);
-        const matchesFrameworks = includesAny(project.metadata.frameworks ?? [], selectedFrameworks);
-        const matchesPlatforms = includesAny(project.metadata.platforms ?? [], selectedPlatforms);
-        const matchesDatabases = includesAny(project.metadata.database ?? [], selectedDatabases);
-        const matchesCapabilities = includesAny(project.metadata.capabilities ?? [], selectedCapabilities);
-        const matchesProjectTypes = includesAny(project.metadata.projectType ? [project.metadata.projectType] : [], selectedProjectTypes);
-        const matchesDomains = includesAny(project.metadata.domains ?? [], selectedDomains);
-        const matchesSubjects = includesAny(project.metadata.subjects ?? [], selectedSubjects);
-        const matchesKeywords = includesAny(project.metadata.keywords ?? [], selectedKeywords);
-        const matchesAudiences = includesAny(project.metadata.audiences ?? [], selectedAudiences);
-        const matchesContentTypes = includesAny(project.metadata.contentTypes ?? [], selectedContentTypes);
-        const matchesDataTypes = includesAny(project.metadata.dataTypes ?? [], selectedDataTypes);
-        const matchesRoles = includesAny(project.metadata.roles ?? [], selectedRoles);
-        const matchesHas =
-          selectedHas.length === 0 ||
-          selectedHas.some((value) => projectMatchesHas(project, value));
-        const matchesYear = project.year >= fromYear && project.year <= toYear;
-        const matchesUpdated = matchesUpdatedPreset(project.metadata.updatedAt, updatedPreset);
-        const featureText = (content.features ?? [])
-          .flatMap((feature) => [
-            feature.title,
-            feature.description,
-            ...(feature.bullets ?? []),
-          ])
-          .join(" ");
-        const searchableText = [
-          content.title,
-          content.tagline,
-          content.summary,
-          content.description,
-          content.role,
-          content.problem,
-          content.solution,
-          content.outcome,
-          ...content.highlights,
-          ...content.challenges,
-          ...content.nextSteps,
-          featureText,
-          project.metadata.catalogNumber,
-          ...project.technologies,
-          ...project.metadata.domains,
-          ...project.metadata.capabilities,
-          ...project.metadata.keywords,
-          ...project.metadata.platforms,
-          ...(project.metadata.languages ?? []),
-          ...(project.metadata.frameworks ?? []),
-          ...(project.metadata.database ?? []),
-          ...(project.metadata.aliases ?? []),
-        ]
-          .filter(Boolean)
-          .join(" ")
-          .toLowerCase();
-        const matchesSearch =
-          normalizedQuery.length === 0 ||
-          searchableText.includes(normalizedQuery);
-
-        return (
-          matchesCategory &&
-          matchesStatus &&
-          matchesTechnologies &&
-          matchesLanguages &&
-          matchesFrameworks &&
-          matchesPlatforms &&
-          matchesDatabases &&
-          matchesCapabilities &&
-          matchesProjectTypes &&
-          matchesDomains &&
-          matchesSubjects &&
-          matchesKeywords &&
-          matchesAudiences &&
-          matchesContentTypes &&
-          matchesDataTypes &&
-          matchesRoles &&
-          matchesHas &&
-          matchesYear &&
-          matchesUpdated &&
-          matchesSearch
-        );
-      })
-      .sort((a, b) => sortProjects(a, b, sort, locale));
-  }, [
-    locale,
-    projects,
-    query,
-    selectedCapabilities,
-    selectedCategories,
-    selectedDatabases,
-    selectedDataTypes,
-    selectedAudiences,
-    selectedContentTypes,
-    selectedDomains,
-    selectedFrameworks,
-    selectedHas,
-    selectedKeywords,
-    selectedLanguages,
-    selectedPlatforms,
-    selectedProjectTypes,
-    selectedRoles,
-    selectedStatuses,
-    selectedSubjects,
-    selectedTechnologies,
-    sort,
-    fromYear,
-    toYear,
-    updatedPreset,
-  ]);
+    return applyProjectFilters(projects, filters, locale);
+  }, [filters, locale, projects]);
 
   const activeFilterCount =
     Number(Boolean(query)) +
@@ -392,45 +215,138 @@ export function ProjectExplorer({
     Number(updatedPreset !== "any");
 
   const text = getText(locale);
-  const activeFilterLabels = [
-    ...selectedCategories.map((value) => categoryLabels[locale][value]),
-    ...selectedStatuses.map((value) => statusLabels[locale][value]),
-    ...selectedTechnologies,
-    ...selectedLanguages,
-    ...selectedFrameworks,
-    ...selectedPlatforms,
-    ...selectedDatabases,
-    ...selectedCapabilities,
-    ...selectedProjectTypes,
-    ...selectedDomains,
-    ...selectedSubjects,
-    ...selectedKeywords,
-    ...selectedAudiences,
-    ...selectedContentTypes,
-    ...selectedDataTypes,
-    ...selectedRoles,
-    ...selectedHas.map((value) => getHasFacetLabel(value, locale)),
+  const activeFilterChips: Array<{
+    key: string;
+    label: string;
+    onRemove: () => void;
+  }> = [
+    ...selectedCategories.map((value) => ({
+      key: `category-${value}`,
+      label: categoryLabels[locale][value],
+      onRemove: () => removeFacet("categories", value),
+    })),
+    ...selectedStatuses.map((value) => ({
+      key: `status-${value}`,
+      label: statusLabels[locale][value],
+      onRemove: () => removeFacet("statuses", value),
+    })),
+    ...selectedTechnologies.map((value) => ({
+      key: `technology-${value}`,
+      label: value,
+      onRemove: () => removeFacet("technologies", value),
+    })),
+    ...selectedLanguages.map((value) => ({
+      key: `language-${value}`,
+      label: value,
+      onRemove: () => removeFacet("languages", value),
+    })),
+    ...selectedFrameworks.map((value) => ({
+      key: `framework-${value}`,
+      label: value,
+      onRemove: () => removeFacet("frameworks", value),
+    })),
+    ...selectedPlatforms.map((value) => ({
+      key: `platform-${value}`,
+      label: value,
+      onRemove: () => removeFacet("platforms", value),
+    })),
+    ...selectedDatabases.map((value) => ({
+      key: `database-${value}`,
+      label: value,
+      onRemove: () => removeFacet("databases", value),
+    })),
+    ...selectedCapabilities.map((value) => ({
+      key: `capability-${value}`,
+      label: value,
+      onRemove: () => removeFacet("capabilities", value),
+    })),
+    ...selectedProjectTypes.map((value) => ({
+      key: `projectType-${value}`,
+      label: value,
+      onRemove: () => removeFacet("projectTypes", value),
+    })),
+    ...selectedDomains.map((value) => ({
+      key: `domain-${value}`,
+      label: value,
+      onRemove: () => removeFacet("domains", value),
+    })),
+    ...selectedSubjects.map((value) => ({
+      key: `subject-${value}`,
+      label: value,
+      onRemove: () => removeFacet("subjects", value),
+    })),
+    ...selectedKeywords.map((value) => ({
+      key: `keyword-${value}`,
+      label: value,
+      onRemove: () => removeFacet("keywords", value),
+    })),
+    ...selectedAudiences.map((value) => ({
+      key: `audience-${value}`,
+      label: value,
+      onRemove: () => removeFacet("audiences", value),
+    })),
+    ...selectedContentTypes.map((value) => ({
+      key: `contentType-${value}`,
+      label: value,
+      onRemove: () => removeFacet("contentTypes", value),
+    })),
+    ...selectedDataTypes.map((value) => ({
+      key: `dataType-${value}`,
+      label: value,
+      onRemove: () => removeFacet("dataTypes", value),
+    })),
+    ...selectedRoles.map((value) => ({
+      key: `role-${value}`,
+      label: value,
+      onRemove: () => removeFacet("roles", value),
+    })),
+    ...selectedHas.map((value) => ({
+      key: `has-${value}`,
+      label: getHasFacetLabel(value, locale),
+      onRemove: () => removeFacet("has", value),
+    })),
     ...(fromYear !== yearBounds.min || toYear !== yearBounds.max
-      ? [`${fromYear}-${toYear}`]
+      ? [
+          {
+            key: "year-range",
+            label: `${fromYear}-${toYear}`,
+            onRemove: () =>
+              commitFilters({
+                ...filters,
+                fromYear: yearBounds.min,
+                toYear: yearBounds.max,
+              }),
+          },
+        ]
       : []),
     ...(updatedPreset !== "any"
-      ? [getUpdatedPresetLabel(updatedPreset, locale)]
+      ? [
+          {
+            key: "updated",
+            label: getUpdatedPresetLabel(updatedPreset, locale),
+            onRemove: () =>
+              setSingleFilter({
+                updatedPreset: "any",
+              }),
+          },
+        ]
       : []),
   ];
 
-  function replaceParams(mutate: (params: URLSearchParams) => void) {
-    const nextParams = new URLSearchParams(
-      buildFilterQueryString(filters, yearBounds)
-    );
-    mutate(nextParams);
-    const queryString = nextParams.toString();
-    const nextFilters =
-      parseFilterState(
-        nextParams,
+  function commitFilters(nextFilters: FilterState) {
+    const normalizedFilters =
+      normalizeFilterState(
+        nextFilters,
+        yearBounds
+      );
+    const queryString =
+      serializeFilterState(
+        normalizedFilters,
         yearBounds
       );
 
-    setFilters(nextFilters);
+    setFilters(normalizedFilters);
+    setSearchVal(normalizedFilters.q);
 
     startTransition(() => {
       router.replace(queryString ? `${pathname}?${queryString}` : pathname, {
@@ -439,51 +355,60 @@ export function ProjectExplorer({
     });
   }
 
-  function setSingleParam(key: string, value?: string) {
-    replaceParams((params) => {
-      if (!value) {
-        params.delete(key);
-        return;
-      }
-
-      params.set(key, value);
+  function setSingleFilter(
+    values: Partial<
+      Pick<
+        FilterState,
+        "sort" | "viewMode" | "updatedPreset" | "q"
+      >
+    >
+  ) {
+    commitFilters({
+      ...filters,
+      ...values,
     });
   }
 
-  function toggleParam(key: string, value: string) {
-    replaceParams((params) => {
-      const current = params.getAll(key);
-      const next = current.includes(value)
-        ? current.filter((item) => item !== value)
-        : [...current, value];
-
-      params.delete(key);
-      next.forEach((item) => params.append(key, item));
-      if (key === "technology") {
-        params.delete("tech");
-      }
-    });
+  function toggleFacet<T extends FilterListKey>(
+    key: T,
+    value: FilterState[T][number]
+  ) {
+    commitFilters(
+      toggleFilterValue(
+        filters,
+        key,
+        value,
+        yearBounds
+      )
+    );
   }
 
   function setYearRange(bound: "from" | "to", value: number) {
-    replaceParams((params) => {
-      const nextFrom = bound === "from" ? value : fromYear;
-      const nextTo = bound === "to" ? value : toYear;
-      const normalizedFrom = Math.min(nextFrom, nextTo);
-      const normalizedTo = Math.max(nextFrom, nextTo);
-
-      if (normalizedFrom === yearBounds.min) {
-        params.delete("from");
-      } else {
-        params.set("from", String(normalizedFrom));
-      }
-
-      if (normalizedTo === yearBounds.max) {
-        params.delete("to");
-      } else {
-        params.set("to", String(normalizedTo));
-      }
+    commitFilters({
+      ...filters,
+      fromYear:
+        bound === "from"
+          ? value
+          : fromYear,
+      toYear:
+        bound === "to"
+          ? value
+          : toYear,
     });
+  }
+
+  function removeFacet<T extends FilterListKey>(
+    key: T,
+    value: FilterState[T][number]
+  ) {
+    commitFilters(
+      removeFilterValue(
+        filters,
+        key,
+        value,
+        yearBounds
+      )
+    );
   }
 
   function clearFilters() {
@@ -564,7 +489,11 @@ export function ProjectExplorer({
 
                 <select
                   value={sort}
-                  onChange={(event) => setSingleParam("sort", event.target.value)}
+                  onChange={(event) =>
+                    setSingleFilter({
+                      sort: event.target.value as ProjectSort,
+                    })
+                  }
                   aria-label={text.sort}
                   className="h-12 rounded-xl border border-border bg-background px-4 text-sm outline-none"
                 >
@@ -575,13 +504,13 @@ export function ProjectExplorer({
                 </select>
 
                 <div className="flex h-12 gap-1 rounded-xl border border-border p-1">
-                  <ViewButton active={viewMode === "grid"} label={text.gridView} onClick={() => setSingleParam("view", "grid")}>
+                  <ViewButton active={viewMode === "grid"} label={text.gridView} onClick={() => setSingleFilter({ viewMode: "grid" })}>
                     <Grid2X2 className="h-4 w-4" />
                   </ViewButton>
-                  <ViewButton active={viewMode === "list"} label={text.listView} onClick={() => setSingleParam("view", "list")}>
+                  <ViewButton active={viewMode === "list"} label={text.listView} onClick={() => setSingleFilter({ viewMode: "list" })}>
                     <List className="h-4 w-4" />
                   </ViewButton>
-                  <ViewButton active={viewMode === "catalog"} label={text.catalogView} onClick={() => setSingleParam("view", "catalog")}>
+                  <ViewButton active={viewMode === "catalog"} label={text.catalogView} onClick={() => setSingleFilter({ viewMode: "catalog" })}>
                     <BookOpen className="h-4 w-4" />
                   </ViewButton>
                 </div>
@@ -615,7 +544,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedCategories.includes(option.value as ProjectCategory)}
-                      onChange={() => toggleParam("category", option.value)}
+                      onChange={() => toggleFacet("categories", option.value as ProjectCategory)}
                     />
                   ))}
                 </FilterGroup>
@@ -626,7 +555,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedStatuses.includes(option.value as ProjectStatus)}
-                      onChange={() => toggleParam("status", option.value)}
+                      onChange={() => toggleFacet("statuses", option.value as ProjectStatus)}
                     />
                   ))}
                 </FilterGroup>
@@ -645,7 +574,7 @@ export function ProjectExplorer({
                   <SelectFacet
                     label={text.updated}
                     value={updatedPreset}
-                    onChange={(value) => setSingleParam("updated", value === "any" ? undefined : value)}
+                    onChange={(value) => setSingleFilter({ updatedPreset: value as UpdatedPreset })}
                     options={[
                       { value: "any", label: text.updatedAny },
                       { value: "30d", label: text.updated30d },
@@ -661,7 +590,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedProjectTypes.includes(option.value)}
-                      onChange={() => toggleParam("projectType", option.value)}
+                      onChange={() => toggleFacet("projectTypes", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -672,7 +601,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedDomains.includes(option.value)}
-                      onChange={() => toggleParam("domain", option.value)}
+                      onChange={() => toggleFacet("domains", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -683,7 +612,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedAudiences.includes(option.value)}
-                      onChange={() => toggleParam("audience", option.value)}
+                      onChange={() => toggleFacet("audiences", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -694,7 +623,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedHas.includes(option.value as HasFacet)}
-                      onChange={() => toggleParam("has", option.value)}
+                      onChange={() => toggleFacet("has", option.value as HasFacet)}
                     />
                   ))}
                 </FilterGroup>
@@ -705,7 +634,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedTechnologies.includes(option.value)}
-                      onChange={() => toggleParam("technology", option.value)}
+                      onChange={() => toggleFacet("technologies", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -716,7 +645,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedLanguages.includes(option.value)}
-                      onChange={() => toggleParam("language", option.value)}
+                      onChange={() => toggleFacet("languages", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -727,7 +656,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedFrameworks.includes(option.value)}
-                      onChange={() => toggleParam("framework", option.value)}
+                      onChange={() => toggleFacet("frameworks", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -738,7 +667,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedPlatforms.includes(option.value)}
-                      onChange={() => toggleParam("platform", option.value)}
+                      onChange={() => toggleFacet("platforms", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -749,7 +678,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedDatabases.includes(option.value)}
-                      onChange={() => toggleParam("database", option.value)}
+                      onChange={() => toggleFacet("databases", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -760,7 +689,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedContentTypes.includes(option.value)}
-                      onChange={() => toggleParam("contentType", option.value)}
+                      onChange={() => toggleFacet("contentTypes", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -771,7 +700,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedDataTypes.includes(option.value)}
-                      onChange={() => toggleParam("dataType", option.value)}
+                      onChange={() => toggleFacet("dataTypes", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -782,7 +711,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedRoles.includes(option.value)}
-                      onChange={() => toggleParam("role", option.value)}
+                      onChange={() => toggleFacet("roles", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -793,7 +722,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedCapabilities.includes(option.value)}
-                      onChange={() => toggleParam("capability", option.value)}
+                      onChange={() => toggleFacet("capabilities", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -804,7 +733,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedSubjects.includes(option.value)}
-                      onChange={() => toggleParam("subject", option.value)}
+                      onChange={() => toggleFacet("subjects", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -815,7 +744,7 @@ export function ProjectExplorer({
                       key={option.value}
                       option={option}
                       checked={selectedKeywords.includes(option.value)}
-                      onChange={() => toggleParam("keyword", option.value)}
+                      onChange={() => toggleFacet("keywords", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -836,15 +765,18 @@ export function ProjectExplorer({
                 )}
               </div>
 
-              {activeFilterLabels.length > 0 && (
+              {activeFilterChips.length > 0 && (
                 <div className="mb-6 flex flex-wrap gap-2">
-                  {activeFilterLabels.map((label) => (
-                    <span
-                      key={label}
-                      className="rounded-full border border-primary/25 bg-primary/10 px-3 py-1 text-xs font-medium text-primary"
+                  {activeFilterChips.map((chip) => (
+                    <button
+                      key={chip.key}
+                      type="button"
+                      onClick={chip.onRemove}
+                      className="inline-flex items-center gap-1.5 rounded-full border border-primary/25 bg-primary/10 px-3 py-1 text-xs font-medium text-primary transition-colors hover:bg-primary/15"
                     >
-                      {label}
-                    </span>
+                      {chip.label}
+                      <X className="h-3 w-3" />
+                    </button>
                   ))}
                 </div>
               )}
@@ -1090,326 +1022,6 @@ function ViewButton({
       {children}
     </button>
   );
-}
-
-function countOptions(values: string[]): FacetOption[] {
-  const counts = new Map<string, number>();
-  values
-    .filter((value) => value.trim().length > 0)
-    .forEach((value) => counts.set(value, (counts.get(value) ?? 0) + 1));
-
-  return Array.from(counts.entries())
-    .sort((a, b) => {
-      if (b[1] !== a[1]) return b[1] - a[1];
-      return a[0].localeCompare(b[0]);
-    })
-    .map(([value, count]) => ({
-      value,
-      label: value,
-      count,
-    }));
-}
-
-function getYearBounds(projects: Project[]) {
-  const years = projects.map((project) => project.year);
-  return {
-    min: Math.min(...years),
-    max: Math.max(...years),
-  };
-}
-
-function createDefaultFilterState(
-  yearBounds: {
-    min: number;
-    max: number;
-  }
-): FilterState {
-  return {
-    q: "",
-    categories: [],
-    statuses: [],
-    technologies: [],
-    languages: [],
-    frameworks: [],
-    platforms: [],
-    databases: [],
-    capabilities: [],
-    projectTypes: [],
-    domains: [],
-    subjects: [],
-    keywords: [],
-    audiences: [],
-    contentTypes: [],
-    dataTypes: [],
-    roles: [],
-    has: [],
-    fromYear: yearBounds.min,
-    toYear: yearBounds.max,
-    updatedPreset: "any",
-    sort: "featured",
-    viewMode: "grid",
-  };
-}
-
-function parseFilterState(
-  params: URLSearchParams,
-  yearBounds: {
-    min: number;
-    max: number;
-  }
-): FilterState {
-  return {
-    q: params.get("q") ?? "",
-    categories: parseCategories(params.getAll("category")),
-    statuses: parseStatuses(params.getAll("status")),
-    technologies: getUniqueParams(params, "technology", "tech"),
-    languages: params.getAll("language"),
-    frameworks: params.getAll("framework"),
-    platforms: params.getAll("platform"),
-    databases: params.getAll("database"),
-    capabilities: params.getAll("capability"),
-    projectTypes: params.getAll("projectType"),
-    domains: params.getAll("domain"),
-    subjects: params.getAll("subject"),
-    keywords: params.getAll("keyword"),
-    audiences: params.getAll("audience"),
-    contentTypes: params.getAll("contentType"),
-    dataTypes: params.getAll("dataType"),
-    roles: params.getAll("role"),
-    has: parseHasFacets(params.getAll("has")),
-    fromYear: parseBoundedYear(params.get("from"), yearBounds.min, yearBounds.max),
-    toYear: parseBoundedYear(params.get("to"), yearBounds.max, yearBounds.max),
-    updatedPreset: parseUpdatedPreset(params.get("updated")),
-    sort: parseSort(params.get("sort")),
-    viewMode: parseViewMode(params.get("view")),
-  };
-}
-
-function buildFilterQueryString(
-  filters: FilterState,
-  yearBounds: {
-    min: number;
-    max: number;
-  }
-) {
-  const params =
-    new URLSearchParams();
-
-  if (filters.q) params.set("q", filters.q);
-  appendAll(params, "category", filters.categories);
-  appendAll(params, "status", filters.statuses);
-  appendAll(params, "technology", filters.technologies);
-  appendAll(params, "language", filters.languages);
-  appendAll(params, "framework", filters.frameworks);
-  appendAll(params, "platform", filters.platforms);
-  appendAll(params, "database", filters.databases);
-  appendAll(params, "capability", filters.capabilities);
-  appendAll(params, "projectType", filters.projectTypes);
-  appendAll(params, "domain", filters.domains);
-  appendAll(params, "subject", filters.subjects);
-  appendAll(params, "keyword", filters.keywords);
-  appendAll(params, "audience", filters.audiences);
-  appendAll(params, "contentType", filters.contentTypes);
-  appendAll(params, "dataType", filters.dataTypes);
-  appendAll(params, "role", filters.roles);
-  appendAll(params, "has", filters.has);
-
-  if (filters.fromYear !== yearBounds.min) {
-    params.set("from", String(filters.fromYear));
-  }
-
-  if (filters.toYear !== yearBounds.max) {
-    params.set("to", String(filters.toYear));
-  }
-
-  if (filters.updatedPreset !== "any") {
-    params.set("updated", filters.updatedPreset);
-  }
-
-  if (filters.sort !== "featured") {
-    params.set("sort", filters.sort);
-  }
-
-  if (filters.viewMode !== "grid") {
-    params.set("view", filters.viewMode);
-  }
-
-  return params.toString();
-}
-
-function appendAll(
-  params: URLSearchParams,
-  key: string,
-  values: string[]
-) {
-  values.forEach((value) => {
-    params.append(key, value);
-  });
-}
-
-function parseBoundedYear(
-  value: string | null,
-  fallback: number,
-  max: number
-) {
-  const parsed = Number(value);
-  if (!Number.isFinite(parsed)) {
-    return fallback;
-  }
-
-  return Math.min(Math.max(parsed, 1900), max);
-}
-
-function parseUpdatedPreset(value: string | null): UpdatedPreset {
-  if (value === "30d" || value === "90d" || value === "1y") {
-    return value;
-  }
-
-  return "any";
-}
-
-function matchesUpdatedPreset(updatedAt: string, preset: UpdatedPreset) {
-  if (preset === "any") {
-    return true;
-  }
-
-  const updatedTime = new Date(updatedAt).getTime();
-  if (!Number.isFinite(updatedTime)) {
-    return false;
-  }
-
-  const days = preset === "30d" ? 30 : preset === "90d" ? 90 : 365;
-  const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
-  return updatedTime >= cutoff;
-}
-
-function includesAny(source: string[], selected: string[]) {
-  if (selected.length === 0) return true;
-  return selected.some((value) => source.includes(value));
-}
-
-function getUniqueParams(searchParams: URLSearchParams, key: string, legacyKey?: string) {
-  return Array.from(
-    new Set([
-      ...searchParams.getAll(key),
-      ...(legacyKey ? searchParams.getAll(legacyKey) : []),
-    ])
-  );
-}
-
-function projectMatchesHas(project: Project, value: HasFacet) {
-  switch (value) {
-    case "github":
-      return project.links.some((link) => link.kind === "github");
-    case "demo":
-      return project.links.some((link) => link.kind === "live" || link.kind === "video") ||
-        project.media.some((item) => item.type === "video");
-    case "media":
-      return Boolean(project.coverImage) || project.media.length > 0;
-    case "documentation":
-      return project.links.some((link) => link.kind === "documentation" || link.kind === "article");
-    case "featured":
-      return project.featured;
-    case "needs-review":
-      return Boolean(project.metadata.needsReview);
-  }
-}
-
-function getHasFacetLabel(value: HasFacet, locale: PortfolioLocale) {
-  const labels: Record<PortfolioLocale, Record<HasFacet, string>> = {
-    "zh-TW": {
-      github: "有 GitHub",
-      demo: "有 Demo",
-      media: "有截圖或媒體",
-      documentation: "有文件",
-      featured: "精選作品",
-      "needs-review": "需要人工確認",
-    },
-    en: {
-      github: "Has GitHub",
-      demo: "Has demo",
-      media: "Has screenshots or media",
-      documentation: "Has documentation",
-      featured: "Featured",
-      "needs-review": "Needs review",
-    },
-  };
-
-  return labels[locale][value];
-}
-
-function getUpdatedPresetLabel(
-  value: UpdatedPreset,
-  locale: PortfolioLocale
-) {
-  const labels: Record<
-    PortfolioLocale,
-    Record<UpdatedPreset, string>
-  > = {
-    "zh-TW": {
-      any: "不限時間",
-      "30d": "最近 30 天",
-      "90d": "最近 90 天",
-      "1y": "最近一年",
-    },
-    en: {
-      any: "Any time",
-      "30d": "Last 30 days",
-      "90d": "Last 90 days",
-      "1y": "Last year",
-    },
-  };
-
-  return labels[locale][value];
-}
-
-function parseCategories(values: string[]): ProjectCategory[] {
-  return values.filter((value): value is ProjectCategory =>
-    categories.includes(value as ProjectCategory)
-  );
-}
-
-function parseStatuses(values: string[]): ProjectStatus[] {
-  return values.filter((value): value is ProjectStatus =>
-    statuses.includes(value as ProjectStatus)
-  );
-}
-
-function parseHasFacets(values: string[]): HasFacet[] {
-  return values.filter((value): value is HasFacet =>
-    hasFacetValues.includes(value as HasFacet)
-  );
-}
-
-function parseSort(value: string | null): ProjectSort {
-  const values: ProjectSort[] = ["featured", "newest", "oldest", "title"];
-  return values.includes(value as ProjectSort) ? (value as ProjectSort) : "featured";
-}
-
-function parseViewMode(value: string | null): ProjectViewMode {
-  if (value === "list") return "list";
-  if (value === "catalog") return "catalog";
-  return "grid";
-}
-
-function sortProjects(
-  a: Project,
-  b: Project,
-  sort: ProjectSort,
-  locale: PortfolioLocale
-) {
-  switch (sort) {
-    case "newest":
-      return new Date(b.metadata.updatedAt).getTime() - new Date(a.metadata.updatedAt).getTime();
-    case "oldest":
-      return new Date(a.metadata.updatedAt).getTime() - new Date(b.metadata.updatedAt).getTime();
-    case "title":
-      return a.content[locale].title.localeCompare(b.content[locale].title, locale);
-    case "featured":
-    default:
-      if (a.featured !== b.featured) return a.featured ? -1 : 1;
-      return b.year - a.year;
-  }
 }
 
 function getText(locale: PortfolioLocale) {

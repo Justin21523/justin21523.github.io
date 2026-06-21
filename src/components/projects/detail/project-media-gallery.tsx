@@ -21,6 +21,9 @@ import type {
   PortfolioLocale,
   ProjectMedia,
 } from "@/types/projects";
+import {
+  withBasePath,
+} from "@/lib/site-assets";
 
 interface ProjectMediaGalleryProps {
   media: ProjectMedia[];
@@ -112,20 +115,26 @@ export function ProjectMediaGallery({
                 playsInline
                 preload="metadata"
                 poster={
-                  selectedMedia.poster
+                  withBasePath(
+                    selectedMedia.poster
+                  )
                 }
                 className="h-full w-full object-contain"
               >
                 <source
                   src={
-                    selectedMedia.src
+                    withBasePath(
+                      selectedMedia.src
+                    )
                   }
                 />
               </video>
             ) : (
               <Image
                 src={
-                  selectedMedia.src
+                  withBasePath(
+                    selectedMedia.src
+                  ) ?? selectedMedia.src
                 }
                 alt={
                   selectedMedia.alt[
@@ -137,6 +146,10 @@ export function ProjectMediaGallery({
                   selectedMedia.featured
                 }
                 sizes="(max-width: 1280px) 100vw, 1200px"
+                onError={(event) => {
+                  event.currentTarget.style.opacity =
+                    "0";
+                }}
                 className="object-contain"
               />
             )}
@@ -204,11 +217,17 @@ export function ProjectMediaGallery({
                       {item.poster && (
                         <Image
                           src={
-                            item.poster
+                            withBasePath(
+                              item.poster
+                            ) ?? item.poster
                           }
                           alt=""
                           fill
                           sizes="160px"
+                          onError={(event) => {
+                            event.currentTarget.style.opacity =
+                              "0";
+                          }}
                           className="object-cover"
                         />
                       )}
@@ -219,10 +238,18 @@ export function ProjectMediaGallery({
                     </>
                   ) : (
                     <Image
-                      src={item.src}
+                      src={
+                        withBasePath(
+                          item.src
+                        ) ?? item.src
+                      }
                       alt=""
                       fill
                       sizes="160px"
+                      onError={(event) => {
+                        event.currentTarget.style.opacity =
+                          "0";
+                      }}
                       className="object-cover"
                     />
                   )}

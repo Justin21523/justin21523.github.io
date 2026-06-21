@@ -15,6 +15,11 @@ const nextConfig: NextConfig = {
   assetPrefix: isGithubPages
     ? "/justin-portfolio/"
     : undefined,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isGithubPages
+      ? "/justin-portfolio"
+      : "",
+  },
   images: {
     unoptimized: true,
     remotePatterns: [

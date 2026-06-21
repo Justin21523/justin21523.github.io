@@ -27,6 +27,9 @@ import type {
 import {
   statusLabels as projectStatusLabels,
 } from "@/lib/project-taxonomy";
+import {
+  withBasePath,
+} from "@/lib/site-assets";
 import type {
   PortfolioLocale,
   Project,
@@ -425,10 +428,18 @@ export function FeaturedProjectsSection({
                         {image ? (
                           <div className="relative aspect-[16/10] overflow-hidden border-b border-border bg-secondary">
                             <Image
-                              src={image}
+                              src={
+                                withBasePath(
+                                  image
+                                ) ?? image
+                              }
                               alt={imageAlt}
                               fill
                               sizes="(min-width: 1024px) 33vw, 100vw"
+                              onError={(event) => {
+                                event.currentTarget.style.opacity =
+                                  "0";
+                              }}
                               className="object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                           </div>

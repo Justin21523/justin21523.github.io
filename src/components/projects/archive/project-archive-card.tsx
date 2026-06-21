@@ -19,6 +19,9 @@ import {
   categoryLabels,
   statusLabels,
 } from "@/lib/project-taxonomy";
+import {
+  withBasePath,
+} from "@/lib/site-assets";
 
 import type {
   PortfolioLocale,
@@ -187,11 +190,16 @@ export function ProjectArchiveCard({
         };
 
   const image =
-    project.coverImage ??
+    project.media.find(
+      (item) =>
+        item.featured &&
+        item.type === "image"
+    )?.src ??
     project.media.find(
       (item) =>
         item.type === "image"
-    )?.src;
+    )?.src ??
+    project.coverImage;
 
   const features =
     content.features ?? [];
@@ -389,7 +397,10 @@ export function ProjectArchiveCard({
       >
         {image ? (
           <Image
-            src={image}
+            src={
+              withBasePath(image) ??
+              image
+            }
             alt={content.title}
             fill
             sizes={
@@ -397,6 +408,10 @@ export function ProjectArchiveCard({
                 ? "(max-width: 768px) 100vw, 384px"
                 : "(max-width: 768px) 100vw, 50vw"
             }
+            onError={(event) => {
+              event.currentTarget.style.opacity =
+                "0";
+            }}
             className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
           />
         ) : (

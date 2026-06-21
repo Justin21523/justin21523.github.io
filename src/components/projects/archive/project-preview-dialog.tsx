@@ -23,6 +23,9 @@ import {
 } from "motion/react";
 
 import { Link } from "@/i18n/navigation";
+import {
+  withBasePath,
+} from "@/lib/site-assets";
 
 import type {
   PortfolioLocale,
@@ -205,20 +208,26 @@ function PreviewContent({
             playsInline
             preload="metadata"
             poster={
-              featuredMedia.poster
+              withBasePath(
+                featuredMedia.poster
+              )
             }
             className="h-full w-full object-cover"
           >
             <source
               src={
-                featuredMedia.src
+                withBasePath(
+                  featuredMedia.src
+                )
               }
             />
           </video>
         ) : featuredMedia ? (
           <Image
             src={
-              featuredMedia.src
+              withBasePath(
+                featuredMedia.src
+              ) ?? featuredMedia.src
             }
             alt={
               featuredMedia.alt[
@@ -227,16 +236,26 @@ function PreviewContent({
             }
             fill
             sizes="(max-width: 1024px) 100vw, 1024px"
+            onError={(event) => {
+              event.currentTarget.style.opacity =
+                "0";
+            }}
             className="object-cover"
           />
         ) : project.coverImage ? (
           <Image
             src={
-              project.coverImage
+              withBasePath(
+                project.coverImage
+              ) ?? project.coverImage
             }
             alt={content.title}
             fill
             sizes="(max-width: 1024px) 100vw, 1024px"
+            onError={(event) => {
+              event.currentTarget.style.opacity =
+                "0";
+            }}
             className="object-cover"
           />
         ) : (
