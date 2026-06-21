@@ -1,20 +1,29 @@
 ---
-title: "Mission-Based RPG Engine"
-tagline: "A comprehensive, extensible mission-based RPG engine built with React, Three.js,..."
-summary: "A comprehensive, extensible mission-based RPG engine built with React, Three.js, and Zustand. This project provides a robust foundation for creating 3D RPGs wit..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using React Three Fiber, React, Tailwind CSS, Three.js, Zustand, TypeScript."
+title: "Polly RPG Game"
+tagline: "An interactive web, 3D scene, or game prototype practice project."
+summary: "Polly RPG Game is a learning-focused project with detected technology signals including React Three Fiber, React, Tailwind CSS, Three.js, Zustand, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
+solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
+outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
 highlights:
-  - "**Dynamic Area System:** Seamlessly transition between different map areas with localized rendering."
-  - "**Atmospheric Effects:** Integrated day/night cycles, dynamic weather (rain, snow), and biome-specific particles."
-  - "**Physics-Based World:** Powered by `@react-three/rapier` for realistic character movement and environmental collisions."
-  - "**Indoor/Outdoor Support:** Optimized rendering for both interior spaces and vast outdoor landscapes."
+  - "README signal: Dynamic Area System: Seamlessly transition between different map areas with localized rendering."
+  - "README signal: Atmospheric Effects: Integrated day/night cycles, dynamic weather rain, snow, and biome-specific particles."
+  - "README signal: Physics-Based World: Powered by @react-three/rapier for realistic character movement and environmental collisions."
+  - "README signal: Indoor/Outdoor Support: Optimized rendering for both interior spaces and vast outdoor landscapes."
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-A comprehensive, extensible mission-based RPG engine built with React, Three.js, and Zustand. This project provides a robust foundation for creating 3D RPGs with complex quest systems, dynamic environments, and integrated world-building tools.
+Polly RPG Game is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-- Dynamic Area System: Seamlessly transition between different map areas with localized rendering. - Atmospheric Effects: Integrated day/night cycles, dynamic weather (rain, snow), and biome-specific particles. - Physics-Based World: Powered by @react-three/rapier for realistic character movement and environmental collisions. - Indoor/Outdoor Support: Optimized rendering for both interior spaces and vast outdoor landscapes.
+The scanned project data points to React Three Fiber, React, Tailwind CSS, Three.js, Zustand, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+
+This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

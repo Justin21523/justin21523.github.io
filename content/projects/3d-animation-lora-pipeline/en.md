@@ -1,20 +1,29 @@
 ---
-title: "3D Animation LoRA Pipeline"
-tagline: "A comprehensive toolkit for training high-quality LoRA models for 3D animated ch..."
-summary: "A comprehensive toolkit for training high-quality LoRA models for 3D animated characters, specifically optimized for Pixar-style animation and other 3D CGI cont..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using ."
+title: "3d Animation Lora Pipeline"
+tagline: "An interactive web, 3D scene, or game prototype practice project."
+summary: "3d Animation Lora Pipeline is a learning-focused project with detected technology signals including detected project files and README signals. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
+solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
+outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
 highlights:
-  - "**Video Preprocessing**: Frame extraction with scene detection and interpolation"
-  - "**AI-Powered Segmentation**: Multi-layer segmentation optimized for 3D content"
-  - "**Smart Character Clustering**: CLIP-based clustering with interactive refinement"
-  - "**Auto Caption Generation**: BLIP2-powered caption generation"
+  - "README signal: Video Preprocessing: Frame extraction with scene detection and interpolation"
+  - "README signal: AI-Powered Segmentation: Multi-layer segmentation optimized for 3D content"
+  - "README signal: Smart Character Clustering: CLIP-based clustering with interactive refinement"
+  - "README signal: Auto Caption Generation: BLIP2-powered caption generation"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-A comprehensive toolkit for training high-quality LoRA models for 3D animated characters, specifically optimized for Pixar-style animation and other 3D CGI content.
+3d Animation Lora Pipeline is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-- Video Preprocessing: Frame extraction with scene detection and interpolation - AI-Powered Segmentation: Multi-layer segmentation optimized for 3D content - Smart Character Clustering: CLIP-based clustering with interactive refinement - Auto Caption Generation: BLIP2-powered caption generation - Quality Training Data: Automated dataset preparation with augmentation - LoRA Training: Integration with Kohyass for optimized training - Evaluation Tools: Comprehensive LoRA quality testing - CPU-Only Pose Data Preparation: MediaPipe-powered pose dete
+The scanned project data points to detected project files and README signals. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+
+This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

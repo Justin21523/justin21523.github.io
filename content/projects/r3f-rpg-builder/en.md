@@ -1,22 +1,29 @@
 ---
-title: "React Three Fiber RPG Builder"
-tagline: "A powerful, reusable RPG world-builder kit built with React Three Fiber, Rapier ..."
-summary: "A powerful, reusable RPG world-builder kit built with React Three Fiber, Rapier physics, and Zustand. This toolkit was designed to streamline the creation of 3D..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using React Three Fiber, React, Tailwind CSS, Three.js, Zustand, TypeScript."
+title: "R3f RPG Builder"
+tagline: "An interactive web, 3D scene, or game prototype practice project."
+summary: "R3f RPG Builder is a learning-focused project with detected technology signals including React Three Fiber, React, Tailwind CSS, Three.js, Zustand, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
+solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
+outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
 highlights:
-  - "**Auto-Discovery Asset System**: Drop `.glb` models or textures into `src/assets/`, and they are automatically detected and available in the editor via `import.meta.glob`."
-  - "**Integrated World Editor**: Toggle **Edit Mode (F1)** to place props, sculpt terrain, and dress your world with real-time gizmos."
-  - "**Advanced Terrain System**:"
-  - "Heightfield sculpting with multiple brush tools."
+  - "README signal: Auto-Discovery Asset System: Drop .glb models or textures into src/assets/, and they are automatically detected and available in the editor via import"
+  - "README signal: Integrated World Editor: Toggle Edit Mode F1 to place props, sculpt terrain, and dress your world with real-time gizmos."
+  - "README signal: Advanced Terrain System:"
+  - "README signal: Heightfield sculpting with multiple brush tools."
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-A powerful, reusable RPG world-builder kit built with React Three Fiber, Rapier physics, and Zustand. This toolkit was designed to streamline the creation of 3D RPG environments by providing an intuitive Edit Mode and an auto-discovery asset system.
+R3f RPG Builder is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-!Game Screenshot
+The scanned project data points to React Three Fiber, React, Tailwind CSS, Three.js, Zustand, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-Auto-Discovery Asset System: Drop .glb models or textures into src/assets/, and they are automatically detected and available in the editor via import.meta.glob.    Integrated World Editor: Toggle Edit Mode (F1) to place props, sculpt terrain, and dress your world with real-time gizmos.    Advanced Terrain System:    Heightfield sculpting with multiple brush tools.    Multi-material splatting (aut
+This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

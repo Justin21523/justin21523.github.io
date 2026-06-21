@@ -1,24 +1,29 @@
 ---
-title: "AquaRush 🌊"
-tagline: "A 3D endless waterslide game built as a learning project for modern web game dev..."
-summary: "A 3D endless waterslide game built as a learning project for modern web game development."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using React Three Fiber, React, Three.js, Zustand, Tailwind CSS, TypeScript."
+title: "Aqua Rush"
+tagline: "An interactive web, 3D scene, or game prototype practice project."
+summary: "Aqua Rush is a learning-focused project with detected technology signals including React Three Fiber, React, Three.js, Zustand, Tailwind CSS, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
+solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
+outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
 highlights:
-  - "[Vite](https://vitejs.dev/) — build tool"
-  - "[React 18](https://react.dev/) — UI"
-  - "[TypeScript](https://www.typescriptlang.org/) — type safety"
-  - "[Three.js](https://threejs.org/) — 3D engine"
+  - "README signal: Vitehttps://vitejs.dev/ — build tool"
+  - "README signal: React 18https://react.dev/ — UI"
+  - "README signal: TypeScripthttps://www.typescriptlang.org/ — type safety"
+  - "README signal: Three.jshttps://threejs.org/ — 3D engine"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-A 3D endless waterslide game built as a learning project for modern web game development.
+Aqua Rush is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-> Roll, slide, and steer a ball down a procedurally generated, colorful > waterslide. Collect coins, hit boosters, dodge obstacles, and choose > your path at every fork. How far can you go?
+The scanned project data points to React Three Fiber, React, Three.js, Zustand, Tailwind CSS, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-!AquaRush Gameplay
+This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
 
-- Vite — build tool - React 18 — UI - TypeScript — type safety - Three.js — 3D engine - React Three Fiber — declarative Three.js - @react-three/drei — useful R3F helpers - Zustand — lightweight state management - [Tailwind CSS](h
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

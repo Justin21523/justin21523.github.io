@@ -1,20 +1,29 @@
 ---
-title: "Commercial ML Analysis Platform"
-tagline: "A production-grade Traditional ML e-commerce analytics and prediction system bui..."
-summary: "A production-grade Traditional ML e-commerce analytics and prediction system built for large-scale Amazon dataset analysis (tens of GB). Features CPU-optimized ..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Python, Plotly."
+title: "Commercial Ml Analysis"
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Commercial Ml Analysis is a learning-focused project with detected technology signals including Python, Plotly. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "[Features](#-features)"
-  - "[Tech Stack](#-tech-stack)"
-  - "[Project Structure](#-project-structure)"
-  - "[Quick Start](#-quick-start)"
+  - "README signal: Tech Stack-tech-stack"
+  - "README signal: Project Structure-project-structure"
+  - "README signal: Quick Start-quick-start"
+  - "README signal: Data Preparation-data-preparation"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-A production-grade Traditional ML e-commerce analytics and prediction system built for large-scale Amazon dataset analysis (tens of GB). Features CPU-optimized feature engineering, model training with hyperparameter optimization, drift monitoring, continuous training pipelines, and interactive dashboards.
+Commercial Ml Analysis is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-- Features - Tech Stack - Project Structure - Quick Start - Installation - Data Preparation - Usage - ETL Pipeline - Feature Engineering - Model Training - Drift Monitoring - [Continuous Training](#continuous-trainin
+The scanned project data points to Python, Plotly. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

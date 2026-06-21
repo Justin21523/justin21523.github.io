@@ -1,26 +1,29 @@
 ---
-title: "ReactAI Game Website（React + Vite）"
-tagline: "此專案是「React + Vite」前端，並在 /battle 掛載 Phaser 3 來製作「橫向 2D 平台格鬥」原型。目前已具備： - HP 制的快節奏 ..."
-summary: "此專案是「React + Vite」前端，並在 /battle 掛載 Phaser 3 來製作「橫向 2D 平台格鬥」原型。目前已具備： - HP 制的快節奏 1v1 對戰（暫以幾何方塊呈現） - 雙 AI（AI vs AI）：兩邊都用同一套 Behavior Tree（BT）原理產生 intent，降低人工測試成本 ..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Phaser, React, Tailwind CSS."
+title: "Ai Game Website"
+tagline: "An interactive web, 3D scene, or game prototype practice project."
+summary: "Ai Game Website is a learning-focused project with detected technology signals including Phaser, React, Tailwind CSS. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
+solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
+outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
 highlights:
-  - "**HP 制**的快節奏 1v1 對戰（暫以幾何方塊呈現）"
-  - "**雙 AI（AI vs AI）**：兩邊都用同一套 Behavior Tree（BT）原理產生 intent，降低人工測試成本"
-  - "**BT 實驗室（JSON）**：可編輯/儲存 BT，並套用到對戰頁"
-  - "**可解釋資料（debug）**：BT trace / reasons / blackboard 摘要可輸出給 UI 顯示"
+  - "README signal: HP 制的快節奏 1v1 對戰（暫以幾何方塊呈現）"
+  - "README signal: 雙 AI（AI vs AI）：兩邊都用同一套 Behavior Tree（BT）原理產生 intent，降低人工測試成本"
+  - "README signal: BT 實驗室（JSON）：可編輯/儲存 BT，並套用到對戰頁"
+  - "README signal: 可解釋資料（debug）：BT trace / reasons / blackboard 摘要可輸出給 UI 顯示"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-此專案是「React + Vite」前端，並在 /battle 掛載 Phaser 3 來製作「橫向 2D 平台格鬥」原型。目前已具備： - HP 制的快節奏 1v1 對戰（暫以幾何方塊呈現） - 雙 AI（AI vs AI）：兩邊都用同一套 Behavior Tree（BT）原理產生 intent，降低人工測試成本 - BT 實驗室（JSON）：可編輯/儲存 BT，並套用到對戰頁 - 可解釋資料（debug）：BT trace / reasons / blackboard 摘要可輸出給 UI 顯示
+Ai Game Website is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-環境需求（Vite 6）：Node ^18.0.0 || ^20.0.0 || >=22.0.0
+The scanned project data points to Phaser, React, Tailwind CSS. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-在專案根目錄執行： bash npm ci npm run dev
+This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
 
-常用指令： - npm run dev：啟動開發伺服器（HMR）。 - npm run build：建置正式版到 dist/。 - npm run preview：在本機預覽 dist/。 - npm run lint：執行 ESLint（可加 -- --fix）。
-
-- /：預設入口（會導向 /battle，一進站就能看到 AI 對戰） - /battle：對戰（Phaser 場景；預設 AI vs AI，可切換任一邊為人類鍵盤控制；可一鍵重新開始） - /menu：選單/首頁（可選） - /lab/bt：Behavior Tree 實驗室（JSON）
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

@@ -2,7 +2,7 @@
   "visibility": "public",
   "featured": false,
   "category": "information-system",
-  "status": "completed",
+  "status": "prototype",
   "year": 2026,
   "technologies": [
     "Three.js",

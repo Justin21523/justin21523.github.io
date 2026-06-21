@@ -1,22 +1,29 @@
 ---
 title: "Elio Discord Bot"
-tagline: "A production-ready Discord bot with LLM (fine-tuned personas), RAG, VLM (images)..."
-summary: "A production-ready Discord bot with LLM (fine-tuned personas), RAG, VLM (images), agent-style orchestration, proactive jobs, DM games, and multi-persona routing..."
-role: "獨立開發者"
-problem: "在此描述專案所解決的痛點以及系統實作細節。"
-solution: "建立基於 React, TypeScript 的解決方案。"
+tagline: "互動式 Web、3D 場景或遊戲原型練習專案。"
+summary: "Elio Discord Bot 是一個以 React、TypeScript 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
+role: "獨立開發者 / 學習型專案實作者"
+problem: "這個專案用來練習互動體驗中的場景結構、操作回饋、狀態變化與使用者流程。"
+solution: "我根據專案中的技術線索與 README 內容，將它整理成一個以互動設計、場景控制與原型驗證為主的作品案例。"
+outcome: "目前適合作為 3D Web、遊戲式介面或互動原型的學習型作品。"
 highlights:
-  - "[Features](#features)"
-  - "[How To Use (Discord)](#how-to-use-discord)"
-  - "[Auto-Replies: `/assistant`](#auto-replies-assistant)"
-  - "[Scene Threads: `/scene`](#scene-threads-scene)"
+  - "README 顯示：How To Use Discordhow-to-use-discord"
+  - "README 顯示：Auto-Replies: /assistantauto-replies-assistant"
+  - "README 顯示：Scene Threads: /scenescene-threads-scene"
+  - "README 顯示：Server Admin Setup: /config-assistantserver-admin-setup-config-assistant"
 challenges:
-  - "技術挑戰一..."
+  - "需要從 README 與原始碼中整理出可信、可展示的專案範圍。"
+  - "需要把技術名詞轉換成清楚的功能、資料流與學習成果。"
+  - "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
 nextSteps:
-  - "下一步計畫一..."
+  - "補齊更完整的中英文案例研究與操作截圖。"
+  - "確認 GitHub、Demo、文件與素材是否適合公開展示。"
+  - "依完成度補強測試、README 與部署或執行說明。"
 ---
-A production-ready Discord bot with LLM (fine-tuned personas), RAG, VLM (images), agent-style orchestration, proactive jobs, DM games, and multi-persona routing—all packaged for Docker and tuned for real workloads.
+Elio Discord Bot 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
 
-> TL;DR: It’s live, fast, and fun. You get persona-true replies, lore-grounded answers, and scheduled content out of the box.
+從掃描資料來看，這個專案的主要技術線索包含 React、TypeScript。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。
 
-- Features - How To Use (Discord) - Auto-Replies: /assistant - Scene Threads: /scene - Server Admin Setup: /config-assistant - Architecture - Requirements - Quick Start (Docker) - [Configuration](#configuration
+這個專案用來練習互動體驗中的場景結構、操作回饋、狀態變化與使用者流程。 我根據專案中的技術線索與 README 內容，將它整理成一個以互動設計、場景控制與原型驗證為主的作品案例。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。
+
+後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。

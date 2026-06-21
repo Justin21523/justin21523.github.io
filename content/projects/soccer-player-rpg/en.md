@@ -1,23 +1,28 @@
 ---
-title: "星途足球社 / Stargarden Soccer Club (soccer-player-rpg)"
-tagline: "An original Web 3D campus soccer life-RPG built Edit-Mode-first: every object in..."
-summary: "An original Web 3D campus soccer life-RPG built Edit-Mode-first: every object in the world (buildings, NPCs, the soccer field, triggers, waypoints, cameras, lig..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using React Three Fiber, React, Tailwind CSS, Three.js, Zustand, TypeScript."
+title: "Soccer Player RPG"
+tagline: "An interactive web, 3D scene, or game prototype practice project."
+summary: "Soccer Player RPG is a learning-focused project with detected technology signals including React Three Fiber, React, Tailwind CSS, Three.js, Zustand, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
+solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
+outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
 highlights:
-  - "包含完整原始碼"
-  - "採用現代技術架構開發"
-  - "支援響應式網頁介面"
+  - "Uses or involves React Three Fiber, React, Tailwind CSS, Three.js, Zustand, TypeScript."
+  - "Organizes features, data, and interface flow as a portfolio practice project."
+  - "Uses conservative wording so the project is not presented as a finished production product."
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-An original Web 3D campus soccer life-RPG built Edit-Mode-first: every object in the world (buildings, NPCs, the soccer field, triggers, waypoints, cameras, lights) is a data-driven EditableSceneObject you can select, gizmo-transform, edit, save, and replay — and the same data drives Play Mode. All content is original (no IP).
+Soccer Player RPG is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-bash npm install npm run dev        # http://localhost:3001
+The scanned project data points to React Three Fiber, React, Tailwind CSS, Three.js, Zustand, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-> :3000 is squatted by another local dev server, so this game runs on :3001. e2e uses :4317.
+This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
 
-bash npm run typecheck   # tsc -b npm run lint        # eslint npm run test        # vitest (unit) npm run build       # tsc -b && vite build npm run e2e         # playwright smoke (installs chromium on
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

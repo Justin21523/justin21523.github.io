@@ -1,26 +1,29 @@
 ---
-title: "🚀 Excel to Python Advanced Analytics - 進階資料分析實戰專案"
-tagline: "> 20 週密集訓練 | 50+ 實戰案例 | 5 個作品集專案 | 100% 電商/零售情境"
-summary: "> 20 週密集訓練 | 50+ 實戰案例 | 5 個作品集專案 | 100% 電商/零售情境"
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Python, Plotly."
+title: "Excel Python Data Analysis"
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Excel Python Data Analysis is a learning-focused project with detected technology signals including Python, Plotly. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "掌握 pandas 進階技巧（MultiIndex、效能優化、複雜計算）"
-  - "精通 openpyxl 自動化產生精美 Excel 報表"
-  - "建立健壯的 ETL 自動化工作流程"
-  - "實作企業常用的商業分析模型（RFM、Cohort、CLV、ABC）"
+  - "README signal: 掌握 pandas 進階技巧（MultiIndex、效能優化、複雜計算）"
+  - "README signal: 精通 openpyxl 自動化產生精美 Excel 報表"
+  - "README signal: 實作企業常用的商業分析模型（RFM、Cohort、CLV、ABC）"
+  - "README signal: 完成 5 個可直接放入作品集的真實專案"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-> 20 週密集訓練 | 50+ 實戰案例 | 5 個作品集專案 | 100% 電商/零售情境
+Excel Python Data Analysis is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-這是一套完整的「從 Excel 進階技巧到 Python 資料分析專家」的學習專案，專為已有 Python 基礎、熟悉 pandas 但需要大量實戰經驗的學習者設計。
+The scanned project data points to Python, Plotly. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-- 掌握 pandas 進階技巧（MultiIndex、效能優化、複雜計算） - 精通 openpyxl 自動化產生精美 Excel 報表 - 建立健壯的 ETL 自動化工作流程 - 實作企業常用的商業分析模型（RFM、Cohort、CLV、ABC） - 完成 5 個可直接放入作品集的真實專案
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
 
-- 總時長： 18-20 週（約 4.5-5 個月） - 每週投入： 20+ 小時（平日 3-4h，週末 5-6h） - 總時數： 410 小時 - 產出： 50+ 案例 + 5 個完整專案
-
-100% 電商/零售業情境 - 訂單分析 - 客戶行為分析 - 商品銷售分析 - 庫存管理 - 物流配送 - KPI 儀表板
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

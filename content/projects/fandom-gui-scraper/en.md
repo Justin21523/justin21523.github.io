@@ -1,19 +1,26 @@
 ---
-title: "🎯 Fandom Scraper (Web + Worker + Optional Desktop GUI)"
-tagline: "A job-based Fandom scraper with a web frontend connected to a backend API + work..."
-summary: "A job-based Fandom scraper with a web frontend connected to a backend API + worker (Scrapy + optional Playwright), plus an optional PyQt desktop GUI."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using ."
+title: "Fandom Gui Scraper"
+tagline: "A desktop application and local data workflow practice project."
+summary: "Fandom Gui Scraper is a learning-focused project with detected technology signals including detected project files and README signals. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice splitting a fuller workflow into data models, desktop UI, state handling, and local persistence instead of building only one screen."
+solution: "Based on the scanned README, technology signals, and project structure, I organized the core workflow, tools, and current demonstrable learning outcomes with conservative wording."
+outcome: "It currently works best as a learning-focused desktop application, database, and workflow modeling case study."
 highlights:
-  - "**API + Worker separation**: API only does `create job / status / stop`, scraping runs in a separ"
+  - "README signal: API + Worker separation: API only does create job / status / stop, scraping runs in a separ"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-A job-based Fandom scraper with a web frontend connected to a backend API + worker (Scrapy + optional Playwright), plus an optional PyQt desktop GUI.
+Fandom Gui Scraper is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-!Web UI - Jobs
+The scanned project data points to detected project files and README signals. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-- API + Worker separation: API only does create job / status / stop, scraping runs in a separ
+This project is used to practice splitting a fuller workflow into data models, desktop UI, state handling, and local persistence instead of building only one screen. Based on the scanned README, technology signals, and project structure, I organized the core workflow, tools, and current demonstrable learning outcomes with conservative wording. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

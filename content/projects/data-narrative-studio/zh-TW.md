@@ -1,20 +1,28 @@
 ---
 title: "Data Narrative Studio"
-tagline: "以資料敘事與互動視覺化為主題的網頁應用作品。"
-summary: "以資料敘事與互動視覺化為主題的網頁應用作品，練習將資料整理成清楚、可閱讀、可互動的呈現方式。"
-role: "獨立開發者"
-problem: "資料如果只被表格或靜態圖表呈現，使用者不一定能快速理解脈絡、重點與可探索的方向。"
-solution: "以 React、Next.js、TypeScript 與 Tailwind CSS 建立資料敘事介面，練習把資料整理、視覺化呈現與互動探索整合在同一個作品中。"
+tagline: "資料處理、AI、分析或自動化流程練習專案。"
+summary: "Data Narrative Studio 是一個以 Next.js、React、Tailwind CSS、TypeScript 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
+role: "獨立開發者 / 學習型專案實作者"
+problem: "這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。"
+solution: "我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。"
+outcome: "目前適合作為資料整理、分析、自動化或 AI 應用流程的學習型作品。"
 highlights:
-  - "練習資料整理與視覺化呈現"
-  - "設計可閱讀、可互動的資料敘事流程"
-  - "將資料不只是顯示出來，而是整理成可以被理解與探索的介面"
+  - "README 顯示：🎨 Story Renderer: Supports fluid rendering of multiple block types including text, charts, and insights."
+  - "README 顯示：📊 Multi-dimensional Visualization: Integrates ECharts and Recharts for rich, interactive data presentation."
+  - "README 顯示：🔍 Dataset Browser: Easily explore, filter, and export"
 challenges:
-  - "TODO：補上實際資料來源、圖表類型與互動功能"
+  - "需要從 README 與原始碼中整理出可信、可展示的專案範圍。"
+  - "需要把技術名詞轉換成清楚的功能、資料流與學習成果。"
+  - "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
 nextSteps:
-  - "補齊資料來源與視覺化設計說明"
-  - "整理互動功能與使用者操作流程"
+  - "補齊更完整的中英文案例研究與操作截圖。"
+  - "確認 GitHub、Demo、文件與素材是否適合公開展示。"
+  - "依完成度補強測試、README 與部署或執行說明。"
 ---
-Data Narrative Studio 是以資料敘事與互動視覺化為主題的網頁應用作品，主要用來練習如何將資料整理成清楚、可閱讀、可互動的呈現方式。
+Data Narrative Studio 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
 
-我在這個專案中練習資料整理、視覺化呈現、互動式介面設計，以及如何讓資料不只是被顯示，而是能被理解與探索。
+從掃描資料來看，這個專案的主要技術線索包含 Next.js、React、Tailwind CSS、TypeScript。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。
+
+這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。 我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。
+
+後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。

@@ -9,35 +9,35 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Justin",
-    "title": "Frontend Engineer",
-    "description": "I love crafting elegant, efficient, and user-friendly digital experiences. Specialized in React, Next.js, and modern frontend technologies.",
+    "title": "Junior Developer Learner",
+    "description": "I’m practicing web applications, data organization, interactive interfaces, and digital tools connected to my library information background.",
     "cta": "Explore My Work"
   },
   "about": {
     "profile": {
       "title": "Profile",
-      "subtitle": "Get to know me",
+      "subtitle": "Library information background, self-learning, and project direction",
       "bio_title": "About Me",
-      "interests_title": "Interests",
+      "interests_title": "Focus Areas",
       "contact_title": "Contact"
     },
     "skills": {
-      "title": "Skills",
-      "subtitle": "My technical abilities",
+      "title": "Skills & Learning Tools",
+      "subtitle": "Technologies I mainly use, currently learn, and keep practicing",
       "frontend": "Frontend",
-      "backend": "Backend",
+      "backend": "Programming & Data",
       "tools": "Tools",
-      "design": "Design"
+      "design": "Information Organization"
     },
     "experience": {
-      "title": "Experience",
-      "subtitle": "My career journey",
+      "title": "Learning & Project Timeline",
+      "subtitle": "Self-learning, portfolio projects, and library information background",
       "current": "Current",
-      "achievements": "Key Achievements"
+      "achievements": "Learning Focus"
     },
     "education": {
       "title": "Education",
-      "subtitle": "Academic background"
+      "subtitle": "Library information background and self-directed programming path"
     },
     "projects": {
         "title": "Projects",

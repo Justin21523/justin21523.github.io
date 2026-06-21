@@ -1,20 +1,28 @@
 ---
 title: "Data Narrative Studio"
-tagline: "A web application project focused on data storytelling and interactive visualization."
-summary: "A web application project focused on data storytelling and interactive visualization, practicing how to organize data into clear, readable, and explorable presentations."
-role: "Independent Developer"
-problem: "When data is only presented as tables or static charts, users may struggle to understand the context, key points, and possible directions for exploration."
-solution: "Built a data storytelling interface with React, Next.js, TypeScript, and Tailwind CSS, practicing how to combine data organization, visualization, and interactive exploration in one project."
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Data Narrative Studio is a learning-focused project with detected technology signals including Next.js, React, Tailwind CSS, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "Practiced data organization and visual presentation"
-  - "Designed a readable and interactive data storytelling flow"
-  - "Turned data from static display into an interface that can be understood and explored"
+  - "README signal: 🎨 Story Renderer: Supports fluid rendering of multiple block types including text, charts, and insights."
+  - "README signal: 📊 Multi-dimensional Visualization: Integrates ECharts and Recharts for rich, interactive data presentation."
+  - "README signal: 🔍 Dataset Browser: Easily explore, filter, and export"
 challenges:
-  - "TODO: Add the actual data source, chart types, and interaction details"
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Complete the data source and visualization design notes"
-  - "Document the interaction features and user flow"
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-Data Narrative Studio is a web application project focused on data storytelling and interactive visualization. It is used to practice turning data into a clear, readable, and interactive presentation.
+Data Narrative Studio is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-In this project, I practiced data organization, visual presentation, interactive interface design, and how to make data something users can understand and explore rather than only view.
+The scanned project data points to Next.js, React, Tailwind CSS, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

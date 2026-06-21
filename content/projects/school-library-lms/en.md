@@ -1,26 +1,29 @@
 ---
-title: "中小學雲端圖書館系統（Lean School Library LMS）"
-tagline: "繁體中文 | English"
-summary: "繁體中文 | English"
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using ."
+title: "School Library Lms"
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "School Library Lms is a learning-focused project with detected technology signals including detected project files and README signals. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "**領域知識與參考資料**（A–J 章：編目、分類、主題分析、Metadata、檢索、館藏管理、流通、使用者、資訊行為、倫理政策）"
-  - "**可直接落地的 MVP 規格**（user stories、API 草案、資料字典、DB schema）"
-  - "**可直接跑起來的 MVP+ 程式**（TypeScript monorepo：NestJS API + Next.js Web + shared SSOT）"
-  - "文件已整理成「可開發」：`MVP-SPEC.md`、`USER-STORIES.md`、`API-DRAFT.md`、`DATA-DICTIONARY.md`、`db/schema.sql`"
+  - "README signal: 領域知識與參考資料（A–J 章：編目、分類、主題分析、Metadata、檢索、館藏管理、流通、使用者、資訊行為、倫理政策）"
+  - "README signal: 可直接落地的 MVP 規格（user stories、API 草案、資料字典、DB schema）"
+  - "README signal: 可直接跑起來的 MVP+ 程式（TypeScript monorepo：NestJS API + Next.js Web + shared SSOT）"
+  - "README signal: 文件已整理成「可開發」：MVP-SPEC.md、USER-STORIES.md、API-DRAFT.md、DATA-DICTIONARY.md、db/schema.sql"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-繁體中文 | English
+School Library Lms is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-!系統入口（Staff Console / OPAC）
+The scanned project data points to detected project files and README signals. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-本專案目標是打造一套適合台灣中小學、在人力不足與預算有限情境下可快速導入的雲端圖書館管理系統（LMS）。目前已可在同一套系統內跑通：編目（MARC21）→ 館藏 → 流通/預約 → 盤點 → 報表/稽核。此倉庫同時包含： - 領域知識與參考資料（A–J 章：編目、分類、主題分析、Metadata、檢索、館藏管理、流通、使用者、資訊行為、倫理政策） - 可直接落地的 MVP 規格（user stories、API 草案、資料字典、DB schema） - 可直接跑起來的 MVP+ 程式（TypeScript monorepo：NestJS API + Next.js Web + shared SSOT）
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
 
-> 如果你不熟 TypeScript/Next.js/NestJS，先從 docs/README.md 開始讀。
-
-- 文件已整理成「可開發」：MVP-SPEC.md、USER-STORIES.md、API-DRAFT.md、DATA-DICTIONARY.md、db/schema.sql - 程式已能端到端操作（MVP+ 版本）：apps/api 已落地主檔/名冊 CSV 匯入/書目與冊管理/CSV + MARC 匯入（preview/apply）/MARC 編輯器驗證/權威控制（authorityterms + thesaurus）/進階搜尋（欄位多選 + AND/OR/NOT）/借還續借/預約與到期處理（含
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

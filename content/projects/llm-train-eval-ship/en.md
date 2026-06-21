@@ -1,22 +1,29 @@
 ---
-title: "LLM Train-Eval-Ship"
-tagline: "A portfolio-ready, one-click pipeline to fine-tune LLMs, auto-evaluate, and depl..."
-summary: "A portfolio-ready, one-click pipeline to fine-tune LLMs, auto-evaluate, and deploy via vLLM or TGI with shared model caches. Includes FastAPI skeleton, cache pa..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Python."
+title: "Llm Train Eval Ship"
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Llm Train Eval Ship is a learning-focused project with detected technology signals including Python. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "**One-click flow**: dataset upload → fine-tune → auto-eval → deploy."
-  - "**Deploy engines**: vLLM or TGI (OpenAI/HF compatible)."
-  - "**Shared caches**: `HF_HOME / TRANSFORMERS_CACHE / HF_HUB_CACHE` to avoid re-downloading."
-  - "**Canary & rollback** (roadmap): traffic shift and safe fallback."
+  - "README signal: One-click flow: dataset upload → fine-tune → auto-eval → deploy."
+  - "README signal: Deploy engines: vLLM or TGI OpenAI/HF compatible."
+  - "README signal: Shared caches: HFHOME / TRANSFORMERSCACHE / HFHUBCACHE to avoid re-downloading."
+  - "README signal: Canary & rollback roadmap: traffic shift and safe fallback."
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-A portfolio-ready, one-click pipeline to fine-tune LLMs, auto-evaluate, and deploy via vLLM or TGI with shared model caches. Includes FastAPI skeleton, cache path prints, and ready-to-extend hooks for LoRA/DPO, RAG/Agent, and HIL feedback.
+Llm Train Eval Ship is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-- One-click flow: dataset upload → fine-tune → auto-eval → deploy. - Deploy engines: vLLM or TGI (OpenAI/HF compatible). - Shared caches: HFHOME / TRANSFORMERSCACHE / HFHUBCACHE to avoid re-downloading. - Canary & rollback (roadmap): traffic shift and safe fallback. - Extensible: LoRA/PEFT, DPO, RAG tools whitelist, AutoEval dashboards.
+The scanned project data points to Python. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-bash python3 -m venv .venv && source .venv/bin/activate pip install -r requirements.txt export MODELSTOREROOT=/
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

@@ -25,9 +25,16 @@ export function getProjectBySlug(
 export function getProjectsBySlugs(
   slugs: string[]
 ): Project[] {
-  return projects.filter((project) =>
-    slugs.includes(project.slug)
-  );
+  return slugs
+    .map((slug) =>
+      getProjectBySlug(slug)
+    )
+    .filter(
+      (
+        project
+      ): project is Project =>
+        Boolean(project)
+    );
 }
 
 

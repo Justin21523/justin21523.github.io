@@ -1,24 +1,29 @@
 ---
-title: "TripScore"
-tagline: "TripScore is a rule-based, explainable destination scoring and recommendation sy..."
-summary: "TripScore is a rule-based, explainable destination scoring and recommendation system."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Python, FastAPI."
+title: "Tripscore"
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Tripscore is a learning-focused project with detected technology signals including Python, FastAPI. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "Destination catalog (sample Taipei POIs)"
-  - "TDX-based accessibility proxy (bus + metro stations + YouBike last-mile)"
-  - "Origin-aware proximity signal (distance-based, configurable)"
-  - "Weather-based suitability (rain probability + temperature)"
+  - "README signal: Destination catalog sample Taipei POIs"
+  - "README signal: TDX-based accessibility proxy bus + metro stations + YouBike last-mile"
+  - "README signal: Origin-aware proximity signal distance-based, configurable"
+  - "README signal: Weather-based suitability rain probability + temperature"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-TripScore is a rule-based, explainable destination scoring and recommendation system.
+Tripscore is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-Phase 1 (MVP) includes: - Destination catalog (sample Taipei POIs) - TDX-based accessibility proxy (bus + metro stations + YouBike last-mile) - Origin-aware proximity signal (distance-based, configurable) - Weather-based suitability (rain probability + temperature) - Tag-based preference matching - Context scoring (crowd risk + family-friendly) - Optional congestion proxy via parking availability (TDX, if supported) - Explainable composite score - CLI demo, REST API, and a minimal web UI
+The scanned project data points to Python, FastAPI. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-Pipeline modules follow: ingestion → features → scoring → recommender → api → web.
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
 
-Key paths: - data/catalogs/destinations.json — sample destination catalog (30+ points) - src/tripsco
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

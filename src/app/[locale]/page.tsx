@@ -16,6 +16,7 @@ import {
   type HomeLocale,
 } from "@/data/home";
 import {
+  getProjectsBySlugs,
   normalizePortfolioLocale,
 } from "@/lib/projects";
 
@@ -78,6 +79,12 @@ export default async function HomePage({
 
   const content =
     homeContent[locale];
+  const featuredProjects =
+    getProjectsBySlugs([
+      "cafe-net-manager",
+      "ArchiveFlow",
+      "research-paper-and-knowledge-workspace",
+    ]);
 
   return (
     <main className="overflow-x-clip">
@@ -87,6 +94,8 @@ export default async function HomePage({
 
       <FeaturedProjectsSection
         content={content.featured}
+        projects={featuredProjects}
+        locale={locale}
       />
 
       <DomainsSection

@@ -1,24 +1,29 @@
 ---
-title: "CharaForge T2I Lab"
-tagline: "Text-to-Image generation + LoRA fine-tuning lab with a FastAPI backend and a Rea..."
-summary: "Text-to-Image generation + LoRA fine-tuning lab with a FastAPI backend and a React frontend."
-role: "獨立開發者"
-problem: "此欄位需要依 README 與實際程式碼人工確認。"
-solution: "此欄位需要依 實際技術棧 與系統架構人工補寫。"
+title: "Charaforge T2I Lab"
+tagline: "桌面應用與本機資料流程練習專案。"
+summary: "Charaforge T2I Lab 是一個以 目前掃描到的專案檔案與 README 線索 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
+role: "獨立開發者 / 學習型專案實作者"
+problem: "這個專案用來練習如何把較完整的操作流程拆成資料模型、桌面介面、狀態管理與本機儲存，而不是只做單一畫面。"
+solution: "我依照掃描到的 README、技術設定與專案結構，整理出核心流程、使用技術與目前可展示的重點，並以保守方式描述其學習成果。"
+outcome: "目前適合作為桌面應用、資料庫與工作流程建模的學習型作品。"
 highlights:
-  - "Code: `/mnt/c/ai_projects/charaforge-T2I-Lab`"
-  - "Models: `/mnt/c/ai_models`"
-  - "Caches (HF/Torch/pip): `/mnt/c/ai_cache` (never `~/.cache`)"
-  - "Datasets: `/mnt/data/datasets/<project_slug>/...`"
+  - "README 顯示：Code: /mnt/c/aiprojects/charaforge-T2I-Lab"
+  - "README 顯示：Models: /mnt/c/aimodels"
+  - "README 顯示：Caches HF/Torch/pip: /mnt/c/aicache never ~/.cache"
+  - "README 顯示：Datasets: /mnt/data/datasets/<projectslug/..."
 challenges:
-  - "需要補充真實技術挑戰。"
+  - "需要從 README 與原始碼中整理出可信、可展示的專案範圍。"
+  - "需要把技術名詞轉換成清楚的功能、資料流與學習成果。"
+  - "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
 nextSteps:
-  - "補齊截圖、Demo 與完整案例研究。"
+  - "補齊更完整的中英文案例研究與操作截圖。"
+  - "確認 GitHub、Demo、文件與素材是否適合公開展示。"
+  - "依完成度補強測試、README 與部署或執行說明。"
 ---
-Text-to-Image generation + LoRA fine-tuning lab with a FastAPI backend and a React frontend.
+Charaforge T2I Lab 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
 
-This repo follows ~/Desktop/datamodelstructure.md: - Code: /mnt/c/aiprojects/charaforge-T2I-Lab - Models: /mnt/c/aimodels - Caches (HF/Torch/pip): /mnt/c/aicache (never ~/.cache) - Datasets: /mnt/data/datasets/<projectslug>/... - Training runs/outputs: /mnt/data/training/runs/<projectslug>/...
+從掃描資料來看，這個專案的主要技術線索包含 目前掃描到的專案檔案與 README 線索。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。
 
-Model folders:  /mnt/c/aimodels/ stable-diffusion/sd15/<name>/modelindex.json stable-diffusion/sdxl/<name>/modelindex.json controlnet/<name>/ lora/.safetensors
+這個專案用來練習如何把較完整的操作流程拆成資料模型、桌面介面、狀態管理與本機儲存，而不是只做單一畫面。 我依照掃描到的 README、技術設定與專案結構，整理出核心流程、使用技術與目前可展示的重點，並以保守方式描述其學習成果。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。
 
-bash conda env create -f environment.yml conda activate aienv python scripts/checkaienv.py python -c "import peft,re
+後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。

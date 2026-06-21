@@ -1,18 +1,29 @@
 ---
-title: "SD Multi-Modal Platform"
-tagline: "- 啟用環境：conda activate aienv - 依照 ~/Desktop/datamodelstructure.md： - 模型：/mnt/c/ai..."
-summary: "- 啟用環境：conda activate aienv - 依照 ~/Desktop/datamodelstructure.md： - 模型：/mnt/c/aimodels - 快取：/mnt/c/aicache（建議設定 HFHOME/TRANSFORMERSCACHE/TORCHHOME/XDGCACHEHOME）..."
-role: "獨立開發者"
-problem: "在此描述專案所解決的痛點以及系統實作細節。"
-solution: "建立基於 Python, FastAPI 的解決方案。"
+title: "Sd Multimodal Platform"
+tagline: "桌面應用與本機資料流程練習專案。"
+summary: "Sd Multimodal Platform 是一個以 Python、FastAPI 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
+role: "獨立開發者 / 學習型專案實作者"
+problem: "這個專案用來練習如何把較完整的操作流程拆成資料模型、桌面介面、狀態管理與本機儲存，而不是只做單一畫面。"
+solution: "我依照掃描到的 README、技術設定與專案結構，整理出核心流程、使用技術與目前可展示的重點，並以保守方式描述其學習成果。"
+outcome: "目前適合作為桌面應用、資料庫與工作流程建模的學習型作品。"
 highlights:
-  - "啟用環境：`conda activate ai_env`"
-  - "依照 `~/Desktop/data_model_structure.md`："
-  - "模型：`/mnt/c/ai_models`"
-  - "快取：`/mnt/c/ai_cache`（建議設定 `HF_HOME`/`TRANSFORMERS_CACHE`/`TORCH_HOME`/`XDG_CACHE_HOME`）"
+  - "README 顯示：啟用環境：conda activate aienv"
+  - "README 顯示：依照 ~/Desktop/datamodelstructure.md："
+  - "README 顯示：模型：/mnt/c/aimodels"
+  - "README 顯示：快取：/mnt/c/aicache（建議設定 HFHOME/TRANSFORMERSCACHE/TORCHHOME/XDGCACHEHOME）"
 challenges:
-  - "技術挑戰一..."
+  - "需要從 README 與原始碼中整理出可信、可展示的專案範圍。"
+  - "需要把技術名詞轉換成清楚的功能、資料流與學習成果。"
+  - "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
 nextSteps:
-  - "下一步計畫一..."
+  - "補齊更完整的中英文案例研究與操作截圖。"
+  - "確認 GitHub、Demo、文件與素材是否適合公開展示。"
+  - "依完成度補強測試、README 與部署或執行說明。"
 ---
-- 啟用環境：conda activate aienv - 依照 ~/Desktop/datamodelstructure.md： - 模型：/mnt/c/aimodels - 快取：/mnt/c/aicache（建議設定 HFHOME/TRANSFORMERSCACHE/TORCHHOME/XDGCACHEHOME） - 產出：/mnt/data/training/runs/sd-multimodal-platform/outputs - 設定環境：cp .env.example .env（不要提交 secrets） - 啟動後端：uvicorn app.main:app --reload --host 0.0.0.0 --port 8000 - （可選）啟用非同步佇列（Redis + Celery worker）： - Redis（擇一）：redis-server 或 docker run -p 6379:6379 redis:7-alpine - Worker：celery -A app.workers.celeryworker worker --loglevel=info --queues=generation,postprocess - 啟動前端（React）：cd frontend/react && npm install && VITEAPIBASEURL=http://localhost:8000 npm run dev - API 文件：http://localhost:8000/api/v1/docs（健康檢查：http://localhost:800
+Sd Multimodal Platform 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
+
+從掃描資料來看，這個專案的主要技術線索包含 Python、FastAPI。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。
+
+這個專案用來練習如何把較完整的操作流程拆成資料模型、桌面介面、狀態管理與本機儲存，而不是只做單一畫面。 我依照掃描到的 README、技術設定與專案結構，整理出核心流程、使用技術與目前可展示的重點，並以保守方式描述其學習成果。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。
+
+後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。

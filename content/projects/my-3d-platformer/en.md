@@ -1,22 +1,27 @@
 ---
-title: "React + TypeScript + Vite"
-tagline: "This template provides a minimal setup to get React working in Vite with HMR and..."
-summary: "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using React Three Fiber, React, Three.js, TypeScript."
+title: "My 3d Platformer"
+tagline: "An interactive web, 3D scene, or game prototype practice project."
+summary: "My 3d Platformer is a learning-focused project with detected technology signals including React Three Fiber, React, Three.js, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
+solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
+outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
 highlights:
-  - "[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh"
-  - "[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh"
+  - "README signal: @vitejs/plugin-reacthttps://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react uses Babelhttps://babeljs.io/ or oxchttps://oxc.rs whe"
+  - "README signal: @vitejs/plugin-react-swchttps://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc uses SWChttps://swc.rs/ for Fast Refresh"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My 3d Platformer is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-Currently, two official plugins are available:
+The scanned project data points to React Three Fiber, React, Three.js, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-- @vitejs/plugin-react uses Babel (or oxc when used in rolldown-vite) for Fast Refresh - @vitejs/plugin-react-swc uses SWC for Fast Refresh
+This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see this documentation.
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

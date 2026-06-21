@@ -9,35 +9,35 @@
   "hero": {
     "greeting": "你好，我是",
     "name": "Justin",
-    "title": "前端工程師",
-    "description": "我熱愛打造優雅、高效且使用者友好的數位體驗。專注於 React、Next.js 和現代前端技術。",
+    "title": "Junior 工程學習者",
+    "description": "我正在透過自學與作品集專案練習網頁應用、資料整理、互動介面與圖書資訊相關數位工具。",
     "cta": "探索我的作品"
   },
   "about": {
     "profile": {
       "title": "個人簡介",
-      "subtitle": "認識我",
+      "subtitle": "圖書資訊背景、自學程式與作品方向",
       "bio_title": "關於我",
-      "interests_title": "興趣與專長",
+      "interests_title": "關注主題",
       "contact_title": "聯絡方式"
     },
     "skills": {
-      "title": "技能樹",
-      "subtitle": "我的技術能力",
+      "title": "技術與學習工具",
+      "subtitle": "目前主要使用、正在學習與持續練習的技術",
       "frontend": "前端開發",
-      "backend": "後端開發",
+      "backend": "程式與資料",
       "tools": "開發工具",
-      "design": "設計能力"
+      "design": "資訊組織"
     },
     "experience": {
-      "title": "工作經歷",
-      "subtitle": "我的職業歷程",
+      "title": "學習與專案歷程",
+      "subtitle": "自學程式、作品實作與圖書資訊背景的整合",
       "current": "目前",
-      "achievements": "主要成就"
+      "achievements": "學習重點"
     },
     "education": {
       "title": "教育背景",
-      "subtitle": "學歷與學習經歷"
+      "subtitle": "圖書資訊背景與程式自學路線"
     },
     "projects": {
       "title": "作品集",

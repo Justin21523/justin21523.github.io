@@ -1,20 +1,29 @@
 ---
-title: "starforge-AI-narrative"
-tagline: "- Activate env: conda activate aienv - Install deps (minimal): pip install fasta..."
-summary: "- Activate env: conda activate aienv - Install deps (minimal): pip install fastapi uvicorn pydantic httpx - Run API (mock LLM, no GPU): cd backend/app && uvicor..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using ."
+title: "Starforge AI Narrative"
+tagline: "An interactive web, 3D scene, or game prototype practice project."
+summary: "Starforge AI Narrative is a learning-focused project with detected technology signals including detected project files and README signals. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
+solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
+outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
 highlights:
-  - "Activate env: `conda activate ai_env`"
-  - "Install deps (minimal): `pip install fastapi uvicorn pydantic httpx`"
-  - "Run API (mock LLM, no GPU): `cd backend/app && uvicorn app.main:app --reload`"
-  - "Key routes:"
+  - "README signal: Activate env: conda activate aienv"
+  - "README signal: GET /health — health check"
+  - "README signal: POST /ai/dialogue — dialogue uses mock LLM by default"
+  - "README signal: GET /game/scenes, /game/npcs, /game/quests — static data"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-- Activate env: conda activate aienv - Install deps (minimal): pip install fastapi uvicorn pydantic httpx - Run API (mock LLM, no GPU): cd backend/app && uvicorn app.main:app --reload - Key routes: - GET /health — health check - POST /ai/dialogue — dialogue (uses mock LLM by default) - GET /game/scenes, /game/npcs, /game/quests — static data - GET /game/player/{playerId}/state — player/NPC stats (in-memory) - GET /game/player/{playerId}/quests — quest stages (in-memory) - GET /config — current mock flags & model paths - Tests: PYTHONPATH=backend pytest backend/tests (mock-only; no GPU/model needed)
+Starforge AI Narrative is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-- Install: cd client && npm install - Run: n
+The scanned project data points to detected project files and README signals. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+
+This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

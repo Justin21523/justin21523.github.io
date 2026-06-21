@@ -1,22 +1,29 @@
 ---
-title: "digital-living - Future of Digital Living"
-tagline: "// filepath: README.md"
-summary: "// filepath: README.md"
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using React, Tailwind CSS, TypeScript."
+title: "Digital Living"
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Digital Living is a learning-focused project with detected technology signals including React, Tailwind CSS, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "**Modern Tech Stack**: Built with React 18, TypeScript, Vite, and TailwindCSS"
-  - "**Responsive Design**: Fully responsive layout optimized for all devices"
-  - "**Smooth Animations**: Powered by Framer Motion for engaging user interactions"
-  - "**Glassmorphism UI**: Modern glass-effect components and navigation"
+  - "README signal: Modern Tech Stack: Built with React 18, TypeScript, Vite, and TailwindCSS"
+  - "README signal: Responsive Design: Fully responsive layout optimized for all devices"
+  - "README signal: Smooth Animations: Powered by Framer Motion for engaging user interactions"
+  - "README signal: Glassmorphism UI: Modern glass-effect components and navigation"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-// filepath: README.md
+Digital Living is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-A modern, responsive web application built with React, TypeScript, Vite, and Tailwind CSS. This project showcases advanced UI patterns, smooth animations, and a scalable architecture designed for future digital experiences.
+The scanned project data points to React, Tailwind CSS, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-- Modern Tech Stack: Built with React 18, TypeScript, Vite, and TailwindCSS - Responsive Design: Fully responsive layout optimized for all devices - Smooth Animations: Powered by Framer Motion for engaging user interactions - Glassmorphism UI: Modern glass-effect components and navigation - Dynamic Navigation: Multi-level dropdown menus and mobile-friendly hamburger menu - Scroll Progress: Real-time scroll progress bar and reveal animations - Component Architec
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

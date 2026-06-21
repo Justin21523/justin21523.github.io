@@ -1,20 +1,27 @@
 ---
-title: "Procedural 3D Maze"
-tagline: "A first-person procedural maze game prototype built with JavaScript (ES Modules)..."
-summary: "A first-person procedural maze game prototype built with JavaScript (ES Modules) and Three.js. Each run generates a new maze, then spawns missions, enemies, and..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Three.js."
+title: "3d Maze Explorer"
+tagline: "An interactive web, 3D scene, or game prototype practice project."
+summary: "3d Maze Explorer is a learning-focused project with detected technology signals including Three.js. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
+solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
+outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
 highlights:
-  - "**Endless levels + difficulty scaling**: `src/core/levelDirector.js`, `public/levels/*`, optional recipes in `public/level-recipes/*`"
-  - "**Missions + interactables + exit gati"
+  - "README signal: Endless levels + difficulty scaling: src/core/levelDirector.js, public/levels/, optional recipes in public/level-recipes/"
+  - "README signal: Missions + interactables + exit gati"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-A first-person procedural maze game prototype built with JavaScript (ES Modules) and Three.js. Each run generates a new maze, then spawns missions, enemies, and pickups from per-level JSON configuration. Complete the required objectives to unlock the exit and advance to the next level. After the base set of levels, the game can keep generating levels endlessly with difficulty scaling.
+3d Maze Explorer is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-This repo also includes an AI player (Autopilot) that takes over when the player is idle. Autopilot is intended for demos, stress testing, and iterating on missions/AI/tool balance.
+The scanned project data points to Three.js. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-- Endless levels + difficulty scaling: src/core/levelDirector.js, public/levels/, optional recipes in public/level-recipes/ - Missions + interactables + exit gati
+This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

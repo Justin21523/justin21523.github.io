@@ -1,20 +1,29 @@
 ---
-title: "DataLab Studio"
-tagline: "DataLab Studio is a personal data analysis, visualization, and reporting platfor..."
-summary: "DataLab Studio is a personal data analysis, visualization, and reporting platform. It provides a full-stack solution for importing, profiling, and previewing da..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Java, Maven, Spring Boot."
+title: "Datalab Studio"
+tagline: "A desktop application and local data workflow practice project."
+summary: "Datalab Studio is a learning-focused project with detected technology signals including Java, Maven, Spring Boot. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice splitting a fuller workflow into data models, desktop UI, state handling, and local persistence instead of building only one screen."
+solution: "Based on the scanned README, technology signals, and project structure, I organized the core workflow, tools, and current demonstrable learning outcomes with conservative wording."
+outcome: "It currently works best as a learning-focused desktop application, database, and workflow modeling case study."
 highlights:
-  - "**Multi-Module Architecture**: Built with a clean separation of concerns using a shared core package, a robust REST API, and a desktop client."
-  - "**Dataset Management**: Import CSV files with automatic column-type inference."
-  - "**Data Profiling**: Comprehensive data analysis including:"
-  - "Numeric statistics (Min, Max, Mean, Median, StdDev)."
+  - "README signal: Multi-Module Architecture: Built with a clean separation of concerns using a shared core package, a robust REST API, and a desktop client."
+  - "README signal: Dataset Management: Import CSV files with automatic column-type inference."
+  - "README signal: Data Profiling: Comprehensive data analysis including:"
+  - "README signal: Numeric statistics Min, Max, Mean, Median, StdDev."
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-DataLab Studio is a personal data analysis, visualization, and reporting platform. It provides a full-stack solution for importing, profiling, and previewing datasets with a modern Spring Boot backend and a JavaFX desktop client.
+Datalab Studio is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-- Multi-Module Architecture: Built with a clean separation of concerns using a shared core package, a robust REST API, and a desktop client. - Dataset Management: Import CSV files with automatic column-type inference. - Data Profiling: Comprehensive data analysis including: - Numeric statistics (Min, Max, Mean, Median, StdDev). - Category frequency analysis. - Duplicate row detection. - Missing value identification. - Desktop Preview: Interactive preview of large datasets with optimized loading. - Robust
+The scanned project data points to Java, Maven, Spring Boot. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+
+This project is used to practice splitting a fuller workflow into data models, desktop UI, state handling, and local persistence instead of building only one screen. Based on the scanned README, technology signals, and project structure, I organized the core workflow, tools, and current demonstrable learning outcomes with conservative wording. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

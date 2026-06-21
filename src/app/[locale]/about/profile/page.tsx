@@ -1,8 +1,15 @@
 import { getTranslations } from "next-intl/server";
-import { profileInfo } from "@/data/about";
+import { getAboutData } from "@/data/about";
 import { ProfileCard } from "@/components/about/profile-card";
 import { BioSection } from "@/components/about/bio-section";
 import { InterestsSection } from "@/components/about/interests-section";
+import { normalizePortfolioLocale } from "@/lib/projects";
+
+interface ProfilePageProps {
+  params: Promise<{
+    locale: string;
+  }>;
+}
 
 export async function generateMetadata() {
   const t = await getTranslations("about.profile");
@@ -12,17 +19,31 @@ export async function generateMetadata() {
   };
 }
 
-export default function ProfilePage() {
+export default async function ProfilePage({
+  params,
+}: ProfilePageProps) {
+  const { locale: localeParam } =
+    await params;
+  const locale =
+    normalizePortfolioLocale(
+      localeParam
+    );
+  const { profileInfo } =
+    getAboutData(locale);
+  const t = await getTranslations(
+    "about.profile"
+  );
+
   return (
     <div className="min-h-screen pt-24 pb-12 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            個人簡介
+            {t("title")}
           </h1>
           <p className="text-lg text-muted-foreground">
-            認識我
+            {t("subtitle")}
           </p>
         </div>
 

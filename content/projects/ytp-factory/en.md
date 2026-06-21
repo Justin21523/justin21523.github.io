@@ -1,24 +1,29 @@
 ---
-title: "YTP Factory"
-tagline: "AI-Driven YouTube Poop Generation System with Advanced Intelligence"
-summary: "AI-Driven YouTube Poop Generation System with Advanced Intelligence"
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Python."
+title: "Ytp Factory"
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Ytp Factory is a learning-focused project with detected technology signals including Python. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "6-stage automated pipeline with checkpoint/resume capability"
-  - "Multi-provider LLM support (Local/OpenAI/LLMVendor)"
-  - "Advanced TTS engines (XTTS, OpenAI TTS)"
-  - "4 YTP style presets with customization"
+  - "README signal: 6-stage automated pipeline with checkpoint/resume capability"
+  - "README signal: Multi-provider LLM support Local/OpenAI/LLMVendor"
+  - "README signal: Advanced TTS engines XTTS, OpenAI TTS"
+  - "README signal: 4 YTP style presets with customization"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-AI-Driven YouTube Poop Generation System with Advanced Intelligence
+Ytp Factory is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-YTP Factory is a comprehensive, fully automated AI system that transforms normal videos into high-quality YouTube Poop (YTP) content using cutting-edge AI technologies: multi-agent reasoning, RAG retrieval, machine learning models, and multimodal generation.
+The scanned project data points to Python. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-🤖 100% Automated • 🧠 AI Agents • 📚 RAG Memory • 🎨 Multimodal Generation • 🚀 Production-Ready
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
 
-Core Pipeline (P0-P2) ✅ 97% Complete - 6-stage automated pipeline with checkpoint/resume capability - Multi-provider LLM support (Local/OpenAI/LLMVendor) - Advanced TTS engines (XTTS, OpenAI TTS) - 4 YTP style presets with customization - Robust error handling and s
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

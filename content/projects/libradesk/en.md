@@ -1,20 +1,29 @@
 ---
-title: "LibraDesk"
-tagline: "LibraDesk is a comprehensive, desktop-based Library Information Management Syste..."
-summary: "LibraDesk is a comprehensive, desktop-based Library Information Management System (ILS) built with Java and JavaFX. It is designed to handle everything from bas..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Java, Maven."
+title: "Libradesk"
+tagline: "A desktop application and local data workflow practice project."
+summary: "Libradesk is a learning-focused project with detected technology signals including Java, Maven. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice splitting a fuller workflow into data models, desktop UI, state handling, and local persistence instead of building only one screen."
+solution: "Based on the scanned README, technology signals, and project structure, I organized the core workflow, tools, and current demonstrable learning outcomes with conservative wording."
+outcome: "It currently works best as a learning-focused desktop application, database, and workflow modeling case study."
 highlights:
-  - "**Circulation Management**: Checkout, check-in, renewals, and holds."
-  - "**Patron Management**: Detailed patron accounts, membership levels, and automated blocks (for fines or overdues)."
-  - "**Fine Management**: Typed charges (Overdue, Lost, Damaged), partial payments, and waive functionality."
-  - "**Reservation System**: Manage item holds with automated expiry for uncollected items."
+  - "README signal: Circulation Management: Checkout, check-in, renewals, and holds."
+  - "README signal: Patron Management: Detailed patron accounts, membership levels, and automated blocks for fines or overdues."
+  - "README signal: Fine Management: Typed charges Overdue, Lost, Damaged, partial payments, and waive functionality."
+  - "README signal: Reservation System: Manage item holds with automated expiry for uncollected items."
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-LibraDesk is a comprehensive, desktop-based Library Information Management System (ILS) built with Java and JavaFX. It is designed to handle everything from basic circulation and cataloging to professional bibliographic management using MARC21, authority control, and interoperability protocols.
+Libradesk is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-- Circulation Management: Checkout, check-in, renewals, and holds. - Patron Management: Detailed patron accounts, membership levels, and automated blocks (for fines or overdues). - Fine Management: Typed charges (Overdue, Lost, Damaged), partial payments, and waive functionality. - Reservation System: Manage item holds with automated expiry for uncollected items. - Notices: Automated due-soon, overdue, and hold-ready notifica
+The scanned project data points to Java, Maven. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+
+This project is used to practice splitting a fuller workflow into data models, desktop UI, state handling, and local persistence instead of building only one screen. Based on the scanned README, technology signals, and project structure, I organized the core workflow, tools, and current demonstrable learning outcomes with conservative wording. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

@@ -1,98 +1,393 @@
-import { ProfileInfo, Skill, Experience, Education } from "@/types/about";
+import type {
+  Education,
+  Experience,
+  ProfileInfo,
+  Skill,
+} from "@/types/about";
+import type {
+  PortfolioLocale,
+} from "@/types/projects";
 
-export const profileInfo: ProfileInfo = {
-  name: "Justin",
-  title: "Frontend Engineer",
-  location: "Taipei, Taiwan",
-  email: "justin@example.com",
-  bio: [
-    "我是一位熱愛創造的前端工程師，擁有 3 年以上的開發經驗。專注於使用 React、Next.js 和 TypeScript 打造高效能、可維護的網頁應用。",
-    "我相信優秀的程式碼不僅要能運作，更要具備可讀性與可擴展性。在日常工作中，我持續學習最新的前端技術，並致力於提升使用者體驗。",
-    "除了技術能力，我也重視團隊合作與溝通。我喜歡分享知識，參與開源社群，並持續挑戰自我。",
-  ],
-  interests: ["前端開發", "UI/UX 設計", "開源貢獻", "技術寫作", "攝影", "旅行"],
-  avatar: "/images/avatar.jpg",
+interface AboutData {
+  profileInfo: ProfileInfo;
+  skills: Skill[];
+  experiences: Experience[];
+  educations: Education[];
+}
+
+export const aboutData: Record<
+  PortfolioLocale,
+  AboutData
+> = {
+  "zh-TW": {
+    profileInfo: {
+      name: "Justin",
+      title:
+        "Junior Developer Learner / 圖書資訊背景",
+      location: "Taiwan",
+      email: "hello@example.com",
+      bio: [
+        "我是 Justin，目前正在透過自學與作品集專案累積程式開發經驗。我的主要學習方向是 Python、JavaScript、TypeScript 與網頁應用開發，並持續練習前端介面、資料整理、互動流程與應用程式架構。",
+        "我的背景與圖書資訊領域有關，因此我特別關注資料如何被描述、分類、檢索、組織與呈現。這也影響我的作品方向：我希望把 metadata、資訊組織、數位典藏、文獻管理與知識管理等概念，轉換成可以操作、可以擴充的數位工具。",
+        "我目前也正在補強 C++、C#、.NET、ASP.NET Core、Avalonia UI、Qt 與 SQLite。這些仍是學習中的技術，我會以桌面應用、後端 API 與資料庫練習作品來逐步累積完整的開發能力。",
+      ],
+      interests: [
+        "圖書資訊",
+        "Metadata",
+        "資訊組織",
+        "數位典藏",
+        "文獻管理",
+        "網頁應用",
+        "桌面應用學習",
+        "資料搜尋與篩選",
+      ],
+      avatar: "",
+    },
+    skills: [
+      {
+        name: "Python",
+        level: 70,
+        proficiency: "主要使用",
+        category: "backend",
+      },
+      {
+        name: "JavaScript",
+        level: 70,
+        proficiency: "主要使用",
+        category: "frontend",
+      },
+      {
+        name: "TypeScript",
+        level: 65,
+        proficiency: "主要使用",
+        category: "frontend",
+      },
+      {
+        name: "React",
+        level: 60,
+        proficiency: "持續練習",
+        category: "frontend",
+      },
+      {
+        name: "Next.js",
+        level: 60,
+        proficiency: "持續練習",
+        category: "frontend",
+      },
+      {
+        name: "Tailwind CSS",
+        level: 60,
+        proficiency: "持續練習",
+        category: "frontend",
+      },
+      {
+        name: "C# / .NET",
+        level: 40,
+        proficiency: "正在學習",
+        category: "backend",
+      },
+      {
+        name: "C++ / Qt",
+        level: 35,
+        proficiency: "正在學習",
+        category: "backend",
+      },
+      {
+        name: "SQLite",
+        level: 45,
+        proficiency: "正在學習",
+        category: "backend",
+      },
+      {
+        name: "Git / GitHub",
+        level: 60,
+        proficiency: "日常工具",
+        category: "tools",
+      },
+      {
+        name: "VS Code",
+        level: 60,
+        proficiency: "日常工具",
+        category: "tools",
+      },
+      {
+        name: "Linux Development",
+        level: 45,
+        proficiency: "持續練習",
+        category: "tools",
+      },
+      {
+        name: "Metadata Design",
+        level: 70,
+        proficiency: "背景強項",
+        category: "design",
+      },
+      {
+        name: "Search / Filtering UI",
+        level: 60,
+        proficiency: "作品練習",
+        category: "design",
+      },
+      {
+        name: "Information Architecture",
+        level: 70,
+        proficiency: "背景強項",
+        category: "design",
+      },
+    ],
+    experiences: [
+      {
+        company: "Portfolio Projects",
+        position:
+          "網頁應用與互動介面練習",
+        period: "Currently",
+        location: "Self-learning",
+        description:
+          "透過作品集專案練習 React、Next.js、TypeScript、資料整理、搜尋篩選與互動式介面。",
+        achievements: [
+          "建立資料敘事、知識工作區、數位典藏審查與 3D Web 互動等主題作品。",
+          "練習將資料欄位、狀態管理、使用者流程與 UI 元件拆成可維護的結構。",
+          "把圖書資訊背景中的 metadata、分類、檢索與知識組織概念放入作品設計。",
+        ],
+      },
+      {
+        company: "Desktop Application Learning",
+        position:
+          "C# / C++ 桌面應用學習",
+        period: "Currently",
+        location: "Self-learning",
+        description:
+          "透過 CafeNet Manager、ArchiveFlow Studio 與 Research Paper & Knowledge Workspace 練習桌面應用、資料庫與工作流程設計。",
+        achievements: [
+          "用 C#、.NET、Avalonia、SQLite 練習文獻管理、metadata workflow 與數位典藏相關介面。",
+          "用 C++、Qt、SQLite 練習座位、計時、訂單與營運流程的桌面管理系統。",
+          "理解桌面應用中的資料模型、狀態同步、repository layer 與本機資料儲存。",
+        ],
+      },
+      {
+        company: "Library & Information Science Background",
+        position:
+          "圖書資訊背景與技術轉換",
+        period: "Ongoing",
+        location: "Learning path",
+        description:
+          "將圖書資訊領域中的資料組織、metadata、檢索、數位典藏與知識管理概念轉換成軟體作品方向。",
+        achievements: [
+          "關注資料如何被描述、分類、搜尋、連結與呈現。",
+          "將文獻管理、檔案整理、典藏審查與知識工作區作為作品集主題。",
+          "持續補強後端 API、資料庫設計與未來 Java / Spring Boot 學習路線。",
+        ],
+      },
+    ],
+    educations: [
+      {
+        school:
+          "Library and Information Science Background",
+        degree: "圖書資訊相關背景",
+        period: "Background",
+        description:
+          "具備資訊組織、metadata、分類、檢索、數位典藏與知識管理相關概念，並將這些背景轉換成作品集中的資料與介面設計方向。",
+      },
+      {
+        school: "Self-directed Programming Learning",
+        degree: "程式語言與應用開發自學",
+        period: "Currently",
+        description:
+          "目前主要學習 Python、JavaScript、TypeScript 與 Web 開發，並逐步補強 C++、C#、.NET、ASP.NET Core、Avalonia UI、Qt、SQLite 與後端 API。",
+      },
+    ],
+  },
+  en: {
+    profileInfo: {
+      name: "Justin",
+      title:
+        "Junior Developer Learner / Library Information Background",
+      location: "Taiwan",
+      email: "hello@example.com",
+      bio: [
+        "I’m Justin, currently building programming experience through self-learning and portfolio projects. My main learning focus is Python, JavaScript, TypeScript, and web application development, especially frontend interfaces, data handling, interaction flows, and application structure.",
+        "My background is related to library and information science, so I’m interested in how data is described, classified, retrieved, organized, and presented. This shapes my project direction: I try to turn metadata, information organization, digital archives, literature management, and knowledge management concepts into usable digital tools.",
+        "I’m also learning C++, C#, .NET, ASP.NET Core, Avalonia UI, Qt, and SQLite. These are still learning areas for me, and I use desktop application, backend API, and database practice projects to gradually build broader development skills.",
+      ],
+      interests: [
+        "Library Information Science",
+        "Metadata",
+        "Information Organization",
+        "Digital Archives",
+        "Literature Management",
+        "Web Applications",
+        "Desktop App Learning",
+        "Search and Filtering",
+      ],
+      avatar: "",
+    },
+    skills: [
+      {
+        name: "Python",
+        level: 70,
+        proficiency: "Mainly using",
+        category: "backend",
+      },
+      {
+        name: "JavaScript",
+        level: 70,
+        proficiency: "Mainly using",
+        category: "frontend",
+      },
+      {
+        name: "TypeScript",
+        level: 65,
+        proficiency: "Mainly using",
+        category: "frontend",
+      },
+      {
+        name: "React",
+        level: 60,
+        proficiency: "Practicing",
+        category: "frontend",
+      },
+      {
+        name: "Next.js",
+        level: 60,
+        proficiency: "Practicing",
+        category: "frontend",
+      },
+      {
+        name: "Tailwind CSS",
+        level: 60,
+        proficiency: "Practicing",
+        category: "frontend",
+      },
+      {
+        name: "C# / .NET",
+        level: 40,
+        proficiency: "Currently learning",
+        category: "backend",
+      },
+      {
+        name: "C++ / Qt",
+        level: 35,
+        proficiency: "Currently learning",
+        category: "backend",
+      },
+      {
+        name: "SQLite",
+        level: 45,
+        proficiency: "Currently learning",
+        category: "backend",
+      },
+      {
+        name: "Git / GitHub",
+        level: 60,
+        proficiency: "Daily tool",
+        category: "tools",
+      },
+      {
+        name: "VS Code",
+        level: 60,
+        proficiency: "Daily tool",
+        category: "tools",
+      },
+      {
+        name: "Linux Development",
+        level: 45,
+        proficiency: "Practicing",
+        category: "tools",
+      },
+      {
+        name: "Metadata Design",
+        level: 70,
+        proficiency: "Background strength",
+        category: "design",
+      },
+      {
+        name: "Search / Filtering UI",
+        level: 60,
+        proficiency: "Project practice",
+        category: "design",
+      },
+      {
+        name: "Information Architecture",
+        level: 70,
+        proficiency: "Background strength",
+        category: "design",
+      },
+    ],
+    experiences: [
+      {
+        company: "Portfolio Projects",
+        position:
+          "Web Application and Interactive UI Practice",
+        period: "Currently",
+        location: "Self-learning",
+        description:
+          "I practice React, Next.js, TypeScript, data organization, search/filtering, and interactive interfaces through portfolio projects.",
+        achievements: [
+          "Built learning projects around data storytelling, knowledge workspaces, digital archive review, and 3D web interaction.",
+          "Practiced turning data fields, state management, user flows, and UI components into maintainable structures.",
+          "Applied metadata, classification, retrieval, and knowledge organization ideas from my LIS background.",
+        ],
+      },
+      {
+        company: "Desktop Application Learning",
+        position:
+          "C# / C++ Desktop Application Learning",
+        period: "Currently",
+        location: "Self-learning",
+        description:
+          "I use CafeNet Manager, ArchiveFlow Studio, and Research Paper & Knowledge Workspace to practice desktop applications, databases, and workflow design.",
+        achievements: [
+          "Practiced literature management, metadata workflows, and digital archive interfaces with C#, .NET, Avalonia, and SQLite.",
+          "Practiced a desktop operations system with C++, Qt, SQLite, seating, timed sessions, orders, and workflow modeling.",
+          "Studied data models, state synchronization, repository layers, and local persistence in desktop applications.",
+        ],
+      },
+      {
+        company: "Library & Information Science Background",
+        position:
+          "LIS Background and Technical Transition",
+        period: "Ongoing",
+        location: "Learning path",
+        description:
+          "I translate concepts from information organization, metadata, retrieval, digital archives, and knowledge management into software project ideas.",
+        achievements: [
+          "Focus on how data can be described, classified, searched, linked, and presented.",
+          "Use literature management, file organization, archive review, and knowledge workspaces as portfolio themes.",
+          "Continue strengthening backend APIs, database design, and future Java / Spring Boot learning plans.",
+        ],
+      },
+    ],
+    educations: [
+      {
+        school:
+          "Library and Information Science Background",
+        degree:
+          "Library and information related background",
+        period: "Background",
+        description:
+          "Background knowledge in information organization, metadata, classification, retrieval, digital archives, and knowledge management, now applied to data and interface design in portfolio projects.",
+      },
+      {
+        school: "Self-directed Programming Learning",
+        degree:
+          "Programming language and application development learning",
+        period: "Currently",
+        description:
+          "Currently focusing on Python, JavaScript, TypeScript, and web development while gradually learning C++, C#, .NET, ASP.NET Core, Avalonia UI, Qt, SQLite, and backend APIs.",
+      },
+    ],
+  },
 };
 
-export const skills: Skill[] = [
-  // Frontend
-  { name: "React", level: 90, category: "frontend" },
-  { name: "Next.js", level: 85, category: "frontend" },
-  { name: "TypeScript", level: 88, category: "frontend" },
-  { name: "Vue.js", level: 75, category: "frontend" },
-  { name: "Tailwind CSS", level: 92, category: "frontend" },
-  { name: "JavaScript", level: 95, category: "frontend" },
-  
-  // Backend
-  { name: "Node.js", level: 70, category: "backend" },
-  { name: "Express", level: 68, category: "backend" },
-  { name: "Python", level: 60, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  
-  // Tools
-  { name: "Git", level: 88, category: "tools" },
-  { name: "Docker", level: 65, category: "tools" },
-  { name: "Webpack/Vite", level: 80, category: "tools" },
-  { name: "Jest/Vitest", level: 75, category: "tools" },
-  
-  // Design
-  { name: "Figma", level: 78, category: "design" },
-  { name: "UI/UX Design", level: 72, category: "design" },
-  { name: "Responsive Design", level: 90, category: "design" },
-];
+export function getAboutData(
+  locale: PortfolioLocale
+) {
+  return aboutData[locale];
+}
 
-export const experiences: Experience[] = [
-  {
-    company: "Tech Company A",
-    position: "Senior Frontend Engineer",
-    period: "2023 - Present",
-    location: "Taipei, Taiwan",
-    description: "負責核心產品的前端架構設計與開發，帶領 3 人前端團隊。",
-    achievements: [
-      "主導公司主要產品從 Vue 2 遷移至 React + TypeScript，提升開發效率 40%",
-      "建立前端元件庫，統一 UI 規範，減少 30% 重複開發時間",
-      "優化網站效能，Lighthouse 分數從 60 提升至 95+",
-      "導入 CI/CD 流程，自動化測試覆蓋率達 80%",
-    ],
-  },
-  {
-    company: "Startup B",
-    position: "Frontend Engineer",
-    period: "2021 - 2023",
-    location: "Taipei, Taiwan",
-    description: "參與新創公司產品開發，從 0 到 1 打造 SaaS 平台。",
-    achievements: [
-      "使用 Next.js + Tailwind CSS 開發公司官網與產品頁面",
-      "實作響應式設計，支援手機、平板、桌面等多種裝置",
-      "串接 RESTful API，處理複雜的資料狀態管理",
-      "參與 UI/UX 設計討論，提供技術可行性建議",
-    ],
-  },
-  {
-    company: "Company C",
-    position: "Junior Frontend Developer",
-    period: "2020 - 2021",
-    location: "Taipei, Taiwan",
-    description: "入門前端開發，學習業界標準與最佳實踐。",
-    achievements: [
-      "使用 Vue.js 開發內部管理系統",
-      "學習 Git 版本控制與團隊協作流程",
-      "參與程式碼審查，學習 code review 技巧",
-    ],
-  },
-];
-
-export const educations: Education[] = [
-  {
-    school: "National Taiwan University",
-    degree: "Master of Computer Science",
-    period: "2018 - 2020",
-    description: "專注於人機互動與網頁技術研究",
-  },
-  {
-    school: "National Cheng Kung University",
-    degree: "Bachelor of Information Engineering",
-    period: "2014 - 2018",
-    description: "學習計算機科學基礎與軟體工程",
-  },
-];
+export const {
+  profileInfo,
+  skills,
+  experiences,
+  educations,
+} = aboutData["zh-TW"];

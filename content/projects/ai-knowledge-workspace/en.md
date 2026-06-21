@@ -1,20 +1,26 @@
 ---
-title: "AI Knowledge Workspace"
-tagline: "A web application project focused on knowledge organization and workspace interfaces."
-summary: "A web application project focused on knowledge organization and workspace interfaces, centered on data classification, content organization, and knowledge management workflows."
-role: "Independent Developer"
-problem: "Without classification, search, and workspace workflows, knowledge content can easily become a pile of data that is difficult to maintain or reuse."
-solution: "Built a workspace-style interface with TypeScript, React, Next.js, and Tailwind CSS, practicing content classification, search and filtering, state management, and information presentation flows."
+title: "Ai Knowledge Workspace"
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Ai Knowledge Workspace is a learning-focused project with detected technology signals including Next.js, React, Tailwind CSS, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "Practiced building a workspace-style interface"
-  - "Organized data state, content classification, and search/filtering workflows"
-  - "Turned knowledge management concepts into an operable frontend interface"
+  - "README signal: Next.js Documentationhttps://nextjs.or"
 challenges:
-  - "TODO: Clarify whether the project connects to AI, document management, notes, or search features"
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Complete the AI integration or knowledge management feature scope"
-  - "Document the implementation details for documents, notes, and search workflows"
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-AI Knowledge Workspace is a web application project focused on knowledge organization and workspace interfaces, centered on data classification, content organization, and knowledge management workflows.
+Ai Knowledge Workspace is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-In this project, I practiced building a workspace-style interface, managing data state, classifying content, designing search and filtering flows, and presenting information clearly.
+The scanned project data points to Next.js, React, Tailwind CSS, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

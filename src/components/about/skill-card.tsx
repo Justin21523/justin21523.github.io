@@ -18,7 +18,9 @@ export function SkillCard({ skill, index }: SkillCardProps) {
     >
       <div className="flex items-center justify-between mb-3">
         <h3 className="font-semibold text-sm">{skill.name}</h3>
-        <span className="text-xs text-muted-foreground">{skill.level}%</span>
+        <span className="text-xs text-primary">
+          {skill.proficiency}
+        </span>
       </div>
       <div className="w-full bg-secondary/50 rounded-full h-2 overflow-hidden">
         <motion.div

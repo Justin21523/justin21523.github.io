@@ -1,26 +1,29 @@
 ---
-title: "ReactAI Game Website（React + Vite）"
-tagline: "此專案是「React + Vite」前端，並在 /battle 掛載 Phaser 3 來製作「橫向 2D 平台格鬥」原型。目前已具備： - HP 制的快節奏 ..."
-summary: "此專案是「React + Vite」前端，並在 /battle 掛載 Phaser 3 來製作「橫向 2D 平台格鬥」原型。目前已具備： - HP 制的快節奏 1v1 對戰（暫以幾何方塊呈現） - 雙 AI（AI vs AI）：兩邊都用同一套 Behavior Tree（BT）原理產生 intent，降低人工測試成本 ..."
-role: "獨立開發者"
-problem: "在此描述專案所解決的痛點以及系統實作細節。"
-solution: "建立基於 Phaser, React, Tailwind CSS 的解決方案。"
+title: "Ai Game Website"
+tagline: "互動式 Web、3D 場景或遊戲原型練習專案。"
+summary: "Ai Game Website 是一個以 Phaser、React、Tailwind CSS 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
+role: "獨立開發者 / 學習型專案實作者"
+problem: "這個專案用來練習互動體驗中的場景結構、操作回饋、狀態變化與使用者流程。"
+solution: "我根據專案中的技術線索與 README 內容，將它整理成一個以互動設計、場景控制與原型驗證為主的作品案例。"
+outcome: "目前適合作為 3D Web、遊戲式介面或互動原型的學習型作品。"
 highlights:
-  - "**HP 制**的快節奏 1v1 對戰（暫以幾何方塊呈現）"
-  - "**雙 AI（AI vs AI）**：兩邊都用同一套 Behavior Tree（BT）原理產生 intent，降低人工測試成本"
-  - "**BT 實驗室（JSON）**：可編輯/儲存 BT，並套用到對戰頁"
-  - "**可解釋資料（debug）**：BT trace / reasons / blackboard 摘要可輸出給 UI 顯示"
+  - "README 顯示：HP 制的快節奏 1v1 對戰（暫以幾何方塊呈現）"
+  - "README 顯示：雙 AI（AI vs AI）：兩邊都用同一套 Behavior Tree（BT）原理產生 intent，降低人工測試成本"
+  - "README 顯示：BT 實驗室（JSON）：可編輯/儲存 BT，並套用到對戰頁"
+  - "README 顯示：可解釋資料（debug）：BT trace / reasons / blackboard 摘要可輸出給 UI 顯示"
 challenges:
-  - "技術挑戰一..."
+  - "需要從 README 與原始碼中整理出可信、可展示的專案範圍。"
+  - "需要把技術名詞轉換成清楚的功能、資料流與學習成果。"
+  - "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
 nextSteps:
-  - "下一步計畫一..."
+  - "補齊更完整的中英文案例研究與操作截圖。"
+  - "確認 GitHub、Demo、文件與素材是否適合公開展示。"
+  - "依完成度補強測試、README 與部署或執行說明。"
 ---
-此專案是「React + Vite」前端，並在 /battle 掛載 Phaser 3 來製作「橫向 2D 平台格鬥」原型。目前已具備： - HP 制的快節奏 1v1 對戰（暫以幾何方塊呈現） - 雙 AI（AI vs AI）：兩邊都用同一套 Behavior Tree（BT）原理產生 intent，降低人工測試成本 - BT 實驗室（JSON）：可編輯/儲存 BT，並套用到對戰頁 - 可解釋資料（debug）：BT trace / reasons / blackboard 摘要可輸出給 UI 顯示
+Ai Game Website 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
 
-環境需求（Vite 6）：Node ^18.0.0 || ^20.0.0 || >=22.0.0
+從掃描資料來看，這個專案的主要技術線索包含 Phaser、React、Tailwind CSS。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。
 
-在專案根目錄執行： bash npm ci npm run dev
+這個專案用來練習互動體驗中的場景結構、操作回饋、狀態變化與使用者流程。 我根據專案中的技術線索與 README 內容，將它整理成一個以互動設計、場景控制與原型驗證為主的作品案例。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。
 
-常用指令： - npm run dev：啟動開發伺服器（HMR）。 - npm run build：建置正式版到 dist/。 - npm run preview：在本機預覽 dist/。 - npm run lint：執行 ESLint（可加 -- --fix）。
-
-- /：預設入口（會導向 /battle，一進站就能看到 AI 對戰） - /battle：對戰（Phaser 場景；預設 AI vs AI，可切換任一邊為人類鍵盤控制；可一鍵重新開始） - /menu：選單/首頁（可選） - /lab/bt：Behavior Tree 實驗室（JSON）
+後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。

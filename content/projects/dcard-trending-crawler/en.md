@@ -1,20 +1,29 @@
 ---
 title: "Dcard Trending Crawler"
-tagline: "A production-style crawler system for collecting public posts from Dcard's trend..."
-summary: "A production-style crawler system for collecting public posts from Dcard's trending forum. Built with an API-first approach, using Playwright only as a fallback..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Python."
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Dcard Trending Crawler is a learning-focused project with detected technology signals including Python. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "**API-First Crawling**: Uses Dcard's public JSON API endpoints for efficient data collection"
-  - "**Browser Fallback**: Playwright-based endpoint discovery when API structure changes"
-  - "**Resume Support**: Checkpoint-based resume to continue from last successful position"
-  - "**Data Quality**: Validation layer for detecting empty content, duplicates, and malformed records"
+  - "README signal: API-First Crawling: Uses Dcard's public JSON API endpoints for efficient data collection"
+  - "README signal: Browser Fallback: Playwright-based endpoint discovery when API structure changes"
+  - "README signal: Resume Support: Checkpoint-based resume to continue from last successful position"
+  - "README signal: Data Quality: Validation layer for detecting empty content, duplicates, and malformed records"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-A production-style crawler system for collecting public posts from Dcard's trending forum. Built with an API-first approach, using Playwright only as a fallback for endpoint discovery.
+Dcard Trending Crawler is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-- API-First Crawling: Uses Dcard's public JSON API endpoints for efficient data collection - Browser Fallback: Playwright-based endpoint discovery when API structure changes - Resume Support: Checkpoint-based resume to continue from last successful position - Data Quality: Validation layer for detecting empty content, duplicates, and malformed records - Rate Limiting: Built-in throttling to avoid overwhelming the target server - Retry Logic: Exponential backoff for handling transient failures - Structured Storage: SQLite database with clean
+The scanned project data points to Python. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

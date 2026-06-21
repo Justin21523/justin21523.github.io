@@ -1,24 +1,29 @@
 ---
-title: "🎯 3D Product Viewer Pro"
-tagline: "> Enterprise-grade 3D product viewer built with Three.js"
-summary: "> Enterprise-grade 3D product viewer built with Three.js"
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Three.js."
+title: "Threejs Product Viewer"
+tagline: "A desktop application and local data workflow practice project."
+summary: "Threejs Product Viewer is a learning-focused project with detected technology signals including Three.js. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice splitting a fuller workflow into data models, desktop UI, state handling, and local persistence instead of building only one screen."
+solution: "Based on the scanned README, technology signals, and project structure, I organized the core workflow, tools, and current demonstrable learning outcomes with conservative wording."
+outcome: "It currently works best as a learning-focused desktop application, database, and workflow modeling case study."
 highlights:
-  - "🎨 **Interactive 3D Visualization** - Smooth model loading and rendering"
-  - "🎮 **Intuitive Controls** - Mouse, touch, and keyboard interactions"
-  - "📱 **Responsive Design** - Perfect on desktop, tablet, and mobile"
-  - "⚡ **Performance Optimized** - 60fps on desktop, 30fps on mobile"
+  - "README signal: 🎨 Interactive 3D Visualization - Smooth model loading and rendering"
+  - "README signal: 🎮 Intuitive Controls - Mouse, touch, and keyboard interactions"
+  - "README signal: 📱 Responsive Design - Perfect on desktop, tablet, and mobile"
+  - "README signal: ⚡ Performance Optimized - 60fps on desktop, 30fps on mobile"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-> Enterprise-grade 3D product viewer built with Three.js
+Threejs Product Viewer is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-A modern, performant, and feature-rich 3D product visualization platform designed for e-commerce, portfolio showcases, and commercial demonstrations.
+The scanned project data points to Three.js. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-- 🎨 Interactive 3D Visualization - Smooth model loading and rendering - 🎮 Intuitive Controls - Mouse, touch, and keyboard interactions - 📱 Responsive Design - Perfect on desktop, tablet, and mobile - ⚡ Performance Optimized - 60fps on desktop, 30fps on mobile - 🎭 Material System - Dynamic material switching and presets - 💡 Advanced Lighting - Multiple light sources with dynamic adjustment
+This project is used to practice splitting a fuller workflow into data models, desktop UI, state handling, and local persistence instead of building only one screen. Based on the scanned README, technology signals, and project structure, I organized the core workflow, tools, and current demonstrable learning outcomes with conservative wording. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
 
-- 🎬 Animation System - Model animations with timeline controls -
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

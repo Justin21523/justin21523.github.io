@@ -1,6 +1,13 @@
 import { getTranslations } from "next-intl/server";
-import { educations } from "@/data/about";
+import { getAboutData } from "@/data/about";
 import { EducationCard } from "@/components/about/education-card";
+import { normalizePortfolioLocale } from "@/lib/projects";
+
+interface EducationPageProps {
+  params: Promise<{
+    locale: string;
+  }>;
+}
 
 export async function generateMetadata() {
   const t = await getTranslations("about.education");
@@ -10,17 +17,31 @@ export async function generateMetadata() {
   };
 }
 
-export default function EducationPage() {
+export default async function EducationPage({
+  params,
+}: EducationPageProps) {
+  const { locale: localeParam } =
+    await params;
+  const locale =
+    normalizePortfolioLocale(
+      localeParam
+    );
+  const { educations } =
+    getAboutData(locale);
+  const t = await getTranslations(
+    "about.education"
+  );
+
   return (
     <div className="min-h-screen pt-24 pb-12 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            教育背景
+            {t("title")}
           </h1>
           <p className="text-lg text-muted-foreground">
-            學歷與學習經歷
+            {t("subtitle")}
           </p>
         </div>
 

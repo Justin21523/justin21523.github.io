@@ -6,7 +6,8 @@
     "backend-desktop"
   ],
   "statuses": [
-    "completed"
+    "prototype",
+    "in-progress"
   ],
   "years": [
     2026
@@ -83,6 +84,6 @@
     "Information Architecture Designer",
     "Metadata System Designer",
     "Workflow System Designer",
-    "獨立開發者"
+    "獨立開發者 / 學習型專案實作者"
   ]
 }

@@ -1,6 +1,13 @@
 import { getTranslations } from "next-intl/server";
-import { experiences } from "@/data/about";
+import { getAboutData } from "@/data/about";
 import { TimelineItem } from "@/components/about/timeline-item";
+import { normalizePortfolioLocale } from "@/lib/projects";
+
+interface ExperiencePageProps {
+  params: Promise<{
+    locale: string;
+  }>;
+}
 
 export async function generateMetadata() {
   const t = await getTranslations("about.experience");
@@ -10,17 +17,31 @@ export async function generateMetadata() {
   };
 }
 
-export default function ExperiencePage() {
+export default async function ExperiencePage({
+  params,
+}: ExperiencePageProps) {
+  const { locale: localeParam } =
+    await params;
+  const locale =
+    normalizePortfolioLocale(
+      localeParam
+    );
+  const { experiences } =
+    getAboutData(locale);
+  const t = await getTranslations(
+    "about.experience"
+  );
+
   return (
     <div className="min-h-screen pt-24 pb-12 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            工作經歷
+            {t("title")}
           </h1>
           <p className="text-lg text-muted-foreground">
-            我的職業歷程
+            {t("subtitle")}
           </p>
         </div>
 

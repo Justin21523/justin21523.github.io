@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import {
   ArrowRight,
   ArrowUpRight,
@@ -22,6 +24,13 @@ import { Link } from "@/i18n/navigation";
 import type {
   HomeContent,
 } from "@/data/home";
+import {
+  statusLabels as projectStatusLabels,
+} from "@/lib/project-taxonomy";
+import type {
+  PortfolioLocale,
+  Project,
+} from "@/types/projects";
 
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/motion/section-heading";
@@ -265,13 +274,23 @@ export function SkillsEvidenceSection({
 
 interface FeaturedProjectsSectionProps {
   content: HomeContent["featured"];
+  projects?: Project[];
+  locale?: PortfolioLocale;
 }
 
 export function FeaturedProjectsSection({
   content,
+  projects,
+  locale = "zh-TW",
 }: FeaturedProjectsSectionProps) {
   const shouldReduceMotion =
     useReducedMotion();
+  const desktopGroup =
+    content.groups.find((group) =>
+      group.title
+        .toLowerCase()
+        .includes("desktop")
+    ) ?? content.groups[0];
 
   return (
     <section className="border-b border-border/60 py-24 md:py-32">
@@ -295,8 +314,206 @@ export function FeaturedProjectsSection({
         </div>
 
         <div className="space-y-24">
-          {content.groups.map(
-            (group, groupIdx) => (
+          {projects?.length ? (
+            <div className="space-y-8">
+              <m.div
+                initial={{
+                  opacity: 0,
+                  y: 30,
+                }}
+                whileInView={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                viewport={{
+                  once: true,
+                  amount: 0.3,
+                }}
+                transition={{
+                  duration: 0.6,
+                }}
+                className="flex flex-col justify-between gap-6 border-b border-border/60 pb-6 md:flex-row md:items-start"
+              >
+                <div className="space-y-2">
+                  <span className="rounded-sm bg-primary/10 px-2 py-0.5 font-mono text-[10px] tracking-wider text-primary/80">
+                    FEATURED
+                  </span>
+
+                  <h3 className="mt-1 text-2xl font-bold tracking-tight text-foreground">
+                    {desktopGroup.title}
+                  </h3>
+                </div>
+
+                <div className="md:max-w-xl">
+                  <p className="text-sm leading-relaxed text-muted-foreground">
+                    {
+                      desktopGroup.description
+                    }
+                  </p>
+
+                  <div className="mt-3 flex flex-wrap gap-1.5">
+                    {desktopGroup.tags.map(
+                      (tag) => (
+                        <span
+                          key={tag}
+                          className="rounded-md border border-border bg-background/50 px-2 py-0.5 text-xs text-muted-foreground/80"
+                        >
+                          {tag}
+                        </span>
+                      )
+                    )}
+                  </div>
+                </div>
+              </m.div>
+
+              <div className="grid gap-7 lg:grid-cols-3">
+                {projects.map(
+                  (project, index) => {
+                    const projectContent =
+                      project.content[locale];
+                    const featuredMedia =
+                      project.media.find(
+                        (item) =>
+                          item.featured &&
+                          item.type === "image"
+                      ) ??
+                      project.media.find(
+                        (item) =>
+                          item.type === "image"
+                      );
+                    const image =
+                      featuredMedia?.src ??
+                      project.coverImage;
+                    const imageAlt =
+                      featuredMedia?.alt[
+                        locale
+                      ] ??
+                      projectContent.title;
+
+                    return (
+                      <m.article
+                        key={project.slug}
+                        initial={{
+                          opacity: 0,
+                          y: 40,
+                        }}
+                        whileInView={{
+                          opacity: 1,
+                          y: 0,
+                        }}
+                        viewport={{
+                          once: true,
+                          amount: 0.1,
+                        }}
+                        whileHover={
+                          shouldReduceMotion
+                            ? undefined
+                            : {
+                                y: -8,
+                                scale: 1.01,
+                              }
+                        }
+                        transition={{
+                          delay:
+                            index * 0.08,
+                          type: "spring",
+                          stiffness: 220,
+                          damping: 24,
+                        }}
+                        className="group flex h-full flex-col overflow-hidden rounded-3xl border border-border bg-card shadow-sm transition-shadow hover:shadow-2xl hover:shadow-primary/10"
+                      >
+                        {image ? (
+                          <div className="relative aspect-[16/10] overflow-hidden border-b border-border bg-secondary">
+                            <Image
+                              src={image}
+                              alt={imageAlt}
+                              fill
+                              sizes="(min-width: 1024px) 33vw, 100vw"
+                              className="object-cover transition-transform duration-500 group-hover:scale-105"
+                            />
+                          </div>
+                        ) : null}
+
+                        <div className="flex flex-1 flex-col p-6">
+                          <div className="mb-5 flex items-start justify-between gap-4">
+                            <h4 className="text-xl font-bold transition-colors group-hover:text-primary">
+                              {
+                                projectContent.title
+                              }
+                            </h4>
+
+                            <span className="shrink-0 rounded-full border border-primary/25 bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+                              {
+                                projectStatusLabels[
+                                  locale
+                                ][
+                                  project.status
+                                ]
+                              }
+                            </span>
+                          </div>
+
+                          <p className="mb-5 text-sm leading-7 text-muted-foreground">
+                            {
+                              projectContent.summary
+                            }
+                          </p>
+
+                          <div className="mb-5">
+                            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-primary">
+                              Tech Stack
+                            </p>
+
+                            <div className="flex flex-wrap gap-2">
+                              {project.technologies
+                                .slice(0, 6)
+                                .map(
+                                  (
+                                    technology
+                                  ) => (
+                                    <span
+                                      key={
+                                        technology
+                                      }
+                                      className="rounded-md bg-secondary px-2 py-1 text-xs text-secondary-foreground"
+                                    >
+                                      {
+                                        technology
+                                      }
+                                    </span>
+                                  )
+                                )}
+                            </div>
+                          </div>
+
+                          <p className="mb-6 text-sm leading-7 text-muted-foreground">
+                            {
+                              projectContent
+                                .highlights[0]
+                            }
+                          </p>
+
+                          <div className="mt-auto">
+                            <Link
+                              href={`/projects/${project.slug}`}
+                              className="group/link inline-flex w-full items-center justify-between rounded-xl bg-primary px-4 py-3 text-sm font-medium text-primary-foreground"
+                            >
+                              {
+                                content.viewCaseStudy
+                              }
+                              <ArrowUpRight className="h-4 w-4 transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5" />
+                            </Link>
+                          </div>
+                        </div>
+                      </m.article>
+                    );
+                  }
+                )}
+              </div>
+            </div>
+          ) : (
+            content.groups.map(
+              (group, groupIdx) => (
               <div
                 key={group.title}
                 className="space-y-8"
@@ -446,6 +663,7 @@ export function FeaturedProjectsSection({
                   )}
                 </div>
               </div>
+              )
             )
           )}
         </div>

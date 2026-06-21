@@ -1,22 +1,29 @@
 ---
-title: "MetroBikeAtlas"
-tagline: "MetroBikeAtlas is an MVP web app + data pipeline for urban mobility analysis in ..."
-summary: "MetroBikeAtlas is an MVP web app + data pipeline for urban mobility analysis in Taiwan: Metro (MRT/rail) stations and flows (or feasible proxies when station-le..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using Python, FastAPI."
+title: "Mrt Ubike Analysis"
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Mrt Ubike Analysis is a learning-focused project with detected technology signals including Python, FastAPI. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "Reproducible project scaffold (config, logging, caching)"
-  - "TDX clients for metro + bike station metadata and bike availability snapshots"
-  - "Preprocessing utilities: temporal alignment and metro↔bike spatial join"
-  - "FastAPI backend + interactive map dashboard (control panels, inspector, keyboard shortcuts)"
+  - "README signal: Reproducible project scaffold config, logging, caching"
+  - "README signal: TDX clients for metro + bike station metadata and bike availability snapshots"
+  - "README signal: Preprocessing utilities: temporal alignment and metro↔bike spatial join"
+  - "README signal: FastAPI backend + interactive map dashboard control panels, inspector, keyboard shortcuts"
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-MetroBikeAtlas is an MVP web app + data pipeline for urban mobility analysis in Taiwan: Metro (MRT/rail) stations and flows (or feasible proxies when station-level flows are unavailable), shared bike stations, and city factors (district/POI density, accessibility, etc.).
+Mrt Ubike Analysis is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-- Reproducible project scaffold (config, logging, caching) - TDX clients for metro + bike station metadata and bike availability snapshots - Preprocessing utilities: temporal alignment and metro↔bike spatial join - FastAPI backend + interactive map dashboard (control panels, inspector, keyboard shortcuts)
+The scanned project data points to Python, FastAPI. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-1. Create venv: python -m venv .venv && source .venv/bin/activate 2. Install deps: pip install -r requirements-dev.txt 3. Run API + web (demo mode by default)
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

@@ -1,20 +1,26 @@
 ---
 title: "Digital Archive Review Board"
-tagline: "A frontend project focused on digital archive review and workflow management."
-summary: "A frontend project focused on digital archive review and workflow management, combining metadata, review status, and data field management concepts."
-role: "Independent Developer"
-problem: "Digital archive records need clear metadata fields, review status, and workflow management so that data organization and quality control can be tracked more easily."
-solution: "Built an operable frontend interface with TypeScript, React, Next.js, and Tailwind CSS, integrating metadata, review status, and data field management into one workflow."
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Digital Archive Review Board is a learning-focused project with detected technology signals including Next.js, React, Tailwind CSS, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "Practiced digital archive review interface design"
-  - "Organized metadata, review status, and field management workflows"
-  - "Turned archive review concepts from library and information science into a usable product interface"
+  - "README signal: Next.js Documentationhttps://nextjs.or"
 challenges:
-  - "TODO: Clarify whether the project includes review records, versioning, scoring, or permission design"
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Complete review record and version management planning"
-  - "Document scoring, permission, or data quality control design"
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-Digital Archive Review Board is a frontend project focused on digital archive review and workflow management, combining metadata, review status, and data field management concepts.
+Digital Archive Review Board is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-In this project, I practiced turning digital archive concepts, metadata, review workflows, and state management into an operable frontend interface.
+The scanned project data points to Next.js, React, Tailwind CSS, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.

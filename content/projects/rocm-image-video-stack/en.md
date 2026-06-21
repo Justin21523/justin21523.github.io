@@ -1,21 +1,28 @@
 ---
-title: "ROCm Image/Video AI Stack"
-tagline: "This project builds a complete AMD ROCm image and video AI pipeline for the Rade..."
-summary: "This project builds a complete AMD ROCm image and video AI pipeline for the Radeon AI PRO R9700 (gfx1201, 32GB HBM) running alongside an existing NVIDIA/CUDA st..."
-role: "Independent Developer"
-problem: "Describe the core problem solved by this project."
-solution: "Build the solution framework using ."
+title: "Rocm Image Video Stack"
+tagline: "A data processing, AI, analysis, or automation workflow practice project."
+summary: "Rocm Image Video Stack is a learning-focused project with detected technology signals including detected project files and README signals. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+role: "Independent Developer / Learning Project Builder"
+problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
+solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
+outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
 highlights:
-  - "包含完整原始碼"
-  - "採用現代技術架構開發"
-  - "支援響應式網頁介面"
+  - "Uses or involves detected project files and README signals."
+  - "Organizes features, data, and interface flow as a portfolio practice project."
+  - "Uses conservative wording so the project is not presented as a finished production product."
 challenges:
-  - "Technical challenge one..."
+  - "The project scope needs to be summarized from README content and source evidence in a credible way."
+  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
+  - "More screenshots, test notes, or operation details can still improve the case study."
 nextSteps:
-  - "Next step one..."
+  - "Complete a more detailed bilingual case study and add operation screenshots."
+  - "Verify which GitHub, demo, documentation, and media assets should be public."
+  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-This project builds a complete AMD ROCm image and video AI pipeline for the Radeon AI PRO R9700 (gfx1201, 32GB HBM) running alongside an existing NVIDIA/CUDA stack on the same machine.
+Rocm Image Video Stack is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
-The stack is parallel and non-destructive: it never modifies, deletes, or overwrites any existing CUDA tools, conda environments, model files, workflows, or project data under /mnt/c.
+The scanned project data points to detected project files and README signals. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 
-| Item | Detail | |------|--------| | GPU | AMD Radeon AI PRO R9700 (gfx1201, RDNA4, 64 CUs, 32 GB HBM) | | ROCm | 7.2.3 at /opt/rocm | | PyTorch | 2.5.1+rocm6.2 (upgrade to 2.9+rocm7.2 recommended in Phase 2) | | OS | Ubuntu 24.04 (WSL2) | | Prior GPU | NVIDIA RTX 5080 (
+This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+
+Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.
