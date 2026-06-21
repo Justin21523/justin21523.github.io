@@ -3,7 +3,7 @@ import path from "path";
 import { ProjectSchema, ValidatedProject } from "../../src/lib/catalog/schema";
 import { normalizeTechTerm } from "../../src/lib/catalog/vocabulary";
 
-const PORTFOLIO_ROOT = "/home/justin/web-projects/justin-portfolio";
+const PORTFOLIO_ROOT = process.cwd();
 const SCAN_REPORT_PATH = path.join(PORTFOLIO_ROOT, "data/generated/project-scan-report.json");
 const CONTENT_DIR = path.join(PORTFOLIO_ROOT, "content/projects");
 const GENERATED_DIR = path.join(PORTFOLIO_ROOT, "src/generated");
@@ -39,6 +39,10 @@ function ensureDirExists(dirPath: string) {
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath, { recursive: true });
   }
+}
+
+function toRepoRelativePath(filePath: string) {
+  return path.relative(PORTFOLIO_ROOT, filePath);
 }
 
 function parseMarkdown(content: string): ParsedMarkdown {
@@ -521,7 +525,12 @@ ${readmeInfo.description}
         extractionConfidence: scanData.confidence,
         needsReview: override.metadata?.needsReview ?? scanData.needsManualReview ?? contentNeedsReview,
         missingFields: Array.from(missingFields),
-        evidenceSources: [overridePath, zhPath, enPath, "git log"],
+        evidenceSources: [
+          toRepoRelativePath(overridePath),
+          toRepoRelativePath(zhPath),
+          toRepoRelativePath(enPath),
+          "git log",
+        ],
         lastScannedAt: new Date().toISOString()
       },
       content: {

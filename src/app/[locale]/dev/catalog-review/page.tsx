@@ -29,7 +29,7 @@ interface CatalogProject {
   slug: string;
 }
 
-const PORTFOLIO_ROOT = "/home/justin/web-projects/justin-portfolio";
+const PORTFOLIO_ROOT = process.cwd();
 const SCAN_REPORT_PATH = path.join(PORTFOLIO_ROOT, "data/generated/project-scan-report.json");
 const CATALOG_PATH = path.join(PORTFOLIO_ROOT, "src/generated/project-catalog.json");
 

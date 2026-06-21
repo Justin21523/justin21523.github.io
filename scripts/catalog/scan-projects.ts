@@ -3,6 +3,8 @@ import path from "path";
 import { execSync } from "child_process";
 import { normalizeTechTerm } from "../../src/lib/catalog/vocabulary";
 
+const PORTFOLIO_ROOT = process.cwd();
+
 interface ProjectScanResult {
   name: string;
   folder: string;
@@ -325,7 +327,7 @@ export function scan() {
   });
 
   // Make sure directories exist
-  const outputDir = "/home/justin/web-projects/justin-portfolio/data/generated";
+  const outputDir = path.join(PORTFOLIO_ROOT, "data/generated");
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
@@ -340,7 +342,7 @@ export function scan() {
 }
 
 function generateInventoryMarkdown(projects: ProjectScanResult[]) {
-  const docsDir = "/home/justin/web-projects/justin-portfolio/docs";
+  const docsDir = path.join(PORTFOLIO_ROOT, "docs");
   if (!fs.existsSync(docsDir)) {
     fs.mkdirSync(docsDir, { recursive: true });
   }

@@ -78,12 +78,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/2d-animation-lora-pipeline/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/2d-animation-lora-pipeline/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/2d-animation-lora-pipeline/en.md",
+        "content/projects/2d-animation-lora-pipeline/project.override.json",
+        "content/projects/2d-animation-lora-pipeline/zh-TW.md",
+        "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.807Z"
+      "lastScannedAt": "2026-06-21T16:03:08.017Z"
     },
     "content": {
       "zh-TW": {
@@ -224,12 +224,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-animation-lora-pipeline/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-animation-lora-pipeline/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-animation-lora-pipeline/en.md",
+        "content/projects/3d-animation-lora-pipeline/project.override.json",
+        "content/projects/3d-animation-lora-pipeline/zh-TW.md",
+        "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.809Z"
+      "lastScannedAt": "2026-06-21T16:03:08.019Z"
     },
     "content": {
       "zh-TW": {
@@ -366,12 +366,12 @@
         "reviewed bilingual case study"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-maze-explorer/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-maze-explorer/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-maze-explorer/en.md",
+        "content/projects/3d-maze-explorer/project.override.json",
+        "content/projects/3d-maze-explorer/zh-TW.md",
+        "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.810Z"
+      "lastScannedAt": "2026-06-21T16:03:08.019Z"
     },
     "content": {
       "zh-TW": {
@@ -515,12 +515,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-platformer-runner/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-platformer-runner/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-platformer-runner/en.md",
+        "content/projects/3d-platformer-runner/project.override.json",
+        "content/projects/3d-platformer-runner/zh-TW.md",
+        "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.810Z"
+      "lastScannedAt": "2026-06-21T16:03:08.020Z"
     },
     "content": {
       "zh-TW": {
@@ -670,12 +670,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-rendering-showcase/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-rendering-showcase/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/3d-rendering-showcase/en.md",
+        "content/projects/3d-rendering-showcase/project.override.json",
+        "content/projects/3d-rendering-showcase/zh-TW.md",
+        "content/projects/3d-rendering-showcase/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.810Z"
+      "lastScannedAt": "2026-06-21T16:03:08.020Z"
     },
     "content": {
       "zh-TW": {
@@ -816,12 +816,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/ai-3d-studio/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/ai-3d-studio/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/ai-3d-studio/en.md",
+        "content/projects/ai-3d-studio/project.override.json",
+        "content/projects/ai-3d-studio/zh-TW.md",
+        "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.810Z"
+      "lastScannedAt": "2026-06-21T16:03:08.020Z"
     },
     "content": {
       "zh-TW": {
@@ -974,12 +974,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/ai-game-website/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/ai-game-website/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/ai-game-website/en.md",
+        "content/projects/ai-game-website/project.override.json",
+        "content/projects/ai-game-website/zh-TW.md",
+        "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.811Z"
+      "lastScannedAt": "2026-06-21T16:03:08.020Z"
     },
     "content": {
       "zh-TW": {
@@ -1134,12 +1134,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/ai-knowledge-workspace/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/ai-knowledge-workspace/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/ai-knowledge-workspace/en.md",
+        "content/projects/ai-knowledge-workspace/project.override.json",
+        "content/projects/ai-knowledge-workspace/zh-TW.md",
+        "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.811Z"
+      "lastScannedAt": "2026-06-21T16:03:08.020Z"
     },
     "content": {
       "zh-TW": {
@@ -1287,12 +1287,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/animation-ai-studio/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/animation-ai-studio/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/animation-ai-studio/en.md",
+        "content/projects/animation-ai-studio/project.override.json",
+        "content/projects/animation-ai-studio/zh-TW.md",
+        "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.811Z"
+      "lastScannedAt": "2026-06-21T16:03:08.021Z"
     },
     "content": {
       "zh-TW": {
@@ -1442,12 +1442,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/anime-adventure-lab/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/anime-adventure-lab/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/anime-adventure-lab/en.md",
+        "content/projects/anime-adventure-lab/project.override.json",
+        "content/projects/anime-adventure-lab/zh-TW.md",
+        "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.811Z"
+      "lastScannedAt": "2026-06-21T16:03:08.021Z"
     },
     "content": {
       "zh-TW": {
@@ -1609,12 +1609,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/aqua-rush/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/aqua-rush/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/aqua-rush/en.md",
+        "content/projects/aqua-rush/project.override.json",
+        "content/projects/aqua-rush/zh-TW.md",
+        "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.812Z"
+      "lastScannedAt": "2026-06-21T16:03:08.021Z"
     },
     "content": {
       "zh-TW": {
@@ -1871,12 +1871,12 @@
       "needsReview": false,
       "missingFields": [],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/ArchiveFlow/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/ArchiveFlow/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/ArchiveFlow/en.md",
+        "content/projects/ArchiveFlow/project.override.json",
+        "content/projects/ArchiveFlow/zh-TW.md",
+        "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.812Z"
+      "lastScannedAt": "2026-06-21T16:03:08.021Z"
     },
     "content": {
       "zh-TW": {
@@ -2016,12 +2016,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/automation/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/automation/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/automation/en.md",
+        "content/projects/automation/project.override.json",
+        "content/projects/automation/zh-TW.md",
+        "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.812Z"
+      "lastScannedAt": "2026-06-21T16:03:08.022Z"
     },
     "content": {
       "zh-TW": {
@@ -2266,12 +2266,12 @@
       "needsReview": false,
       "missingFields": [],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/cafe-net-manager/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/cafe-net-manager/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/cafe-net-manager/en.md",
+        "content/projects/cafe-net-manager/project.override.json",
+        "content/projects/cafe-net-manager/zh-TW.md",
+        "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.812Z"
+      "lastScannedAt": "2026-06-21T16:03:08.022Z"
     },
     "content": {
       "zh-TW": {
@@ -2426,12 +2426,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/campus-quest-3d/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/campus-quest-3d/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/campus-quest-3d/en.md",
+        "content/projects/campus-quest-3d/project.override.json",
+        "content/projects/campus-quest-3d/zh-TW.md",
+        "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.813Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -2572,12 +2572,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/commercial-ml-analysis/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/commercial-ml-analysis/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/commercial-ml-analysis/en.md",
+        "content/projects/commercial-ml-analysis/project.override.json",
+        "content/projects/commercial-ml-analysis/zh-TW.md",
+        "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.813Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -2724,12 +2724,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/commute-reliability-analysis/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/commute-reliability-analysis/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/commute-reliability-analysis/en.md",
+        "content/projects/commute-reliability-analysis/project.override.json",
+        "content/projects/commute-reliability-analysis/zh-TW.md",
+        "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.813Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -2870,12 +2870,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/css-advanced-mastery/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/css-advanced-mastery/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/css-advanced-mastery/en.md",
+        "content/projects/css-advanced-mastery/project.override.json",
+        "content/projects/css-advanced-mastery/zh-TW.md",
+        "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.813Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -3030,12 +3030,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/data-narrative-studio/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/data-narrative-studio/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/data-narrative-studio/en.md",
+        "content/projects/data-narrative-studio/project.override.json",
+        "content/projects/data-narrative-studio/zh-TW.md",
+        "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -3165,12 +3165,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/data-pipelines/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/data-pipelines/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/data-pipelines/en.md",
+        "content/projects/data-pipelines/project.override.json",
+        "content/projects/data-pipelines/zh-TW.md",
+        "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -3322,12 +3322,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/datalab-studio/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/datalab-studio/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/datalab-studio/en.md",
+        "content/projects/datalab-studio/project.override.json",
+        "content/projects/datalab-studio/zh-TW.md",
+        "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -3465,12 +3465,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/dcard-trending-crawler/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/dcard-trending-crawler/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/dcard-trending-crawler/en.md",
+        "content/projects/dcard-trending-crawler/project.override.json",
+        "content/projects/dcard-trending-crawler/zh-TW.md",
+        "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -3616,12 +3616,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/digital-archive-review-board/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/digital-archive-review-board/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/digital-archive-review-board/en.md",
+        "content/projects/digital-archive-review-board/project.override.json",
+        "content/projects/digital-archive-review-board/zh-TW.md",
+        "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -3763,12 +3763,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/digital-living/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/digital-living/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/digital-living/en.md",
+        "content/projects/digital-living/project.override.json",
+        "content/projects/digital-living/zh-TW.md",
+        "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -3909,12 +3909,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/discord-clone/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/discord-clone/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/discord-clone/en.md",
+        "content/projects/discord-clone/project.override.json",
+        "content/projects/discord-clone/zh-TW.md",
+        "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.023Z"
     },
     "content": {
       "zh-TW": {
@@ -4064,12 +4064,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/elio-discord-bot/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/elio-discord-bot/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/elio-discord-bot/en.md",
+        "content/projects/elio-discord-bot/project.override.json",
+        "content/projects/elio-discord-bot/zh-TW.md",
+        "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -4219,12 +4219,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/excel-python-data-analysis/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/excel-python-data-analysis/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/excel-python-data-analysis/en.md",
+        "content/projects/excel-python-data-analysis/project.override.json",
+        "content/projects/excel-python-data-analysis/zh-TW.md",
+        "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -4365,12 +4365,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/fandom-gui-scraper/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/fandom-gui-scraper/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/fandom-gui-scraper/en.md",
+        "content/projects/fandom-gui-scraper/project.override.json",
+        "content/projects/fandom-gui-scraper/zh-TW.md",
+        "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -4526,12 +4526,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/frontend-interaction-lab/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/frontend-interaction-lab/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/frontend-interaction-lab/en.md",
+        "content/projects/frontend-interaction-lab/project.override.json",
+        "content/projects/frontend-interaction-lab/zh-TW.md",
+        "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -4684,12 +4684,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/game-dialogue-simulator/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/game-dialogue-simulator/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/game-dialogue-simulator/en.md",
+        "content/projects/game-dialogue-simulator/project.override.json",
+        "content/projects/game-dialogue-simulator/zh-TW.md",
+        "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -4839,12 +4839,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/gan-ae-vision-suite/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/gan-ae-vision-suite/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/gan-ae-vision-suite/en.md",
+        "content/projects/gan-ae-vision-suite/project.override.json",
+        "content/projects/gan-ae-vision-suite/zh-TW.md",
+        "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -5006,12 +5006,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/highway-adventure-3d/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/highway-adventure-3d/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/highway-adventure-3d/en.md",
+        "content/projects/highway-adventure-3d/project.override.json",
+        "content/projects/highway-adventure-3d/zh-TW.md",
+        "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.814Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -5151,12 +5151,12 @@
         "reviewed bilingual case study"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/html-css-interactive-lab/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/html-css-interactive-lab/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/html-css-interactive-lab/en.md",
+        "content/projects/html-css-interactive-lab/project.override.json",
+        "content/projects/html-css-interactive-lab/zh-TW.md",
+        "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -5294,12 +5294,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/image-process/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/image-process/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/image-process/en.md",
+        "content/projects/image-process/project.override.json",
+        "content/projects/image-process/zh-TW.md",
+        "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -5446,12 +5446,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/information-retrieval/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/information-retrieval/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/information-retrieval/en.md",
+        "content/projects/information-retrieval/project.override.json",
+        "content/projects/information-retrieval/zh-TW.md",
+        "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -5592,12 +5592,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/intro-to-dl/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/intro-to-dl/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/intro-to-dl/en.md",
+        "content/projects/intro-to-dl/project.override.json",
+        "content/projects/intro-to-dl/zh-TW.md",
+        "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -5738,12 +5738,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/intro-to-ml/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/intro-to-ml/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/intro-to-ml/en.md",
+        "content/projects/intro-to-ml/project.override.json",
+        "content/projects/intro-to-ml/zh-TW.md",
+        "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -5890,12 +5890,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/intro-to-vml/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/intro-to-vml/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/intro-to-vml/en.md",
+        "content/projects/intro-to-vml/project.override.json",
+        "content/projects/intro-to-vml/zh-TW.md",
+        "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.024Z"
     },
     "content": {
       "zh-TW": {
@@ -6042,12 +6042,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/javascript-platformer-concepts/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/javascript-platformer-concepts/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/javascript-platformer-concepts/en.md",
+        "content/projects/javascript-platformer-concepts/project.override.json",
+        "content/projects/javascript-platformer-concepts/zh-TW.md",
+        "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -6196,12 +6196,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/libradesk/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/libradesk/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/libradesk/en.md",
+        "content/projects/libradesk/project.override.json",
+        "content/projects/libradesk/zh-TW.md",
+        "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -6342,12 +6342,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/library-reach-analysis/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/library-reach-analysis/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/library-reach-analysis/en.md",
+        "content/projects/library-reach-analysis/project.override.json",
+        "content/projects/library-reach-analysis/zh-TW.md",
+        "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -6494,12 +6494,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/llm-train-eval-ship/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/llm-train-eval-ship/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/llm-train-eval-ship/en.md",
+        "content/projects/llm-train-eval-ship/project.override.json",
+        "content/projects/llm-train-eval-ship/zh-TW.md",
+        "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -6661,12 +6661,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/lost-yokai-campus-rpg/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/lost-yokai-campus-rpg/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/lost-yokai-campus-rpg/en.md",
+        "content/projects/lost-yokai-campus-rpg/project.override.json",
+        "content/projects/lost-yokai-campus-rpg/zh-TW.md",
+        "content/projects/lost-yokai-campus-rpg/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -6798,12 +6798,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/metashelf/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/metashelf/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/metashelf/en.md",
+        "content/projects/metashelf/project.override.json",
+        "content/projects/metashelf/zh-TW.md",
+        "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -6955,12 +6955,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/modelops-dashboard/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/modelops-dashboard/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/modelops-dashboard/en.md",
+        "content/projects/modelops-dashboard/project.override.json",
+        "content/projects/modelops-dashboard/zh-TW.md",
+        "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -7110,12 +7110,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/mrt-ubike-analysis/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/mrt-ubike-analysis/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/mrt-ubike-analysis/en.md",
+        "content/projects/mrt-ubike-analysis/project.override.json",
+        "content/projects/mrt-ubike-analysis/zh-TW.md",
+        "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.815Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -7256,12 +7256,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/multi-ai-agents/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/multi-ai-agents/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/multi-ai-agents/en.md",
+        "content/projects/multi-ai-agents/project.override.json",
+        "content/projects/multi-ai-agents/zh-TW.md",
+        "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -7408,12 +7408,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/my-3d-platformer/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/my-3d-platformer/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/my-3d-platformer/en.md",
+        "content/projects/my-3d-platformer/project.override.json",
+        "content/projects/my-3d-platformer/zh-TW.md",
+        "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -7551,12 +7551,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/news-web-crawler/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/news-web-crawler/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/news-web-crawler/en.md",
+        "content/projects/news-web-crawler/project.override.json",
+        "content/projects/news-web-crawler/zh-TW.md",
+        "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -7688,12 +7688,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/openclaw-multimodal-stack/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/openclaw-multimodal-stack/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/openclaw-multimodal-stack/en.md",
+        "content/projects/openclaw-multimodal-stack/project.override.json",
+        "content/projects/openclaw-multimodal-stack/zh-TW.md",
+        "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -7831,12 +7831,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/platformer-game/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/platformer-game/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/platformer-game/en.md",
+        "content/projects/platformer-game/project.override.json",
+        "content/projects/platformer-game/zh-TW.md",
+        "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -7968,12 +7968,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/playwright-demo/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/playwright-demo/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/playwright-demo/en.md",
+        "content/projects/playwright-demo/project.override.json",
+        "content/projects/playwright-demo/zh-TW.md",
+        "content/projects/playwright-demo/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.025Z"
     },
     "content": {
       "zh-TW": {
@@ -8132,12 +8132,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/poker-ai-arena/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/poker-ai-arena/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/poker-ai-arena/en.md",
+        "content/projects/poker-ai-arena/project.override.json",
+        "content/projects/poker-ai-arena/zh-TW.md",
+        "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.026Z"
     },
     "content": {
       "zh-TW": {
@@ -8284,12 +8284,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/poker-ai-web/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/poker-ai-web/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/poker-ai-web/en.md",
+        "content/projects/poker-ai-web/project.override.json",
+        "content/projects/poker-ai-web/zh-TW.md",
+        "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.026Z"
     },
     "content": {
       "zh-TW": {
@@ -8451,12 +8451,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/polly-rpg-game/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/polly-rpg-game/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/polly-rpg-game/en.md",
+        "content/projects/polly-rpg-game/project.override.json",
+        "content/projects/polly-rpg-game/zh-TW.md",
+        "content/projects/polly-rpg-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.026Z"
     },
     "content": {
       "zh-TW": {
@@ -8618,12 +8618,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/prism-runner-3d/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/prism-runner-3d/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/prism-runner-3d/en.md",
+        "content/projects/prism-runner-3d/project.override.json",
+        "content/projects/prism-runner-3d/zh-TW.md",
+        "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.026Z"
     },
     "content": {
       "zh-TW": {
@@ -8772,12 +8772,12 @@
         "reviewed bilingual case study"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/procedural-3d-maze/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/procedural-3d-maze/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/procedural-3d-maze/en.md",
+        "content/projects/procedural-3d-maze/project.override.json",
+        "content/projects/procedural-3d-maze/zh-TW.md",
+        "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.026Z"
     },
     "content": {
       "zh-TW": {
@@ -8939,12 +8939,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/procedural-dungeon-crawler/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/procedural-dungeon-crawler/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/procedural-dungeon-crawler/en.md",
+        "content/projects/procedural-dungeon-crawler/project.override.json",
+        "content/projects/procedural-dungeon-crawler/zh-TW.md",
+        "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.026Z"
     },
     "content": {
       "zh-TW": {
@@ -9096,12 +9096,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/projectmind/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/projectmind/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/projectmind/en.md",
+        "content/projects/projectmind/project.override.json",
+        "content/projects/projectmind/zh-TW.md",
+        "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.816Z"
+      "lastScannedAt": "2026-06-21T16:03:08.026Z"
     },
     "content": {
       "zh-TW": {
@@ -9263,12 +9263,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/r3f-rpg-builder/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/r3f-rpg-builder/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/r3f-rpg-builder/en.md",
+        "content/projects/r3f-rpg-builder/project.override.json",
+        "content/projects/r3f-rpg-builder/zh-TW.md",
+        "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.817Z"
+      "lastScannedAt": "2026-06-21T16:03:08.027Z"
     },
     "content": {
       "zh-TW": {
@@ -9517,12 +9517,12 @@
       "needsReview": false,
       "missingFields": [],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/research-paper-and-knowledge-workspace/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/research-paper-and-knowledge-workspace/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/research-paper-and-knowledge-workspace/en.md",
+        "content/projects/research-paper-and-knowledge-workspace/project.override.json",
+        "content/projects/research-paper-and-knowledge-workspace/zh-TW.md",
+        "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.817Z"
+      "lastScannedAt": "2026-06-21T16:03:08.027Z"
     },
     "content": {
       "zh-TW": {
@@ -9680,12 +9680,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/restoreAI-studio/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/restoreAI-studio/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/restoreAI-studio/en.md",
+        "content/projects/restoreAI-studio/project.override.json",
+        "content/projects/restoreAI-studio/zh-TW.md",
+        "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.817Z"
+      "lastScannedAt": "2026-06-21T16:03:08.027Z"
     },
     "content": {
       "zh-TW": {
@@ -9835,12 +9835,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/rigview3d/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/rigview3d/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/rigview3d/en.md",
+        "content/projects/rigview3d/project.override.json",
+        "content/projects/rigview3d/zh-TW.md",
+        "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.817Z"
+      "lastScannedAt": "2026-06-21T16:03:08.027Z"
     },
     "content": {
       "zh-TW": {
@@ -9972,12 +9972,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/rocm-image-video-stack/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/rocm-image-video-stack/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/rocm-image-video-stack/en.md",
+        "content/projects/rocm-image-video-stack/project.override.json",
+        "content/projects/rocm-image-video-stack/zh-TW.md",
+        "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.027Z"
     },
     "content": {
       "zh-TW": {
@@ -10139,12 +10139,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/sailing-adventure/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/sailing-adventure/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/sailing-adventure/en.md",
+        "content/projects/sailing-adventure/project.override.json",
+        "content/projects/sailing-adventure/zh-TW.md",
+        "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.027Z"
     },
     "content": {
       "zh-TW": {
@@ -10285,12 +10285,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/school-library-lms/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/school-library-lms/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/school-library-lms/en.md",
+        "content/projects/school-library-lms/project.override.json",
+        "content/projects/school-library-lms/zh-TW.md",
+        "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.027Z"
     },
     "content": {
       "zh-TW": {
@@ -10422,12 +10422,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/scrapers/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/scrapers/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/scrapers/en.md",
+        "content/projects/scrapers/project.override.json",
+        "content/projects/scrapers/zh-TW.md",
+        "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.027Z"
     },
     "content": {
       "zh-TW": {
@@ -10577,12 +10577,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/sd-multimodal-platform/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/sd-multimodal-platform/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/sd-multimodal-platform/en.md",
+        "content/projects/sd-multimodal-platform/project.override.json",
+        "content/projects/sd-multimodal-platform/zh-TW.md",
+        "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.027Z"
     },
     "content": {
       "zh-TW": {
@@ -10747,12 +10747,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/signal-diver-3d/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/signal-diver-3d/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/signal-diver-3d/en.md",
+        "content/projects/signal-diver-3d/project.override.json",
+        "content/projects/signal-diver-3d/zh-TW.md",
+        "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -10905,12 +10905,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/soccer-player-rpg/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/soccer-player-rpg/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/soccer-player-rpg/en.md",
+        "content/projects/soccer-player-rpg/project.override.json",
+        "content/projects/soccer-player-rpg/zh-TW.md",
+        "content/projects/soccer-player-rpg/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -11072,12 +11072,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/sonic-inspired-3d/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/sonic-inspired-3d/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/sonic-inspired-3d/en.md",
+        "content/projects/sonic-inspired-3d/project.override.json",
+        "content/projects/sonic-inspired-3d/zh-TW.md",
+        "content/projects/sonic-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -11218,12 +11218,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/starforge-AI-narrative/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/starforge-AI-narrative/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/starforge-AI-narrative/en.md",
+        "content/projects/starforge-AI-narrative/project.override.json",
+        "content/projects/starforge-AI-narrative/zh-TW.md",
+        "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -11388,12 +11388,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/super-wings-rpg-game/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/super-wings-rpg-game/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/super-wings-rpg-game/en.md",
+        "content/projects/super-wings-rpg-game/project.override.json",
+        "content/projects/super-wings-rpg-game/zh-TW.md",
+        "content/projects/super-wings-rpg-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -11558,12 +11558,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/the-archive-that-watches-you/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/the-archive-that-watches-you/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/the-archive-that-watches-you/en.md",
+        "content/projects/the-archive-that-watches-you/project.override.json",
+        "content/projects/the-archive-that-watches-you/zh-TW.md",
+        "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -11704,12 +11704,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/the-classrooms/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/the-classrooms/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/the-classrooms/en.md",
+        "content/projects/the-classrooms/project.override.json",
+        "content/projects/the-classrooms/zh-TW.md",
+        "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -11856,12 +11856,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/threejs-product-viewer/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/threejs-product-viewer/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/threejs-product-viewer/en.md",
+        "content/projects/threejs-product-viewer/project.override.json",
+        "content/projects/threejs-product-viewer/zh-TW.md",
+        "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -12002,12 +12002,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/traffic-pulse/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/traffic-pulse/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/traffic-pulse/en.md",
+        "content/projects/traffic-pulse/project.override.json",
+        "content/projects/traffic-pulse/zh-TW.md",
+        "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -12157,12 +12157,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/tripscore/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/tripscore/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/tripscore/en.md",
+        "content/projects/tripscore/project.override.json",
+        "content/projects/tripscore/zh-TW.md",
+        "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -12300,12 +12300,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/urban-analytics-core/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/urban-analytics-core/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/urban-analytics-core/en.md",
+        "content/projects/urban-analytics-core/project.override.json",
+        "content/projects/urban-analytics-core/zh-TW.md",
+        "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.818Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -12446,12 +12446,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/vanilla-dom-playground/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/vanilla-dom-playground/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/vanilla-dom-playground/en.md",
+        "content/projects/vanilla-dom-playground/project.override.json",
+        "content/projects/vanilla-dom-playground/zh-TW.md",
+        "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.819Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -12589,12 +12589,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/video-family-lora-hub/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/video-family-lora-hub/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/video-family-lora-hub/en.md",
+        "content/projects/video-family-lora-hub/project.override.json",
+        "content/projects/video-family-lora-hub/zh-TW.md",
+        "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.819Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -12726,12 +12726,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/video-gen/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/video-gen/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/video-gen/en.md",
+        "content/projects/video-gen/project.override.json",
+        "content/projects/video-gen/zh-TW.md",
+        "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.819Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -12881,12 +12881,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/vision-quest/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/vision-quest/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/vision-quest/en.md",
+        "content/projects/vision-quest/project.override.json",
+        "content/projects/vision-quest/zh-TW.md",
+        "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.819Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -13036,12 +13036,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/YouTube-Web-Automation-Analysis/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/YouTube-Web-Automation-Analysis/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/YouTube-Web-Automation-Analysis/en.md",
+        "content/projects/YouTube-Web-Automation-Analysis/project.override.json",
+        "content/projects/YouTube-Web-Automation-Analysis/zh-TW.md",
+        "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.819Z"
+      "lastScannedAt": "2026-06-21T16:03:08.028Z"
     },
     "content": {
       "zh-TW": {
@@ -13188,12 +13188,12 @@
         "verified screenshots or demo media"
       ],
       "evidenceSources": [
-        "/home/justin/web-projects/justin-portfolio/content/projects/ytp-factory/project.override.json",
-        "/home/justin/web-projects/justin-portfolio/content/projects/ytp-factory/zh-TW.md",
-        "/home/justin/web-projects/justin-portfolio/content/projects/ytp-factory/en.md",
+        "content/projects/ytp-factory/project.override.json",
+        "content/projects/ytp-factory/zh-TW.md",
+        "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T16:00:39.819Z"
+      "lastScannedAt": "2026-06-21T16:03:08.029Z"
     },
     "content": {
       "zh-TW": {
