@@ -1,0 +1,25 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "information-system",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "coverImage": "/portfolio/projects/digital-archive-review-board/cover.webp",
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/digital-archive-review-board/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

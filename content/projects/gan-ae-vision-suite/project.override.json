@@ -1,0 +1,31 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "information-system",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "Python",
+    "FastAPI"
+  ],
+  "coverImage": "/portfolio/projects/gan-ae-vision-suite/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/GAN-AE-vision-suite",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/gan-ae-vision-suite/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

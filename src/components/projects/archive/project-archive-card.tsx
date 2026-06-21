@@ -46,7 +46,8 @@ import {
 
 export type ProjectViewMode =
   | "grid"
-  | "list";
+  | "list"
+  | "catalog";
 
 interface ProjectArchiveCardProps {
   project: Project;
@@ -152,6 +153,38 @@ export function ProjectArchiveCard({
 
   const content =
     project.content[locale];
+  const labels =
+    locale === "en"
+      ? {
+          featured: "Featured",
+          altTitle: "Alt title",
+          role: "Creator/Role",
+          status: "Status",
+          year: "Year",
+          platforms: "Platforms",
+          domains: "Domains",
+          stack: "Stack",
+          developer: "Developer",
+          web: "Web",
+          general: "General",
+          favorite: "Favorite",
+          compare: "Compare",
+        }
+      : {
+          featured: "精選",
+          altTitle: "別名",
+          role: "作者/角色",
+          status: "狀態",
+          year: "年份",
+          platforms: "平台",
+          domains: "領域",
+          stack: "技術",
+          developer: "開發者",
+          web: "Web",
+          general: "一般",
+          favorite: "收藏",
+          compare: "比較",
+        };
 
   const image =
     project.coverImage ??
@@ -162,6 +195,142 @@ export function ProjectArchiveCard({
 
   const features =
     content.features ?? [];
+
+  if (viewMode === "catalog") {
+    return (
+      <m.article
+        layout
+        initial={{
+          opacity: 0,
+          y: 28,
+          scale: 0.98,
+        }}
+        animate={{
+          opacity: 1,
+          y: 0,
+          scale: 1,
+        }}
+        exit={{
+          opacity: 0,
+          y: 18,
+          scale: 0.96,
+        }}
+        whileHover={
+          shouldReduceMotion
+            ? undefined
+            : {
+                y: -5,
+              }
+        }
+        className="group relative overflow-hidden rounded-3xl border border-border bg-card p-7 shadow-sm transition-shadow hover:shadow-2xl hover:shadow-primary/10 flex flex-col gap-5 font-mono text-sm leading-relaxed"
+      >
+        <div className="flex items-center justify-between border-b border-dashed border-border pb-3">
+          <div className="flex items-center gap-2">
+            <span className="font-mono text-xs font-semibold text-primary px-2.5 py-1 rounded bg-primary/10 border border-primary/20">
+              {project.metadata.catalogNumber || `PF-${project.year}-IS-000`}
+            </span>
+            {project.featured && (
+              <span className="text-[10px] bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded uppercase font-bold tracking-wider">
+                ★ {labels.featured}
+              </span>
+            )}
+          </div>
+          <span className="text-xs text-muted-foreground uppercase tracking-wider">
+            {categoryLabels[locale][project.category]}
+          </span>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-bold tracking-tight text-foreground transition-colors group-hover:text-primary">
+            {content.title}
+          </h2>
+          {project.metadata.aliases && project.metadata.aliases.length > 0 && (
+            <p className="text-xs text-muted-foreground mt-1">
+              [{labels.altTitle}: {project.metadata.aliases.join(", ")}]
+            </p>
+          )}
+        </div>
+
+        <div className="grid gap-x-4 gap-y-2 text-xs md:grid-cols-2">
+          <div className="flex gap-2">
+            <span className="w-24 text-muted-foreground shrink-0">[{labels.role}]</span>
+            <span className="text-foreground truncate">{content.role || labels.developer}</span>
+          </div>
+          <div className="flex gap-2">
+            <span className="w-24 text-muted-foreground shrink-0">[{labels.status}]</span>
+            <span className={`font-semibold ${project.status === 'completed' ? 'text-green-500' : 'text-amber-500'}`}>
+              {statusLabels[locale][project.status]}
+            </span>
+          </div>
+          <div className="flex gap-2">
+            <span className="w-24 text-muted-foreground shrink-0">[{labels.year}]</span>
+            <span className="text-foreground">{project.year}</span>
+          </div>
+          <div className="flex gap-2">
+            <span className="w-24 text-muted-foreground shrink-0">[{labels.platforms}]</span>
+            <span className="text-foreground truncate">{project.metadata.platforms.join(", ") || labels.web}</span>
+          </div>
+          <div className="flex gap-2 md:col-span-2">
+            <span className="w-24 text-muted-foreground shrink-0">[{labels.domains}]</span>
+            <span className="text-foreground line-clamp-1">{project.metadata.domains.join(", ") || labels.general}</span>
+          </div>
+          <div className="flex gap-2 md:col-span-2">
+            <span className="w-24 text-muted-foreground shrink-0">[{labels.stack}]</span>
+            <span className="text-foreground line-clamp-1">{project.technologies.join(", ")}</span>
+          </div>
+        </div>
+
+        <p className="text-sm leading-7 text-muted-foreground bg-accent/40 p-4 rounded-xl border border-border/50 line-clamp-3">
+          {content.summary}
+        </p>
+
+        <div className="mt-auto pt-3 border-t border-dashed border-border flex items-center justify-between gap-3">
+          <div className="flex gap-2">
+            <button
+              onClick={() => onPreview(project)}
+              className="text-xs font-semibold text-muted-foreground hover:text-foreground px-2 py-1 border border-border rounded transition-colors"
+            >
+              {locale === "en" ? "Preview" : "快速預覽"}
+            </button>
+            <Link
+              href={`/projects/${project.slug}`}
+              className="text-xs font-semibold text-primary hover:underline px-2 py-1 border border-primary/20 bg-primary/5 rounded transition-colors"
+            >
+              {locale === "en" ? "Full Record →" : "完整案例 →"}
+            </Link>
+          </div>
+          <div className="flex items-center gap-1.5">
+            <m.button
+              whileHover={{ scale: 1.08 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={() => toggleFavorite(project.slug)}
+              className={`p-1.5 rounded border transition-colors ${
+                isFavorite
+                  ? "border-rose-500/40 bg-rose-500 text-white"
+                  : "border-border text-muted-foreground hover:bg-accent"
+              }`}
+              aria-label={labels.favorite}
+            >
+              <Heart className={`h-3.5 w-3.5 ${isFavorite ? "fill-current" : ""}`} />
+            </m.button>
+            <m.button
+              whileHover={{ scale: 1.08 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={handleCompare}
+              className={`p-1.5 rounded border transition-colors ${
+                isCompared
+                  ? "border-primary bg-primary text-primary-foreground"
+                  : "border-border text-muted-foreground hover:bg-accent"
+              }`}
+              aria-label={labels.compare}
+            >
+              <Columns3 className="h-3.5 w-3.5" />
+            </m.button>
+          </div>
+        </div>
+      </m.article>
+    );
+  }
 
   const isList =
     viewMode === "list";
@@ -206,7 +375,7 @@ export function ProjectArchiveCard({
       }}
       className={`group overflow-hidden rounded-3xl border border-border bg-card shadow-sm transition-shadow hover:shadow-2xl hover:shadow-primary/10 ${
         isList
-          ? "grid md:grid-cols-[20rem_1fr]"
+          ? "grid md:grid-cols-[24rem_1fr]"
           : "flex h-full flex-col"
       }`}
     >
@@ -214,8 +383,8 @@ export function ProjectArchiveCard({
         layoutId={`project-cover-${project.slug}`}
         className={`relative overflow-hidden bg-gradient-to-br from-primary/20 via-background to-secondary ${
           isList
-            ? "min-h-64 md:min-h-full"
-            : "aspect-[16/10]"
+            ? "min-h-72 md:min-h-full"
+            : "aspect-[16/11]"
         }`}
       >
         {image ? (
@@ -225,8 +394,8 @@ export function ProjectArchiveCard({
             fill
             sizes={
               isList
-                ? "(max-width: 768px) 100vw, 320px"
-                : "(max-width: 768px) 100vw, 33vw"
+                ? "(max-width: 768px) 100vw, 384px"
+                : "(max-width: 768px) 100vw, 50vw"
             }
             className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
           />
@@ -353,7 +522,7 @@ export function ProjectArchiveCard({
 </div>
       </m.div>
 
-      <div className="flex flex-1 flex-col p-6">
+      <div className="flex flex-1 flex-col p-7 lg:p-8">
         <div className="mb-4 flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
           <span>{project.year}</span>
 
@@ -388,17 +557,17 @@ export function ProjectArchiveCard({
           )}
         </div>
 
-        <h2 className="mb-3 text-xl font-bold tracking-tight transition-colors group-hover:text-primary">
+        <h2 className="mb-3 text-2xl font-bold tracking-tight transition-colors group-hover:text-primary">
           {content.title}
         </h2>
 
         {content.tagline && (
-          <p className="mb-3 font-medium text-foreground/80">
+          <p className="mb-4 text-base font-medium leading-7 text-foreground/80">
             {content.tagline}
           </p>
         )}
 
-        <p className="mb-5 line-clamp-3 leading-7 text-muted-foreground">
+        <p className="mb-6 line-clamp-4 text-base leading-8 text-muted-foreground">
           {content.summary}
         </p>
 
@@ -433,14 +602,14 @@ export function ProjectArchiveCard({
           </div>
         )}
 
-        <div className="mb-6 flex flex-wrap gap-2">
+        <div className="mb-7 flex flex-wrap gap-2.5">
           {project.technologies
             .slice(0, 6)
             .map(
               (technology) => (
                 <span
                   key={technology}
-                  className="rounded-md bg-secondary px-2 py-1 text-xs"
+                  className="rounded-lg bg-secondary px-3 py-1.5 text-xs"
                 >
                   {technology}
                 </span>

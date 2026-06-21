@@ -1,0 +1,35 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "interactive-3d",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "React Three Fiber",
+    "React",
+    "Tailwind CSS",
+    "Three.js",
+    "Zustand",
+    "TypeScript"
+  ],
+  "coverImage": "/portfolio/projects/polly-rpg-game/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/mission-based-rpg",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/polly-rpg-game/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

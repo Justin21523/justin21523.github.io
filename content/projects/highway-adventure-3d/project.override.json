@@ -1,0 +1,35 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "interactive-3d",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "React Three Fiber",
+    "React",
+    "Three.js",
+    "Zustand",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "coverImage": "/portfolio/projects/highway-adventure-3d/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/highway-adventure-3d",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/highway-adventure-3d/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

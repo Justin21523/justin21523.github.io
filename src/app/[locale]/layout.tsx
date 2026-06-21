@@ -16,6 +16,9 @@ import {
 import {
   projects,
 } from "@/data/projects";
+import {
+  siteUrl,
+} from "@/data/home";
 
 import {
   normalizePortfolioLocale,
@@ -34,22 +37,23 @@ const notoSansTC = Noto_Sans_TC({
   display: "swap",
 });
 
-const portfolioLocale =
-  normalizePortfolioLocale(
-    locale
-  );
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
-    default: "Justin Portfolio | Frontend Engineer",
+    default:
+      "Justin | Web Development, Data Organization, and LIS Portfolio",
     template: "%s | Justin Portfolio",
   },
-  description: "Personal portfolio of Justin - Frontend Engineer specialized in React and Next.js",
+  description:
+    "Justin’s bilingual portfolio for web development, data organization, metadata, digital archives, and library information science projects.",
   // 設定 Open Graph (讓分享到 LINE/FB 時有漂亮預覽)
   openGraph: {
-    title: "Justin Portfolio",
-    description: "Frontend Engineer specialized in React and Next.js",
-    url: "https://your-portfolio-domain.com",
+    title:
+      "Justin | Web Development, Data Organization, and LIS Portfolio",
+    description:
+      "Portfolio projects built around Python, JavaScript, TypeScript, metadata, search, digital archives, and learning-focused application development.",
+    url: siteUrl,
     siteName: "Justin Portfolio",
     locale: "zh_TW",
     type: "website",
@@ -75,21 +79,23 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
   const messages = await getMessages();
+  const portfolioLocale = normalizePortfolioLocale(locale);
 
     return (
     <html
         lang={locale}
+        data-scroll-behavior="smooth"
         suppressHydrationWarning
     >
         <body
-        className={`${inter.variable} font-sans antialiased`}
+        className={`${inter.variable} ${notoSansTC.variable} font-sans antialiased`}
         >
         <NextIntlClientProvider
             messages={messages}
         >
             <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
             >

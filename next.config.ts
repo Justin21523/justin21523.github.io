@@ -3,8 +3,20 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin();
 
+const isGithubPages =
+  process.env.GITHUB_PAGES === "true";
+
 const nextConfig: NextConfig = {
+  output: "export",
+  trailingSlash: true,
+  basePath: isGithubPages
+    ? "/justin-portfolio"
+    : undefined,
+  assetPrefix: isGithubPages
+    ? "/justin-portfolio/"
+    : undefined,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",

@@ -1,0 +1,25 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "interactive-3d",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "React Three Fiber",
+    "React",
+    "Three.js",
+    "TypeScript"
+  ],
+  "coverImage": "/portfolio/projects/my-3d-platformer/cover.webp",
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/my-3d-platformer/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

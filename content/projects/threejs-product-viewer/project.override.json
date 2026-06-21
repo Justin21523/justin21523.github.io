@@ -1,0 +1,30 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "information-system",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "Three.js"
+  ],
+  "coverImage": "/portfolio/projects/threejs-product-viewer/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/threejs-product-viewer",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/threejs-product-viewer/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

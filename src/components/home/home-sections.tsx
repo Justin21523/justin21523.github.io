@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -8,9 +7,11 @@ import {
   CheckCircle2,
   Code2,
   Database,
+  ExternalLink,
+  FileText,
+  FolderKanban,
   GitBranch,
   Mail,
-  Wrench,
 } from "lucide-react";
 import {
   m,
@@ -20,245 +21,37 @@ import {
 import { Link } from "@/i18n/navigation";
 import type {
   HomeContent,
-  HomeLocale,
 } from "@/data/home";
-import type {
-  Project,
-  ProjectStatus,
-} from "@/types/projects";
 
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/motion/section-heading";
 
-interface FeaturedProjectsSectionProps {
-  content: HomeContent["featured"];
-  projects: Project[];
-  locale: HomeLocale;
-}
-
-const statusLabels: Record<
-  HomeLocale,
-  Record<ProjectStatus, string>
-> = {
-  "zh-TW": {
-    completed: "已完成",
-    "in-progress": "開發中",
-    prototype: "原型",
-    planned: "規劃中",
-  },
-
-  en: {
-    completed: "Completed",
-    "in-progress": "In progress",
-    prototype: "Prototype",
-    planned: "Planned",
-  },
-};
-
-export function FeaturedProjectsSection({
-  content,
-  projects,
-  locale,
-}: FeaturedProjectsSectionProps) {
-  const shouldReduceMotion =
-    useReducedMotion();
-
-  return (
-    <section className="border-b border-border/60 py-24 md:py-32">
-      <div className="section-shell">
-        <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
-          <SectionHeading
-            eyebrow={content.eyebrow}
-            title={content.title}
-            description={
-              content.description
-            }
-          />
-
-          <Reveal
-            direction="left"
-            className="mb-12"
-          >
-            <Link
-              href="/projects/all"
-              className="group inline-flex items-center gap-2 font-medium text-primary"
-            >
-              {content.viewAll}
-
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Link>
-          </Reveal>
-        </div>
-
-        <div className="grid gap-7 lg:grid-cols-3">
-          {projects.map(
-            (project, index) => {
-              const projectContent =
-                project.content[locale];
-
-              return (
-                <m.article
-                  key={project.slug}
-                  initial={{
-                    opacity: 0,
-                    y: 40,
-                  }}
-                  whileInView={{
-                    opacity: 1,
-                    y: 0,
-                  }}
-                  viewport={{
-                    once: true,
-                    amount: 0.15,
-                  }}
-                  whileHover={
-                    shouldReduceMotion
-                      ? undefined
-                      : {
-                          y: -10,
-                          scale: 1.01,
-                        }
-                  }
-                  transition={{
-                    delay:
-                      index * 0.08,
-                    type: "spring",
-                    stiffness: 220,
-                    damping: 24,
-                  }}
-                  className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-border bg-card shadow-sm transition-shadow hover:shadow-2xl hover:shadow-primary/10"
-                >
-                  <div className="relative aspect-[16/10] overflow-hidden bg-gradient-to-br from-primary/25 via-background to-secondary">
-                    {project.coverImage ? (
-                      <Image
-                        src={
-                          project.coverImage
-                        }
-                        alt={
-                          projectContent.title
-                        }
-                        fill
-                        sizes="(max-width: 1024px) 100vw, 33vw"
-                        className="object-cover transition-transform duration-700 group-hover:scale-105"
-                      />
-                    ) : (
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="select-none text-5xl font-bold text-primary/25">
-                          {projectContent.title
-                            .split(" ")
-                            .map(
-                              (word) =>
-                                word[0]
-                            )
-                            .join("")
-                            .slice(0, 3)}
-                        </span>
-                      </div>
-                    )}
-
-                    <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-70" />
-
-                    <span className="absolute left-4 top-4 rounded-full border border-border bg-background/80 px-3 py-1 text-xs font-medium backdrop-blur">
-                      {
-                        statusLabels[
-                          locale
-                        ][project.status]
-                      }
-                    </span>
-
-                    {project.featured && (
-                      <span className="absolute right-4 top-4 rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
-                        {
-                          content.featuredLabel
-                        }
-                      </span>
-                    )}
-                  </div>
-
-                  <div className="flex flex-1 flex-col p-6">
-                    <p className="mb-3 text-xs font-semibold uppercase tracking-[0.16em] text-primary">
-                      {project.year}
-                    </p>
-
-                    <h3 className="mb-3 text-xl font-bold transition-colors group-hover:text-primary">
-                      {
-                        projectContent.title
-                      }
-                    </h3>
-
-                    <p className="mb-6 text-sm leading-7 text-muted-foreground">
-                      {
-                        projectContent.summary
-                      }
-                    </p>
-
-                    <div className="mb-6 flex flex-wrap gap-2">
-                      {project.technologies
-                        .slice(0, 4)
-                        .map(
-                          (
-                            technology
-                          ) => (
-                            <span
-                              key={
-                                technology
-                              }
-                              className="rounded-md bg-secondary px-2 py-1 text-xs text-secondary-foreground"
-                            >
-                              {
-                                technology
-                              }
-                            </span>
-                          )
-                        )}
-                    </div>
-
-                    <div className="mt-auto flex items-center gap-3">
-                      <Link
-                        href={`/projects/${project.slug}`}
-                        className="group/link inline-flex flex-1 items-center justify-between rounded-xl bg-primary px-4 py-3 text-sm font-medium text-primary-foreground"
-                      >
-                        {
-                          content.viewCaseStudy
-                        }
-
-                        <ArrowUpRight className="h-4 w-4 transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5" />
-                      </Link>
-
-                      {project.repositoryUrl && (
-                        <a
-                          href={
-                            project.repositoryUrl
-                          }
-                          target="_blank"
-                          rel="noreferrer"
-                          aria-label="Source code"
-                          className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-border transition-colors hover:bg-accent"
-                        >
-                          <GitBranch className="h-4 w-4" />
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                </m.article>
-              );
-            }
-          )}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-interface DomainsSectionProps {
-  content: HomeContent["domains"];
-}
+const roadmapStatusStyles = {
+  demonstrated:
+    "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400",
+  building:
+    "bg-blue-500/10 text-blue-600 dark:text-blue-400",
+  planned:
+    "bg-amber-500/10 text-amber-600 dark:text-amber-400",
+} as const;
 
 const domainIcons = {
   database: Database,
   box: Box,
   code: Code2,
 } as const;
+
+const contactIcons = {
+  mail: Mail,
+  github: GitBranch,
+  linkedin: ExternalLink,
+  file: FileText,
+  projects: FolderKanban,
+} as const;
+
+interface DomainsSectionProps {
+  content: HomeContent["about"];
+}
 
 export function DomainsSection({
   content,
@@ -278,13 +71,23 @@ export function DomainsSection({
           eyebrow={content.eyebrow}
           title={content.title}
           description={
-            content.description
+            content.paragraphs[0]
           }
           align="center"
         />
 
+        <div className="mx-auto mb-12 grid max-w-5xl gap-5 text-pretty text-sm leading-7 text-muted-foreground md:grid-cols-2 md:text-base">
+          {content.paragraphs
+            .slice(1)
+            .map((paragraph) => (
+              <p key={paragraph}>
+                {paragraph}
+              </p>
+            ))}
+        </div>
+
         <div className="grid gap-6 lg:grid-cols-3">
-          {content.items.map(
+          {content.cards.map(
             (item, index) => {
               const Icon =
                 domainIcons[
@@ -377,35 +180,6 @@ interface SkillsEvidenceSectionProps {
   content: HomeContent["skills"];
 }
 
-const skillContainerVariants = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.08,
-    },
-  },
-};
-
-const skillItemVariants = {
-  hidden: {
-    opacity: 0,
-    y: 28,
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.65,
-      ease: [
-        0.22,
-        1,
-        0.36,
-        1,
-      ],
-    },
-  },
-};
-
 export function SkillsEvidenceSection({
   content,
 }: SkillsEvidenceSectionProps) {
@@ -420,49 +194,154 @@ export function SkillsEvidenceSection({
           }
         />
 
-        <m.ul
-          variants={
-            skillContainerVariants
-          }
-          initial="hidden"
-          whileInView="visible"
-          viewport={{
-            once: true,
-            amount: 0.12,
-          }}
-          className="grid gap-5 md:grid-cols-2"
-        >
-          {content.items.map(
-            (item) => (
-              <m.li
-                key={item.title}
-                variants={
-                  skillItemVariants
-                }
-                className="group rounded-2xl border border-border bg-card p-6 transition-colors hover:border-primary/35"
+        <div className="space-y-8">
+          {content.groups.map(
+            (group) => (
+              <m.section
+                key={group.title}
+                initial={{
+                  opacity: 0,
+                  y: 28,
+                }}
+                whileInView={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                viewport={{
+                  once: true,
+                  amount: 0.16,
+                }}
+                className="rounded-3xl border border-border bg-card/70 p-6"
               >
-                <div className="flex gap-4">
-                  <div className="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-                    <CheckCircle2 className="h-5 w-5" />
+                <h3 className="mb-5 text-xl font-bold">
+                  {group.title}
+                </h3>
+
+                <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+                  {group.categories.map(
+                    (category) => (
+                      <article
+                        key={
+                          category.title
+                        }
+                        className="rounded-2xl border border-border/70 bg-background/50 p-5"
+                      >
+                        <div className="mb-4 flex items-center gap-3">
+                          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
+                            <CheckCircle2 className="h-4 w-4" />
+                          </span>
+
+                          <h4 className="font-semibold">
+                            {
+                              category.title
+                            }
+                          </h4>
+                        </div>
+
+                        <div className="flex flex-wrap gap-2">
+                          {category.items.map(
+                            (item) => (
+                              <span
+                                key={item}
+                                className="rounded-md bg-secondary px-2 py-1 text-xs text-secondary-foreground"
+                              >
+                                {item}
+                              </span>
+                            )
+                          )}
+                        </div>
+                      </article>
+                    )
+                  )}
+                </div>
+              </m.section>
+            )
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+interface FeaturedProjectsSectionProps {
+  content: HomeContent["featured"];
+}
+
+export function FeaturedProjectsSection({
+  content,
+}: FeaturedProjectsSectionProps) {
+  const shouldReduceMotion =
+    useReducedMotion();
+
+  return (
+    <section className="border-b border-border/60 py-24 md:py-32">
+      <div className="section-shell">
+        <div className="mb-16 flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+          <SectionHeading
+            eyebrow={content.eyebrow}
+            title={content.title}
+            description={content.description}
+          />
+
+          <Reveal direction="left" className="mb-4">
+            <Link
+              href="/projects/all"
+              className="group inline-flex items-center gap-2 rounded-full bg-primary/5 px-5 py-2.5 font-medium text-primary transition-all hover:bg-primary/10"
+            >
+              {content.viewAll}
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </Reveal>
+        </div>
+
+        <div className="space-y-24">
+          {content.groups.map(
+            (group, groupIdx) => (
+              <div
+                key={group.title}
+                className="space-y-8"
+              >
+                <m.div
+                  initial={{
+                    opacity: 0,
+                    y: 30,
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    y: 0,
+                  }}
+                  viewport={{
+                    once: true,
+                    amount: 0.3,
+                  }}
+                  transition={{
+                    duration: 0.6,
+                  }}
+                  className="flex flex-col justify-between gap-6 border-b border-border/60 pb-6 md:flex-row md:items-start"
+                >
+                  <div className="space-y-2">
+                    <span className="text-[10px] font-mono tracking-wider text-primary/80 bg-primary/10 px-2 py-0.5 rounded-sm">
+                      AREA 0{groupIdx + 1}
+                    </span>
+
+                    <h3 className="mt-1 text-2xl font-bold tracking-tight text-foreground">
+                      {group.title}
+                    </h3>
                   </div>
 
-                  <div>
-                    <h3 className="mb-2 text-lg font-bold">
-                      {item.title}
-                    </h3>
-
-                    <p className="leading-7 text-muted-foreground">
+                  <div className="md:max-w-xl">
+                    <p className="text-sm leading-relaxed text-muted-foreground">
                       {
-                        item.evidence
+                        group.description
                       }
                     </p>
 
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      {item.tags.map(
+                    <div className="mt-3 flex flex-wrap gap-1.5">
+                      {group.tags.map(
                         (tag) => (
                           <span
                             key={tag}
-                            className="rounded-md bg-secondary px-2 py-1 text-xs"
+                            className="rounded-md border border-border bg-background/50 px-2 py-0.5 text-xs text-muted-foreground/80"
                           >
                             {tag}
                           </span>
@@ -470,28 +349,114 @@ export function SkillsEvidenceSection({
                       )}
                     </div>
                   </div>
+                </m.div>
+
+                <div className="grid gap-7 lg:grid-cols-3">
+                  {group.projects.map(
+                    (project, index) => (
+                      <m.article
+                        key={project.title}
+                        initial={{
+                          opacity: 0,
+                          y: 40,
+                        }}
+                        whileInView={{
+                          opacity: 1,
+                          y: 0,
+                        }}
+                        viewport={{
+                          once: true,
+                          amount: 0.1,
+                        }}
+                        whileHover={
+                          shouldReduceMotion
+                            ? undefined
+                            : {
+                                y: -8,
+                                scale: 1.01,
+                              }
+                        }
+                        transition={{
+                          delay:
+                            index * 0.08,
+                          type: "spring",
+                          stiffness: 220,
+                          damping: 24,
+                        }}
+                        className="group flex h-full flex-col rounded-3xl border border-border bg-card p-6 shadow-sm transition-shadow hover:shadow-2xl hover:shadow-primary/10"
+                      >
+                        <div className="mb-5 flex items-start justify-between gap-4">
+                          <h4 className="text-xl font-bold transition-colors group-hover:text-primary">
+                            {project.title}
+                          </h4>
+
+                          <span className="shrink-0 rounded-full border border-primary/25 bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+                            {project.status}
+                          </span>
+                        </div>
+
+                        <p className="mb-5 text-sm leading-7 text-muted-foreground">
+                          {
+                            project.description
+                          }
+                        </p>
+
+                        <div className="mb-5">
+                          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-primary">
+                            Tech Stack
+                          </p>
+
+                          <div className="flex flex-wrap gap-2">
+                            {project.techStack.map(
+                              (technology) => (
+                                <span
+                                  key={
+                                    technology
+                                  }
+                                  className="rounded-md bg-secondary px-2 py-1 text-xs text-secondary-foreground"
+                                >
+                                  {
+                                    technology
+                                  }
+                                </span>
+                              )
+                            )}
+                          </div>
+                        </div>
+
+                        <p className="mb-6 text-sm leading-7 text-muted-foreground">
+                          {project.focus}
+                        </p>
+
+                        {"slug" in
+                          project &&
+                          project.slug && (
+                          <div className="mt-auto">
+                            <Link
+                              href={`/projects/${project.slug}`}
+                              className="group/link inline-flex w-full items-center justify-between rounded-xl bg-primary px-4 py-3 text-sm font-medium text-primary-foreground"
+                            >
+                              {content.viewCaseStudy}
+                              <ArrowUpRight className="h-4 w-4 transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5" />
+                            </Link>
+                          </div>
+                        )}
+                      </m.article>
+                    )
+                  )}
                 </div>
-              </m.li>
+              </div>
             )
           )}
-        </m.ul>
+        </div>
       </div>
     </section>
   );
 }
 
 interface RoadmapSectionProps {
-  content: HomeContent["roadmap"];
+  content: HomeContent["learning"];
 }
-
-const roadmapStatusStyles = {
-  demonstrated:
-    "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400",
-  building:
-    "bg-blue-500/10 text-blue-600 dark:text-blue-400",
-  planned:
-    "bg-amber-500/10 text-amber-600 dark:text-amber-400",
-} as const;
 
 export function RoadmapSection({
   content,
@@ -503,9 +468,19 @@ export function RoadmapSection({
           eyebrow={content.eyebrow}
           title={content.title}
           description={
-            content.description
+            content.paragraphs[0]
           }
         />
+
+        <div className="mb-12 grid gap-5 text-pretty text-sm leading-7 text-muted-foreground md:grid-cols-3 md:text-base">
+          {content.paragraphs
+            .slice(1)
+            .map((paragraph) => (
+              <p key={paragraph}>
+                {paragraph}
+              </p>
+            ))}
+        </div>
 
         <div className="relative">
           <m.div
@@ -669,27 +644,51 @@ export function ContactCtaSection({
             </p>
 
             <div className="mt-9 flex flex-wrap justify-center gap-4">
-              <Link
-                href="/contact/form"
-                className="group inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3.5 font-medium text-primary-foreground"
-              >
-                <Mail className="h-4 w-4" />
+              {content.links.map(
+                (link) => {
+                  const Icon =
+                    contactIcons[
+                      link.icon
+                    ];
+                  const className =
+                    "group inline-flex items-center gap-2 rounded-xl border border-border bg-background/60 px-5 py-3 font-medium backdrop-blur hover:bg-accent";
 
-                {content.primaryCta}
+                  if (
+                    "external" in link &&
+                    link.external
+                  ) {
+                    return (
+                      <a
+                        key={link.label}
+                        href={link.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className={
+                          className
+                        }
+                      >
+                        <Icon className="h-4 w-4" />
+                        {link.label}
+                        <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                      </a>
+                    );
+                  }
 
-                <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-              </Link>
-
-              <Link
-                href="/projects/all"
-                className="group inline-flex items-center gap-2 rounded-xl border border-border bg-background/60 px-6 py-3.5 font-medium backdrop-blur hover:bg-accent"
-              >
-                <Wrench className="h-4 w-4" />
-
-                {content.secondaryCta}
-
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Link>
+                  return (
+                    <Link
+                      key={link.label}
+                      href={link.href}
+                      className={
+                        className
+                      }
+                    >
+                      <Icon className="h-4 w-4" />
+                      {link.label}
+                      <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </Link>
+                  );
+                }
+              )}
             </div>
           </div>
         </div>

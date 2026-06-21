@@ -1,0 +1,175 @@
+{
+  "visibility": "public",
+  "featured": true,
+  "category": "information-system",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "C#",
+    ".NET",
+    "Avalonia",
+    "SQLite",
+    "Dapper",
+    "FluentMigrator",
+    "ImageSharp",
+    "MVVM",
+    "Clean Architecture"
+  ],
+  "coverImage": "/portfolio/projects/ArchiveFlow/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/archive-flow-studio",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": "node-workflow-canvas",
+      "type": "image",
+      "src": "/portfolio/projects/ArchiveFlow/screenshots/01-node-workflow-canvas.webp",
+      "alt": {
+        "zh-TW": "ArchiveFlow Studio 的節點式工作流程畫布，包含檔案來源、處理節點與輸出節點",
+        "en": "ArchiveFlow Studio node workflow canvas with source, processing, and output nodes"
+      },
+      "title": {
+        "zh-TW": "節點式典藏工作流程畫布",
+        "en": "Node-based archive workflow canvas"
+      },
+      "caption": {
+        "zh-TW": "實際桌面應用截圖，展示視覺化工作流程、檔案處理與 Metadata 管線。",
+        "en": "Real desktop screenshot showing visual workflow design, file processing, and metadata pipeline controls."
+      },
+      "featured": true
+    }
+  ],
+  "metadata": {
+    "catalogNumber": "PF-2026-IS-002",
+    "aliases": [
+      "ArchiveFlow Studio",
+      "Personal Digital Archive Workflow",
+      "Metadata Workflow Studio"
+    ],
+    "projectType": "cross-platform desktop application",
+    "domains": [
+      "digital archive",
+      "metadata workflow",
+      "file processing",
+      "knowledge graph"
+    ],
+    "subjects": [
+      "Dublin Core",
+      "node workflow",
+      "full-text search",
+      "digital objects"
+    ],
+    "keywords": [
+      "visual workflow",
+      "Dublin Core export",
+      "SQLite FTS5",
+      "plugin architecture",
+      "thumbnail generation"
+    ],
+    "audiences": [
+      "archivists",
+      "digital humanities workers",
+      "metadata managers",
+      "personal archive users"
+    ],
+    "contentTypes": [
+      "desktop app",
+      "case study",
+      "source code"
+    ],
+    "dataTypes": [
+      "file metadata",
+      "Dublin Core record",
+      "digital object",
+      "workflow graph"
+    ],
+    "platforms": [
+      "Desktop",
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "operatingSystems": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "languages": [
+      "C#"
+    ],
+    "frameworks": [
+      ".NET",
+      "Avalonia"
+    ],
+    "libraries": [
+      "Dapper",
+      "FluentMigrator",
+      "ImageSharp"
+    ],
+    "database": [
+      "SQLite",
+      "SQLite FTS5"
+    ],
+    "desktop": [
+      "Avalonia UI",
+      "XAML",
+      "MVVM"
+    ],
+    "buildTools": [
+      ".NET SDK"
+    ],
+    "roles": [
+      "Independent Developer",
+      "Desktop Application Developer",
+      "Metadata System Designer"
+    ],
+    "responsibilities": [
+      "Visual workflow canvas design",
+      "Metadata model and Dublin Core export design",
+      "SQLite persistence and search architecture",
+      "Plugin and background job pipeline design"
+    ],
+    "collaborationType": "Solo",
+    "myContribution": "Designed and implemented the node workflow concept, metadata architecture, persistence layer, file processing pipeline, and Avalonia interface.",
+    "skillsDemonstrated": [
+      "digital archive workflow design",
+      "metadata standards",
+      "desktop interaction design",
+      "SQLite full-text search",
+      "plugin-oriented architecture"
+    ],
+    "capabilities": [
+      "metadata workflow",
+      "digital archive design",
+      "visual programming interface",
+      "desktop app architecture",
+      "local search"
+    ],
+    "tools": [
+      "Visual Studio Code",
+      ".NET CLI",
+      "Git"
+    ],
+    "hasUnitTests": true,
+    "hasIntegrationTests": true,
+    "responsive": false,
+    "needsReview": false,
+    "missingFields": [],
+    "evidenceSources": [
+      "README.md",
+      "ArchiveFlow.sln",
+      "src/ArchiveFlow.Domain",
+      "src/ArchiveFlow.Application",
+      "src/ArchiveFlow.Infrastructure",
+      "src/ArchiveFlow.App",
+      "data/screenshot.png"
+    ]
+  }
+}

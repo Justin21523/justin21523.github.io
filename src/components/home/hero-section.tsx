@@ -11,7 +11,8 @@ import {
   Box,
   Code2,
   Database,
-  Download,
+  GitBranch,
+  Mail,
   Sparkles,
 } from "lucide-react";
 import {
@@ -54,6 +55,12 @@ const orbitItems = [
       "bottom-[12%] right-1 md:-right-6",
   },
 ];
+
+const ctaIcons = {
+  arrow: ArrowRight,
+  mail: Mail,
+  github: GitBranch,
+} as const;
 
 export function HeroSection({
   content,
@@ -292,24 +299,43 @@ export function HeroSection({
             }}
             className="mt-8 flex flex-wrap gap-4"
           >
-            <Link
-              href="/projects/all"
-              className="group inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 font-medium text-primary-foreground shadow-lg shadow-primary/20 transition-shadow hover:shadow-xl hover:shadow-primary/30"
-            >
-              {content.primaryCta}
+            {content.ctas.map((cta) => {
+              const Icon =
+                ctaIcons[cta.icon];
+              const className =
+                cta.variant === "primary"
+                  ? "group inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 font-medium text-primary-foreground shadow-lg shadow-primary/20 transition-shadow hover:shadow-xl hover:shadow-primary/30"
+                  : "group inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-background/70 px-6 py-3.5 font-medium backdrop-blur transition-colors hover:bg-accent";
 
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Link>
+              if (
+                "external" in cta &&
+                cta.external
+              ) {
+                return (
+                  <a
+                    key={cta.label}
+                    href={cta.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={className}
+                  >
+                    <Icon className="h-4 w-4 transition-transform group-hover:-translate-y-0.5" />
+                    {cta.label}
+                  </a>
+                );
+              }
 
-            <a
-              href="/resume.pdf"
-              download
-              className="group inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-background/70 px-6 py-3.5 font-medium backdrop-blur transition-colors hover:bg-accent"
-            >
-              <Download className="h-4 w-4 transition-transform group-hover:-translate-y-0.5" />
-
-              {content.secondaryCta}
-            </a>
+              return (
+                <Link
+                  key={cta.label}
+                  href={cta.href}
+                  className={className}
+                >
+                  {cta.label}
+                  <Icon className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Link>
+              );
+            })}
           </m.div>
 
           <m.div
@@ -477,7 +503,7 @@ export function HeroSection({
           className="grid gap-3 sm:grid-cols-3 lg:col-span-2"
         >
           {content.focusCards.map(
-            (item, index) => (
+            (item) => (
               <m.div
                 key={item.label}
                 whileHover={

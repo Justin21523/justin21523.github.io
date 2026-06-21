@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronRight } from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -15,15 +16,17 @@ interface MobileMenuProps {
 
 export function MobileMenu({ open, onClose }: MobileMenuProps) {
   const t = useTranslations("nav");
+  const locale = useLocale() === "en" ? "en" : "zh-TW";
   const pathname = usePathname();
   const [expandedItem, setExpandedItem] = useState<string | null>(null);
 
   const navItems = [
-    { key: "about", label: t("about"), items: navStructure.about },
-    { key: "projects", label: t("projects"), items: navStructure.projects },
-    { key: "tech", label: t("tech"), items: navStructure.tech },
-    { key: "contact", label: t("contact"), items: navStructure.contact },
+    { key: "about", label: t("about"), items: navStructure[locale].about },
+    { key: "projects", label: t("projects"), items: navStructure[locale].projects },
+    { key: "tech", label: t("tech"), items: navStructure[locale].tech },
+    { key: "contact", label: t("contact"), items: navStructure[locale].contact },
   ];
+  const menuLabel = locale === "en" ? "Menu" : "選單";
 
   return (
     <AnimatePresence>
@@ -48,7 +51,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
           >
             <div className="p-4">
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-lg font-semibold">選單</h2>
+                <h2 className="text-lg font-semibold">{menuLabel}</h2>
                 <Button variant="ghost" size="icon" onClick={onClose}>
                   <X className="w-5 h-5" />
                 </Button>

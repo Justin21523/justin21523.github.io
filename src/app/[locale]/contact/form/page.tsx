@@ -1,4 +1,3 @@
-import { getTranslations } from "next-intl/server";
 import { ContactForm } from "@/components/contact/contact-form";
 import { Mail, MapPin, Phone } from "lucide-react";
 

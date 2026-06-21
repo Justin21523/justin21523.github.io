@@ -1,0 +1,88 @@
+{
+  "categories": [
+    "information-system",
+    "interactive-3d",
+    "ai-data",
+    "backend-desktop"
+  ],
+  "statuses": [
+    "completed"
+  ],
+  "years": [
+    2026
+  ],
+  "technologies": [
+    ".NET",
+    "Avalonia",
+    "C#",
+    "C++",
+    "Clean Architecture",
+    "CMake",
+    "Dapper",
+    "Entity Framework Core",
+    "FastAPI",
+    "FluentMigrator",
+    "ImageSharp",
+    "Java",
+    "Maven",
+    "MVVM",
+    "Next.js",
+    "Phaser",
+    "Plotly",
+    "Python",
+    "Qt",
+    "Qt Widgets",
+    "React",
+    "React Three Fiber",
+    "Spring Boot",
+    "SQLite",
+    "Tailwind CSS",
+    "Three.js",
+    "TypeScript",
+    "Zustand"
+  ],
+  "domains": [
+    "academic literature management",
+    "business workflow",
+    "cafe operations",
+    "desktop application",
+    "digital archive",
+    "file processing",
+    "internet cafe management",
+    "knowledge graph",
+    "knowledge organization",
+    "metadata management",
+    "metadata workflow",
+    "research workflow"
+  ],
+  "platforms": [
+    "Desktop",
+    "Linux",
+    "macOS",
+    "Web",
+    "Windows"
+  ],
+  "capabilities": [
+    "business workflow design",
+    "database-backed UI",
+    "desktop app architecture",
+    "digital archive design",
+    "interactive seat map",
+    "knowledge organization",
+    "local search",
+    "local-first data management",
+    "metadata modeling",
+    "metadata workflow",
+    "operations dashboard",
+    "research workflow design",
+    "visual programming interface"
+  ],
+  "roles": [
+    "Desktop Application Developer",
+    "Independent Developer",
+    "Information Architecture Designer",
+    "Metadata System Designer",
+    "Workflow System Designer",
+    "獨立開發者"
+  ]
+}

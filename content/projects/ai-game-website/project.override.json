@@ -1,0 +1,32 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "interactive-3d",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "Phaser",
+    "React",
+    "Tailwind CSS"
+  ],
+  "coverImage": "/portfolio/projects/ai-game-website/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/ai-game-website",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/ai-game-website/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

@@ -4,13 +4,19 @@ import { motion } from "framer-motion";
 import { Calendar, Clock } from "lucide-react";
 import { Article } from "@/data/tech";
 import { Link } from "@/i18n/navigation";
+import type {
+  PortfolioLocale,
+} from "@/types/projects";
 
 interface ArticleCardProps {
   article: Article;
   index: number;
+  locale: PortfolioLocale;
 }
 
-export function ArticleCard({ article, index }: ArticleCardProps) {
+export function ArticleCard({ article, index, locale }: ArticleCardProps) {
+  const content = article.content[locale];
+
   return (
     <motion.article
       initial={{ opacity: 0, y: 20 }}
@@ -26,20 +32,20 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
           </div>
           <div className="flex items-center gap-1">
             <Clock className="w-4 h-4" />
-            <span>{article.readTime}</span>
+            <span>{content.readTime}</span>
           </div>
         </div>
 
         <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-          {article.title}
+          {content.title}
         </h3>
         
         <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
-          {article.excerpt}
+          {content.excerpt}
         </p>
 
         <div className="flex flex-wrap gap-2">
-          {article.tags.map((tag) => (
+          {content.tags.map((tag) => (
             <span
               key={tag}
               className="px-2 py-1 bg-secondary/50 text-secondary-foreground text-xs rounded-md"

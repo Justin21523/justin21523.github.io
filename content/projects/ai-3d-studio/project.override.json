@@ -1,0 +1,23 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "interactive-3d",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "Python",
+    "FastAPI"
+  ],
+  "coverImage": "/portfolio/projects/ai-3d-studio/cover.webp",
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/ai-3d-studio/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

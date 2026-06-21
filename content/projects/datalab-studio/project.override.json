@@ -1,0 +1,32 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "ai-data",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "Java",
+    "Maven",
+    "Spring Boot"
+  ],
+  "coverImage": "/portfolio/projects/datalab-studio/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/datalab-studio",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/datalab-studio/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

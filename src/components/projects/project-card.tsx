@@ -28,12 +28,14 @@ const statusLabels: Record<
     "in-progress": "開發中",
     prototype: "原型",
     planned: "規劃中",
+    archived: "已封存",
   },
   en: {
     completed: "Completed",
     "in-progress": "In progress",
     prototype: "Prototype",
     planned: "Planned",
+    archived: "Archived",
   },
 };
 
@@ -120,9 +122,9 @@ export function ProjectCard({
             <ArrowUpRight className="h-4 w-4" />
           </Link>
 
-          {project.repositoryUrl && (
+          {project.links.find((l) => l.kind === "github")?.url && (
             <a
-              href={project.repositoryUrl}
+              href={project.links.find((l) => l.kind === "github")!.url}
               target="_blank"
               rel="noreferrer"
               aria-label={

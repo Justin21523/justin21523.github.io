@@ -1,0 +1,166 @@
+{
+  "visibility": "public",
+  "featured": true,
+  "category": "backend-desktop",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "C++",
+    "Qt",
+    "SQLite",
+    "CMake",
+    "Qt Widgets"
+  ],
+  "coverImage": "/portfolio/projects/cafe-net-manager/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/cafe-net-manager",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": "cafenet-dashboard",
+      "type": "image",
+      "src": "/portfolio/projects/cafe-net-manager/screenshots/01-dashboard.webp",
+      "alt": {
+        "zh-TW": "CafeNet Manager 桌面管理系統主畫面，包含座位狀態、訂單與營運儀表板",
+        "en": "CafeNet Manager desktop operations dashboard with seat status, orders, and business metrics"
+      },
+      "title": {
+        "zh-TW": "咖啡廳與網咖營運儀表板",
+        "en": "Cafe and internet cafe operations dashboard"
+      },
+      "caption": {
+        "zh-TW": "實際 Qt 桌面應用截圖，整合座位、計時、點餐、廚房看板與結帳流程。",
+        "en": "Real Qt desktop application screenshot integrating seat, timing, ordering, kitchen board, and checkout workflows."
+      },
+      "featured": true
+    }
+  ],
+  "metadata": {
+    "catalogNumber": "PF-2026-BD-001",
+    "aliases": [
+      "CafeNet",
+      "CafeNet Manager",
+      "Internet Cafe Management System"
+    ],
+    "projectType": "desktop business operations system",
+    "domains": [
+      "desktop application",
+      "business workflow",
+      "cafe operations",
+      "internet cafe management"
+    ],
+    "subjects": [
+      "seat management",
+      "session billing",
+      "order workflow",
+      "kitchen display"
+    ],
+    "keywords": [
+      "seat map",
+      "session management",
+      "cart",
+      "checkout",
+      "KDS",
+      "SQLite"
+    ],
+    "audiences": [
+      "small business operators",
+      "cafe staff",
+      "internet cafe managers"
+    ],
+    "contentTypes": [
+      "desktop app",
+      "case study",
+      "source code"
+    ],
+    "dataTypes": [
+      "seat record",
+      "session record",
+      "order",
+      "customer record",
+      "sales report"
+    ],
+    "platforms": [
+      "Desktop",
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "operatingSystems": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "languages": [
+      "C++"
+    ],
+    "frameworks": [
+      "Qt"
+    ],
+    "libraries": [
+      "Qt Widgets",
+      "SQLite"
+    ],
+    "database": [
+      "SQLite"
+    ],
+    "desktop": [
+      "Qt Widgets"
+    ],
+    "buildTools": [
+      "CMake"
+    ],
+    "roles": [
+      "Independent Developer",
+      "Desktop Application Developer",
+      "Workflow System Designer"
+    ],
+    "responsibilities": [
+      "Seat map interaction design",
+      "Session and billing workflow implementation",
+      "Order, cart, kitchen display, and checkout flow",
+      "SQLite repository layer and business services"
+    ],
+    "collaborationType": "Solo",
+    "myContribution": "Designed and implemented the C++/Qt desktop system, operational workflows, database repositories, UI widgets, and business services.",
+    "skillsDemonstrated": [
+      "C++ desktop engineering",
+      "Qt Widgets interface design",
+      "business workflow modeling",
+      "SQLite repository pattern",
+      "stateful operations UI"
+    ],
+    "capabilities": [
+      "desktop app architecture",
+      "business workflow design",
+      "operations dashboard",
+      "database-backed UI",
+      "interactive seat map"
+    ],
+    "tools": [
+      "Visual Studio Code",
+      "CMake",
+      "Git"
+    ],
+    "hasUnitTests": false,
+    "responsive": false,
+    "needsReview": false,
+    "missingFields": [],
+    "evidenceSources": [
+      "README.md",
+      "CMakeLists.txt",
+      "include/widgets",
+      "include/services",
+      "include/database",
+      "src/widgets",
+      "data/screenshot.png"
+    ]
+  }
+}

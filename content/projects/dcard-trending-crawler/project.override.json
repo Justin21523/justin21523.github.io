@@ -1,0 +1,22 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "information-system",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "Python"
+  ],
+  "coverImage": "/portfolio/projects/dcard-trending-crawler/cover.webp",
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/dcard-trending-crawler/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

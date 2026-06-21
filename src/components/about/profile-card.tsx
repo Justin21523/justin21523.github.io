@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { MapPin, Mail } from "lucide-react";
 import { ProfileInfo } from "@/types/about";
@@ -22,16 +23,19 @@ export function ProfileCard({ profile }: ProfileCardProps) {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
-          className="w-32 h-32 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-4xl font-bold text-primary-foreground"
+          className="relative flex h-32 w-32 items-center justify-center overflow-hidden rounded-full border-4 border-primary/20 bg-gradient-to-br from-primary to-secondary text-4xl font-bold text-primary-foreground"
         >
-          {profile.name.charAt(0)}
-          <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/20">
-            <img 
-                src={profile.avatar} 
-                alt={profile.name}
-                className="w-full h-full object-cover"
+          {profile.avatar ? (
+            <Image
+              src={profile.avatar}
+              alt={profile.name}
+              fill
+              sizes="128px"
+              className="object-cover"
             />
-          </div>
+          ) : (
+            profile.name.charAt(0)
+          )}
         </motion.div>
       </div>
 

@@ -1,0 +1,30 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "ai-data",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "Three.js"
+  ],
+  "coverImage": "/portfolio/projects/poker-ai-web/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/poker-AI-web",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/poker-ai-web/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

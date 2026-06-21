@@ -13,7 +13,8 @@ export type ProjectStatus =
   | "completed"
   | "in-progress"
   | "prototype"
-  | "planned";
+  | "planned"
+  | "archived";
 
 export type ProjectLinkKind =
   | "live"
@@ -91,27 +92,88 @@ export interface ProjectMedia {
 }
 
 export interface ProjectMetadata {
-  /**
-   * ISO date，例如 2026-06-01。
-   */
   startedAt?: string;
   updatedAt: string;
-
+  completedAt?: string;
   duration?: string;
   teamSize?: number;
+  version?: string;
 
-  /**
-   * 用於篩選與 Metadata 顯示。
-   * 建議採穩定英文標籤。
-   */
-  roles: string[];
-  platforms: string[];
+  // Advanced Taxonomy fields
+  catalogNumber?: string;
+  visibility?: "public" | "private" | "hidden";
+  aliases?: string[];
+  primaryCategory?: string;
+  secondaryCategories?: string[];
+  projectType?: string;
   domains: string[];
-  capabilities: string[];
-  tools: string[];
+  subjects?: string[];
+  controlledTerms?: string[];
   keywords: string[];
   audiences: string[];
+  contentTypes?: string[];
   dataTypes: string[];
+  platforms: string[];
+  operatingSystems?: string[];
+
+  // Tech stack classification
+  languages?: string[];
+  frameworks?: string[];
+  libraries?: string[];
+  stateManagement?: string[];
+  styling?: string[];
+  database?: string[];
+  backend?: string[];
+  desktop?: string[];
+  gameEngine?: string[];
+  threeD?: string[];
+  testing?: string[];
+  buildTools?: string[];
+  infrastructure?: string[];
+  deployment?: string[];
+  developmentTools?: string[];
+
+  // Contributions
+  roles: string[];
+  responsibilities?: string[];
+  collaborationType?: string;
+  myContribution?: string;
+  learningGoals?: string[];
+  skillsDemonstrated?: string[];
+  capabilities: string[];
+  tools: string[];
+
+  // Quality details
+  hasUnitTests?: boolean;
+  hasIntegrationTests?: boolean;
+  hasE2ETests?: boolean;
+  accessibilityNotes?: string;
+  performanceNotes?: string;
+  lighthouseScores?: {
+    performance?: number;
+    accessibility?: number;
+    bestPractices?: number;
+    seo?: number;
+  };
+  responsive?: boolean;
+  browserSupport?: string[];
+  codeQualityTools?: string[];
+
+  // Relations
+  relatedProjects?: string[];
+  parentProject?: string;
+  subprojects?: string[];
+  successorProjects?: string[];
+  usesPackages?: string[];
+  inspiredBy?: string[];
+  dependencies?: string[];
+
+  // Data Confidence
+  extractionConfidence?: number;
+  needsReview?: boolean;
+  missingFields?: string[];
+  evidenceSources?: string[];
+  lastScannedAt?: string;
 }
 
 export interface Project {

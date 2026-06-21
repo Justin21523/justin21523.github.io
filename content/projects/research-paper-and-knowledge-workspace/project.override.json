@@ -1,0 +1,168 @@
+{
+  "visibility": "public",
+  "featured": true,
+  "category": "information-system",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "C#",
+    ".NET",
+    "Avalonia",
+    "Entity Framework Core",
+    "SQLite",
+    "MVVM",
+    "Clean Architecture"
+  ],
+  "coverImage": "/portfolio/projects/research-paper-and-knowledge-workspace/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/research-paper-and-knowledge-workspace",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": "main-workspace",
+      "type": "image",
+      "src": "/portfolio/projects/research-paper-and-knowledge-workspace/screenshots/01-main-workspace.webp",
+      "alt": {
+        "zh-TW": "Research Paper & Knowledge Workspace 的主畫面，呈現論文清單、Metadata 欄位與研究工作區",
+        "en": "Main Research Paper & Knowledge Workspace screen showing paper records, metadata fields, and research workspace layout"
+      },
+      "title": {
+        "zh-TW": "研究文獻工作區主畫面",
+        "en": "Research workspace main screen"
+      },
+      "caption": {
+        "zh-TW": "實際桌面應用截圖，重點是文獻 Metadata、註記與研究專案分流。",
+        "en": "Real desktop application screenshot focused on paper metadata, annotations, and research project organization."
+      },
+      "featured": true
+    }
+  ],
+  "metadata": {
+    "catalogNumber": "PF-2026-IS-001",
+    "aliases": [
+      "Research Paper Workspace",
+      "Academic Knowledge Workspace",
+      "Literature Knowledge Graph"
+    ],
+    "projectType": "cross-platform desktop application",
+    "domains": [
+      "research workflow",
+      "academic literature management",
+      "knowledge organization",
+      "metadata management"
+    ],
+    "subjects": [
+      "research papers",
+      "bibliographic metadata",
+      "knowledge graph",
+      "annotation"
+    ],
+    "keywords": [
+      "paper management",
+      "research note",
+      "Markdown annotation",
+      "paper relationship",
+      "SQLite desktop app"
+    ],
+    "audiences": [
+      "researchers",
+      "graduate students",
+      "knowledge workers"
+    ],
+    "contentTypes": [
+      "desktop app",
+      "case study",
+      "source code"
+    ],
+    "dataTypes": [
+      "bibliographic record",
+      "paper metadata",
+      "annotation",
+      "relationship graph"
+    ],
+    "platforms": [
+      "Desktop",
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "operatingSystems": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "languages": [
+      "C#"
+    ],
+    "frameworks": [
+      ".NET",
+      "Avalonia"
+    ],
+    "libraries": [
+      "Entity Framework Core"
+    ],
+    "database": [
+      "SQLite"
+    ],
+    "desktop": [
+      "Avalonia UI",
+      "XAML",
+      "MVVM"
+    ],
+    "buildTools": [
+      ".NET SDK"
+    ],
+    "roles": [
+      "Independent Developer",
+      "Desktop Application Developer",
+      "Information Architecture Designer"
+    ],
+    "responsibilities": [
+      "Domain model design",
+      "Avalonia MVVM interface implementation",
+      "SQLite persistence with EF Core",
+      "Research metadata workflow design"
+    ],
+    "collaborationType": "Solo",
+    "myContribution": "Designed and implemented the desktop research workspace, domain entities, repository layer, UI structure, and metadata-driven workflow.",
+    "skillsDemonstrated": [
+      "Clean Architecture",
+      "MVVM desktop UI",
+      "bibliographic metadata modeling",
+      "local database design",
+      "research workflow analysis"
+    ],
+    "capabilities": [
+      "metadata modeling",
+      "desktop app architecture",
+      "knowledge organization",
+      "research workflow design",
+      "local-first data management"
+    ],
+    "tools": [
+      "Visual Studio Code",
+      ".NET CLI",
+      "Git"
+    ],
+    "hasUnitTests": true,
+    "responsive": false,
+    "needsReview": false,
+    "missingFields": [],
+    "evidenceSources": [
+      "README.md",
+      "ResearchPaperKnowledgeWorkspace.sln",
+      "src/ResearchPaperKnowledgeWorkspace.Core",
+      "src/ResearchPaperKnowledgeWorkspace.Application",
+      "src/ResearchPaperKnowledgeWorkspace.Infrastructure",
+      "src/ResearchPaperKnowledgeWorkspace.App",
+      "data/Screenshot.png"
+    ]
+  }
+}

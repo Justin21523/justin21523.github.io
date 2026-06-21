@@ -27,7 +27,7 @@ export function LanguageToggle() {
       onClick={switchLanguage}
       className="rounded-md border px-3 py-2"
     >
-      {locale === "zh-TW" ? "English" : "繁體中文"}
+      {locale === "zh-TW" ? "English" : "Chinese"}
     </button>
   );
 }

@@ -1,0 +1,36 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "interactive-3d",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "React Three Fiber",
+    "Phaser",
+    "React",
+    "Tailwind CSS",
+    "Three.js",
+    "Zustand",
+    "TypeScript"
+  ],
+  "coverImage": "/portfolio/projects/super-wings-rpg-game/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/flying-mission-rpg",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/super-wings-rpg-game/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    }
+  ]
+}

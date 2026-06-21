@@ -1,0 +1,28 @@
+{
+  "visibility": "hidden",
+  "featured": false,
+  "category": "information-system",
+  "status": "prototype",
+  "year": 2026,
+  "technologies": [],
+  "coverImage": "/portfolio/projects/charaforge-T2I-Lab/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/charaforge-T2I-Lab",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    }
+  ],
+  "metadata": {
+    "needsReview": true,
+    "missingFields": [
+      "reviewed zh-TW case study",
+      "reviewed English case study",
+      "verified media assets",
+      "verified public links"
+    ]
+  }
+}

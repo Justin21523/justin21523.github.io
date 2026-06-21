@@ -60,12 +60,12 @@ export default async function AllProjectsPage({
 function ProjectExplorerSkeleton() {
   return (
     <main className="min-h-screen pb-24 pt-28">
-      <div className="section-shell">
+      <div className="mx-auto w-full max-w-[112rem] px-4 sm:px-6 lg:px-8">
         <div className="mx-auto mb-12 h-36 max-w-3xl animate-pulse rounded-3xl bg-secondary" />
 
         <div className="mb-10 h-40 animate-pulse rounded-3xl bg-secondary" />
 
-        <div className="grid gap-7 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 2xl:grid-cols-3">
           {Array.from({
             length: 6,
           }).map((_, index) => (

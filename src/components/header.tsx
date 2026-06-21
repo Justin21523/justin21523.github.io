@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { 
   ChevronDown, 
@@ -12,12 +12,13 @@ import {
   Laptop,
   Smartphone,
   Palette,
-  GitBranch,  // 改用 GitBranch 代替 Github
+  GitBranch,
   BookOpen,
   Terminal,
   Layers,
   Download,
   ExternalLink,
+  type LucideIcon,
 } from "lucide-react";
 import { ThemeToggle } from "./theme-toggle";
 import { LanguageToggle } from "./language-toggle";
@@ -36,46 +37,84 @@ import {
   ProjectCommandButton,
 } from "@/components/command/project-command-button";
 
-// 定義導航結構
 const navStructure = {
-  about: [
-    { href: "/about/profile", label: "個人簡介", icon: User, description: "認識我" },
-    { href: "/about/skills", label: "技能樹", icon: Layers, description: "技術能力" },
-    { href: "/about/experience", label: "工作經歷", icon: Briefcase, description: "職業歷程" },
-    { href: "/about/education", label: "教育背景", icon: BookOpen, description: "學歷與證照" },
-  ],
-  projects: [
-    { href: "/projects/web", label: "Web 應用", icon: Laptop, description: "網站與網頁應用" },
-    { href: "/projects/mobile", label: "移動應用", icon: Smartphone, description: "iOS/Android App" },
-    { href: "/projects/design", label: "UI/UX 設計", icon: Palette, description: "介面設計作品" },
-    { href: "/projects/opensource", label: "開源專案", icon: GitBranch, description: "GitHub 貢獻" }, // 改用 GitBranch
-    { href: "/projects/all", label: "查看全部", icon: ExternalLink, description: "所有作品" },
-  ],
-  tech: [
-    { href: "/tech/frontend", label: "前端開發", icon: Code2, description: "React/Vue/Next.js" },
-    { href: "/tech/backend", label: "後端開發", icon: Terminal, description: "Node.js/Python" },
-    { href: "/tech/devops", label: "DevOps", icon: Layers, description: "CI/CD/雲端" },
-    { href: "/tech/blog", label: "技術文章", icon: FileText, description: "學習筆記" },
-  ],
-  contact: [
-    { href: "/contact/form", label: "聯絡表單", icon: Mail, description: "發送訊息" },
-    { href: "/contact/social", label: "社群連結", icon: ExternalLink, description: "關注我" },
-    { href: "/resume.pdf", label: "下載履歷", icon: Download, description: "PDF 格式", external: true },
-  ],
+  "zh-TW": {
+    about: [
+      { href: "/about/profile", label: "個人簡介", icon: User, description: "背景、角色與開發方向" },
+      { href: "/about/skills", label: "技能證據", icon: Layers, description: "以作品呈現能力" },
+      { href: "/about/experience", label: "經歷", icon: Briefcase, description: "實作與學習歷程" },
+      { href: "/about/education", label: "教育背景", icon: BookOpen, description: "圖書資訊與技術養成" },
+    ],
+    projects: [
+      { href: "/projects/all", label: "作品典藏庫", icon: ExternalLink, description: "搜尋所有專案與 Metadata" },
+      { href: "/projects/web", label: "前端與 Web", icon: Laptop, description: "React、Next.js、互動介面" },
+      { href: "/projects/design", label: "資訊架構", icon: Palette, description: "分類、檢索與工作流程" },
+      { href: "/projects/opensource", label: "GitHub 專案", icon: GitBranch, description: "可公開查看的程式碼" },
+      { href: "/projects/mobile", label: "桌面與跨平台", icon: Smartphone, description: "Avalonia、Qt 與系統工具" },
+    ],
+    tech: [
+      { href: "/tech/frontend", label: "前端工程", icon: Code2, description: "React、TypeScript、Next.js" },
+      { href: "/tech/backend", label: "後端與資料", icon: Terminal, description: "API、SQLite、資料模型" },
+      { href: "/tech/devops", label: "部署與工具", icon: Layers, description: "Docker、建置與自動化" },
+      { href: "/tech/blog", label: "技術筆記", icon: FileText, description: "開發紀錄與設計決策" },
+    ],
+    contact: [
+      { href: "/contact/form", label: "聯絡表單", icon: Mail, description: "合作、面試與專案交流" },
+      { href: "/contact/social", label: "相關連結", icon: ExternalLink, description: "GitHub 與公開資料" },
+      { href: "/resume.pdf", label: "下載履歷", icon: Download, description: "PDF 檔案", external: true },
+    ],
+  },
+  en: {
+    about: [
+      { href: "/about/profile", label: "Profile", icon: User, description: "Background, role, and direction" },
+      { href: "/about/skills", label: "Skill Evidence", icon: Layers, description: "Capabilities shown through projects" },
+      { href: "/about/experience", label: "Experience", icon: Briefcase, description: "Project and learning history" },
+      { href: "/about/education", label: "Education", icon: BookOpen, description: "Library science and engineering path" },
+    ],
+    projects: [
+      { href: "/projects/all", label: "Project Archive", icon: ExternalLink, description: "Search all projects and metadata" },
+      { href: "/projects/web", label: "Frontend & Web", icon: Laptop, description: "React, Next.js, interactive UI" },
+      { href: "/projects/design", label: "Information Architecture", icon: Palette, description: "Classification, retrieval, workflow" },
+      { href: "/projects/opensource", label: "GitHub Projects", icon: GitBranch, description: "Public source code" },
+      { href: "/projects/mobile", label: "Desktop & Cross-platform", icon: Smartphone, description: "Avalonia, Qt, and system tools" },
+    ],
+    tech: [
+      { href: "/tech/frontend", label: "Frontend Engineering", icon: Code2, description: "React, TypeScript, Next.js" },
+      { href: "/tech/backend", label: "Backend & Data", icon: Terminal, description: "APIs, SQLite, data models" },
+      { href: "/tech/devops", label: "Deployment & Tools", icon: Layers, description: "Docker, builds, automation" },
+      { href: "/tech/blog", label: "Engineering Notes", icon: FileText, description: "Development logs and decisions" },
+    ],
+    contact: [
+      { href: "/contact/form", label: "Contact Form", icon: Mail, description: "Work, interviews, and collaboration" },
+      { href: "/contact/social", label: "Links", icon: ExternalLink, description: "GitHub and public profiles" },
+      { href: "/resume.pdf", label: "Resume", icon: Download, description: "PDF file", external: true },
+    ],
+  },
 };
+
+interface NavSubItem {
+  href: string;
+  label: string;
+  icon: LucideIcon;
+  description: string;
+  external?: boolean;
+}
 
 export function Header() {
   const t = useTranslations("nav");
+  const locale = useLocale() === "en" ? "en" : "zh-TW";
   const pathname = usePathname();
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { key: "about", label: t("about"), items: navStructure.about },
-    { key: "projects", label: t("projects"), items: navStructure.projects },
-    { key: "tech", label: t("tech"), items: navStructure.tech },
-    { key: "contact", label: t("contact"), items: navStructure.contact },
+    { key: "about", label: t("about"), items: navStructure[locale].about },
+    { key: "projects", label: t("projects"), items: navStructure[locale].projects },
+    { key: "tech", label: t("tech"), items: navStructure[locale].tech },
+    { key: "contact", label: t("contact"), items: navStructure[locale].contact },
   ];
+  const commandLabel = locale === "en" ? "Search all projects" : "搜尋所有作品";
+  const menuLabel = locale === "en" ? "Menu" : "選單";
 
   return (
     <>
@@ -87,11 +126,6 @@ export function Header() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <ProjectCommandButton />
-
-            <LanguageToggle />
-
-            <ThemeToggle />
             {/* Logo */}
             <Link 
               href="/" 
@@ -149,7 +183,7 @@ export function Header() {
                       </DropdownMenuLabel>
                       <DropdownMenuSeparator />
                       
-                      {item.items.map((subItem: { href: string; label: string; icon: any; description: string; external?: boolean }) => {
+                      {item.items.map((subItem: NavSubItem) => {
                         const Icon = subItem.icon;
                         const isExternal = subItem.external;
                         
@@ -188,6 +222,7 @@ export function Header() {
 
             {/* Controls */}
             <div className="flex items-center gap-2">
+              <ProjectCommandButton />
               <LanguageToggle />
               <ThemeToggle />
               
@@ -197,6 +232,7 @@ export function Header() {
                 size="icon"
                 className="lg:hidden"
                 onClick={() => setMobileMenuOpen(true)}
+                aria-label={menuLabel}
               >
                 <div className="w-5 h-5 flex flex-col justify-center gap-1">
                   <span className="w-5 h-0.5 bg-current block transition-all"></span>
@@ -224,9 +260,9 @@ export function Header() {
                   );
               }}
               >
-              搜尋所有作品
+              {commandLabel}
               </button>
-              <h2 className="text-lg font-semibold">選單</h2>
+              <h2 className="text-lg font-semibold">{menuLabel}</h2>
               <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(false)}>
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -240,7 +276,7 @@ export function Header() {
                     {item.label}
                   </h3>
                   <div className="space-y-1">
-                    {item.items.map((subItem: { href: string; label: string; icon: any; description: string; external?: boolean }) => {
+                    {item.items.map((subItem: NavSubItem) => {
                       const Icon = subItem.icon;
                       return (
                         <Link

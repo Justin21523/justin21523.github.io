@@ -1,7 +1,31 @@
-import { notFound } from "next/navigation";
-import { articles } from "@/data/tech";
-import { Calendar, Clock, ArrowLeft } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import type {
+  Metadata,
+} from "next";
+import {
+  notFound,
+} from "next/navigation";
+import {
+  ArrowLeft,
+  Calendar,
+  Clock,
+} from "lucide-react";
+
+import {
+  Link,
+} from "@/i18n/navigation";
+import {
+  articles,
+} from "@/data/tech";
+import {
+  normalizePortfolioLocale,
+} from "@/lib/projects";
+
+interface ArticleDetailPageProps {
+  params: Promise<{
+    locale: string;
+    slug: string;
+  }>;
+}
 
 export function generateStaticParams() {
   return articles.map((article) => ({
@@ -9,51 +33,93 @@ export function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const article = articles.find((a) => a.slug === params.slug);
-  if (!article) return { title: "Article Not Found" };
-  
+export async function generateMetadata({
+  params,
+}: ArticleDetailPageProps): Promise<Metadata> {
+  const {
+    locale: localeParam,
+    slug,
+  } = await params;
+  const locale =
+    normalizePortfolioLocale(
+      localeParam
+    );
+  const article =
+    articles.find((item) => item.slug === slug);
+
+  if (!article) {
+    return {
+      title:
+        locale === "en"
+          ? "Article Not Found"
+          : "找不到文章",
+    };
+  }
+
+  const content =
+    article.content[locale];
+
   return {
-    title: `${article.title} | Justin Portfolio`,
-    description: article.excerpt,
+    title: `${content.title} | Justin Portfolio`,
+    description: content.excerpt,
   };
 }
 
-export default function ArticleDetailPage({ params }: { params: { slug: string } }) {
-  const article = articles.find((a) => a.slug === params.slug);
+export default async function ArticleDetailPage({
+  params,
+}: ArticleDetailPageProps) {
+  const {
+    locale: localeParam,
+    slug,
+  } = await params;
+  const locale =
+    normalizePortfolioLocale(
+      localeParam
+    );
+  const article =
+    articles.find((item) => item.slug === slug);
 
   if (!article) {
     notFound();
   }
 
+  const content =
+    article.content[locale];
+  const backLabel =
+    locale === "en"
+      ? "Back to notes"
+      : "返回技術筆記";
+
   return (
-    <div className="min-h-screen pt-24 pb-12 px-4">
-      <article className="max-w-3xl mx-auto">
+    <div className="min-h-screen px-4 pb-12 pt-24">
+      <article className="mx-auto max-w-3xl">
         <Link
           href="/tech/blog"
-          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-8"
+          className="mb-8 inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-primary"
         >
-          <ArrowLeft className="w-4 h-4" />
-          返回文章列表
+          <ArrowLeft className="h-4 w-4" />
+          {backLabel}
         </Link>
 
         <header className="mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">{article.title}</h1>
+          <h1 className="mb-4 text-3xl font-bold md:text-4xl">
+            {content.title}
+          </h1>
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1">
-              <Calendar className="w-4 h-4" />
+              <Calendar className="h-4 w-4" />
               <span>{article.date}</span>
             </div>
             <div className="flex items-center gap-1">
-              <Clock className="w-4 h-4" />
-              <span>{article.readTime}</span>
+              <Clock className="h-4 w-4" />
+              <span>{content.readTime}</span>
             </div>
           </div>
-          <div className="flex flex-wrap gap-2 mt-4">
-            {article.tags.map((tag) => (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {content.tags.map((tag) => (
               <span
                 key={tag}
-                className="px-3 py-1 bg-secondary/50 text-secondary-foreground text-xs rounded-full"
+                className="rounded-full bg-secondary/50 px-3 py-1 text-xs text-secondary-foreground"
               >
                 {tag}
               </span>
@@ -61,11 +127,8 @@ export default function ArticleDetailPage({ params }: { params: { slug: string }
           </div>
         </header>
 
-        <div className="prose dark:prose-invert max-w-none text-muted-foreground leading-relaxed">
-          <p>{article.content}</p>
-          <p className="mt-4">
-            (此處為文章內容預留位置，未來可串接 MDX 或 CMS 系統來管理完整文章內容。)
-          </p>
+        <div className="prose max-w-none leading-relaxed text-muted-foreground dark:prose-invert">
+          <p>{content.body}</p>
         </div>
       </article>
     </div>

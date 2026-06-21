@@ -1,25 +1,31 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useLocale } from "next-intl";
 import { useTheme } from "next-themes";
+import { useMounted } from "@/hooks/use-mounted";
 
 export function ThemeToggle() {
-  const [mounted, setMounted] = useState(false);
+  const mounted = useMounted();
+  const locale = useLocale();
 
   const {
     resolvedTheme,
     setTheme,
   } = useTheme();
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   if (!mounted) {
     return null;
   }
 
   const isDark = resolvedTheme === "dark";
+  const label =
+    locale === "en"
+      ? isDark
+        ? "Light"
+        : "Dark"
+      : isDark
+        ? "淺色"
+        : "深色";
 
   return (
     <button
@@ -29,7 +35,7 @@ export function ThemeToggle() {
       }
       className="rounded-md border px-3 py-2"
     >
-      {isDark ? "切換淺色" : "切換深色"}
+      {label}
     </button>
   );
 }

@@ -1,39 +1,93 @@
+import type {
+  PortfolioLocale,
+} from "@/types/projects";
+
 export interface Article {
   slug: string;
-  title: string;
-  excerpt: string;
-  content: string;
   date: string;
-  tags: string[];
-  readTime: string;
+  content: Record<
+    PortfolioLocale,
+    {
+      title: string;
+      excerpt: string;
+      body: string;
+      tags: string[];
+      readTime: string;
+    }
+  >;
 }
 
 export const articles: Article[] = [
   {
     slug: "nextjs-app-router-guide",
-    title: "深入理解 Next.js App Router",
-    excerpt: "Next.js 13 引入的 App Router 帶來了全新的路由與資料獲取方式，本文將帶你深入了解其核心概念。",
-    content: "Next.js 13 引入的 App Router 帶來了全新的路由與資料獲取方式...",
     date: "2024-01-15",
-    tags: ["Next.js", "React", "前端"],
-    readTime: "8 分鐘",
+    content: {
+      "zh-TW": {
+        title: "Next.js App Router 的作品集架構筆記",
+        excerpt:
+          "整理我在作品集網站中使用 App Router、Server Components、動態路由與 Metadata 的實作取捨。",
+        body:
+          "這篇筆記聚焦在作品集網站的實際架構：哪些資料適合放在 Server Component，哪些互動需要拆成 Client Component，以及如何讓專案 detail page、SEO metadata 和靜態產生保持一致。",
+        tags: ["Next.js", "React", "前端工程"],
+        readTime: "8 分鐘",
+      },
+      en: {
+        title: "Next.js App Router Notes for a Portfolio Archive",
+        excerpt:
+          "Implementation notes on App Router, Server Components, dynamic routes, and metadata decisions in my portfolio site.",
+        body:
+          "This note focuses on the actual portfolio architecture: what belongs in Server Components, what needs Client Components, and how project detail pages, SEO metadata, and static generation stay aligned.",
+        tags: ["Next.js", "React", "Frontend"],
+        readTime: "8 min",
+      },
+    },
   },
   {
     slug: "typescript-best-practices",
-    title: "TypeScript 實戰最佳實踐",
-    excerpt: "從型別定義到進階型別操作，分享我在大型專案中使用 TypeScript 的經驗與技巧。",
-    content: "從型別定義到進階型別操作，分享我在大型專案中使用 TypeScript 的經驗與技巧...",
     date: "2024-02-20",
-    tags: ["TypeScript", "最佳實踐"],
-    readTime: "12 分鐘",
+    content: {
+      "zh-TW": {
+        title: "TypeScript 在 Metadata Catalog 中的實作方式",
+        excerpt:
+          "從專案 catalog、Zod schema、搜尋索引到 facet 篩選，記錄我如何避免作品資料失控。",
+        body:
+          "作品集不應該把所有內容塞進一個鬆散的 projects.ts。這篇記錄我如何用型別、schema、normalized metadata 與 build-time generated JSON 讓作品資料可以被檢索、驗證與維護。",
+        tags: ["TypeScript", "Zod", "Metadata"],
+        readTime: "12 分鐘",
+      },
+      en: {
+        title: "TypeScript Patterns for a Metadata Catalog",
+        excerpt:
+          "How I use catalog types, Zod schemas, search indexes, and facets to keep portfolio data maintainable.",
+        body:
+          "A project archive should not be a loose projects.ts file. This note documents how types, schemas, normalized metadata, and build-time generated JSON make portfolio records searchable, validated, and maintainable.",
+        tags: ["TypeScript", "Zod", "Metadata"],
+        readTime: "12 min",
+      },
+    },
   },
   {
     slug: "tailwind-css-tips",
-    title: "Tailwind CSS 高效開發技巧",
-    excerpt: "如何利用 Tailwind CSS 的原子化類別快速建構響應式介面，並保持程式碼整潔。",
-    content: "如何利用 Tailwind CSS 的原子化類別快速建構響應式介面...",
     date: "2024-03-10",
-    tags: ["Tailwind CSS", "CSS"],
-    readTime: "6 分鐘",
+    content: {
+      "zh-TW": {
+        title: "Tailwind CSS v4 與深色介面的整理方式",
+        excerpt:
+          "記錄作品集如何使用 Tailwind CSS v4、CSS variables 與深色預設，維持資訊密度與可讀性。",
+        body:
+          "這篇筆記整理我在作品集視覺調整中的做法：如何用 CSS variables 管理色彩、讓深色模式成為預設、避免單一色系過重，並讓作品典藏頁在資訊量增加後仍然可讀。",
+        tags: ["Tailwind CSS", "UI", "深色模式"],
+        readTime: "6 分鐘",
+      },
+      en: {
+        title: "Tailwind CSS v4 and Dark Interface Notes",
+        excerpt:
+          "How the portfolio uses Tailwind CSS v4, CSS variables, and a dark default while keeping dense information readable.",
+        body:
+          "This note covers the visual system decisions behind the portfolio: CSS variables for color, dark mode as the default, avoiding a single-hue palette, and keeping the project archive readable as metadata density grows.",
+        tags: ["Tailwind CSS", "UI", "Dark mode"],
+        readTime: "6 min",
+      },
+    },
   },
 ];

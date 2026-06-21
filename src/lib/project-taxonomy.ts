@@ -52,6 +52,7 @@ export const statusLabels: Record<
     "in-progress": "開發中",
     prototype: "原型",
     planned: "規劃中",
+    archived: "已封存",
   },
 
   en: {
@@ -59,5 +60,6 @@ export const statusLabels: Record<
     "in-progress": "In progress",
     prototype: "Prototype",
     planned: "Planned",
+    archived: "Archived",
   },
 };
