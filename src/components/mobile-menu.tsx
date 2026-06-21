@@ -8,6 +8,9 @@ import { X, ChevronRight } from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { navStructure } from "@/components/header";
+import {
+  withBasePath,
+} from "@/lib/site-assets";
 
 interface MobileMenuProps {
   open: boolean;
@@ -60,7 +63,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
               <nav className="space-y-2">
                 {navItems.map((item) => {
                   const isActive = item.items.some(subItem => 
-                    pathname.startsWith(subItem.href)
+                    !subItem.external && pathname.startsWith(subItem.href)
                   );
 
                   return (
@@ -95,17 +98,34 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
                             <div className="pl-4 pr-2 py-2 space-y-1">
                               {item.items.map((subItem) => {
                                 const Icon = subItem.icon;
-                                return (
-                                  <Link
-                                    key={subItem.href}
-                                    href={subItem.href}
-                                    onClick={onClose}
-                                    className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-muted-foreground hover:bg-accent/50 hover:text-foreground transition-colors"
-                                  >
+                                const content = (
+                                  <>
                                     <Icon className="w-4 h-4" />
                                     <span>{subItem.label}</span>
-                                  </Link>
+                                  </>
                                 );
+
+                                return subItem.external ? (
+                                    <a
+                                      key={subItem.href}
+                                      href={withBasePath(subItem.href)}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      onClick={onClose}
+                                      className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-muted-foreground hover:bg-accent/50 hover:text-foreground transition-colors"
+                                    >
+                                      {content}
+                                    </a>
+                                  ) : (
+                                    <Link
+                                      key={subItem.href}
+                                      href={subItem.href}
+                                      onClick={onClose}
+                                      className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-muted-foreground hover:bg-accent/50 hover:text-foreground transition-colors"
+                                    >
+                                      {content}
+                                    </Link>
+                                  );
                               })}
                             </div>
                           </motion.div>

@@ -1,18 +1,15 @@
+import {
+  contactMailto,
+  githubProfileUrl,
+  resumePath,
+} from "@/data/contact";
+
 export type HomeLocale =
   | "zh-TW"
   | "en";
 
 export const siteUrl =
   "https://justin21523.github.io/justin-portfolio";
-
-export const githubProfileUrl =
-  "https://github.com/Justin21523";
-
-export const placeholderEmail =
-  "mailto:hello@example.com";
-
-export const placeholderLinkedIn =
-  "https://www.linkedin.com/";
 
 export const homeContent = {
   "zh-TW": {
@@ -538,11 +535,11 @@ export const homeContent = {
       title:
         "歡迎交流作品與學習方向",
       description:
-        "如果你對我的作品、學習歷程或技術方向有興趣，歡迎透過 Email、GitHub 或 LinkedIn 與我聯絡。我也很樂意分享專案中的實作過程、資料設計思路與持續學習的紀錄。",
+        "如果你對我的作品、學習歷程或技術方向有興趣，歡迎透過 Email 或 GitHub 與我聯絡。我也很樂意分享專案中的實作過程、資料設計思路與持續學習的紀錄。",
       links: [
         {
           label: "Email",
-          href: placeholderEmail,
+          href: contactMailto,
           icon: "mail",
           external: true,
         },
@@ -553,14 +550,8 @@ export const homeContent = {
           external: true,
         },
         {
-          label: "LinkedIn",
-          href: placeholderLinkedIn,
-          icon: "linkedin",
-          external: true,
-        },
-        {
           label: "Resume",
-          href: "/resume.pdf",
+          href: resumePath,
           icon: "file",
           external: true,
         },
@@ -1098,11 +1089,11 @@ export const homeContent = {
       title:
         "Let’s Talk About Projects and Learning",
       description:
-        "If you’re interested in my projects, learning path, or technical direction, feel free to reach out through Email, GitHub, or LinkedIn. I’m also happy to share how I design project ideas, structure data, and document my development process.",
+        "If you’re interested in my projects, learning path, or technical direction, feel free to reach out through Email or GitHub. I’m also happy to share how I design project ideas, structure data, and document my development process.",
       links: [
         {
           label: "Email",
-          href: placeholderEmail,
+          href: contactMailto,
           icon: "mail",
           external: true,
         },
@@ -1113,14 +1104,8 @@ export const homeContent = {
           external: true,
         },
         {
-          label: "LinkedIn",
-          href: placeholderLinkedIn,
-          icon: "linkedin",
-          external: true,
-        },
-        {
           label: "Resume",
-          href: "/resume.pdf",
+          href: resumePath,
           icon: "file",
           external: true,
         },

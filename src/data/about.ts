@@ -7,6 +7,9 @@ import type {
 import type {
   PortfolioLocale,
 } from "@/types/projects";
+import {
+  contactEmail,
+} from "@/data/contact";
 
 interface AboutData {
   profileInfo: ProfileInfo;
@@ -23,12 +26,12 @@ export const aboutData: Record<
     profileInfo: {
       name: "Justin",
       title:
-        "Junior Developer Learner / 圖書資訊背景",
+        "Junior Developer Learner / 國立臺灣大學圖書資訊學系背景",
       location: "Taiwan",
-      email: "hello@example.com",
+      email: contactEmail,
       bio: [
         "我是 Justin，目前正在透過自學與作品集專案累積程式開發經驗。我的主要學習方向是 Python、JavaScript、TypeScript 與網頁應用開發，並持續練習前端介面、資料整理、互動流程與應用程式架構。",
-        "我的背景與圖書資訊領域有關，因此我特別關注資料如何被描述、分類、檢索、組織與呈現。這也影響我的作品方向：我希望把 metadata、資訊組織、數位典藏、文獻管理與知識管理等概念，轉換成可以操作、可以擴充的數位工具。",
+        "我的學術背景是國立臺灣大學圖書資訊學系，因此我特別關注資料如何被描述、分類、檢索、組織與呈現。這也影響我的作品方向：我希望把 metadata、資訊組織、數位典藏、文獻管理與知識管理等概念，轉換成可以操作、可以擴充的數位工具。",
         "我目前也正在補強 C++、C#、.NET、ASP.NET Core、Avalonia UI、Qt 與 SQLite。這些仍是學習中的技術，我會以桌面應用、後端 API 與資料庫練習作品來逐步累積完整的開發能力。",
       ],
       interests: [
@@ -182,11 +185,11 @@ export const aboutData: Record<
     educations: [
       {
         school:
-          "Library and Information Science Background",
-        degree: "圖書資訊相關背景",
-        period: "Background",
+          "國立臺灣大學",
+        degree: "圖書資訊學系",
+        period: "Academic Background",
         description:
-          "具備資訊組織、metadata、分類、檢索、數位典藏與知識管理相關概念，並將這些背景轉換成作品集中的資料與介面設計方向。",
+          "以資訊組織、metadata、分類、檢索、數位典藏與知識管理作為學術背景，並將這些概念轉換到作品集中的資料整理、搜尋流程與介面設計。",
       },
       {
         school: "Self-directed Programming Learning",
@@ -201,12 +204,12 @@ export const aboutData: Record<
     profileInfo: {
       name: "Justin",
       title:
-        "Junior Developer Learner / Library Information Background",
+        "Junior Developer Learner / NTU Library and Information Science Background",
       location: "Taiwan",
-      email: "hello@example.com",
+      email: contactEmail,
       bio: [
         "I’m Justin, currently building programming experience through self-learning and portfolio projects. My main learning focus is Python, JavaScript, TypeScript, and web application development, especially frontend interfaces, data handling, interaction flows, and application structure.",
-        "My background is related to library and information science, so I’m interested in how data is described, classified, retrieved, organized, and presented. This shapes my project direction: I try to turn metadata, information organization, digital archives, literature management, and knowledge management concepts into usable digital tools.",
+        "My academic background is from the Department of Library and Information Science at National Taiwan University, so I’m interested in how data is described, classified, retrieved, organized, and presented. This shapes my project direction: I try to turn metadata, information organization, digital archives, literature management, and knowledge management concepts into usable digital tools.",
         "I’m also learning C++, C#, .NET, ASP.NET Core, Avalonia UI, Qt, and SQLite. These are still learning areas for me, and I use desktop application, backend API, and database practice projects to gradually build broader development skills.",
       ],
       interests: [
@@ -360,12 +363,12 @@ export const aboutData: Record<
     educations: [
       {
         school:
-          "Library and Information Science Background",
+          "National Taiwan University",
         degree:
-          "Library and information related background",
-        period: "Background",
+          "Department of Library and Information Science",
+        period: "Academic Background",
         description:
-          "Background knowledge in information organization, metadata, classification, retrieval, digital archives, and knowledge management, now applied to data and interface design in portfolio projects.",
+          "Academic background in information organization, metadata, classification, retrieval, digital archives, and knowledge management, now applied to data organization, search workflows, and interface design in portfolio projects.",
       },
       {
         school: "Self-directed Programming Learning",

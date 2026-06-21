@@ -9,7 +9,6 @@ import {
   CheckCircle2,
   Code2,
   Database,
-  ExternalLink,
   FileText,
   FolderKanban,
   GitBranch,
@@ -56,7 +55,6 @@ const domainIcons = {
 const contactIcons = {
   mail: Mail,
   github: GitBranch,
-  linkedin: ExternalLink,
   file: FileText,
   projects: FolderKanban,
 } as const;

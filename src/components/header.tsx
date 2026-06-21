@@ -36,8 +36,15 @@ import { useState } from "react";
 import {
   ProjectCommandButton,
 } from "@/components/command/project-command-button";
+import {
+  githubProfileUrl,
+  resumePath,
+} from "@/data/contact";
+import {
+  withBasePath,
+} from "@/lib/site-assets";
 
-const navStructure = {
+const navStructure: NavStructure = {
   "zh-TW": {
     about: [
       { href: "/about/profile", label: "個人簡介", icon: User, description: "背景、角色與開發方向" },
@@ -53,15 +60,15 @@ const navStructure = {
       { href: "/projects/mobile", label: "桌面與跨平台", icon: Smartphone, description: "Avalonia、Qt 與系統工具" },
     ],
     tech: [
-      { href: "/tech/frontend", label: "前端工程", icon: Code2, description: "React、TypeScript、Next.js" },
-      { href: "/tech/backend", label: "後端與資料", icon: Terminal, description: "API、SQLite、資料模型" },
-      { href: "/tech/devops", label: "部署與工具", icon: Layers, description: "Docker、建置與自動化" },
-      { href: "/tech/blog", label: "技術筆記", icon: FileText, description: "開發紀錄與設計決策" },
+      { href: "/projects/all", label: "前端工程", icon: Code2, description: "先前往作品集查看相關實作" },
+      { href: "/projects/all", label: "後端與資料", icon: Terminal, description: "先前往作品集查看相關實作" },
+      { href: "/projects/all", label: "部署與工具", icon: Layers, description: "先前往作品集查看相關實作" },
+      { href: "/projects/all", label: "技術筆記", icon: FileText, description: "先前往作品集查看相關實作" },
     ],
     contact: [
       { href: "/contact/form", label: "聯絡表單", icon: Mail, description: "合作、面試與專案交流" },
-      { href: "/contact/social", label: "相關連結", icon: ExternalLink, description: "GitHub 與公開資料" },
-      { href: "/resume.pdf", label: "下載履歷", icon: Download, description: "PDF 檔案", external: true },
+      { href: githubProfileUrl, label: "相關連結", icon: ExternalLink, description: "GitHub 與公開資料", external: true },
+      { href: resumePath, label: "下載履歷", icon: Download, description: "PDF 檔案", external: true },
     ],
   },
   en: {
@@ -79,15 +86,15 @@ const navStructure = {
       { href: "/projects/mobile", label: "Desktop & Cross-platform", icon: Smartphone, description: "Avalonia, Qt, and system tools" },
     ],
     tech: [
-      { href: "/tech/frontend", label: "Frontend Engineering", icon: Code2, description: "React, TypeScript, Next.js" },
-      { href: "/tech/backend", label: "Backend & Data", icon: Terminal, description: "APIs, SQLite, data models" },
-      { href: "/tech/devops", label: "Deployment & Tools", icon: Layers, description: "Docker, builds, automation" },
-      { href: "/tech/blog", label: "Engineering Notes", icon: FileText, description: "Development logs and decisions" },
+      { href: "/projects/all", label: "Frontend Engineering", icon: Code2, description: "View related work in the project archive" },
+      { href: "/projects/all", label: "Backend & Data", icon: Terminal, description: "View related work in the project archive" },
+      { href: "/projects/all", label: "Deployment & Tools", icon: Layers, description: "View related work in the project archive" },
+      { href: "/projects/all", label: "Engineering Notes", icon: FileText, description: "View related work in the project archive" },
     ],
     contact: [
       { href: "/contact/form", label: "Contact Form", icon: Mail, description: "Work, interviews, and collaboration" },
-      { href: "/contact/social", label: "Links", icon: ExternalLink, description: "GitHub and public profiles" },
-      { href: "/resume.pdf", label: "Resume", icon: Download, description: "PDF file", external: true },
+      { href: githubProfileUrl, label: "Links", icon: ExternalLink, description: "GitHub and public profiles", external: true },
+      { href: resumePath, label: "Resume", icon: Download, description: "PDF file", external: true },
     ],
   },
 };
@@ -98,6 +105,27 @@ interface NavSubItem {
   icon: LucideIcon;
   description: string;
   external?: boolean;
+}
+
+type NavSectionKey =
+  | "about"
+  | "projects"
+  | "tech"
+  | "contact";
+
+type NavLocale =
+  | "zh-TW"
+  | "en";
+
+type NavStructure = Record<
+  NavLocale,
+  Record<NavSectionKey, NavSubItem[]>
+>;
+
+function navHref(item: NavSubItem) {
+  return item.external
+    ? withBasePath(item.href) ?? item.href
+    : item.href;
 }
 
 export function Header() {
@@ -139,7 +167,7 @@ export function Header() {
             <nav className="hidden lg:flex items-center gap-1">
               {navItems.map((item) => {
                 const isActive = item.items.some(subItem => 
-                  pathname.startsWith(subItem.href)
+                  !subItem.external && pathname.startsWith(subItem.href)
                 );
 
                 return (
@@ -186,31 +214,46 @@ export function Header() {
                       {item.items.map((subItem: NavSubItem) => {
                         const Icon = subItem.icon;
                         const isExternal = subItem.external;
+                        const content = (
+                          <>
+                            <div className="mt-0.5">
+                              <Icon className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                            </div>
+                            <div className="flex-1">
+                              <div className="font-medium text-sm group-hover:text-primary transition-colors">
+                                {subItem.label}
+                              </div>
+                              <div className="text-xs text-muted-foreground">
+                                {subItem.description}
+                              </div>
+                            </div>
+                            {isExternal && (
+                              <ExternalLink className="w-3 h-3 text-muted-foreground" />
+                            )}
+                          </>
+                        );
                         
                         return (
                           <DropdownMenuItem key={subItem.href} asChild>
-                            <Link
-                              href={subItem.href}
-                              target={isExternal ? "_blank" : undefined}
-                              rel={isExternal ? "noopener noreferrer" : undefined}
-                              className="flex items-start gap-3 p-3 rounded-lg cursor-pointer group hover:bg-accent/50"
-                              onClick={() => setOpenDropdown(null)}
-                            >
-                              <div className="mt-0.5">
-                                <Icon className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
-                              </div>
-                              <div className="flex-1">
-                                <div className="font-medium text-sm group-hover:text-primary transition-colors">
-                                  {subItem.label}
-                                </div>
-                                <div className="text-xs text-muted-foreground">
-                                  {subItem.description}
-                                </div>
-                              </div>
-                              {isExternal && (
-                                <ExternalLink className="w-3 h-3 text-muted-foreground" />
-                              )}
-                            </Link>
+                            {isExternal ? (
+                              <a
+                                href={navHref(subItem)}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-start gap-3 p-3 rounded-lg cursor-pointer group hover:bg-accent/50"
+                                onClick={() => setOpenDropdown(null)}
+                              >
+                                {content}
+                              </a>
+                            ) : (
+                              <Link
+                                href={navHref(subItem)}
+                                className="flex items-start gap-3 p-3 rounded-lg cursor-pointer group hover:bg-accent/50"
+                                onClick={() => setOpenDropdown(null)}
+                              >
+                                {content}
+                              </Link>
+                            )}
                           </DropdownMenuItem>
                         );
                       })}
@@ -278,17 +321,34 @@ export function Header() {
                   <div className="space-y-1">
                     {item.items.map((subItem: NavSubItem) => {
                       const Icon = subItem.icon;
-                      return (
-                        <Link
-                          key={subItem.href}
-                          href={subItem.href}
-                          onClick={() => setMobileMenuOpen(false)}
-                          className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-accent/50 transition-colors"
-                        >
+                      const content = (
+                        <>
                           <Icon className="w-5 h-5 text-muted-foreground" />
                           <span>{subItem.label}</span>
-                        </Link>
+                        </>
                       );
+
+                      return subItem.external ? (
+                          <a
+                            key={subItem.href}
+                            href={navHref(subItem)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-accent/50 transition-colors"
+                          >
+                            {content}
+                          </a>
+                        ) : (
+                          <Link
+                            key={subItem.href}
+                            href={navHref(subItem)}
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-accent/50 transition-colors"
+                          >
+                            {content}
+                          </Link>
+                        );
                     })}
                   </div>
                 </div>
