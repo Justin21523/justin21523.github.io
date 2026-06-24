@@ -7,6 +7,7 @@ services:
       - "3000:80"
     depends_on:
       - information-retrieval
+      - fandom-gui-scraper
     restart: unless-stopped
 
   information-retrieval:
@@ -28,6 +29,19 @@ services:
       TOKENIZERS_PARALLELISM: "false"
     volumes:
       - ir_hf_cache:/data/hf
+    restart: unless-stopped
+
+  fandom-gui-scraper:
+    build:
+      context: ../fandom-gui-scraper
+      dockerfile: docker/portfolio.Dockerfile
+    image: justin-portfolio-fandom-gui-scraper
+    environment:
+      AUTH_DISABLED: "true"
+      FANDOM_DEMO_MODE: "true"
+      FANDOM_DEMO_ROOT: "/app/sample_data"
+      ENABLE_FILE_EXPORT: "true"
+      DOWNLOAD_IMAGES: "false"
     restart: unless-stopped
 
 volumes:
