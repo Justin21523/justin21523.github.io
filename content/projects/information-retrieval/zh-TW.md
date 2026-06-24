@@ -28,6 +28,6 @@ nextSteps:
 
 每筆搜尋結果都會呈現標題、摘要片段、highlight、score、metadata 與 explanation。使用者可以打開 Why this result 面板檢查 matched terms、component scores、field boost 與 ranking signals，也可以打開文章 detail modal 查看 summary、KWIC、keywords、related news、taxonomy 與完整 metadata。
 
-為了讓作品更像完整 IR 系統，我另外做了 Model Comparison、Evaluation Dashboard、Ranking Diagnostics、Feedback Analytics 與 Analysis Graph。這些頁面讓面試官可以看到同一個 query 在不同模型下的排序差異、demo qrels 指標、BM25/TF-IDF/LM 分數拆解、click/relevance feedback 統計，以及從 query 到 ranking results 的節點式流程圖。
+為了讓作品更像完整 IR 系統，我另外做了 Model Comparison、Evaluation Dashboard、Ranking Diagnostics、Feedback Analytics 與 Analysis Graph。這些頁面讓使用者可以看到同一個 query 在不同模型下的排序差異、demo qrels 指標、BM25/TF-IDF/LM 分數拆解、click/relevance feedback 統計，以及從 query 到 ranking results 的節點式流程圖。
 
 GitHub Pages 作品頁會直接顯示完整 demo 截圖與錄影；真正可互動的 Flask 搜尋系統則放在 Live Demo 連結中。

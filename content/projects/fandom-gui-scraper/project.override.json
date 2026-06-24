@@ -1,11 +1,22 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "information-system",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
-  "technologies": [],
-  "coverImage": "/portfolio/projects/fandom-gui-scraper/cover.webp",
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "PyQt6",
+    "SQLite",
+    "MediaWiki API",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Playwright",
+    "pytest"
+  ],
+  "coverImage": "/portfolio/projects/fandom-gui-scraper/cover.png",
   "links": [
     {
       "kind": "github",
@@ -23,6 +34,277 @@
         "en": "Live Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "https://neojustin.dothost.net/portfolio/projects/fandom-gui-scraper/demo/guided-demo-desktop.webm",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/fandom-gui-scraper#5-minute-demo-flow",
+      "label": {
+        "zh-TW": "README Demo 流程",
+        "en": "README Demo Flow"
+      }
     }
-  ]
+  ],
+  "media": [
+    {
+      "id": "guided-demo-video",
+      "type": "video",
+      "src": "/portfolio/projects/fandom-gui-scraper/demo/guided-demo-desktop.webm",
+      "poster": "/portfolio/projects/fandom-gui-scraper/cover.png",
+      "alt": {
+        "zh-TW": "Fandom MediaWiki Scraper Platform 的完整使用者導覽錄影。",
+        "en": "A full user-guided walkthrough recording of the Fandom MediaWiki Scraper Platform."
+      },
+      "title": {
+        "zh-TW": "完整平台導覽錄影",
+        "en": "Full Platform Walkthrough Recording"
+      },
+      "caption": {
+        "zh-TW": "展示從 Campaigns、Scraper、Process、Browse、Analysis、Export 到 Compliance Log 的使用者導覽流程。",
+        "en": "Shows the user-guided flow through Campaigns, Scraper, Process, Browse, Analysis, Export, and Compliance Log."
+      },
+      "featured": true
+    },
+    {
+      "id": "campaigns-overview",
+      "type": "image",
+      "src": "/portfolio/projects/fandom-gui-scraper/screenshots/01-campaigns-overview.png",
+      "alt": {
+        "zh-TW": "多 wiki campaign dashboard 與爬取成果摘要。",
+        "en": "The multi-wiki campaign dashboard and crawl result summary."
+      },
+      "title": {
+        "zh-TW": "Campaigns Dashboard",
+        "en": "Campaigns Dashboard"
+      }
+    },
+    {
+      "id": "campaign-preset",
+      "type": "image",
+      "src": "/portfolio/projects/fandom-gui-scraper/screenshots/02-campaign-preset.png",
+      "alt": {
+        "zh-TW": "快速離線 demo 與合規即時爬取 preset 選項。",
+        "en": "Fast offline demo and compliant live crawl preset options."
+      },
+      "title": {
+        "zh-TW": "Demo Presets",
+        "en": "Demo Presets"
+      }
+    },
+    {
+      "id": "process-timeline",
+      "type": "image",
+      "src": "/portfolio/projects/fandom-gui-scraper/screenshots/03-process-timeline.png",
+      "alt": {
+        "zh-TW": "URL normalization、robots check、API discovery、checkpoint 與 export 流程。",
+        "en": "The URL normalization, robots check, API discovery, checkpoint, and export flow."
+      },
+      "title": {
+        "zh-TW": "Crawler Process Timeline",
+        "en": "Crawler Process Timeline"
+      }
+    },
+    {
+      "id": "dataset-browser",
+      "type": "image",
+      "src": "/portfolio/projects/fandom-gui-scraper/screenshots/04-dataset-browser.png",
+      "alt": {
+        "zh-TW": "wiki.db dataset browser，支援 pages、categories、links、templates、images、revisions 與 infobox。",
+        "en": "The wiki.db dataset browser for pages, categories, links, templates, images, revisions, and infobox data."
+      },
+      "title": {
+        "zh-TW": "SQLite Dataset Browser",
+        "en": "SQLite Dataset Browser"
+      }
+    },
+    {
+      "id": "analysis-network",
+      "type": "image",
+      "src": "/portfolio/projects/fandom-gui-scraper/screenshots/05-analysis-network.png",
+      "alt": {
+        "zh-TW": "以 wiki links 建立的 network graph 與分析摘要。",
+        "en": "A network graph and analysis summary built from wiki links."
+      },
+      "title": {
+        "zh-TW": "Analysis Network Graph",
+        "en": "Analysis Network Graph"
+      }
+    },
+    {
+      "id": "export-center",
+      "type": "image",
+      "src": "/portfolio/projects/fandom-gui-scraper/screenshots/06-export-center.png",
+      "alt": {
+        "zh-TW": "CSV、JSON、Parquet 與 SQLite export center。",
+        "en": "The CSV, JSON, Parquet, and SQLite export center."
+      },
+      "title": {
+        "zh-TW": "Export Center",
+        "en": "Export Center"
+      }
+    },
+    {
+      "id": "compliance-log",
+      "type": "image",
+      "src": "/portfolio/projects/fandom-gui-scraper/screenshots/07-compliance-log.png",
+      "alt": {
+        "zh-TW": "robots、rate limit、retry、403/429 與 stop reason 的合規紀錄。",
+        "en": "The compliance log for robots, rate limits, retries, 403/429 handling, and stop reasons."
+      },
+      "title": {
+        "zh-TW": "Compliance Log",
+        "en": "Compliance Log"
+      }
+    }
+  ],
+  "metadata": {
+    "startedAt": "2026-06-01",
+    "updatedAt": "2026-06-25",
+    "completedAt": "2026-06-25",
+    "duration": "Runtime stabilization, MediaWiki data pipeline, Web-first demo polish",
+    "teamSize": 1,
+    "version": "1.0.0",
+    "catalogNumber": "PF-2026-IS-FANDOM",
+    "domains": [
+      "Web Scraping",
+      "Data Engineering",
+      "MediaWiki",
+      "Data Analysis",
+      "GUI Application"
+    ],
+    "keywords": [
+      "Fandom",
+      "MediaWiki API",
+      "SQLite",
+      "checkpoint resume",
+      "robots.txt",
+      "rate limit",
+      "infobox parsing",
+      "network analysis",
+      "portfolio demo"
+    ],
+    "audiences": [
+      "Portfolio visitors",
+      "Data engineering reviewers",
+      "Python backend reviewers",
+      "Web product users"
+    ],
+    "contentTypes": [
+      "Crawler platform",
+      "Dashboard",
+      "SQLite dataset",
+      "Guided walkthrough",
+      "Demo recording"
+    ],
+    "dataTypes": [
+      "MediaWiki pages",
+      "Categories",
+      "Links",
+      "Templates",
+      "Images",
+      "Revisions metadata",
+      "Infobox fields",
+      "Page text"
+    ],
+    "platforms": [
+      "Web",
+      "Desktop",
+      "Command Line"
+    ],
+    "languages": [
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "PyQt6"
+    ],
+    "libraries": [
+      "Pydantic",
+      "requests",
+      "BeautifulSoup",
+      "Playwright",
+      "pytest"
+    ],
+    "database": [
+      "SQLite"
+    ],
+    "testing": [
+      "pytest",
+      "Playwright visual smoke",
+      "Guided demo recording"
+    ],
+    "deployment": [
+      "Docker",
+      "nginx",
+      "dothost live server"
+    ],
+    "roles": [
+      "Python backend developer",
+      "Data pipeline engineer",
+      "Frontend dashboard developer",
+      "GUI application developer"
+    ],
+    "responsibilities": [
+      "Stabilized runtime dependencies and removed unsafe scraping patterns",
+      "Built an API-first MediaWiki harvesting flow with SQLite persistence",
+      "Created Web and Qt data browsing paths for wiki.db outputs",
+      "Added analysis, export, compliance logging, and guided demo evidence"
+    ],
+    "skillsDemonstrated": [
+      "API-first scraping design",
+      "SQLite schema design",
+      "Checkpoint/resume workflows",
+      "Compliance-aware crawler controls",
+      "Frontend data visualization",
+      "Automated demo verification"
+    ],
+    "capabilities": [
+      "MediaWiki endpoint normalization",
+      "Multi-wiki campaign runs",
+      "SQLite browsing",
+      "CSV/JSON/Parquet export",
+      "Infobox fallback parsing",
+      "Network graph analysis",
+      "Compliance logging"
+    ],
+    "hasUnitTests": true,
+    "hasIntegrationTests": true,
+    "hasE2ETests": true,
+    "responsive": true,
+    "browserSupport": [
+      "Chromium",
+      "Modern desktop browsers",
+      "Modern mobile browsers"
+    ],
+    "codeQualityTools": [
+      "pytest",
+      "Jest",
+      "Playwright",
+      "catalog validation"
+    ],
+    "relatedProjects": [
+      "information-retrieval",
+      "dcard-trending-crawler",
+      "news-web-crawler"
+    ],
+    "evidenceSources": [
+      "README.md",
+      "docs/guided-demo/",
+      "docs/visual-smoke/",
+      "scripts/capture_guided_demo.py",
+      "tests/unit/test_scraper/"
+    ],
+    "extractionConfidence": 1.0,
+    "needsReview": false
+  }
 }
