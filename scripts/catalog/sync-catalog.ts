@@ -431,7 +431,9 @@ ${readmeInfo.description}
     const rawTechnologies: string[] = override.technologies || scanData.detectedStack || [];
     const normalizedTechs = Array.from(new Set(rawTechnologies.map(t => normalizeTechTerm(t).label)));
     const projectLinks = (override.links || []).filter(
-      (link: { kind?: string; url?: string }) => !isUnverifiedAutoDemoLink(link)
+      (link: { kind?: string; url?: string }) =>
+        slug === "fandom-gui-scraper" ||
+        !isUnverifiedAutoDemoLink(link)
     );
     const missingFields = new Set<string>(override.metadata?.missingFields || []);
     if (contentNeedsReview) {
