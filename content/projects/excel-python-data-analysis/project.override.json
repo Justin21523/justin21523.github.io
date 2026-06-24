@@ -1,14 +1,20 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
     "Python",
-    "Plotly"
+    "pandas",
+    "openpyxl",
+    "Streamlit",
+    "Plotly",
+    "pytest",
+    "Playwright",
+    "Excel"
   ],
-  "coverImage": "/portfolio/projects/excel-python-data-analysis/cover.webp",
+  "coverImage": "/portfolio/projects/excel-python-data-analysis/cover.png",
   "links": [
     {
       "kind": "github",
@@ -20,12 +26,283 @@
     },
     {
       "kind": "live",
-      "url": "https://neojustin.dothost.net/p/excel-python-data-analysis/",
+      "url": "https://neojustin.dothost.net/projects/excel-python-data-analysis",
       "label": {
         "zh-TW": "線上展示",
         "en": "Live Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/DEMO.md",
+      "label": {
+        "zh-TW": "Demo 腳本",
+        "en": "Demo Script"
+      }
     }
-  ]
+  ],
+  "media": [
+    {
+      "id": "guided-demo-video",
+      "type": "video",
+      "src": "/portfolio/projects/excel-python-data-analysis/demo/demo-walkthrough.mp4",
+      "poster": "/portfolio/projects/excel-python-data-analysis/cover.png",
+      "alt": {
+        "zh-TW": "Excel Python Data Analysis Platform 的完整 Streamlit demo 錄影。",
+        "en": "A full Streamlit demo recording of the Excel Python Data Analysis Platform."
+      },
+      "title": {
+        "zh-TW": "完整平台 Demo 錄影",
+        "en": "Full Platform Demo Recording"
+      },
+      "caption": {
+        "zh-TW": "展示從 guided demo、資料概要分析、清理、商業分析到報表匯出的完整流程。",
+        "en": "Shows the guided demo flow from profiling and cleaning to business analytics and report export."
+      },
+      "featured": true
+    },
+    {
+      "id": "demo-steps-gif",
+      "type": "image",
+      "src": "/portfolio/projects/excel-python-data-analysis/demo/demo-steps.gif",
+      "alt": {
+        "zh-TW": "平台主要流程的 GIF 摘要。",
+        "en": "A GIF summary of the main platform workflow."
+      },
+      "title": {
+        "zh-TW": "Demo 流程 GIF",
+        "en": "Demo Flow GIF"
+      },
+      "caption": {
+        "zh-TW": "快速呈現上傳、profiling、清理、分析與報表匯出的互動流程。",
+        "en": "A compact view of upload, profiling, cleaning, analytics, and report export interactions."
+      }
+    },
+    {
+      "id": "upload-profile",
+      "type": "image",
+      "src": "/portfolio/projects/excel-python-data-analysis/screenshots/02-upload-profile.png",
+      "alt": {
+        "zh-TW": "資料上傳與品質概要分析頁面。",
+        "en": "The upload and data quality profiling page."
+      },
+      "title": {
+        "zh-TW": "Upload & Data Profile",
+        "en": "Upload & Data Profile"
+      }
+    },
+    {
+      "id": "cleaning-workbench",
+      "type": "image",
+      "src": "/portfolio/projects/excel-python-data-analysis/screenshots/03-cleaning-workbench.png",
+      "alt": {
+        "zh-TW": "資料清理工作台 before/after 畫面。",
+        "en": "The cleaning workbench before and after view."
+      },
+      "title": {
+        "zh-TW": "Cleaning Workbench",
+        "en": "Cleaning Workbench"
+      }
+    },
+    {
+      "id": "business-analytics",
+      "type": "image",
+      "src": "/portfolio/projects/excel-python-data-analysis/screenshots/04-business-analytics.png",
+      "alt": {
+        "zh-TW": "商業分析 dashboard，包含 KPI、filter 與圖表。",
+        "en": "The business analytics dashboard with KPIs, filters, and charts."
+      },
+      "title": {
+        "zh-TW": "Business Analytics Dashboard",
+        "en": "Business Analytics Dashboard"
+      }
+    },
+    {
+      "id": "report-export",
+      "type": "image",
+      "src": "/portfolio/projects/excel-python-data-analysis/screenshots/05-report-export.png",
+      "alt": {
+        "zh-TW": "Excel 報表匯出頁面。",
+        "en": "The Excel report export page."
+      },
+      "title": {
+        "zh-TW": "Report Export",
+        "en": "Report Export"
+      }
+    },
+    {
+      "id": "openpyxl-showcase",
+      "type": "image",
+      "src": "/portfolio/projects/excel-python-data-analysis/screenshots/06-openpyxl-showcase.png",
+      "alt": {
+        "zh-TW": "Openpyxl feature showcase 頁面。",
+        "en": "The Openpyxl feature showcase page."
+      },
+      "title": {
+        "zh-TW": "Openpyxl Feature Showcase",
+        "en": "Openpyxl Feature Showcase"
+      }
+    }
+  ],
+  "metadata": {
+    "startedAt": "2026-06-01",
+    "updatedAt": "2026-06-24",
+    "completedAt": "2026-06-24",
+    "duration": "Portfolio refactor and demo hardening",
+    "teamSize": 1,
+    "version": "1.0.0",
+    "domains": [
+      "Business Intelligence",
+      "Excel Automation",
+      "Data Quality",
+      "Retail Analytics"
+    ],
+    "keywords": [
+      "Excel analytics",
+      "pandas",
+      "openpyxl",
+      "Streamlit dashboard",
+      "RFM",
+      "cohort analysis",
+      "market basket",
+      "Playwright E2E"
+    ],
+    "audiences": [
+      "Data analyst recruiters",
+      "Business stakeholders",
+      "Portfolio reviewers"
+    ],
+    "contentTypes": [
+      "Dashboard",
+      "CLI",
+      "Excel report",
+      "Case study",
+      "Demo recording"
+    ],
+    "dataTypes": [
+      "Excel workbooks",
+      "CSV tables",
+      "Synthetic retail data",
+      "Multi-sheet business data"
+    ],
+    "platforms": [
+      "Web",
+      "Command Line",
+      "Excel"
+    ],
+    "languages": [
+      "Python"
+    ],
+    "frameworks": [
+      "Streamlit"
+    ],
+    "libraries": [
+      "pandas",
+      "numpy",
+      "openpyxl",
+      "xlsxwriter",
+      "Plotly",
+      "scikit-learn",
+      "mlxtend"
+    ],
+    "testing": [
+      "pytest",
+      "Playwright",
+      "Streamlit smoke verification"
+    ],
+    "buildTools": [
+      "pyproject.toml",
+      "console_scripts"
+    ],
+    "developmentTools": [
+      "VS Code",
+      "ffmpeg",
+      "GitHub"
+    ],
+    "roles": [
+      "Python Data Analyst",
+      "Pandas Engineer",
+      "Excel Automation Developer",
+      "Dashboard Developer"
+    ],
+    "responsibilities": [
+      "Refactored a week-based learning repo into a modular analytics platform",
+      "Built reusable IO, profiling, cleaning, analytics, and reporting modules",
+      "Created Streamlit dashboard pages backed by testable Python services",
+      "Generated demo recordings, screenshots, and case-study documentation"
+    ],
+    "collaborationType": "Solo",
+    "myContribution": "Designed and implemented the full Excel-to-Python analytics workflow, including sample workbooks, business analysis modules, Excel report automation, dashboard UI, CLI demo command, tests, and portfolio evidence.",
+    "learningGoals": [
+      "Turn Excel business data into reusable Python analytics workflows",
+      "Use openpyxl for production-style workbook automation",
+      "Package data analysis logic as testable modules instead of notebooks",
+      "Document and test an interactive dashboard as a portfolio product"
+    ],
+    "skillsDemonstrated": [
+      "Excel/CSV ingestion",
+      "Data profiling",
+      "Data cleaning pipeline",
+      "Business analytics",
+      "Excel report generation",
+      "Streamlit dashboard engineering",
+      "Playwright E2E testing"
+    ],
+    "capabilities": [
+      "Multi-sheet Excel reader",
+      "CSV reader",
+      "Quality checker",
+      "Cleaning workbench",
+      "Sales analysis",
+      "Customer/RFM analysis",
+      "Cohort analysis",
+      "ABC inventory analysis",
+      "Market basket analysis",
+      "Openpyxl showcase",
+      "Excel report export"
+    ],
+    "tools": [
+      "Python",
+      "pandas",
+      "openpyxl",
+      "Streamlit",
+      "Plotly",
+      "pytest",
+      "Playwright",
+      "ffmpeg"
+    ],
+    "hasUnitTests": true,
+    "hasIntegrationTests": true,
+    "hasE2ETests": true,
+    "accessibilityNotes": "Dashboard uses a light theme with restrained color, readable sans-serif typography, responsive layouts, and non-color-only hierarchy.",
+    "responsive": true,
+    "browserSupport": [
+      "Chromium-based browsers",
+      "Desktop and mobile responsive layouts"
+    ],
+    "codeQualityTools": [
+      "compileall",
+      "pytest",
+      "Playwright"
+    ],
+    "extractionConfidence": 1,
+    "needsReview": false,
+    "missingFields": [],
+    "evidenceSources": [
+      "README.md",
+      "DEMO.md",
+      "docs/demo_script.md",
+      "assets/demo/demo_walkthrough.mp4",
+      "tests/e2e/test_dashboard_demo.py"
+    ]
+  }
 }

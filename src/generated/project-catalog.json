@@ -12,7 +12,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-001",
@@ -82,7 +82,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.158Z"
+      "lastScannedAt": "2026-06-24T11:24:01.705Z"
     },
     "content": {
       "zh-TW": {
@@ -161,7 +161,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-02-05",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-001",
@@ -231,7 +231,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.160Z"
+      "lastScannedAt": "2026-06-24T11:24:01.707Z"
     },
     "content": {
       "zh-TW": {
@@ -307,7 +307,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-002",
@@ -379,7 +379,7 @@
         "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.160Z"
+      "lastScannedAt": "2026-06-24T11:24:01.707Z"
     },
     "content": {
       "zh-TW": {
@@ -453,7 +453,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-08",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-003",
@@ -531,7 +531,7 @@
         "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.160Z"
+      "lastScannedAt": "2026-06-24T11:24:01.707Z"
     },
     "content": {
       "zh-TW": {
@@ -613,7 +613,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-06",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-004",
@@ -689,7 +689,7 @@
         "content/projects/3d-rendering-showcase/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.161Z"
+      "lastScannedAt": "2026-06-24T11:24:01.708Z"
     },
     "content": {
       "zh-TW": {
@@ -762,7 +762,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-005",
@@ -838,7 +838,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.161Z"
+      "lastScannedAt": "2026-06-24T11:24:01.708Z"
     },
     "content": {
       "zh-TW": {
@@ -923,7 +923,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-04-26",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-006",
@@ -1001,7 +1001,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.161Z"
+      "lastScannedAt": "2026-06-24T11:24:01.708Z"
     },
     "content": {
       "zh-TW": {
@@ -1089,7 +1089,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-15",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-001",
@@ -1169,7 +1169,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.161Z"
+      "lastScannedAt": "2026-06-24T11:24:01.708Z"
     },
     "content": {
       "zh-TW": {
@@ -1249,7 +1249,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-29",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-002",
@@ -1325,7 +1325,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.161Z"
+      "lastScannedAt": "2026-06-24T11:24:01.708Z"
     },
     "content": {
       "zh-TW": {
@@ -1411,7 +1411,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-13",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-007",
@@ -1487,7 +1487,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.162Z"
+      "lastScannedAt": "2026-06-24T11:24:01.709Z"
     },
     "content": {
       "zh-TW": {
@@ -1577,7 +1577,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-002",
@@ -1661,7 +1661,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.162Z"
+      "lastScannedAt": "2026-06-24T11:24:01.709Z"
     },
     "content": {
       "zh-TW": {
@@ -1772,8 +1772,8 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-19",
-      "updatedAt": "2026-06-21",
+      "startedAt": "2026-06-22",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-003",
@@ -1931,7 +1931,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.162Z"
+      "lastScannedAt": "2026-06-24T11:24:01.709Z"
     },
     "content": {
       "zh-TW": {
@@ -2005,7 +2005,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-004",
@@ -2075,7 +2075,7 @@
         "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.162Z"
+      "lastScannedAt": "2026-06-24T11:24:01.710Z"
     },
     "content": {
       "zh-TW": {
@@ -2180,8 +2180,8 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-19",
-      "updatedAt": "2026-06-21",
+      "startedAt": "2026-06-22",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-BD-001",
@@ -2331,7 +2331,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.163Z"
+      "lastScannedAt": "2026-06-24T11:24:01.710Z"
     },
     "content": {
       "zh-TW": {
@@ -2416,7 +2416,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-008",
@@ -2490,7 +2490,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.163Z"
+      "lastScannedAt": "2026-06-24T11:24:01.711Z"
     },
     "content": {
       "zh-TW": {
@@ -2573,7 +2573,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-04",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-005",
@@ -2647,7 +2647,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.163Z"
+      "lastScannedAt": "2026-06-24T11:24:01.711Z"
     },
     "content": {
       "zh-TW": {
@@ -2723,8 +2723,8 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-04-04",
-      "updatedAt": "2026-06-21",
+      "startedAt": "2026-06-24",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-003",
@@ -2800,7 +2800,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.711Z"
     },
     "content": {
       "zh-TW": {
@@ -2885,7 +2885,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-06",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-004",
@@ -2959,7 +2959,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.711Z"
     },
     "content": {
       "zh-TW": {
@@ -3042,7 +3042,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-21",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-006",
@@ -3112,7 +3112,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.711Z"
     },
     "content": {
       "zh-TW": {
@@ -3200,7 +3200,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-005",
@@ -3280,7 +3280,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.711Z"
     },
     "content": {
       "zh-TW": {
@@ -3352,7 +3352,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-006",
@@ -3422,7 +3422,7 @@
         "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.711Z"
     },
     "content": {
       "zh-TW": {
@@ -3507,7 +3507,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-007",
@@ -3584,7 +3584,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.711Z"
     },
     "content": {
       "zh-TW": {
@@ -3659,8 +3659,8 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "startedAt": "2026-06-24",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-007",
@@ -3734,7 +3734,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.711Z"
     },
     "content": {
       "zh-TW": {
@@ -3812,8 +3812,8 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-16",
-      "updatedAt": "2026-06-21",
+      "startedAt": "2026-06-20",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-008",
@@ -3893,7 +3893,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.711Z"
     },
     "content": {
       "zh-TW": {
@@ -3965,7 +3965,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-25",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-009",
@@ -4043,7 +4043,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.712Z"
     },
     "content": {
       "zh-TW": {
@@ -4120,7 +4120,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-010",
@@ -4196,7 +4196,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.712Z"
     },
     "content": {
       "zh-TW": {
@@ -4280,7 +4280,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-011",
@@ -4356,7 +4356,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.712Z"
     },
     "content": {
       "zh-TW": {
@@ -4421,14 +4421,20 @@
     "id": "project-excel-python-data-analysis-pf-2026-ai-008",
     "slug": "excel-python-data-analysis",
     "category": "ai-data",
-    "status": "prototype",
+    "status": "completed",
     "year": 2026,
-    "featured": false,
+    "featured": true,
     "technologies": [
       "Python",
-      "Plotly"
+      "pandas",
+      "openpyxl",
+      "Streamlit",
+      "Plotly",
+      "pytest",
+      "Playwright",
+      "Excel"
     ],
-    "coverImage": "/portfolio/projects/excel-python-data-analysis/cover.webp",
+    "coverImage": "/portfolio/projects/excel-python-data-analysis/cover.png",
     "links": [
       {
         "kind": "github",
@@ -4437,12 +4443,141 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/projects/excel-python-data-analysis",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "video",
+        "url": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/DEMO.md",
+        "label": {
+          "zh-TW": "Demo 腳本",
+          "en": "Demo Script"
+        }
       }
     ],
-    "media": [],
+    "media": [
+      {
+        "id": "guided-demo-video",
+        "type": "video",
+        "src": "/portfolio/projects/excel-python-data-analysis/demo/demo-walkthrough.mp4",
+        "poster": "/portfolio/projects/excel-python-data-analysis/cover.png",
+        "alt": {
+          "zh-TW": "Excel Python Data Analysis Platform 的完整 Streamlit demo 錄影。",
+          "en": "A full Streamlit demo recording of the Excel Python Data Analysis Platform."
+        },
+        "title": {
+          "zh-TW": "完整平台 Demo 錄影",
+          "en": "Full Platform Demo Recording"
+        },
+        "caption": {
+          "zh-TW": "展示從 guided demo、資料概要分析、清理、商業分析到報表匯出的完整流程。",
+          "en": "Shows the guided demo flow from profiling and cleaning to business analytics and report export."
+        },
+        "featured": true
+      },
+      {
+        "id": "demo-steps-gif",
+        "type": "image",
+        "src": "/portfolio/projects/excel-python-data-analysis/demo/demo-steps.gif",
+        "alt": {
+          "zh-TW": "平台主要流程的 GIF 摘要。",
+          "en": "A GIF summary of the main platform workflow."
+        },
+        "title": {
+          "zh-TW": "Demo 流程 GIF",
+          "en": "Demo Flow GIF"
+        },
+        "caption": {
+          "zh-TW": "快速呈現上傳、profiling、清理、分析與報表匯出的互動流程。",
+          "en": "A compact view of upload, profiling, cleaning, analytics, and report export interactions."
+        }
+      },
+      {
+        "id": "upload-profile",
+        "type": "image",
+        "src": "/portfolio/projects/excel-python-data-analysis/screenshots/02-upload-profile.png",
+        "alt": {
+          "zh-TW": "資料上傳與品質概要分析頁面。",
+          "en": "The upload and data quality profiling page."
+        },
+        "title": {
+          "zh-TW": "Upload & Data Profile",
+          "en": "Upload & Data Profile"
+        }
+      },
+      {
+        "id": "cleaning-workbench",
+        "type": "image",
+        "src": "/portfolio/projects/excel-python-data-analysis/screenshots/03-cleaning-workbench.png",
+        "alt": {
+          "zh-TW": "資料清理工作台 before/after 畫面。",
+          "en": "The cleaning workbench before and after view."
+        },
+        "title": {
+          "zh-TW": "Cleaning Workbench",
+          "en": "Cleaning Workbench"
+        }
+      },
+      {
+        "id": "business-analytics",
+        "type": "image",
+        "src": "/portfolio/projects/excel-python-data-analysis/screenshots/04-business-analytics.png",
+        "alt": {
+          "zh-TW": "商業分析 dashboard，包含 KPI、filter 與圖表。",
+          "en": "The business analytics dashboard with KPIs, filters, and charts."
+        },
+        "title": {
+          "zh-TW": "Business Analytics Dashboard",
+          "en": "Business Analytics Dashboard"
+        }
+      },
+      {
+        "id": "report-export",
+        "type": "image",
+        "src": "/portfolio/projects/excel-python-data-analysis/screenshots/05-report-export.png",
+        "alt": {
+          "zh-TW": "Excel 報表匯出頁面。",
+          "en": "The Excel report export page."
+        },
+        "title": {
+          "zh-TW": "Report Export",
+          "en": "Report Export"
+        }
+      },
+      {
+        "id": "openpyxl-showcase",
+        "type": "image",
+        "src": "/portfolio/projects/excel-python-data-analysis/screenshots/06-openpyxl-showcase.png",
+        "alt": {
+          "zh-TW": "Openpyxl feature showcase 頁面。",
+          "en": "The Openpyxl feature showcase page."
+        },
+        "title": {
+          "zh-TW": "Openpyxl Feature Showcase",
+          "en": "Openpyxl Feature Showcase"
+        }
+      }
+    ],
     "metadata": {
-      "startedAt": "2025-12-21",
-      "updatedAt": "2026-06-21",
+      "startedAt": "2026-06-01",
+      "updatedAt": "2026-06-24",
+      "completedAt": "2026-06-24",
+      "duration": "Portfolio refactor and demo hardening",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-008",
@@ -4451,26 +4586,72 @@
       "primaryCategory": "ai-data",
       "secondaryCategories": [],
       "projectType": "Python",
-      "domains": [],
+      "domains": [
+        "Business Intelligence",
+        "Excel Automation",
+        "Data Quality",
+        "Retail Analytics"
+      ],
       "subjects": [],
       "controlledTerms": [
         "Python",
-        "Plotly"
+        "pandas",
+        "openpyxl",
+        "Streamlit",
+        "Plotly",
+        "pytest",
+        "Playwright",
+        "Excel"
       ],
-      "keywords": [],
-      "audiences": [],
-      "contentTypes": [],
-      "dataTypes": [],
+      "keywords": [
+        "Excel analytics",
+        "pandas",
+        "openpyxl",
+        "Streamlit dashboard",
+        "RFM",
+        "cohort analysis",
+        "market basket",
+        "Playwright E2E"
+      ],
+      "audiences": [
+        "Data analyst recruiters",
+        "Business stakeholders",
+        "Portfolio reviewers"
+      ],
+      "contentTypes": [
+        "Dashboard",
+        "CLI",
+        "Excel report",
+        "Case study",
+        "Demo recording"
+      ],
+      "dataTypes": [
+        "Excel workbooks",
+        "CSV tables",
+        "Synthetic retail data",
+        "Multi-sheet business data"
+      ],
       "platforms": [
-        "Web"
+        "Web",
+        "Command Line",
+        "Excel"
       ],
       "operatingSystems": [],
       "languages": [
-        "JavaScript",
-        "TypeScript"
+        "Python"
       ],
-      "frameworks": [],
-      "libraries": [],
+      "frameworks": [
+        "Streamlit"
+      ],
+      "libraries": [
+        "pandas",
+        "numpy",
+        "openpyxl",
+        "xlsxwriter",
+        "Plotly",
+        "scikit-learn",
+        "mlxtend"
+      ],
       "stateManagement": [],
       "styling": [],
       "database": [],
@@ -4478,29 +4659,88 @@
       "desktop": [],
       "gameEngine": [],
       "threeD": [],
-      "testing": [],
-      "buildTools": [],
+      "testing": [
+        "pytest",
+        "Playwright",
+        "Streamlit smoke verification"
+      ],
+      "buildTools": [
+        "pyproject.toml",
+        "console_scripts"
+      ],
       "infrastructure": [],
       "deployment": [],
-      "developmentTools": [],
+      "developmentTools": [
+        "VS Code",
+        "ffmpeg",
+        "GitHub"
+      ],
       "roles": [
-        "獨立開發者 / 學習型專案實作者"
+        "Python Data Analyst",
+        "Pandas Engineer",
+        "Excel Automation Developer",
+        "Dashboard Developer"
       ],
-      "responsibilities": [],
+      "responsibilities": [
+        "Refactored a week-based learning repo into a modular analytics platform",
+        "Built reusable IO, profiling, cleaning, analytics, and reporting modules",
+        "Created Streamlit dashboard pages backed by testable Python services",
+        "Generated demo recordings, screenshots, and case-study documentation"
+      ],
       "collaborationType": "Solo",
-      "learningGoals": [],
-      "skillsDemonstrated": [
-        "Python",
-        "Plotly"
+      "myContribution": "Designed and implemented the full Excel-to-Python analytics workflow, including sample workbooks, business analysis modules, Excel report automation, dashboard UI, CLI demo command, tests, and portfolio evidence.",
+      "learningGoals": [
+        "Turn Excel business data into reusable Python analytics workflows",
+        "Use openpyxl for production-style workbook automation",
+        "Package data analysis logic as testable modules instead of notebooks",
+        "Document and test an interactive dashboard as a portfolio product"
       ],
-      "capabilities": [],
-      "tools": [],
-      "hasUnitTests": false,
-      "hasIntegrationTests": false,
-      "hasE2ETests": false,
+      "skillsDemonstrated": [
+        "Excel/CSV ingestion",
+        "Data profiling",
+        "Data cleaning pipeline",
+        "Business analytics",
+        "Excel report generation",
+        "Streamlit dashboard engineering",
+        "Playwright E2E testing"
+      ],
+      "capabilities": [
+        "Multi-sheet Excel reader",
+        "CSV reader",
+        "Quality checker",
+        "Cleaning workbench",
+        "Sales analysis",
+        "Customer/RFM analysis",
+        "Cohort analysis",
+        "ABC inventory analysis",
+        "Market basket analysis",
+        "Openpyxl showcase",
+        "Excel report export"
+      ],
+      "tools": [
+        "Python",
+        "pandas",
+        "openpyxl",
+        "Streamlit",
+        "Plotly",
+        "pytest",
+        "Playwright",
+        "ffmpeg"
+      ],
+      "hasUnitTests": true,
+      "hasIntegrationTests": true,
+      "hasE2ETests": true,
+      "accessibilityNotes": "Dashboard uses a light theme with restrained color, readable sans-serif typography, responsive layouts, and non-color-only hierarchy.",
       "responsive": true,
-      "browserSupport": [],
-      "codeQualityTools": [],
+      "browserSupport": [
+        "Chromium-based browsers",
+        "Desktop and mobile responsive layouts"
+      ],
+      "codeQualityTools": [
+        "compileall",
+        "pytest",
+        "Playwright"
+      ],
       "relatedProjects": [],
       "subprojects": [],
       "successorProjects": [],
@@ -4508,73 +4748,71 @@
       "inspiredBy": [],
       "dependencies": [],
       "extractionConfidence": 0.8,
-      "needsReview": true,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "needsReview": false,
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/excel-python-data-analysis/project.override.json",
         "content/projects/excel-python-data-analysis/zh-TW.md",
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.712Z"
     },
     "content": {
       "zh-TW": {
-        "title": "Excel Python Data Analysis",
-        "summary": "Excel Python Data Analysis 是一個以 Python、Plotly 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。",
-        "description": "Excel Python Data Analysis 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。\n\n從掃描資料來看，這個專案的主要技術線索包含 Python、Plotly。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。\n\n這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。 我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。\n\n後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。",
-        "tagline": "資料處理、AI、分析或自動化流程練習專案。",
-        "role": "獨立開發者 / 學習型專案實作者",
-        "problem": "這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。",
-        "solution": "我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。",
-        "outcome": "目前適合作為資料整理、分析、自動化或 AI 應用流程的學習型作品。",
+        "title": "Excel Python Data Analysis Platform",
+        "summary": "我把這個專案從 week-based learning repository 重構成模組化 Python 分析平台。現在它可以展示 Excel/CSV 匯入、pandas 清理流程、零售商業分析、Streamlit dashboard、openpyxl workbook automation、CLI workflow，以及 Playwright 錄影與截圖證據。",
+        "description": "這個專案展示的是：我不只是會寫 pandas 範例，而是能把 Excel 商業資料整理成完整 Python 分析產品。平台從 multi-sheet Excel 或 CSV input 開始，進行資料概要分析、品質問題偵測、清理規則套用、零售商業分析，最後匯出格式化 Excel 報表。\n\n核心價值在於工程架構。Streamlit 只是介面，真正的資料分析邏輯放在 `src/excel_analysis` 裡，因此同一套功能可以被 unit test、CLI、dashboard 重複使用。展示素材包含 sample workbooks、自動產生的 Excel report、openpyxl showcase workbook、screenshots、MP4 walkthrough 與 GIF summary。\n\n商業分析層聚焦在電商 / 零售情境：revenue trend、order volume、average order value、category/region performance、customer segmentation、cohort retention、CLV-style summary、ABC inventory classification、slow-moving inventory、reorder suggestions 與 market basket rules。\n\nExcel automation 也被明確展示出來。openpyxl showcase 會產出一份 workbook，示範 formulas、named styles、comments、hyperlinks、data validation、sheet protection、conditional formatting、charts、freeze panes、filters、workbook metadata 與 report styling。這讓它同時是資料分析作品，也是一個 Excel automation case study。\n\n我也補上可靠性證據。repo 包含 IO、cleaning、analytics、sample generation、CLI behavior、UI design constraints 與 workbook formatting 測試。Playwright 會走完整 demo flow、截圖、錄影並產出 trace artifacts，讓 dashboard 不是只有靜態截圖，而是可以被自動驗收的互動產品。",
+        "tagline": "可放作品集展示的 Excel-to-Python 分析平台，涵蓋 profiling、清理、商業分析、dashboard 與 Excel 報表自動化。",
+        "role": "獨立 Python Data Analyst / Pandas Engineer / Excel Automation Developer",
+        "problem": "原本 repo 有很多學習筆記、notebooks 與週次練習，但作品集訪客很難看出它是否能變成真正可操作的資料分析產品。這次重構的目標，是把 Excel 商業資料處理成完整、可測試、可展示的 Python 分析流程。",
+        "solution": "我重新整理成以 `src/excel_analysis` 為核心的 application structure，建立 IO、profiling、cleaning、analytics、reporting 與 dashboard 模組。Demo 使用 synthetic retail workbooks，完整走過資料品質檢查、清理、銷售/客戶/商品分析、Excel report export 與 openpyxl feature showcase。",
+        "outcome": "專案現在可以作為完整 Excel Python Data Analysis Platform 展示：包含 Streamlit UI、CLI demo command、sample workbooks、格式化 Excel reports、截圖、影片、GIF、unit tests 與 Playwright E2E evidence。",
         "features": [],
         "metrics": [],
         "highlights": [
-          "README 顯示：掌握 pandas 進階技巧（MultiIndex、效能優化、複雜計算）",
-          "README 顯示：精通 openpyxl 自動化產生精美 Excel 報表",
-          "README 顯示：實作企業常用的商業分析模型（RFM、Cohort、CLV、ABC）",
-          "README 顯示：完成 5 個可直接放入作品集的真實專案"
+          "建立 reusable pandas modules，支援 data profiling、quality checks、cleaning、RFM、cohort、ABC inventory、market basket analysis 與 KPI summary。",
+          "使用 openpyxl 實作 formulas、named styles、comments、hyperlinks、data validation、protection、conditional formatting、charts、metadata 與 formatted reports。",
+          "完成 Streamlit multipage dashboard，包含 guided demo flow、upload/profile、cleaning workbench、business analytics、openpyxl showcase 與 report export。",
+          "補上 pytest 測試、Playwright E2E 錄影、screenshots、trace output 與一鍵 CLI demo command。"
         ],
         "challenges": [
-          "需要從 README 與原始碼中整理出可信、可展示的專案範圍。",
-          "需要把技術名詞轉換成清楚的功能、資料流與學習成果。",
-          "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
+          "把分散的 notebooks 與週次練習轉換成可維護的 package，同時保留能說明學習成果的脈絡。",
+          "避免把分析邏輯寫死在 Streamlit 頁面裡，改成可被 CLI、tests、dashboard 重複呼叫的 Python modules。",
+          "設計足夠真實的 retail sample workbooks，支撐 RFM、cohort、inventory 與 market basket 分析，又不依賴私人資料。"
         ],
         "nextSteps": [
-          "補齊更完整的中英文案例研究與操作截圖。",
-          "確認 GitHub、Demo、文件與素材是否適合公開展示。",
-          "依完成度補強測試、README 與部署或執行說明。"
+          "補上正式 hosted Streamlit deployment 或 containerized demo environment。",
+          "擴充 PDF/HTML report output 與更多 workbook business scenarios。",
+          "針對大型 Excel / CSV 加入更完整的 performance tests。"
         ]
       },
       "en": {
-        "title": "Excel Python Data Analysis",
-        "summary": "Excel Python Data Analysis is a learning-focused project with detected technology signals including Python, Plotly. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts.",
-        "description": "Excel Python Data Analysis is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.\n\nThe scanned project data points to Python, Plotly. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.\n\nThis project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.\n\nNext, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.",
-        "tagline": "A data processing, AI, analysis, or automation workflow practice project.",
-        "role": "Independent Developer / Learning Project Builder",
-        "problem": "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output.",
-        "solution": "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus.",
-        "outcome": "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project.",
+        "title": "Excel Python Data Analysis Platform",
+        "summary": "I rebuilt this project from a week-based learning repository into a modular Python analytics platform. It now demonstrates Excel/CSV ingestion, pandas cleaning pipelines, retail analytics, Streamlit dashboards, openpyxl workbook automation, CLI workflows, and Playwright-recorded demo evidence.",
+        "description": "This project demonstrates how I can move beyond isolated pandas examples and build a full data analysis product around Excel business data. The platform starts with multi-sheet Excel or CSV input, profiles the data, flags quality issues, applies reusable cleaning rules, runs retail analytics, and exports formatted Excel reports.\n\nThe core value is the system design: Streamlit is only the user interface. The analysis work lives in reusable Python modules under `src/excel_analysis`, so the same logic can be tested, called from the CLI, or used by the dashboard. The demo evidence includes generated sample workbooks, an automated Excel report, an openpyxl showcase workbook, screenshots, a short MP4 walkthrough, and a GIF summary.\n\nThe business analytics layer focuses on realistic retail questions: revenue trends, order volume, average order value, category and region performance, customer segmentation, cohort retention, CLV-style summaries, ABC inventory classification, slow-moving inventory, reorder suggestions, and market basket rules.\n\nThe Excel automation layer is intentionally visible. The openpyxl showcase produces a workbook that demonstrates formulas, named styles, comments, hyperlinks, data validation, sheet protection, conditional formatting, charts, freeze panes, filters, workbook metadata, and report styling. This makes the project useful as both a data analysis portfolio piece and an Excel automation case study.\n\nI also added reliability evidence. The repo includes unit tests for IO, cleaning, analytics, samples, CLI behavior, UI design constraints, and workbook formatting. Playwright drives the demo flow, captures screenshots, records a video, and produces trace artifacts, so the dashboard can be checked as an interactive product instead of a static screenshot.",
+        "tagline": "A portfolio-ready Excel-to-Python analytics platform for profiling, cleaning, business analysis, dashboards, and automated Excel reports.",
+        "role": "Independent Python Data Analyst / Pandas Engineer / Excel Automation Developer",
+        "problem": "The original repository showed many useful learning notes and notebooks, but it did not communicate a product-style workflow. A portfolio reviewer needed to see whether I could turn Excel business data into a maintainable Python analysis system with real outputs.",
+        "solution": "I refactored the project into a source-based application with reusable IO, profiling, cleaning, analytics, reporting, and dashboard modules. The demo uses synthetic retail workbooks to walk through data quality checks, cleaning, sales/customer/product analysis, Excel report export, and an openpyxl feature showcase.",
+        "outcome": "The project is now demoable as a complete Excel Python Data Analysis Platform with a Streamlit UI, CLI demo command, generated sample workbooks, formatted Excel reports, screenshots, video, GIF, unit tests, and Playwright E2E evidence.",
         "features": [],
         "metrics": [],
         "highlights": [
-          "README signal: 掌握 pandas 進階技巧（MultiIndex、效能優化、複雜計算）",
-          "README signal: 精通 openpyxl 自動化產生精美 Excel 報表",
-          "README signal: 實作企業常用的商業分析模型（RFM、Cohort、CLV、ABC）",
-          "README signal: 完成 5 個可直接放入作品集的真實專案"
+          "Built reusable pandas modules for data profiling, quality checks, cleaning, RFM, cohort, ABC inventory classification, market basket analysis, and KPI summaries.",
+          "Implemented openpyxl automation for formulas, named styles, comments, hyperlinks, validation, protection, conditional formatting, charts, workbook metadata, and formatted reports.",
+          "Created a Streamlit multipage dashboard with guided demo flow, upload/profile, cleaning workbench, business analytics, openpyxl showcase, and report export pages.",
+          "Added pytest coverage plus Playwright E2E recording, screenshots, trace output, and a reproducible CLI demo command."
         ],
         "challenges": [
-          "The project scope needs to be summarized from README content and source evidence in a credible way.",
-          "Technical terms need to be translated into clear features, data flow, and learning outcomes.",
-          "More screenshots, test notes, or operation details can still improve the case study."
+          "Converting scattered notebooks and weekly practice folders into a maintainable package without hiding the actual learning progression.",
+          "Keeping dashboard pages thin while moving analysis logic into testable Python modules.",
+          "Creating believable retail sample workbooks that support RFM, cohort, inventory, and market basket workflows without relying on private data."
         ],
         "nextSteps": [
-          "Complete a more detailed bilingual case study and add operation screenshots.",
-          "Verify which GitHub, demo, documentation, and media assets should be public.",
-          "Improve tests, README details, and deployment or run instructions based on actual completion level."
+          "Add a hosted Streamlit deployment or containerized demo environment.",
+          "Expand report templates with PDF/HTML export and more workbook-level business scenarios.",
+          "Add larger performance tests for high-volume Excel and CSV inputs."
         ]
       }
     }
@@ -4601,7 +4839,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-21",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-012",
@@ -4671,7 +4909,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.164Z"
+      "lastScannedAt": "2026-06-24T11:24:01.712Z"
     },
     "content": {
       "zh-TW": {
@@ -4753,7 +4991,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-013",
@@ -4833,7 +5071,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.712Z"
     },
     "content": {
       "zh-TW": {
@@ -4920,7 +5158,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-28",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-009",
@@ -4998,7 +5236,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.712Z"
     },
     "content": {
       "zh-TW": {
@@ -5084,7 +5322,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-014",
@@ -5160,7 +5398,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.712Z"
     },
     "content": {
       "zh-TW": {
@@ -5248,7 +5486,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-010",
@@ -5332,7 +5570,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -5415,7 +5653,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-11-06",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-015",
@@ -5483,7 +5721,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -5559,7 +5797,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-016",
@@ -5633,7 +5871,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -5715,8 +5953,8 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2025-12-26",
-      "updatedAt": "2026-06-21",
+      "startedAt": "2026-06-24",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-017",
@@ -5790,7 +6028,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -5871,7 +6109,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-24",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-018",
@@ -5941,7 +6179,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -6022,7 +6260,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-019",
@@ -6092,7 +6330,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -6175,7 +6413,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-020",
@@ -6249,7 +6487,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -6332,7 +6570,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-021",
@@ -6406,7 +6644,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.165Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -6490,7 +6728,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-022",
@@ -6565,7 +6803,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -6648,7 +6886,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-21",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-009",
@@ -6718,7 +6956,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -6797,7 +7035,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-10-08",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-010",
@@ -6871,7 +7109,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -6961,7 +7199,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-011",
@@ -7045,7 +7283,7 @@
         "content/projects/lost-yokai-campus-rpg/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.713Z"
     },
     "content": {
       "zh-TW": {
@@ -7115,7 +7353,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-023",
@@ -7185,7 +7423,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.714Z"
     },
     "content": {
       "zh-TW": {
@@ -7270,7 +7508,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-024",
@@ -7347,7 +7585,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.714Z"
     },
     "content": {
       "zh-TW": {
@@ -7431,7 +7669,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-21",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-012",
@@ -7507,7 +7745,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.714Z"
     },
     "content": {
       "zh-TW": {
@@ -7584,7 +7822,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-013",
@@ -7660,7 +7898,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.714Z"
     },
     "content": {
       "zh-TW": {
@@ -7739,7 +7977,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-011",
@@ -7819,7 +8057,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.714Z"
     },
     "content": {
       "zh-TW": {
@@ -7891,7 +8129,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-025",
@@ -7965,7 +8203,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.714Z"
     },
     "content": {
       "zh-TW": {
@@ -8037,7 +8275,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-026",
@@ -8107,7 +8345,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.714Z"
     },
     "content": {
       "zh-TW": {
@@ -8183,7 +8421,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-012",
@@ -8257,7 +8495,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.715Z"
     },
     "content": {
       "zh-TW": {
@@ -8331,7 +8569,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-25",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-027",
@@ -8401,7 +8639,7 @@
         "content/projects/playwright-demo/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.166Z"
+      "lastScannedAt": "2026-06-24T11:24:01.715Z"
     },
     "content": {
       "zh-TW": {
@@ -8488,7 +8726,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-014",
@@ -8570,7 +8808,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.167Z"
+      "lastScannedAt": "2026-06-24T11:24:01.715Z"
     },
     "content": {
       "zh-TW": {
@@ -8655,7 +8893,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-04",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-015",
@@ -8729,7 +8967,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.167Z"
+      "lastScannedAt": "2026-06-24T11:24:01.715Z"
     },
     "content": {
       "zh-TW": {
@@ -8817,7 +9055,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-17",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-013",
@@ -8901,7 +9139,7 @@
         "content/projects/polly-rpg-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.167Z"
+      "lastScannedAt": "2026-06-24T11:24:01.715Z"
     },
     "content": {
       "zh-TW": {
@@ -8991,7 +9229,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-014",
@@ -9075,7 +9313,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.167Z"
+      "lastScannedAt": "2026-06-24T11:24:01.715Z"
     },
     "content": {
       "zh-TW": {
@@ -9161,7 +9399,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-015",
@@ -9235,7 +9473,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.167Z"
+      "lastScannedAt": "2026-06-24T11:24:01.715Z"
     },
     "content": {
       "zh-TW": {
@@ -9323,7 +9561,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-028",
@@ -9407,7 +9645,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.715Z"
     },
     "content": {
       "zh-TW": {
@@ -9494,7 +9732,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-029",
@@ -9571,7 +9809,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.715Z"
     },
     "content": {
       "zh-TW": {
@@ -9661,7 +9899,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-030",
@@ -9745,7 +9983,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.715Z"
     },
     "content": {
       "zh-TW": {
@@ -9854,8 +10092,8 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-19",
-      "updatedAt": "2026-06-21",
+      "startedAt": "2026-06-22",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-031",
@@ -10007,7 +10245,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -10093,7 +10331,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-10-10",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-032",
@@ -10169,7 +10407,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -10255,7 +10493,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-06",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-016",
@@ -10331,7 +10569,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -10403,7 +10641,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-033",
@@ -10473,7 +10711,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -10561,7 +10799,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-017",
@@ -10645,7 +10883,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -10728,7 +10966,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-04",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-034",
@@ -10798,7 +11036,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -10872,7 +11110,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-035",
@@ -10942,7 +11180,7 @@
         "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -11026,7 +11264,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-04",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-036",
@@ -11102,7 +11340,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -11193,7 +11431,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-018",
@@ -11279,7 +11517,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.168Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -11360,7 +11598,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-19",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-037",
@@ -11444,7 +11682,7 @@
         "content/projects/soccer-player-rpg/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -11532,7 +11770,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-019",
@@ -11616,7 +11854,7 @@
         "content/projects/sonic-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -11699,7 +11937,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-038",
@@ -11769,7 +12007,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -11860,7 +12098,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-16",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-020",
@@ -11946,7 +12184,7 @@
         "content/projects/super-wings-rpg-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.716Z"
     },
     "content": {
       "zh-TW": {
@@ -12037,7 +12275,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-039",
@@ -12123,7 +12361,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -12194,7 +12432,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-040",
@@ -12270,7 +12508,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -12353,7 +12591,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-09-13",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-041",
@@ -12427,7 +12665,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -12510,7 +12748,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-21",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-042",
@@ -12580,7 +12818,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -12666,7 +12904,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-21",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-043",
@@ -12742,7 +12980,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -12818,7 +13056,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-044",
@@ -12892,7 +13130,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -12973,7 +13211,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-11-17",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-045",
@@ -13043,7 +13281,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -13119,7 +13357,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-03-02",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-046",
@@ -13193,7 +13431,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -13267,7 +13505,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-20",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-047",
@@ -13337,7 +13575,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -13421,7 +13659,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-10-12",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-021",
@@ -13497,7 +13735,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.169Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -13581,7 +13819,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-03",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-048",
@@ -13657,7 +13895,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.170Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
@@ -13740,7 +13978,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-29",
-      "updatedAt": "2026-06-21",
+      "updatedAt": "2026-06-24",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-049",
@@ -13814,7 +14052,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-21T18:10:11.170Z"
+      "lastScannedAt": "2026-06-24T11:24:01.717Z"
     },
     "content": {
       "zh-TW": {
