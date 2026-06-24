@@ -1,0 +1,23 @@
+{
+  "visibility": "hidden",
+  "featured": false,
+  "category": "information-system",
+  "status": "prototype",
+  "year": 2026,
+  "technologies": [
+    "C#",
+    ".NET",
+    "Avalonia"
+  ],
+  "coverImage": "/portfolio/projects/ChronosMap/cover.webp",
+  "links": [],
+  "metadata": {
+    "needsReview": true,
+    "missingFields": [
+      "reviewed zh-TW case study",
+      "reviewed English case study",
+      "verified media assets",
+      "verified public links"
+    ]
+  }
+}

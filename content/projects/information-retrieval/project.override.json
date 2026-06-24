@@ -1,13 +1,25 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "information-system",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
-    "Python"
+    "Python",
+    "Flask",
+    "JavaScript",
+    "Bootstrap",
+    "Jieba",
+    "BM25",
+    "TF-IDF",
+    "Boolean Retrieval",
+    "Language Model Retrieval",
+    "SQLite",
+    "Chart.js",
+    "Playwright",
+    "pytest"
   ],
-  "coverImage": "/portfolio/projects/information-retrieval/cover.webp",
+  "coverImage": "/portfolio/projects/information-retrieval/cover.png",
   "links": [
     {
       "kind": "github",
@@ -19,12 +31,318 @@
     },
     {
       "kind": "live",
-      "url": "https://neojustin.dothost.net/p/information-retrieval/",
+      "url": "https://neojustin.dothost.net/projects/information-retrieval",
       "label": {
         "zh-TW": "線上展示",
         "en": "Live Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/news-information-retrieval-system#portfolio-news-search-demo",
+      "label": {
+        "zh-TW": "README Demo 說明",
+        "en": "README Demo Guide"
+      }
     }
-  ]
+  ],
+  "media": [
+    {
+      "id": "cnirs-demo-video",
+      "type": "video",
+      "src": "/portfolio/projects/information-retrieval/demo/cnirs-demo.webm",
+      "poster": "/portfolio/projects/information-retrieval/cover.png",
+      "alt": {
+        "zh-TW": "CNIRS 中文新聞檢索系統完整操作錄影。",
+        "en": "Full demo recording of the CNIRS Chinese news retrieval system."
+      },
+      "title": {
+        "zh-TW": "完整 Search Engine Demo 錄影",
+        "en": "Full Search Engine Demo Recording"
+      },
+      "caption": {
+        "zh-TW": "展示小幫手導覽、新聞搜尋、facet browsing、模型對比、評估、診斷、分析圖譜與 feedback analytics。",
+        "en": "Shows the guided assistant, news search, facet browsing, model comparison, evaluation, diagnostics, analysis graph, and feedback analytics."
+      },
+      "featured": true
+    },
+    {
+      "id": "search-results",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/01-search-results.png",
+      "alt": {
+        "zh-TW": "CNIRS 主搜尋頁與新聞結果。",
+        "en": "The CNIRS main search page and news results."
+      },
+      "title": {
+        "zh-TW": "搜尋結果與排序解釋",
+        "en": "Search Results and Ranking Explanation"
+      }
+    },
+    {
+      "id": "facet-browse",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/02-facet-browse.png",
+      "alt": {
+        "zh-TW": "直接點選 metadata facet 瀏覽所有符合條件的新聞。",
+        "en": "Direct metadata facet browsing without a lexical query."
+      },
+      "title": {
+        "zh-TW": "Facet Browsing",
+        "en": "Facet Browsing"
+      }
+    },
+    {
+      "id": "document-detail",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/03-document-detail.png",
+      "alt": {
+        "zh-TW": "文章詳情 modal，包含摘要、KWIC、keywords 與 related news。",
+        "en": "The document detail modal with summary, KWIC, keywords, and related news."
+      },
+      "title": {
+        "zh-TW": "Document Detail",
+        "en": "Document Detail"
+      }
+    },
+    {
+      "id": "model-compare",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/04-model-compare.png",
+      "alt": {
+        "zh-TW": "BM25、TF-IDF、Hybrid 與 LM 的模型對比頁。",
+        "en": "The model comparison page for BM25, TF-IDF, Hybrid, and LM."
+      },
+      "title": {
+        "zh-TW": "Model Comparison",
+        "en": "Model Comparison"
+      }
+    },
+    {
+      "id": "corpus-dashboard",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/05-corpus-dashboard.png",
+      "alt": {
+        "zh-TW": "語料庫儀表板與 metadata 品質分析。",
+        "en": "The corpus dashboard and metadata quality analysis."
+      },
+      "title": {
+        "zh-TW": "Corpus Dashboard",
+        "en": "Corpus Dashboard"
+      }
+    },
+    {
+      "id": "evaluation-dashboard",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/06-evaluation-dashboard.png",
+      "alt": {
+        "zh-TW": "Demo qrels evaluation dashboard。",
+        "en": "The demo qrels evaluation dashboard."
+      },
+      "title": {
+        "zh-TW": "Evaluation Dashboard",
+        "en": "Evaluation Dashboard"
+      }
+    },
+    {
+      "id": "ranking-diagnostics",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/07-ranking-diagnostics.png",
+      "alt": {
+        "zh-TW": "排序診斷頁，顯示 term contribution 與 field-aware signals。",
+        "en": "The ranking diagnostics page showing term contribution and field-aware signals."
+      },
+      "title": {
+        "zh-TW": "Ranking Diagnostics",
+        "en": "Ranking Diagnostics"
+      }
+    },
+    {
+      "id": "analysis-graph",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/08-analysis-graph.png",
+      "alt": {
+        "zh-TW": "分析圖譜頁，以節點呈現 IR pipeline 與結果層級。",
+        "en": "The analysis graph page visualizing the IR pipeline and result layers as nodes."
+      },
+      "title": {
+        "zh-TW": "Analysis Graph",
+        "en": "Analysis Graph"
+      }
+    },
+    {
+      "id": "feedback-analytics",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/09-feedback-analytics.png",
+      "alt": {
+        "zh-TW": "Feedback analytics 與 LTR sandbox。",
+        "en": "Feedback analytics and the LTR sandbox."
+      },
+      "title": {
+        "zh-TW": "Feedback Analytics",
+        "en": "Feedback Analytics"
+      }
+    },
+    {
+      "id": "demo-assistant-guide",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/10-demo-assistant-guide.png",
+      "alt": {
+        "zh-TW": "小幫手導覽模式。",
+        "en": "The guided demo assistant mode."
+      },
+      "title": {
+        "zh-TW": "Demo Assistant",
+        "en": "Demo Assistant"
+      }
+    }
+  ],
+  "metadata": {
+    "startedAt": "2026-06-01",
+    "updatedAt": "2026-06-24",
+    "completedAt": "2026-06-24",
+    "duration": "IR system hardening and portfolio demo completion",
+    "teamSize": 1,
+    "version": "1.0.0",
+    "catalogNumber": "PF-2026-IS-CNIRS",
+    "domains": [
+      "Information Retrieval",
+      "Chinese NLP",
+      "News Search",
+      "Search Evaluation",
+      "Metadata Facets"
+    ],
+    "keywords": [
+      "BM25",
+      "TF-IDF",
+      "Boolean Retrieval",
+      "Hybrid Ranking",
+      "Rocchio Query Expansion",
+      "CSoundex",
+      "Facet Search",
+      "Ranking Diagnostics",
+      "Learning to Rank",
+      "Chinese News"
+    ],
+    "audiences": [
+      "IR and NLP interviewers",
+      "Backend reviewers",
+      "Portfolio visitors",
+      "Data product reviewers"
+    ],
+    "contentTypes": [
+      "Search engine demo",
+      "Dashboard",
+      "Evaluation report",
+      "Guided walkthrough",
+      "Demo recording"
+    ],
+    "dataTypes": [
+      "Taiwanese news articles",
+      "JSONL corpus",
+      "Search logs",
+      "Demo qrels",
+      "Facet metadata"
+    ],
+    "platforms": [
+      "Web",
+      "GitHub Pages portfolio",
+      "Flask live demo"
+    ],
+    "languages": [
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks": [
+      "Flask",
+      "Bootstrap"
+    ],
+    "libraries": [
+      "jieba",
+      "numpy",
+      "Chart.js",
+      "scikit-learn",
+      "Playwright"
+    ],
+    "database": [
+      "SQLite",
+      "JSONL"
+    ],
+    "testing": [
+      "pytest",
+      "Playwright",
+      "API smoke tests",
+      "UI screenshots and recording"
+    ],
+    "deployment": [
+      "Flask",
+      "GitHub Pages portfolio",
+      "dothost live server"
+    ],
+    "roles": [
+      "System architect",
+      "Backend implementer",
+      "Frontend implementer",
+      "IR evaluator"
+    ],
+    "responsibilities": [
+      "Designed the unified retrieval API and service layer",
+      "Integrated multiple traditional IR models into a usable web demo",
+      "Built explainable search results, facets, dashboards, and analysis graph",
+      "Created Playwright verification media for portfolio review"
+    ],
+    "skillsDemonstrated": [
+      "Information retrieval",
+      "Chinese NLP",
+      "Flask API design",
+      "Search evaluation",
+      "Frontend dashboard design",
+      "Automated UI verification"
+    ],
+    "capabilities": [
+      "Explainable search",
+      "Faceted metadata browsing",
+      "Model comparison",
+      "Evaluation metrics",
+      "Ranking diagnostics",
+      "Feedback analytics"
+    ],
+    "hasUnitTests": true,
+    "hasIntegrationTests": true,
+    "hasE2ETests": true,
+    "responsive": true,
+    "browserSupport": [
+      "Chromium",
+      "Modern desktop browsers"
+    ],
+    "codeQualityTools": [
+      "pytest",
+      "node --check",
+      "Playwright"
+    ],
+    "relatedProjects": [
+      "news-web-crawler",
+      "dcard-trending-crawler",
+      "commercial-ml-analysis"
+    ],
+    "evidenceSources": [
+      "README.md",
+      "docs/assets/evaluation/",
+      "tests/test_ir_app_api.py",
+      "scripts/verify_ui_playwright.py"
+    ],
+    "extractionConfidence": 1.0,
+    "needsReview": false
+  }
 }
