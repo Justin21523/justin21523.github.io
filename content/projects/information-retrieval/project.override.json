@@ -204,6 +204,346 @@
         "zh-TW": "Demo Assistant",
         "en": "Demo Assistant"
       }
+    },
+    {
+      "id": "viewport-scroll-search-results-scroll-02",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/search-results-scroll-02.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：搜尋結果下半部。",
+        "en": "CNIRS viewport scroll screenshot: Search Results Lower View."
+      },
+      "title": {
+        "zh-TW": "搜尋結果下半部",
+        "en": "Search Results Lower View"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-search-results-scroll-03",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/search-results-scroll-03.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：搜尋結果延伸內容。",
+        "en": "CNIRS viewport scroll screenshot: Search Results Continued."
+      },
+      "title": {
+        "zh-TW": "搜尋結果延伸內容",
+        "en": "Search Results Continued"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-facet-browse-scroll-02",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/facet-browse-scroll-02.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Facet browsing 結果列表。",
+        "en": "CNIRS viewport scroll screenshot: Facet Browsing Results."
+      },
+      "title": {
+        "zh-TW": "Facet browsing 結果列表",
+        "en": "Facet Browsing Results"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-facet-browse-scroll-03",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/facet-browse-scroll-03.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Facet browsing metadata 延伸。",
+        "en": "CNIRS viewport scroll screenshot: Facet Browsing Metadata Continuation."
+      },
+      "title": {
+        "zh-TW": "Facet browsing metadata 延伸",
+        "en": "Facet Browsing Metadata Continuation"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-document-detail-scroll-02",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/document-detail-scroll-02.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Document detail 摘要與 KWIC。",
+        "en": "CNIRS viewport scroll screenshot: Document Detail Summary and KWIC."
+      },
+      "title": {
+        "zh-TW": "Document detail 摘要與 KWIC",
+        "en": "Document Detail Summary and KWIC"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-document-detail-scroll-03",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/document-detail-scroll-03.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Document detail related news。",
+        "en": "CNIRS viewport scroll screenshot: Document Detail Related News."
+      },
+      "title": {
+        "zh-TW": "Document detail related news",
+        "en": "Document Detail Related News"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-model-compare-scroll-02",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/model-compare-scroll-02.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Model comparison ranking grid。",
+        "en": "CNIRS viewport scroll screenshot: Model Comparison Ranking Grid."
+      },
+      "title": {
+        "zh-TW": "Model comparison ranking grid",
+        "en": "Model Comparison Ranking Grid"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-model-compare-scroll-03",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/model-compare-scroll-03.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Model comparison overlap detail。",
+        "en": "CNIRS viewport scroll screenshot: Model Comparison Overlap Detail."
+      },
+      "title": {
+        "zh-TW": "Model comparison overlap detail",
+        "en": "Model Comparison Overlap Detail"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-corpus-dashboard-scroll-02",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/corpus-dashboard-scroll-02.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Corpus dashboard metadata quality。",
+        "en": "CNIRS viewport scroll screenshot: Corpus Dashboard Metadata Quality."
+      },
+      "title": {
+        "zh-TW": "Corpus dashboard metadata quality",
+        "en": "Corpus Dashboard Metadata Quality"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-corpus-dashboard-scroll-03",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/corpus-dashboard-scroll-03.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Corpus dashboard topic explorer area。",
+        "en": "CNIRS viewport scroll screenshot: Corpus Dashboard Topic Explorer Area."
+      },
+      "title": {
+        "zh-TW": "Corpus dashboard topic explorer area",
+        "en": "Corpus Dashboard Topic Explorer Area"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-evaluation-dashboard-scroll-02",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/evaluation-dashboard-scroll-02.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Evaluation metrics table。",
+        "en": "CNIRS viewport scroll screenshot: Evaluation Metrics Table."
+      },
+      "title": {
+        "zh-TW": "Evaluation metrics table",
+        "en": "Evaluation Metrics Table"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-evaluation-dashboard-scroll-03",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/evaluation-dashboard-scroll-03.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Evaluation per-query breakdown。",
+        "en": "CNIRS viewport scroll screenshot: Evaluation Per-query Breakdown."
+      },
+      "title": {
+        "zh-TW": "Evaluation per-query breakdown",
+        "en": "Evaluation Per-query Breakdown"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-evaluation-dashboard-scroll-04",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/evaluation-dashboard-scroll-04.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Evaluation curve detail。",
+        "en": "CNIRS viewport scroll screenshot: Evaluation Curve Detail."
+      },
+      "title": {
+        "zh-TW": "Evaluation curve detail",
+        "en": "Evaluation Curve Detail"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-ranking-diagnostics-scroll-02",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/ranking-diagnostics-scroll-02.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Ranking diagnostics term contribution。",
+        "en": "CNIRS viewport scroll screenshot: Ranking Diagnostics Term Contribution."
+      },
+      "title": {
+        "zh-TW": "Ranking diagnostics term contribution",
+        "en": "Ranking Diagnostics Term Contribution"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-ranking-diagnostics-scroll-03",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/ranking-diagnostics-scroll-03.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Ranking diagnostics field analysis。",
+        "en": "CNIRS viewport scroll screenshot: Ranking Diagnostics Field Analysis."
+      },
+      "title": {
+        "zh-TW": "Ranking diagnostics field analysis",
+        "en": "Ranking Diagnostics Field Analysis"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-feedback-analytics-scroll-02",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/feedback-analytics-scroll-02.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Feedback analytics event table。",
+        "en": "CNIRS viewport scroll screenshot: Feedback Analytics Event Table."
+      },
+      "title": {
+        "zh-TW": "Feedback analytics event table",
+        "en": "Feedback Analytics Event Table"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-feedback-analytics-scroll-03",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/feedback-analytics-scroll-03.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Feedback quality controls。",
+        "en": "CNIRS viewport scroll screenshot: Feedback Quality Controls."
+      },
+      "title": {
+        "zh-TW": "Feedback quality controls",
+        "en": "Feedback Quality Controls"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-feedback-analytics-scroll-04",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/feedback-analytics-scroll-04.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：LTR sandbox result。",
+        "en": "CNIRS viewport scroll screenshot: LTR Sandbox Result."
+      },
+      "title": {
+        "zh-TW": "LTR sandbox result",
+        "en": "LTR Sandbox Result"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-topic-explorer-scroll-02",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/topic-explorer-scroll-02.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Topic explorer cluster details。",
+        "en": "CNIRS viewport scroll screenshot: Topic Explorer Cluster Details."
+      },
+      "title": {
+        "zh-TW": "Topic explorer cluster details",
+        "en": "Topic Explorer Cluster Details"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
+    },
+    {
+      "id": "viewport-scroll-topic-explorer-scroll-03",
+      "type": "image",
+      "src": "/portfolio/projects/information-retrieval/screenshots/scroll/topic-explorer-scroll-03.png",
+      "alt": {
+        "zh-TW": "CNIRS viewport 分段截圖：Topic explorer related documents。",
+        "en": "CNIRS viewport scroll screenshot: Topic Explorer Related Documents."
+      },
+      "title": {
+        "zh-TW": "Topic explorer related documents",
+        "en": "Topic Explorer Related Documents"
+      },
+      "caption": {
+        "zh-TW": "固定 1440x1100 viewport 截圖，長頁面以 scroll 分段呈現，避免 full-page 長圖難以閱讀。",
+        "en": "Fixed 1440x1100 viewport screenshot; long pages are shown as scroll segments instead of unreadable full-page captures."
+      }
     }
   ],
   "metadata": {
