@@ -136,11 +136,7 @@ function hasPlaceholderText(value: string | undefined): boolean {
 }
 
 function isUnverifiedAutoDemoLink(link: { kind?: string; url?: string }): boolean {
-  return (
-    link.kind === "live" &&
-    typeof link.url === "string" &&
-    link.url.includes("neojustin.dothost.net/p/")
-  );
+  return false;
 }
 
 function buildReviewContent(scanData: ScannedProject, stack: string[]) {

@@ -8,7 +8,17 @@
     "featured": false,
     "technologies": [],
     "coverImage": "/portfolio/projects/2d-animation-lora-pipeline/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/2d-animation-lora-pipeline/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -82,7 +92,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.344Z"
+      "lastScannedAt": "2026-06-25T10:23:46.929Z"
     },
     "content": {
       "zh-TW": {
@@ -156,6 +166,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/3d-animation-lora-pipeline/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -231,7 +250,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.346Z"
+      "lastScannedAt": "2026-06-25T10:23:46.931Z"
     },
     "content": {
       "zh-TW": {
@@ -303,7 +322,17 @@
       "Three.js"
     ],
     "coverImage": "/portfolio/projects/3d-maze-explorer/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/3d-maze-explorer/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -379,7 +408,7 @@
         "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.347Z"
+      "lastScannedAt": "2026-06-25T10:23:46.931Z"
     },
     "content": {
       "zh-TW": {
@@ -449,7 +478,17 @@
       "TypeScript"
     ],
     "coverImage": "/portfolio/projects/3d-platformer-runner/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/3d-platformer-runner/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-01-08",
@@ -531,7 +570,7 @@
         "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.347Z"
+      "lastScannedAt": "2026-06-25T10:23:46.931Z"
     },
     "content": {
       "zh-TW": {
@@ -608,6 +647,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/3d-rendering-showcase/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -689,7 +737,7 @@
         "content/projects/3d-rendering-showcase/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.347Z"
+      "lastScannedAt": "2026-06-25T10:23:46.932Z"
     },
     "content": {
       "zh-TW": {
@@ -758,7 +806,17 @@
       "FastAPI"
     ],
     "coverImage": "/portfolio/projects/ai-3d-studio/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/ai-3d-studio/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -838,7 +896,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.347Z"
+      "lastScannedAt": "2026-06-25T10:23:46.932Z"
     },
     "content": {
       "zh-TW": {
@@ -918,6 +976,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/ai-game-website/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -1001,7 +1068,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.348Z"
+      "lastScannedAt": "2026-06-25T10:23:46.932Z"
     },
     "content": {
       "zh-TW": {
@@ -1084,6 +1151,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/ai-knowledge-workspace/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -1169,7 +1245,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.348Z"
+      "lastScannedAt": "2026-06-25T10:23:46.932Z"
     },
     "content": {
       "zh-TW": {
@@ -1244,6 +1320,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/animation-ai-studio/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -1325,7 +1410,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.348Z"
+      "lastScannedAt": "2026-06-25T10:23:46.932Z"
     },
     "content": {
       "zh-TW": {
@@ -1406,6 +1491,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/anime-adventure-lab/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -1487,7 +1581,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.348Z"
+      "lastScannedAt": "2026-06-25T10:23:46.933Z"
     },
     "content": {
       "zh-TW": {
@@ -1572,6 +1666,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/aqua-rush/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -1661,7 +1764,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.349Z"
+      "lastScannedAt": "2026-06-25T10:23:46.933Z"
     },
     "content": {
       "zh-TW": {
@@ -1931,7 +2034,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.349Z"
+      "lastScannedAt": "2026-06-25T10:23:46.933Z"
     },
     "content": {
       "zh-TW": {
@@ -2001,7 +2104,17 @@
     "featured": false,
     "technologies": [],
     "coverImage": "/portfolio/projects/automation/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/automation/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
@@ -2075,7 +2188,7 @@
         "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.350Z"
+      "lastScannedAt": "2026-06-25T10:23:46.934Z"
     },
     "content": {
       "zh-TW": {
@@ -2331,7 +2444,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.350Z"
+      "lastScannedAt": "2026-06-25T10:23:46.934Z"
     },
     "content": {
       "zh-TW": {
@@ -2411,6 +2524,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/campus-quest-3d/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -2490,7 +2612,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.350Z"
+      "lastScannedAt": "2026-06-25T10:23:46.934Z"
     },
     "content": {
       "zh-TW": {
@@ -2647,7 +2769,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.350Z"
+      "lastScannedAt": "2026-06-25T10:23:46.934Z"
     },
     "content": {
       "zh-TW": {
@@ -2720,7 +2842,17 @@
       "Plotly"
     ],
     "coverImage": "/portfolio/projects/commercial-ml-analysis/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/commercial-ml-analysis/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-06-24",
@@ -2800,7 +2932,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.350Z"
+      "lastScannedAt": "2026-06-25T10:23:46.934Z"
     },
     "content": {
       "zh-TW": {
@@ -2880,6 +3012,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/commute-reliability-analysis/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -2959,7 +3100,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.350Z"
+      "lastScannedAt": "2026-06-25T10:23:46.934Z"
     },
     "content": {
       "zh-TW": {
@@ -3037,6 +3178,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/css-advanced-mastery/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -3112,7 +3262,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.350Z"
+      "lastScannedAt": "2026-06-25T10:23:46.935Z"
     },
     "content": {
       "zh-TW": {
@@ -3195,6 +3345,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/data-narrative-studio/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -3280,7 +3439,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.351Z"
+      "lastScannedAt": "2026-06-25T10:23:46.935Z"
     },
     "content": {
       "zh-TW": {
@@ -3348,7 +3507,17 @@
     "featured": false,
     "technologies": [],
     "coverImage": "/portfolio/projects/data-pipelines/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/data-pipelines/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
@@ -3422,7 +3591,7 @@
         "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.351Z"
+      "lastScannedAt": "2026-06-25T10:23:46.935Z"
     },
     "content": {
       "zh-TW": {
@@ -3502,6 +3671,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/datalab-studio/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -3584,7 +3762,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.351Z"
+      "lastScannedAt": "2026-06-25T10:23:46.935Z"
     },
     "content": {
       "zh-TW": {
@@ -3656,7 +3834,17 @@
       "Python"
     ],
     "coverImage": "/portfolio/projects/dcard-trending-crawler/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/dcard-trending-crawler/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-06-24",
@@ -3734,7 +3922,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.351Z"
+      "lastScannedAt": "2026-06-25T10:23:46.935Z"
     },
     "content": {
       "zh-TW": {
@@ -3809,7 +3997,17 @@
       "TypeScript"
     ],
     "coverImage": "/portfolio/projects/digital-archive-review-board/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/digital-archive-review-board/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-06-20",
@@ -3893,7 +4091,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.351Z"
+      "lastScannedAt": "2026-06-25T10:23:46.935Z"
     },
     "content": {
       "zh-TW": {
@@ -3961,7 +4159,17 @@
       "TypeScript"
     ],
     "coverImage": "/portfolio/projects/digital-living/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/digital-living/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-25",
@@ -4043,7 +4251,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.351Z"
+      "lastScannedAt": "2026-06-25T10:23:46.935Z"
     },
     "content": {
       "zh-TW": {
@@ -4116,7 +4324,17 @@
       "FastAPI"
     ],
     "coverImage": "/portfolio/projects/discord-clone/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/discord-clone/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -4196,7 +4414,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.351Z"
+      "lastScannedAt": "2026-06-25T10:23:46.935Z"
     },
     "content": {
       "zh-TW": {
@@ -4275,6 +4493,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/elio-discord-bot/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -4356,7 +4583,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.351Z"
+      "lastScannedAt": "2026-06-25T10:23:46.935Z"
     },
     "content": {
       "zh-TW": {
@@ -4756,7 +4983,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.351Z"
+      "lastScannedAt": "2026-06-25T10:23:46.935Z"
     },
     "content": {
       "zh-TW": {
@@ -5162,7 +5389,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.352Z"
+      "lastScannedAt": "2026-06-25T10:23:46.936Z"
     },
     "content": {
       "zh-TW": {
@@ -5245,6 +5472,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/frontend-interaction-lab/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -5330,7 +5566,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.352Z"
+      "lastScannedAt": "2026-06-25T10:23:46.936Z"
     },
     "content": {
       "zh-TW": {
@@ -5412,6 +5648,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/game-dialogue-simulator/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -5495,7 +5740,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.352Z"
+      "lastScannedAt": "2026-06-25T10:23:46.936Z"
     },
     "content": {
       "zh-TW": {
@@ -5576,6 +5821,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/gan-ae-vision-suite/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -5657,7 +5911,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.352Z"
+      "lastScannedAt": "2026-06-25T10:23:46.936Z"
     },
     "content": {
       "zh-TW": {
@@ -5740,6 +5994,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/highway-adventure-3d/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -5829,7 +6092,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.352Z"
+      "lastScannedAt": "2026-06-25T10:23:46.936Z"
     },
     "content": {
       "zh-TW": {
@@ -5907,6 +6170,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/html-css-interactive-lab/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -5980,7 +6252,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.352Z"
+      "lastScannedAt": "2026-06-25T10:23:46.936Z"
     },
     "content": {
       "zh-TW": {
@@ -6052,7 +6324,17 @@
       "Three.js"
     ],
     "coverImage": "/portfolio/projects/image-process/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/image-process/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -6130,7 +6412,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.352Z"
+      "lastScannedAt": "2026-06-25T10:23:46.936Z"
     },
     "content": {
       "zh-TW": {
@@ -6916,7 +7198,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.352Z"
+      "lastScannedAt": "2026-06-25T10:23:46.937Z"
     },
     "content": {
       "zh-TW": {
@@ -6998,6 +7280,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/intro-to-dl/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -7073,7 +7364,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.353Z"
+      "lastScannedAt": "2026-06-25T10:23:46.937Z"
     },
     "content": {
       "zh-TW": {
@@ -7149,6 +7440,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/intro-to-ml/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -7224,7 +7524,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.353Z"
+      "lastScannedAt": "2026-06-25T10:23:46.937Z"
     },
     "content": {
       "zh-TW": {
@@ -7302,6 +7602,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/intro-to-vml/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -7381,7 +7690,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.353Z"
+      "lastScannedAt": "2026-06-25T10:23:46.937Z"
     },
     "content": {
       "zh-TW": {
@@ -7459,6 +7768,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/javascript-platformer-concepts/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -7538,7 +7856,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.353Z"
+      "lastScannedAt": "2026-06-25T10:23:46.937Z"
     },
     "content": {
       "zh-TW": {
@@ -7617,6 +7935,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/libradesk/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -7697,7 +8024,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.353Z"
+      "lastScannedAt": "2026-06-25T10:23:46.937Z"
     },
     "content": {
       "zh-TW": {
@@ -7775,6 +8102,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/library-reach-analysis/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -7850,7 +8186,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.353Z"
+      "lastScannedAt": "2026-06-25T10:23:46.937Z"
     },
     "content": {
       "zh-TW": {
@@ -7924,6 +8260,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/llm-train-eval-ship/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -8003,7 +8348,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.353Z"
+      "lastScannedAt": "2026-06-25T10:23:46.937Z"
     },
     "content": {
       "zh-TW": {
@@ -8088,6 +8433,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/lost-yokai-campus-rpg/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -8177,7 +8531,7 @@
         "content/projects/lost-yokai-campus-rpg/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.353Z"
+      "lastScannedAt": "2026-06-25T10:23:46.937Z"
     },
     "content": {
       "zh-TW": {
@@ -8243,7 +8597,17 @@
     "featured": false,
     "technologies": [],
     "coverImage": "/portfolio/projects/metashelf/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/metashelf/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -8317,7 +8681,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.353Z"
+      "lastScannedAt": "2026-06-25T10:23:46.938Z"
     },
     "content": {
       "zh-TW": {
@@ -8397,6 +8761,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/modelops-dashboard/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -8479,7 +8852,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.354Z"
+      "lastScannedAt": "2026-06-25T10:23:46.938Z"
     },
     "content": {
       "zh-TW": {
@@ -8558,6 +8931,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/mrt-ubike-analysis/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -8639,7 +9021,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.354Z"
+      "lastScannedAt": "2026-06-25T10:23:46.938Z"
     },
     "content": {
       "zh-TW": {
@@ -8712,7 +9094,17 @@
       "FastAPI"
     ],
     "coverImage": "/portfolio/projects/multi-ai-agents/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/multi-ai-agents/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
@@ -8792,7 +9184,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.354Z"
+      "lastScannedAt": "2026-06-25T10:23:46.938Z"
     },
     "content": {
       "zh-TW": {
@@ -8867,7 +9259,17 @@
       "TypeScript"
     ],
     "coverImage": "/portfolio/projects/my-3d-platformer/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/my-3d-platformer/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -8951,7 +9353,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.354Z"
+      "lastScannedAt": "2026-06-25T10:23:46.938Z"
     },
     "content": {
       "zh-TW": {
@@ -9019,7 +9421,17 @@
       "Python"
     ],
     "coverImage": "/portfolio/projects/news-web-crawler/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/news-web-crawler/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -9097,7 +9509,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.354Z"
+      "lastScannedAt": "2026-06-25T10:23:46.938Z"
     },
     "content": {
       "zh-TW": {
@@ -9165,7 +9577,17 @@
     "featured": false,
     "technologies": [],
     "coverImage": "/portfolio/projects/openclaw-multimodal-stack/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/openclaw-multimodal-stack/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -9239,7 +9661,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.938Z"
     },
     "content": {
       "zh-TW": {
@@ -9311,7 +9733,17 @@
       "Phaser"
     ],
     "coverImage": "/portfolio/projects/platformer-game/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/platformer-game/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -9389,7 +9821,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -9459,7 +9891,17 @@
     "featured": false,
     "technologies": [],
     "coverImage": "/portfolio/projects/playwright-demo/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/playwright-demo/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-25",
@@ -9533,7 +9975,7 @@
         "content/projects/playwright-demo/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -9615,6 +10057,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/poker-ai-arena/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -9702,7 +10153,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -9782,6 +10233,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/poker-ai-web/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -9861,7 +10321,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -9944,6 +10404,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/polly-rpg-game/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -10033,7 +10502,7 @@
         "content/projects/polly-rpg-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -10118,6 +10587,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/prism-runner-3d/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -10207,7 +10685,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -10288,6 +10766,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/procedural-3d-maze/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -10367,7 +10854,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -10450,6 +10937,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/procedural-dungeon-crawler/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -10539,7 +11035,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -10621,6 +11117,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/projectmind/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -10703,7 +11208,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -10788,6 +11293,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/r3f-rpg-builder/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -10877,7 +11391,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -11139,7 +11653,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.355Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -11220,6 +11734,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/restoreAI-studio/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -11301,7 +11824,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -11386,6 +11909,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/retailpulse-bi-recommender/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       },
       {
         "kind": "video",
@@ -11632,7 +12164,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.939Z"
     },
     "content": {
       "zh-TW": {
@@ -11713,6 +12245,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/rigview3d/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -11794,7 +12335,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -11862,7 +12403,17 @@
     "featured": false,
     "technologies": [],
     "coverImage": "/portfolio/projects/rocm-image-video-stack/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/rocm-image-video-stack/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -11936,7 +12487,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -12019,6 +12570,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/sailing-adventure/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -12108,7 +12668,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -12186,6 +12746,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/school-library-lms/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -12261,7 +12830,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -12331,7 +12900,17 @@
     "featured": false,
     "technologies": [],
     "coverImage": "/portfolio/projects/scrapers/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/scrapers/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
@@ -12405,7 +12984,7 @@
         "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -12484,6 +13063,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/sd-multimodal-platform/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -12565,7 +13153,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -12651,6 +13239,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/signal-diver-3d/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -12742,7 +13339,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -12819,7 +13416,17 @@
       "TypeScript"
     ],
     "coverImage": "/portfolio/projects/soccer-player-rpg/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/soccer-player-rpg/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-06-19",
@@ -12907,7 +13514,7 @@
         "content/projects/soccer-player-rpg/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -12990,6 +13597,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/sonic-inspired-3d/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -13079,7 +13695,7 @@
         "content/projects/sonic-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -13157,6 +13773,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/starforge-AI-narrative/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -13232,7 +13857,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -13318,6 +13943,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/super-wings-rpg-game/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -13409,7 +14043,7 @@
         "content/projects/super-wings-rpg-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -13495,6 +14129,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/the-archive-that-watches-you/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -13586,7 +14229,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.356Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -13653,7 +14296,17 @@
       "TypeScript"
     ],
     "coverImage": "/portfolio/projects/the-classrooms/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/the-classrooms/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -13733,7 +14386,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -13811,6 +14464,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/threejs-product-viewer/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -13890,7 +14552,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.940Z"
     },
     "content": {
       "zh-TW": {
@@ -13968,6 +14630,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/traffic-pulse/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -14043,7 +14714,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.941Z"
     },
     "content": {
       "zh-TW": {
@@ -14124,6 +14795,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/tripscore/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -14205,7 +14885,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.941Z"
     },
     "content": {
       "zh-TW": {
@@ -14277,7 +14957,17 @@
       "Python"
     ],
     "coverImage": "/portfolio/projects/urban-analytics-core/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/urban-analytics-core/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -14355,7 +15045,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.941Z"
     },
     "content": {
       "zh-TW": {
@@ -14431,6 +15121,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/vanilla-dom-playground/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -14506,7 +15205,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.941Z"
     },
     "content": {
       "zh-TW": {
@@ -14578,7 +15277,17 @@
       "Python"
     ],
     "coverImage": "/portfolio/projects/video-family-lora-hub/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/video-family-lora-hub/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-03-02",
@@ -14656,7 +15365,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.941Z"
     },
     "content": {
       "zh-TW": {
@@ -14726,7 +15435,17 @@
     "featured": false,
     "technologies": [],
     "coverImage": "/portfolio/projects/video-gen/cover.webp",
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/video-gen/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-20",
@@ -14800,7 +15519,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.941Z"
     },
     "content": {
       "zh-TW": {
@@ -14879,6 +15598,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/vision-quest/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -14960,7 +15688,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.941Z"
     },
     "content": {
       "zh-TW": {
@@ -15039,6 +15767,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/YouTube-Web-Automation-Analysis/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -15120,7 +15857,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.941Z"
     },
     "content": {
       "zh-TW": {
@@ -15198,6 +15935,15 @@
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
         }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/ytp-factory/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
       }
     ],
     "media": [],
@@ -15277,7 +16023,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T07:04:14.357Z"
+      "lastScannedAt": "2026-06-25T10:23:46.941Z"
     },
     "content": {
       "zh-TW": {
