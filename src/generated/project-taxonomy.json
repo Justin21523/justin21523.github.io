@@ -26,6 +26,8 @@
     "CMake",
     "CSS",
     "Dapper",
+    "Docker",
+    "DuckDB",
     "Entity Framework Core",
     "Excel",
     "FastAPI",
@@ -158,6 +160,7 @@
     "Python Data Analyst",
     "System architect",
     "Workflow System Designer",
+    "獨立開發者 / 全端資料產品實作者",
     "獨立開發者 / 學習型專案實作者"
   ]
 }

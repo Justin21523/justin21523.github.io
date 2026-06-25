@@ -2035,5 +2035,31 @@
     "needsManualReview": true,
     "suitability": "Prototype",
     "confidence": 0.8
+  },
+  {
+    "name": "RetailPulse BI Recommender",
+    "folder": "retailpulse-bi-recommender",
+    "path": "/projects/retailpulse-bi-recommender",
+    "type": "Web/Data Application",
+    "hasReadme": true,
+    "readmeContent": "# RetailPulse BI Recommender\n\nRetail BI and recommendation platform with FastAPI, Next.js, DuckDB, forecasting, customer analytics, basket analysis, recommendations, ML insights, A/B testing, Playwright screenshots, and deployment notes.",
+    "detectedStack": [
+      "Next.js",
+      "FastAPI",
+      "DuckDB",
+      "Python",
+      "Playwright",
+      "Docker"
+    ],
+    "lastUpdate": "2026-06-25T07:03:30.957Z",
+    "gitRemote": "https://github.com/Justin21523/retailpulse-bi-recommender.git",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "docs: surface Playwright media evidence",
+    "canBuild": true,
+    "canRun": true,
+    "hasMedia": true,
+    "needsManualReview": false,
+    "suitability": "Portfolio Ready",
+    "confidence": 0.96
   }
 ]
