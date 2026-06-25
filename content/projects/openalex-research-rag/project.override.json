@@ -1,0 +1,164 @@
+{
+  "visibility": "public",
+  "featured": true,
+  "category": "ai-data",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "DuckDB",
+    "ChromaDB",
+    "BM25",
+    "sentence-transformers",
+    "RAG",
+    "llama.cpp",
+    "Recharts",
+    "Playwright"
+  ],
+  "coverImage": "/portfolio/projects/openalex-research-rag/cover.png",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/openalex-research-rag",
+      "label": { "zh-TW": "查看 GitHub", "en": "View GitHub" }
+    },
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/projects/openalex-research-rag",
+      "label": { "zh-TW": "線上展示", "en": "Live Demo" },
+      "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
+      "label": { "zh-TW": "Demo 錄影", "en": "Demo Recording" }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/openalex-research-rag#-demo-video",
+      "label": { "zh-TW": "README Demo 說明", "en": "README Demo Guide" }
+    }
+  ],
+  "media": [
+    {
+      "id": "openalex-demo-video",
+      "type": "video",
+      "src": "/portfolio/projects/openalex-research-rag/demo/openalex-demo.mp4",
+      "poster": "/portfolio/projects/openalex-research-rag/cover.png",
+      "alt": {
+        "zh-TW": "OpenAlex 研究智能平台完整操作錄影。",
+        "en": "Full walkthrough recording of the OpenAlex Research Intelligence platform."
+      },
+      "title": {
+        "zh-TW": "完整平台 Demo 錄影",
+        "en": "Full Platform Demo Recording"
+      },
+      "caption": {
+        "zh-TW": "展示導覽小幫手、混合搜尋、引用接地 RAG、資料旅程、主題分析、引用網路與中英文切換。",
+        "en": "Shows the guided tour, hybrid search, citation-grounded RAG, the Data Story journey, topic analytics, citation network, and zh/en toggle."
+      },
+      "featured": true
+    },
+    {
+      "id": "tour-welcome",
+      "type": "image",
+      "src": "/portfolio/projects/openalex-research-rag/screenshots/01-tour-welcome.png",
+      "alt": { "zh-TW": "自動觸發的導覽小幫手歡迎卡。", "en": "The auto-triggered guided tour welcome card." },
+      "title": { "zh-TW": "導覽小幫手", "en": "Guided Tour" }
+    },
+    {
+      "id": "search-results",
+      "type": "image",
+      "src": "/portfolio/projects/openalex-research-rag/screenshots/11-search-results.png",
+      "alt": { "zh-TW": "混合搜尋結果與 facet 篩選。", "en": "Hybrid search results with facet filters." },
+      "title": { "zh-TW": "混合搜尋", "en": "Hybrid Search" }
+    },
+    {
+      "id": "rag-answer",
+      "type": "image",
+      "src": "/portfolio/projects/openalex-research-rag/screenshots/16-rag-answer.png",
+      "alt": { "zh-TW": "引用接地的 RAG 答案，每個論點都可點回來源。", "en": "Citation-grounded RAG answer with clickable sources." },
+      "title": { "zh-TW": "RAG 引用接地問答", "en": "Citation-grounded RAG" }
+    },
+    {
+      "id": "data-story",
+      "type": "image",
+      "src": "/portfolio/projects/openalex-research-rag/screenshots/52-data-story-journey.png",
+      "alt": { "zh-TW": "資料旅程：查詢走過 7 個 pipeline 階段。", "en": "Data Story: a query traveling through 7 pipeline stages." },
+      "title": { "zh-TW": "資料旅程", "en": "Data Story" }
+    },
+    {
+      "id": "topics-network",
+      "type": "image",
+      "src": "/portfolio/projects/openalex-research-rag/screenshots/48-topics-network.png",
+      "alt": { "zh-TW": "概念共現網路。", "en": "Concept co-occurrence network." },
+      "title": { "zh-TW": "概念網路", "en": "Concept Network" }
+    },
+    {
+      "id": "topics-cluster",
+      "type": "image",
+      "src": "/portfolio/projects/openalex-research-rag/screenshots/50-topics-cluster.png",
+      "alt": { "zh-TW": "論文的 UMAP 語意聚類。", "en": "UMAP semantic cluster of papers." },
+      "title": { "zh-TW": "論文聚類 (UMAP)", "en": "Paper Cluster (UMAP)" }
+    },
+    {
+      "id": "citation-graph",
+      "type": "image",
+      "src": "/portfolio/projects/openalex-research-rag/screenshots/30-citation-graph.png",
+      "alt": { "zh-TW": "可點擊探索的引用網路。", "en": "Clickable citation graph explorer." },
+      "title": { "zh-TW": "引用網路", "en": "Citation Graph" }
+    },
+    {
+      "id": "i18n-english",
+      "type": "image",
+      "src": "/portfolio/projects/openalex-research-rag/screenshots/47-i18n-english-dashboard.png",
+      "alt": { "zh-TW": "一鍵切換的英文介面。", "en": "One-click English interface." },
+      "title": { "zh-TW": "英文介面", "en": "English UI" }
+    }
+  ],
+  "metadata": {
+    "startedAt": "2026-06-20",
+    "updatedAt": "2026-06-25",
+    "completedAt": "2026-06-25",
+    "teamSize": 1,
+    "domains": [
+      "Information Retrieval",
+      "Retrieval-Augmented Generation",
+      "Scholarly Analytics",
+      "Bibliometrics"
+    ],
+    "keywords": [
+      "Hybrid Search",
+      "BM25",
+      "Dense Retrieval",
+      "Reciprocal Rank Fusion",
+      "RAG",
+      "Citation Grounding",
+      "Vector Database",
+      "OpenAlex",
+      "UMAP",
+      "i18n"
+    ],
+    "languages": ["Python", "JavaScript", "TypeScript"],
+    "frameworks": ["FastAPI", "React", "Vite", "Tailwind CSS"],
+    "libraries": ["rank_bm25", "sentence-transformers", "ChromaDB", "DuckDB", "Recharts", "framer-motion", "Playwright"],
+    "database": ["DuckDB", "ChromaDB"],
+    "testing": ["Playwright", "UI screenshots and recording"],
+    "deployment": ["Static frontend on dothost", "FastAPI backend", "reverse SSH tunnel to local llama.cpp"],
+    "skillsDemonstrated": [
+      "Hybrid retrieval and RRF",
+      "Citation-grounded RAG",
+      "Vector search and embeddings",
+      "Data visualization",
+      "Full i18n",
+      "Automated UI verification"
+    ],
+    "hasE2ETests": true,
+    "responsive": true,
+    "needsReview": false
+  }
+}
