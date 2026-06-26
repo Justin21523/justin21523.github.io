@@ -399,7 +399,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.879Z"
+      "lastScannedAt": "2026-06-26T14:12:09.570Z"
     },
     "content": {
       "zh-TW": {
@@ -673,7 +673,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.882Z"
+      "lastScannedAt": "2026-06-26T14:12:09.573Z"
     },
     "content": {
       "zh-TW": {
@@ -931,7 +931,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.882Z"
+      "lastScannedAt": "2026-06-26T14:12:09.573Z"
     },
     "content": {
       "zh-TW": {
@@ -1331,7 +1331,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.883Z"
+      "lastScannedAt": "2026-06-26T14:12:09.575Z"
     },
     "content": {
       "zh-TW": {
@@ -1737,7 +1737,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.884Z"
+      "lastScannedAt": "2026-06-26T14:12:09.575Z"
     },
     "content": {
       "zh-TW": {
@@ -2525,7 +2525,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.884Z"
+      "lastScannedAt": "2026-06-26T14:12:09.576Z"
     },
     "content": {
       "zh-TW": {
@@ -2855,7 +2855,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.885Z"
+      "lastScannedAt": "2026-06-26T14:12:09.576Z"
     },
     "content": {
       "zh-TW": {
@@ -3142,7 +3142,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.885Z"
+      "lastScannedAt": "2026-06-26T14:12:09.577Z"
     },
     "content": {
       "zh-TW": {
@@ -3350,7 +3350,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.886Z"
+      "lastScannedAt": "2026-06-26T14:12:09.577Z"
     },
     "content": {
       "zh-TW": {
@@ -3395,6 +3395,229 @@
         ],
         "nextSteps": [
           "Add screenshots, demo material, and a complete case study."
+        ]
+      }
+    }
+  },
+  {
+    "id": "project-news-web-crawler-pf-2026-is-006",
+    "slug": "news-web-crawler",
+    "category": "information-system",
+    "status": "prototype",
+    "year": 2026,
+    "featured": false,
+    "technologies": [
+      "Python"
+    ],
+    "coverImage": "/portfolio/projects/news-web-crawler/cover.png",
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/news-web-crawler/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "video",
+        "url": "https://neojustin.dothost.net/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "guided-tour-video",
+        "type": "video",
+        "src": "/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+        "poster": "/portfolio/projects/news-web-crawler/cover.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 分析平台導覽錄影。",
+          "en": "Guided walkthrough recording of the News Web Crawler analytics platform."
+        },
+        "title": {
+          "zh-TW": "平台導覽錄影",
+          "en": "Platform Walkthrough"
+        },
+        "caption": {
+          "zh-TW": "展示新聞資料匯入、處理旅程、文字探勘、分析圖表與報表頁面。",
+          "en": "Shows data import, the processing journey, text mining, analytics charts, and reports."
+        },
+        "featured": true
+      },
+      {
+        "id": "pipeline-journey",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/01-pipeline-journey.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 的資料處理旅程頁面。",
+          "en": "The data processing journey page in News Web Crawler."
+        },
+        "title": {
+          "zh-TW": "資料處理旅程",
+          "en": "Pipeline Journey"
+        }
+      },
+      {
+        "id": "text-mining",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/02-text-mining.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 的文字探勘分析頁面。",
+          "en": "The text mining analytics page in News Web Crawler."
+        },
+        "title": {
+          "zh-TW": "文字探勘",
+          "en": "Text Mining"
+        }
+      },
+      {
+        "id": "analysis-dashboard",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/03-analysis-dashboard.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 的新聞分析儀表板。",
+          "en": "The news analytics dashboard in News Web Crawler."
+        },
+        "title": {
+          "zh-TW": "分析儀表板",
+          "en": "Analytics Dashboard"
+        }
+      }
+    ],
+    "metadata": {
+      "startedAt": "2026-06-26",
+      "updatedAt": "2026-06-26",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-IS-006",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "information-system",
+      "secondaryCategories": [],
+      "projectType": "Python",
+      "domains": [],
+      "subjects": [],
+      "controlledTerms": [
+        "Python"
+      ],
+      "keywords": [],
+      "audiences": [],
+      "contentTypes": [],
+      "dataTypes": [],
+      "platforms": [
+        "Web"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "stateManagement": [],
+      "styling": [],
+      "database": [],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [],
+      "developmentTools": [],
+      "roles": [
+        "獨立開發者 / 學習型專案實作者"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "Python"
+      ],
+      "capabilities": [],
+      "tools": [],
+      "hasUnitTests": false,
+      "hasIntegrationTests": false,
+      "hasE2ETests": false,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.8,
+      "needsReview": true,
+      "missingFields": [],
+      "evidenceSources": [
+        "content/projects/news-web-crawler/project.override.json",
+        "content/projects/news-web-crawler/zh-TW.md",
+        "content/projects/news-web-crawler/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-26T14:12:09.577Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "News Web Crawler",
+        "summary": "News Web Crawler 是一個以 Python 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。",
+        "description": "News Web Crawler 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。\n\n從掃描資料來看，這個專案的主要技術線索包含 Python。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。\n\n這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。 我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。\n\n後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。",
+        "tagline": "資料處理、AI、分析或自動化流程練習專案。",
+        "role": "獨立開發者 / 學習型專案實作者",
+        "problem": "這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。",
+        "solution": "我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。",
+        "outcome": "目前適合作為資料整理、分析、自動化或 AI 應用流程的學習型作品。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "使用或涉及 Python。",
+          "以作品集練習為目標，整理功能、資料與介面流程。",
+          "目前內容採保守描述，避免把學習專案包裝成正式產品。"
+        ],
+        "challenges": [
+          "需要從 README 與原始碼中整理出可信、可展示的專案範圍。",
+          "需要把技術名詞轉換成清楚的功能、資料流與學習成果。",
+          "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
+        ],
+        "nextSteps": [
+          "補齊更完整的中英文案例研究與操作截圖。",
+          "確認 GitHub、Demo、文件與素材是否適合公開展示。",
+          "依完成度補強測試、README 與部署或執行說明。"
+        ]
+      },
+      "en": {
+        "title": "News Web Crawler",
+        "summary": "News Web Crawler is a learning-focused project with detected technology signals including Python. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts.",
+        "description": "News Web Crawler is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.\n\nThe scanned project data points to Python. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.\n\nThis project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.\n\nNext, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.",
+        "tagline": "A data processing, AI, analysis, or automation workflow practice project.",
+        "role": "Independent Developer / Learning Project Builder",
+        "problem": "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output.",
+        "solution": "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus.",
+        "outcome": "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "Uses or involves Python.",
+          "Organizes features, data, and interface flow as a portfolio practice project.",
+          "Uses conservative wording so the project is not presented as a finished production product."
+        ],
+        "challenges": [
+          "The project scope needs to be summarized from README content and source evidence in a credible way.",
+          "Technical terms need to be translated into clear features, data flow, and learning outcomes.",
+          "More screenshots, test notes, or operation details can still improve the case study."
+        ],
+        "nextSteps": [
+          "Complete a more detailed bilingual case study and add operation screenshots.",
+          "Verify which GitHub, demo, documentation, and media assets should be public.",
+          "Improve tests, README details, and deployment or run instructions based on actual completion level."
         ]
       }
     }
@@ -3619,7 +3842,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.886Z"
+      "lastScannedAt": "2026-06-26T14:12:09.578Z"
     },
     "content": {
       "zh-TW": {
@@ -3985,7 +4208,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.886Z"
+      "lastScannedAt": "2026-06-26T14:12:09.578Z"
     },
     "content": {
       "zh-TW": {
@@ -4051,7 +4274,7 @@
     }
   },
   {
-    "id": "project-research-paper-and-knowledge-workspace-pf-2026-is-006",
+    "id": "project-research-paper-and-knowledge-workspace-pf-2026-is-007",
     "slug": "research-paper-and-knowledge-workspace",
     "category": "information-system",
     "status": "in-progress",
@@ -4102,7 +4325,7 @@
       "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-006",
+      "catalogNumber": "PF-2026-IS-007",
       "visibility": "public",
       "aliases": [
         "Research Paper Workspace",
@@ -4251,7 +4474,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.887Z"
+      "lastScannedAt": "2026-06-26T14:12:09.579Z"
     },
     "content": {
       "zh-TW": {
@@ -4591,7 +4814,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T13:48:48.887Z"
+      "lastScannedAt": "2026-06-26T14:12:09.579Z"
     },
     "content": {
       "zh-TW": {
