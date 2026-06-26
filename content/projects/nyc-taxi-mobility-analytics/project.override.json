@@ -22,7 +22,7 @@
     },
     {
       "kind": "live",
-      "url": "https://neojustin.dothost.net/p/nyc-taxi-mobility-analytics/",
+      "url": "https://neojustin.dothost.net/p/nyc-taxi-mobility-analytics",
       "label": {
         "zh-TW": "線上展示",
         "en": "Live Demo"
@@ -123,10 +123,29 @@
   "metadata": {
     "needsReview": false,
     "missingFields": [],
-    "platforms": ["Web"],
-    "domains": ["Data Engineering", "Mobility Analytics", "Business Intelligence"],
-    "keywords": ["NYC TLC", "DuckDB", "Parquet", "Forecasting", "GeoJSON"],
-    "audiences": ["Data Engineering Interviewers", "Analytics Engineering Teams"],
-    "dataTypes": ["Parquet", "Geospatial", "Time Series"]
+    "platforms": [
+      "Web"
+    ],
+    "domains": [
+      "Data Engineering",
+      "Mobility Analytics",
+      "Business Intelligence"
+    ],
+    "keywords": [
+      "NYC TLC",
+      "DuckDB",
+      "Parquet",
+      "Forecasting",
+      "GeoJSON"
+    ],
+    "audiences": [
+      "Data Engineering Interviewers",
+      "Analytics Engineering Teams"
+    ],
+    "dataTypes": [
+      "Parquet",
+      "Geospatial",
+      "Time Series"
+    ]
   }
 }
