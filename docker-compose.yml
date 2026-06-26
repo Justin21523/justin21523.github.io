@@ -6,13 +6,47 @@ services:
     ports:
       - "3000:80"
     depends_on:
+      - agentic-bi-dataops-copilot
+      - agentic-bi-dataops-copilot-api
       - information-retrieval
       - fandom-gui-scraper
       - nyc-taxi-mobility-analytics
       - amazon-review-intelligence
       - amazon-review-intelligence-api
+      - dcard-trending-crawler
+      - dcard-trending-crawler-api
+      - excel-python-data-analysis
+      - ir-rag-evaluation-lab
+      - ir-rag-evaluation-lab-api
       - lyrics-cultural-analytics-lab-frontend
       - lyrics-cultural-analytics-lab-backend
+      - music-intelligence-platform
+      - music-intelligence-platform-api
+      - openalex-research-rag
+      - openalex-research-rag-api
+      - retailpulse-bi-recommender
+      - retailpulse-bi-recommender-api
+    restart: unless-stopped
+
+  agentic-bi-dataops-copilot-api:
+    build:
+      context: ../agentic-bi-dataops-copilot
+      dockerfile: Dockerfile
+    image: justin-portfolio-agentic-bi-dataops-copilot-api
+    environment:
+      PYTHONPATH: /app/src
+      DUCKDB_PATH: data/warehouse.duckdb
+    volumes:
+      - ../agentic-bi-dataops-copilot/data:/app/data
+    restart: unless-stopped
+
+  agentic-bi-dataops-copilot:
+    build:
+      context: ../agentic-bi-dataops-copilot/frontend
+      dockerfile: Dockerfile.frontend
+    image: justin-portfolio-agentic-bi-dataops-copilot
+    depends_on:
+      - agentic-bi-dataops-copilot-api
     restart: unless-stopped
 
   information-retrieval:
@@ -51,7 +85,7 @@ services:
 
   nyc-taxi-mobility-analytics:
     build:
-      context: ../nyc-taxi-mobility-analytics_live
+      context: ../nyc-taxi-mobility-analytics
       args:
         NEXT_PUBLIC_BASE_PATH: "/p/nyc-taxi-mobility-analytics"
     image: justin-portfolio-nyc-taxi-mobility-analytics
@@ -94,6 +128,56 @@ services:
       - amazon-review-intelligence-api
     restart: unless-stopped
 
+  dcard-trending-crawler-api:
+    build:
+      context: ../dcard-trending-crawler
+      dockerfile: Dockerfile.api
+    image: justin-portfolio-dcard-trending-crawler-api
+    volumes:
+      - ../dcard-trending-crawler/data:/app/data
+      - ../dcard-trending-crawler/logs:/app/logs
+    restart: unless-stopped
+
+  dcard-trending-crawler:
+    build:
+      context: ../dcard-trending-crawler/frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_APP_BASE_PATH: /p/dcard-trending-crawler/
+        VITE_API_BASE_URL: /p/dcard-trending-crawler/api
+    image: justin-portfolio-dcard-trending-crawler
+    depends_on:
+      - dcard-trending-crawler-api
+    restart: unless-stopped
+
+  excel-python-data-analysis:
+    build:
+      context: ../excel-python-data-analysis
+      dockerfile: Dockerfile
+    image: justin-portfolio-excel-python-data-analysis
+    command: streamlit run app/streamlit_app.py --server.port=8501 --server.address=0.0.0.0 --server.headless=true --server.baseUrlPath=projects/excel-python-data-analysis --server.enableCORS=false --server.enableXsrfProtection=false
+    restart: unless-stopped
+
+  ir-rag-evaluation-lab-api:
+    image: python:3.12-slim
+    working_dir: /app
+    volumes:
+      - ../ir-rag-evaluation-lab:/app
+    command: sh -c "pip install -e 'backend[dev]' && uvicorn ir_rag_eval.api.main:app --app-dir backend/src --host 0.0.0.0 --port 8000"
+    restart: unless-stopped
+
+  ir-rag-evaluation-lab:
+    build:
+      context: ../ir-rag-evaluation-lab/frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_BASE_PATH: /projects/ir-rag-evaluation-lab/
+        VITE_API_BASE_URL: /projects/ir-rag-evaluation-lab/api/v1
+    image: justin-portfolio-ir-rag-evaluation-lab
+    depends_on:
+      - ir-rag-evaluation-lab-api
+    restart: unless-stopped
+
   lyrics-cultural-analytics-lab-backend:
     image: python:3.12-slim
     working_dir: /app
@@ -114,6 +198,83 @@ services:
     image: justin-portfolio-lyrics-cultural-analytics-lab-frontend
     depends_on:
       - lyrics-cultural-analytics-lab-backend
+    restart: unless-stopped
+
+  music-intelligence-platform-api:
+    build:
+      context: ../music-intelligence-platform
+      dockerfile: Dockerfile
+    image: justin-portfolio-music-intelligence-platform-api
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+    environment:
+      DUCKDB_PATH: /app/data/warehouse.duckdb
+      LOG_LEVEL: INFO
+    volumes:
+      - ../music-intelligence-platform/data:/app/data
+    restart: unless-stopped
+
+  music-intelligence-platform:
+    build:
+      context: ../music-intelligence-platform
+      dockerfile: Dockerfile.portfolio
+    image: justin-portfolio-music-intelligence-platform
+    depends_on:
+      - music-intelligence-platform-api
+    restart: unless-stopped
+
+  openalex-research-rag-api:
+    build:
+      context: ../openalex-research-rag
+      dockerfile: Dockerfile
+    image: justin-portfolio-openalex-research-rag-api
+    command: uv run uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+    environment:
+      PYTHONPATH: /app
+      HF_HOME: /app/.cache/huggingface
+    volumes:
+      - ../openalex-research-rag/data:/app/data
+      - ../openalex-research-rag/.cache:/app/.cache
+    restart: unless-stopped
+
+  openalex-research-rag:
+    build:
+      context: ../openalex-research-rag
+      dockerfile: Dockerfile
+    image: justin-portfolio-openalex-research-rag
+    command: uv run streamlit run src/app/streamlit_app.py --server.port=8501 --server.address=0.0.0.0 --server.headless=true --server.baseUrlPath=projects/openalex-research-rag --server.enableCORS=false --server.enableXsrfProtection=false
+    environment:
+      PYTHONPATH: /app
+      HF_HOME: /app/.cache/huggingface
+      API_BASE_URL: http://openalex-research-rag-api:8000
+    volumes:
+      - ../openalex-research-rag/data:/app/data
+      - ../openalex-research-rag/.cache:/app/.cache
+    depends_on:
+      - openalex-research-rag-api
+    restart: unless-stopped
+
+  retailpulse-bi-recommender-api:
+    build:
+      context: ../retailpulse-bi-recommender
+      dockerfile: Dockerfile
+    image: justin-portfolio-retailpulse-bi-recommender-api
+    environment:
+      PYTHONPATH: /app/src
+    volumes:
+      - ../retailpulse-bi-recommender/data:/app/data
+    restart: unless-stopped
+
+  retailpulse-bi-recommender:
+    build:
+      context: ../retailpulse-bi-recommender/frontend
+      dockerfile: Dockerfile
+    image: justin-portfolio-retailpulse-bi-recommender
+    environment:
+      NEXT_PUBLIC_API_URL: http://retailpulse-bi-recommender-api:8000
+      NEXT_PUBLIC_BASE_PATH: /p/retailpulse-bi-recommender
+      NEXT_TELEMETRY_DISABLED: "1"
+    depends_on:
+      - retailpulse-bi-recommender-api
     restart: unless-stopped
 
 volumes:
