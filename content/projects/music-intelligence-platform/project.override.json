@@ -1,0 +1,83 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "information-system",
+  "status": "prototype",
+  "year": 2026,
+  "technologies": [
+    "Python"
+  ],
+  "coverImage": "/portfolio/projects/music-intelligence-platform/cover.png",
+  "media": [
+    {
+      "id": "home-dashboard",
+      "type": "image",
+      "src": "/portfolio/projects/music-intelligence-platform/cover.png",
+      "alt": {
+        "zh-TW": "Music Intelligence Platform 首頁，呈現音樂資料分析與推薦系統入口",
+        "en": "Music Intelligence Platform home screen showing the music analytics and recommendation entry point"
+      },
+      "title": {
+        "zh-TW": "平台首頁",
+        "en": "Platform home"
+      },
+      "caption": {
+        "zh-TW": "音樂知識檢索、推薦與分析平台的主畫面。",
+        "en": "Main screen for the music knowledge search, recommendation, and analytics platform."
+      },
+      "featured": true
+    },
+    {
+      "id": "search-results",
+      "type": "image",
+      "src": "/portfolio/projects/music-intelligence-platform/page-search-results.png",
+      "alt": {
+        "zh-TW": "Music Intelligence Platform 搜尋結果頁，展示歌曲檢索與排序結果",
+        "en": "Music Intelligence Platform search results page showing track retrieval and ranking results"
+      },
+      "title": {
+        "zh-TW": "搜尋結果",
+        "en": "Search results"
+      },
+      "caption": {
+        "zh-TW": "BM25、向量檢索與 hybrid ranking 的搜尋體驗。",
+        "en": "Search experience for BM25, vector retrieval, and hybrid ranking."
+      }
+    },
+    {
+      "id": "recommendations",
+      "type": "image",
+      "src": "/portfolio/projects/music-intelligence-platform/page-recommend.png",
+      "alt": {
+        "zh-TW": "Music Intelligence Platform 推薦頁，展示歌曲推薦與解釋資訊",
+        "en": "Music Intelligence Platform recommendation page showing recommended tracks and explanation signals"
+      },
+      "title": {
+        "zh-TW": "推薦系統",
+        "en": "Recommendation system"
+      },
+      "caption": {
+        "zh-TW": "以音訊特徵、標籤與使用者訊號支援推薦結果。",
+        "en": "Recommendations supported by audio features, tags, and user signals."
+      }
+    }
+  ],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/music-intelligence-platform",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    }
+  ],
+  "metadata": {
+    "needsReview": true,
+    "missingFields": [
+      "reviewed zh-TW case study",
+      "reviewed English case study",
+      "verified public links"
+    ]
+  }
+}
