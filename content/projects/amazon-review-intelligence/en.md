@@ -1,22 +1,23 @@
 ---
 title: "Amazon Review Intelligence"
-tagline: "> Amazon Review Intelligence 是一個以評論為核心的商品搜尋與推薦資料產品。它結合 Amazon Reviews 2023 categ..."
-summary: "> Amazon Review Intelligence 是一個以評論為核心的商品搜尋與推薦資料產品。它結合 Amazon Reviews 2023 category subset、BM25、vector search、reranker、review summarization、sentiment / aspect m..."
+tagline: "A review-centered product search and recommendation data product."
+summary: "Amazon Review Intelligence combines Amazon Reviews 2023 data, BM25, vector search, reranking, review summarization, sentiment and aspect analysis, similar-product search, recommendation APIs, and a dashboard experience."
 role: "Independent Developer"
-problem: "This field needs review against the README and source code."
-solution: "This field needs a reviewed architecture summary based on Python."
+problem: "Product pages contain many reviews, but shoppers cannot easily turn raw review volume into clear tradeoffs, sentiment patterns, comparable products, or recommendation signals."
+solution: "Built a review-centered data product with DuckDB for product and review data, FastAPI for search and recommendation endpoints, and a Next.js dashboard for hybrid search, product summaries, sentiment analytics, recommendations, and evaluation views."
 highlights:
   - "**Hybrid Search** — BM25 lexical + sentence-transformer vector search with configurable alpha blending"
   - "**Review Intelligence** — per-product summaries, pros/cons extraction, sentiment distribution"
   - "**Recommendation** — popularity, content-based, item-item, and cold-start strategies"
   - "**REST API** — FastAPI with 8 endpoints, OpenAPI docs at `/docs`"
 challenges:
-  - "Add verified engineering challenges."
+  - "Balanced BM25 keyword precision with sentence-transformer semantic recall through configurable hybrid ranking."
+  - "Kept the portfolio presentation public-safe by shipping code, docs, synthetic samples, screenshots, and aggregate metrics instead of redistributing raw Amazon review dumps."
 nextSteps:
-  - "Add screenshots, demo material, and a complete case study."
+  - "Add a public demo link and a fuller walkthrough video."
 ---
-> Amazon Review Intelligence 是一個以評論為核心的商品搜尋與推薦資料產品。它結合 Amazon Reviews 2023 category subset、BM25、vector search、reranker、review summarization、sentiment / aspect mining、similar product search 與 recommendation API，目標是展示真實 AI product 會需要的搜尋、推薦、NLP、API、dashboard 與評估能力。
+Amazon Review Intelligence is a review-centered product search and recommendation data product. It combines Amazon Reviews 2023 category data, BM25, vector search, reranking, review summarization, sentiment and aspect mining, similar-product search, recommendation APIs, and a dashboard experience.
 
-A production-like data product built on 100,000 real Amazon Home & Kitchen reviews, demonstrating:
+The project turns review data into a searchable, comparable, and evaluable product experience. The backend uses Python, DuckDB, and FastAPI for data and API layers, while the frontend uses Next.js for product search, review summaries, recommendations, comparison, embedding clusters, pipeline visibility, and evaluation screens. It also includes pytest and Playwright coverage so data processing, API behavior, and main frontend workflows can be checked repeatedly.
 
-- Hybrid Search — BM25 lexical + sentence-transformer vector search with configurable alpha blending - Review Intelligence — per-product summaries, pros/cons extraction, sentiment distribution - Recommendation — popularity, content-based, item-item, and cold-start strategies - REST API — FastAPI with 8 endpoints, OpenAPI docs at /docs - Live Dashboar
+The portfolio card should communicate that this is not just a dashboard. It is a full data product exercise spanning ingestion, indexing, retrieval, recommendation, evaluation, and an operator-facing interface.

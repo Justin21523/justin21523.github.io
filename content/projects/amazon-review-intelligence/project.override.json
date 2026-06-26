@@ -1,20 +1,89 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
-  "category": "information-system",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
   "technologies": [
-    "Python"
+    "Python",
+    "FastAPI",
+    "Next.js",
+    "TypeScript",
+    "DuckDB",
+    "BM25",
+    "Sentence Transformers",
+    "scikit-learn",
+    "Playwright"
   ],
   "coverImage": "/portfolio/projects/amazon-review-intelligence/cover.webp",
   "links": [],
+  "media": [
+    {
+      "id": "amazon-review-intelligence-overview",
+      "type": "image",
+      "src": "/portfolio/projects/amazon-review-intelligence/cover.webp",
+      "alt": {
+        "zh-TW": "Amazon Review Intelligence 儀表板總覽畫面",
+        "en": "Amazon Review Intelligence dashboard overview"
+      },
+      "title": {
+        "zh-TW": "評論智慧儀表板",
+        "en": "Review intelligence dashboard"
+      },
+      "caption": {
+        "zh-TW": "以 Amazon 評論資料建立商品搜尋、推薦與分析介面。",
+        "en": "A product search, recommendation, and analytics interface built from Amazon review data."
+      },
+      "featured": true
+    }
+  ],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
+    "domains": [
+      "Product search",
+      "Recommendation systems",
+      "Review analytics",
+      "NLP"
+    ],
+    "capabilities": [
+      "Hybrid lexical and semantic search",
+      "Review summarization",
+      "Product recommendation",
+      "Sentiment and aspect analysis",
+      "Evaluation dashboard"
+    ],
+    "platforms": [
+      "Web",
+      "API"
+    ],
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "Next.js",
+      "React"
+    ],
+    "database": [
+      "DuckDB"
+    ],
+    "testing": [
+      "pytest",
+      "Playwright"
+    ],
+    "roles": [
+      "獨立開發者",
+      "Data product developer"
+    ],
+    "keywords": [
+      "Amazon Reviews 2023",
+      "BM25",
+      "vector search",
+      "reranking",
+      "recommendation"
+    ],
     "missingFields": [
-      "reviewed zh-TW case study",
-      "reviewed English case study",
-      "verified media assets",
       "verified public links"
     ]
   }
