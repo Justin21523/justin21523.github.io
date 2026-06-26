@@ -30,6 +30,10 @@ export type ProjectViewMode =
   | "list"
   | "catalog";
 
+const pinnedProjectSlugs = [
+  "openalex-research-rag",
+];
+
 export interface FacetOption {
   value: string;
   label: string;
@@ -552,6 +556,14 @@ function sortProjects(
   sort: ProjectSort,
   locale: PortfolioLocale
 ) {
+  const priorityDelta =
+    getPinnedProjectRank(a) -
+    getPinnedProjectRank(b);
+
+  if (priorityDelta !== 0) {
+    return priorityDelta;
+  }
+
   switch (sort) {
     case "newest":
       return new Date(b.metadata.updatedAt).getTime() - new Date(a.metadata.updatedAt).getTime();
@@ -564,6 +576,17 @@ function sortProjects(
       if (a.featured !== b.featured) return a.featured ? -1 : 1;
       return b.year - a.year;
   }
+}
+
+function getPinnedProjectRank(project: Project) {
+  const index =
+    pinnedProjectSlugs.indexOf(
+      project.slug
+    );
+
+  return index === -1
+    ? Number.POSITIVE_INFINITY
+    : index;
 }
 
 function parseCategories(values: string[]): ProjectCategory[] {

@@ -8,6 +8,7 @@ services:
     depends_on:
       - information-retrieval
       - fandom-gui-scraper
+      - nyc-taxi-mobility-analytics
     restart: unless-stopped
 
   information-retrieval:
@@ -42,6 +43,17 @@ services:
       FANDOM_DEMO_ROOT: "/app/sample_data"
       ENABLE_FILE_EXPORT: "true"
       DOWNLOAD_IMAGES: "false"
+    restart: unless-stopped
+
+  nyc-taxi-mobility-analytics:
+    build:
+      context: ../nyc-taxi-mobility-analytics_live
+      args:
+        NEXT_PUBLIC_BASE_PATH: "/p/nyc-taxi-mobility-analytics"
+    image: justin-portfolio-nyc-taxi-mobility-analytics
+    environment:
+      NEXT_PUBLIC_BASE_PATH: "/p/nyc-taxi-mobility-analytics"
+      NEXT_TELEMETRY_DISABLED: "1"
     restart: unless-stopped
 
 volumes:

@@ -143,10 +143,10 @@
     "detectedStack": [
       "Python"
     ],
-    "lastUpdate": "2026-06-24T21:21:01+08:00",
-    "gitRemote": "",
-    "gitBranch": "master",
-    "gitLastCommitMessage": "feat: replace Streamlit with Next.js analytics platform frontend",
+    "lastUpdate": "2026-06-25T05:01:51+08:00",
+    "gitRemote": "https://github.com/Justin21523/amazon-review-intelligence",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "test: add Playwright validation evidence",
     "canBuild": false,
     "canRun": false,
     "hasMedia": false,
@@ -368,6 +368,28 @@
     "confidence": 0.9
   },
   {
+    "name": "Dataagent Analyst",
+    "folder": "dataagent-analyst",
+    "path": "/home/justin/web-projects/dataagent-analyst",
+    "type": "Python",
+    "hasReadme": true,
+    "readmeContent": "# DataAgent Analyst\n\nAI Agent Data Analysis & Machine Learning Workbench.\n\nDataAgent Analyst is a portfolio-grade AI data analysis platform built with Python, FastAPI, pandas, scikit-learn, LangGraph, llama.cpp, and vanilla JavaScript.\n\nUsers can upload CSV datasets, explore data quality, generate EDA insights, train baseline machine learning models, compare model performance, and generate AI-assisted analysis reports.\n\n## Project Goals\n\n- Build a production-style Python AI application.\n- Practice FastAPI backend development.\n- Automate exploratory data analysis.\n- Train and evaluate baseline machine learning models.\n- Integrate local LLM explanations with llama.cpp.\n- Build an AI Agent workflow for data analysis automation.\n- Create an interactive vanilla JavaScript dashboard.\n- Present a",
+    "detectedStack": [
+      "Python",
+      "FastAPI"
+    ],
+    "lastUpdate": "2026-06-26T06:39:00+08:00",
+    "gitRemote": "",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "refactor: upgrade visualization lab with echarts",
+    "canBuild": false,
+    "canRun": false,
+    "hasMedia": false,
+    "needsManualReview": true,
+    "suitability": "Prototype",
+    "confidence": 0.8
+  },
+  {
     "name": "Datalab Studio",
     "folder": "datalab-studio",
     "path": "/home/justin/web-projects/datalab-studio",
@@ -400,10 +422,10 @@
     "detectedStack": [
       "Python"
     ],
-    "lastUpdate": "2026-06-24T23:08:48+08:00",
-    "gitRemote": "",
-    "gitBranch": "master",
-    "gitLastCommitMessage": "Add full bilingual UI and routed analytics details",
+    "lastUpdate": "2026-06-26T18:36:53+08:00",
+    "gitRemote": "https://github.com/Justin21523/posts-trending-crawler",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "Make portfolio verification demo-data first",
     "canBuild": false,
     "canRun": false,
     "hasMedia": false,
@@ -532,10 +554,10 @@
     "hasReadme": true,
     "readmeContent": "# 🎯 Fandom Scraper (Web + Worker + Optional Desktop GUI)\n\n[![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)\n[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)\n[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)]()\n[![Development Status](https://img.shields.io/badge/status-Feature%20Complete-brightgreen.svg)]()\n\nA job-based Fandom scraper with a web frontend connected to a backend API + worker (Scrapy + optional Playwright), plus an optional PyQt desktop GUI.\n\n![Web UI - Jobs](docs/images/screenshots/web_jobs.png)\n\n## 🌟 Key Features\n\n### 🧰 **Job-based Scraping (Docker-first)**\n- **API + Worker separation**: API only does `create job / status / stop`, scraping runs in a separ",
     "detectedStack": [],
-    "lastUpdate": "2026-01-21T21:14:36+08:00",
+    "lastUpdate": "2026-06-25T04:02:15+08:00",
     "gitRemote": "https://github.com/Justin21523/fandom-gui-scraper",
     "gitBranch": "main",
-    "gitLastCommitMessage": "feat: dockerized job-based web scraper with storage governance",
+    "gitLastCommitMessage": "Use slim Python image for app demo",
     "canBuild": false,
     "canRun": false,
     "hasMedia": false,
@@ -614,8 +636,8 @@
     "folder": "govcase-tracker",
     "path": "/home/justin/web-projects/govcase-tracker",
     "type": "Other",
-    "hasReadme": false,
-    "readmeContent": "",
+    "hasReadme": true,
+    "readmeContent": "# GovCase Tracker\n\nGovernment Case Tracking System built as an enterprise-style backend portfolio project.\n\nGovCase Tracker simulates a public-sector case intake and workflow platform. It includes citizen case submission, clerk intake, officer review, supplement requests, supervisor approval, public progress lookup, SLA tracking, notifications, audit logs, MyBatis reports, file attachments, Redis caching, MinIO object storage, a React dashboard, production-like Docker Compose, and GitHub Actions CI.\n\n## Highlights\n\n- Java 21 + Spring Boot backend with layered domain, service, repository, controller, DTO, and security boundaries.\n- PostgreSQL schema managed by Flyway migrations.\n- JWT authentication and role-based access control for citizen, clerk, officer, supervisor, admin, and auditor us",
     "detectedStack": [],
     "lastUpdate": "2026-06-24T17:09:36+08:00",
     "gitRemote": "",
@@ -626,7 +648,7 @@
     "hasMedia": false,
     "needsManualReview": true,
     "suitability": "Learning Exercise",
-    "confidence": 0.55
+    "confidence": 0.7
   },
   {
     "name": "HeritageMapStudio",
@@ -723,16 +745,35 @@
     "detectedStack": [
       "Python"
     ],
-    "lastUpdate": "2026-06-24T22:08:37+08:00",
+    "lastUpdate": "2026-06-25T02:54:29+08:00",
     "gitRemote": "https://github.com/Justin21523/news-information-retrieval-system",
     "gitBranch": "main",
-    "gitLastCommitMessage": "feat: add guided demo assistant",
+    "gitLastCommitMessage": "docs: normalize assistant screenshot viewport",
     "canBuild": false,
     "canRun": false,
     "hasMedia": false,
     "needsManualReview": true,
     "suitability": "Prototype",
     "confidence": 0.8
+  },
+  {
+    "name": "Ir Rag Evaluation Lab",
+    "folder": "ir-rag-evaluation-lab",
+    "path": "/home/justin/web-projects/ir-rag-evaluation-lab",
+    "type": "Other",
+    "hasReadme": true,
+    "readmeContent": "# IR / RAG Evaluation Lab\n\nIR / RAG Evaluation Lab 是一個資訊檢索與 RAG 評估工具箱。它提供 BM25、dense retrieval、hybrid search、cross-encoder reranker、query expansion、retrieval metrics、citation coverage、RAG faithfulness checklist 與 bad case analysis，用來證明我不只是會把 embedding 丟進 vector DB，而是真的懂搜尋評估。\n\n## Project Overview\n\nThis repository is a benchmark and evaluation lab, not a chatbot UI. It standardizes corpus/query formats, runs lexical and semantic retrieval baselines, computes IR metrics, checks RAG citations, and surfaces bad cases through a bilingual React dashboard.\nIt can optionally connect to a local llama.cpp OpenAI-compatible server for assistive evaluation signals such as bad case suggestions, query rewrites, claim faithfulness judgments, and experiment analyst notes.\n\n## Why BM25 Baseline Matters\n\nBM2",
+    "detectedStack": [],
+    "lastUpdate": "2026-06-25T22:25:47+08:00",
+    "gitRemote": "",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "docs: add evaluation guides and sample corpora",
+    "canBuild": false,
+    "canRun": false,
+    "hasMedia": false,
+    "needsManualReview": true,
+    "suitability": "Learning Exercise",
+    "confidence": 0.7
   },
   {
     "name": "Javascript Platformer Concepts",
@@ -842,6 +883,25 @@
     "confidence": 0.9
   },
   {
+    "name": "Lyrics Cultural Analytics Lab",
+    "folder": "lyrics-cultural-analytics-lab",
+    "path": "/home/justin/web-projects/lyrics-cultural-analytics-lab",
+    "type": "Other",
+    "hasReadme": true,
+    "readmeContent": "# Lyrics Cultural Analytics Lab\n\nLyrics Cultural Analytics Lab 是一個淺色模式的歌詞文化分析與機器學習解釋平台。它把 copyright-safe metadata、BoW features、TF-IDF、topic modeling、相似度、分類模型與視覺化報表整合成可追蹤 workflow，不公開完整歌詞，只使用 metadata、BoW features、模型輸出與聚合結果。\n\n## Project Overview\n\nThis monorepo is a runnable data product, not a notebook-only analysis. It provides a FastAPI backend, DuckDB feature store, scikit-learn analysis endpoints, evaluation scripts, and a bilingual React TypeScript dashboard.\n\n## UI Design System\n\nThe frontend follows a light professional analytics theme inspired by Geckoboard, Tableau, Urban Institute, and Berkeley data visualization guidance:\n\n- Color tokens live in `frontend/src/styles/tokens.css`.\n- Primary blue: `#1696D2`; dark heading/nav ink: `#0A4B69`; page background: `#F5F7FA`; panel backgrou",
+    "detectedStack": [],
+    "lastUpdate": "2026-06-25T20:20:26+08:00",
+    "gitRemote": "https://github.com/Justin21523/agentic-bi-dataops-copilot",
+    "gitBranch": "lyrics-cultural-analytics-lab",
+    "gitLastCommitMessage": "Auto-open guided assistant on entry",
+    "canBuild": false,
+    "canRun": false,
+    "hasMedia": false,
+    "needsManualReview": true,
+    "suitability": "Learning Exercise",
+    "confidence": 0.7
+  },
+  {
     "name": "MetaCleaner",
     "folder": "MetaCleaner",
     "path": "/home/justin/web-projects/MetaCleaner",
@@ -925,6 +985,27 @@
     "confidence": 0.8
   },
   {
+    "name": "Music Intelligence Platform",
+    "folder": "music-intelligence-platform",
+    "path": "/home/justin/web-projects/music-intelligence-platform",
+    "type": "Python",
+    "hasReadme": true,
+    "readmeContent": "# Music Intelligence Platform\n\nMusic Intelligence Platform 是一個音樂知識檢索、相似歌曲搜尋、推薦系統與 artist analytics 平台。它整合 Million Song Dataset、Taste Profile、MusicBrainz、ListenBrainz，以及 copyright-safe lyric-derived features，展示 metadata ETL、hybrid recommendation、ANN search、artist graph analytics、FastAPI API 與 Streamlit demo。\n\n> **Data Policy**: This repo contains **no raw music data**. Only synthetic sample data (MIT-licensed) is committed. See [docs/licensing_notes.md](docs/licensing_notes.md).\n\n---\n\n## Why This Is Not Just MovieLens\n\n| Aspect | MovieLens | This Project |\n|--------|-----------|--------------|\n| Signal sources | Ratings only | Audio features + tag TF-IDF + embeddings + co-listen graph |\n| Search | None | BM25 + FAISS vector + hybrid RRF fusion |\n| Graph analytics | None | Artist co-listen n",
+    "detectedStack": [
+      "Python"
+    ],
+    "lastUpdate": "2026-06-25T20:30:01+08:00",
+    "gitRemote": "https://github.com/Justin21523/music-intelligence-platform",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "fix: pipeline error handling and tree page API path",
+    "canBuild": false,
+    "canRun": false,
+    "hasMedia": false,
+    "needsManualReview": true,
+    "suitability": "Prototype",
+    "confidence": 0.8
+  },
+  {
     "name": "My 3d Platformer",
     "folder": "my-3d-platformer",
     "path": "/home/justin/web-projects/my-3d-platformer",
@@ -954,7 +1035,7 @@
     "path": "/home/justin/web-projects/news-web-crawler",
     "type": "Python",
     "hasReadme": true,
-    "readmeContent": "# News Web Crawler & Analysis Pipeline\n\nScrapy-based Taiwanese news crawler with full CKIP NLP pipeline and ML analysis suite.\n\n## Quick Start\n\n```bash\npip install -r requirements.txt\nplaywright install chromium\n\n# ── Crawl ──────────────────────────────────────────────\npython run_crawler.py cna --days 7 --max-articles 500\n\n# ── Full Pipeline (CKIP + GPU auto-detect) ─────────────\npython pipeline_cli.py run-all\n\n# ── CKIP NLP (GPU-accelerated, batched) ────────────────\npython pipeline_cli.py nlp --engine ckip --batch-size 64\n\n# ── Analysis ───────────────────────────────────────────\npython pipeline_cli.py collocation --method pmi --topk 100\npython pipeline_cli.py text-mining --topics 10 --method nmf\npython pipeline_cli.py cluster --method kmeans --n-clusters 8\npython pipeline_cli.py sentim",
+    "readmeContent": "# News Web Crawler & Analysis Pipeline\n\nScrapy-based Taiwanese news crawler with full CKIP NLP pipeline and ML analysis suite.\n\n## Web App Quick Start\n\nThis repository now includes a Next.js frontend and FastAPI backend for running\nthe crawler/analysis pipeline from a browser.\n\n```bash\ndocker compose up --build\n```\n\nOpen:\n\n- Frontend: http://localhost:3000\n- Backend API: http://localhost:8011/api/v1/health\n- API docs: http://localhost:8011/docs\n\nLocal development without Docker:\n\n```bash\n# Backend\npython -m venv .venv\nsource .venv/bin/activate\npip install -r backend/requirements.txt\nPYTHONPATH=backend:. uvicorn app.main:app --reload --port 8011\n\n# Frontend\ncd frontend\nnpm install\nnpm run dev\n```\n\nDefault data paths are under `data/` for the web app. Override them with:\n\n```bash\nNEWS_DATA_D",
     "detectedStack": [
       "Python"
     ],
@@ -962,6 +1043,51 @@
     "gitRemote": "",
     "gitBranch": "master",
     "gitLastCommitMessage": "Initial commit",
+    "canBuild": false,
+    "canRun": false,
+    "hasMedia": false,
+    "needsManualReview": true,
+    "suitability": "Prototype",
+    "confidence": 0.8
+  },
+  {
+    "name": "Nyc Taxi Mobility Analytics",
+    "folder": "nyc-taxi-mobility-analytics",
+    "path": "/home/justin/web-projects/nyc-taxi-mobility-analytics",
+    "type": "Web/Node",
+    "hasReadme": true,
+    "readmeContent": "「NYC Taxi Mobility Analytics Platform 是一個城市交通資料工程與分析平台。它使用 NYC TLC Taxi Trip Records，展示 Parquet ingestion、partitioned analytical warehouse、time-series demand analysis、geospatial dashboard、fare / trip analytics、demand forecasting baseline 與 Next.js 查詢服務。」\n\n# NYC Taxi Mobility Analytics Platform\n\nThis repository is a local-first analytics engineering project for NYC taxi mobility data. It ships with a deterministic sample Parquet generator so the full pipeline can run without downloading large public datasets.\n\n![CI](https://github.com/your-org/nyc-taxi-mobility-analytics/actions/workflows/ci.yml/badge.svg)\n\n## Quick Navigation\n\n- [Quickstart](#quickstart)\n- [Real NYC TLC Data](#real-nyc-tlc-data)\n- [Demo Assets](#demo-assets)\n- [Docker](#docker)\n- [API Endpoints](#api-endpoints)\n- [Resume B",
+    "detectedStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "lastUpdate": "2026-06-26T18:57:58+08:00",
+    "gitRemote": "https://github.com/Justin21523/nyc-taxi-mobility-analytics",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "Support portfolio base path deployment",
+    "canBuild": true,
+    "canRun": true,
+    "hasMedia": false,
+    "needsManualReview": false,
+    "suitability": "Needs Content",
+    "confidence": 0.9
+  },
+  {
+    "name": "Openalex Research Rag",
+    "folder": "openalex-research-rag",
+    "path": "/home/justin/web-projects/openalex-research-rag",
+    "type": "Python",
+    "hasReadme": true,
+    "readmeContent": "# OpenAlex Research Intelligence (RAG)\n\n> A full-stack **scholarly research intelligence platform** over **38,152 OpenAlex papers** — hybrid retrieval (BM25 + dense vectors with Reciprocal Rank Fusion), **citation-grounded RAG**, rich bibliometric analytics, an animated **\"Data Story\" pipeline journey**, a built-in **guided tour**, and a complete **中文 / English** interface.\n\n中文簡介：以 OpenAlex 學術論文為語料的研究智能平台 — 混合檢索（BM25 + 向量 + RRF）、引用接地的 RAG 問答、主題/期刊/作者/引用網路分析、可視化的「資料旅程」、自動導覽小幫手，以及完整中英文介面。\n\n---\n\n## 🎬 Demo video\n\n<video src=\"https://github.com/Justin21523/openalex-research-rag/raw/main/docs/demo.mp4\" controls width=\"100%\"></video>\n\n▶️ **[Watch the full 2-minute walkthrough (docs/demo.mp4)](docs/demo.mp4)** — every feature, captured end-to-end with Playwright.\n\n---\n\n## ✨ Highlights\n\n| | |\n|---",
+    "detectedStack": [
+      "Python"
+    ],
+    "lastUpdate": "2026-06-26T02:55:47+08:00",
+    "gitRemote": "https://github.com/Justin21523/openalex-research-rag",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "Fix deployed frontend asset base",
     "canBuild": false,
     "canRun": false,
     "hasMedia": false,
@@ -989,25 +1115,6 @@
     "needsManualReview": false,
     "suitability": "Needs Content",
     "confidence": 0.9
-  },
-  {
-    "name": "Playwright Demo",
-    "folder": "playwright-demo",
-    "path": "/home/justin/web-projects/playwright-demo",
-    "type": "Web/Node",
-    "hasReadme": false,
-    "readmeContent": "",
-    "detectedStack": [],
-    "lastUpdate": "2026-05-25T20:13:48+08:00",
-    "gitRemote": "",
-    "gitBranch": "master",
-    "gitLastCommitMessage": "Initial commit: playwright-demo",
-    "canBuild": false,
-    "canRun": false,
-    "hasMedia": false,
-    "needsManualReview": true,
-    "suitability": "Learning Exercise",
-    "confidence": 0.55
   },
   {
     "name": "Poker Ai Arena",
@@ -1179,6 +1286,25 @@
     "confidence": 0.85
   },
   {
+    "name": "Quant Strategy Agent Lab",
+    "folder": "quant-strategy-agent-lab",
+    "path": "/home/justin/web-projects/quant-strategy-agent-lab",
+    "type": "Other",
+    "hasReadme": true,
+    "readmeContent": "# Quant Strategy Agent Lab\n\nA local-first quantitative strategy research workbench built with **Python, FastAPI, SQLite, pandas, HTML, CSS, and modular Vanilla JavaScript**.\n\n> Educational and research use only. This application does not provide investment advice. Historical data, indicators, strategy templates, and backtest results cannot guarantee future performance.\n\n## Current status\n\n**Phase 4 — Backtest Engine MVP is implemented.**\n\nThe application now provides:\n\n- a normalized OHLCV market-data layer from Phase 1;\n- deterministic offline CSV fixtures for `AAPL`, `SPY`, and `QQQ`;\n- SQLite market-data cache and provider lineage;\n- on-demand technical indicators from cached bars from Phase 2:\n  - SMA;\n  - EMA;\n  - RSI;\n  - MACD;\n  - Bollinger Bands;\n  - ATR;\n- five deterministic strat",
+    "detectedStack": [],
+    "lastUpdate": "2026-06-26T18:26:30+08:00",
+    "gitRemote": "",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "feat: implement backtest engine mvp",
+    "canBuild": false,
+    "canRun": false,
+    "hasMedia": false,
+    "needsManualReview": true,
+    "suitability": "Learning Exercise",
+    "confidence": 0.7
+  },
+  {
     "name": "R3f Rpg Builder",
     "folder": "r3f-rpg-builder",
     "path": "/home/justin/web-projects/r3f-rpg-builder",
@@ -1205,6 +1331,25 @@
     "confidence": 0.9
   },
   {
+    "name": "Recsys Benchmark Suite",
+    "folder": "recsys-benchmark-suite",
+    "path": "/home/justin/web-projects/recsys-benchmark-suite",
+    "type": "Other",
+    "hasReadme": true,
+    "readmeContent": "Recommendation Benchmark Suite 是一個推薦系統離線評估工具箱。它支援 MovieLens、ListenBrainz sample、Amazon sample 等 user-item interaction 資料，提供 popularity、item-based CF、matrix factorization、ALS / BPR、content-based、hybrid recommender 的統一訓練、評估、比較與 bad case analysis。\n\n## Project Overview\nThis monorepo contains a FastAPI backend and a React TypeScript benchmark dashboard. It is designed for comparable, reproducible offline recommendation evaluation rather than a one-off demo.\n\n## Why recommendation evaluation matters\nOffline evaluation makes ranking quality, catalog coverage, novelty, diversity, and failure cases visible before a recommender is shipped. It also makes baseline regressions easier to catch.\n\n## Supported datasets\n- MovieLens sample: small local generated sample and loader guidance; full MovieLens da",
+    "detectedStack": [],
+    "lastUpdate": "2026-06-25T12:41:56.915Z",
+    "gitRemote": "",
+    "gitBranch": "",
+    "gitLastCommitMessage": "",
+    "canBuild": false,
+    "canRun": false,
+    "hasMedia": false,
+    "needsManualReview": true,
+    "suitability": "Learning Exercise",
+    "confidence": 0.7
+  },
+  {
     "name": "Research Paper And Knowledge Workspace",
     "folder": "research-paper-and-knowledge-workspace",
     "path": "/home/justin/web-projects/research-paper-and-knowledge-workspace",
@@ -1222,6 +1367,29 @@
     "needsManualReview": true,
     "suitability": "Learning Exercise",
     "confidence": 0.7
+  },
+  {
+    "name": "Retailpulse Bi Recommender",
+    "folder": "retailpulse-bi-recommender",
+    "path": "/home/justin/web-projects/retailpulse-bi-recommender",
+    "type": "Python",
+    "hasReadme": true,
+    "readmeContent": "# RetailPulse BI + Recommendation Platform\n\n> **RetailPulse** 是一個零售與電商資料產品，將交易資料轉換成可操作的商業洞察與推薦服務。它展示 ETL、資料倉儲、KPI dashboard、RFM segmentation、cohort retention、market basket analysis 與 Top-N recommendation API，目標是證明我不只會做模型，也能把資料變成決策系統。\n\n---\n\n## Project Overview\n\nRetailPulse is a portfolio data product that demonstrates a complete **data-to-decisions** pipeline:\n\n1. **ETL** — Ingest and clean raw retail transactions\n2. **DuckDB Warehouse** — Analytical warehouse with 7 tables\n3. **KPI Analytics** — Revenue, AOV, cohort retention, top products\n4. **RFM Segmentation** — K-Means clustering on Recency / Frequency / Monetary\n5. **Market Basket Analysis** — Apriori algorithm for association rules\n6. **Recommendation API** — FastAPI with 3-tier recommendation cascade\n7. **Streamlit Dashboard** — Int",
+    "detectedStack": [
+      "Python",
+      "FastAPI",
+      "Plotly"
+    ],
+    "lastUpdate": "2026-06-26T00:55:46+08:00",
+    "gitRemote": "https://github.com/Justin21523/retailpulse-bi-recommender",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "fix: fallback churn scoring when torch is unavailable",
+    "canBuild": false,
+    "canRun": false,
+    "hasMedia": false,
+    "needsManualReview": true,
+    "suitability": "Prototype",
+    "confidence": 0.8
   },
   {
     "name": "Rigview3d",
@@ -1414,6 +1582,25 @@
     "needsManualReview": false,
     "suitability": "Needs Content",
     "confidence": 0.9
+  },
+  {
+    "name": "Text2sql Evaluation Harness",
+    "folder": "text2sql-evaluation-harness",
+    "path": "/home/justin/web-projects/text2sql-evaluation-harness",
+    "type": "Other",
+    "hasReadme": true,
+    "readmeContent": "Text2SQL Evaluation Harness 是一個支援 Agentic BI 的 Text2SQL 評估工具。它能載入 Spider、DuckDB Text2SQL 25k 或自建 warehouse benchmark，比較 prompt templates、schema retrieval 策略、SQL validation、execution accuracy、unsafe SQL blocking、latency 與 bad case replay。\n\n# Text2SQL Evaluation Harness\n\n![CI](https://github.com/Justin21523/text2sql-evaluation-harness/actions/workflows/ci.yml/badge.svg)\n\n## Project Overview\nThis repository is a reproducible Text2SQL evaluation harness, not a chatbot. It focuses on benchmark loading, schema catalogs, prompt and retrieval ablations, SQL safety, execution accuracy, latency, and bad case replay for Agentic BI systems.\n\n## Why this is an evaluation harness, not a chatbot\n- It evaluates fixed benchmark questions against gold SQL and warehouse data.\n- It stores runs, predictions, m",
+    "detectedStack": [],
+    "lastUpdate": "2026-06-26T00:00:14+08:00",
+    "gitRemote": "https://github.com/Justin21523/text2sql-evaluation-harness",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "fix: restore production data loading (#1)",
+    "canBuild": false,
+    "canRun": false,
+    "hasMedia": false,
+    "needsManualReview": true,
+    "suitability": "Learning Exercise",
+    "confidence": 0.7
   },
   {
     "name": "The Archive That Watches You",
@@ -2056,31 +2243,5 @@
     "needsManualReview": true,
     "suitability": "Prototype",
     "confidence": 0.8
-  },
-  {
-    "name": "RetailPulse BI Recommender",
-    "folder": "retailpulse-bi-recommender",
-    "path": "/projects/retailpulse-bi-recommender",
-    "type": "Web/Data Application",
-    "hasReadme": true,
-    "readmeContent": "# RetailPulse BI Recommender\n\nRetail BI and recommendation platform with FastAPI, Next.js, DuckDB, forecasting, customer analytics, basket analysis, recommendations, ML insights, A/B testing, Playwright screenshots, and deployment notes.",
-    "detectedStack": [
-      "Next.js",
-      "FastAPI",
-      "DuckDB",
-      "Python",
-      "Playwright",
-      "Docker"
-    ],
-    "lastUpdate": "2026-06-25T07:03:30.957Z",
-    "gitRemote": "https://github.com/Justin21523/retailpulse-bi-recommender.git",
-    "gitBranch": "main",
-    "gitLastCommitMessage": "docs: surface Playwright media evidence",
-    "canBuild": true,
-    "canRun": true,
-    "hasMedia": true,
-    "needsManualReview": false,
-    "suitability": "Portfolio Ready",
-    "confidence": 0.96
   }
 ]

@@ -7,7 +7,7 @@
   "technologies": [
     "Python"
   ],
-  "coverImage": "/portfolio/projects/news-web-crawler/cover.webp",
+  "coverImage": "/portfolio/projects/news-web-crawler/cover.png",
   "links": [
     {
       "kind": "live",
@@ -17,6 +17,74 @@
         "en": "Live Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "https://neojustin.dothost.net/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": "guided-tour-video",
+      "type": "video",
+      "src": "/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+      "poster": "/portfolio/projects/news-web-crawler/cover.png",
+      "alt": {
+        "zh-TW": "News Web Crawler 分析平台導覽錄影。",
+        "en": "Guided walkthrough recording of the News Web Crawler analytics platform."
+      },
+      "title": {
+        "zh-TW": "平台導覽錄影",
+        "en": "Platform Walkthrough"
+      },
+      "caption": {
+        "zh-TW": "展示新聞資料匯入、處理旅程、文字探勘、分析圖表與報表頁面。",
+        "en": "Shows data import, the processing journey, text mining, analytics charts, and reports."
+      },
+      "featured": true
+    },
+    {
+      "id": "pipeline-journey",
+      "type": "image",
+      "src": "/portfolio/projects/news-web-crawler/screenshots/01-pipeline-journey.png",
+      "alt": {
+        "zh-TW": "News Web Crawler 的資料處理旅程頁面。",
+        "en": "The data processing journey page in News Web Crawler."
+      },
+      "title": {
+        "zh-TW": "資料處理旅程",
+        "en": "Pipeline Journey"
+      }
+    },
+    {
+      "id": "text-mining",
+      "type": "image",
+      "src": "/portfolio/projects/news-web-crawler/screenshots/02-text-mining.png",
+      "alt": {
+        "zh-TW": "News Web Crawler 的文字探勘分析頁面。",
+        "en": "The text mining analytics page in News Web Crawler."
+      },
+      "title": {
+        "zh-TW": "文字探勘",
+        "en": "Text Mining"
+      }
+    },
+    {
+      "id": "analysis-dashboard",
+      "type": "image",
+      "src": "/portfolio/projects/news-web-crawler/screenshots/03-analysis-dashboard.png",
+      "alt": {
+        "zh-TW": "News Web Crawler 的新聞分析儀表板。",
+        "en": "The news analytics dashboard in News Web Crawler."
+      },
+      "title": {
+        "zh-TW": "分析儀表板",
+        "en": "Analytics Dashboard"
+      }
     }
   ]
 }

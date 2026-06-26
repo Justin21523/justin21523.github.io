@@ -75,6 +75,8 @@ interface ProjectExplorerProps {
   locale: PortfolioLocale;
 }
 
+const pinnedProjectSlug =
+  "openalex-research-rag";
 
 export function ProjectExplorer({
   projects,
@@ -191,6 +193,21 @@ export function ProjectExplorer({
   const filteredProjects = useMemo(() => {
     return applyProjectFilters(projects, filters, locale);
   }, [filters, locale, projects]);
+
+  const pinnedProject =
+    filteredProjects.find(
+      (project) =>
+        project.slug === pinnedProjectSlug
+    );
+
+  const listedProjects =
+    pinnedProject
+      ? filteredProjects.filter(
+          (project) =>
+            project.slug !==
+            pinnedProjectSlug
+        )
+      : filteredProjects;
 
   const activeFilterCount =
     Number(Boolean(query)) +
@@ -781,6 +798,41 @@ export function ProjectExplorer({
                 </div>
               )}
 
+              {pinnedProject && (
+                <section className="mb-10">
+                  <div className="mb-4 flex items-end justify-between gap-4">
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
+                        {text.pinnedEyebrow}
+                      </p>
+                      <h2 className="mt-2 text-2xl font-bold tracking-tight">
+                        {text.pinnedTitle}
+                      </h2>
+                    </div>
+                  </div>
+
+                  <div
+                    className={
+                      viewMode === "catalog"
+                        ? "grid gap-7 xl:grid-cols-2"
+                        : "grid gap-8"
+                    }
+                  >
+                    <ProjectArchiveCard
+                      project={pinnedProject}
+                      locale={locale}
+                      index={0}
+                      viewMode={
+                        viewMode === "catalog"
+                          ? "catalog"
+                          : "list"
+                      }
+                      onPreview={setSelectedProject}
+                    />
+                  </div>
+                </section>
+              )}
+
               <LayoutGroup id="project-archive">
                 <m.section
                   layout
@@ -793,12 +845,16 @@ export function ProjectExplorer({
                   }
                 >
                   <AnimatePresence mode="popLayout">
-                    {filteredProjects.map((project, index) => (
+                    {listedProjects.map((project, index) => (
                       <ProjectArchiveCard
                         key={project.slug}
                         project={project}
                         locale={locale}
-                        index={index}
+                        index={
+                          pinnedProject
+                            ? index + 1
+                            : index
+                        }
                         viewMode={viewMode}
                         onPreview={setSelectedProject}
                       />
@@ -1071,6 +1127,8 @@ function getText(locale: PortfolioLocale) {
         listView: "List view",
         catalogView: "Catalog record view",
         updating: "Updating...",
+        pinnedEyebrow: "Highlighted project",
+        pinnedTitle: "OpenAlex Research RAG",
       }
     : {
         eyebrow: "Project Archive",
@@ -1117,5 +1175,7 @@ function getText(locale: PortfolioLocale) {
         listView: "列表檢視",
         catalogView: "館藏紀錄檢視",
         updating: "更新中...",
+        pinnedEyebrow: "重點作品",
+        pinnedTitle: "OpenAlex 學術研究智能平台",
       };
 }

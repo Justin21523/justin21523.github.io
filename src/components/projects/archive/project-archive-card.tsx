@@ -203,6 +203,9 @@ export function ProjectArchiveCard({
 
   const features =
     content.features ?? [];
+  const quickLinks = project.links.filter((link) =>
+    ["live", "documentation", "video"].includes(link.kind)
+  );
 
   if (viewMode === "catalog") {
     return (
@@ -293,7 +296,7 @@ export function ProjectArchiveCard({
         </p>
 
         <div className="mt-auto pt-3 border-t border-dashed border-border flex items-center justify-between gap-3">
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             <button
               onClick={() => onPreview(project)}
               className="text-xs font-semibold text-muted-foreground hover:text-foreground px-2 py-1 border border-border rounded transition-colors"
@@ -306,6 +309,17 @@ export function ProjectArchiveCard({
             >
               {locale === "en" ? "Full Record →" : "完整案例 →"}
             </Link>
+            {quickLinks.slice(0, 3).map((link) => (
+              <a
+                key={`${project.slug}-${link.kind}`}
+                href={link.url}
+                target="_blank"
+                rel="noreferrer"
+                className="text-xs font-semibold text-primary hover:underline px-2 py-1 border border-primary/20 bg-primary/5 rounded transition-colors"
+              >
+                {link.label[locale]}
+              </a>
+            ))}
           </div>
           <div className="flex items-center gap-1.5">
             <m.button
@@ -658,6 +672,23 @@ export function ProjectArchiveCard({
             <ArrowUpRight className="h-4 w-4 transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5" />
           </Link>
         </div>
+
+        {quickLinks.length > 0 && (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {quickLinks.slice(0, 3).map((link) => (
+              <a
+                key={`${project.slug}-${link.kind}`}
+                href={link.url}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1 rounded-lg border border-primary/20 bg-primary/5 px-3 py-1.5 text-xs font-semibold text-primary transition-colors hover:bg-primary/10"
+              >
+                {link.label[locale]}
+                <ArrowUpRight className="h-3 w-3" />
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </m.article>
   );

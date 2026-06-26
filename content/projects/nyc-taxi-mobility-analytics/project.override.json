@@ -1,0 +1,132 @@
+{
+  "visibility": "public",
+  "featured": true,
+  "category": "ai-data",
+  "status": "completed",
+  "year": 2026,
+  "technologies": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "coverImage": "/portfolio/projects/nyc-taxi-mobility-analytics/cover.png",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/nyc-taxi-mobility-analytics",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/nyc-taxi-mobility-analytics/",
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
+      "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "https://neojustin.dothost.net/portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/nyc-taxi-mobility-analytics#readme",
+      "label": {
+        "zh-TW": "README",
+        "en": "README"
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": "guided-demo-video",
+      "type": "video",
+      "src": "/portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm",
+      "poster": "/portfolio/projects/nyc-taxi-mobility-analytics/cover.png",
+      "alt": {
+        "zh-TW": "NYC Taxi Mobility Analytics Platform 的完整 Playwright 導覽錄影。",
+        "en": "Full Playwright guided tour recording of NYC Taxi Mobility Analytics Platform."
+      },
+      "title": {
+        "zh-TW": "完整互動導覽錄影",
+        "en": "Full Interactive Guided Tour Recording"
+      },
+      "caption": {
+        "zh-TW": "展示中文預設介面、導覽小幫手、Pipeline Journey、資料上傳、Data Quality、Warehouse、Zone Map、Forecast 與 Saved Views。",
+        "en": "Shows the Chinese default UI, guided assistant, Pipeline Journey, data upload, Data Quality, Warehouse, Zone Map, Forecast, and Saved Views."
+      },
+      "featured": true
+    },
+    {
+      "id": "overview-dashboard",
+      "type": "image",
+      "src": "/portfolio/projects/nyc-taxi-mobility-analytics/screenshots/01-overview.png",
+      "alt": {
+        "zh-TW": "NYC Taxi Mobility overview dashboard KPI 與圖表。",
+        "en": "NYC Taxi Mobility overview dashboard KPIs and charts."
+      },
+      "title": {
+        "zh-TW": "Overview Dashboard",
+        "en": "Overview Dashboard"
+      },
+      "featured": true
+    },
+    {
+      "id": "pipeline-journey",
+      "type": "image",
+      "src": "/portfolio/projects/nyc-taxi-mobility-analytics/screenshots/02-pipeline-journey.png",
+      "alt": {
+        "zh-TW": "Pipeline Journey 展示資料上傳與處理流程。",
+        "en": "Pipeline Journey showing upload and processing flow."
+      },
+      "title": {
+        "zh-TW": "Pipeline Journey",
+        "en": "Pipeline Journey"
+      }
+    },
+    {
+      "id": "zone-map",
+      "type": "image",
+      "src": "/portfolio/projects/nyc-taxi-mobility-analytics/screenshots/03-zone-map.png",
+      "alt": {
+        "zh-TW": "NYC zone map 與節點分析視覺化。",
+        "en": "NYC zone map and node analysis visualization."
+      },
+      "title": {
+        "zh-TW": "Zone Map",
+        "en": "Zone Map"
+      }
+    },
+    {
+      "id": "forecast-lab",
+      "type": "image",
+      "src": "/portfolio/projects/nyc-taxi-mobility-analytics/screenshots/04-forecast.png",
+      "alt": {
+        "zh-TW": "Forecast Lab 展示 actual vs baseline 與模型評估。",
+        "en": "Forecast Lab showing actual vs baseline and model evaluation."
+      },
+      "title": {
+        "zh-TW": "Forecast Lab",
+        "en": "Forecast Lab"
+      }
+    }
+  ],
+  "metadata": {
+    "needsReview": false,
+    "missingFields": [],
+    "platforms": ["Web"],
+    "domains": ["Data Engineering", "Mobility Analytics", "Business Intelligence"],
+    "keywords": ["NYC TLC", "DuckDB", "Parquet", "Forecasting", "GeoJSON"],
+    "audiences": ["Data Engineering Interviewers", "Analytics Engineering Teams"],
+    "dataTypes": ["Parquet", "Geospatial", "Time Series"]
+  }
+}

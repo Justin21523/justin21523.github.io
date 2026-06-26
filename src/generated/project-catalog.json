@@ -22,7 +22,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-001",
@@ -92,7 +92,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.929Z"
+      "lastScannedAt": "2026-06-26T13:06:57.010Z"
     },
     "content": {
       "zh-TW": {
@@ -180,7 +180,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-02-05",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-001",
@@ -250,7 +250,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.931Z"
+      "lastScannedAt": "2026-06-26T13:06:57.012Z"
     },
     "content": {
       "zh-TW": {
@@ -336,7 +336,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-002",
@@ -408,7 +408,7 @@
         "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.931Z"
+      "lastScannedAt": "2026-06-26T13:06:57.013Z"
     },
     "content": {
       "zh-TW": {
@@ -492,7 +492,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-08",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-003",
@@ -570,7 +570,7 @@
         "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.931Z"
+      "lastScannedAt": "2026-06-26T13:06:57.013Z"
     },
     "content": {
       "zh-TW": {
@@ -661,7 +661,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-06",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-004",
@@ -737,7 +737,7 @@
         "content/projects/3d-rendering-showcase/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.932Z"
+      "lastScannedAt": "2026-06-26T13:06:57.013Z"
     },
     "content": {
       "zh-TW": {
@@ -795,6 +795,471 @@
     }
   },
   {
+    "id": "project-agentic-bi-dataops-copilot-pf-2026-ai-001",
+    "slug": "agentic-bi-dataops-copilot",
+    "category": "ai-data",
+    "status": "completed",
+    "year": 2026,
+    "featured": true,
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "Vite",
+      "DuckDB",
+      "Playwright",
+      "Docker"
+    ],
+    "coverImage": "/portfolio/projects/agentic-bi-dataops-copilot/cover.webp",
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/agentic-bi-dataops-copilot/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/agentic-bi-dataops-copilot",
+        "label": {
+          "zh-TW": "查看 GitHub",
+          "en": "View GitHub"
+        }
+      },
+      {
+        "kind": "video",
+        "url": "https://neojustin.dothost.net/portfolio/projects/agentic-bi-dataops-copilot/demo/demo-tour.webm",
+        "label": {
+          "zh-TW": "查看 Demo 影片",
+          "en": "Demo Recording"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/agentic-bi-dataops-copilot#readme",
+        "label": {
+          "zh-TW": "查看 README",
+          "en": "View README"
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "demo-tour-video",
+        "type": "video",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/demo/demo-tour.webm",
+        "poster": "/portfolio/projects/agentic-bi-dataops-copilot/cover.webp",
+        "alt": {
+          "zh-TW": "Agentic BI DataOps Copilot 完整 16 步驟 Data Journey Tour 錄影。",
+          "en": "Full 16-step Data Journey Tour recording of Agentic BI DataOps Copilot."
+        },
+        "title": {
+          "zh-TW": "Data Journey Tour 導覽錄影",
+          "en": "Data Journey Tour Recording"
+        },
+        "caption": {
+          "zh-TW": "16 步驟互動導覽，涵蓋 Schema 探索、NL 查詢、SQL 驗證、儀表板分析到護欄審計的完整 DataOps 工作流程。",
+          "en": "16-step interactive tour covering Schema discovery, NL query, SQL validation, dashboard analytics, and guardrail audit — the full DataOps pipeline."
+        },
+        "featured": true
+      },
+      {
+        "id": "upload-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/upload.webp",
+        "alt": {
+          "zh-TW": "資料旅程入口頁面，支援 CSV 上傳與範例資料載入。",
+          "en": "Data Journey Entry page for CSV upload and sample data loading."
+        },
+        "title": {
+          "zh-TW": "資料旅程入口",
+          "en": "Data Journey Entry"
+        },
+        "caption": {
+          "zh-TW": "從 CSV 或內建範例資料啟動完整 16 步 DataOps 導覽。",
+          "en": "Start the full 16-step DataOps journey from CSV upload or built-in sample data."
+        }
+      },
+      {
+        "id": "dashboard-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/dashboard.webp",
+        "alt": {
+          "zh-TW": "系統儀表板，顯示資料倉儲狀態與核心指標。",
+          "en": "System dashboard showing warehouse status and core metrics."
+        },
+        "title": {
+          "zh-TW": "儀表板",
+          "en": "Dashboard"
+        },
+        "caption": {
+          "zh-TW": "一覽系統健康狀態、4,596 筆資料表統計與最近查詢記錄。",
+          "en": "Overview of system health, 4,596-row warehouse statistics, and recent query history."
+        }
+      },
+      {
+        "id": "guardrails-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/guardrails.webp",
+        "alt": {
+          "zh-TW": "護欄分析頁面，顯示 SQL 安全驗證統計。",
+          "en": "Guardrail Analytics page showing SQL safety validation statistics."
+        },
+        "title": {
+          "zh-TW": "護欄分析",
+          "en": "Guardrail Analytics"
+        },
+        "caption": {
+          "zh-TW": "SQL 安全強制執行 — 97% 安全率，查詢驗證稽核軌跡與封鎖原因分類。",
+          "en": "SQL safety enforcement — 97% safe rate, query validation audit trail and block-reason classification."
+        }
+      },
+      {
+        "id": "customers-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/customers.webp",
+        "alt": {
+          "zh-TW": "客戶分析頁面，顯示 RFM 分群與 LTV 分佈。",
+          "en": "Customer Analytics page showing RFM segmentation and LTV distribution."
+        },
+        "title": {
+          "zh-TW": "客戶分析",
+          "en": "Customer Analytics"
+        },
+        "caption": {
+          "zh-TW": "300 名客戶的 RFM 近度/頻率散佈圖、各分群收入佔比與 LTV 直方圖。",
+          "en": "RFM recency/frequency scatter for 300 customers, segment revenue breakdown, and LTV histogram."
+        }
+      },
+      {
+        "id": "revenue-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/revenue.webp",
+        "alt": {
+          "zh-TW": "收入智慧分析頁面，顯示銷售趨勢與分析圖表。",
+          "en": "Revenue Intelligence page with sales trend charts and analytics."
+        },
+        "title": {
+          "zh-TW": "收入智慧",
+          "en": "Revenue Intelligence"
+        },
+        "caption": {
+          "zh-TW": "收入趨勢分析、客戶分群與銷售預測。",
+          "en": "Revenue trend analysis, customer segmentation, and sales forecasting."
+        }
+      },
+      {
+        "id": "schema-explorer-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/schema-explorer.webp",
+        "alt": {
+          "zh-TW": "Schema 探索器，顯示資料表結構與欄位說明。",
+          "en": "Schema Explorer showing table structures and column descriptions."
+        },
+        "title": {
+          "zh-TW": "Schema 探索器",
+          "en": "Schema Explorer"
+        },
+        "caption": {
+          "zh-TW": "瀏覽 7 張資料表的欄位定義、業務語意描述與資料關聯。",
+          "en": "Browse column definitions, business semantic descriptions, and relationships across 7 warehouse tables."
+        }
+      },
+      {
+        "id": "nl-query-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/nl-query.webp",
+        "alt": {
+          "zh-TW": "自然語言查詢頁面，顯示 LLM 狀態、範例問題與 SQL 生成流程。",
+          "en": "Natural Language Query page showing LLM status, example prompts, and SQL generation workflow."
+        },
+        "title": {
+          "zh-TW": "自然語言查詢",
+          "en": "Natural Language Query"
+        },
+        "caption": {
+          "zh-TW": "中文或英文提問後，系統會生成可審計 SQL，通過安全驗證後執行。",
+          "en": "Ask in Chinese or English; the system generates auditable SQL and executes it after safety validation."
+        }
+      },
+      {
+        "id": "sql-playground-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/sql-playground.webp",
+        "alt": {
+          "zh-TW": "SQL 工作台，支援直接編寫並執行 SQL 查詢。",
+          "en": "SQL Playground for writing and executing queries directly."
+        },
+        "title": {
+          "zh-TW": "SQL 工作台",
+          "en": "SQL Playground"
+        },
+        "caption": {
+          "zh-TW": "月度收入查詢：12 行結果，MONTH / REVENUE / TRANSACTIONS，3.5ms 執行時間。",
+          "en": "Monthly revenue query: 12 rows returned with MONTH / REVENUE / TRANSACTIONS in 3.5ms."
+        }
+      },
+      {
+        "id": "products-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/products.webp",
+        "alt": {
+          "zh-TW": "產品績效矩陣，顯示 BCG 矩陣、品類 Treemap 與折扣 vs 毛利分析。",
+          "en": "Product Performance Matrix with BCG scatter plot, category treemap, and discount vs margin analysis."
+        },
+        "title": {
+          "zh-TW": "產品績效矩陣",
+          "en": "Product Performance Matrix"
+        },
+        "caption": {
+          "zh-TW": "99 項產品的 BCG 矩陣（銷售量 vs 平均評分）、品類收入 Treemap 與毛利趨勢分析。",
+          "en": "BCG matrix (sales vs avg rating), category revenue treemap, and margin trend for 99 products."
+        }
+      },
+      {
+        "id": "funnel-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/funnel.webp",
+        "alt": {
+          "zh-TW": "漏斗與世代分析頁面，顯示訂單轉換與留存熱力圖。",
+          "en": "Funnel and Cohort page showing order conversion and retention heatmap."
+        },
+        "title": {
+          "zh-TW": "漏斗與世代分析",
+          "en": "Funnel & Cohort"
+        },
+        "caption": {
+          "zh-TW": "訂單狀態漏斗、付款趨勢與 cohort 留存，協助定位轉換瓶頸。",
+          "en": "Order status funnel, payment trends, and cohort retention help identify conversion bottlenecks."
+        }
+      },
+      {
+        "id": "workflow-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/workflow.webp",
+        "alt": {
+          "zh-TW": "DataOps 工作流程圖，展示資料管道各個階段。",
+          "en": "DataOps workflow map showing all pipeline stages."
+        },
+        "title": {
+          "zh-TW": "工作流程圖",
+          "en": "Workflow Map"
+        },
+        "caption": {
+          "zh-TW": "互動式流程圖，點選任一節點即可跳轉到對應功能頁面。",
+          "en": "Interactive workflow diagram — click any node to jump to the corresponding feature page."
+        }
+      },
+      {
+        "id": "query-history-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/query-history.webp",
+        "alt": {
+          "zh-TW": "查詢歷史頁面，顯示過去所有 SQL 執行記錄。",
+          "en": "Query History page showing all past SQL execution records."
+        },
+        "title": {
+          "zh-TW": "查詢歷史",
+          "en": "Query History"
+        },
+        "caption": {
+          "zh-TW": "完整查詢稽核軌跡，包含 SQL、執行時間、結果筆數與安全狀態。",
+          "en": "Full query audit trail with SQL, execution time, result count, and safety status."
+        }
+      },
+      {
+        "id": "insights-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/insights.webp",
+        "alt": {
+          "zh-TW": "洞察卡片，自動生成業務分析建議。",
+          "en": "Insight Cards with auto-generated business analysis recommendations."
+        },
+        "title": {
+          "zh-TW": "洞察卡片",
+          "en": "Insight Cards"
+        },
+        "caption": {
+          "zh-TW": "AI 自動分析資料趨勢，生成可執行的業務洞察建議。",
+          "en": "AI-generated actionable business insights derived from warehouse data trends."
+        }
+      },
+      {
+        "id": "data-quality-screenshot",
+        "type": "image",
+        "src": "/portfolio/projects/agentic-bi-dataops-copilot/screenshots/data-quality.webp",
+        "alt": {
+          "zh-TW": "資料品質頁面，顯示各資料表的品質分數與異常檢測。",
+          "en": "Data Quality page showing quality scores and anomaly detection per table."
+        },
+        "title": {
+          "zh-TW": "資料品質",
+          "en": "Data Quality"
+        },
+        "caption": {
+          "zh-TW": "各資料表完整性、唯一性、NULL 率與資料品質分數一覽。",
+          "en": "Per-table completeness, uniqueness, NULL rate, and data quality score overview."
+        }
+      }
+    ],
+    "metadata": {
+      "startedAt": "2026-06-26",
+      "updatedAt": "2026-06-26",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-AI-001",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "ai-data",
+      "secondaryCategories": [],
+      "projectType": "Python",
+      "domains": [],
+      "subjects": [],
+      "controlledTerms": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Vite",
+        "DuckDB",
+        "Playwright",
+        "Docker"
+      ],
+      "keywords": [],
+      "audiences": [],
+      "contentTypes": [],
+      "dataTypes": [],
+      "platforms": [
+        "Web"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "stateManagement": [],
+      "styling": [],
+      "database": [],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [],
+      "developmentTools": [],
+      "roles": [
+        "Full-stack Data Product Developer"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Vite",
+        "DuckDB",
+        "Playwright",
+        "Docker"
+      ],
+      "capabilities": [],
+      "tools": [],
+      "hasUnitTests": false,
+      "hasIntegrationTests": false,
+      "hasE2ETests": false,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.8,
+      "needsReview": true,
+      "missingFields": [],
+      "evidenceSources": [
+        "content/projects/agentic-bi-dataops-copilot/project.override.json",
+        "content/projects/agentic-bi-dataops-copilot/zh-TW.md",
+        "content/projects/agentic-bi-dataops-copilot/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-26T13:06:57.014Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "Agentic BI / DataOps Copilot",
+        "summary": "中英雙語自然語言分析平台，將使用者問題轉換為安全的 SQL 查詢。具備三層 SQL 驗證、DuckDB 內建分析、React 14 頁儀表板、16 步驟 Data Journey 導覽，以及完整的 Playwright E2E 截圖與錄影。",
+        "description": "Agentic BI / DataOps Copilot 是一個展示安全、可解釋、可評估 Text2SQL 的 portfolio 級專案。它在不需付費 LLM API Key 的情況下，即可對合成零售 DuckDB 倉儲進行自然語言查詢，並以精心設計的前端與導覽 tour 展示完整的 DataOps 工作流。",
+        "tagline": "具備三層 SQL 安全驗證的 Schema-aware Text2SQL，運行在 DuckDB 零售倉儲上",
+        "role": "Full-stack Data Product Developer",
+        "problem": "BI 分析師需要用自然語言查詢零售倉儲資料，但每一條 LLM 生成的 SQL 在執行前都必須通過安全驗證，避免危險操作直接觸及資料庫。",
+        "solution": "Schema-aware Text2SQL 管線，配備三道獨立安全關卡（Regex、AST、Table Whitelist），DuckDB read-only 連線作為第二道防線，React 前端提供全功能導覽 tour，逐步展示每個 DataOps 階段。",
+        "outcome": "完成可部署的 AI 資料產品，41 個測試全數通過，Playwright 驗證 14 個頁面，導覽 tour 覆蓋 16 個 DataOps 管線階段。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "三層 SQL 驗證器：Regex → AST → Table Whitelist，縱深防禦",
+          "Rule-based Text2SQL 基準無需 API Key 即可運行，OpenAI GPT-4o 可選升級",
+          "DuckDB read-only 連線作為第二層寫入防護",
+          "React + Vite 前端，14 個頁面，支援中英雙語與深色模式",
+          "16 步驟 Data Journey 導覽，每次進入頁面自動啟動，附 Playwright 錄影與截圖",
+          "FastAPI 後端，含結構化 benchmark 評估（valid_sql_rate、unsafe_rejection_rate）"
+        ],
+        "challenges": [
+          "透過 git rebase 恢復被不相關專案覆蓋的所有 BI Copilot 原始檔案",
+          "透過 GitHub Actions SSH 部署到非標準 port 的遠端伺服器",
+          "配置 Vite base path 與 API routing，整合進 portfolio 的 nginx proxy 架構"
+        ],
+        "nextSteps": [
+          "在 FastAPI 加入 JWT 認證中介層",
+          "以 sentence-transformer embeddings 取代 keyword scoring",
+          "加入 SSE streaming 回應，提供即時查詢進度"
+        ]
+      },
+      "en": {
+        "title": "Agentic BI / DataOps Copilot",
+        "summary": "A bilingual (EN/ZH) natural language analytics platform that turns plain questions into safe SQL queries. Features three-layer SQL validation, DuckDB in-process analytics, a React dashboard with 14 pages, a 16-step guided Data Journey tour, and full Playwright E2E evidence.",
+        "description": "Agentic BI / DataOps Copilot is a portfolio-quality demonstration of safe, schema-aware natural language querying over a synthetic retail DuckDB warehouse. It shows production-like SQL safety patterns, evaluability, and a polished frontend with guided onboarding — all running without a paid LLM API key by default.",
+        "tagline": "Schema-aware Text2SQL with three-pass SQL guardrails over a DuckDB retail warehouse",
+        "role": "Full-stack Data Product Developer",
+        "problem": "BI analysts need to query retail warehouse data in natural language without risking unsafe SQL execution — every LLM-generated SQL must be validated before touching the database.",
+        "solution": "A schema-aware Text2SQL pipeline with three independent safety passes (regex, AST, table whitelist), read-only DuckDB execution, and a React frontend with a guided onboarding tour that walks through every DataOps stage.",
+        "outcome": "Deployed a production-like AI data product with 41 passing tests, Playwright-validated UI across 14 pages, and a live guided tour covering 16 DataOps pipeline stages.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "Three-pass SQL validator: regex → AST → table whitelist for defense-in-depth",
+          "Rule-based Text2SQL baseline runs with zero API key — OpenAI GPT-4o available as upgrade",
+          "DuckDB read-only connection as a second layer of defense against write operations",
+          "React + Vite frontend with 14 pages, internationalization (ZH/EN), and dark mode",
+          "16-step Data Journey guided tour auto-starts on every page load with Playwright evidence",
+          "FastAPI backend with structured benchmark evaluation (valid_sql_rate, unsafe_rejection_rate)"
+        ],
+        "challenges": [
+          "Restoring all BI Copilot source files overwritten by an unrelated project merge via git rebase",
+          "Deploying through GitHub Actions SSH to a server behind a non-standard port",
+          "Configuring Vite base path and API routing to integrate into the portfolio proxy structure"
+        ],
+        "nextSteps": [
+          "Add JWT authentication middleware to FastAPI",
+          "Replace keyword scoring with sentence-transformer embeddings",
+          "Add streaming SSE responses for real-time query progress"
+        ]
+      }
+    }
+  },
+  {
     "id": "project-ai-3d-studio-pf-2026-3d-005",
     "slug": "ai-3d-studio",
     "category": "interactive-3d",
@@ -820,7 +1285,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-005",
@@ -896,7 +1361,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.932Z"
+      "lastScannedAt": "2026-06-26T13:06:57.014Z"
     },
     "content": {
       "zh-TW": {
@@ -990,7 +1455,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-04-26",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-006",
@@ -1068,7 +1533,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.932Z"
+      "lastScannedAt": "2026-06-26T13:06:57.014Z"
     },
     "content": {
       "zh-TW": {
@@ -1130,7 +1595,7 @@
     }
   },
   {
-    "id": "project-ai-knowledge-workspace-pf-2026-ai-001",
+    "id": "project-ai-knowledge-workspace-pf-2026-ai-002",
     "slug": "ai-knowledge-workspace",
     "category": "ai-data",
     "status": "prototype",
@@ -1165,10 +1630,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-15",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-001",
+      "catalogNumber": "PF-2026-AI-002",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -1245,7 +1710,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.932Z"
+      "lastScannedAt": "2026-06-26T13:06:57.014Z"
     },
     "content": {
       "zh-TW": {
@@ -1301,7 +1766,220 @@
     }
   },
   {
-    "id": "project-animation-ai-studio-pf-2026-ai-002",
+    "id": "project-amazon-review-intelligence-pf-2026-ai-003",
+    "slug": "amazon-review-intelligence",
+    "category": "ai-data",
+    "status": "prototype",
+    "year": 2026,
+    "featured": false,
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "Next.js",
+      "TypeScript",
+      "DuckDB",
+      "BM25",
+      "Sentence Transformers",
+      "scikit-learn",
+      "Playwright"
+    ],
+    "coverImage": "/portfolio/projects/amazon-review-intelligence/cover.webp",
+    "links": [],
+    "media": [
+      {
+        "id": "amazon-review-intelligence-overview",
+        "type": "image",
+        "src": "/portfolio/projects/amazon-review-intelligence/cover.webp",
+        "alt": {
+          "zh-TW": "Amazon Review Intelligence 儀表板總覽畫面",
+          "en": "Amazon Review Intelligence dashboard overview"
+        },
+        "title": {
+          "zh-TW": "評論智慧儀表板",
+          "en": "Review intelligence dashboard"
+        },
+        "caption": {
+          "zh-TW": "以 Amazon 評論資料建立商品搜尋、推薦與分析介面。",
+          "en": "A product search, recommendation, and analytics interface built from Amazon review data."
+        },
+        "featured": true
+      }
+    ],
+    "metadata": {
+      "startedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-AI-003",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "ai-data",
+      "secondaryCategories": [],
+      "projectType": "Python",
+      "domains": [
+        "Product search",
+        "Recommendation systems",
+        "Review analytics",
+        "NLP"
+      ],
+      "subjects": [],
+      "controlledTerms": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TypeScript",
+        "DuckDB",
+        "BM25",
+        "Sentence Transformers",
+        "scikit-learn",
+        "Playwright"
+      ],
+      "keywords": [
+        "Amazon Reviews 2023",
+        "BM25",
+        "vector search",
+        "reranking",
+        "recommendation"
+      ],
+      "audiences": [],
+      "contentTypes": [],
+      "dataTypes": [],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "Python",
+        "TypeScript"
+      ],
+      "frameworks": [
+        "FastAPI",
+        "Next.js",
+        "React"
+      ],
+      "libraries": [],
+      "stateManagement": [],
+      "styling": [],
+      "database": [
+        "DuckDB"
+      ],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [
+        "pytest",
+        "Playwright"
+      ],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [],
+      "developmentTools": [],
+      "roles": [
+        "獨立開發者",
+        "Data product developer"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TypeScript",
+        "DuckDB",
+        "BM25",
+        "Sentence Transformers",
+        "scikit-learn",
+        "Playwright"
+      ],
+      "capabilities": [
+        "Hybrid lexical and semantic search",
+        "Review summarization",
+        "Product recommendation",
+        "Sentiment and aspect analysis",
+        "Evaluation dashboard"
+      ],
+      "tools": [],
+      "hasUnitTests": false,
+      "hasIntegrationTests": false,
+      "hasE2ETests": false,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.8,
+      "needsReview": false,
+      "missingFields": [
+        "verified public links"
+      ],
+      "evidenceSources": [
+        "content/projects/amazon-review-intelligence/project.override.json",
+        "content/projects/amazon-review-intelligence/zh-TW.md",
+        "content/projects/amazon-review-intelligence/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-26T13:06:57.015Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "Amazon Review Intelligence",
+        "summary": "Amazon Review Intelligence 結合 Amazon Reviews 2023、BM25、vector search、reranker、review summarization、sentiment / aspect mining、similar product search、recommendation API 與 dashboard，展示真實 AI product 會需要的搜尋、推薦、NLP、API、前端與評估能力。",
+        "description": "Amazon Review Intelligence 是一個以評論為核心的商品搜尋與推薦資料產品。它結合 Amazon Reviews 2023 category subset、BM25、vector search、reranker、review summarization、sentiment / aspect mining、similar product search 與 recommendation API，目標是展示真實 AI product 會需要的搜尋、推薦、NLP、API、dashboard 與評估能力。\n\n這個專案把評論資料整理成可查詢、可比較、可評估的產品體驗。後端以 Python、DuckDB 與 FastAPI 組成資料與 API 層，前端以 Next.js 呈現商品搜尋、評論摘要、推薦、比較、embedding cluster、pipeline 與 evaluation 頁面。專案同時保留 pytest 與 Playwright 驗證，讓資料處理、API contract 與主要前端流程可以被重跑檢查。\n\n作品集卡片要呈現的重點是：這不是單純的 dashboard，而是一個從 ingestion、indexing、retrieval、recommendation、evaluation 到操作介面的完整資料產品練習。",
+        "tagline": "以評論資料驅動的商品搜尋、推薦與分析資料產品。",
+        "role": "獨立開發者",
+        "problem": "Amazon 商品頁有大量評論，但使用者很難快速理解商品優缺點、評論情緒與相似商品關係；單靠平均星等也不足以支援搜尋、比較與推薦決策。",
+        "solution": "建立一個以評論為核心的資料產品：用 DuckDB 管理商品與評論資料，FastAPI 提供搜尋與推薦 API，並用 Next.js 儀表板呈現 hybrid search、商品摘要、情緒分析、推薦結果與模型評估。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "**Hybrid Search** — BM25 lexical + sentence-transformer vector search with configurable alpha blending",
+          "**Review Intelligence** — per-product summaries, pros/cons extraction, sentiment distribution",
+          "**Recommendation** — popularity, content-based, item-item, and cold-start strategies",
+          "**REST API** — FastAPI with 8 endpoints, OpenAPI docs at `/docs`"
+        ],
+        "challenges": [
+          "在 BM25 與 sentence-transformer 向量搜尋之間設計可調權重，讓關鍵字精準度與語意召回能同時被觀察。",
+          "在不能重新散布原始 Amazon review dump 的限制下，只公開程式、文件、合成樣本與聚合指標。"
+        ],
+        "nextSteps": [
+          "補上公開 Demo 連結與更完整的 walkthrough 影片。"
+        ]
+      },
+      "en": {
+        "title": "Amazon Review Intelligence",
+        "summary": "Amazon Review Intelligence combines Amazon Reviews 2023 data, BM25, vector search, reranking, review summarization, sentiment and aspect analysis, similar-product search, recommendation APIs, and a dashboard experience.",
+        "description": "Amazon Review Intelligence is a review-centered product search and recommendation data product. It combines Amazon Reviews 2023 category data, BM25, vector search, reranking, review summarization, sentiment and aspect mining, similar-product search, recommendation APIs, and a dashboard experience.\n\nThe project turns review data into a searchable, comparable, and evaluable product experience. The backend uses Python, DuckDB, and FastAPI for data and API layers, while the frontend uses Next.js for product search, review summaries, recommendations, comparison, embedding clusters, pipeline visibility, and evaluation screens. It also includes pytest and Playwright coverage so data processing, API behavior, and main frontend workflows can be checked repeatedly.\n\nThe portfolio card should communicate that this is not just a dashboard. It is a full data product exercise spanning ingestion, indexing, retrieval, recommendation, evaluation, and an operator-facing interface.",
+        "tagline": "A review-centered product search and recommendation data product.",
+        "role": "Independent Developer",
+        "problem": "Product pages contain many reviews, but shoppers cannot easily turn raw review volume into clear tradeoffs, sentiment patterns, comparable products, or recommendation signals.",
+        "solution": "Built a review-centered data product with DuckDB for product and review data, FastAPI for search and recommendation endpoints, and a Next.js dashboard for hybrid search, product summaries, sentiment analytics, recommendations, and evaluation views.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "**Hybrid Search** — BM25 lexical + sentence-transformer vector search with configurable alpha blending",
+          "**Review Intelligence** — per-product summaries, pros/cons extraction, sentiment distribution",
+          "**Recommendation** — popularity, content-based, item-item, and cold-start strategies",
+          "**REST API** — FastAPI with 8 endpoints, OpenAPI docs at `/docs`"
+        ],
+        "challenges": [
+          "Balanced BM25 keyword precision with sentence-transformer semantic recall through configurable hybrid ranking.",
+          "Kept the portfolio presentation public-safe by shipping code, docs, synthetic samples, screenshots, and aggregate metrics instead of redistributing raw Amazon review dumps."
+        ],
+        "nextSteps": [
+          "Add a public demo link and a fuller walkthrough video."
+        ]
+      }
+    }
+  },
+  {
+    "id": "project-animation-ai-studio-pf-2026-ai-004",
     "slug": "animation-ai-studio",
     "category": "ai-data",
     "status": "prototype",
@@ -1334,10 +2012,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-29",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-002",
+      "catalogNumber": "PF-2026-AI-004",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -1410,7 +2088,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.932Z"
+      "lastScannedAt": "2026-06-26T13:06:57.015Z"
     },
     "content": {
       "zh-TW": {
@@ -1505,7 +2183,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-13",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-007",
@@ -1581,7 +2259,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.933Z"
+      "lastScannedAt": "2026-06-26T13:06:57.016Z"
     },
     "content": {
       "zh-TW": {
@@ -1680,7 +2358,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-002",
@@ -1764,7 +2442,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.933Z"
+      "lastScannedAt": "2026-06-26T13:06:57.016Z"
     },
     "content": {
       "zh-TW": {
@@ -1876,7 +2554,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-22",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-003",
@@ -2034,7 +2712,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.933Z"
+      "lastScannedAt": "2026-06-26T13:06:57.016Z"
     },
     "content": {
       "zh-TW": {
@@ -2118,7 +2796,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-004",
@@ -2188,7 +2866,7 @@
         "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.934Z"
+      "lastScannedAt": "2026-06-26T13:06:57.016Z"
     },
     "content": {
       "zh-TW": {
@@ -2294,7 +2972,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-22",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-BD-001",
@@ -2444,7 +3122,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.934Z"
+      "lastScannedAt": "2026-06-26T13:06:57.016Z"
     },
     "content": {
       "zh-TW": {
@@ -2538,7 +3216,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-008",
@@ -2612,7 +3290,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.934Z"
+      "lastScannedAt": "2026-06-26T13:06:57.016Z"
     },
     "content": {
       "zh-TW": {
@@ -2695,7 +3373,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-04",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-005",
@@ -2769,7 +3447,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.934Z"
+      "lastScannedAt": "2026-06-26T13:06:57.016Z"
     },
     "content": {
       "zh-TW": {
@@ -2831,7 +3509,7 @@
     }
   },
   {
-    "id": "project-commercial-ml-analysis-pf-2026-ai-003",
+    "id": "project-commercial-ml-analysis-pf-2026-ai-005",
     "slug": "commercial-ml-analysis",
     "category": "ai-data",
     "status": "prototype",
@@ -2856,10 +3534,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-24",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-003",
+      "catalogNumber": "PF-2026-AI-005",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -2932,7 +3610,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.934Z"
+      "lastScannedAt": "2026-06-26T13:06:57.016Z"
     },
     "content": {
       "zh-TW": {
@@ -2994,7 +3672,7 @@
     }
   },
   {
-    "id": "project-commute-reliability-analysis-pf-2026-ai-004",
+    "id": "project-commute-reliability-analysis-pf-2026-ai-006",
     "slug": "commute-reliability-analysis",
     "category": "ai-data",
     "status": "prototype",
@@ -3026,10 +3704,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-06",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-004",
+      "catalogNumber": "PF-2026-AI-006",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -3100,7 +3778,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.934Z"
+      "lastScannedAt": "2026-06-26T13:06:57.016Z"
     },
     "content": {
       "zh-TW": {
@@ -3192,7 +3870,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-21",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-006",
@@ -3262,7 +3940,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.935Z"
+      "lastScannedAt": "2026-06-26T13:06:57.017Z"
     },
     "content": {
       "zh-TW": {
@@ -3324,7 +4002,7 @@
     }
   },
   {
-    "id": "project-data-narrative-studio-pf-2026-ai-005",
+    "id": "project-data-narrative-studio-pf-2026-ai-007",
     "slug": "data-narrative-studio",
     "category": "ai-data",
     "status": "prototype",
@@ -3359,10 +4037,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-005",
+      "catalogNumber": "PF-2026-AI-007",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -3439,7 +4117,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.935Z"
+      "lastScannedAt": "2026-06-26T13:06:57.017Z"
     },
     "content": {
       "zh-TW": {
@@ -3499,7 +4177,7 @@
     }
   },
   {
-    "id": "project-data-pipelines-pf-2026-ai-006",
+    "id": "project-data-pipelines-pf-2026-ai-008",
     "slug": "data-pipelines",
     "category": "ai-data",
     "status": "prototype",
@@ -3521,10 +4199,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-006",
+      "catalogNumber": "PF-2026-AI-008",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -3591,7 +4269,7 @@
         "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.935Z"
+      "lastScannedAt": "2026-06-26T13:06:57.017Z"
     },
     "content": {
       "zh-TW": {
@@ -3651,7 +4329,7 @@
     }
   },
   {
-    "id": "project-datalab-studio-pf-2026-ai-007",
+    "id": "project-datalab-studio-pf-2026-ai-009",
     "slug": "datalab-studio",
     "category": "ai-data",
     "status": "prototype",
@@ -3685,10 +4363,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-007",
+      "catalogNumber": "PF-2026-AI-009",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -3762,7 +4440,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.935Z"
+      "lastScannedAt": "2026-06-26T13:06:57.017Z"
     },
     "content": {
       "zh-TW": {
@@ -3847,8 +4525,8 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-24",
-      "updatedAt": "2026-06-25",
+      "startedAt": "2026-06-26",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-007",
@@ -3922,7 +4600,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.935Z"
+      "lastScannedAt": "2026-06-26T13:06:57.017Z"
     },
     "content": {
       "zh-TW": {
@@ -4011,7 +4689,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-20",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-008",
@@ -4091,7 +4769,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.935Z"
+      "lastScannedAt": "2026-06-26T13:06:57.017Z"
     },
     "content": {
       "zh-TW": {
@@ -4173,7 +4851,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-25",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-009",
@@ -4251,7 +4929,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.935Z"
+      "lastScannedAt": "2026-06-26T13:06:57.017Z"
     },
     "content": {
       "zh-TW": {
@@ -4338,7 +5016,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-010",
@@ -4414,7 +5092,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.935Z"
+      "lastScannedAt": "2026-06-26T13:06:57.017Z"
     },
     "content": {
       "zh-TW": {
@@ -4507,7 +5185,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-011",
@@ -4583,7 +5261,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.935Z"
+      "lastScannedAt": "2026-06-26T13:06:57.017Z"
     },
     "content": {
       "zh-TW": {
@@ -4645,7 +5323,7 @@
     }
   },
   {
-    "id": "project-excel-python-data-analysis-pf-2026-ai-008",
+    "id": "project-excel-python-data-analysis-pf-2026-ai-010",
     "slug": "excel-python-data-analysis",
     "category": "ai-data",
     "status": "completed",
@@ -4807,7 +5485,7 @@
       "duration": "Portfolio refactor and demo hardening",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-008",
+      "catalogNumber": "PF-2026-AI-010",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -4983,7 +5661,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.935Z"
+      "lastScannedAt": "2026-06-26T13:06:57.018Z"
     },
     "content": {
       "zh-TW": {
@@ -5389,7 +6067,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.936Z"
+      "lastScannedAt": "2026-06-26T13:06:57.018Z"
     },
     "content": {
       "zh-TW": {
@@ -5486,7 +6164,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-013",
@@ -5566,7 +6244,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.936Z"
+      "lastScannedAt": "2026-06-26T13:06:57.018Z"
     },
     "content": {
       "zh-TW": {
@@ -5662,7 +6340,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-28",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-009",
@@ -5740,7 +6418,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.936Z"
+      "lastScannedAt": "2026-06-26T13:06:57.018Z"
     },
     "content": {
       "zh-TW": {
@@ -5835,7 +6513,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-014",
@@ -5911,7 +6589,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.936Z"
+      "lastScannedAt": "2026-06-26T13:06:57.018Z"
     },
     "content": {
       "zh-TW": {
@@ -6008,7 +6686,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-010",
@@ -6092,7 +6770,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.936Z"
+      "lastScannedAt": "2026-06-26T13:06:57.018Z"
     },
     "content": {
       "zh-TW": {
@@ -6184,7 +6862,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-11-06",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-015",
@@ -6252,7 +6930,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.936Z"
+      "lastScannedAt": "2026-06-26T13:06:57.018Z"
     },
     "content": {
       "zh-TW": {
@@ -6338,7 +7016,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-016",
@@ -6412,7 +7090,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.936Z"
+      "lastScannedAt": "2026-06-26T13:06:57.018Z"
     },
     "content": {
       "zh-TW": {
@@ -7198,7 +7876,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.937Z"
+      "lastScannedAt": "2026-06-26T13:06:57.019Z"
     },
     "content": {
       "zh-TW": {
@@ -7294,7 +7972,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-24",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-018",
@@ -7364,7 +8042,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.937Z"
+      "lastScannedAt": "2026-06-26T13:06:57.019Z"
     },
     "content": {
       "zh-TW": {
@@ -7454,7 +8132,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-019",
@@ -7524,7 +8202,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.937Z"
+      "lastScannedAt": "2026-06-26T13:06:57.019Z"
     },
     "content": {
       "zh-TW": {
@@ -7616,7 +8294,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-020",
@@ -7690,7 +8368,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.937Z"
+      "lastScannedAt": "2026-06-26T13:06:57.019Z"
     },
     "content": {
       "zh-TW": {
@@ -7750,6 +8428,336 @@
     }
   },
   {
+    "id": "project-ir-rag-evaluation-lab-pf-2026-ai-011",
+    "slug": "ir-rag-evaluation-lab",
+    "category": "ai-data",
+    "status": "completed",
+    "year": 2026,
+    "featured": true,
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "DuckDB",
+      "React",
+      "Vite",
+      "TypeScript",
+      "BM25",
+      "RAG",
+      "llama.cpp",
+      "ECharts",
+      "Recharts",
+      "Playwright"
+    ],
+    "coverImage": "/portfolio/projects/ir-rag-evaluation-lab/cover.png",
+    "links": [
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/ir-rag-evaluation-lab",
+        "label": {
+          "zh-TW": "查看 GitHub",
+          "en": "View GitHub"
+        }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/projects/ir-rag-evaluation-lab/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "video",
+        "url": "https://neojustin.dothost.net/portfolio/projects/ir-rag-evaluation-lab/demo/ir-rag-evaluation-lab-demo.mp4",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/ir-rag-evaluation-lab#demo-evidence",
+        "label": {
+          "zh-TW": "README",
+          "en": "README"
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "full-demo-video",
+        "type": "video",
+        "src": "/portfolio/projects/ir-rag-evaluation-lab/demo/ir-rag-evaluation-lab-demo.mp4",
+        "poster": "/portfolio/projects/ir-rag-evaluation-lab/cover.png",
+        "alt": {
+          "zh-TW": "IR / RAG Evaluation Lab 的完整 Playwright 導覽錄影。",
+          "en": "Full Playwright walkthrough recording of IR / RAG Evaluation Lab."
+        },
+        "title": {
+          "zh-TW": "完整互動導覽錄影",
+          "en": "Full Interactive Demo Recording"
+        },
+        "caption": {
+          "zh-TW": "展示自動導覽小幫手、Pipeline Journey、查詢評估、評估分析、RAG citation、LLM judge、Text Mining 與雙語切換。",
+          "en": "Shows the auto-starting guide, Pipeline Journey, query evaluation, analytics, RAG citation, LLM judge, text mining, and bilingual switching."
+        },
+        "featured": true
+      },
+      {
+        "id": "guided-assistant",
+        "type": "image",
+        "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/01-tour-overview.png",
+        "alt": {
+          "zh-TW": "自動啟動的導覽小幫手。",
+          "en": "The auto-starting guided assistant."
+        },
+        "title": {
+          "zh-TW": "導覽小幫手",
+          "en": "Guided Assistant"
+        }
+      },
+      {
+        "id": "pipeline-journey",
+        "type": "image",
+        "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/16-journey-top.png",
+        "alt": {
+          "zh-TW": "資料旅程頁展示 JSONL 到評估結果的 pipeline。",
+          "en": "Pipeline Journey showing JSONL flowing into evaluation outputs."
+        },
+        "title": {
+          "zh-TW": "資料旅程",
+          "en": "Pipeline Journey"
+        }
+      },
+      {
+        "id": "query-evaluator",
+        "type": "image",
+        "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/20-query-evaluator-results.png",
+        "alt": {
+          "zh-TW": "查詢評估器比較 BM25、Dense、Hybrid 與 Rerank。",
+          "en": "Query Evaluator comparing BM25, Dense, Hybrid, and Rerank."
+        },
+        "title": {
+          "zh-TW": "查詢評估器",
+          "en": "Query Evaluator"
+        }
+      },
+      {
+        "id": "analytics",
+        "type": "image",
+        "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/22-analytics-top.png",
+        "alt": {
+          "zh-TW": "評估分析頁的 metric matrix 與 retriever battle。",
+          "en": "Evaluation Analytics metric matrix and retriever battle."
+        },
+        "title": {
+          "zh-TW": "評估分析",
+          "en": "Evaluation Analytics"
+        }
+      },
+      {
+        "id": "rag-citation",
+        "type": "image",
+        "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/24-rag-citation-workbench.png",
+        "alt": {
+          "zh-TW": "RAG citation workbench 顯示 claims、evidence 與支持判斷。",
+          "en": "RAG citation workbench showing claims, evidence, and support judgments."
+        },
+        "title": {
+          "zh-TW": "RAG 引用檢查",
+          "en": "RAG Citation Checker"
+        }
+      },
+      {
+        "id": "text-mining",
+        "type": "image",
+        "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/27-text-mining-network.png",
+        "alt": {
+          "zh-TW": "文本探勘頁的共現網路與進階圖表。",
+          "en": "Text mining page with co-occurrence network and advanced charts."
+        },
+        "title": {
+          "zh-TW": "文本探勘網路",
+          "en": "Text Mining Network"
+        }
+      },
+      {
+        "id": "english-ui",
+        "type": "image",
+        "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/29-english-ui.png",
+        "alt": {
+          "zh-TW": "英文介面的 Evaluation Command Center。",
+          "en": "English Evaluation Command Center."
+        },
+        "title": {
+          "zh-TW": "英文介面",
+          "en": "English UI"
+        }
+      }
+    ],
+    "metadata": {
+      "startedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-AI-011",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "ai-data",
+      "secondaryCategories": [],
+      "projectType": "Other",
+      "domains": [],
+      "subjects": [],
+      "controlledTerms": [
+        "Python",
+        "FastAPI",
+        "DuckDB",
+        "React",
+        "Vite",
+        "TypeScript",
+        "BM25",
+        "RAG",
+        "llama.cpp",
+        "ECharts",
+        "Recharts",
+        "Playwright"
+      ],
+      "keywords": [],
+      "audiences": [],
+      "contentTypes": [],
+      "dataTypes": [],
+      "platforms": [
+        "Web"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "stateManagement": [],
+      "styling": [],
+      "database": [],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [],
+      "developmentTools": [],
+      "roles": [
+        "獨立開發者 / IR、RAG 與 Evaluation Workflow 架構師"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "Python",
+        "FastAPI",
+        "DuckDB",
+        "React",
+        "Vite",
+        "TypeScript",
+        "BM25",
+        "RAG",
+        "llama.cpp",
+        "ECharts",
+        "Recharts",
+        "Playwright"
+      ],
+      "capabilities": [],
+      "tools": [],
+      "hasUnitTests": false,
+      "hasIntegrationTests": false,
+      "hasE2ETests": false,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.7,
+      "needsReview": false,
+      "missingFields": [],
+      "evidenceSources": [
+        "content/projects/ir-rag-evaluation-lab/project.override.json",
+        "content/projects/ir-rag-evaluation-lab/zh-TW.md",
+        "content/projects/ir-rag-evaluation-lab/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-26T13:06:57.019Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "IR / RAG Evaluation Lab",
+        "summary": "IR / RAG Evaluation Lab 是一個 benchmark/evaluation lab，不是聊天機器人 UI。它支援 custom JSONL、BEIR/MS MARCO/OpenAlex ingestion、BM25 baseline、dense fallback、hybrid search、reranker interface、retrieval metrics、bad case analysis、RAG citation checker、local llama.cpp judge、query rewrite experiment、text mining network analysis，以及完整中英文 React dashboard。",
+        "description": "IR / RAG Evaluation Lab 的核心不是「產生答案」，而是證明 retrieval 與 RAG 評估流程是否可靠。\n\n使用者可以上傳 `documents.jsonl` 與 `queries.jsonl`，也可以使用內建 sample dataset。系統會把資料寫入 DuckDB dataset registry，檢查資料品質，建立 BM25/dense/hybrid/rerank 的 evaluation runs，並產生 Precision@K、Recall@K、MRR、MAP、nDCG@K、latency 與 zero-result rate。\n\n前端是一個雙語 evaluation dashboard。它包含 Query Evaluator、Retrieval Comparison、Evaluation Analytics、RAG Citation Checker、Bad Case Viewer、LLM Evaluation、Text Mining 與 Experiment Runs。自動啟動的小幫手會引導面試官逐步跳到每個功能區，解釋每個數值與圖表代表什麼，而不是只展示漂亮圖表。\n\nlocal llama.cpp 被用在 evaluation workflow：claim support、bad case root cause suggestion、query rewrite experiment、faithfulness judgment 與 analyst notes。UI 會清楚標示 LLM judge 是 assistive signal，不是 ground truth，並保留 latency、confidence、invalid JSON rate 與 run history。\n\n我使用 Playwright 做完整 walkthrough 驗證，包含導覽小幫手、Pipeline Journey、query evaluation、analytics heatmap、RAG citation、LLM dashboard、text mining network 與中英文切換；截圖與錄影都已連到本頁。",
+        "tagline": "一個專業的資訊檢索與 RAG 評估工作台，展示 BM25、Dense、Hybrid、Rerank、RAG citation、LLM judge 與文本探勘分析。",
+        "role": "獨立開發者 / IR、RAG 與 Evaluation Workflow 架構師",
+        "problem": "很多 RAG demo 只展示把 embedding 丟進 vector DB 後得到一段答案，卻無法證明 retrieval 是否真的找到正確 evidence，也無法解釋失敗 query、citation coverage、bad cases 或 LLM judge 的可靠性。這個專案的目標是做出一個可重現、可展示、可診斷的 IR/RAG evaluation lab。",
+        "solution": "我使用 FastAPI + DuckDB 實作 dataset registry、BM25/dense/hybrid/rerank retrievers、experiment persistence、retrieval metrics、bad case root cause workflow、RAG claim-to-evidence evaluation、llama.cpp local judge history，以及 text mining pipeline。前端使用 React + TypeScript + Vite，提供自動啟動的導覽小幫手、Pipeline Journey、互動式 heatmap/scatter/network/Sankey/chart dashboard，並用 Playwright 產生完整截圖與錄影驗證。",
+        "outcome": "一個面試可直接展示的 evaluation platform：使用者能上傳 JSONL 或使用 sample dataset，跟著導覽小幫手逐步理解資料如何被清理、索引、檢索、評估、分析與報告化，並能檢查 llama.cpp judge 是否為真實連線。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "BM25、Dense、Hybrid、Rerank 的可比較 retriever workflow，所有 search/evaluate run 都寫入 DuckDB。",
+          "Evaluation Analytics 包含 metric matrix、failure heatmap、rank movement、retriever battle、query diagnostics 與 deterministic insight summary。",
+          "RAG Citation Checker 將 answer 拆成 claims，對應 evidence/citation，並以 local llama.cpp 輔助判斷 supported、partially supported、unsupported 或 contradictory。",
+          "Text Mining 頁整合共現網路、collocation、association rules、Sankey flow、community detection 與 Gephi-like network workbench。",
+          "App 式導覽小幫手每次進站自動啟動，逐步跳到各頁指定區塊並搭配 spotlight 與 pipeline journey 解釋結果意義。"
+        ],
+        "challenges": [
+          "讓專案保持 benchmark/evaluation lab 定位，而不是退化成一般 ChatGPT UI。",
+          "設計 fallback 與 real llama.cpp mode，讓 demo 離線可跑，但真實 LLM judge 也能被記錄與驗證。",
+          "把 raw JSON payload 產品化成 cards、badges、confidence bars、history dashboard 與 reviewer workflow。",
+          "用 Playwright 驗證整個導覽、每個主要頁面、長頁 scroll screenshots、錄影與雙語切換。"
+        ],
+        "nextSteps": [
+          "接入更大型的 BEIR/MS MARCO/OpenAlex benchmark corpus 與更多 qrels。",
+          "加入更正式的 reranker/cross-encoder model adapter 與 Prompt Studio。",
+          "擴充報表成可互動的 benchmark artifact，支援更多 stakeholder-friendly conclusions。"
+        ]
+      },
+      "en": {
+        "title": "IR / RAG Evaluation Lab",
+        "summary": "IR / RAG Evaluation Lab is a benchmark and evaluation lab, not a chatbot UI. It supports custom JSONL, BEIR/MS MARCO/OpenAlex ingestion, BM25 baseline, dense fallback, hybrid search, reranker interface, retrieval metrics, bad case analysis, RAG citation checking, local llama.cpp judging, query rewrite experiments, text-mining network analysis, and a bilingual React dashboard.",
+        "description": "IR / RAG Evaluation Lab is designed to prove retrieval and RAG evaluation quality, not merely produce answers.\n\nUsers can upload `documents.jsonl` and `queries.jsonl` or use the included sample datasets. The system persists data in a DuckDB dataset registry, checks data quality, runs BM25/dense/hybrid/rerank evaluations, and reports Precision@K, Recall@K, MRR, MAP, nDCG@K, latency, and zero-result rate.\n\nThe frontend is a bilingual evaluation dashboard with Query Evaluator, Retrieval Comparison, Evaluation Analytics, RAG Citation Checker, Bad Case Viewer, LLM Evaluation, Text Mining, and Experiment Runs. The auto-starting guide walks an interviewer across the actual feature areas and explains what the metrics and charts mean, instead of showing unexplained visuals.\n\nlocal llama.cpp is used inside the evaluation workflow for claim support, bad case root-cause suggestions, query rewrite experiments, faithfulness judgments, and analyst notes. The UI labels LLM judge output as an assistive signal, not ground truth, and tracks latency, confidence, invalid JSON rate, and run history.\n\nThe full experience is verified by a Playwright walkthrough covering the guided assistant, Pipeline Journey, query evaluation, analytics heatmaps, RAG citation, LLM dashboard, text-mining network, and zh/en switching. The screenshots and recording linked on this project card come directly from that capture pipeline.",
+        "tagline": "A professional information retrieval and RAG evaluation workbench covering BM25, Dense, Hybrid, Rerank, RAG citation, LLM judge, and text-mining analytics.",
+        "role": "Independent Developer / IR, RAG, and Evaluation Workflow Architect",
+        "problem": "Many RAG demos show an answer after putting embeddings into a vector database, but they do not prove whether retrieval found the right evidence or explain failed queries, citation coverage, bad cases, or LLM judge reliability. This project was built as a reproducible, explainable, demo-ready IR/RAG evaluation lab.",
+        "solution": "I built a FastAPI + DuckDB backend for dataset registry, BM25/dense/hybrid/rerank retrievers, experiment persistence, retrieval metrics, bad case root-cause workflow, RAG claim-to-evidence evaluation, llama.cpp local judge history, and text-mining analytics. The React + TypeScript + Vite frontend provides an auto-starting guided assistant, Pipeline Journey, interactive heatmaps, scatter plots, networks, Sankey-style flows, and chart dashboards, all verified with Playwright screenshots and a walkthrough recording.",
+        "outcome": "An interview-ready evaluation platform: users can upload JSONL or use sample datasets, follow an assistant through the full data-to-evaluation journey, compare retrievers, inspect failures, review RAG citations, verify local llama.cpp judging, and export reproducible evidence.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "Comparable BM25, Dense, Hybrid, and Rerank workflows with every search/evaluation run persisted to DuckDB.",
+          "Evaluation Analytics includes metric matrices, failure heatmaps, rank movement, retriever battles, query diagnostics, and deterministic insight summaries.",
+          "RAG Citation Checker splits answers into claims, maps evidence/citations, and uses local llama.cpp to assist with supported, partially supported, unsupported, or contradictory judgments.",
+          "Text Mining combines co-occurrence networks, collocations, association rules, Sankey flows, community detection, and a Gephi-like network workbench.",
+          "An app-like guided assistant auto-starts on every visit, jumps to feature targets, and explains results through spotlighted UI and the Pipeline Journey."
+        ],
+        "challenges": [
+          "Keeping the product focused on benchmark/evaluation workflows instead of drifting into a generic ChatGPT interface.",
+          "Designing fallback and real llama.cpp modes so offline demos still run while real LLM judge runs remain auditable.",
+          "Turning raw JSON payloads into structured cards, badges, confidence bars, history dashboards, and reviewer workflows.",
+          "Using Playwright to verify the guided tour, every major page, long-page screenshots, recording, and bilingual switching."
+        ],
+        "nextSteps": [
+          "Connect larger BEIR/MS MARCO/OpenAlex benchmark corpora with deeper qrels coverage.",
+          "Add a production cross-encoder/reranker adapter and Prompt Studio for evaluation prompts.",
+          "Grow the report into an interactive benchmark artifact with more stakeholder-friendly conclusions."
+        ]
+      }
+    }
+  },
+  {
     "id": "project-javascript-platformer-concepts-pf-2026-is-021",
     "slug": "javascript-platformer-concepts",
     "category": "information-system",
@@ -7782,7 +8790,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-021",
@@ -7856,7 +8864,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.937Z"
+      "lastScannedAt": "2026-06-26T13:06:57.020Z"
     },
     "content": {
       "zh-TW": {
@@ -7949,7 +8957,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-022",
@@ -8024,7 +9032,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.937Z"
+      "lastScannedAt": "2026-06-26T13:06:57.020Z"
     },
     "content": {
       "zh-TW": {
@@ -8086,7 +9094,7 @@
     }
   },
   {
-    "id": "project-library-reach-analysis-pf-2026-ai-009",
+    "id": "project-library-reach-analysis-pf-2026-ai-012",
     "slug": "library-reach-analysis",
     "category": "ai-data",
     "status": "prototype",
@@ -8116,10 +9124,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-21",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-009",
+      "catalogNumber": "PF-2026-AI-012",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -8186,7 +9194,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.937Z"
+      "lastScannedAt": "2026-06-26T13:06:57.020Z"
     },
     "content": {
       "zh-TW": {
@@ -8242,7 +9250,7 @@
     }
   },
   {
-    "id": "project-llm-train-eval-ship-pf-2026-ai-010",
+    "id": "project-llm-train-eval-ship-pf-2026-ai-013",
     "slug": "llm-train-eval-ship",
     "category": "ai-data",
     "status": "prototype",
@@ -8274,10 +9282,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-10-08",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-010",
+      "catalogNumber": "PF-2026-AI-013",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -8348,7 +9356,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.937Z"
+      "lastScannedAt": "2026-06-26T13:06:57.020Z"
     },
     "content": {
       "zh-TW": {
@@ -8410,7 +9418,7 @@
     }
   },
   {
-    "id": "project-lost-yokai-campus-rpg-pf-2026-ai-011",
+    "id": "project-lost-yokai-campus-rpg-pf-2026-ai-014",
     "slug": "lost-yokai-campus-rpg",
     "category": "ai-data",
     "status": "prototype",
@@ -8447,10 +9455,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-011",
+      "catalogNumber": "PF-2026-AI-014",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -8531,7 +9539,7 @@
         "content/projects/lost-yokai-campus-rpg/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.937Z"
+      "lastScannedAt": "2026-06-26T13:06:57.020Z"
     },
     "content": {
       "zh-TW": {
@@ -8589,7 +9597,284 @@
     }
   },
   {
-    "id": "project-metashelf-pf-2026-is-023",
+    "id": "project-lyrics-cultural-analytics-lab-pf-2026-is-023",
+    "slug": "lyrics-cultural-analytics-lab",
+    "category": "information-system",
+    "status": "prototype",
+    "year": 2026,
+    "featured": true,
+    "technologies": [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "Python",
+      "DuckDB",
+      "scikit-learn",
+      "Playwright"
+    ],
+    "coverImage": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-redesign.png",
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/lyrics-cultural-analytics-lab/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/agentic-bi-dataops-copilot/tree/lyrics-cultural-analytics-lab",
+        "label": {
+          "zh-TW": "查看 GitHub",
+          "en": "View GitHub"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/agentic-bi-dataops-copilot/tree/lyrics-cultural-analytics-lab#readme",
+        "label": {
+          "zh-TW": "查看 README",
+          "en": "View README"
+        }
+      },
+      {
+        "kind": "video",
+        "url": "https://neojustin.dothost.net/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+        "label": {
+          "zh-TW": "Demo 影片",
+          "en": "Demo Recording"
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "overview-dashboard",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-redesign.png",
+        "alt": {
+          "zh-TW": "Lyrics Cultural Analytics Lab 的總覽 dashboard，包含資料集狀態與文化分析摘要。",
+          "en": "Lyrics Cultural Analytics Lab overview dashboard with dataset status and cultural analytics summary."
+        },
+        "title": {
+          "zh-TW": "總覽 Dashboard",
+          "en": "Overview Dashboard"
+        },
+        "featured": true
+      },
+      {
+        "id": "workflow-journey",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-journey-v2.png",
+        "alt": {
+          "zh-TW": "資料匯入、清理、特徵工程、訓練與評估的 workflow journey。",
+          "en": "Workflow journey for ingestion, cleaning, feature engineering, training, and evaluation."
+        },
+        "title": {
+          "zh-TW": "資料流程 Journey",
+          "en": "Data Workflow Journey"
+        }
+      },
+      {
+        "id": "ml-lab",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-journey-v2.png",
+        "alt": {
+          "zh-TW": "ML Lab 頁面展示模型比較、分類器與解釋分析。",
+          "en": "ML Lab page showing model comparison, classifier results, and explainability analysis."
+        },
+        "title": {
+          "zh-TW": "ML Lab",
+          "en": "ML Lab"
+        }
+      },
+      {
+        "id": "guided-tour",
+        "type": "video",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+        "poster": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/guided-tour-step-01.png",
+        "alt": {
+          "zh-TW": "Lyrics Cultural Analytics Lab 的互動導覽錄影。",
+          "en": "Interactive guided tour recording for Lyrics Cultural Analytics Lab."
+        },
+        "title": {
+          "zh-TW": "互動導覽錄影",
+          "en": "Guided Tour Recording"
+        }
+      }
+    ],
+    "metadata": {
+      "startedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-IS-023",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "information-system",
+      "secondaryCategories": [],
+      "projectType": "Full-stack analytics platform",
+      "domains": [
+        "NLP",
+        "Music analytics",
+        "Cultural analytics",
+        "Machine learning explainability"
+      ],
+      "subjects": [],
+      "controlledTerms": [
+        "React",
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "DuckDB",
+        "scikit-learn",
+        "Playwright"
+      ],
+      "keywords": [
+        "copyright-safe analytics",
+        "TF-IDF",
+        "topic modeling",
+        "similarity search",
+        "genre classification",
+        "data quality"
+      ],
+      "audiences": [],
+      "contentTypes": [],
+      "dataTypes": [],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "TypeScript",
+        "Python"
+      ],
+      "frameworks": [
+        "React",
+        "FastAPI"
+      ],
+      "libraries": [],
+      "stateManagement": [],
+      "styling": [],
+      "database": [
+        "DuckDB"
+      ],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [
+        "Pytest",
+        "Vitest",
+        "Playwright"
+      ],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [],
+      "developmentTools": [],
+      "roles": [
+        "獨立開發者 / Full-stack Data Product Developer"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "React",
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "DuckDB",
+        "scikit-learn",
+        "Playwright"
+      ],
+      "capabilities": [
+        "Dashboard analytics",
+        "Model evaluation",
+        "Explainable ML",
+        "Dataset workflow",
+        "Guided product tour"
+      ],
+      "tools": [],
+      "hasUnitTests": true,
+      "hasIntegrationTests": true,
+      "hasE2ETests": true,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.7,
+      "needsReview": false,
+      "missingFields": [],
+      "evidenceSources": [
+        "content/projects/lyrics-cultural-analytics-lab/project.override.json",
+        "content/projects/lyrics-cultural-analytics-lab/zh-TW.md",
+        "content/projects/lyrics-cultural-analytics-lab/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-26T13:06:57.020Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "Lyrics Cultural Analytics Lab",
+        "summary": "一個以 React、FastAPI、DuckDB 與 scikit-learn 建成的雙語資料產品，用 metadata、BoW、TF-IDF、topic modeling、相似度與分類模型分析歌曲文化趨勢，同時避免公開完整歌詞。",
+        "description": "Lyrics Cultural Analytics Lab 是一個 copyright-safe 的歌詞文化分析資料產品。它不是單一 notebook，而是把 FastAPI backend、DuckDB feature store、scikit-learn 模型流程與 React TypeScript dashboard 組成一個可操作的平台。\n\n產品重點是讓使用者探索歌曲文化趨勢，同時不公開完整歌詞。Demo 使用 metadata、BoW features、TF-IDF、topic labels、sentiment scores、similarity outputs、classification metrics 與聚合圖表，並用安全檢查避免 API response、sample data 或 UI 出現 raw lyric fields。\n\n前端包含總覽 dashboard、資料集 workflow、topic explorer、sentiment timeline、similar songs、artist style、ML lab、evaluation、explainability center 與 report workspace。作品集素材包含 overview、workflow、ML lab 截圖與 guided tour 錄影，因此在「所有專案」頁面可以直接看到這個專案的實際樣子。",
+        "tagline": "Copyright-safe 歌詞文化分析與可解釋機器學習平台",
+        "role": "獨立開發者 / Full-stack Data Product Developer",
+        "problem": "歌詞分析作品很容易落入兩個風險：只停留在 notebook 圖表，或在展示時暴露不該公開的完整歌詞。這個專案要把歌曲 metadata、衍生特徵、模型結果與可視化流程整理成可操作的產品，同時維持 copyright-safe 邊界。",
+        "solution": "我建立 FastAPI backend、DuckDB feature store、scikit-learn 分析流程與 React TypeScript dashboard，讓使用者可以檢查資料、清理欄位、比較模型、探索主題與情緒趨勢，並透過 guided tour 看見完整資料流程。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "以 metadata、BoW、TF-IDF、topics、模型輸出與聚合結果呈現分析，不顯示完整歌詞。",
+          "提供 overview、dataset workflow、ML lab、evaluation、similarity、artist style 與 reporting 等完整 dashboard。",
+          "後端包含資料驗證、安全檢查、DuckDB ETL、分類、相似度、topic modeling 與 evaluation endpoints。",
+          "用 Playwright 產出 guided tour 截圖與錄影，讓作品集卡片能展示真實互動畫面。"
+        ],
+        "challenges": [
+          "在可展示的 demo 與不暴露 raw lyrics 之間設計清楚資料邊界。",
+          "把資料處理、模型訓練、評估與前端探索整合成一致工作流。"
+        ],
+        "nextSteps": [
+          "串接更多授權資料來源的衍生特徵匯入流程。",
+          "擴充模型比較與文化趨勢解釋報告。"
+        ]
+      },
+      "en": {
+        "title": "Lyrics Cultural Analytics Lab",
+        "summary": "A bilingual data product built with React, FastAPI, DuckDB, and scikit-learn for analyzing music culture through metadata, BoW features, TF-IDF, topic modeling, similarity, and classification outputs without publishing full lyrics.",
+        "description": "Lyrics Cultural Analytics Lab is a copyright-safe lyrics culture analytics data product. It is not a standalone notebook: it combines a FastAPI backend, DuckDB feature store, scikit-learn modeling workflow, and React TypeScript dashboard into a usable platform.\n\nThe product focuses on exploring music culture without publishing complete lyrics. The demo works with metadata, BoW features, TF-IDF, topic labels, sentiment scores, similarity outputs, classification metrics, and aggregate charts, with safety checks that keep raw lyric fields out of API responses, sample data, and rendered UI.\n\nThe frontend includes an overview dashboard, dataset workflow, topic explorer, sentiment timeline, similar songs, artist style, ML lab, evaluation, explainability center, and report workspace. The portfolio entry includes overview, workflow, ML lab screenshots, and a guided-tour recording, so the all-projects page can show what the project actually looks like.",
+        "tagline": "Copyright-safe lyrics culture analytics and explainable ML platform",
+        "role": "Independent Developer / Full-stack Data Product Developer",
+        "problem": "Lyrics analytics demos can easily become either notebook-only charts or unsafe showcases that expose full lyric text. This project turns derived song metadata, features, model outputs, and visual workflows into a runnable product while keeping a copyright-safe boundary.",
+        "solution": "I built a FastAPI backend, DuckDB feature store, scikit-learn analysis pipeline, and React TypeScript dashboard so users can inspect data, clean fields, compare models, explore topics and sentiment trends, and follow the full workflow through a guided tour.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "Uses metadata, BoW, TF-IDF, topics, model outputs, and aggregate charts instead of displaying complete lyrics.",
+          "Includes overview, dataset workflow, ML lab, evaluation, similarity, artist style, and reporting dashboards.",
+          "Backend covers data validation, safety checks, DuckDB ETL, classification, similarity, topic modeling, and evaluation endpoints.",
+          "Playwright captures guided-tour screenshots and video so the portfolio card shows real product screens."
+        ],
+        "challenges": [
+          "Designing a demo experience that remains useful without exposing raw lyrics.",
+          "Connecting ingestion, model training, evaluation, and frontend exploration into one coherent workflow."
+        ],
+        "nextSteps": [
+          "Expand derived-feature imports for more licensed datasets.",
+          "Deepen model comparison and cultural-trend report generation."
+        ]
+      }
+    }
+  },
+  {
+    "id": "project-metashelf-pf-2026-is-024",
     "slug": "metashelf",
     "category": "information-system",
     "status": "prototype",
@@ -8611,10 +9896,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-023",
+      "catalogNumber": "PF-2026-IS-024",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -8681,7 +9966,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.938Z"
+      "lastScannedAt": "2026-06-26T13:06:57.020Z"
     },
     "content": {
       "zh-TW": {
@@ -8741,7 +10026,7 @@
     }
   },
   {
-    "id": "project-modelops-dashboard-pf-2026-is-024",
+    "id": "project-modelops-dashboard-pf-2026-is-025",
     "slug": "modelops-dashboard",
     "category": "information-system",
     "status": "prototype",
@@ -8775,10 +10060,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-024",
+      "catalogNumber": "PF-2026-IS-025",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -8852,7 +10137,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.938Z"
+      "lastScannedAt": "2026-06-26T13:06:57.021Z"
     },
     "content": {
       "zh-TW": {
@@ -8912,7 +10197,7 @@
     }
   },
   {
-    "id": "project-mrt-ubike-analysis-pf-2026-ai-012",
+    "id": "project-mrt-ubike-analysis-pf-2026-ai-015",
     "slug": "mrt-ubike-analysis",
     "category": "ai-data",
     "status": "prototype",
@@ -8945,10 +10230,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-21",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-012",
+      "catalogNumber": "PF-2026-AI-015",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -9021,7 +10306,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.938Z"
+      "lastScannedAt": "2026-06-26T13:06:57.021Z"
     },
     "content": {
       "zh-TW": {
@@ -9083,7 +10368,7 @@
     }
   },
   {
-    "id": "project-multi-ai-agents-pf-2026-ai-013",
+    "id": "project-multi-ai-agents-pf-2026-ai-016",
     "slug": "multi-ai-agents",
     "category": "ai-data",
     "status": "prototype",
@@ -9108,10 +10393,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-013",
+      "catalogNumber": "PF-2026-AI-016",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -9184,7 +10469,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.938Z"
+      "lastScannedAt": "2026-06-26T13:06:57.021Z"
     },
     "content": {
       "zh-TW": {
@@ -9246,6 +10531,208 @@
     }
   },
   {
+    "id": "project-music-intelligence-platform-pf-2026-is-026",
+    "slug": "music-intelligence-platform",
+    "category": "information-system",
+    "status": "prototype",
+    "year": 2026,
+    "featured": false,
+    "technologies": [
+      "Python"
+    ],
+    "coverImage": "/portfolio/projects/music-intelligence-platform/cover.png",
+    "links": [
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/music-intelligence-platform",
+        "label": {
+          "zh-TW": "查看 GitHub",
+          "en": "View GitHub"
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "home-dashboard",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/cover.png",
+        "alt": {
+          "zh-TW": "Music Intelligence Platform 首頁，呈現音樂資料分析與推薦系統入口",
+          "en": "Music Intelligence Platform home screen showing the music analytics and recommendation entry point"
+        },
+        "title": {
+          "zh-TW": "平台首頁",
+          "en": "Platform home"
+        },
+        "caption": {
+          "zh-TW": "音樂知識檢索、推薦與分析平台的主畫面。",
+          "en": "Main screen for the music knowledge search, recommendation, and analytics platform."
+        },
+        "featured": true
+      },
+      {
+        "id": "search-results",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-search-results.png",
+        "alt": {
+          "zh-TW": "Music Intelligence Platform 搜尋結果頁，展示歌曲檢索與排序結果",
+          "en": "Music Intelligence Platform search results page showing track retrieval and ranking results"
+        },
+        "title": {
+          "zh-TW": "搜尋結果",
+          "en": "Search results"
+        },
+        "caption": {
+          "zh-TW": "BM25、向量檢索與 hybrid ranking 的搜尋體驗。",
+          "en": "Search experience for BM25, vector retrieval, and hybrid ranking."
+        }
+      },
+      {
+        "id": "recommendations",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-recommend.png",
+        "alt": {
+          "zh-TW": "Music Intelligence Platform 推薦頁，展示歌曲推薦與解釋資訊",
+          "en": "Music Intelligence Platform recommendation page showing recommended tracks and explanation signals"
+        },
+        "title": {
+          "zh-TW": "推薦系統",
+          "en": "Recommendation system"
+        },
+        "caption": {
+          "zh-TW": "以音訊特徵、標籤與使用者訊號支援推薦結果。",
+          "en": "Recommendations supported by audio features, tags, and user signals."
+        }
+      }
+    ],
+    "metadata": {
+      "startedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-IS-026",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "information-system",
+      "secondaryCategories": [],
+      "projectType": "Python",
+      "domains": [],
+      "subjects": [],
+      "controlledTerms": [
+        "Python"
+      ],
+      "keywords": [],
+      "audiences": [],
+      "contentTypes": [],
+      "dataTypes": [],
+      "platforms": [
+        "Web"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "stateManagement": [],
+      "styling": [],
+      "database": [],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [],
+      "developmentTools": [],
+      "roles": [
+        "獨立開發者"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "Python"
+      ],
+      "capabilities": [],
+      "tools": [],
+      "hasUnitTests": false,
+      "hasIntegrationTests": false,
+      "hasE2ETests": false,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.8,
+      "needsReview": true,
+      "missingFields": [
+        "reviewed zh-TW case study",
+        "reviewed English case study",
+        "verified public links"
+      ],
+      "evidenceSources": [
+        "content/projects/music-intelligence-platform/project.override.json",
+        "content/projects/music-intelligence-platform/zh-TW.md",
+        "content/projects/music-intelligence-platform/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-26T13:06:57.021Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "Music Intelligence Platform",
+        "summary": "Music Intelligence Platform 是一個音樂知識檢索、相似歌曲搜尋、推薦系統與 artist analytics 平台。它整合 Million Song Dataset、Taste Profile、MusicBrainz、ListenBrainz，以及 copyright-safe lyric-d...",
+        "description": "Music Intelligence Platform 是一個音樂知識檢索、相似歌曲搜尋、推薦系統與 artist analytics 平台。它整合 Million Song Dataset、Taste Profile、MusicBrainz、ListenBrainz，以及 copyright-safe lyric-derived features，展示 metadata ETL、hybrid recommendation、ANN search、artist graph analytics、FastAPI API 與 Streamlit demo。\n\n> Data Policy: This repo contains no raw music data. Only synthetic sample data (MIT-licensed) is committed. See docs/licensingnotes.md.\n\n| Aspect | MovieLens | This Project | |--------|-----------|--------------| | Signal sources | Ratings only | Audio features + tag TF-IDF + embeddings + co-listen graph | | Search | None | BM25 + FAISS vector + hybrid RRF fusion | | Graph analytics | None | Artist co-listen n",
+        "tagline": "Music Intelligence Platform 是一個音樂知識檢索、相似歌曲搜尋、推薦系統與 artist analytics 平台。它整合 Milli...",
+        "role": "獨立開發者",
+        "problem": "此欄位需要依 README 與實際程式碼人工確認。",
+        "solution": "此欄位需要依 Python 與系統架構人工補寫。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "包含完整原始碼",
+          "採用現代技術架構開發",
+          "支援響應式網頁介面"
+        ],
+        "challenges": [
+          "需要補充真實技術挑戰。"
+        ],
+        "nextSteps": [
+          "補齊截圖、Demo 與完整案例研究。"
+        ]
+      },
+      "en": {
+        "title": "Music Intelligence Platform",
+        "summary": "Music Intelligence Platform 是一個音樂知識檢索、相似歌曲搜尋、推薦系統與 artist analytics 平台。它整合 Million Song Dataset、Taste Profile、MusicBrainz、ListenBrainz，以及 copyright-safe lyric-d...",
+        "description": "Music Intelligence Platform 是一個音樂知識檢索、相似歌曲搜尋、推薦系統與 artist analytics 平台。它整合 Million Song Dataset、Taste Profile、MusicBrainz、ListenBrainz，以及 copyright-safe lyric-derived features，展示 metadata ETL、hybrid recommendation、ANN search、artist graph analytics、FastAPI API 與 Streamlit demo。\n\n> Data Policy: This repo contains no raw music data. Only synthetic sample data (MIT-licensed) is committed. See docs/licensingnotes.md.\n\n| Aspect | MovieLens | This Project | |--------|-----------|--------------| | Signal sources | Ratings only | Audio features + tag TF-IDF + embeddings + co-listen graph | | Search | None | BM25 + FAISS vector + hybrid RRF fusion | | Graph analytics | None | Artist co-listen n",
+        "tagline": "Music Intelligence Platform 是一個音樂知識檢索、相似歌曲搜尋、推薦系統與 artist analytics 平台。它整合 Milli...",
+        "role": "Independent Developer",
+        "problem": "This field needs review against the README and source code.",
+        "solution": "This field needs a reviewed architecture summary based on Python.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "包含完整原始碼",
+          "採用現代技術架構開發",
+          "支援響應式網頁介面"
+        ],
+        "challenges": [
+          "Add verified engineering challenges."
+        ],
+        "nextSteps": [
+          "Add screenshots, demo material, and a complete case study."
+        ]
+      }
+    }
+  },
+  {
     "id": "project-my-3d-platformer-pf-2026-3d-011",
     "slug": "my-3d-platformer",
     "category": "interactive-3d",
@@ -9273,7 +10760,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-011",
@@ -9353,7 +10840,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.938Z"
+      "lastScannedAt": "2026-06-26T13:06:57.021Z"
     },
     "content": {
       "zh-TW": {
@@ -9411,7 +10898,7 @@
     }
   },
   {
-    "id": "project-news-web-crawler-pf-2026-is-025",
+    "id": "project-news-web-crawler-pf-2026-is-027",
     "slug": "news-web-crawler",
     "category": "information-system",
     "status": "prototype",
@@ -9420,7 +10907,7 @@
     "technologies": [
       "Python"
     ],
-    "coverImage": "/portfolio/projects/news-web-crawler/cover.webp",
+    "coverImage": "/portfolio/projects/news-web-crawler/cover.png",
     "links": [
       {
         "kind": "live",
@@ -9430,15 +10917,82 @@
           "en": "Live Demo"
         },
         "primary": true
+      },
+      {
+        "kind": "video",
+        "url": "https://neojustin.dothost.net/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
       }
     ],
-    "media": [],
+    "media": [
+      {
+        "id": "guided-tour-video",
+        "type": "video",
+        "src": "/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+        "poster": "/portfolio/projects/news-web-crawler/cover.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 分析平台導覽錄影。",
+          "en": "Guided walkthrough recording of the News Web Crawler analytics platform."
+        },
+        "title": {
+          "zh-TW": "平台導覽錄影",
+          "en": "Platform Walkthrough"
+        },
+        "caption": {
+          "zh-TW": "展示新聞資料匯入、處理旅程、文字探勘、分析圖表與報表頁面。",
+          "en": "Shows data import, the processing journey, text mining, analytics charts, and reports."
+        },
+        "featured": true
+      },
+      {
+        "id": "pipeline-journey",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/01-pipeline-journey.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 的資料處理旅程頁面。",
+          "en": "The data processing journey page in News Web Crawler."
+        },
+        "title": {
+          "zh-TW": "資料處理旅程",
+          "en": "Pipeline Journey"
+        }
+      },
+      {
+        "id": "text-mining",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/02-text-mining.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 的文字探勘分析頁面。",
+          "en": "The text mining analytics page in News Web Crawler."
+        },
+        "title": {
+          "zh-TW": "文字探勘",
+          "en": "Text Mining"
+        }
+      },
+      {
+        "id": "analysis-dashboard",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/03-analysis-dashboard.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 的新聞分析儀表板。",
+          "en": "The news analytics dashboard in News Web Crawler."
+        },
+        "title": {
+          "zh-TW": "分析儀表板",
+          "en": "Analytics Dashboard"
+        }
+      }
+    ],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-025",
+      "catalogNumber": "PF-2026-IS-027",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -9500,16 +11054,14 @@
       "dependencies": [],
       "extractionConfidence": 0.8,
       "needsReview": true,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/news-web-crawler/project.override.json",
         "content/projects/news-web-crawler/zh-TW.md",
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.938Z"
+      "lastScannedAt": "2026-06-26T13:06:57.021Z"
     },
     "content": {
       "zh-TW": {
@@ -9569,7 +11121,658 @@
     }
   },
   {
-    "id": "project-openclaw-multimodal-stack-pf-2026-is-026",
+    "id": "project-nyc-taxi-mobility-analytics-pf-2026-ai-017",
+    "slug": "nyc-taxi-mobility-analytics",
+    "category": "ai-data",
+    "status": "completed",
+    "year": 2026,
+    "featured": true,
+    "technologies": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "coverImage": "/portfolio/projects/nyc-taxi-mobility-analytics/cover.png",
+    "links": [
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/nyc-taxi-mobility-analytics",
+        "label": {
+          "zh-TW": "查看 GitHub",
+          "en": "View GitHub"
+        }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/nyc-taxi-mobility-analytics/",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "video",
+        "url": "https://neojustin.dothost.net/portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/nyc-taxi-mobility-analytics#readme",
+        "label": {
+          "zh-TW": "README",
+          "en": "README"
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "guided-demo-video",
+        "type": "video",
+        "src": "/portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm",
+        "poster": "/portfolio/projects/nyc-taxi-mobility-analytics/cover.png",
+        "alt": {
+          "zh-TW": "NYC Taxi Mobility Analytics Platform 的完整 Playwright 導覽錄影。",
+          "en": "Full Playwright guided tour recording of NYC Taxi Mobility Analytics Platform."
+        },
+        "title": {
+          "zh-TW": "完整互動導覽錄影",
+          "en": "Full Interactive Guided Tour Recording"
+        },
+        "caption": {
+          "zh-TW": "展示中文預設介面、導覽小幫手、Pipeline Journey、資料上傳、Data Quality、Warehouse、Zone Map、Forecast 與 Saved Views。",
+          "en": "Shows the Chinese default UI, guided assistant, Pipeline Journey, data upload, Data Quality, Warehouse, Zone Map, Forecast, and Saved Views."
+        },
+        "featured": true
+      },
+      {
+        "id": "overview-dashboard",
+        "type": "image",
+        "src": "/portfolio/projects/nyc-taxi-mobility-analytics/screenshots/01-overview.png",
+        "alt": {
+          "zh-TW": "NYC Taxi Mobility overview dashboard KPI 與圖表。",
+          "en": "NYC Taxi Mobility overview dashboard KPIs and charts."
+        },
+        "title": {
+          "zh-TW": "Overview Dashboard",
+          "en": "Overview Dashboard"
+        },
+        "featured": true
+      },
+      {
+        "id": "pipeline-journey",
+        "type": "image",
+        "src": "/portfolio/projects/nyc-taxi-mobility-analytics/screenshots/02-pipeline-journey.png",
+        "alt": {
+          "zh-TW": "Pipeline Journey 展示資料上傳與處理流程。",
+          "en": "Pipeline Journey showing upload and processing flow."
+        },
+        "title": {
+          "zh-TW": "Pipeline Journey",
+          "en": "Pipeline Journey"
+        }
+      },
+      {
+        "id": "zone-map",
+        "type": "image",
+        "src": "/portfolio/projects/nyc-taxi-mobility-analytics/screenshots/03-zone-map.png",
+        "alt": {
+          "zh-TW": "NYC zone map 與節點分析視覺化。",
+          "en": "NYC zone map and node analysis visualization."
+        },
+        "title": {
+          "zh-TW": "Zone Map",
+          "en": "Zone Map"
+        }
+      },
+      {
+        "id": "forecast-lab",
+        "type": "image",
+        "src": "/portfolio/projects/nyc-taxi-mobility-analytics/screenshots/04-forecast.png",
+        "alt": {
+          "zh-TW": "Forecast Lab 展示 actual vs baseline 與模型評估。",
+          "en": "Forecast Lab showing actual vs baseline and model evaluation."
+        },
+        "title": {
+          "zh-TW": "Forecast Lab",
+          "en": "Forecast Lab"
+        }
+      }
+    ],
+    "metadata": {
+      "startedAt": "2026-06-26",
+      "updatedAt": "2026-06-26",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-AI-017",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "ai-data",
+      "secondaryCategories": [],
+      "projectType": "Web/Node",
+      "domains": [
+        "Data Engineering",
+        "Mobility Analytics",
+        "Business Intelligence"
+      ],
+      "subjects": [],
+      "controlledTerms": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "keywords": [
+        "NYC TLC",
+        "DuckDB",
+        "Parquet",
+        "Forecasting",
+        "GeoJSON"
+      ],
+      "audiences": [
+        "Data Engineering Interviewers",
+        "Analytics Engineering Teams"
+      ],
+      "contentTypes": [],
+      "dataTypes": [
+        "Parquet",
+        "Geospatial",
+        "Time Series"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "stateManagement": [],
+      "styling": [],
+      "database": [],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [],
+      "developmentTools": [],
+      "roles": [
+        "獨立開發者"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "capabilities": [],
+      "tools": [],
+      "hasUnitTests": false,
+      "hasIntegrationTests": false,
+      "hasE2ETests": false,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.9,
+      "needsReview": false,
+      "missingFields": [],
+      "evidenceSources": [
+        "content/projects/nyc-taxi-mobility-analytics/project.override.json",
+        "content/projects/nyc-taxi-mobility-analytics/zh-TW.md",
+        "content/projects/nyc-taxi-mobility-analytics/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-26T13:06:57.021Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "NYC Taxi Mobility Analytics Platform",
+        "summary": "「NYC Taxi Mobility Analytics Platform 是一個城市交通資料工程與分析平台。它使用 NYC TLC Taxi Trip Records，展示 Parquet ingestion、partitioned analytical warehouse、time-series demand an...",
+        "description": "「NYC Taxi Mobility Analytics Platform 是一個城市交通資料工程與分析平台。它使用 NYC TLC Taxi Trip Records，展示 Parquet ingestion、partitioned analytical warehouse、time-series demand analysis、geospatial dashboard、fare / trip analytics、demand forecasting baseline 與 Next.js 查詢服務。」\n\nThis repository is a local-first analytics engineering project for NYC taxi mobility data. It ships with a deterministic sample Parquet generator so the full pipeline can run without downloading large public datasets.\n\n- Quickstart - Real NYC TLC Data - Demo Assets - Docker - API Endpoints - [Resume B",
+        "tagline": "「NYC Taxi Mobility Analytics Platform 是一個城市交通資料工程與分析平台。它使用 NYC TLC Taxi Trip Rec...",
+        "role": "獨立開發者",
+        "problem": "此欄位需要依 README 與實際程式碼人工確認。",
+        "solution": "此欄位需要依 Next.js, React, Tailwind CSS, TypeScript 與系統架構人工補寫。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "[Quickstart](#quickstart)",
+          "[Real NYC TLC Data](#real-nyc-tlc-data)",
+          "[Demo Assets](#demo-assets)",
+          "[Docker](#docker)"
+        ],
+        "challenges": [
+          "需要補充真實技術挑戰。"
+        ],
+        "nextSteps": [
+          "補齊截圖、Demo 與完整案例研究。"
+        ]
+      },
+      "en": {
+        "title": "NYC Taxi Mobility Analytics Platform",
+        "summary": "「NYC Taxi Mobility Analytics Platform 是一個城市交通資料工程與分析平台。它使用 NYC TLC Taxi Trip Records，展示 Parquet ingestion、partitioned analytical warehouse、time-series demand an...",
+        "description": "「NYC Taxi Mobility Analytics Platform 是一個城市交通資料工程與分析平台。它使用 NYC TLC Taxi Trip Records，展示 Parquet ingestion、partitioned analytical warehouse、time-series demand analysis、geospatial dashboard、fare / trip analytics、demand forecasting baseline 與 Next.js 查詢服務。」\n\nThis repository is a local-first analytics engineering project for NYC taxi mobility data. It ships with a deterministic sample Parquet generator so the full pipeline can run without downloading large public datasets.\n\n- Quickstart - Real NYC TLC Data - Demo Assets - Docker - API Endpoints - [Resume B",
+        "tagline": "「NYC Taxi Mobility Analytics Platform 是一個城市交通資料工程與分析平台。它使用 NYC TLC Taxi Trip Rec...",
+        "role": "Independent Developer",
+        "problem": "This field needs review against the README and source code.",
+        "solution": "This field needs a reviewed architecture summary based on Next.js, React, Tailwind CSS, TypeScript.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "[Quickstart](#quickstart)",
+          "[Real NYC TLC Data](#real-nyc-tlc-data)",
+          "[Demo Assets](#demo-assets)",
+          "[Docker](#docker)"
+        ],
+        "challenges": [
+          "Add verified engineering challenges."
+        ],
+        "nextSteps": [
+          "Add screenshots, demo material, and a complete case study."
+        ]
+      }
+    }
+  },
+  {
+    "id": "project-openalex-research-rag-pf-2026-ai-018",
+    "slug": "openalex-research-rag",
+    "category": "ai-data",
+    "status": "completed",
+    "year": 2026,
+    "featured": true,
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "DuckDB",
+      "ChromaDB",
+      "BM25",
+      "sentence-transformers",
+      "RAG",
+      "llama.cpp",
+      "Recharts",
+      "Playwright"
+    ],
+    "coverImage": "/portfolio/projects/openalex-research-rag/cover.png",
+    "links": [
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/openalex-research-rag",
+        "label": {
+          "zh-TW": "查看 GitHub",
+          "en": "View GitHub"
+        }
+      },
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/projects/openalex-research-rag",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "video",
+        "url": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/openalex-research-rag#-demo-video",
+        "label": {
+          "zh-TW": "README Demo 說明",
+          "en": "README Demo Guide"
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "openalex-demo-video",
+        "type": "video",
+        "src": "/portfolio/projects/openalex-research-rag/demo/openalex-demo.mp4",
+        "poster": "/portfolio/projects/openalex-research-rag/cover.png",
+        "alt": {
+          "zh-TW": "OpenAlex 研究智能平台完整操作錄影。",
+          "en": "Full walkthrough recording of the OpenAlex Research Intelligence platform."
+        },
+        "title": {
+          "zh-TW": "完整平台 Demo 錄影",
+          "en": "Full Platform Demo Recording"
+        },
+        "caption": {
+          "zh-TW": "展示導覽小幫手、混合搜尋、引用接地 RAG、資料旅程、主題分析、引用網路與中英文切換。",
+          "en": "Shows the guided tour, hybrid search, citation-grounded RAG, the Data Story journey, topic analytics, citation network, and zh/en toggle."
+        },
+        "featured": true
+      },
+      {
+        "id": "tour-welcome",
+        "type": "image",
+        "src": "/portfolio/projects/openalex-research-rag/screenshots/01-tour-welcome.png",
+        "alt": {
+          "zh-TW": "自動觸發的導覽小幫手歡迎卡。",
+          "en": "The auto-triggered guided tour welcome card."
+        },
+        "title": {
+          "zh-TW": "導覽小幫手",
+          "en": "Guided Tour"
+        }
+      },
+      {
+        "id": "search-results",
+        "type": "image",
+        "src": "/portfolio/projects/openalex-research-rag/screenshots/11-search-results.png",
+        "alt": {
+          "zh-TW": "混合搜尋結果與 facet 篩選。",
+          "en": "Hybrid search results with facet filters."
+        },
+        "title": {
+          "zh-TW": "混合搜尋",
+          "en": "Hybrid Search"
+        }
+      },
+      {
+        "id": "rag-answer",
+        "type": "image",
+        "src": "/portfolio/projects/openalex-research-rag/screenshots/16-rag-answer.png",
+        "alt": {
+          "zh-TW": "引用接地的 RAG 答案，每個論點都可點回來源。",
+          "en": "Citation-grounded RAG answer with clickable sources."
+        },
+        "title": {
+          "zh-TW": "RAG 引用接地問答",
+          "en": "Citation-grounded RAG"
+        }
+      },
+      {
+        "id": "data-story",
+        "type": "image",
+        "src": "/portfolio/projects/openalex-research-rag/screenshots/52-data-story-journey.png",
+        "alt": {
+          "zh-TW": "資料旅程：查詢走過 7 個 pipeline 階段。",
+          "en": "Data Story: a query traveling through 7 pipeline stages."
+        },
+        "title": {
+          "zh-TW": "資料旅程",
+          "en": "Data Story"
+        }
+      },
+      {
+        "id": "topics-network",
+        "type": "image",
+        "src": "/portfolio/projects/openalex-research-rag/screenshots/48-topics-network.png",
+        "alt": {
+          "zh-TW": "概念共現網路。",
+          "en": "Concept co-occurrence network."
+        },
+        "title": {
+          "zh-TW": "概念網路",
+          "en": "Concept Network"
+        }
+      },
+      {
+        "id": "topics-cluster",
+        "type": "image",
+        "src": "/portfolio/projects/openalex-research-rag/screenshots/50-topics-cluster.png",
+        "alt": {
+          "zh-TW": "論文的 UMAP 語意聚類。",
+          "en": "UMAP semantic cluster of papers."
+        },
+        "title": {
+          "zh-TW": "論文聚類 (UMAP)",
+          "en": "Paper Cluster (UMAP)"
+        }
+      },
+      {
+        "id": "citation-graph",
+        "type": "image",
+        "src": "/portfolio/projects/openalex-research-rag/screenshots/30-citation-graph.png",
+        "alt": {
+          "zh-TW": "可點擊探索的引用網路。",
+          "en": "Clickable citation graph explorer."
+        },
+        "title": {
+          "zh-TW": "引用網路",
+          "en": "Citation Graph"
+        }
+      },
+      {
+        "id": "i18n-english",
+        "type": "image",
+        "src": "/portfolio/projects/openalex-research-rag/screenshots/47-i18n-english-dashboard.png",
+        "alt": {
+          "zh-TW": "一鍵切換的英文介面。",
+          "en": "One-click English interface."
+        },
+        "title": {
+          "zh-TW": "英文介面",
+          "en": "English UI"
+        }
+      }
+    ],
+    "metadata": {
+      "startedAt": "2026-06-20",
+      "updatedAt": "2026-06-25",
+      "completedAt": "2026-06-25",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-AI-018",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "ai-data",
+      "secondaryCategories": [],
+      "projectType": "Python",
+      "domains": [
+        "Information Retrieval",
+        "Retrieval-Augmented Generation",
+        "Scholarly Analytics",
+        "Bibliometrics"
+      ],
+      "subjects": [],
+      "controlledTerms": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "DuckDB",
+        "ChromaDB",
+        "BM25",
+        "sentence-transformers",
+        "RAG",
+        "llama.cpp",
+        "Recharts",
+        "Playwright"
+      ],
+      "keywords": [
+        "Hybrid Search",
+        "BM25",
+        "Dense Retrieval",
+        "Reciprocal Rank Fusion",
+        "RAG",
+        "Citation Grounding",
+        "Vector Database",
+        "OpenAlex",
+        "UMAP",
+        "i18n"
+      ],
+      "audiences": [],
+      "contentTypes": [],
+      "dataTypes": [],
+      "platforms": [
+        "Web"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks": [
+        "FastAPI",
+        "React",
+        "Vite",
+        "Tailwind CSS"
+      ],
+      "libraries": [
+        "rank_bm25",
+        "sentence-transformers",
+        "ChromaDB",
+        "DuckDB",
+        "Recharts",
+        "framer-motion",
+        "Playwright"
+      ],
+      "stateManagement": [],
+      "styling": [],
+      "database": [
+        "DuckDB",
+        "ChromaDB"
+      ],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [
+        "Playwright",
+        "UI screenshots and recording"
+      ],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [
+        "Static frontend on dothost",
+        "FastAPI backend",
+        "reverse SSH tunnel to local llama.cpp"
+      ],
+      "developmentTools": [],
+      "roles": [
+        "獨立開發者 / 全端與檢索/RAG 系統架構師"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "Hybrid retrieval and RRF",
+        "Citation-grounded RAG",
+        "Vector search and embeddings",
+        "Data visualization",
+        "Full i18n",
+        "Automated UI verification"
+      ],
+      "capabilities": [],
+      "tools": [],
+      "hasUnitTests": false,
+      "hasIntegrationTests": false,
+      "hasE2ETests": true,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.8,
+      "needsReview": false,
+      "missingFields": [],
+      "evidenceSources": [
+        "content/projects/openalex-research-rag/project.override.json",
+        "content/projects/openalex-research-rag/zh-TW.md",
+        "content/projects/openalex-research-rag/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-26T13:06:57.021Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "OpenAlex 學術研究智能平台 (RAG)",
+        "summary": "以 38,152 篇 OpenAlex 論文為語料的全端研究平台。結合 BM25 + 密集向量檢索並以 Reciprocal Rank Fusion 融合排序、引用接地的串流 RAG（每個論點都連回 [Wxxxx] 來源）、文獻計量分析（主題趨勢、概念共現網路、UMAP 聚類、期刊、研究熱度、引用網路、作者/機構）、可視化的「資料旅程」、自動觸發的導覽小幫手，以及完整的中英文介面。",
+        "description": "OpenAlex 研究智能平台不只是一個搜尋框 — 它把 3.8 萬篇學術語料變成可解釋、可互動的研究平台。\n\n使用者可以做混合搜尋（BM25 + 密集向量以 RRF 融合）並即時 facet 篩選，提出研究問題並得到引用接地的答案（每個論點都連回來源論文），並探索文獻計量分析：主題趨勢、概念共現網路、概念×年份熱度圖、論文的 UMAP 語意聚類、期刊排名、研究熱度、可點擊的引用網路，以及作者/機構瀏覽。\n\n可解釋性的核心是「資料旅程」：選 sample（或上傳你的論文），看一筆查詢走過七個階段 — 原始 OpenAlex JSON、文字清理、BM25、向量嵌入、RRF 融合、RAG context 組裝、引用接地答案 — 每步都有動畫與「做什麼/效果/為什麼」解說，最後再附旅程總覽（延遲分解與候選漏斗）。\n\nApp 式導覽小幫手會自動開始，跨頁聚光每個功能、搭配漂浮粒子與逐字解說，整個介面可在繁體中文與英文間切換。所有功能皆以 Playwright 截圖與錄影驗證，本頁連結即為該錄影。",
+        "tagline": "結合混合檢索、引用接地 RAG 與可視化資料旅程的學術研究智能平台。",
+        "role": "獨立開發者 / 全端與檢索/RAG 系統架構師",
+        "problem": "學術後設資料龐大且不透明。目標是做出一個可解釋、可展示的系統，讓任何人都能搜尋、提出有依據的問題，並親眼看見原始資料如何流經檢索 + RAG pipeline，而不只是看到最終數字。",
+        "solution": "我以 DuckDB + ChromaDB + BM25 打造 FastAPI 後端，實作混合（RRF）檢索器與引用接地的 RAG pipeline（llama.cpp，並有萃取式 fallback）；前端用 React + Recharts + framer-motion 做豐富視覺化、自動觸發的導覽小幫手，以及把一筆查詢動畫化走過 7 個 pipeline 階段並逐步解說的「資料旅程」，再加上完整 i18n。所有功能皆以 Playwright 自動截圖 + 錄影驗證。",
+        "outcome": "一個面試就緒的平台：混合 + RAG 搜尋且引用可點、四種主題分析視圖、引用網路、作者/機構瀏覽、搜尋日誌可觀測性、可解釋的 pipeline 旅程、導覽小幫手與雙語介面，全部端對端錄製完成。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "混合檢索：BM25（rank_bm25）+ all-MiniLM-L6-v2 密集向量，以 RRF 融合；可即時依年份、期刊、類型、語言、引用數做 facet 篩選。",
+          "引用接地 RAG：SSE 串流答案，每個論點附可點擊的 [Wxxxx] 引用；問題建構器 + 預設題；無 LLM 時退化為萃取式。",
+          "資料旅程：上傳你的論文或用 sample，看一筆查詢走過 7 個動畫化 pipeline 階段，每步都有「做什麼/效果/為什麼」解說與旅程總覽。",
+          "分析：主題趨勢、概念共現網路、概念×年份熱度圖、UMAP 語意聚類、期刊排名、研究熱度、引用網路、作者/機構瀏覽、搜尋日誌分析。",
+          "App 式導覽小幫手自動觸發、跨頁聚光每個功能、逐字解說並播放主題粒子；完整中英文切換。"
+        ],
+        "challenges": [
+          "設計混合檢索器與引用接地 RAG pipeline，並在 LLM 離線時優雅退化為萃取式。",
+          "用記憶體 TTL 快取與預熱讓沉重的分析（UMAP 聚類、共現圖、熱度）感覺即時。",
+          "把數百個 UI 字串外部化成完整中英 i18n，同時保留專有名詞為英文。",
+          "用 Playwright 自動化驗證約 18 個頁面與導覽小幫手（視窗截圖 + 完整走訪錄影）。"
+        ],
+        "nextSteps": [
+          "把語料擴充到 10 萬篇以上，並以 qrels 評估檢索品質。",
+          "新增 multi-hop RAG 與重排序作為可選的生產設定。",
+          "把後端部署到 portfolio 後方，並以反向通道連回本機 llama.cpp。"
+        ]
+      },
+      "en": {
+        "title": "OpenAlex Research Intelligence (RAG)",
+        "summary": "A full-stack research platform over 38,152 OpenAlex papers. It combines BM25 + dense-vector retrieval fused with Reciprocal Rank Fusion, citation-grounded streaming RAG (every claim links back to a [Wxxxx] source), bibliometric analytics (topic trends, concept co-occurrence network, UMAP cluster, journals, research velocity, citation graph, authors/institutions), an animated 'Data Story' pipeline journey, an app-like guided tour, and a complete 中文/English interface.",
+        "description": "OpenAlex Research Intelligence is more than a search box — it turns a 38k-paper scholarly corpus into an explainable, interactive research platform.\n\nVisitors can run hybrid search (BM25 + dense vectors fused with RRF) with live facets, ask research questions and get citation-grounded answers where every claim links back to its source paper, and explore bibliometric analytics: topic trends, a concept co-occurrence network, a concept×year heatmap, a UMAP semantic cluster of papers, journal rankings, research velocity, a clickable citation graph, and author/institution explorers.\n\nThe centerpiece for explainability is the \"Data Story\": pick a sample (or upload your own papers) and watch a single query travel through seven pipeline stages — raw OpenAlex JSON, text cleaning, BM25, vector embedding, RRF fusion, RAG context assembly, and citation-grounded answer — each animated and annotated with a \"what / effect / why\" explainer plus a final journey summary (latency breakdown and candidate funnel).\n\nAn app-like guided tour starts automatically, spotlights each feature across pages with floating particles and typed explanations, and the entire interface toggles between 繁體中文 and English. Every feature was verified with a Playwright capture pipeline that produced the screenshots and the demo recording linked from this page.",
+        "tagline": "A scholarly research intelligence platform with hybrid search, citation-grounded RAG, and an animated data-pipeline journey.",
+        "role": "Independent Developer / Full-stack & Retrieval/RAG System Architect",
+        "problem": "Scholarly metadata is large and opaque. The goal was an explainable, demo-ready system that lets anyone search, ask grounded questions, and watch how raw data flows through a retrieval + RAG pipeline — not just see final numbers.",
+        "solution": "I built a FastAPI backend over DuckDB + ChromaDB + BM25 with a hybrid (RRF) retriever and a citation-grounded RAG pipeline (llama.cpp, with extractive fallback), then a React frontend with rich Recharts/framer-motion visualizations, an auto-starting guided tour, a 'Data Story' that animates a query through 7 pipeline stages with per-step explanations, and full i18n. I verified every feature with a Playwright capture pipeline (screenshots + demo video).",
+        "outcome": "An interview-ready platform: hybrid + RAG search with clickable citations, four-view topic analytics, citation networks, author/institution explorers, search-log observability, an explainable pipeline journey, a guided tour, and bilingual UI — all captured end-to-end.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "Hybrid retrieval: BM25 (rank_bm25) + all-MiniLM-L6-v2 dense vectors fused with Reciprocal Rank Fusion; live facets for year, journal, type, language, and citation count.",
+          "Citation-grounded RAG: streamed answers (SSE) where every claim carries a clickable [Wxxxx] citation; question builder + presets; extractive fallback when no LLM.",
+          "Data Story: upload your own papers or use the sample, then watch one query travel through 7 animated pipeline stages, each with a what/effect/why explainer and a journey summary.",
+          "Analytics: topic trends, concept co-occurrence network, concept×year heatmap, UMAP semantic cluster, journal rankings, research velocity, citation graph, author & institution explorers, and search-log analytics.",
+          "App-like guided tour that auto-starts, spotlights each feature across pages, types out explanations, and plays themed particles; complete 中文/English toggle."
+        ],
+        "challenges": [
+          "Designing a hybrid retriever and a citation-grounded RAG pipeline that degrades gracefully to extractive mode when the LLM is offline.",
+          "Making heavy analytics (UMAP cluster, co-occurrence graph, velocity) feel instant via in-memory TTL caching and a warm-up pipeline.",
+          "Externalizing hundreds of UI strings into a full zh/en i18n layer while keeping technical terms in English.",
+          "Verifying ~18 pages + the guided tour with an automated Playwright capture (viewport screenshots + a recorded walkthrough video)."
+        ],
+        "nextSteps": [
+          "Grow the corpus beyond 100k papers and benchmark retrieval quality with qrels.",
+          "Add multi-hop RAG and re-ranking as optional production profiles.",
+          "Deploy the backend behind the portfolio with a reverse tunnel to a local llama.cpp."
+        ]
+      }
+    }
+  },
+  {
+    "id": "project-openclaw-multimodal-stack-pf-2026-is-028",
     "slug": "openclaw-multimodal-stack",
     "category": "information-system",
     "status": "prototype",
@@ -9591,10 +11794,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-026",
+      "catalogNumber": "PF-2026-IS-028",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -9661,7 +11864,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.938Z"
+      "lastScannedAt": "2026-06-26T13:06:57.021Z"
     },
     "content": {
       "zh-TW": {
@@ -9747,7 +11950,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-012",
@@ -9821,7 +12024,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -9883,159 +12086,7 @@
     }
   },
   {
-    "id": "project-playwright-demo-pf-2026-is-027",
-    "slug": "playwright-demo",
-    "category": "information-system",
-    "status": "prototype",
-    "year": 2026,
-    "featured": false,
-    "technologies": [],
-    "coverImage": "/portfolio/projects/playwright-demo/cover.webp",
-    "links": [
-      {
-        "kind": "live",
-        "url": "https://neojustin.dothost.net/p/playwright-demo/",
-        "label": {
-          "zh-TW": "線上展示",
-          "en": "Live Demo"
-        },
-        "primary": true
-      }
-    ],
-    "media": [],
-    "metadata": {
-      "startedAt": "2026-05-25",
-      "updatedAt": "2026-06-25",
-      "teamSize": 1,
-      "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-027",
-      "visibility": "public",
-      "aliases": [],
-      "primaryCategory": "information-system",
-      "secondaryCategories": [],
-      "projectType": "Web/Node",
-      "domains": [],
-      "subjects": [],
-      "controlledTerms": [],
-      "keywords": [],
-      "audiences": [],
-      "contentTypes": [],
-      "dataTypes": [],
-      "platforms": [
-        "Web"
-      ],
-      "operatingSystems": [],
-      "languages": [
-        "JavaScript",
-        "TypeScript"
-      ],
-      "frameworks": [],
-      "libraries": [],
-      "stateManagement": [],
-      "styling": [],
-      "database": [],
-      "backend": [],
-      "desktop": [],
-      "gameEngine": [],
-      "threeD": [],
-      "testing": [],
-      "buildTools": [],
-      "infrastructure": [],
-      "deployment": [],
-      "developmentTools": [],
-      "roles": [
-        "獨立開發者 / 學習型專案實作者"
-      ],
-      "responsibilities": [],
-      "collaborationType": "Solo",
-      "learningGoals": [],
-      "skillsDemonstrated": [],
-      "capabilities": [],
-      "tools": [],
-      "hasUnitTests": false,
-      "hasIntegrationTests": false,
-      "hasE2ETests": false,
-      "responsive": true,
-      "browserSupport": [],
-      "codeQualityTools": [],
-      "relatedProjects": [],
-      "subprojects": [],
-      "successorProjects": [],
-      "usesPackages": [],
-      "inspiredBy": [],
-      "dependencies": [],
-      "extractionConfidence": 0.55,
-      "needsReview": true,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
-      "evidenceSources": [
-        "content/projects/playwright-demo/project.override.json",
-        "content/projects/playwright-demo/zh-TW.md",
-        "content/projects/playwright-demo/en.md",
-        "git log"
-      ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
-    },
-    "content": {
-      "zh-TW": {
-        "title": "Playwright Demo",
-        "summary": "Playwright Demo 是一個以 目前掃描到的專案檔案與 README 線索 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。",
-        "description": "Playwright Demo 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。\n\n從掃描資料來看，這個專案的主要技術線索包含 目前掃描到的專案檔案與 README 線索。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。\n\n這個專案用來練習如何把內容、資料狀態與使用者操作整理成清楚的 Web 介面。 我根據專案結構與 README 線索，整理它在元件設計、頁面流程、資料呈現與互動回饋上的練習重點。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。\n\n後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。",
-        "tagline": "前端介面、Web 應用與互動流程練習專案。",
-        "role": "獨立開發者 / 學習型專案實作者",
-        "problem": "這個專案用來練習如何把內容、資料狀態與使用者操作整理成清楚的 Web 介面。",
-        "solution": "我根據專案結構與 README 線索，整理它在元件設計、頁面流程、資料呈現與互動回饋上的練習重點。",
-        "outcome": "目前適合作為前端開發、響應式介面與互動流程的學習型作品。",
-        "features": [],
-        "metrics": [],
-        "highlights": [
-          "使用或涉及 目前掃描到的專案檔案與 README 線索。",
-          "以作品集練習為目標，整理功能、資料與介面流程。",
-          "目前內容採保守描述，避免把學習專案包裝成正式產品。"
-        ],
-        "challenges": [
-          "需要從 README 與原始碼中整理出可信、可展示的專案範圍。",
-          "需要把技術名詞轉換成清楚的功能、資料流與學習成果。",
-          "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
-        ],
-        "nextSteps": [
-          "補齊更完整的中英文案例研究與操作截圖。",
-          "確認 GitHub、Demo、文件與素材是否適合公開展示。",
-          "依完成度補強測試、README 與部署或執行說明。"
-        ]
-      },
-      "en": {
-        "title": "Playwright Demo",
-        "summary": "Playwright Demo is a learning-focused project with detected technology signals including detected project files and README signals. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts.",
-        "description": "Playwright Demo is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.\n\nThe scanned project data points to detected project files and README signals. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.\n\nThis project is used to practice turning content, data state, and user actions into a clear web interface. Based on the project structure and README signals, I summarized the learning focus around component design, page flow, data presentation, and interaction feedback. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.\n\nNext, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.",
-        "tagline": "A frontend interface, web application, and interaction flow practice project.",
-        "role": "Independent Developer / Learning Project Builder",
-        "problem": "This project is used to practice turning content, data state, and user actions into a clear web interface.",
-        "solution": "Based on the project structure and README signals, I summarized the learning focus around component design, page flow, data presentation, and interaction feedback.",
-        "outcome": "It currently works best as a learning-focused frontend, responsive UI, and interaction flow project.",
-        "features": [],
-        "metrics": [],
-        "highlights": [
-          "Uses or involves detected project files and README signals.",
-          "Organizes features, data, and interface flow as a portfolio practice project.",
-          "Uses conservative wording so the project is not presented as a finished production product."
-        ],
-        "challenges": [
-          "The project scope needs to be summarized from README content and source evidence in a credible way.",
-          "Technical terms need to be translated into clear features, data flow, and learning outcomes.",
-          "More screenshots, test notes, or operation details can still improve the case study."
-        ],
-        "nextSteps": [
-          "Complete a more detailed bilingual case study and add operation screenshots.",
-          "Verify which GitHub, demo, documentation, and media assets should be public.",
-          "Improve tests, README details, and deployment or run instructions based on actual completion level."
-        ]
-      }
-    }
-  },
-  {
-    "id": "project-poker-ai-arena-pf-2026-ai-014",
+    "id": "project-poker-ai-arena-pf-2026-ai-019",
     "slug": "poker-ai-arena",
     "category": "ai-data",
     "status": "prototype",
@@ -10071,10 +12122,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-014",
+      "catalogNumber": "PF-2026-AI-019",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -10153,7 +12204,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -10215,7 +12266,7 @@
     }
   },
   {
-    "id": "project-poker-ai-web-pf-2026-ai-015",
+    "id": "project-poker-ai-web-pf-2026-ai-020",
     "slug": "poker-ai-web",
     "category": "ai-data",
     "status": "prototype",
@@ -10247,10 +12298,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-04",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-015",
+      "catalogNumber": "PF-2026-AI-020",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -10321,7 +12372,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -10418,7 +12469,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-17",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-013",
@@ -10502,7 +12553,7 @@
         "content/projects/polly-rpg-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -10601,7 +12652,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-014",
@@ -10685,7 +12736,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -10780,7 +12831,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-015",
@@ -10854,7 +12905,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -10914,7 +12965,7 @@
     }
   },
   {
-    "id": "project-procedural-dungeon-crawler-pf-2026-is-028",
+    "id": "project-procedural-dungeon-crawler-pf-2026-is-029",
     "slug": "procedural-dungeon-crawler",
     "category": "information-system",
     "status": "prototype",
@@ -10951,10 +13002,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-028",
+      "catalogNumber": "PF-2026-IS-029",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -11035,7 +13086,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -11097,7 +13148,7 @@
     }
   },
   {
-    "id": "project-projectmind-pf-2026-is-029",
+    "id": "project-projectmind-pf-2026-is-030",
     "slug": "projectmind",
     "category": "information-system",
     "status": "prototype",
@@ -11131,10 +13182,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-029",
+      "catalogNumber": "PF-2026-IS-030",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -11208,7 +13259,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -11270,7 +13321,7 @@
     }
   },
   {
-    "id": "project-r3f-rpg-builder-pf-2026-is-030",
+    "id": "project-r3f-rpg-builder-pf-2026-is-031",
     "slug": "r3f-rpg-builder",
     "category": "information-system",
     "status": "prototype",
@@ -11307,10 +13358,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-030",
+      "catalogNumber": "PF-2026-IS-031",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -11391,7 +13442,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -11453,7 +13504,7 @@
     }
   },
   {
-    "id": "project-research-paper-and-knowledge-workspace-pf-2026-is-031",
+    "id": "project-research-paper-and-knowledge-workspace-pf-2026-is-032",
     "slug": "research-paper-and-knowledge-workspace",
     "category": "information-system",
     "status": "in-progress",
@@ -11501,10 +13552,10 @@
     ],
     "metadata": {
       "startedAt": "2026-06-22",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-031",
+      "catalogNumber": "PF-2026-IS-032",
       "visibility": "public",
       "aliases": [
         "Research Paper Workspace",
@@ -11653,7 +13704,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -11715,7 +13766,7 @@
     }
   },
   {
-    "id": "project-restoreAI-studio-pf-2026-is-032",
+    "id": "project-restoreAI-studio-pf-2026-is-033",
     "slug": "restoreAI-studio",
     "category": "information-system",
     "status": "prototype",
@@ -11748,10 +13799,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-10-10",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-032",
+      "catalogNumber": "PF-2026-IS-033",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -11824,7 +13875,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -11886,7 +13937,7 @@
     }
   },
   {
-    "id": "project-retailpulse-bi-recommender-pf-2026-ai-016",
+    "id": "project-retailpulse-bi-recommender-pf-2026-ai-021",
     "slug": "retailpulse-bi-recommender",
     "category": "ai-data",
     "status": "completed",
@@ -12062,17 +14113,17 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-25",
+      "startedAt": "2026-06-26",
       "updatedAt": "2026-06-25",
       "completedAt": "2026-06-25",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-016",
+      "catalogNumber": "PF-2026-AI-021",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
       "secondaryCategories": [],
-      "projectType": "Web/Data Application",
+      "projectType": "Python",
       "domains": [],
       "subjects": [],
       "controlledTerms": [
@@ -12155,8 +14206,8 @@
       "usesPackages": [],
       "inspiredBy": [],
       "dependencies": [],
-      "extractionConfidence": 0.96,
-      "needsReview": false,
+      "extractionConfidence": 0.8,
+      "needsReview": true,
       "missingFields": [],
       "evidenceSources": [
         "content/projects/retailpulse-bi-recommender/project.override.json",
@@ -12164,7 +14215,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.939Z"
+      "lastScannedAt": "2026-06-26T13:06:57.022Z"
     },
     "content": {
       "zh-TW": {
@@ -12259,7 +14310,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-06",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-016",
@@ -12335,7 +14386,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -12395,7 +14446,7 @@
     }
   },
   {
-    "id": "project-rocm-image-video-stack-pf-2026-is-033",
+    "id": "project-rocm-image-video-stack-pf-2026-is-034",
     "slug": "rocm-image-video-stack",
     "category": "information-system",
     "status": "prototype",
@@ -12417,10 +14468,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-033",
+      "catalogNumber": "PF-2026-IS-034",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -12487,7 +14538,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -12584,7 +14635,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-017",
@@ -12668,7 +14719,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -12730,7 +14781,7 @@
     }
   },
   {
-    "id": "project-school-library-lms-pf-2026-is-034",
+    "id": "project-school-library-lms-pf-2026-is-035",
     "slug": "school-library-lms",
     "category": "information-system",
     "status": "prototype",
@@ -12760,10 +14811,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-04",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-034",
+      "catalogNumber": "PF-2026-IS-035",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -12830,7 +14881,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -12892,7 +14943,7 @@
     }
   },
   {
-    "id": "project-scrapers-pf-2026-is-035",
+    "id": "project-scrapers-pf-2026-is-036",
     "slug": "scrapers",
     "category": "information-system",
     "status": "prototype",
@@ -12914,10 +14965,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-035",
+      "catalogNumber": "PF-2026-IS-036",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -12984,7 +15035,7 @@
         "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -13044,7 +15095,7 @@
     }
   },
   {
-    "id": "project-sd-multimodal-platform-pf-2026-is-036",
+    "id": "project-sd-multimodal-platform-pf-2026-is-037",
     "slug": "sd-multimodal-platform",
     "category": "information-system",
     "status": "prototype",
@@ -13077,10 +15128,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-04",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-036",
+      "catalogNumber": "PF-2026-IS-037",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -13153,7 +15204,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -13253,7 +15304,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-018",
@@ -13339,7 +15390,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -13401,7 +15452,7 @@
     }
   },
   {
-    "id": "project-soccer-player-rpg-pf-2026-is-037",
+    "id": "project-soccer-player-rpg-pf-2026-is-038",
     "slug": "soccer-player-rpg",
     "category": "information-system",
     "status": "prototype",
@@ -13430,10 +15481,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-19",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-037",
+      "catalogNumber": "PF-2026-IS-038",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -13514,7 +15565,7 @@
         "content/projects/soccer-player-rpg/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -13611,7 +15662,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-019",
@@ -13695,7 +15746,7 @@
         "content/projects/sonic-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -13757,7 +15808,7 @@
     }
   },
   {
-    "id": "project-starforge-AI-narrative-pf-2026-is-038",
+    "id": "project-starforge-AI-narrative-pf-2026-is-039",
     "slug": "starforge-AI-narrative",
     "category": "information-system",
     "status": "prototype",
@@ -13787,10 +15838,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-038",
+      "catalogNumber": "PF-2026-IS-039",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -13857,7 +15908,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -13957,7 +16008,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-16",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-020",
@@ -14043,7 +16094,7 @@
         "content/projects/super-wings-rpg-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -14105,7 +16156,7 @@
     }
   },
   {
-    "id": "project-the-archive-that-watches-you-pf-2026-is-039",
+    "id": "project-the-archive-that-watches-you-pf-2026-is-040",
     "slug": "the-archive-that-watches-you",
     "category": "information-system",
     "status": "prototype",
@@ -14143,10 +16194,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-039",
+      "catalogNumber": "PF-2026-IS-040",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -14229,7 +16280,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -14285,7 +16336,7 @@
     }
   },
   {
-    "id": "project-the-classrooms-pf-2026-is-040",
+    "id": "project-the-classrooms-pf-2026-is-041",
     "slug": "the-classrooms",
     "category": "information-system",
     "status": "prototype",
@@ -14310,10 +16361,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-040",
+      "catalogNumber": "PF-2026-IS-041",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -14386,7 +16437,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.023Z"
     },
     "content": {
       "zh-TW": {
@@ -14446,7 +16497,7 @@
     }
   },
   {
-    "id": "project-threejs-product-viewer-pf-2026-is-041",
+    "id": "project-threejs-product-viewer-pf-2026-is-042",
     "slug": "threejs-product-viewer",
     "category": "information-system",
     "status": "prototype",
@@ -14478,10 +16529,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-09-13",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-041",
+      "catalogNumber": "PF-2026-IS-042",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -14552,7 +16603,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.940Z"
+      "lastScannedAt": "2026-06-26T13:06:57.024Z"
     },
     "content": {
       "zh-TW": {
@@ -14614,7 +16665,7 @@
     }
   },
   {
-    "id": "project-traffic-pulse-pf-2026-is-042",
+    "id": "project-traffic-pulse-pf-2026-is-043",
     "slug": "traffic-pulse",
     "category": "information-system",
     "status": "prototype",
@@ -14644,10 +16695,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-21",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-042",
+      "catalogNumber": "PF-2026-IS-043",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -14714,7 +16765,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.941Z"
+      "lastScannedAt": "2026-06-26T13:06:57.024Z"
     },
     "content": {
       "zh-TW": {
@@ -14776,7 +16827,7 @@
     }
   },
   {
-    "id": "project-tripscore-pf-2026-is-043",
+    "id": "project-tripscore-pf-2026-is-044",
     "slug": "tripscore",
     "category": "information-system",
     "status": "prototype",
@@ -14809,10 +16860,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-01-21",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-043",
+      "catalogNumber": "PF-2026-IS-044",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -14885,7 +16936,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.941Z"
+      "lastScannedAt": "2026-06-26T13:06:57.024Z"
     },
     "content": {
       "zh-TW": {
@@ -14947,7 +16998,7 @@
     }
   },
   {
-    "id": "project-urban-analytics-core-pf-2026-is-044",
+    "id": "project-urban-analytics-core-pf-2026-is-045",
     "slug": "urban-analytics-core",
     "category": "information-system",
     "status": "prototype",
@@ -14971,10 +17022,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-044",
+      "catalogNumber": "PF-2026-IS-045",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -15045,7 +17096,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.941Z"
+      "lastScannedAt": "2026-06-26T13:06:57.024Z"
     },
     "content": {
       "zh-TW": {
@@ -15105,7 +17156,7 @@
     }
   },
   {
-    "id": "project-vanilla-dom-playground-pf-2026-is-045",
+    "id": "project-vanilla-dom-playground-pf-2026-is-046",
     "slug": "vanilla-dom-playground",
     "category": "information-system",
     "status": "prototype",
@@ -15135,10 +17186,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-11-17",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-045",
+      "catalogNumber": "PF-2026-IS-046",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -15205,7 +17256,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.941Z"
+      "lastScannedAt": "2026-06-26T13:06:57.024Z"
     },
     "content": {
       "zh-TW": {
@@ -15267,7 +17318,7 @@
     }
   },
   {
-    "id": "project-video-family-lora-hub-pf-2026-is-046",
+    "id": "project-video-family-lora-hub-pf-2026-is-047",
     "slug": "video-family-lora-hub",
     "category": "information-system",
     "status": "prototype",
@@ -15291,10 +17342,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-03-02",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-046",
+      "catalogNumber": "PF-2026-IS-047",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -15365,7 +17416,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.941Z"
+      "lastScannedAt": "2026-06-26T13:06:57.024Z"
     },
     "content": {
       "zh-TW": {
@@ -15427,7 +17478,7 @@
     }
   },
   {
-    "id": "project-video-gen-pf-2026-is-047",
+    "id": "project-video-gen-pf-2026-is-048",
     "slug": "video-gen",
     "category": "information-system",
     "status": "prototype",
@@ -15449,10 +17500,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-05-20",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-047",
+      "catalogNumber": "PF-2026-IS-048",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -15519,7 +17570,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.941Z"
+      "lastScannedAt": "2026-06-26T13:06:57.024Z"
     },
     "content": {
       "zh-TW": {
@@ -15612,7 +17663,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-10-12",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-3D-021",
@@ -15688,7 +17739,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.941Z"
+      "lastScannedAt": "2026-06-26T13:06:57.024Z"
     },
     "content": {
       "zh-TW": {
@@ -15748,7 +17799,7 @@
     }
   },
   {
-    "id": "project-YouTube-Web-Automation-Analysis-pf-2026-is-048",
+    "id": "project-YouTube-Web-Automation-Analysis-pf-2026-is-049",
     "slug": "YouTube-Web-Automation-Analysis",
     "category": "information-system",
     "status": "prototype",
@@ -15781,10 +17832,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-03",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-048",
+      "catalogNumber": "PF-2026-IS-049",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -15857,7 +17908,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.941Z"
+      "lastScannedAt": "2026-06-26T13:06:57.024Z"
     },
     "content": {
       "zh-TW": {
@@ -15917,7 +17968,7 @@
     }
   },
   {
-    "id": "project-ytp-factory-pf-2026-is-049",
+    "id": "project-ytp-factory-pf-2026-is-050",
     "slug": "ytp-factory",
     "category": "information-system",
     "status": "prototype",
@@ -15949,10 +18000,10 @@
     "media": [],
     "metadata": {
       "startedAt": "2025-12-29",
-      "updatedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-049",
+      "catalogNumber": "PF-2026-IS-050",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "information-system",
@@ -16023,7 +18074,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-25T10:23:46.941Z"
+      "lastScannedAt": "2026-06-26T13:06:57.025Z"
     },
     "content": {
       "zh-TW": {

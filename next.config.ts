@@ -8,6 +8,9 @@ const isGithubPages =
 
 const nextConfig: NextConfig = {
   output: "export",
+  experimental: {
+    cpus: 1,
+  },
   trailingSlash: true,
   basePath: isGithubPages
     ? "/justin-portfolio"
