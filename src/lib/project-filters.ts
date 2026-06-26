@@ -31,7 +31,11 @@ export type ProjectViewMode =
   | "catalog";
 
 const pinnedProjectSlugs = [
+  "nyc-taxi-mobility-analytics",
+  "ir-rag-evaluation-lab",
   "openalex-research-rag",
+  "music-intelligence-platform",
+  "lyrics-cultural-analytics-lab",
 ];
 
 export interface FacetOption {

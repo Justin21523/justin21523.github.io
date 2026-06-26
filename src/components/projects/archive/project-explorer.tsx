@@ -75,8 +75,13 @@ interface ProjectExplorerProps {
   locale: PortfolioLocale;
 }
 
-const pinnedProjectSlug =
-  "openalex-research-rag";
+const pinnedProjectSlugs = [
+  "nyc-taxi-mobility-analytics",
+  "ir-rag-evaluation-lab",
+  "openalex-research-rag",
+  "music-intelligence-platform",
+  "lyrics-cultural-analytics-lab",
+];
 
 export function ProjectExplorer({
   projects,
@@ -194,18 +199,26 @@ export function ProjectExplorer({
     return applyProjectFilters(projects, filters, locale);
   }, [filters, locale, projects]);
 
-  const pinnedProject =
-    filteredProjects.find(
-      (project) =>
-        project.slug === pinnedProjectSlug
-    );
+  const pinnedProjects =
+    pinnedProjectSlugs
+      .map((slug) =>
+        filteredProjects.find(
+          (project) =>
+            project.slug === slug
+        )
+      )
+      .filter(
+        (project): project is Project =>
+          Boolean(project)
+      );
 
   const listedProjects =
-    pinnedProject
+    pinnedProjects.length > 0
       ? filteredProjects.filter(
           (project) =>
-            project.slug !==
-            pinnedProjectSlug
+            !pinnedProjectSlugs.includes(
+              project.slug
+            )
         )
       : filteredProjects;
 
@@ -798,7 +811,7 @@ export function ProjectExplorer({
                 </div>
               )}
 
-              {pinnedProject && (
+              {pinnedProjects.length > 0 && (
                 <section className="mb-10">
                   <div className="mb-4 flex items-end justify-between gap-4">
                     <div>
@@ -815,20 +828,25 @@ export function ProjectExplorer({
                     className={
                       viewMode === "catalog"
                         ? "grid gap-7 xl:grid-cols-2"
-                        : "grid gap-8"
+                        : "grid gap-8 xl:grid-cols-2"
                     }
                   >
-                    <ProjectArchiveCard
-                      project={pinnedProject}
-                      locale={locale}
-                      index={0}
-                      viewMode={
-                        viewMode === "catalog"
-                          ? "catalog"
-                          : "list"
-                      }
-                      onPreview={setSelectedProject}
-                    />
+                    {pinnedProjects.map(
+                      (project, index) => (
+                        <ProjectArchiveCard
+                          key={project.slug}
+                          project={project}
+                          locale={locale}
+                          index={index}
+                          viewMode={
+                            viewMode === "catalog"
+                              ? "catalog"
+                              : "list"
+                          }
+                          onPreview={setSelectedProject}
+                        />
+                      )
+                    )}
                   </div>
                 </section>
               )}
@@ -851,8 +869,9 @@ export function ProjectExplorer({
                         project={project}
                         locale={locale}
                         index={
-                          pinnedProject
-                            ? index + 1
+                          pinnedProjects.length > 0
+                            ? index +
+                              pinnedProjects.length
                             : index
                         }
                         viewMode={viewMode}
