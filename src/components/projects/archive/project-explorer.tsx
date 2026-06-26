@@ -76,9 +76,10 @@ interface ProjectExplorerProps {
 }
 
 const pinnedProjectSlugs = [
+  "ir-rag-evaluation-lab",
+  "dcard-trending-crawler",
   "agentic-bi-dataops-copilot",
   "nyc-taxi-mobility-analytics",
-  "ir-rag-evaluation-lab",
   "openalex-research-rag",
   "music-intelligence-platform",
   "lyrics-cultural-analytics-lab",
