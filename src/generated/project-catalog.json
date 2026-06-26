@@ -399,7 +399,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.982Z"
+      "lastScannedAt": "2026-06-26T20:55:15.699Z"
     },
     "content": {
       "zh-TW": {
@@ -486,7 +486,7 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://neojustin.dothost.net/p/amazon-review-intelligence/",
+        "url": "https://neojustin.dothost.net/p/amazon-review-intelligence",
         "label": {
           "zh-TW": "開啟 Demo",
           "en": "Open demo"
@@ -647,7 +647,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.985Z"
+      "lastScannedAt": "2026-06-26T20:55:15.702Z"
     },
     "content": {
       "zh-TW": {
@@ -917,7 +917,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.986Z"
+      "lastScannedAt": "2026-06-26T20:55:15.704Z"
     },
     "content": {
       "zh-TW": {
@@ -1183,7 +1183,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.986Z"
+      "lastScannedAt": "2026-06-26T20:55:15.704Z"
     },
     "content": {
       "zh-TW": {
@@ -1381,7 +1381,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.987Z"
+      "lastScannedAt": "2026-06-26T20:55:15.707Z"
     },
     "content": {
       "zh-TW": {
@@ -1781,7 +1781,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.987Z"
+      "lastScannedAt": "2026-06-26T20:55:15.709Z"
     },
     "content": {
       "zh-TW": {
@@ -2200,7 +2200,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.988Z"
+      "lastScannedAt": "2026-06-26T20:55:15.709Z"
     },
     "content": {
       "zh-TW": {
@@ -2988,7 +2988,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.988Z"
+      "lastScannedAt": "2026-06-26T20:55:15.712Z"
     },
     "content": {
       "zh-TW": {
@@ -3331,7 +3331,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.989Z"
+      "lastScannedAt": "2026-06-26T20:55:15.713Z"
     },
     "content": {
       "zh-TW": {
@@ -3800,7 +3800,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.989Z"
+      "lastScannedAt": "2026-06-26T20:55:15.715Z"
     },
     "content": {
       "zh-TW": {
@@ -4681,7 +4681,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.990Z"
+      "lastScannedAt": "2026-06-26T20:55:15.716Z"
     },
     "content": {
       "zh-TW": {
@@ -5046,7 +5046,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.990Z"
+      "lastScannedAt": "2026-06-26T20:55:15.717Z"
     },
     "content": {
       "zh-TW": {
@@ -5134,7 +5134,7 @@
       },
       {
         "kind": "live",
-        "url": "https://neojustin.dothost.net/p/nyc-taxi-mobility-analytics/",
+        "url": "https://neojustin.dothost.net/p/nyc-taxi-mobility-analytics",
         "label": {
           "zh-TW": "線上展示",
           "en": "Live Demo"
@@ -5329,7 +5329,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.990Z"
+      "lastScannedAt": "2026-06-26T20:55:15.717Z"
     },
     "content": {
       "zh-TW": {
@@ -5695,7 +5695,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.991Z"
+      "lastScannedAt": "2026-06-26T20:55:15.717Z"
     },
     "content": {
       "zh-TW": {
@@ -5969,7 +5969,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.992Z"
+      "lastScannedAt": "2026-06-26T20:55:15.720Z"
     },
     "content": {
       "zh-TW": {
@@ -6057,7 +6057,7 @@
       },
       {
         "kind": "live",
-        "url": "https://neojustin.dothost.net/p/retailpulse-bi-recommender/",
+        "url": "https://neojustin.dothost.net/p/retailpulse-bi-recommender",
         "label": {
           "zh-TW": "線上展示",
           "en": "Live Demo"
@@ -6309,7 +6309,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T18:56:17.992Z"
+      "lastScannedAt": "2026-06-26T20:55:15.721Z"
     },
     "content": {
       "zh-TW": {
