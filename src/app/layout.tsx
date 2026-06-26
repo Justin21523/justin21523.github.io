@@ -1,28 +1,12 @@
 import type {
   Metadata,
 } from "next";
-import {
-  Inter,
-  Noto_Sans_TC,
-} from "next/font/google";
 
 import {
   siteUrl,
 } from "@/data/home";
 
 import "./globals.css";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const notoSansTC = Noto_Sans_TC({
-  subsets: ["latin"],
-  variable: "--font-noto-sans-tc",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -57,7 +41,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body
-        className={`${inter.variable} ${notoSansTC.variable} font-sans antialiased`}
+        className="font-sans antialiased"
       >
         {children}
       </body>
