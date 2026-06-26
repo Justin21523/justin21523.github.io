@@ -1,5 +1,5 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "information-system",
   "status": "prototype",
@@ -17,6 +17,50 @@
         "en": "Live Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/posts-trending-crawler",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
     }
-  ]
+  ],
+  "metadata": {
+    "aliases": [
+      "posts-trending-crawler",
+      "dcard-trending-crawler"
+    ],
+    "needsReview": false,
+    "projectType": "Python data crawler",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "React"
+    ],
+    "database": [
+      "SQLite"
+    ],
+    "testing": [
+      "pytest",
+      "Playwright"
+    ],
+    "capabilities": [
+      "public data crawling",
+      "data quality checks",
+      "trend analytics",
+      "portfolio dashboard"
+    ],
+    "keywords": [
+      "posts-trending-crawler",
+      "Dcard",
+      "crawler",
+      "trend analytics",
+      "public data"
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 ---
-title: "Dcard Trending Crawler"
+title: "posts-trending-crawler"
 tagline: "A data processing, AI, analysis, or automation workflow practice project."
-summary: "Dcard Trending Crawler is a learning-focused project with detected technology signals including Python. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
+summary: "posts-trending-crawler is a learning-focused project with detected technology signals including Python. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
 role: "Independent Developer / Learning Project Builder"
 problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
 solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
@@ -20,7 +20,7 @@ nextSteps:
   - "Verify which GitHub, demo, documentation, and media assets should be public."
   - "Improve tests, README details, and deployment or run instructions based on actual completion level."
 ---
-Dcard Trending Crawler is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
+posts-trending-crawler is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
 
 The scanned project data points to Python. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
 

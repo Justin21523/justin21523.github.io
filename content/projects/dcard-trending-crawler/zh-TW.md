@@ -1,7 +1,7 @@
 ---
-title: "Dcard Trending Crawler"
+title: "posts-trending-crawler"
 tagline: "資料處理、AI、分析或自動化流程練習專案。"
-summary: "Dcard Trending Crawler 是一個以 Python 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
+summary: "posts-trending-crawler 是一個以 Python 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
 role: "獨立開發者 / 學習型專案實作者"
 problem: "這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。"
 solution: "我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。"
@@ -20,7 +20,7 @@ nextSteps:
   - "確認 GitHub、Demo、文件與素材是否適合公開展示。"
   - "依完成度補強測試、README 與部署或執行說明。"
 ---
-Dcard Trending Crawler 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
+posts-trending-crawler 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
 
 從掃描資料來看，這個專案的主要技術線索包含 Python。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。
 
