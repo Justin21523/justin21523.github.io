@@ -13,7 +13,7 @@
     "scikit-learn",
     "Playwright"
   ],
-  "coverImage": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-redesign.png",
+  "coverImage": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-viewport.png",
   "links": [
     {
       "kind": "live",
@@ -53,7 +53,7 @@
     {
       "id": "overview-dashboard",
       "type": "image",
-      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-redesign.png",
+      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-viewport.png",
       "alt": {
         "zh-TW": "Lyrics Cultural Analytics Lab 的總覽 dashboard，包含資料集狀態與文化分析摘要。",
         "en": "Lyrics Cultural Analytics Lab overview dashboard with dataset status and cultural analytics summary."
@@ -65,29 +65,68 @@
       "featured": true
     },
     {
-      "id": "workflow-journey",
+      "id": "workflow-upload",
       "type": "image",
-      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-journey-v2.png",
+      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-viewport-01.png",
       "alt": {
-        "zh-TW": "資料匯入、清理、特徵工程、訓練與評估的 workflow journey。",
-        "en": "Workflow journey for ingestion, cleaning, feature engineering, training, and evaluation."
+        "zh-TW": "Lyrics Cultural Analytics Lab 的資料匯入畫面，展示安全資料集載入與品質檢查。",
+        "en": "Lyrics Cultural Analytics Lab ingestion screen showing safe dataset loading and quality checks."
       },
       "title": {
-        "zh-TW": "資料流程 Journey",
-        "en": "Data Workflow Journey"
+        "zh-TW": "資料流程：匯入",
+        "en": "Workflow: Ingestion"
       }
     },
     {
-      "id": "ml-lab",
+      "id": "workflow-inspect",
       "type": "image",
-      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-journey-v2.png",
+      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-viewport-02.png",
+      "alt": {
+        "zh-TW": "資料檢查畫面展示欄位結構、合規摘要與分析前檢查。",
+        "en": "Inspection screen showing schema, compliance summary, and pre-analysis checks."
+      },
+      "title": {
+        "zh-TW": "資料流程：檢查",
+        "en": "Workflow: Inspection"
+      }
+    },
+    {
+      "id": "ml-lab-comparison",
+      "type": "image",
+      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-viewport-01.png",
       "alt": {
         "zh-TW": "ML Lab 頁面展示模型比較、分類器與解釋分析。",
         "en": "ML Lab page showing model comparison, classifier results, and explainability analysis."
       },
       "title": {
-        "zh-TW": "ML Lab",
-        "en": "ML Lab"
+        "zh-TW": "ML Lab：模型比較",
+        "en": "ML Lab: Model Comparison"
+      }
+    },
+    {
+      "id": "ml-lab-tree",
+      "type": "image",
+      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-viewport-02.png",
+      "alt": {
+        "zh-TW": "決策樹分析畫面展示分類規則、模型判斷與可解釋線索。",
+        "en": "Decision tree analytics screen showing classifier rules, model decisions, and explainability cues."
+      },
+      "title": {
+        "zh-TW": "ML Lab：決策樹",
+        "en": "ML Lab: Decision Tree"
+      }
+    },
+    {
+      "id": "evaluation-flow",
+      "type": "image",
+      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/evaluation-viewport.png",
+      "alt": {
+        "zh-TW": "評估流程畫面展示模型結果、錯誤分析與報告路徑。",
+        "en": "Evaluation flow screen showing model results, error analysis, and reporting path."
+      },
+      "title": {
+        "zh-TW": "評估流程",
+        "en": "Evaluation Flow"
       }
     },
     {

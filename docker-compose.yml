@@ -11,6 +11,8 @@ services:
       - nyc-taxi-mobility-analytics
       - amazon-review-intelligence
       - amazon-review-intelligence-api
+      - lyrics-cultural-analytics-lab-frontend
+      - lyrics-cultural-analytics-lab-backend
     restart: unless-stopped
 
   information-retrieval:
@@ -90,6 +92,28 @@ services:
       NEXT_TELEMETRY_DISABLED: "1"
     depends_on:
       - amazon-review-intelligence-api
+    restart: unless-stopped
+
+  lyrics-cultural-analytics-lab-backend:
+    image: python:3.12-slim
+    working_dir: /app
+    volumes:
+      - ../lyrics-cultural-analytics-lab:/app
+    environment:
+      LYRICS_LAB_CORS_ORIGINS: '["https://neojustin.dothost.net"]'
+    command: sh -c "pip install -e 'backend[dev]' && python -m lyrics_lab.ingestion.prepare_data && python -m uvicorn lyrics_lab.api.main:app --app-dir backend/src --host 0.0.0.0 --port 8000"
+    restart: unless-stopped
+
+  lyrics-cultural-analytics-lab-frontend:
+    build:
+      context: ../lyrics-cultural-analytics-lab
+      dockerfile: docker/frontend.Dockerfile
+      args:
+        VITE_BASE_PATH: /p/lyrics-cultural-analytics-lab/
+        VITE_API_BASE_URL: /p/lyrics-cultural-analytics-lab/api/v1
+    image: justin-portfolio-lyrics-cultural-analytics-lab-frontend
+    depends_on:
+      - lyrics-cultural-analytics-lab-backend
     restart: unless-stopped
 
 volumes:
