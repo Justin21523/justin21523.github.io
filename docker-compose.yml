@@ -9,6 +9,8 @@ services:
       - information-retrieval
       - fandom-gui-scraper
       - nyc-taxi-mobility-analytics
+      - amazon-review-intelligence
+      - amazon-review-intelligence-api
     restart: unless-stopped
 
   information-retrieval:
@@ -56,5 +58,40 @@ services:
       NEXT_TELEMETRY_DISABLED: "1"
     restart: unless-stopped
 
+  amazon-review-intelligence-api:
+    build:
+      context: ../amazon-review-intelligence
+      dockerfile: Dockerfile.api
+    image: justin-portfolio-amazon-review-intelligence-api
+    environment:
+      LOG_LEVEL: "INFO"
+      DUCKDB_PATH: "/app/data/amazon_reviews.duckdb"
+      BM25_INDEX_PATH: "/app/data/bm25_index.joblib"
+      DATA_DIR: "/app/data"
+      HF_HOME: "/data/hf"
+      TRANSFORMERS_CACHE: "/data/hf"
+      SENTENCE_TRANSFORMERS_HOME: "/data/hf"
+      TOKENIZERS_PARALLELISM: "false"
+    volumes:
+      - ../amazon-review-intelligence/data:/app/data
+      - amazon_review_hf_cache:/data/hf
+    restart: unless-stopped
+
+  amazon-review-intelligence:
+    build:
+      context: ../amazon-review-intelligence/frontend
+      args:
+        NEXT_PUBLIC_BASE_PATH: "/p/amazon-review-intelligence"
+        AMAZON_REVIEW_API_URL: "http://amazon-review-intelligence-api:8000"
+    image: justin-portfolio-amazon-review-intelligence
+    environment:
+      NEXT_PUBLIC_BASE_PATH: "/p/amazon-review-intelligence"
+      AMAZON_REVIEW_API_URL: "http://amazon-review-intelligence-api:8000"
+      NEXT_TELEMETRY_DISABLED: "1"
+    depends_on:
+      - amazon-review-intelligence-api
+    restart: unless-stopped
+
 volumes:
   ir_hf_cache:
+  amazon_review_hf_cache:

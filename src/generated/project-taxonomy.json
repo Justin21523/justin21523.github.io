@@ -6,8 +6,8 @@
   ],
   "statuses": [
     "completed",
-    "in-progress",
-    "prototype"
+    "prototype",
+    "in-progress"
   ],
   "years": [
     2026
@@ -58,6 +58,7 @@
     "Recharts",
     "Recommender Systems",
     "scikit-learn",
+    "Sentence Transformers",
     "sentence-transformers",
     "SQLite",
     "Streamlit",
@@ -95,9 +96,12 @@
     "Music analytics",
     "News Search",
     "NLP",
+    "Product search",
+    "Recommendation systems",
     "research workflow",
     "Retail Analytics",
     "Retrieval-Augmented Generation",
+    "Review analytics",
     "Scholarly Analytics",
     "Search Evaluation",
     "Web Scraping"
@@ -128,6 +132,7 @@
     "Dataset workflow",
     "desktop app architecture",
     "digital archive design",
+    "Evaluation dashboard",
     "Evaluation metrics",
     "Excel report export",
     "Explainable ML",
@@ -135,6 +140,7 @@
     "Faceted metadata browsing",
     "Feedback analytics",
     "Guided product tour",
+    "Hybrid lexical and semantic search",
     "Infobox fallback parsing",
     "interactive seat map",
     "knowledge organization",
@@ -151,10 +157,13 @@
     "Network graph analysis",
     "Openpyxl showcase",
     "operations dashboard",
+    "Product recommendation",
     "Quality checker",
     "Ranking diagnostics",
     "research workflow design",
+    "Review summarization",
     "Sales analysis",
+    "Sentiment and aspect analysis",
     "SQLite browsing",
     "visual programming interface"
   ],
@@ -162,6 +171,7 @@
     "Backend implementer",
     "Dashboard Developer",
     "Data pipeline engineer",
+    "Data product developer",
     "Desktop Application Developer",
     "Excel Automation Developer",
     "Frontend dashboard developer",

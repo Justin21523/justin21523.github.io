@@ -399,7 +399,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.788Z"
+      "lastScannedAt": "2026-06-26T17:14:55.165Z"
     },
     "content": {
       "zh-TW": {
@@ -460,6 +460,234 @@
           "Add JWT authentication middleware to FastAPI",
           "Replace keyword scoring with sentence-transformer embeddings",
           "Add streaming SSE responses for real-time query progress"
+        ]
+      }
+    }
+  },
+  {
+    "id": "project-amazon-review-intelligence-pf-2026-ai-002",
+    "slug": "amazon-review-intelligence",
+    "category": "ai-data",
+    "status": "prototype",
+    "year": 2026,
+    "featured": false,
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "Next.js",
+      "TypeScript",
+      "DuckDB",
+      "BM25",
+      "Sentence Transformers",
+      "scikit-learn",
+      "Playwright"
+    ],
+    "coverImage": "/portfolio/projects/amazon-review-intelligence/cover.webp",
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/amazon-review-intelligence/",
+        "label": {
+          "zh-TW": "開啟 Demo",
+          "en": "Open demo"
+        }
+      },
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/amazon-review-intelligence",
+        "label": {
+          "zh-TW": "GitHub",
+          "en": "GitHub"
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "amazon-review-intelligence-overview",
+        "type": "image",
+        "src": "/portfolio/projects/amazon-review-intelligence/cover.webp",
+        "alt": {
+          "zh-TW": "Amazon Review Intelligence 儀表板總覽畫面",
+          "en": "Amazon Review Intelligence dashboard overview"
+        },
+        "title": {
+          "zh-TW": "評論智慧儀表板",
+          "en": "Review intelligence dashboard"
+        },
+        "caption": {
+          "zh-TW": "以 Amazon 評論資料建立商品搜尋、推薦與分析介面。",
+          "en": "A product search, recommendation, and analytics interface built from Amazon review data."
+        },
+        "featured": true
+      }
+    ],
+    "metadata": {
+      "startedAt": "2026-06-25",
+      "updatedAt": "2026-06-26",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-AI-002",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "ai-data",
+      "secondaryCategories": [],
+      "projectType": "Python",
+      "domains": [
+        "Product search",
+        "Recommendation systems",
+        "Review analytics",
+        "NLP"
+      ],
+      "subjects": [],
+      "controlledTerms": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TypeScript",
+        "DuckDB",
+        "BM25",
+        "Sentence Transformers",
+        "scikit-learn",
+        "Playwright"
+      ],
+      "keywords": [
+        "Amazon Reviews 2023",
+        "BM25",
+        "vector search",
+        "reranking",
+        "recommendation"
+      ],
+      "audiences": [],
+      "contentTypes": [],
+      "dataTypes": [],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "Python",
+        "TypeScript"
+      ],
+      "frameworks": [
+        "FastAPI",
+        "Next.js",
+        "React"
+      ],
+      "libraries": [],
+      "stateManagement": [],
+      "styling": [],
+      "database": [
+        "DuckDB"
+      ],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [
+        "pytest",
+        "Playwright"
+      ],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [],
+      "developmentTools": [],
+      "roles": [
+        "獨立開發者",
+        "Data product developer"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TypeScript",
+        "DuckDB",
+        "BM25",
+        "Sentence Transformers",
+        "scikit-learn",
+        "Playwright"
+      ],
+      "capabilities": [
+        "Hybrid lexical and semantic search",
+        "Review summarization",
+        "Product recommendation",
+        "Sentiment and aspect analysis",
+        "Evaluation dashboard"
+      ],
+      "tools": [],
+      "hasUnitTests": false,
+      "hasIntegrationTests": false,
+      "hasE2ETests": false,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.8,
+      "needsReview": false,
+      "missingFields": [],
+      "evidenceSources": [
+        "content/projects/amazon-review-intelligence/project.override.json",
+        "content/projects/amazon-review-intelligence/zh-TW.md",
+        "content/projects/amazon-review-intelligence/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-26T17:14:55.167Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "Amazon Review Intelligence",
+        "summary": "Amazon Review Intelligence 結合 Amazon Reviews 2023、BM25、vector search、reranker、review summarization、sentiment / aspect mining、similar product search、recommendation API 與 dashboard，展示真實 AI product 會需要的搜尋、推薦、NLP、API、前端與評估能力。",
+        "description": "Amazon Review Intelligence 是一個以評論為核心的商品搜尋與推薦資料產品。它結合 Amazon Reviews 2023 category subset、BM25、vector search、reranker、review summarization、sentiment / aspect mining、similar product search 與 recommendation API，目標是展示真實 AI product 會需要的搜尋、推薦、NLP、API、dashboard 與評估能力。\n\n這個專案把評論資料整理成可查詢、可比較、可評估的產品體驗。後端以 Python、DuckDB 與 FastAPI 組成資料與 API 層，前端以 Next.js 呈現商品搜尋、評論摘要、推薦、比較、embedding cluster、pipeline 與 evaluation 頁面。專案同時保留 pytest 與 Playwright 驗證，讓資料處理、API contract 與主要前端流程可以被重跑檢查。\n\n作品集卡片要呈現的重點是：這不是單純的 dashboard，而是一個從 ingestion、indexing、retrieval、recommendation、evaluation 到操作介面的完整資料產品練習。",
+        "tagline": "以評論資料驅動的商品搜尋、推薦與分析資料產品。",
+        "role": "獨立開發者",
+        "problem": "Amazon 商品頁有大量評論，但使用者很難快速理解商品優缺點、評論情緒與相似商品關係；單靠平均星等也不足以支援搜尋、比較與推薦決策。",
+        "solution": "建立一個以評論為核心的資料產品：用 DuckDB 管理商品與評論資料，FastAPI 提供搜尋與推薦 API，並用 Next.js 儀表板呈現 hybrid search、商品摘要、情緒分析、推薦結果與模型評估。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "**Hybrid Search** — BM25 lexical + sentence-transformer vector search with configurable alpha blending",
+          "**Review Intelligence** — per-product summaries, pros/cons extraction, sentiment distribution",
+          "**Recommendation** — popularity, content-based, item-item, and cold-start strategies",
+          "**REST API** — FastAPI with 8 endpoints, OpenAPI docs at `/docs`"
+        ],
+        "challenges": [
+          "在 BM25 與 sentence-transformer 向量搜尋之間設計可調權重，讓關鍵字精準度與語意召回能同時被觀察。",
+          "在不能重新散布原始 Amazon review dump 的限制下，只公開程式、文件、合成樣本與聚合指標。"
+        ],
+        "nextSteps": [
+          "補上公開 Demo 連結與更完整的 walkthrough 影片。"
+        ]
+      },
+      "en": {
+        "title": "Amazon Review Intelligence",
+        "summary": "Amazon Review Intelligence combines Amazon Reviews 2023 data, BM25, vector search, reranking, review summarization, sentiment and aspect analysis, similar-product search, recommendation APIs, and a dashboard experience.",
+        "description": "Amazon Review Intelligence is a review-centered product search and recommendation data product. It combines Amazon Reviews 2023 category data, BM25, vector search, reranking, review summarization, sentiment and aspect mining, similar-product search, recommendation APIs, and a dashboard experience.\n\nThe project turns review data into a searchable, comparable, and evaluable product experience. The backend uses Python, DuckDB, and FastAPI for data and API layers, while the frontend uses Next.js for product search, review summaries, recommendations, comparison, embedding clusters, pipeline visibility, and evaluation screens. It also includes pytest and Playwright coverage so data processing, API behavior, and main frontend workflows can be checked repeatedly.\n\nThe portfolio card should communicate that this is not just a dashboard. It is a full data product exercise spanning ingestion, indexing, retrieval, recommendation, evaluation, and an operator-facing interface.",
+        "tagline": "A review-centered product search and recommendation data product.",
+        "role": "Independent Developer",
+        "problem": "Product pages contain many reviews, but shoppers cannot easily turn raw review volume into clear tradeoffs, sentiment patterns, comparable products, or recommendation signals.",
+        "solution": "Built a review-centered data product with DuckDB for product and review data, FastAPI for search and recommendation endpoints, and a Next.js dashboard for hybrid search, product summaries, sentiment analytics, recommendations, and evaluation views.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "**Hybrid Search** — BM25 lexical + sentence-transformer vector search with configurable alpha blending",
+          "**Review Intelligence** — per-product summaries, pros/cons extraction, sentiment distribution",
+          "**Recommendation** — popularity, content-based, item-item, and cold-start strategies",
+          "**REST API** — FastAPI with 8 endpoints, OpenAPI docs at `/docs`"
+        ],
+        "challenges": [
+          "Balanced BM25 keyword precision with sentence-transformer semantic recall through configurable hybrid ranking.",
+          "Kept the portfolio presentation public-safe by shipping code, docs, synthetic samples, screenshots, and aggregate metrics instead of redistributing raw Amazon review dumps."
+        ],
+        "nextSteps": [
+          "Add a public demo link and a fuller walkthrough video."
         ]
       }
     }
@@ -673,7 +901,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.791Z"
+      "lastScannedAt": "2026-06-26T17:14:55.168Z"
     },
     "content": {
       "zh-TW": {
@@ -931,7 +1159,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.792Z"
+      "lastScannedAt": "2026-06-26T17:14:55.168Z"
     },
     "content": {
       "zh-TW": {
@@ -993,7 +1221,7 @@
     }
   },
   {
-    "id": "project-excel-python-data-analysis-pf-2026-ai-002",
+    "id": "project-excel-python-data-analysis-pf-2026-ai-003",
     "slug": "excel-python-data-analysis",
     "category": "ai-data",
     "status": "completed",
@@ -1155,7 +1383,7 @@
       "duration": "Portfolio refactor and demo hardening",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-002",
+      "catalogNumber": "PF-2026-AI-003",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -1331,7 +1559,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.793Z"
+      "lastScannedAt": "2026-06-26T17:14:55.169Z"
     },
     "content": {
       "zh-TW": {
@@ -1737,7 +1965,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.793Z"
+      "lastScannedAt": "2026-06-26T17:14:55.170Z"
     },
     "content": {
       "zh-TW": {
@@ -2525,7 +2753,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.794Z"
+      "lastScannedAt": "2026-06-26T17:14:55.170Z"
     },
     "content": {
       "zh-TW": {
@@ -2591,7 +2819,7 @@
     }
   },
   {
-    "id": "project-ir-rag-evaluation-lab-pf-2026-ai-003",
+    "id": "project-ir-rag-evaluation-lab-pf-2026-ai-004",
     "slug": "ir-rag-evaluation-lab",
     "category": "ai-data",
     "status": "completed",
@@ -2764,7 +2992,7 @@
       "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-003",
+      "catalogNumber": "PF-2026-AI-004",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -2855,7 +3083,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.794Z"
+      "lastScannedAt": "2026-06-26T17:14:55.171Z"
     },
     "content": {
       "zh-TW": {
@@ -3142,7 +3370,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.795Z"
+      "lastScannedAt": "2026-06-26T17:14:55.171Z"
     },
     "content": {
       "zh-TW": {
@@ -3198,7 +3426,7 @@
     }
   },
   {
-    "id": "project-music-intelligence-platform-pf-2026-ai-004",
+    "id": "project-music-intelligence-platform-pf-2026-ai-005",
     "slug": "music-intelligence-platform",
     "category": "ai-data",
     "status": "completed",
@@ -3570,7 +3798,7 @@
       "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-004",
+      "catalogNumber": "PF-2026-AI-005",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -3659,7 +3887,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.795Z"
+      "lastScannedAt": "2026-06-26T17:14:55.172Z"
     },
     "content": {
       "zh-TW": {
@@ -3709,7 +3937,7 @@
     }
   },
   {
-    "id": "project-nyc-taxi-mobility-analytics-pf-2026-ai-005",
+    "id": "project-nyc-taxi-mobility-analytics-pf-2026-ai-006",
     "slug": "nyc-taxi-mobility-analytics",
     "category": "ai-data",
     "status": "completed",
@@ -3836,7 +4064,7 @@
       "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-005",
+      "catalogNumber": "PF-2026-AI-006",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -3928,7 +4156,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.796Z"
+      "lastScannedAt": "2026-06-26T17:14:55.172Z"
     },
     "content": {
       "zh-TW": {
@@ -3980,7 +4208,7 @@
     }
   },
   {
-    "id": "project-openalex-research-rag-pf-2026-ai-006",
+    "id": "project-openalex-research-rag-pf-2026-ai-007",
     "slug": "openalex-research-rag",
     "category": "ai-data",
     "status": "completed",
@@ -4168,7 +4396,7 @@
       "completedAt": "2026-06-25",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-006",
+      "catalogNumber": "PF-2026-AI-007",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -4294,7 +4522,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.796Z"
+      "lastScannedAt": "2026-06-26T17:14:55.172Z"
     },
     "content": {
       "zh-TW": {
@@ -4560,7 +4788,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.797Z"
+      "lastScannedAt": "2026-06-26T17:14:55.173Z"
     },
     "content": {
       "zh-TW": {
@@ -4622,7 +4850,7 @@
     }
   },
   {
-    "id": "project-retailpulse-bi-recommender-pf-2026-ai-007",
+    "id": "project-retailpulse-bi-recommender-pf-2026-ai-008",
     "slug": "retailpulse-bi-recommender",
     "category": "ai-data",
     "status": "completed",
@@ -4803,7 +5031,7 @@
       "completedAt": "2026-06-25",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-AI-007",
+      "catalogNumber": "PF-2026-AI-008",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
@@ -4900,7 +5128,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:10:22.797Z"
+      "lastScannedAt": "2026-06-26T17:14:55.174Z"
     },
     "content": {
       "zh-TW": {

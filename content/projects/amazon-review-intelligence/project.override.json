@@ -1,5 +1,5 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "ai-data",
   "status": "prototype",
@@ -16,7 +16,24 @@
     "Playwright"
   ],
   "coverImage": "/portfolio/projects/amazon-review-intelligence/cover.webp",
-  "links": [],
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/p/amazon-review-intelligence/",
+      "label": {
+        "zh-TW": "開啟 Demo",
+        "en": "Open demo"
+      }
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/amazon-review-intelligence",
+      "label": {
+        "zh-TW": "GitHub",
+        "en": "GitHub"
+      }
+    }
+  ],
   "media": [
     {
       "id": "amazon-review-intelligence-overview",
@@ -83,8 +100,6 @@
       "reranking",
       "recommendation"
     ],
-    "missingFields": [
-      "verified public links"
-    ]
+    "missingFields": []
   }
 }
