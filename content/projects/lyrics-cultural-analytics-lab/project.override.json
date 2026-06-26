@@ -13,7 +13,7 @@
     "scikit-learn",
     "Playwright"
   ],
-  "coverImage": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-redesign.png",
+  "coverImage": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-redesign.png",
   "links": [
     {
       "kind": "live",
@@ -42,7 +42,7 @@
     },
     {
       "kind": "video",
-      "url": "https://neojustin.dothost.net/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+      "url": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
       "label": {
         "zh-TW": "Demo 影片",
         "en": "Demo Recording"
@@ -53,7 +53,7 @@
     {
       "id": "overview-dashboard",
       "type": "image",
-      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-redesign.png",
+      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-redesign.png",
       "alt": {
         "zh-TW": "Lyrics Cultural Analytics Lab 的總覽 dashboard，包含資料集狀態與文化分析摘要。",
         "en": "Lyrics Cultural Analytics Lab overview dashboard with dataset status and cultural analytics summary."
@@ -67,7 +67,7 @@
     {
       "id": "workflow-journey",
       "type": "image",
-      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-journey-v2.png",
+      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-journey-v2.png",
       "alt": {
         "zh-TW": "資料匯入、清理、特徵工程、訓練與評估的 workflow journey。",
         "en": "Workflow journey for ingestion, cleaning, feature engineering, training, and evaluation."
@@ -80,7 +80,7 @@
     {
       "id": "ml-lab",
       "type": "image",
-      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-journey-v2.png",
+      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-journey-v2.png",
       "alt": {
         "zh-TW": "ML Lab 頁面展示模型比較、分類器與解釋分析。",
         "en": "ML Lab page showing model comparison, classifier results, and explainability analysis."
@@ -93,8 +93,8 @@
     {
       "id": "guided-tour",
       "type": "video",
-      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
-      "poster": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/guided-tour-step-01.png",
+      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+      "poster": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/guided-tour-step-01.png",
       "alt": {
         "zh-TW": "Lyrics Cultural Analytics Lab 的互動導覽錄影。",
         "en": "Interactive guided tour recording for Lyrics Cultural Analytics Lab."
