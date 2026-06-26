@@ -66,6 +66,27 @@
     "confidence": 0.9
   },
   {
+    "name": "Agentic Bi Dataops Copilot",
+    "folder": "agentic-bi-dataops-copilot",
+    "path": "/home/justin/web-projects/agentic-bi-dataops-copilot",
+    "type": "Python",
+    "hasReadme": true,
+    "readmeContent": "# Agentic BI / DataOps Copilot\n\n**Schema-aware Text2SQL + SQL Guardrails over a DuckDB retail warehouse**\n\n中文/英文雙語自然語言分析平台 · 三重 SQL 安全驗證 · 本地 DuckDB · 零 API Key 可運行\n\n---\n\n## 截圖展示 / Screenshots & Demo\n\n> 進入網頁後導覽模式自動啟動，逐步帶覽所有 16 個功能階段。  \n> The guided tour auto-starts when you open the app and walks through all 16 DataOps stages.\n\n[完整導覽錄影 / Full Tour Recording](docs/videos/guided-tour.webm)\n\n### Playwright 驗證資產 / Playwright Verification Assets\n\nPlaywright validates the active React app routes, core interactions, 16-step guided journey, and captures viewport-sized screenshots for every feature page.\n\n- Tour recording: [docs/videos/guided-tour.webm](docs/videos/guided-tour.webm)\n- Tour step screenshots: [docs/screenshots/guided-tour/](docs/screenshots/guided-tour/)\n- Page screenshots: [docs/scr",
+    "detectedStack": [
+      "Python"
+    ],
+    "lastUpdate": "2026-06-26T18:51:17+08:00",
+    "gitRemote": "https://github.com/Justin21523/agentic-bi-dataops-copilot",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "chore: refresh verified demo assets and deployment",
+    "canBuild": false,
+    "canRun": false,
+    "hasMedia": false,
+    "needsManualReview": true,
+    "suitability": "Prototype",
+    "confidence": 0.8
+  },
+  {
     "name": "Ai Game Website",
     "folder": "ai-game-website",
     "path": "/home/justin/web-projects/ai-game-website",
