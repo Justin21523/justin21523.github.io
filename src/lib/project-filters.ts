@@ -31,6 +31,7 @@ export type ProjectViewMode =
   | "catalog";
 
 const pinnedProjectSlugs = [
+  "agentic-bi-dataops-copilot",
   "nyc-taxi-mobility-analytics",
   "ir-rag-evaluation-lab",
   "openalex-research-rag",
