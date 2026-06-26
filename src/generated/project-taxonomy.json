@@ -1,14 +1,13 @@
 {
   "categories": [
-    "information-system",
-    "interactive-3d",
     "ai-data",
+    "information-system",
     "backend-desktop"
   ],
   "statuses": [
-    "prototype",
     "completed",
-    "in-progress"
+    "in-progress",
+    "prototype"
   ],
   "years": [
     2026
@@ -37,18 +36,15 @@
     "FluentMigrator",
     "HTML",
     "ImageSharp",
-    "Java",
     "JavaScript",
     "Jieba",
     "Language Model Retrieval",
     "llama.cpp",
-    "Maven",
     "MediaWiki API",
     "MVVM",
     "Next.js",
     "openpyxl",
     "pandas",
-    "Phaser",
     "Playwright",
     "Plotly",
     "PyQt6",
@@ -58,20 +54,15 @@
     "Qt Widgets",
     "RAG",
     "React",
-    "React Three Fiber",
     "Recharts",
     "scikit-learn",
-    "Sentence Transformers",
     "sentence-transformers",
-    "Spring Boot",
     "SQLite",
     "Streamlit",
     "Tailwind CSS",
     "TF-IDF",
-    "Three.js",
     "TypeScript",
-    "Vite",
-    "Zustand"
+    "Vite"
   ],
   "domains": [
     "academic literature management",
@@ -102,12 +93,9 @@
     "Music analytics",
     "News Search",
     "NLP",
-    "Product search",
-    "Recommendation systems",
     "research workflow",
     "Retail Analytics",
     "Retrieval-Augmented Generation",
-    "Review analytics",
     "Scholarly Analytics",
     "Search Evaluation",
     "Web Scraping"
@@ -138,7 +126,6 @@
     "Dataset workflow",
     "desktop app architecture",
     "digital archive design",
-    "Evaluation dashboard",
     "Evaluation metrics",
     "Excel report export",
     "Explainable ML",
@@ -146,7 +133,6 @@
     "Faceted metadata browsing",
     "Feedback analytics",
     "Guided product tour",
-    "Hybrid lexical and semantic search",
     "Infobox fallback parsing",
     "interactive seat map",
     "knowledge organization",
@@ -163,13 +149,10 @@
     "Network graph analysis",
     "Openpyxl showcase",
     "operations dashboard",
-    "Product recommendation",
     "Quality checker",
     "Ranking diagnostics",
     "research workflow design",
-    "Review summarization",
     "Sales analysis",
-    "Sentiment and aspect analysis",
     "SQLite browsing",
     "visual programming interface"
   ],
@@ -177,7 +160,6 @@
     "Backend implementer",
     "Dashboard Developer",
     "Data pipeline engineer",
-    "Data product developer",
     "Desktop Application Developer",
     "Excel Automation Developer",
     "Frontend dashboard developer",
@@ -197,7 +179,6 @@
     "獨立開發者 / Full-stack Data Product Developer",
     "獨立開發者 / IR、RAG 與 Evaluation Workflow 架構師",
     "獨立開發者 / 全端與檢索/RAG 系統架構師",
-    "獨立開發者 / 全端資料產品實作者",
-    "獨立開發者 / 學習型專案實作者"
+    "獨立開發者 / 全端資料產品實作者"
   ]
 }

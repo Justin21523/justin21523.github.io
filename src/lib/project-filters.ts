@@ -32,7 +32,6 @@ export type ProjectViewMode =
 
 const pinnedProjectSlugs = [
   "ir-rag-evaluation-lab",
-  "dcard-trending-crawler",
   "agentic-bi-dataops-copilot",
   "nyc-taxi-mobility-analytics",
   "openalex-research-rag",

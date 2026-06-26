@@ -4,7 +4,6 @@ import type { Project } from "@/types/projects";
 const catalog = projectCatalog as Project[];
 const priorityProjectSlugs = [
   "ir-rag-evaluation-lab",
-  "dcard-trending-crawler",
   "agentic-bi-dataops-copilot",
   "nyc-taxi-mobility-analytics",
   "openalex-research-rag",
