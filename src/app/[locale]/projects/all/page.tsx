@@ -65,7 +65,7 @@ function ProjectExplorerSkeleton() {
 
         <div className="mb-10 h-40 animate-pulse rounded-3xl bg-secondary" />
 
-        <div className="grid gap-8 md:grid-cols-2 2xl:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
           {Array.from({
             length: 6,
           }).map((_, index) => (
