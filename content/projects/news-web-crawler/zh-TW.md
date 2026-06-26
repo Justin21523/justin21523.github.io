@@ -1,28 +1,28 @@
 ---
 title: "News Web Crawler"
-tagline: "資料處理、AI、分析或自動化流程練習專案。"
-summary: "News Web Crawler 是一個以 Python 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
-role: "獨立開發者 / 學習型專案實作者"
-problem: "這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。"
-solution: "我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。"
-outcome: "目前適合作為資料整理、分析、自動化或 AI 應用流程的學習型作品。"
+tagline: "新聞爬蟲、資料品質、文字探勘與 ML diagnostics 的端到端分析平台。"
+summary: "News Web Crawler 是一個把台灣新聞資料從 crawler、清理、SQLite/FTS、NLP、EDA、文字探勘到 ML diagnostics 串成瀏覽器工作台的資料產品。作品集版本包含公開 demo、GitHub、README、導覽錄影與 Playwright 截圖證據。"
+role: "獨立開發者 / 全端資料產品實作者"
+problem: "新聞資料專案常停在爬蟲或 notebook 分析，缺少能讓人檢查資料品質、重跑 pipeline、探索文章、比較模型並輸出報表的完整操作介面。"
+solution: "我用 FastAPI + SQLite 建立 API 與背景 jobs，用 Next.js 建立資料品質、EDA、文字探勘、文章搜尋、ML diagnostics 與報表頁面，並用 Playwright 產生截圖與 guided-tour 錄影作為作品集證據。"
+outcome: "專案已補齊遠端 demo、GitHub、README、demo 錄影與截圖素材；作品集卡片可直接連到可操作的新聞資料分析 demo。"
 highlights:
-  - "使用或涉及 Python。"
-  - "以作品集練習為目標，整理功能、資料與介面流程。"
-  - "目前內容採保守描述，避免把學習專案包裝成正式產品。"
+  - "FastAPI backend 提供 articles、stats、data quality、analysis、text mining、ML diagnostics 與 jobs API。"
+  - "Next.js dashboard 支援 guided assistant，能引導使用者走完上傳、pipeline、分析、搜尋與報表流程。"
+  - "文字探勘整合 TF-IDF、n-gram、topic modeling、cluster、collocation、entity 與 co-occurrence network。"
+  - "ML diagnostics 支援 baseline model、decision tree、artifact、error samples 與 portfolio report export。"
+  - "Playwright 產生桌面/手機截圖與 guided-tour.webm，方便在作品集卡片與 README 直接展示。"
 challenges:
-  - "需要從 README 與原始碼中整理出可信、可展示的專案範圍。"
-  - "需要把技術名詞轉換成清楚的功能、資料流與學習成果。"
-  - "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
+  - "需要把原本偏 CLI/pipeline 的資料工程專案整理成可公開瀏覽的產品介面。"
+  - "需要讓 demo 在 portfolio reverse proxy 的 /p/news-web-crawler/ 子路徑下正常處理 route、API 與靜態資源。"
+  - "需要把截圖、錄影、GitHub、README 與 live demo 連結整理成一致的作品集 evidence。"
 nextSteps:
-  - "補齊更完整的中英文案例研究與操作截圖。"
-  - "確認 GitHub、Demo、文件與素材是否適合公開展示。"
-  - "依完成度補強測試、README 與部署或執行說明。"
+  - "把遠端 smoke test 納入部署流程，確認 /p/news-web-crawler/ 與 /api/v1/health 都正常。"
+  - "增加更多真實新聞資料集與資料來源健康檢查。"
+  - "補強 ML 報表樣板與人工標註資料，降低弱監督 sentiment 的限制。"
 ---
-News Web Crawler 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
+News Web Crawler 的重點不是單一 crawler，而是把新聞資料從取得到分析、品質檢查、模型診斷與報表輸出整理成一個可以操作的資料工作台。
 
-從掃描資料來看，這個專案的主要技術線索包含 Python。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。
+我把 backend 拆成 FastAPI services 與 pipeline jobs，讓 crawler、sample demo、analysis、text mining、ML training 和 report export 都能從 UI 觸發。Frontend 則以 dashboard 方式呈現：首頁看 pipeline 狀態，Data Quality 檢查缺漏與錯誤，Analysis 看趨勢與來源，Text Mining 探索 keyword/entity/topic/cluster，Articles 搜尋與 facet，ML 頁面比較 baseline models，Reports 頁面輸出可保留的 portfolio evidence。
 
-這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。 我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。
-
-後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。
+作品集版也補上完整公開證據：Live Demo、GitHub、README、demo 錄影、cover image 與多張 Playwright 截圖。這讓瀏覽者不用猜專案長什麼樣子，也能直接看到平台如何操作。

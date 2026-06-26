@@ -1,22 +1,45 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "information-system",
   "status": "prototype",
   "year": 2026,
   "technologies": [
-    "Python"
+    "Python",
+    "FastAPI",
+    "Next.js",
+    "TypeScript",
+    "SQLite",
+    "scikit-learn",
+    "Playwright",
+    "Docker"
   ],
   "coverImage": "/portfolio/projects/news-web-crawler/cover.png",
   "links": [
     {
       "kind": "live",
-      "url": "https://neojustin.dothost.net/p/news-web-crawler/",
+      "url": "https://neojustin.dothost.net/p/news-web-crawler",
       "label": {
         "zh-TW": "線上展示",
         "en": "Live Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/news-web-crawler",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/news-web-crawler#readme",
+      "label": {
+        "zh-TW": "查看 README",
+        "en": "View README"
+      }
     },
     {
       "kind": "video",
@@ -42,8 +65,26 @@
         "en": "Platform Walkthrough"
       },
       "caption": {
-        "zh-TW": "展示新聞資料匯入、處理旅程、文字探勘、分析圖表與報表頁面。",
-        "en": "Shows data import, the processing journey, text mining, analytics charts, and reports."
+        "zh-TW": "展示新聞資料匯入、pipeline jobs、資料品質、EDA、文字探勘、文章搜尋、ML diagnostics 與報表輸出。",
+        "en": "Shows news ingestion, pipeline jobs, data quality, EDA, text mining, article search, ML diagnostics, and report export."
+      },
+      "featured": true
+    },
+    {
+      "id": "dashboard-overview",
+      "type": "image",
+      "src": "/portfolio/projects/news-web-crawler/cover.png",
+      "alt": {
+        "zh-TW": "News Web Crawler dashboard，顯示 pipeline 狀態與整體分析摘要。",
+        "en": "News Web Crawler dashboard showing pipeline state and analytics summary."
+      },
+      "title": {
+        "zh-TW": "Dashboard 總覽",
+        "en": "Dashboard Overview"
+      },
+      "caption": {
+        "zh-TW": "首頁把資料量、品質狀態、pipeline progress 與分析入口集中在同一個工作台。",
+        "en": "The home dashboard combines volume, quality state, pipeline progress, and analytics entry points."
       },
       "featured": true
     },
@@ -58,6 +99,10 @@
       "title": {
         "zh-TW": "資料處理旅程",
         "en": "Pipeline Journey"
+      },
+      "caption": {
+        "zh-TW": "以 guided assistant 串起上傳、demo pipeline、job 狀態與後續分析流程。",
+        "en": "Guided assistant connects upload, demo pipeline, job state, and downstream analysis steps."
       }
     },
     {
@@ -69,8 +114,12 @@
         "en": "The text mining analytics page in News Web Crawler."
       },
       "title": {
-        "zh-TW": "文字探勘",
-        "en": "Text Mining"
+        "zh-TW": "文字探勘工作台",
+        "en": "Text Mining Workbench"
+      },
+      "caption": {
+        "zh-TW": "整合 TF-IDF、n-gram、topic modeling、cluster、entity 與 co-occurrence network。",
+        "en": "Combines TF-IDF, n-grams, topic modeling, clustering, entities, and co-occurrence networks."
       }
     },
     {
@@ -82,8 +131,97 @@
         "en": "The news analytics dashboard in News Web Crawler."
       },
       "title": {
-        "zh-TW": "分析儀表板",
-        "en": "Analytics Dashboard"
+        "zh-TW": "EDA 分析儀表板",
+        "en": "EDA Analytics Dashboard"
+      },
+      "caption": {
+        "zh-TW": "顯示趨勢、來源、類別、關鍵詞與 business insight 卡片。",
+        "en": "Shows trends, sources, categories, keywords, and business insight cards."
+      }
+    },
+    {
+      "id": "data-quality",
+      "type": "image",
+      "src": "/portfolio/projects/news-web-crawler/screenshots/04-data-quality.png",
+      "alt": {
+        "zh-TW": "資料品質頁面顯示驗證結果、錯誤類型與可匯出 issue 清單。",
+        "en": "Data quality page showing validation results, issue types, and exportable issue lists."
+      },
+      "title": {
+        "zh-TW": "資料品質分析",
+        "en": "Data Quality Analysis"
+      },
+      "caption": {
+        "zh-TW": "用可追蹤 issue list 呈現缺漏日期、invalid URL、短內容與重複資料等問題。",
+        "en": "Tracks missing dates, invalid URLs, short content, and duplicate records through an issue list."
+      }
+    },
+    {
+      "id": "ml-diagnostics",
+      "type": "image",
+      "src": "/portfolio/projects/news-web-crawler/screenshots/05-ml-diagnostics.png",
+      "alt": {
+        "zh-TW": "ML diagnostics 頁面顯示模型指標、決策樹與可解釋分析。",
+        "en": "ML diagnostics page showing model metrics, decision tree, and explainability views."
+      },
+      "title": {
+        "zh-TW": "ML Diagnostics",
+        "en": "ML Diagnostics"
+      },
+      "caption": {
+        "zh-TW": "支援 baseline training、模型比較、decision tree image 與 article-level explanation。",
+        "en": "Supports baseline training, model comparison, decision tree imagery, and article-level explanation."
+      }
+    },
+    {
+      "id": "report-library",
+      "type": "image",
+      "src": "/portfolio/projects/news-web-crawler/screenshots/06-report-library.png",
+      "alt": {
+        "zh-TW": "報表庫頁面顯示可輸出的 ML diagnostics reports。",
+        "en": "Report library showing exportable ML diagnostics reports."
+      },
+      "title": {
+        "zh-TW": "報表與作品集輸出",
+        "en": "Reports and Portfolio Output"
+      },
+      "caption": {
+        "zh-TW": "報表可輸出 HTML、PDF、XLSX、JSON 與 manifest，適合保留 demo evidence。",
+        "en": "Reports export HTML, PDF, XLSX, JSON, and manifests for demo evidence."
+      }
+    },
+    {
+      "id": "article-search",
+      "type": "image",
+      "src": "/portfolio/projects/news-web-crawler/screenshots/07-article-search.png",
+      "alt": {
+        "zh-TW": "文章搜尋頁面顯示 facet、排序與新聞內容瀏覽。",
+        "en": "Article search page showing facets, sorting, and news content browsing."
+      },
+      "title": {
+        "zh-TW": "文章搜尋",
+        "en": "Article Search"
+      },
+      "caption": {
+        "zh-TW": "可用來源、類別、topic、cluster、entity 與 ranking 過濾新聞資料。",
+        "en": "Filters news data by source, category, topic, cluster, entity, and ranking mode."
+      }
+    },
+    {
+      "id": "job-runner",
+      "type": "image",
+      "src": "/portfolio/projects/news-web-crawler/screenshots/08-job-runner.png",
+      "alt": {
+        "zh-TW": "Pipeline Jobs 頁面顯示 job type、參數與執行記錄。",
+        "en": "Pipeline Jobs page showing job type, parameters, and execution logs."
+      },
+      "title": {
+        "zh-TW": "Pipeline Jobs",
+        "en": "Pipeline Jobs"
+      },
+      "caption": {
+        "zh-TW": "從 UI 執行 demo、crawl、analysis、ML training 與 diagnostics report export。",
+        "en": "Runs demo, crawl, analysis, ML training, and diagnostics report export from the UI."
       }
     }
   ]

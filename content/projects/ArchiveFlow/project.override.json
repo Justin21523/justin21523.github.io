@@ -24,6 +24,14 @@
         "zh-TW": "查看 GitHub",
         "en": "View GitHub"
       }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/archive-flow-studio#readme",
+      "label": {
+        "zh-TW": "README 說明",
+        "en": "README"
+      }
     }
   ],
   "media": [

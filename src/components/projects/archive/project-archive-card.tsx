@@ -203,9 +203,11 @@ export function ProjectArchiveCard({
 
   const features =
     content.features ?? [];
-  const quickLinks = project.links.filter((link) =>
-    ["live", "documentation", "video"].includes(link.kind)
-  );
+  // Show up to 4 links per card, in a stable order, incl. GitHub.
+  const quickLinkOrder = ["github", "live", "video", "documentation"];
+  const quickLinks = quickLinkOrder
+    .map((kind) => project.links.find((link) => link.kind === kind))
+    .filter((link): link is (typeof project.links)[number] => Boolean(link));
 
   if (viewMode === "catalog") {
     return (
@@ -309,7 +311,7 @@ export function ProjectArchiveCard({
             >
               {locale === "en" ? "Full Record →" : "完整案例 →"}
             </Link>
-            {quickLinks.slice(0, 3).map((link) => (
+            {quickLinks.slice(0, 4).map((link) => (
               <a
                 key={`${project.slug}-${link.kind}`}
                 href={link.url}
@@ -675,7 +677,7 @@ export function ProjectArchiveCard({
 
         {quickLinks.length > 0 && (
           <div className="mt-4 flex flex-wrap gap-2">
-            {quickLinks.slice(0, 3).map((link) => (
+            {quickLinks.slice(0, 4).map((link) => (
               <a
                 key={`${project.slug}-${link.kind}`}
                 href={link.url}

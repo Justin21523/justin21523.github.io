@@ -399,7 +399,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.006Z"
+      "lastScannedAt": "2026-06-26T18:56:17.982Z"
     },
     "content": {
       "zh-TW": {
@@ -498,6 +498,14 @@
         "label": {
           "zh-TW": "GitHub",
           "en": "GitHub"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/amazon-review-intelligence#readme",
+        "label": {
+          "zh-TW": "README 說明",
+          "en": "README"
         }
       }
     ],
@@ -639,7 +647,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.009Z"
+      "lastScannedAt": "2026-06-26T18:56:17.985Z"
     },
     "content": {
       "zh-TW": {
@@ -718,6 +726,14 @@
         "label": {
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/archive-flow-studio#readme",
+        "label": {
+          "zh-TW": "README 說明",
+          "en": "README"
         }
       }
     ],
@@ -901,7 +917,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.009Z"
+      "lastScannedAt": "2026-06-26T18:56:17.986Z"
     },
     "content": {
       "zh-TW": {
@@ -984,6 +1000,14 @@
         "label": {
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/cafe-net-manager#readme",
+        "label": {
+          "zh-TW": "README 說明",
+          "en": "README"
         }
       }
     ],
@@ -1159,7 +1183,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.010Z"
+      "lastScannedAt": "2026-06-26T18:56:17.986Z"
     },
     "content": {
       "zh-TW": {
@@ -1247,6 +1271,14 @@
         "label": {
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/posts-trending-crawler#readme",
+        "label": {
+          "zh-TW": "README 說明",
+          "en": "README"
         }
       }
     ],
@@ -1349,7 +1381,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.011Z"
+      "lastScannedAt": "2026-06-26T18:56:17.987Z"
     },
     "content": {
       "zh-TW": {
@@ -1749,7 +1781,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.011Z"
+      "lastScannedAt": "2026-06-26T18:56:17.987Z"
     },
     "content": {
       "zh-TW": {
@@ -1975,6 +2007,19 @@
           "zh-TW": "Compliance Log",
           "en": "Compliance Log"
         }
+      },
+      {
+        "id": "fandom-gui-scraper-guided-demo-mobile",
+        "type": "video",
+        "src": "/portfolio/projects/fandom-gui-scraper/demo/guided-demo-mobile.webm",
+        "alt": {
+          "zh-TW": "Fandom 爬蟲平台 導覽 展示 行動版",
+          "en": "Fandom Scraper Guided Demo Mobile"
+        },
+        "title": {
+          "zh-TW": "Fandom 爬蟲平台 導覽 展示 行動版",
+          "en": "Guided Demo Mobile"
+        }
       }
     ],
     "metadata": {
@@ -2155,7 +2200,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.012Z"
+      "lastScannedAt": "2026-06-26T18:56:17.988Z"
     },
     "content": {
       "zh-TW": {
@@ -2943,7 +2988,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.012Z"
+      "lastScannedAt": "2026-06-26T18:56:17.988Z"
     },
     "content": {
       "zh-TW": {
@@ -3175,6 +3220,19 @@
           "zh-TW": "英文介面",
           "en": "English UI"
         }
+      },
+      {
+        "id": "ir-rag-evaluation-lab-26-llm-dashboard",
+        "type": "image",
+        "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/26-llm-dashboard.png",
+        "alt": {
+          "zh-TW": "IR/RAG 評測 26 LLM 儀表板",
+          "en": "IR/RAG Eval Llm Dashboard"
+        },
+        "title": {
+          "zh-TW": "IR/RAG 評測 26 LLM 儀表板",
+          "en": "Llm Dashboard"
+        }
       }
     ],
     "metadata": {
@@ -3273,7 +3331,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.013Z"
+      "lastScannedAt": "2026-06-26T18:56:17.989Z"
     },
     "content": {
       "zh-TW": {
@@ -3483,6 +3541,149 @@
           "zh-TW": "互動導覽錄影",
           "en": "Guided Tour Recording"
         }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-guided-tour",
+        "type": "video",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+        "alt": {
+          "zh-TW": "歌詞文化分析 導覽 導覽",
+          "en": "Lyrics Cultural Analytics Guided Tour"
+        },
+        "title": {
+          "zh-TW": "歌詞文化分析 導覽 導覽",
+          "en": "Guided Tour"
+        }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-evaluation-viewport",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/evaluation-viewport.png",
+        "alt": {
+          "zh-TW": "歌詞文化分析 評估 畫面",
+          "en": "Lyrics Cultural Analytics Evaluation Viewport"
+        },
+        "title": {
+          "zh-TW": "歌詞文化分析 評估 畫面",
+          "en": "Evaluation Viewport"
+        }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-guided-tour-step-01",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/guided-tour-step-01.png",
+        "alt": {
+          "zh-TW": "導覽步驟 1",
+          "en": "Lyrics Cultural Analytics Guided Tour Step 01"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 1",
+          "en": "Guided Tour Step 01"
+        }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-ml-lab-journey-v2",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-journey-v2.png",
+        "alt": {
+          "zh-TW": "歌詞文化分析 ml lab 流程 v2",
+          "en": "Lyrics Cultural Analytics Ml Lab Journey V2"
+        },
+        "title": {
+          "zh-TW": "歌詞文化分析 ml lab 流程 v2",
+          "en": "Ml Lab Journey V2"
+        }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-ml-lab-viewport-01",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-viewport-01.png",
+        "alt": {
+          "zh-TW": "歌詞文化分析 ml lab 畫面 01",
+          "en": "Lyrics Cultural Analytics Ml Lab Viewport 01"
+        },
+        "title": {
+          "zh-TW": "歌詞文化分析 ml lab 畫面 01",
+          "en": "Ml Lab Viewport 01"
+        }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-ml-lab-viewport-02",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-viewport-02.png",
+        "alt": {
+          "zh-TW": "歌詞文化分析 ml lab 畫面 02",
+          "en": "Lyrics Cultural Analytics Ml Lab Viewport 02"
+        },
+        "title": {
+          "zh-TW": "歌詞文化分析 ml lab 畫面 02",
+          "en": "Ml Lab Viewport 02"
+        }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-overview-redesign",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-redesign.png",
+        "alt": {
+          "zh-TW": "歌詞文化分析 總覽 改版",
+          "en": "Lyrics Cultural Analytics Overview Redesign"
+        },
+        "title": {
+          "zh-TW": "歌詞文化分析 總覽 改版",
+          "en": "Overview Redesign"
+        }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-overview-viewport",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-viewport.png",
+        "alt": {
+          "zh-TW": "歌詞文化分析 總覽 畫面",
+          "en": "Lyrics Cultural Analytics Overview Viewport"
+        },
+        "title": {
+          "zh-TW": "歌詞文化分析 總覽 畫面",
+          "en": "Overview Viewport"
+        }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-workflow-journey-v2",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-journey-v2.png",
+        "alt": {
+          "zh-TW": "歌詞文化分析 工作流程 流程 v2",
+          "en": "Lyrics Cultural Analytics Workflow Journey V2"
+        },
+        "title": {
+          "zh-TW": "歌詞文化分析 工作流程 流程 v2",
+          "en": "Workflow Journey V2"
+        }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-workflow-viewport-01",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-viewport-01.png",
+        "alt": {
+          "zh-TW": "歌詞文化分析 工作流程 畫面 01",
+          "en": "Lyrics Cultural Analytics Workflow Viewport 01"
+        },
+        "title": {
+          "zh-TW": "歌詞文化分析 工作流程 畫面 01",
+          "en": "Workflow Viewport 01"
+        }
+      },
+      {
+        "id": "lyrics-cultural-analytics-lab-workflow-viewport-02",
+        "type": "image",
+        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-viewport-02.png",
+        "alt": {
+          "zh-TW": "歌詞文化分析 工作流程 畫面 02",
+          "en": "Lyrics Cultural Analytics Workflow Viewport 02"
+        },
+        "title": {
+          "zh-TW": "歌詞文化分析 工作流程 畫面 02",
+          "en": "Workflow Viewport 02"
+        }
       }
     ],
     "metadata": {
@@ -3599,7 +3800,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.013Z"
+      "lastScannedAt": "2026-06-26T18:56:17.989Z"
     },
     "content": {
       "zh-TW": {
@@ -4020,6 +4221,370 @@
           "zh-TW": "導覽完成",
           "en": "Tour Completed"
         }
+      },
+      {
+        "id": "music-intelligence-platform-page-cohorts",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-cohorts.png",
+        "alt": {
+          "zh-TW": "音樂智能平台 page 族群分析",
+          "en": "Music Intelligence Platform Page Cohorts"
+        },
+        "title": {
+          "zh-TW": "音樂智能平台 page 族群分析",
+          "en": "Page Cohorts"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-page-correlation",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-correlation.png",
+        "alt": {
+          "zh-TW": "音樂智能平台 page 相關性",
+          "en": "Music Intelligence Platform Page Correlation"
+        },
+        "title": {
+          "zh-TW": "音樂智能平台 page 相關性",
+          "en": "Page Correlation"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-page-evaluation-profiles",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-evaluation-profiles.png",
+        "alt": {
+          "zh-TW": "音樂智能平台 page 評估 設定檔",
+          "en": "Music Intelligence Platform Page Evaluation Profiles"
+        },
+        "title": {
+          "zh-TW": "音樂智能平台 page 評估 設定檔",
+          "en": "Page Evaluation Profiles"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-page-home-scroll",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-home-scroll.png",
+        "alt": {
+          "zh-TW": "音樂智能平台 page 首頁 頁面",
+          "en": "Music Intelligence Platform Page Home Scroll"
+        },
+        "title": {
+          "zh-TW": "音樂智能平台 page 首頁 頁面",
+          "en": "Page Home Scroll"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-page-search",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-search.png",
+        "alt": {
+          "zh-TW": "音樂智能平台 page 搜尋",
+          "en": "Music Intelligence Platform Page Search"
+        },
+        "title": {
+          "zh-TW": "音樂智能平台 page 搜尋",
+          "en": "Page Search"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-page-tradeoff",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-tradeoff.png",
+        "alt": {
+          "zh-TW": "音樂智能平台 page 權衡分析",
+          "en": "Music Intelligence Platform Page Tradeoff"
+        },
+        "title": {
+          "zh-TW": "音樂智能平台 page 權衡分析",
+          "en": "Page Tradeoff"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-page-tree-rf",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-tree-rf.png",
+        "alt": {
+          "zh-TW": "音樂智能平台 page 決策樹 隨機森林",
+          "en": "Music Intelligence Platform Page Tree Rf"
+        },
+        "title": {
+          "zh-TW": "音樂智能平台 page 決策樹 隨機森林",
+          "en": "Page Tree Rf"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-page-tree",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-tree.png",
+        "alt": {
+          "zh-TW": "音樂智能平台 page 決策樹",
+          "en": "Music Intelligence Platform Page Tree"
+        },
+        "title": {
+          "zh-TW": "音樂智能平台 page 決策樹",
+          "en": "Page Tree"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-page-upload",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/page-upload.png",
+        "alt": {
+          "zh-TW": "音樂智能平台 page 上傳",
+          "en": "Music Intelligence Platform Page Upload"
+        },
+        "title": {
+          "zh-TW": "音樂智能平台 page 上傳",
+          "en": "Page Upload"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-02",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-02.png",
+        "alt": {
+          "zh-TW": "導覽步驟 2",
+          "en": "Music Intelligence Platform Tour Step 02"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 2",
+          "en": "Tour Step 02"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-03",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-03.png",
+        "alt": {
+          "zh-TW": "導覽步驟 3",
+          "en": "Music Intelligence Platform Tour Step 03"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 3",
+          "en": "Tour Step 03"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-04",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-04.png",
+        "alt": {
+          "zh-TW": "導覽步驟 4",
+          "en": "Music Intelligence Platform Tour Step 04"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 4",
+          "en": "Tour Step 04"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-06",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-06.png",
+        "alt": {
+          "zh-TW": "導覽步驟 6",
+          "en": "Music Intelligence Platform Tour Step 06"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 6",
+          "en": "Tour Step 06"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-07",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-07.png",
+        "alt": {
+          "zh-TW": "導覽步驟 7",
+          "en": "Music Intelligence Platform Tour Step 07"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 7",
+          "en": "Tour Step 07"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-08",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-08.png",
+        "alt": {
+          "zh-TW": "導覽步驟 8",
+          "en": "Music Intelligence Platform Tour Step 08"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 8",
+          "en": "Tour Step 08"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-09",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-09.png",
+        "alt": {
+          "zh-TW": "導覽步驟 9",
+          "en": "Music Intelligence Platform Tour Step 09"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 9",
+          "en": "Tour Step 09"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-11",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-11.png",
+        "alt": {
+          "zh-TW": "導覽步驟 11",
+          "en": "Music Intelligence Platform Tour Step 11"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 11",
+          "en": "Tour Step 11"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-12",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-12.png",
+        "alt": {
+          "zh-TW": "導覽步驟 12",
+          "en": "Music Intelligence Platform Tour Step 12"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 12",
+          "en": "Tour Step 12"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-13",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-13.png",
+        "alt": {
+          "zh-TW": "導覽步驟 13",
+          "en": "Music Intelligence Platform Tour Step 13"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 13",
+          "en": "Tour Step 13"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-14",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-14.png",
+        "alt": {
+          "zh-TW": "導覽步驟 14",
+          "en": "Music Intelligence Platform Tour Step 14"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 14",
+          "en": "Tour Step 14"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-15",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-15.png",
+        "alt": {
+          "zh-TW": "導覽步驟 15",
+          "en": "Music Intelligence Platform Tour Step 15"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 15",
+          "en": "Tour Step 15"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-16",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-16.png",
+        "alt": {
+          "zh-TW": "導覽步驟 16",
+          "en": "Music Intelligence Platform Tour Step 16"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 16",
+          "en": "Tour Step 16"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-17",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-17.png",
+        "alt": {
+          "zh-TW": "導覽步驟 17",
+          "en": "Music Intelligence Platform Tour Step 17"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 17",
+          "en": "Tour Step 17"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-18",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-18.png",
+        "alt": {
+          "zh-TW": "導覽步驟 18",
+          "en": "Music Intelligence Platform Tour Step 18"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 18",
+          "en": "Tour Step 18"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-19",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-19.png",
+        "alt": {
+          "zh-TW": "導覽步驟 19",
+          "en": "Music Intelligence Platform Tour Step 19"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 19",
+          "en": "Tour Step 19"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-20",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-20.png",
+        "alt": {
+          "zh-TW": "導覽步驟 20",
+          "en": "Music Intelligence Platform Tour Step 20"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 20",
+          "en": "Tour Step 20"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-21",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-21.png",
+        "alt": {
+          "zh-TW": "導覽步驟 21",
+          "en": "Music Intelligence Platform Tour Step 21"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 21",
+          "en": "Tour Step 21"
+        }
+      },
+      {
+        "id": "music-intelligence-platform-tour-step-22",
+        "type": "image",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-22.png",
+        "alt": {
+          "zh-TW": "導覽步驟 22",
+          "en": "Music Intelligence Platform Tour Step 22"
+        },
+        "title": {
+          "zh-TW": "導覽步驟 22",
+          "en": "Tour Step 22"
+        }
       }
     ],
     "metadata": {
@@ -4116,7 +4681,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.014Z"
+      "lastScannedAt": "2026-06-26T18:56:17.990Z"
     },
     "content": {
       "zh-TW": {
@@ -4161,6 +4726,385 @@
         ],
         "nextSteps": [
           "Add screenshots, demo material, and a complete case study."
+        ]
+      }
+    }
+  },
+  {
+    "id": "project-news-web-crawler-pf-2026-is-006",
+    "slug": "news-web-crawler",
+    "category": "information-system",
+    "status": "prototype",
+    "year": 2026,
+    "featured": false,
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "Next.js",
+      "TypeScript",
+      "SQLite",
+      "scikit-learn",
+      "Playwright",
+      "Docker"
+    ],
+    "coverImage": "/portfolio/projects/news-web-crawler/cover.png",
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://neojustin.dothost.net/p/news-web-crawler",
+        "label": {
+          "zh-TW": "線上展示",
+          "en": "Live Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/news-web-crawler",
+        "label": {
+          "zh-TW": "查看 GitHub",
+          "en": "View GitHub"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/news-web-crawler#readme",
+        "label": {
+          "zh-TW": "查看 README",
+          "en": "View README"
+        }
+      },
+      {
+        "kind": "video",
+        "url": "https://neojustin.dothost.net/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "guided-tour-video",
+        "type": "video",
+        "src": "/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+        "poster": "/portfolio/projects/news-web-crawler/cover.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 分析平台導覽錄影。",
+          "en": "Guided walkthrough recording of the News Web Crawler analytics platform."
+        },
+        "title": {
+          "zh-TW": "平台導覽錄影",
+          "en": "Platform Walkthrough"
+        },
+        "caption": {
+          "zh-TW": "展示新聞資料匯入、pipeline jobs、資料品質、EDA、文字探勘、文章搜尋、ML diagnostics 與報表輸出。",
+          "en": "Shows news ingestion, pipeline jobs, data quality, EDA, text mining, article search, ML diagnostics, and report export."
+        },
+        "featured": true
+      },
+      {
+        "id": "dashboard-overview",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/cover.png",
+        "alt": {
+          "zh-TW": "News Web Crawler dashboard，顯示 pipeline 狀態與整體分析摘要。",
+          "en": "News Web Crawler dashboard showing pipeline state and analytics summary."
+        },
+        "title": {
+          "zh-TW": "Dashboard 總覽",
+          "en": "Dashboard Overview"
+        },
+        "caption": {
+          "zh-TW": "首頁把資料量、品質狀態、pipeline progress 與分析入口集中在同一個工作台。",
+          "en": "The home dashboard combines volume, quality state, pipeline progress, and analytics entry points."
+        },
+        "featured": true
+      },
+      {
+        "id": "pipeline-journey",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/01-pipeline-journey.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 的資料處理旅程頁面。",
+          "en": "The data processing journey page in News Web Crawler."
+        },
+        "title": {
+          "zh-TW": "資料處理旅程",
+          "en": "Pipeline Journey"
+        },
+        "caption": {
+          "zh-TW": "以 guided assistant 串起上傳、demo pipeline、job 狀態與後續分析流程。",
+          "en": "Guided assistant connects upload, demo pipeline, job state, and downstream analysis steps."
+        }
+      },
+      {
+        "id": "text-mining",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/02-text-mining.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 的文字探勘分析頁面。",
+          "en": "The text mining analytics page in News Web Crawler."
+        },
+        "title": {
+          "zh-TW": "文字探勘工作台",
+          "en": "Text Mining Workbench"
+        },
+        "caption": {
+          "zh-TW": "整合 TF-IDF、n-gram、topic modeling、cluster、entity 與 co-occurrence network。",
+          "en": "Combines TF-IDF, n-grams, topic modeling, clustering, entities, and co-occurrence networks."
+        }
+      },
+      {
+        "id": "analysis-dashboard",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/03-analysis-dashboard.png",
+        "alt": {
+          "zh-TW": "News Web Crawler 的新聞分析儀表板。",
+          "en": "The news analytics dashboard in News Web Crawler."
+        },
+        "title": {
+          "zh-TW": "EDA 分析儀表板",
+          "en": "EDA Analytics Dashboard"
+        },
+        "caption": {
+          "zh-TW": "顯示趨勢、來源、類別、關鍵詞與 business insight 卡片。",
+          "en": "Shows trends, sources, categories, keywords, and business insight cards."
+        }
+      },
+      {
+        "id": "data-quality",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/04-data-quality.png",
+        "alt": {
+          "zh-TW": "資料品質頁面顯示驗證結果、錯誤類型與可匯出 issue 清單。",
+          "en": "Data quality page showing validation results, issue types, and exportable issue lists."
+        },
+        "title": {
+          "zh-TW": "資料品質分析",
+          "en": "Data Quality Analysis"
+        },
+        "caption": {
+          "zh-TW": "用可追蹤 issue list 呈現缺漏日期、invalid URL、短內容與重複資料等問題。",
+          "en": "Tracks missing dates, invalid URLs, short content, and duplicate records through an issue list."
+        }
+      },
+      {
+        "id": "ml-diagnostics",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/05-ml-diagnostics.png",
+        "alt": {
+          "zh-TW": "ML diagnostics 頁面顯示模型指標、決策樹與可解釋分析。",
+          "en": "ML diagnostics page showing model metrics, decision tree, and explainability views."
+        },
+        "title": {
+          "zh-TW": "ML Diagnostics",
+          "en": "ML Diagnostics"
+        },
+        "caption": {
+          "zh-TW": "支援 baseline training、模型比較、decision tree image 與 article-level explanation。",
+          "en": "Supports baseline training, model comparison, decision tree imagery, and article-level explanation."
+        }
+      },
+      {
+        "id": "report-library",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/06-report-library.png",
+        "alt": {
+          "zh-TW": "報表庫頁面顯示可輸出的 ML diagnostics reports。",
+          "en": "Report library showing exportable ML diagnostics reports."
+        },
+        "title": {
+          "zh-TW": "報表與作品集輸出",
+          "en": "Reports and Portfolio Output"
+        },
+        "caption": {
+          "zh-TW": "報表可輸出 HTML、PDF、XLSX、JSON 與 manifest，適合保留 demo evidence。",
+          "en": "Reports export HTML, PDF, XLSX, JSON, and manifests for demo evidence."
+        }
+      },
+      {
+        "id": "article-search",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/07-article-search.png",
+        "alt": {
+          "zh-TW": "文章搜尋頁面顯示 facet、排序與新聞內容瀏覽。",
+          "en": "Article search page showing facets, sorting, and news content browsing."
+        },
+        "title": {
+          "zh-TW": "文章搜尋",
+          "en": "Article Search"
+        },
+        "caption": {
+          "zh-TW": "可用來源、類別、topic、cluster、entity 與 ranking 過濾新聞資料。",
+          "en": "Filters news data by source, category, topic, cluster, entity, and ranking mode."
+        }
+      },
+      {
+        "id": "job-runner",
+        "type": "image",
+        "src": "/portfolio/projects/news-web-crawler/screenshots/08-job-runner.png",
+        "alt": {
+          "zh-TW": "Pipeline Jobs 頁面顯示 job type、參數與執行記錄。",
+          "en": "Pipeline Jobs page showing job type, parameters, and execution logs."
+        },
+        "title": {
+          "zh-TW": "Pipeline Jobs",
+          "en": "Pipeline Jobs"
+        },
+        "caption": {
+          "zh-TW": "從 UI 執行 demo、crawl、analysis、ML training 與 diagnostics report export。",
+          "en": "Runs demo, crawl, analysis, ML training, and diagnostics report export from the UI."
+        }
+      }
+    ],
+    "metadata": {
+      "startedAt": "2026-06-26",
+      "updatedAt": "2026-06-26",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-IS-006",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "information-system",
+      "secondaryCategories": [],
+      "projectType": "Python",
+      "domains": [],
+      "subjects": [],
+      "controlledTerms": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TypeScript",
+        "SQLite",
+        "scikit-learn",
+        "Playwright",
+        "Docker"
+      ],
+      "keywords": [],
+      "audiences": [],
+      "contentTypes": [],
+      "dataTypes": [],
+      "platforms": [
+        "Web"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "stateManagement": [],
+      "styling": [],
+      "database": [],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [],
+      "developmentTools": [],
+      "roles": [
+        "獨立開發者 / 全端資料產品實作者"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TypeScript",
+        "SQLite",
+        "scikit-learn",
+        "Playwright",
+        "Docker"
+      ],
+      "capabilities": [],
+      "tools": [],
+      "hasUnitTests": false,
+      "hasIntegrationTests": false,
+      "hasE2ETests": false,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.8,
+      "needsReview": true,
+      "missingFields": [],
+      "evidenceSources": [
+        "content/projects/news-web-crawler/project.override.json",
+        "content/projects/news-web-crawler/zh-TW.md",
+        "content/projects/news-web-crawler/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-26T18:56:17.990Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "News Web Crawler",
+        "summary": "News Web Crawler 是一個把台灣新聞資料從 crawler、清理、SQLite/FTS、NLP、EDA、文字探勘到 ML diagnostics 串成瀏覽器工作台的資料產品。作品集版本包含公開 demo、GitHub、README、導覽錄影與 Playwright 截圖證據。",
+        "description": "News Web Crawler 的重點不是單一 crawler，而是把新聞資料從取得到分析、品質檢查、模型診斷與報表輸出整理成一個可以操作的資料工作台。\n\n我把 backend 拆成 FastAPI services 與 pipeline jobs，讓 crawler、sample demo、analysis、text mining、ML training 和 report export 都能從 UI 觸發。Frontend 則以 dashboard 方式呈現：首頁看 pipeline 狀態，Data Quality 檢查缺漏與錯誤，Analysis 看趨勢與來源，Text Mining 探索 keyword/entity/topic/cluster，Articles 搜尋與 facet，ML 頁面比較 baseline models，Reports 頁面輸出可保留的 portfolio evidence。\n\n作品集版也補上完整公開證據：Live Demo、GitHub、README、demo 錄影、cover image 與多張 Playwright 截圖。這讓瀏覽者不用猜專案長什麼樣子，也能直接看到平台如何操作。",
+        "tagline": "新聞爬蟲、資料品質、文字探勘與 ML diagnostics 的端到端分析平台。",
+        "role": "獨立開發者 / 全端資料產品實作者",
+        "problem": "新聞資料專案常停在爬蟲或 notebook 分析，缺少能讓人檢查資料品質、重跑 pipeline、探索文章、比較模型並輸出報表的完整操作介面。",
+        "solution": "我用 FastAPI + SQLite 建立 API 與背景 jobs，用 Next.js 建立資料品質、EDA、文字探勘、文章搜尋、ML diagnostics 與報表頁面，並用 Playwright 產生截圖與 guided-tour 錄影作為作品集證據。",
+        "outcome": "專案已補齊遠端 demo、GitHub、README、demo 錄影與截圖素材；作品集卡片可直接連到可操作的新聞資料分析 demo。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "FastAPI backend 提供 articles、stats、data quality、analysis、text mining、ML diagnostics 與 jobs API。",
+          "Next.js dashboard 支援 guided assistant，能引導使用者走完上傳、pipeline、分析、搜尋與報表流程。",
+          "文字探勘整合 TF-IDF、n-gram、topic modeling、cluster、collocation、entity 與 co-occurrence network。",
+          "ML diagnostics 支援 baseline model、decision tree、artifact、error samples 與 portfolio report export。",
+          "Playwright 產生桌面/手機截圖與 guided-tour.webm，方便在作品集卡片與 README 直接展示。"
+        ],
+        "challenges": [
+          "需要把原本偏 CLI/pipeline 的資料工程專案整理成可公開瀏覽的產品介面。",
+          "需要讓 demo 在 portfolio reverse proxy 的 /p/news-web-crawler/ 子路徑下正常處理 route、API 與靜態資源。",
+          "需要把截圖、錄影、GitHub、README 與 live demo 連結整理成一致的作品集 evidence。"
+        ],
+        "nextSteps": [
+          "把遠端 smoke test 納入部署流程，確認 /p/news-web-crawler/ 與 /api/v1/health 都正常。",
+          "增加更多真實新聞資料集與資料來源健康檢查。",
+          "補強 ML 報表樣板與人工標註資料，降低弱監督 sentiment 的限制。"
+        ]
+      },
+      "en": {
+        "title": "News Web Crawler",
+        "summary": "News Web Crawler turns Taiwanese news data into a browser-based analytics workbench covering crawling, cleaning, SQLite/FTS storage, NLP, EDA, text mining, and ML diagnostics. The portfolio version includes a public demo, GitHub, README, guided-tour recording, and Playwright screenshot evidence.",
+        "description": "News Web Crawler is not just a crawler. It organizes the full path from news collection to analysis, quality checks, model diagnostics, and report export into a usable data workbench.\n\nThe backend is split into FastAPI services and pipeline jobs, so crawler runs, demo data, analysis, text mining, ML training, and report export can be triggered from the UI. The frontend is structured as a dashboard: the home page shows pipeline state, Data Quality tracks missing or invalid records, Analysis covers trends and sources, Text Mining explores keywords/entities/topics/clusters, Articles supports search and facets, ML compares baseline models, and Reports exports evidence-ready diagnostics.\n\nThe portfolio version also includes complete public evidence: Live Demo, GitHub, README, demo recording, cover image, and Playwright screenshots. Visitors can inspect the actual product instead of relying on a text-only project card.",
+        "tagline": "An end-to-end news crawling, data quality, text mining, and ML diagnostics platform.",
+        "role": "Independent Developer / Full-stack Data Product Builder",
+        "problem": "News data projects often stop at a crawler or notebook analysis. They need a usable interface for checking data quality, rerunning pipeline jobs, exploring articles, comparing models, and exporting reports.",
+        "solution": "I built a FastAPI + SQLite backend for APIs and background jobs, then created a Next.js workbench for data quality, EDA, text mining, article search, ML diagnostics, and report output. Playwright captures screenshots and a guided-tour recording for portfolio evidence.",
+        "outcome": "The project now has public live demo, GitHub, README, demo recording, and screenshot assets wired into the portfolio card and case study.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "FastAPI backend exposes articles, stats, data quality, analysis, text mining, ML diagnostics, and jobs APIs.",
+          "Next.js dashboard includes a guided assistant that walks through upload, pipeline jobs, analysis, search, and report export.",
+          "Text mining combines TF-IDF, n-grams, topic modeling, clustering, collocations, entities, and co-occurrence networks.",
+          "ML diagnostics supports baseline models, decision trees, artifacts, error samples, and portfolio report export.",
+          "Playwright captures desktop/mobile screenshots plus guided-tour.webm for the portfolio card and README."
+        ],
+        "challenges": [
+          "Turning a CLI/pipeline-oriented data engineering project into a public, inspectable product interface.",
+          "Making the demo work under the portfolio reverse proxy at /p/news-web-crawler/ with correct routes, API calls, and assets.",
+          "Keeping live demo, GitHub, README, screenshots, and recording links consistent across the project and portfolio."
+        ],
+        "nextSteps": [
+          "Add remote smoke tests to deployment so /p/news-web-crawler/ and /api/v1/health are verified after release.",
+          "Expand real news datasets and source health checks.",
+          "Improve ML report templates and add manually labeled data to reduce weak-supervision limits."
         ]
       }
     }
@@ -4385,7 +5329,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.014Z"
+      "lastScannedAt": "2026-06-26T18:56:17.990Z"
     },
     "content": {
       "zh-TW": {
@@ -4751,7 +5695,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.014Z"
+      "lastScannedAt": "2026-06-26T18:56:17.991Z"
     },
     "content": {
       "zh-TW": {
@@ -4817,7 +5761,7 @@
     }
   },
   {
-    "id": "project-research-paper-and-knowledge-workspace-pf-2026-is-006",
+    "id": "project-research-paper-and-knowledge-workspace-pf-2026-is-007",
     "slug": "research-paper-and-knowledge-workspace",
     "category": "information-system",
     "status": "in-progress",
@@ -4840,6 +5784,14 @@
         "label": {
           "zh-TW": "查看 GitHub",
           "en": "View GitHub"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/research-paper-and-knowledge-workspace#readme",
+        "label": {
+          "zh-TW": "README 說明",
+          "en": "README"
         }
       }
     ],
@@ -4868,7 +5820,7 @@
       "updatedAt": "2026-06-26",
       "teamSize": 1,
       "version": "1.0.0",
-      "catalogNumber": "PF-2026-IS-006",
+      "catalogNumber": "PF-2026-IS-007",
       "visibility": "public",
       "aliases": [
         "Research Paper Workspace",
@@ -5017,7 +5969,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.015Z"
+      "lastScannedAt": "2026-06-26T18:56:17.992Z"
     },
     "content": {
       "zh-TW": {
@@ -5357,7 +6309,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:50:03.016Z"
+      "lastScannedAt": "2026-06-26T18:56:17.992Z"
     },
     "content": {
       "zh-TW": {

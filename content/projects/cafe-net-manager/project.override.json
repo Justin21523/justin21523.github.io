@@ -20,6 +20,14 @@
         "zh-TW": "查看 GitHub",
         "en": "View GitHub"
       }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/cafe-net-manager#readme",
+      "label": {
+        "zh-TW": "README 說明",
+        "en": "README"
+      }
     }
   ],
   "media": [

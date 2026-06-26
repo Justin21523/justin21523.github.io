@@ -142,6 +142,149 @@
         "zh-TW": "互動導覽錄影",
         "en": "Guided Tour Recording"
       }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-guided-tour",
+      "type": "video",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+      "alt": {
+        "zh-TW": "歌詞文化分析 導覽 導覽",
+        "en": "Lyrics Cultural Analytics Guided Tour"
+      },
+      "title": {
+        "zh-TW": "歌詞文化分析 導覽 導覽",
+        "en": "Guided Tour"
+      }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-evaluation-viewport",
+      "type": "image",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/evaluation-viewport.png",
+      "alt": {
+        "zh-TW": "歌詞文化分析 評估 畫面",
+        "en": "Lyrics Cultural Analytics Evaluation Viewport"
+      },
+      "title": {
+        "zh-TW": "歌詞文化分析 評估 畫面",
+        "en": "Evaluation Viewport"
+      }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-guided-tour-step-01",
+      "type": "image",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/guided-tour-step-01.png",
+      "alt": {
+        "zh-TW": "導覽步驟 1",
+        "en": "Lyrics Cultural Analytics Guided Tour Step 01"
+      },
+      "title": {
+        "zh-TW": "導覽步驟 1",
+        "en": "Guided Tour Step 01"
+      }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-ml-lab-journey-v2",
+      "type": "image",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-journey-v2.png",
+      "alt": {
+        "zh-TW": "歌詞文化分析 ml lab 流程 v2",
+        "en": "Lyrics Cultural Analytics Ml Lab Journey V2"
+      },
+      "title": {
+        "zh-TW": "歌詞文化分析 ml lab 流程 v2",
+        "en": "Ml Lab Journey V2"
+      }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-ml-lab-viewport-01",
+      "type": "image",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-viewport-01.png",
+      "alt": {
+        "zh-TW": "歌詞文化分析 ml lab 畫面 01",
+        "en": "Lyrics Cultural Analytics Ml Lab Viewport 01"
+      },
+      "title": {
+        "zh-TW": "歌詞文化分析 ml lab 畫面 01",
+        "en": "Ml Lab Viewport 01"
+      }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-ml-lab-viewport-02",
+      "type": "image",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-viewport-02.png",
+      "alt": {
+        "zh-TW": "歌詞文化分析 ml lab 畫面 02",
+        "en": "Lyrics Cultural Analytics Ml Lab Viewport 02"
+      },
+      "title": {
+        "zh-TW": "歌詞文化分析 ml lab 畫面 02",
+        "en": "Ml Lab Viewport 02"
+      }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-overview-redesign",
+      "type": "image",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-redesign.png",
+      "alt": {
+        "zh-TW": "歌詞文化分析 總覽 改版",
+        "en": "Lyrics Cultural Analytics Overview Redesign"
+      },
+      "title": {
+        "zh-TW": "歌詞文化分析 總覽 改版",
+        "en": "Overview Redesign"
+      }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-overview-viewport",
+      "type": "image",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-viewport.png",
+      "alt": {
+        "zh-TW": "歌詞文化分析 總覽 畫面",
+        "en": "Lyrics Cultural Analytics Overview Viewport"
+      },
+      "title": {
+        "zh-TW": "歌詞文化分析 總覽 畫面",
+        "en": "Overview Viewport"
+      }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-workflow-journey-v2",
+      "type": "image",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-journey-v2.png",
+      "alt": {
+        "zh-TW": "歌詞文化分析 工作流程 流程 v2",
+        "en": "Lyrics Cultural Analytics Workflow Journey V2"
+      },
+      "title": {
+        "zh-TW": "歌詞文化分析 工作流程 流程 v2",
+        "en": "Workflow Journey V2"
+      }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-workflow-viewport-01",
+      "type": "image",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-viewport-01.png",
+      "alt": {
+        "zh-TW": "歌詞文化分析 工作流程 畫面 01",
+        "en": "Lyrics Cultural Analytics Workflow Viewport 01"
+      },
+      "title": {
+        "zh-TW": "歌詞文化分析 工作流程 畫面 01",
+        "en": "Workflow Viewport 01"
+      }
+    },
+    {
+      "id": "lyrics-cultural-analytics-lab-workflow-viewport-02",
+      "type": "image",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-viewport-02.png",
+      "alt": {
+        "zh-TW": "歌詞文化分析 工作流程 畫面 02",
+        "en": "Lyrics Cultural Analytics Workflow Viewport 02"
+      },
+      "title": {
+        "zh-TW": "歌詞文化分析 工作流程 畫面 02",
+        "en": "Workflow Viewport 02"
+      }
     }
   ],
   "metadata": {

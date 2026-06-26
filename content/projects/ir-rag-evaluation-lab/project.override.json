@@ -23,23 +23,35 @@
     {
       "kind": "github",
       "url": "https://github.com/Justin21523/ir-rag-evaluation-lab",
-      "label": { "zh-TW": "查看 GitHub", "en": "View GitHub" }
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
     },
     {
       "kind": "live",
       "url": "https://neojustin.dothost.net/projects/ir-rag-evaluation-lab/",
-      "label": { "zh-TW": "線上展示", "en": "Live Demo" },
+      "label": {
+        "zh-TW": "線上展示",
+        "en": "Live Demo"
+      },
       "primary": true
     },
     {
       "kind": "video",
       "url": "https://neojustin.dothost.net/portfolio/projects/ir-rag-evaluation-lab/demo/ir-rag-evaluation-lab-demo.mp4",
-      "label": { "zh-TW": "Demo 錄影", "en": "Demo Recording" }
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
     },
     {
       "kind": "documentation",
       "url": "https://github.com/Justin21523/ir-rag-evaluation-lab#demo-evidence",
-      "label": { "zh-TW": "README", "en": "README" }
+      "label": {
+        "zh-TW": "README",
+        "en": "README"
+      }
     }
   ],
   "media": [
@@ -66,50 +78,105 @@
       "id": "guided-assistant",
       "type": "image",
       "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/01-tour-overview.png",
-      "alt": { "zh-TW": "自動啟動的導覽小幫手。", "en": "The auto-starting guided assistant." },
-      "title": { "zh-TW": "導覽小幫手", "en": "Guided Assistant" }
+      "alt": {
+        "zh-TW": "自動啟動的導覽小幫手。",
+        "en": "The auto-starting guided assistant."
+      },
+      "title": {
+        "zh-TW": "導覽小幫手",
+        "en": "Guided Assistant"
+      }
     },
     {
       "id": "pipeline-journey",
       "type": "image",
       "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/16-journey-top.png",
-      "alt": { "zh-TW": "資料旅程頁展示 JSONL 到評估結果的 pipeline。", "en": "Pipeline Journey showing JSONL flowing into evaluation outputs." },
-      "title": { "zh-TW": "資料旅程", "en": "Pipeline Journey" }
+      "alt": {
+        "zh-TW": "資料旅程頁展示 JSONL 到評估結果的 pipeline。",
+        "en": "Pipeline Journey showing JSONL flowing into evaluation outputs."
+      },
+      "title": {
+        "zh-TW": "資料旅程",
+        "en": "Pipeline Journey"
+      }
     },
     {
       "id": "query-evaluator",
       "type": "image",
       "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/20-query-evaluator-results.png",
-      "alt": { "zh-TW": "查詢評估器比較 BM25、Dense、Hybrid 與 Rerank。", "en": "Query Evaluator comparing BM25, Dense, Hybrid, and Rerank." },
-      "title": { "zh-TW": "查詢評估器", "en": "Query Evaluator" }
+      "alt": {
+        "zh-TW": "查詢評估器比較 BM25、Dense、Hybrid 與 Rerank。",
+        "en": "Query Evaluator comparing BM25, Dense, Hybrid, and Rerank."
+      },
+      "title": {
+        "zh-TW": "查詢評估器",
+        "en": "Query Evaluator"
+      }
     },
     {
       "id": "analytics",
       "type": "image",
       "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/22-analytics-top.png",
-      "alt": { "zh-TW": "評估分析頁的 metric matrix 與 retriever battle。", "en": "Evaluation Analytics metric matrix and retriever battle." },
-      "title": { "zh-TW": "評估分析", "en": "Evaluation Analytics" }
+      "alt": {
+        "zh-TW": "評估分析頁的 metric matrix 與 retriever battle。",
+        "en": "Evaluation Analytics metric matrix and retriever battle."
+      },
+      "title": {
+        "zh-TW": "評估分析",
+        "en": "Evaluation Analytics"
+      }
     },
     {
       "id": "rag-citation",
       "type": "image",
       "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/24-rag-citation-workbench.png",
-      "alt": { "zh-TW": "RAG citation workbench 顯示 claims、evidence 與支持判斷。", "en": "RAG citation workbench showing claims, evidence, and support judgments." },
-      "title": { "zh-TW": "RAG 引用檢查", "en": "RAG Citation Checker" }
+      "alt": {
+        "zh-TW": "RAG citation workbench 顯示 claims、evidence 與支持判斷。",
+        "en": "RAG citation workbench showing claims, evidence, and support judgments."
+      },
+      "title": {
+        "zh-TW": "RAG 引用檢查",
+        "en": "RAG Citation Checker"
+      }
     },
     {
       "id": "text-mining",
       "type": "image",
       "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/27-text-mining-network.png",
-      "alt": { "zh-TW": "文本探勘頁的共現網路與進階圖表。", "en": "Text mining page with co-occurrence network and advanced charts." },
-      "title": { "zh-TW": "文本探勘網路", "en": "Text Mining Network" }
+      "alt": {
+        "zh-TW": "文本探勘頁的共現網路與進階圖表。",
+        "en": "Text mining page with co-occurrence network and advanced charts."
+      },
+      "title": {
+        "zh-TW": "文本探勘網路",
+        "en": "Text Mining Network"
+      }
     },
     {
       "id": "english-ui",
       "type": "image",
       "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/29-english-ui.png",
-      "alt": { "zh-TW": "英文介面的 Evaluation Command Center。", "en": "English Evaluation Command Center." },
-      "title": { "zh-TW": "英文介面", "en": "English UI" }
+      "alt": {
+        "zh-TW": "英文介面的 Evaluation Command Center。",
+        "en": "English Evaluation Command Center."
+      },
+      "title": {
+        "zh-TW": "英文介面",
+        "en": "English UI"
+      }
+    },
+    {
+      "id": "ir-rag-evaluation-lab-26-llm-dashboard",
+      "type": "image",
+      "src": "/portfolio/projects/ir-rag-evaluation-lab/screenshots/26-llm-dashboard.png",
+      "alt": {
+        "zh-TW": "IR/RAG 評測 26 LLM 儀表板",
+        "en": "IR/RAG Eval Llm Dashboard"
+      },
+      "title": {
+        "zh-TW": "IR/RAG 評測 26 LLM 儀表板",
+        "en": "Llm Dashboard"
+      }
     }
   ],
   "metadata": {

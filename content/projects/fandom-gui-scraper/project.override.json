@@ -162,6 +162,19 @@
         "zh-TW": "Compliance Log",
         "en": "Compliance Log"
       }
+    },
+    {
+      "id": "fandom-gui-scraper-guided-demo-mobile",
+      "type": "video",
+      "src": "/portfolio/projects/fandom-gui-scraper/demo/guided-demo-mobile.webm",
+      "alt": {
+        "zh-TW": "Fandom 爬蟲平台 導覽 展示 行動版",
+        "en": "Fandom Scraper Guided Demo Mobile"
+      },
+      "title": {
+        "zh-TW": "Fandom 爬蟲平台 導覽 展示 行動版",
+        "en": "Guided Demo Mobile"
+      }
     }
   ],
   "metadata": {
@@ -304,7 +317,7 @@
       "scripts/capture_guided_demo.py",
       "tests/unit/test_scraper/"
     ],
-    "extractionConfidence": 1.0,
+    "extractionConfidence": 1,
     "needsReview": false
   }
 }

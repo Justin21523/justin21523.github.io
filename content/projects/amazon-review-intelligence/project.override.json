@@ -32,6 +32,14 @@
         "zh-TW": "GitHub",
         "en": "GitHub"
       }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/amazon-review-intelligence#readme",
+      "label": {
+        "zh-TW": "README 說明",
+        "en": "README"
+      }
     }
   ],
   "media": [

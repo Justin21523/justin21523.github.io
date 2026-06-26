@@ -26,6 +26,8 @@ services:
       - openalex-research-rag-api
       - retailpulse-bi-recommender
       - retailpulse-bi-recommender-api
+      - news-web-crawler
+      - news-web-crawler-api
     restart: unless-stopped
 
   agentic-bi-dataops-copilot-api:
@@ -275,6 +277,32 @@ services:
       NEXT_TELEMETRY_DISABLED: "1"
     depends_on:
       - retailpulse-bi-recommender-api
+    restart: unless-stopped
+
+  news-web-crawler-api:
+    build:
+      context: ../news-web-crawler
+      dockerfile: backend/Dockerfile
+    image: justin-portfolio-news-web-crawler-api
+    environment:
+      NEWS_DATA_DIR: /data
+      NEWS_DB_PATH: /data/news.db
+      NEWS_CORS_ORIGINS: https://neojustin.dothost.net,http://localhost:3000,http://127.0.0.1:3000
+      NEWS_LLM_ENABLED: "false"
+    volumes:
+      - ../news-web-crawler/data:/data
+    restart: unless-stopped
+
+  news-web-crawler:
+    build:
+      context: ../news-web-crawler
+      dockerfile: frontend/Dockerfile
+      args:
+        NEXT_PUBLIC_API_BASE_URL: /p/news-web-crawler/api/v1
+        NEXT_PUBLIC_BASE_PATH: /p/news-web-crawler
+    image: justin-portfolio-news-web-crawler
+    depends_on:
+      - news-web-crawler-api
     restart: unless-stopped
 
 volumes:
