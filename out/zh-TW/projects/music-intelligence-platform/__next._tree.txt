@@ -1,0 +1,2 @@
+:HL["/_next/static/chunks/059jpedcupc8b.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"zh-TW","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"music-intelligence-platform","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"HJ0490u8yh1yn-xzd8LOe"}
