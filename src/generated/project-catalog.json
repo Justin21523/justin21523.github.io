@@ -399,7 +399,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.655Z"
+      "lastScannedAt": "2026-06-26T17:10:22.788Z"
     },
     "content": {
       "zh-TW": {
@@ -673,7 +673,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.658Z"
+      "lastScannedAt": "2026-06-26T17:10:22.791Z"
     },
     "content": {
       "zh-TW": {
@@ -931,7 +931,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.659Z"
+      "lastScannedAt": "2026-06-26T17:10:22.792Z"
     },
     "content": {
       "zh-TW": {
@@ -1331,7 +1331,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.660Z"
+      "lastScannedAt": "2026-06-26T17:10:22.793Z"
     },
     "content": {
       "zh-TW": {
@@ -1737,7 +1737,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.661Z"
+      "lastScannedAt": "2026-06-26T17:10:22.793Z"
     },
     "content": {
       "zh-TW": {
@@ -2525,7 +2525,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.662Z"
+      "lastScannedAt": "2026-06-26T17:10:22.794Z"
     },
     "content": {
       "zh-TW": {
@@ -2855,7 +2855,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.662Z"
+      "lastScannedAt": "2026-06-26T17:10:22.794Z"
     },
     "content": {
       "zh-TW": {
@@ -3142,7 +3142,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.663Z"
+      "lastScannedAt": "2026-06-26T17:10:22.795Z"
     },
     "content": {
       "zh-TW": {
@@ -3238,7 +3238,7 @@
       },
       {
         "kind": "video",
-        "url": "https://neojustin.dothost.net/portfolio/projects/music-intelligence-platform/demo/demo-tour.webm",
+        "url": "https://neojustin.dothost.net/portfolio/projects/music-intelligence-platform/demo-tour.webm",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -3257,7 +3257,7 @@
       {
         "id": "guided-demo-video",
         "type": "video",
-        "src": "/portfolio/projects/music-intelligence-platform/demo/demo-tour.webm",
+        "src": "/portfolio/projects/music-intelligence-platform/demo-tour.webm",
         "poster": "/portfolio/projects/music-intelligence-platform/cover.png",
         "alt": {
           "zh-TW": "Music Intelligence Platform 的完整 Playwright 導覽錄影。",
@@ -3276,7 +3276,7 @@
       {
         "id": "home-dashboard",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-home.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-home.png",
         "alt": {
           "zh-TW": "Music Intelligence Platform 首頁，呈現音樂資料分析與推薦系統入口。",
           "en": "Music Intelligence Platform home screen showing the music analytics and recommendation entry point."
@@ -3294,7 +3294,7 @@
       {
         "id": "pipeline-journey",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-pipeline.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-pipeline.png",
         "alt": {
           "zh-TW": "Pipeline Journey 頁面展示音樂資料從 ingestion 到模型與檢索索引的流程。",
           "en": "Pipeline Journey page showing music data flowing from ingestion to models and retrieval indexes."
@@ -3311,7 +3311,7 @@
       {
         "id": "search-results",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-search-results.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-search-results.png",
         "alt": {
           "zh-TW": "搜尋結果頁展示 BM25、向量檢索與 hybrid ranking 結果。",
           "en": "Search results page showing BM25, vector retrieval, and hybrid ranking results."
@@ -3328,7 +3328,7 @@
       {
         "id": "recommendations",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-recommend.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-recommend.png",
         "alt": {
           "zh-TW": "推薦頁展示使用者歌曲推薦與解釋訊號。",
           "en": "Recommendation page showing user recommendations and explanation signals."
@@ -3345,7 +3345,7 @@
       {
         "id": "similar-tracks",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-similar.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-similar.png",
         "alt": {
           "zh-TW": "相似歌曲頁面展示 item-item similarity 與相似度排序。",
           "en": "Similar tracks page showing item-item similarity and ranked matches."
@@ -3362,7 +3362,7 @@
       {
         "id": "artist-network",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-artists.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-artists.png",
         "alt": {
           "zh-TW": "Artist Network 頁面展示 artist co-listen network 與關聯節點。",
           "en": "Artist Network page showing artist co-listen network and related nodes."
@@ -3379,7 +3379,7 @@
       {
         "id": "evaluation-dashboard",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-evaluation.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-evaluation.png",
         "alt": {
           "zh-TW": "Evaluation dashboard 展示 precision、recall、nDCG、coverage、novelty 等推薦指標。",
           "en": "Evaluation dashboard showing precision, recall, nDCG, coverage, novelty, and recommendation metrics."
@@ -3396,7 +3396,7 @@
       {
         "id": "genre-dashboard",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-genres.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-genres.png",
         "alt": {
           "zh-TW": "Genre dashboard 展示曲庫 genre 分佈與音訊特徵概況。",
           "en": "Genre dashboard showing catalog genre distribution and audio feature summaries."
@@ -3413,7 +3413,7 @@
       {
         "id": "listening-patterns",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-patterns.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-patterns.png",
         "alt": {
           "zh-TW": "Listening Patterns 頁面展示使用者聆聽行為與偏好變化。",
           "en": "Listening Patterns page showing user listening behavior and preference changes."
@@ -3430,7 +3430,7 @@
       {
         "id": "user-dna",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-dna.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-dna.png",
         "alt": {
           "zh-TW": "User DNA 頁面以 radar chart 呈現使用者音樂品味特徵。",
           "en": "User DNA page using a radar chart to present listener taste features."
@@ -3447,7 +3447,7 @@
       {
         "id": "model-disagreement",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-disagreement.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-disagreement.png",
         "alt": {
           "zh-TW": "Model Disagreement 頁面展示不同推薦模型之間的結果差異。",
           "en": "Model Disagreement page showing differences between recommender model outputs."
@@ -3464,7 +3464,7 @@
       {
         "id": "popularity-bias",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-popularity.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-popularity.png",
         "alt": {
           "zh-TW": "Popularity Bias 頁面展示熱門度偏差與長尾曲庫分佈。",
           "en": "Popularity Bias page showing popularity bias and long-tail catalog distribution."
@@ -3481,7 +3481,7 @@
       {
         "id": "geography",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-geography.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-geography.png",
         "alt": {
           "zh-TW": "Geography analytics 頁面展示地理分佈與聆聽偏好。",
           "en": "Geography analytics page showing geographic distribution and listening preferences."
@@ -3498,7 +3498,7 @@
       {
         "id": "catalog-timeline",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/page-timeline.png",
+        "src": "/portfolio/projects/music-intelligence-platform/page-timeline.png",
         "alt": {
           "zh-TW": "Catalog Timeline 頁面展示曲庫年代與資料分佈。",
           "en": "Catalog Timeline page showing catalog years and data distribution."
@@ -3515,7 +3515,7 @@
       {
         "id": "tour-step-data",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/tour-step-01.png",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-01.png",
         "alt": {
           "zh-TW": "導覽步驟 1 展示資料生成階段。",
           "en": "Tour step 1 showing the data generation stage."
@@ -3528,7 +3528,7 @@
       {
         "id": "tour-step-model",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/tour-step-05.png",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-05.png",
         "alt": {
           "zh-TW": "導覽步驟 5 展示模型訓練階段。",
           "en": "Tour step 5 showing the model training stage."
@@ -3541,7 +3541,7 @@
       {
         "id": "tour-step-network",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/tour-step-10.png",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-step-10.png",
         "alt": {
           "zh-TW": "導覽步驟 10 展示 artist network 分析。",
           "en": "Tour step 10 showing artist network analytics."
@@ -3554,7 +3554,7 @@
       {
         "id": "tour-completed",
         "type": "image",
-        "src": "/portfolio/projects/music-intelligence-platform/screenshots/tour-completed.png",
+        "src": "/portfolio/projects/music-intelligence-platform/tour-completed.png",
         "alt": {
           "zh-TW": "導覽完成畫面，表示使用者已看完整個 Music Intelligence Platform walkthrough。",
           "en": "Tour completed screen after the full Music Intelligence Platform walkthrough."
@@ -3659,7 +3659,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.663Z"
+      "lastScannedAt": "2026-06-26T17:10:22.795Z"
     },
     "content": {
       "zh-TW": {
@@ -3928,7 +3928,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.664Z"
+      "lastScannedAt": "2026-06-26T17:10:22.796Z"
     },
     "content": {
       "zh-TW": {
@@ -4294,7 +4294,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.664Z"
+      "lastScannedAt": "2026-06-26T17:10:22.796Z"
     },
     "content": {
       "zh-TW": {
@@ -4560,7 +4560,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.665Z"
+      "lastScannedAt": "2026-06-26T17:10:22.797Z"
     },
     "content": {
       "zh-TW": {
@@ -4900,7 +4900,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T17:06:21.665Z"
+      "lastScannedAt": "2026-06-26T17:10:22.797Z"
     },
     "content": {
       "zh-TW": {
