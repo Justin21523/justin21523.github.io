@@ -20,7 +20,7 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://neojustin.dothost.net/p/agentic-bi-dataops-copilot/?noTour=1",
+        "url": "https://neojustin.dothost.net/p/agentic-bi-dataops-copilot/",
         "label": {
           "zh-TW": "線上展示",
           "en": "Live Demo"
@@ -313,7 +313,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-26",
-      "updatedAt": "2026-06-26",
+      "updatedAt": "2026-06-27",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-001",
@@ -399,7 +399,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.699Z"
+      "lastScannedAt": "2026-06-27T09:03:12.664Z"
     },
     "content": {
       "zh-TW": {
@@ -490,7 +490,8 @@
         "label": {
           "zh-TW": "開啟 Demo",
           "en": "Open demo"
-        }
+        },
+        "primary": true
       },
       {
         "kind": "github",
@@ -531,7 +532,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-25",
-      "updatedAt": "2026-06-26",
+      "updatedAt": "2026-06-27",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-002",
@@ -647,7 +648,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.702Z"
+      "lastScannedAt": "2026-06-27T09:03:12.668Z"
     },
     "content": {
       "zh-TW": {
@@ -759,7 +760,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-22",
-      "updatedAt": "2026-06-26",
+      "updatedAt": "2026-06-27",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-001",
@@ -917,7 +918,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.704Z"
+      "lastScannedAt": "2026-06-27T09:03:12.669Z"
     },
     "content": {
       "zh-TW": {
@@ -1033,7 +1034,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-22",
-      "updatedAt": "2026-06-26",
+      "updatedAt": "2026-06-27",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-BD-001",
@@ -1183,7 +1184,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.704Z"
+      "lastScannedAt": "2026-06-27T09:03:12.670Z"
     },
     "content": {
       "zh-TW": {
@@ -1285,7 +1286,7 @@
     "media": [],
     "metadata": {
       "startedAt": "2026-06-26",
-      "updatedAt": "2026-06-26",
+      "updatedAt": "2026-06-27",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-002",
@@ -1381,7 +1382,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.707Z"
+      "lastScannedAt": "2026-06-27T09:03:12.672Z"
     },
     "content": {
       "zh-TW": {
@@ -1781,7 +1782,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.709Z"
+      "lastScannedAt": "2026-06-27T09:03:12.674Z"
     },
     "content": {
       "zh-TW": {
@@ -2200,7 +2201,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.709Z"
+      "lastScannedAt": "2026-06-27T09:03:12.674Z"
     },
     "content": {
       "zh-TW": {
@@ -2988,7 +2989,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.712Z"
+      "lastScannedAt": "2026-06-27T09:03:12.676Z"
     },
     "content": {
       "zh-TW": {
@@ -3237,7 +3238,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-26",
-      "updatedAt": "2026-06-26",
+      "updatedAt": "2026-06-27",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-004",
@@ -3331,7 +3332,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.713Z"
+      "lastScannedAt": "2026-06-27T09:03:12.678Z"
     },
     "content": {
       "zh-TW": {
@@ -3800,7 +3801,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.715Z"
+      "lastScannedAt": "2026-06-27T09:03:12.679Z"
     },
     "content": {
       "zh-TW": {
@@ -4589,7 +4590,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-25",
-      "updatedAt": "2026-06-26",
+      "updatedAt": "2026-06-27",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-005",
@@ -4681,7 +4682,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.716Z"
+      "lastScannedAt": "2026-06-27T09:03:12.681Z"
     },
     "content": {
       "zh-TW": {
@@ -4960,7 +4961,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-26",
-      "updatedAt": "2026-06-26",
+      "updatedAt": "2026-06-27",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-006",
@@ -5046,7 +5047,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.717Z"
+      "lastScannedAt": "2026-06-27T09:03:12.681Z"
     },
     "content": {
       "zh-TW": {
@@ -5234,7 +5235,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-26",
-      "updatedAt": "2026-06-26",
+      "updatedAt": "2026-06-27",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-AI-006",
@@ -5329,7 +5330,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.717Z"
+      "lastScannedAt": "2026-06-27T09:03:12.682Z"
     },
     "content": {
       "zh-TW": {
@@ -5695,7 +5696,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.717Z"
+      "lastScannedAt": "2026-06-27T09:03:12.682Z"
     },
     "content": {
       "zh-TW": {
@@ -5817,7 +5818,7 @@
     ],
     "metadata": {
       "startedAt": "2026-06-22",
-      "updatedAt": "2026-06-26",
+      "updatedAt": "2026-06-27",
       "teamSize": 1,
       "version": "1.0.0",
       "catalogNumber": "PF-2026-IS-007",
@@ -5969,7 +5970,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.720Z"
+      "lastScannedAt": "2026-06-27T09:03:12.685Z"
     },
     "content": {
       "zh-TW": {
@@ -6309,7 +6310,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-26T20:55:15.721Z"
+      "lastScannedAt": "2026-06-27T09:03:12.686Z"
     },
     "content": {
       "zh-TW": {

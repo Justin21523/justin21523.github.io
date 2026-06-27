@@ -23,7 +23,8 @@
       "label": {
         "zh-TW": "開啟 Demo",
         "en": "Open demo"
-      }
+      },
+      "primary": true
     },
     {
       "kind": "github",

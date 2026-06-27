@@ -317,7 +317,11 @@ export function ProjectArchiveCard({
                 href={link.url}
                 target="_blank"
                 rel="noreferrer"
-                className="text-xs font-semibold text-primary hover:underline px-2 py-1 border border-primary/20 bg-primary/5 rounded transition-colors"
+                className={`text-xs font-semibold px-2 py-1 rounded border transition-colors ${
+                  link.kind === "live"
+                    ? "border-primary bg-primary text-primary-foreground hover:bg-primary/90"
+                    : "text-primary border-primary/20 bg-primary/5 hover:underline"
+                }`}
               >
                 {link.label[locale]}
               </a>
@@ -683,7 +687,11 @@ export function ProjectArchiveCard({
                 href={link.url}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-1 rounded-lg border border-primary/20 bg-primary/5 px-3 py-1.5 text-xs font-semibold text-primary transition-colors hover:bg-primary/10"
+                className={`inline-flex items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors ${
+                  link.kind === "live"
+                    ? "border border-primary bg-primary text-primary-foreground shadow-sm hover:bg-primary/90"
+                    : "border border-primary/20 bg-primary/5 text-primary hover:bg-primary/10"
+                }`}
               >
                 {link.label[locale]}
                 <ArrowUpRight className="h-3 w-3" />
