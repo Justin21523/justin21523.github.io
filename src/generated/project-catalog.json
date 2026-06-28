@@ -646,7 +646,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.044Z",
+      "lastScannedAt": "2026-06-28T22:01:34.855Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1410,7 +1410,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.049Z",
+      "lastScannedAt": "2026-06-28T22:01:34.860Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1757,7 +1757,7 @@
         "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.050Z",
+      "lastScannedAt": "2026-06-28T22:01:34.861Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -2107,7 +2107,7 @@
         "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.050Z",
+      "lastScannedAt": "2026-06-28T22:01:34.861Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -3057,7 +3057,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.052Z",
+      "lastScannedAt": "2026-06-28T22:01:34.863Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3589,7 +3589,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.053Z",
+      "lastScannedAt": "2026-06-28T22:01:34.864Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3963,7 +3963,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.054Z",
+      "lastScannedAt": "2026-06-28T22:01:34.865Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4429,7 +4429,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.054Z",
+      "lastScannedAt": "2026-06-28T22:01:34.865Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4970,7 +4970,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.055Z",
+      "lastScannedAt": "2026-06-28T22:01:34.866Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -5719,7 +5719,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.056Z",
+      "lastScannedAt": "2026-06-28T22:01:34.867Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -6295,7 +6295,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.058Z",
+      "lastScannedAt": "2026-06-28T22:01:34.868Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -6635,7 +6635,7 @@
         "content/projects/anime-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.059Z",
+      "lastScannedAt": "2026-06-28T22:01:34.869Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7026,7 +7026,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.060Z",
+      "lastScannedAt": "2026-06-28T22:01:34.870Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -7557,7 +7557,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.061Z",
+      "lastScannedAt": "2026-06-28T22:01:34.871Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7881,7 +7881,7 @@
         "content/projects/AutoForge-llm-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.061Z",
+      "lastScannedAt": "2026-06-28T22:01:34.871Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8213,7 +8213,7 @@
         "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.062Z",
+      "lastScannedAt": "2026-06-28T22:01:34.872Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8716,7 +8716,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.062Z",
+      "lastScannedAt": "2026-06-28T22:01:34.872Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -9117,7 +9117,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.063Z",
+      "lastScannedAt": "2026-06-28T22:01:34.873Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9740,7 +9740,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.064Z",
+      "lastScannedAt": "2026-06-28T22:01:34.874Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -10154,7 +10154,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.064Z",
+      "lastScannedAt": "2026-06-28T22:01:34.874Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -10616,7 +10616,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.065Z",
+      "lastScannedAt": "2026-06-28T22:01:34.875Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11049,7 +11049,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.065Z",
+      "lastScannedAt": "2026-06-28T22:01:34.875Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11471,7 +11471,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.066Z",
+      "lastScannedAt": "2026-06-28T22:01:34.876Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11886,7 +11886,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.066Z",
+      "lastScannedAt": "2026-06-28T22:01:34.876Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12280,7 +12280,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.067Z",
+      "lastScannedAt": "2026-06-28T22:01:34.877Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -12619,7 +12619,7 @@
         "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.067Z",
+      "lastScannedAt": "2026-06-28T22:01:34.877Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12759,18 +12759,35 @@
       "Docker Compose",
       "Apache ECharts"
     ],
-    "coverImage": "/projects/dataagent-analyst/screenshots/01-overview.png",
+    "coverImage": "/projects/dataagent-analyst/screenshots/02-guide-sidebar.png",
     "subtitle": "Upload a CSV; AI agents run EDA, modeling, and insight reports",
     "githubUrl": "https://github.com/Justin21523/dataagent-analyst",
     "liveDemoUrl": "https://justin21523.github.io/dataagent-analyst/",
     "readmeUrl": "https://github.com/Justin21523/dataagent-analyst#readme",
-    "heroImage": "/projects/dataagent-analyst/screenshots/01-overview.png",
+    "heroImage": "/projects/dataagent-analyst/screenshots/02-guide-sidebar.png",
     "screenshots": [
+      "/projects/dataagent-analyst/screenshots/02-guide-sidebar.png",
       "/projects/dataagent-analyst/screenshots/01-overview.png",
       "/projects/dataagent-analyst/screenshots/02-core-feature.png",
       "/projects/dataagent-analyst/screenshots/03-detail-view.png",
       "/projects/dataagent-analyst/screenshots/04-architecture-or-data-flow.png",
-      "/projects/dataagent-analyst/screenshots/01-live-demo-real.png"
+      "/projects/dataagent-analyst/screenshots/01-live-demo-real.png",
+      "/projects/dataagent-analyst/screenshots/03-guide-preview.png",
+      "/projects/dataagent-analyst/screenshots/04-dataset-preview.png",
+      "/projects/dataagent-analyst/screenshots/05-dataset-versions.png",
+      "/projects/dataagent-analyst/screenshots/06-schema.png",
+      "/projects/dataagent-analyst/screenshots/07-eda.png",
+      "/projects/dataagent-analyst/screenshots/08-visualization-lab.png",
+      "/projects/dataagent-analyst/screenshots/09-ml-workbench.png",
+      "/projects/dataagent-analyst/screenshots/10-model-registry.png",
+      "/projects/dataagent-analyst/screenshots/11-prediction.png",
+      "/projects/dataagent-analyst/screenshots/12-explainability.png",
+      "/projects/dataagent-analyst/screenshots/13-drift-center.png",
+      "/projects/dataagent-analyst/screenshots/14-reports.png",
+      "/projects/dataagent-analyst/screenshots/15-backtests.png",
+      "/projects/dataagent-analyst/screenshots/16-agent-jobs.png",
+      "/projects/dataagent-analyst/screenshots/17-ai-insights.png",
+      "/projects/dataagent-analyst/screenshots/18-mobile-guide.png"
     ],
     "videoUrl": "/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
     "links": [
@@ -12810,22 +12827,41 @@
     ],
     "media": [
       {
-        "id": "quality-video-1",
+        "id": "dataagent-guide-demo-video",
         "type": "video",
         "src": "/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
         "poster": "/projects/dataagent-analyst/videos/posters/playwright-external-live-demo.webp",
         "alt": {
-          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證 demo 錄影。",
-          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified demo recording."
+          "zh-TW": "DataAgent Analyst 小幫手導覽與資料分析工作流 Demo 錄影。",
+          "en": "DataAgent Analyst guide tour and data analysis workflow demo recording."
         },
         "title": {
-          "zh-TW": "已驗證 Demo 錄影 1",
-          "en": "Verified Demo Recording 1"
+          "zh-TW": "小幫手導覽 Demo",
+          "en": "Guide Tour Demo"
         },
         "caption": {
-          "zh-TW": "由 portfolio quality pass 從既有專案 demo 素材複製。",
-          "en": "Copied by the portfolio quality pass from existing project demo media."
-        }
+          "zh-TW": "Playwright 錄製的最新 UI 小幫手導覽與工作台操作流程。",
+          "en": "Playwright-recorded walkthrough of the latest guide tour and workbench flow."
+        },
+        "featured": true
+      },
+      {
+        "id": "dataagent-guide-overview",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/02-guide-sidebar.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst 小幫手聚焦側邊導覽的截圖。",
+          "en": "DataAgent Analyst guide tour focusing the sidebar navigation."
+        },
+        "title": {
+          "zh-TW": "小幫手導覽截圖",
+          "en": "Guide Tour Screenshot"
+        },
+        "caption": {
+          "zh-TW": "小幫手會自動框住重點區塊並在右下角說明下一步。",
+          "en": "The guide highlights key regions and explains the next step from the lower-right panel."
+        },
+        "featured": true
       },
       {
         "id": "quality-image-1",
@@ -12910,6 +12946,294 @@
         "title": {
           "zh-TW": "已驗證截圖 5",
           "en": "Verified Screenshot 5"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-7",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/03-guide-preview.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 7",
+          "en": "Verified Screenshot 7"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-8",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/04-dataset-preview.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 8",
+          "en": "Verified Screenshot 8"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-9",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/05-dataset-versions.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 9",
+          "en": "Verified Screenshot 9"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-10",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/06-schema.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 10",
+          "en": "Verified Screenshot 10"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-11",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/07-eda.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 11",
+          "en": "Verified Screenshot 11"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-12",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/08-visualization-lab.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 12",
+          "en": "Verified Screenshot 12"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-13",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/09-ml-workbench.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 13",
+          "en": "Verified Screenshot 13"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-14",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/10-model-registry.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 14",
+          "en": "Verified Screenshot 14"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-15",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/11-prediction.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 15",
+          "en": "Verified Screenshot 15"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-16",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/12-explainability.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 16",
+          "en": "Verified Screenshot 16"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-17",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/13-drift-center.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 17",
+          "en": "Verified Screenshot 17"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-18",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/14-reports.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 18",
+          "en": "Verified Screenshot 18"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-19",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/15-backtests.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 19",
+          "en": "Verified Screenshot 19"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-20",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/16-agent-jobs.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 20",
+          "en": "Verified Screenshot 20"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-21",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/17-ai-insights.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 21",
+          "en": "Verified Screenshot 21"
+        },
+        "caption": {
+          "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+          "en": "Captured or copied by the portfolio quality pass from verified project evidence."
+        },
+        "featured": false
+      },
+      {
+        "id": "quality-image-22",
+        "type": "image",
+        "src": "/projects/dataagent-analyst/screenshots/18-mobile-guide.png",
+        "alt": {
+          "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證專案截圖。",
+          "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified project screenshot."
+        },
+        "title": {
+          "zh-TW": "已驗證截圖 22",
+          "en": "Verified Screenshot 22"
         },
         "caption": {
           "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
@@ -13040,7 +13364,10 @@
         "local LLM insight generation",
         "LangGraph multi-agent orchestration",
         "async agent jobs with progress streaming",
-        "markdown analysis report generation"
+        "markdown analysis report generation",
+        "guided UI tour with cross-route focus highlights",
+        "automated backtest runner and artifact viewer",
+        "static GitHub Pages demo with deterministic fixture API"
       ],
       "tools": [],
       "hasUnitTests": false,
@@ -13057,20 +13384,14 @@
       "dependencies": [],
       "extractionConfidence": 0.8,
       "needsReview": false,
-      "missingFields": [
-        "reviewed zh-TW case study",
-        "reviewed English case study",
-        "verified media assets",
-        "verified public links",
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/dataagent-analyst/project.override.json",
         "content/projects/dataagent-analyst/zh-TW.md",
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.068Z",
+      "lastScannedAt": "2026-06-28T22:01:34.877Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -13088,12 +13409,12 @@
       "zh-TW": {
         "title": "DataAgent Analyst：AI 代理資料分析與機器學習工作台",
         "summary": "一個作品集等級的 AI 資料分析平台：使用者上傳 CSV 後，可自動進行欄位剖析、探索式資料分析、視覺化推薦、基準機器學習訓練與模型評估，並透過本地 LLM 與 LangGraph 多代理工作流生成可解釋的分析報告。後端採 FastAPI 分層架構，前端為純 JavaScript 模組化儀表板，並以 Docker Compose 整合 PostgreSQL、Qdrant 與 llama.cpp。",
-        "description": "## 專案概觀\n\nDataAgent Analyst 是一個作品集等級的 AI 資料分析與機器學習工作台。使用者上傳 CSV 後，平台會自動進行欄位型別推斷與剖析、探索式資料分析（缺值、重複、敘述統計、離群值與相關性）、視覺化圖表推薦、基準機器學習模型訓練與評估，最後由本地 LLM 與多代理工作流生成可解釋的 Markdown 分析報告。\n\n## 架構與技術\n\n後端以 Python 3.12 與 FastAPI 打造分層架構：`api` 負責路由、`schemas` 以 Pydantic v2 定義契約、`services` 封裝各項分析能力、`core` 集中設定、logging、錯誤處理與中介層。分析能力被切分為欄位剖析、EDA、視覺化、ML 訓練、模型評估／預測／註冊、特徵管線、SHAP 可解釋性與報告等獨立 service，便於測試與重組。\n\n## AI 代理工作流\n\n核心是以 LangGraph 建立的 `StateGraph` 工作流，將 Planner、Profiler、Visualizer、Trainer、Explainer 與 Reporter 等代理串成可編排的資料分析流程，並透過既有 service 實際執行各個工具。系統支援非同步代理任務與進度事件回呼，可即時回報每個步驟的狀態。LLM 透過 OpenAI 相容介面接上本地 llama.cpp，預設可關閉並在伺服器不可用時優雅降級。\n\n## 前端與部署\n\n前端為純 JavaScript 的模組化儀表板，採 HTML partials 動態載入，搭配 features／components 結構與 Apache ECharts 互動圖表，並以全域 toast 與 DOM 契約檢查維持可維護性。整體以 Docker Compose 整合 PostgreSQL、Qdrant、llama.cpp 與 Nginx，另提供 CUDA 版 compose 支援 GPU 推論。\n\n## 工程實踐\n\n專案以 uv 管理依賴，並具備 pytest（22 個測試檔）、ruff、mypy、Makefile、smoke test 與可重現的示範資料產生器，文件以 14 個階段（Phase 0–13 及模型可解釋性 R4）記錄演進過程，展現從原型到產品級工程的完整脈絡。",
+        "description": "## 專案概觀\n\nDataAgent Analyst 是一個作品集等級的 AI 資料分析與機器學習工作台。使用者上傳 CSV 後，平台會自動進行欄位型別推斷與剖析、探索式資料分析（缺值、重複、敘述統計、離群值與相關性）、視覺化圖表推薦、基準機器學習模型訓練與評估，最後由本地 LLM 與多代理工作流生成可解釋的 Markdown 分析報告。\n\n## 架構與技術\n\n後端以 Python 3.12 與 FastAPI 打造分層架構：`api` 負責路由、`schemas` 以 Pydantic v2 定義契約、`services` 封裝各項分析能力、`core` 集中設定、logging、錯誤處理與中介層。分析能力被切分為欄位剖析、EDA、視覺化、ML 訓練、模型評估／預測／註冊、特徵管線、SHAP 可解釋性與報告等獨立 service，便於測試與重組。\n\n## AI 代理工作流\n\n核心是以 LangGraph 建立的 `StateGraph` 工作流，將 Planner、Profiler、Visualizer、Trainer、Explainer 與 Reporter 等代理串成可編排的資料分析流程，並透過既有 service 實際執行各個工具。系統支援非同步代理任務與進度事件回呼，可即時回報每個步驟的狀態。LLM 透過 OpenAI 相容介面接上本地 llama.cpp，預設可關閉並在伺服器不可用時優雅降級。\n\n## 前端與部署\n\n前端為純 JavaScript 的模組化儀表板，採 HTML partials 動態載入，搭配 sidebar、top context bar、right inspector、section subnav、workspace context persistence 與 Apache ECharts 互動圖表，並以全域 toast 與 DOM 契約檢查維持可維護性。最新版本加入 19 步小幫手導覽，會跨 route 聚焦重要區塊並顯示底部說明。整體以 Docker Compose 整合 PostgreSQL、Qdrant、llama.cpp 與 Nginx，另提供 CUDA 版 compose 支援 GPU 推論；GitHub Pages 則部署靜態互動 demo，使用 fixture API 展示真實前端操作。\n\n## 工程實踐\n\n專案以 uv 管理依賴，並具備 pytest（25 個測試檔）、ruff、mypy、Makefile、smoke test、Playwright UI backtest、完整 backtest suite、backtest job runner 與可重現的示範資料產生器，文件以多階段 roadmap 記錄演進過程，展現從原型到產品級工程的完整脈絡。",
         "tagline": "上傳 CSV，AI 代理自動完成 EDA、建模與洞察報告",
         "role": "全端 / AI 應用工程師（獨立設計與開發後端、前端、代理工作流與部署）",
         "problem": "資料分析從清理、EDA、建模到撰寫報告涉及大量重複且零散的人工步驟，初學者難以串接完整流程，分析師也常缺少可重現、可解釋的工作流；同時許多 LLM 應用過度依賴雲端 API，缺乏可離線、可控成本的本地方案。",
         "solution": "建立一套以 FastAPI 分層架構（routes／schemas／services／core）為核心的後端，將欄位剖析、EDA、視覺化推薦、ML 訓練、模型評估、預測、SHAP 可解釋性等能力拆成獨立 service，再以 LangGraph 把 Planner、Profiler、Visualizer、Trainer、Explainer、Reporter 等代理組成可編排工作流，並支援非同步任務與進度串流；LLM 透過 OpenAI 相容介面接上本地 llama.cpp，可隨時停用以降級保護。前端以純 JavaScript 的 partials／features／components 模組化結構搭配 ECharts 呈現互動儀表板。",
-        "outcome": "完成從資料上傳到自動化分析報告的端到端流程，後端涵蓋 12 組 API 路由與 20 餘個 service，並有 22 個 pytest 測試檔、ruff／mypy 型別與風格檢查、smoke test 與可重現的示範資料產生器；以 Docker Compose 一鍵啟動 PostgreSQL、Qdrant、llama.cpp 與前後端，並累積數百份生成的分析報告作為示範。",
+        "outcome": "完成從資料上傳到自動化分析、模型訓練、可解釋性、漂移監控、報告與 backtest artifact 檢視的端到端流程，後端涵蓋多組 API 路由與 20 餘個 service，並有 25 個 pytest 測試檔、ruff／mypy 型別與風格檢查、Playwright UI backtest、完整 workflow backtest 與可重現示範資料；GitHub Pages 提供靜態互動 demo，以 fixture API 展示最新 UI、小幫手導覽與主要工作流。",
         "targetUsers": [
           "作品集審閱者與面試官",
           "需要快速理解專案目的、技術棧與成熟度的技術讀者"
@@ -13125,7 +13446,8 @@
           "整合 SHAP 模型可解釋性與本地 llama.cpp LLM（OpenAI 相容介面），LLM 可關閉並優雅降級，避免未啟動模型時整體失效",
           "純 JavaScript 模組化前端：HTML partials 動態載入、navigation、bootstrap、全域 toast 與 DOM 契約檢查，搭配 ECharts 互動圖表",
           "Docker Compose 整合 PostgreSQL、Qdrant 向量庫、llama.cpp 與 Nginx，並提供 CUDA 版 compose 以支援 GPU 推論",
-          "完整工程化：uv、pytest（22 個測試檔）、ruff、mypy、Makefile、smoke test 與示範資料產生器"
+          "右側 inspector、next-action engine、workspace context persistence 與 19 步小幫手導覽，解決大型資料科學工作台容易迷路與反覆捲動的問題",
+          "完整工程化：uv、pytest（25 個測試檔）、ruff、mypy、Makefile、smoke test、Playwright UI backtest、完整 backtest suite 與示範資料產生器"
         ],
         "challenges": [
           "在 LangGraph 工作流中協調多個既有 service，同時保留每個工具的獨立性與可測試性，並把錯誤與步驟狀態彙整成一致的回傳格式",
@@ -13133,20 +13455,20 @@
           "以純 JavaScript 維持模組化與可維護性，透過 partials 與 DOM 契約檢查避免前端隨功能增加而失控"
         ],
         "nextSteps": [
+          "把 GitHub Pages fixture demo 延伸成更多資料集與模型情境，讓面試展示可切換不同 lifecycle case",
           "完整串接 Phase 9 的 RAG 知識庫，將資料字典與歷史報告索引進 Qdrant 並提供帶引用的查詢",
-          "將資料集與實驗註冊表由檔案儲存遷移到已備妥的 PostgreSQL，強化多使用者與並行情境",
-          "補上前端 E2E 測試與部署管線，並更新 README 狀態以反映實際已完成的階段"
+          "強化多使用者 workspace 權限、長任務佇列與 production model governance"
         ]
       },
       "en": {
         "title": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench",
         "summary": "A portfolio-grade AI data analysis platform: users upload a CSV and the system automatically profiles columns, runs EDA, recommends visualizations, trains baseline ML models, evaluates performance, and produces explainable analysis reports via a local LLM and a LangGraph multi-agent workflow. The backend is a layered FastAPI service architecture; the frontend is a modular vanilla-JavaScript dashboard, with PostgreSQL, Qdrant, and llama.cpp wired together through Docker Compose.",
-        "description": "## Overview\n\nDataAgent Analyst is a portfolio-grade AI data analysis and machine learning workbench. After a user uploads a CSV, the platform automatically infers and profiles column types, runs exploratory data analysis (missing values, duplicates, descriptive statistics, outliers, and correlations), recommends visualizations, trains and evaluates baseline ML models, and finally generates explainable Markdown analysis reports via a local LLM and a multi-agent workflow.\n\n## Architecture & Stack\n\nThe backend is built with Python 3.12 and FastAPI in a layered architecture: `api` for routes, `schemas` for Pydantic v2 contracts, `services` for analysis capabilities, and `core` for centralized settings, logging, error handling, and middleware. Analysis capabilities are decomposed into independent services — column profiling, EDA, visualization, ML training, model evaluation/prediction/registry, feature pipelines, SHAP explainability, and reporting — making them easy to test and recompose.\n\n## AI Agent Workflow\n\nThe core is a LangGraph `StateGraph` workflow that chains Planner, Profiler, Visualizer, Trainer, Explainer, and Reporter agents into an orchestrated analysis pipeline, while the actual tools are executed by the existing services. It supports asynchronous agent jobs with progress-event callbacks that report each step's status in real time. The LLM connects to a local llama.cpp server through an OpenAI-compatible interface and is disabled by default, degrading gracefully when the server is unreachable.\n\n## Frontend & Deployment\n\nThe frontend is a modular vanilla-JavaScript dashboard using dynamically loaded HTML partials, a features/components structure, and Apache ECharts for interactive charts, kept maintainable with global toasts and a DOM-contract checker. Everything is integrated via Docker Compose across PostgreSQL, Qdrant, llama.cpp, and Nginx, with a CUDA compose variant for GPU inference.\n\n## Engineering Practices\n\nThe project uses uv for dependency management and ships with pytest (22 test files), ruff, mypy, a Makefile, smoke tests, and a reproducible demo-data generator. Its evolution is documented across 14 phases (Phase 0–13 plus an R4 model-explainability addition), reflecting a complete arc from prototype to production-style engineering.",
+        "description": "## Overview\n\nDataAgent Analyst is a portfolio-grade AI data analysis and machine learning workbench. After a user uploads a CSV, the platform automatically infers and profiles column types, runs exploratory data analysis (missing values, duplicates, descriptive statistics, outliers, and correlations), recommends visualizations, trains and evaluates baseline ML models, and finally generates explainable Markdown analysis reports via a local LLM and a multi-agent workflow.\n\n## Architecture & Stack\n\nThe backend is built with Python 3.12 and FastAPI in a layered architecture: `api` for routes, `schemas` for Pydantic v2 contracts, `services` for analysis capabilities, and `core` for centralized settings, logging, error handling, and middleware. Analysis capabilities are decomposed into independent services — column profiling, EDA, visualization, ML training, model evaluation/prediction/registry, feature pipelines, SHAP explainability, and reporting — making them easy to test and recompose.\n\n## AI Agent Workflow\n\nThe core is a LangGraph `StateGraph` workflow that chains Planner, Profiler, Visualizer, Trainer, Explainer, and Reporter agents into an orchestrated analysis pipeline, while the actual tools are executed by the existing services. It supports asynchronous agent jobs with progress-event callbacks that report each step's status in real time. The LLM connects to a local llama.cpp server through an OpenAI-compatible interface and is disabled by default, degrading gracefully when the server is unreachable.\n\n## Frontend & Deployment\n\nThe frontend is a modular vanilla-JavaScript dashboard using dynamically loaded HTML partials, a sidebar, top context bar, right inspector, section subnav, workspace context persistence, and Apache ECharts for interactive charts, kept maintainable with global toasts and a DOM-contract checker. The latest version adds a 19-step guide tour that moves across routes, focuses key regions, and explains each step from the lower-right panel. Everything is integrated via Docker Compose across PostgreSQL, Qdrant, llama.cpp, and Nginx, with a CUDA compose variant for GPU inference; GitHub Pages hosts a static interactive demo backed by a fixture API.\n\n## Engineering Practices\n\nThe project uses uv for dependency management and ships with pytest (25 test files), ruff, mypy, a Makefile, smoke tests, Playwright UI backtests, full backtest suites, a backtest job runner, and a reproducible demo-data generator. Its roadmap documents the progression from prototype to production-style engineering.",
         "tagline": "Upload a CSV; AI agents run EDA, modeling, and insight reports",
         "role": "Full-stack / AI application engineer (sole designer and developer of backend, frontend, agent workflow, and deployment)",
         "problem": "Data analysis spans many repetitive, fragmented manual steps — cleaning, EDA, modeling, and report writing. Beginners struggle to connect the full pipeline, while analysts often lack reproducible, explainable workflows. Many LLM applications also over-rely on cloud APIs, leaving no offline, cost-controlled local option.",
         "solution": "A FastAPI backend built on a clean layered architecture (routes / schemas / services / core), with column profiling, EDA, chart recommendation, ML training, evaluation, prediction, and SHAP explainability split into independent services. LangGraph orchestrates Planner, Profiler, Visualizer, Trainer, Explainer, and Reporter agents into a repeatable workflow with async jobs and progress streaming. The LLM connects to a local llama.cpp server over an OpenAI-compatible interface and degrades gracefully when disabled. The frontend uses a modular vanilla-JS partials/features/components structure with ECharts.",
-        "outcome": "Delivered an end-to-end flow from data upload to automated analysis reports, with 12 API route groups, 20+ backend services, 22 pytest test files, ruff/mypy checks, a smoke test, and a deterministic demo-dataset generator. Docker Compose brings up PostgreSQL, Qdrant, llama.cpp, and the frontend/backend with one command, alongside hundreds of generated demo reports.",
+        "outcome": "Delivered an end-to-end flow from upload to automated analysis, model training, explainability, drift monitoring, reports, and backtest artifact review, with 20+ backend services, 25 pytest test files, ruff/mypy checks, Playwright UI backtests, full workflow backtests, and a deterministic demo-dataset generator. GitHub Pages now hosts a static interactive demo that uses a fixture API to show the latest UI, guide tour, and core workflow.",
         "targetUsers": [
           "Portfolio reviewers and interviewers",
           "Technical readers who need a quick view of purpose, stack, and maturity"
@@ -13178,7 +13500,8 @@
           "SHAP model explainability plus a local llama.cpp LLM over an OpenAI-compatible API, with the LLM toggleable and gracefully degrading when offline",
           "Modular vanilla-JavaScript frontend: dynamic HTML partials, navigation, bootstrap, global toasts, and a DOM-contract checker, with interactive ECharts visualizations",
           "Docker Compose integrates PostgreSQL, the Qdrant vector store, llama.cpp, and Nginx, plus a CUDA compose variant for GPU inference",
-          "Strong engineering hygiene: uv, pytest (22 test files), ruff, mypy, Makefile, smoke tests, and a reproducible demo-data generator"
+          "Right-side inspector, next-action engine, workspace context persistence, and a 19-step guided tour reduce navigation friction across a large data-science workbench",
+          "Strong engineering hygiene: uv, pytest (25 test files), ruff, mypy, Makefile, smoke tests, Playwright UI backtests, full backtest suites, and a reproducible demo-data generator"
         ],
         "challenges": [
           "Coordinating multiple existing services inside a LangGraph workflow while keeping each tool independent and testable, and aggregating errors and step state into a consistent response shape",
@@ -13186,9 +13509,9 @@
           "Keeping a vanilla-JavaScript frontend modular and maintainable through partials and a DOM-contract checker as features grew"
         ],
         "nextSteps": [
+          "Expand the GitHub Pages fixture demo with multiple dataset and model lifecycle scenarios",
           "Fully wire the Phase 9 RAG knowledge base — index data dictionaries and historical reports into Qdrant and serve cited queries",
-          "Migrate dataset and experiment registries from file storage to the already-provisioned PostgreSQL for multi-user and concurrent scenarios",
-          "Add frontend E2E tests and a deployment pipeline, and update the README status to reflect the phases actually completed"
+          "Strengthen multi-user workspace permissions, long-running job queues, and production model governance"
         ]
       }
     }
@@ -13424,7 +13747,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.068Z",
+      "lastScannedAt": "2026-06-28T22:01:34.878Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -13926,7 +14249,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.069Z",
+      "lastScannedAt": "2026-06-28T22:01:34.879Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -14299,7 +14622,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.069Z",
+      "lastScannedAt": "2026-06-28T22:01:34.879Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14664,7 +14987,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.070Z",
+      "lastScannedAt": "2026-06-28T22:01:34.880Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -15096,7 +15419,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.070Z",
+      "lastScannedAt": "2026-06-28T22:01:34.880Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -15439,7 +15762,7 @@
         "content/projects/dom-visualizer-oop/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.071Z",
+      "lastScannedAt": "2026-06-28T22:01:34.881Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -15768,7 +16091,7 @@
         "content/projects/edge-deid-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.071Z",
+      "lastScannedAt": "2026-06-28T22:01:34.881Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -16109,7 +16432,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.072Z",
+      "lastScannedAt": "2026-06-28T22:01:34.881Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -16914,7 +17237,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.073Z",
+      "lastScannedAt": "2026-06-28T22:01:34.882Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -17758,7 +18081,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.073Z",
+      "lastScannedAt": "2026-06-28T22:01:34.883Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -18169,7 +18492,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.074Z",
+      "lastScannedAt": "2026-06-28T22:01:34.884Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -18520,7 +18843,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.075Z",
+      "lastScannedAt": "2026-06-28T22:01:34.884Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -19019,7 +19342,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.075Z",
+      "lastScannedAt": "2026-06-28T22:01:34.885Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -19428,7 +19751,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.076Z",
+      "lastScannedAt": "2026-06-28T22:01:34.885Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -19865,7 +20188,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.077Z",
+      "lastScannedAt": "2026-06-28T22:01:34.886Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -20275,7 +20598,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.077Z",
+      "lastScannedAt": "2026-06-28T22:01:34.886Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -20675,7 +20998,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.077Z",
+      "lastScannedAt": "2026-06-28T22:01:34.886Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -21002,7 +21325,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.078Z",
+      "lastScannedAt": "2026-06-28T22:01:34.887Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -21450,7 +21773,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.078Z",
+      "lastScannedAt": "2026-06-28T22:01:34.887Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -22711,7 +23034,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.079Z",
+      "lastScannedAt": "2026-06-28T22:01:34.888Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -23152,7 +23475,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.080Z",
+      "lastScannedAt": "2026-06-28T22:01:34.889Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -23593,7 +23916,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.080Z",
+      "lastScannedAt": "2026-06-28T22:01:34.889Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -24018,7 +24341,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.081Z",
+      "lastScannedAt": "2026-06-28T22:01:34.890Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -24778,7 +25101,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.082Z",
+      "lastScannedAt": "2026-06-28T22:01:34.890Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -25115,7 +25438,7 @@
         "content/projects/javascript-game-physics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.082Z",
+      "lastScannedAt": "2026-06-28T22:01:34.891Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -25646,7 +25969,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.083Z",
+      "lastScannedAt": "2026-06-28T22:01:34.892Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -25993,7 +26316,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.083Z",
+      "lastScannedAt": "2026-06-28T22:01:34.892Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -26450,7 +26773,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.084Z",
+      "lastScannedAt": "2026-06-28T22:01:34.892Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -26774,7 +27097,7 @@
         "content/projects/llm-switch-chat/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.084Z",
+      "lastScannedAt": "2026-06-28T22:01:34.893Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -27557,7 +27880,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.085Z",
+      "lastScannedAt": "2026-06-28T22:01:34.893Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28335,7 +28658,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.085Z",
+      "lastScannedAt": "2026-06-28T22:01:34.894Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28741,7 +29064,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.086Z",
+      "lastScannedAt": "2026-06-28T22:01:34.895Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -29173,7 +29496,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.086Z",
+      "lastScannedAt": "2026-06-28T22:01:34.895Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -29501,7 +29824,7 @@
         "content/projects/mock-master/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.087Z",
+      "lastScannedAt": "2026-06-28T22:01:34.895Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -29844,7 +30167,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.087Z",
+      "lastScannedAt": "2026-06-28T22:01:34.896Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -30374,7 +30697,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.088Z",
+      "lastScannedAt": "2026-06-28T22:01:34.896Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -30818,7 +31141,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.088Z",
+      "lastScannedAt": "2026-06-28T22:01:34.897Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -32043,7 +32366,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.089Z",
+      "lastScannedAt": "2026-06-28T22:01:34.898Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -32402,7 +32725,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.090Z",
+      "lastScannedAt": "2026-06-28T22:01:34.898Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -32734,7 +33057,7 @@
         "content/projects/mystery-phenomena-files/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.090Z",
+      "lastScannedAt": "2026-06-28T22:01:34.899Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -33562,7 +33885,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.091Z",
+      "lastScannedAt": "2026-06-28T22:01:34.899Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -34123,7 +34446,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.092Z",
+      "lastScannedAt": "2026-06-28T22:01:34.900Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -34894,7 +35217,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.092Z",
+      "lastScannedAt": "2026-06-28T22:01:34.901Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -35323,7 +35646,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.095Z",
+      "lastScannedAt": "2026-06-28T22:01:34.901Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -35687,7 +36010,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.095Z",
+      "lastScannedAt": "2026-06-28T22:01:34.902Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -36017,7 +36340,7 @@
         "content/projects/playwright-automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.096Z",
+      "lastScannedAt": "2026-06-28T22:01:34.902Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -36480,7 +36803,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.096Z",
+      "lastScannedAt": "2026-06-28T22:01:34.902Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -36910,7 +37233,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.096Z",
+      "lastScannedAt": "2026-06-28T22:01:34.905Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -37310,7 +37633,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.097Z",
+      "lastScannedAt": "2026-06-28T22:01:34.905Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -37749,7 +38072,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.097Z",
+      "lastScannedAt": "2026-06-28T22:01:34.906Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -38168,7 +38491,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.098Z",
+      "lastScannedAt": "2026-06-28T22:01:34.906Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -38520,7 +38843,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.098Z",
+      "lastScannedAt": "2026-06-28T22:01:34.906Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -38950,7 +39273,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.098Z",
+      "lastScannedAt": "2026-06-28T22:01:34.907Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -39333,7 +39656,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.099Z",
+      "lastScannedAt": "2026-06-28T22:01:34.907Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -39786,7 +40109,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.099Z",
+      "lastScannedAt": "2026-06-28T22:01:34.908Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -40293,7 +40616,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.099Z",
+      "lastScannedAt": "2026-06-28T22:01:34.908Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -40985,7 +41308,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.100Z",
+      "lastScannedAt": "2026-06-28T22:01:34.909Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -41783,7 +42106,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.101Z",
+      "lastScannedAt": "2026-06-28T22:01:34.909Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -42154,7 +42477,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.101Z",
+      "lastScannedAt": "2026-06-28T22:01:34.910Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -42580,7 +42903,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.102Z",
+      "lastScannedAt": "2026-06-28T22:01:34.910Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -42967,7 +43290,7 @@
         "content/projects/runner-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.102Z",
+      "lastScannedAt": "2026-06-28T22:01:34.910Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -43357,7 +43680,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.103Z",
+      "lastScannedAt": "2026-06-28T22:01:34.911Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -43698,7 +44021,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.103Z",
+      "lastScannedAt": "2026-06-28T22:01:34.911Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44037,7 +44360,7 @@
         "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.103Z",
+      "lastScannedAt": "2026-06-28T22:01:34.911Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -44799,7 +45122,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.104Z",
+      "lastScannedAt": "2026-06-28T22:01:34.912Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -45223,7 +45546,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.104Z",
+      "lastScannedAt": "2026-06-28T22:01:34.913Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -45561,7 +45884,7 @@
         "content/projects/smart-home-energy-monitor/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.105Z",
+      "lastScannedAt": "2026-06-28T22:01:34.913Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -45893,7 +46216,7 @@
         "content/projects/soundscape-taiwan/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.105Z",
+      "lastScannedAt": "2026-06-28T22:01:34.913Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46314,7 +46637,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.105Z",
+      "lastScannedAt": "2026-06-28T22:01:34.914Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46757,7 +47080,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.106Z",
+      "lastScannedAt": "2026-06-28T22:01:34.914Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47089,7 +47412,7 @@
         "content/projects/TGW-playbook/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.106Z",
+      "lastScannedAt": "2026-06-28T22:01:34.914Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47502,7 +47825,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.107Z",
+      "lastScannedAt": "2026-06-28T22:01:34.915Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -47861,7 +48184,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.107Z",
+      "lastScannedAt": "2026-06-28T22:01:34.915Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -48204,7 +48527,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.107Z",
+      "lastScannedAt": "2026-06-28T22:01:34.915Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -48657,7 +48980,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.108Z",
+      "lastScannedAt": "2026-06-28T22:01:34.916Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -48981,7 +49304,7 @@
         "content/projects/transformer-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.108Z",
+      "lastScannedAt": "2026-06-28T22:01:34.916Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -49408,7 +49731,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.108Z",
+      "lastScannedAt": "2026-06-28T22:01:34.916Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -49740,7 +50063,7 @@
         "content/projects/tts-voice-app/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.109Z",
+      "lastScannedAt": "2026-06-28T22:01:34.917Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -50175,7 +50498,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.109Z",
+      "lastScannedAt": "2026-06-28T22:01:34.917Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -50594,7 +50917,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.110Z",
+      "lastScannedAt": "2026-06-28T22:01:34.918Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -51381,7 +51704,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.110Z",
+      "lastScannedAt": "2026-06-28T22:01:34.918Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -51803,7 +52126,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.111Z",
+      "lastScannedAt": "2026-06-28T22:01:34.919Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -52135,7 +52458,7 @@
         "content/projects/video-gen-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.111Z",
+      "lastScannedAt": "2026-06-28T22:01:34.919Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -52689,7 +53012,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.112Z",
+      "lastScannedAt": "2026-06-28T22:01:34.920Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -53026,7 +53349,7 @@
         "content/projects/web-auto-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.112Z",
+      "lastScannedAt": "2026-06-28T22:01:34.920Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -53460,7 +53783,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.113Z",
+      "lastScannedAt": "2026-06-28T22:01:34.921Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -53905,7 +54228,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T20:13:52.113Z",
+      "lastScannedAt": "2026-06-28T22:01:34.921Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
