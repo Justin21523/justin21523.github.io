@@ -1,39 +1,36 @@
 ---
 title: "2D Animation Character LoRA Training Pipeline"
-tagline: "End-to-end pipeline turning 2D cartoon video into character LoRA adapters"
-summary: "An end-to-end LoRA training pipeline for Western 2D cartoon-style footage. It spans frame extraction, YOLO multi-object tracking, ToonOut character segmentation, face-based identity clustering, DWpose, VLM captioning, and LoRA/ControlNet training — wired together by a staged orchestrator with hierarchical OmegaConf config, checkpoint/resume, and a weight-free stub mode for fast validation."
-role: "Solo developer: pipeline architecture, per-stage modules, config system, and training experiments (personal AI research project)"
-problem: "Building high-quality character LoRA datasets from 2D animation is tedious: multiple characters in one frame must be separated, the same character across cuts must be merged, hard-edge line art and per-episode style drift make 3D pipeline defaults unsuitable, and the whole flow lacks reproducible, resumable automation."
-solution: "A staged orchestrator (frame → multi-character extraction → pose → dataset → training): YOLO+ByteTrack for detection/tracking, per-track ToonOut segmentation, and HDBSCAN clustering over face embeddings to merge the same identity. OmegaConf provides hierarchical config with automatic 2D/3D parameter conversion (alpha/blur thresholds, cluster sizes). Training integrates kohya-ss and Diffusers to train SD/SDXL LoRA and ControlNet, with GPT-4V captioning. Every module supports stub mode and dry-run for GPU-free smoke testing."
-outcome: "A working multi-stage pipeline prototype that has trained several anonymized character LoRAs with CLIP-verified clean datasets and kohya .toml configs, backed by checkpoint/resume, resource monitoring, batch prompt-test suites, and monitoring scripts."
+tagline: "A 2D animation LoRA data pipeline packaged as a screenshot-ready, recordable portfolio demo"
+summary: "A data engineering and training pipeline for 2D animation character LoRAs. It covers frame extraction, YOLO/ByteTrack multi-character tracking, ToonOut-style segmentation, identity clustering, DWpose conditioning, captioned datasets, LoRA training configs, and a public mock-safe demo."
+role: "Solo developer: pipeline architecture, 2D demo packaging, test verification, GitHub Pages showcase, and portfolio media"
+problem: "2D animation LoRA pipelines are hard to show publicly. Real footage, model weights, GPU dependencies, captioning services, and generated artifacts cannot simply be pushed to a portfolio. Reviewers need a version that is easy to understand, screenshot-ready, and honest about what runs publicly versus what requires a local ML workstation."
+solution: "I split the project into a real workstation workflow and a public demo layer. The real path keeps YOLO, ToonOut, DWpose, HDBSCAN, kohya/diffusers, and local model/data warehouses. The public path adds a static mock-safe demo with deterministic synthetic assets: stage dashboard, character dataset sheet, frame-to-sample transformation, training metrics, evaluation matrix, motion strip, screenshots, and a WebM walkthrough."
+outcome: "Delivered a public showcase version: the GitHub Pages demo site presents the product-style review flow, the main portfolio page includes cover art, screenshots, video, GitHub, and README links, and the repo verifies the demo with a generator, CPU-safe pytest smoke suite, static HTTP checks, and Docker/Nginx build."
 highlights:
-  - "Staged orchestrator with dependency management, checkpoint/resume, and progress tracking"
-  - "Three-step multi-character handling: YOLO+ByteTrack tracking, per-track ToonOut segmentation, HDBSCAN face-identity clustering"
-  - "Hierarchical OmegaConf config with automatic 2D/3D parameter conversion (edge thresholds, cluster sizes, dataset volume)"
-  - "kohya-ss / Diffusers integration to train SD/SDXL LoRA and ControlNet-Pose (DWpose conditioning)"
-  - "Stub mode + dry-run across all modules for fast smoke tests without model weights"
-  - "Full surrounding toolkit: RealESRGAN/GFPGAN enhancement, RIFE interpolation, LaMa/PowerPaint inpainting, GPT-4V captioning"
+  - "First viewport shows the product itself: pipeline readiness, stage metrics, synthetic character sheet, and demo results"
+  - "Mock-safe demo mode runs without API keys, model weights, private footage, or GPU access"
+  - "2D pipeline focus: YOLO/ByteTrack tracking, ToonOut-style masks, HDBSCAN identity merging, and DWpose conditioning"
+  - "README includes Mermaid architecture, data flow, deployment, module organization, tech stack, and interview walkthrough diagrams"
+  - "Portfolio media package: cover, desktop screenshot, mobile screenshot, results screenshot, and WebM walkthrough"
 challenges:
-  - "Separating multiple characters per frame while merging the same identity across cuts via tracking plus face-embedding clustering"
-  - "Recalibrating 3D-derived defaults for 2D hard-edge line art and per-episode style variation, solved with a parameter-conversion layer"
+  - "The public demo needed a clear boundary between static mock-safe presentation and full GPU/model execution"
+  - "The original repo includes many research and batch scripts, so the review path had to be narrowed into stable commands and evidence"
 nextSteps:
-  - "Consolidate scattered training scripts and configs into a single CLI workflow with full end-to-end integration tests"
-  - "Validate identity clustering and data-quality filtering generalization across more characters and shows"
+  - "Add more anonymous demo scenarios such as quality review, cluster review, and checkpoint comparison"
+  - "Publish more aggregate metrics from real training runs without exposing private media or model artifacts"
 ---
 ## Overview
 
-**2D Animation LoRA Pipeline** is an end-to-end character LoRA training data pipeline built for Western 2D cartoon-style footage. It turns "video → frames → multi-character extraction → pose → dataset → LoRA training" into a reproducible, resumable automated flow, reusing mature 3D-pipeline infrastructure retuned for 2D characteristics.
+This project is an end-to-end data and training pipeline for 2D animation character LoRAs. It turns video footage into reproducible training artifacts: frames, character detections and tracks, foreground masks, identity clusters, pose conditioning data, captions, and LoRA training configs.
 
-## Architecture & Stack
+## Demo Strategy
 
-The core is a staged orchestrator plus stage-dependency manager, using OmegaConf for hierarchical config with automatic 2D/3D parameter conversion. Vision processing chains Ultralytics YOLO + ByteTrack multi-object tracking, per-track ToonOut (ONNX) segmentation, InsightFace embeddings + HDBSCAN identity clustering, and DWpose extraction. Training integrates kohya-ss with Diffusers/PEFT to train Stable Diffusion / SDXL character LoRAs and ControlNet-Pose, with optimizers like bitsandbytes/Prodigy and TensorBoard/W&B monitoring.
+The public demo does not use private footage or named characters. It uses synthetic 2D characters to simulate production outputs. The first screen shows a pipeline dashboard, stage readiness, character dataset sheet, and result metrics; later sections show transformation visuals, training metrics, evaluation matrix, motion strip, screenshots, and the demo video.
 
-## Engineering Features
+## Architecture
 
-Every module supports **stub mode** and dry-run, letting developers smoke-test the whole pipeline with no model weights and no GPU. It also provides a unified MetadataIO (parquet-first), resource monitoring, and checkpoint/resume. Surrounding tooling includes RealESRGAN/GFPGAN enhancement, RIFE interpolation, LaMa/PowerPaint background inpainting, and GPT-4V auto-captioning.
+The backend is not a hosted service. It is a Python CLI and file-based artifact pipeline. `anime_pipeline/` contains the core modules, `configs/` owns global/stage/project configuration, `portfolio-web/` is the GitHub Pages static showcase, and `tests/` provides CPU-safe smoke tests. The public page only fetches a static manifest JSON; real LoRA training still requires a local GPU, model warehouse, and dataset warehouse.
 
-## Results & Status
+## Interview Focus
 
-The project has trained several anonymized character LoRAs, shipping complete kohya .toml configs, prompt-test suites, and training-monitoring scripts. It remains an evolving personal research prototype: many stages are stub-driven and training scripts are still scattered, with consolidation into a single CLI workflow and fuller end-to-end tests as next steps.
-
-> Note: the captioning module reads an OpenAI key from an environment variable; no keys or secrets are included here.
+The value of this project is not only the AI vocabulary. It shows how to turn a GPU-heavy, media-heavy research pipeline into a public, testable, deployable, and understandable portfolio project.

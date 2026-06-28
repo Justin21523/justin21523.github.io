@@ -1,8 +1,8 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
     "Python",
@@ -13,8 +13,12 @@
     "Stable Diffusion / SDXL",
     "ControlNet",
     "Ultralytics YOLO",
+    "ByteTrack",
+    "DWpose",
     "HDBSCAN",
-    "OmegaConf"
+    "OmegaConf",
+    "GitHub Pages",
+    "Docker"
   ],
   "coverImage": "/portfolio/projects/2d-animation-lora-pipeline/cover.webp",
   "links": [
@@ -22,17 +26,25 @@
       "kind": "live",
       "url": "https://justin21523.github.io/2d-animation-lora-pipeline/",
       "label": {
-        "zh-TW": "互動 Demo",
-        "en": "Interactive Demo"
+        "zh-TW": "互動 Demo 網站",
+        "en": "Interactive Demo Site"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/portfolio/projects/2d-animation-lora-pipeline/demo/demo-walkthrough.webm",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
     },
     {
       "kind": "github",
       "url": "https://github.com/Justin21523/2d-animation-lora-pipeline",
       "label": {
-        "zh-TW": "查看原始碼",
-        "en": "View Source"
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
       }
     },
     {
@@ -44,74 +56,191 @@
       }
     }
   ],
+  "media": [
+    {
+      "id": "demo-walkthrough",
+      "type": "video",
+      "src": "/portfolio/projects/2d-animation-lora-pipeline/demo/demo-walkthrough.webm",
+      "poster": "/portfolio/projects/2d-animation-lora-pipeline/cover.webp",
+      "alt": {
+        "zh-TW": "2D Animation LoRA Pipeline 的 mock-safe demo 錄影。",
+        "en": "A mock-safe demo recording of the 2D Animation LoRA Pipeline."
+      },
+      "title": {
+        "zh-TW": "Demo 操作錄影",
+        "en": "Demo Walkthrough Recording"
+      },
+      "caption": {
+        "zh-TW": "展示 pipeline readiness、synthetic character sheet、stage metrics、結果畫面與 portfolio demo 操作流程。",
+        "en": "Shows pipeline readiness, synthetic character sheet, stage metrics, result screens, and the portfolio demo flow."
+      },
+      "featured": true
+    },
+    {
+      "id": "demo-home-desktop",
+      "type": "image",
+      "src": "/portfolio/projects/2d-animation-lora-pipeline/screenshots/01-demo-home-desktop.png",
+      "alt": {
+        "zh-TW": "2D Animation LoRA Pipeline demo 首頁與 pipeline dashboard。",
+        "en": "The 2D Animation LoRA Pipeline demo home screen and pipeline dashboard."
+      },
+      "title": {
+        "zh-TW": "Demo 首頁總覽",
+        "en": "Demo Home Overview"
+      },
+      "caption": {
+        "zh-TW": "第一屏直接展示產品本體：stage readiness、synthetic character sheet 與 mock-safe pipeline metrics。",
+        "en": "The first viewport shows the product itself: stage readiness, synthetic character sheet, and mock-safe pipeline metrics."
+      },
+      "featured": true
+    },
+    {
+      "id": "demo-results-desktop",
+      "type": "image",
+      "src": "/portfolio/projects/2d-animation-lora-pipeline/screenshots/02-demo-results-desktop.png",
+      "alt": {
+        "zh-TW": "2D Animation LoRA Pipeline demo results 畫面，包含資料集與評估結果。",
+        "en": "The 2D Animation LoRA Pipeline demo results screen with dataset and evaluation outputs."
+      },
+      "title": {
+        "zh-TW": "產品化成果展示",
+        "en": "Product-Style Result Showcase"
+      },
+      "caption": {
+        "zh-TW": "用可截圖的方式呈現 synthetic dataset sheet、training metrics、evaluation matrix 與 motion strip。",
+        "en": "Makes synthetic dataset sheet, training metrics, evaluation matrix, and motion strip visible in a screenshot-ready layout."
+      }
+    },
+    {
+      "id": "demo-mobile",
+      "type": "image",
+      "src": "/portfolio/projects/2d-animation-lora-pipeline/screenshots/03-demo-home-mobile.png",
+      "alt": {
+        "zh-TW": "2D Animation LoRA Pipeline demo 的行動版畫面。",
+        "en": "The mobile view of the 2D Animation LoRA Pipeline demo."
+      },
+      "title": {
+        "zh-TW": "響應式行動版",
+        "en": "Responsive Mobile View"
+      }
+    }
+  ],
   "metadata": {
-    "projectType": "AI image-generation data pipeline",
+    "startedAt": "2026-06-01",
+    "updatedAt": "2026-06-28",
+    "completedAt": "2026-06-28",
+    "duration": "Pipeline audit, static demo layer, documentation, portfolio media packaging",
+    "teamSize": 1,
+    "version": "1.0.0-demo",
+    "catalogNumber": "PF-2026-AI-2D-LORA",
+    "projectType": "AI training pipeline / portfolio demo platform",
     "domains": [
-      "generative-ai",
-      "computer-vision",
-      "2d-animation",
-      "character-modeling",
-      "mlops"
+      "Generative AI",
+      "Computer Vision",
+      "Dataset Engineering",
+      "2D Animation",
+      "MLOps"
+    ],
+    "keywords": [
+      "LoRA",
+      "Stable Diffusion XL",
+      "2D animation",
+      "character consistency",
+      "YOLO tracking",
+      "ToonOut segmentation",
+      "DWpose",
+      "identity clustering",
+      "dataset pipeline",
+      "mock-safe demo"
+    ],
+    "audiences": [
+      "Interviewers",
+      "AI tooling reviewers",
+      "Computer vision reviewers",
+      "Portfolio visitors"
+    ],
+    "contentTypes": [
+      "Pipeline dashboard",
+      "Static demo site",
+      "Screenshot gallery",
+      "Demo recording",
+      "Technical case study"
+    ],
+    "dataTypes": [
+      "Video frames",
+      "Detection tracks",
+      "Segmentation masks",
+      "Pose conditioning data",
+      "Identity clusters",
+      "Training manifests",
+      "Evaluation snapshots"
     ],
     "capabilities": [
-      "video-frame-extraction",
-      "multi-object-detection-tracking",
-      "character-segmentation",
-      "face-identity-clustering",
-      "pose-estimation",
-      "vlm-captioning",
-      "lora-controlnet-training",
-      "checkpoint-resume-orchestration",
-      "frame-interpolation-upscaling",
-      "inpainting"
+      "video frame extraction with scene detection",
+      "multi-character YOLO/ByteTrack tracking",
+      "track-aware ToonOut-style segmentation",
+      "face-embedding identity clustering",
+      "DWpose conditioning data preparation",
+      "captioned LoRA dataset assembly",
+      "LoRA training configuration",
+      "CPU-safe public demo packaging"
     ],
     "frameworks": [
       "PyTorch",
       "Diffusers",
-      "kohya-ss",
-      "Accelerate",
       "Transformers",
-      "OmegaConf"
+      "Accelerate",
+      "PEFT",
+      "kohya-ss"
     ],
     "libraries": [
-      "PEFT",
       "Ultralytics",
       "ByteTrack",
       "HDBSCAN",
-      "scikit-learn",
       "InsightFace",
       "ONNX Runtime",
       "OpenCV",
-      "RealESRGAN",
-      "GFPGAN",
-      "RIFE",
-      "PySceneDetect",
-      "bitsandbytes",
-      "Prodigy",
+      "Pillow",
+      "OmegaConf",
       "pandas",
       "pyarrow"
     ],
     "backend": [
-      "Python CLI",
-      "OmegaConf hierarchical config"
+      "Python 3.10+",
+      "File-based CLI pipeline"
     ],
     "platforms": [
-      "CLI"
+      "CLI",
+      "Static web demo",
+      "GitHub Pages",
+      "Docker"
     ],
-    "keywords": [
-      "LoRA",
-      "ControlNet",
-      "Stable Diffusion",
-      "SDXL",
-      "2D animation",
-      "character identity",
-      "YOLO tracking",
-      "ToonOut segmentation",
-      "DWpose",
-      "HDBSCAN clustering",
-      "stub mode",
-      "AI warehouse",
-      "Western cartoon"
+    "roles": [
+      "Solo developer",
+      "Pipeline architect",
+      "Demo designer",
+      "Technical writer"
+    ],
+    "responsibilities": [
+      "Audited and stabilized the demo-safe pipeline path",
+      "Built the static mock-safe showcase and media package",
+      "Rewrote README with architecture, data flow, deployment, and interview diagrams",
+      "Integrated cover, screenshots, video, links, and metadata into the main portfolio"
+    ],
+    "tools": [
+      "pytest",
+      "Docker",
+      "GitHub Pages",
+      "FFmpeg",
+      "Chromium"
+    ],
+    "hasUnitTests": true,
+    "hasIntegrationTests": true,
+    "hasE2ETests": false,
+    "responsive": true,
+    "deployment": [
+      "GitHub Pages",
+      "Nginx Docker image"
     ],
     "needsReview": false
   }
