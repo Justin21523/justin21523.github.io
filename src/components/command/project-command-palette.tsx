@@ -118,7 +118,6 @@ export function ProjectCommandPalette({
     }, [
       favoriteSlugs,
       mounted,
-      projects,
     ]);
 
   const featuredProjects =
@@ -128,7 +127,7 @@ export function ProjectCommandPalette({
           (project) =>
             project.featured
         ),
-      [projects]
+      []
     );
 
   useEffect(() => {

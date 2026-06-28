@@ -1,10 +1,21 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "interactive-3d",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "Python",
+    "PyTorch",
+    "Diffusers",
+    "Kohya_ss",
+    "CLIP",
+    "HDBSCAN",
+    "BLIP2",
+    "Segment Anything",
+    "ControlNet",
+    "ComfyUI"
+  ],
   "coverImage": "/portfolio/projects/3d-animation-lora-pipeline/cover.webp",
   "links": [
     {
@@ -15,5 +26,78 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "AI training pipeline / CLI toolkit",
+    "domains": [
+      "generative-ai",
+      "computer-vision",
+      "diffusion-models",
+      "dataset-engineering"
+    ],
+    "capabilities": [
+      "video frame extraction with scene detection",
+      "multi-layer character segmentation",
+      "CLIP + HDBSCAN character clustering",
+      "automatic caption generation",
+      "LoRA / ControlNet / AnimateDiff training",
+      "CPU-parallel pose data preparation",
+      "LoRA quality evaluation"
+    ],
+    "frameworks": [
+      "PyTorch",
+      "Diffusers",
+      "Transformers",
+      "Accelerate",
+      "PEFT",
+      "Kohya_ss / sd-scripts"
+    ],
+    "libraries": [
+      "open-clip-torch",
+      "hdbscan",
+      "umap-learn",
+      "scikit-learn",
+      "ultralytics",
+      "insightface",
+      "onnxruntime",
+      "opencv-python",
+      "scenedetect",
+      "PyAV",
+      "decord",
+      "bitsandbytes",
+      "lion-pytorch",
+      "prodigyopt",
+      "lpips",
+      "pytorch-fid",
+      "basicsr",
+      "gfpgan",
+      "omegaconf"
+    ],
+    "backend": [
+      "Python 3.10+",
+      "CUDA"
+    ],
+    "threeD": [
+      "3D animated character LoRA",
+      "depth-aware segmentation",
+      "ControlNet pose conditioning",
+      "RIFE frame interpolation"
+    ],
+    "platforms": [
+      "CLI"
+    ],
+    "keywords": [
+      "LoRA",
+      "Stable Diffusion XL",
+      "3D animation",
+      "Pixar style",
+      "character consistency",
+      "BLIP2 captioning",
+      "SAM segmentation",
+      "pose estimation",
+      "ComfyUI",
+      "dataset pipeline"
+    ],
+    "needsReview": false
+  }
 }

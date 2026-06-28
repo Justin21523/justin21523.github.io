@@ -1,12 +1,21 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
   "technologies": [
     "Python",
-    "FastAPI"
+    "PyTorch",
+    "FastAPI",
+    "Uvicorn",
+    "React",
+    "Vite",
+    "Gradio",
+    "torchmetrics",
+    "Docker",
+    "YAML",
+    "pytest"
   ],
   "coverImage": "/portfolio/projects/gan-ae-vision-suite/cover.webp",
   "links": [
@@ -18,5 +27,69 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "Research-and-engineering generative-model toolkit",
+    "domains": [
+      "generative-modeling",
+      "computer-vision",
+      "image-synthesis",
+      "representation-learning"
+    ],
+    "capabilities": [
+      "image-generation",
+      "gan-training",
+      "autoencoder-training",
+      "model-evaluation",
+      "dataset-tooling",
+      "experiment-tracking",
+      "web-ui-control",
+      "local-job-management"
+    ],
+    "frameworks": [
+      "PyTorch",
+      "FastAPI",
+      "React",
+      "Gradio",
+      "Vite"
+    ],
+    "libraries": [
+      "torchmetrics",
+      "NumPy",
+      "Pillow",
+      "PyYAML",
+      "TensorBoard",
+      "LPIPS",
+      "einops",
+      "timm",
+      "scikit-image"
+    ],
+    "backend": [
+      "FastAPI",
+      "Uvicorn"
+    ],
+    "platforms": [
+      "CLI",
+      "Web"
+    ],
+    "keywords": [
+      "GAN",
+      "DCGAN",
+      "WGAN-GP",
+      "SNGAN",
+      "ResNet",
+      "SpectralNorm",
+      "DiffAugment",
+      "EMA",
+      "VAE",
+      "Autoencoder",
+      "FID",
+      "KID",
+      "PSNR",
+      "SSIM",
+      "anime-faces",
+      "CelebA"
+    ],
+    "needsReview": false
+  }
 }

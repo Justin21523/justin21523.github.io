@@ -1,27 +1,39 @@
 ---
-title: "2d Animation Lora Pipeline"
-tagline: "互動式 Web、3D 場景或遊戲原型練習專案。"
-summary: "2d Animation Lora Pipeline 是一個以 目前掃描到的專案檔案與 README 線索 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
-role: "獨立開發者 / 學習型專案實作者"
-problem: "這個專案用來練習互動體驗中的場景結構、操作回饋、狀態變化與使用者流程。"
-solution: "我根據專案中的技術線索與 README 內容，將它整理成一個以互動設計、場景控制與原型驗證為主的作品案例。"
-outcome: "目前適合作為 3D Web、遊戲式介面或互動原型的學習型作品。"
+title: "2D 動畫角色 LoRA 訓練管線"
+tagline: "從影片到角色 LoRA 的端到端 2D 動畫資料與訓練自動化管線"
+summary: "針對西方 2D 卡通（辛普森家庭、蓋酷家庭等）打造的端到端 LoRA 訓練管線。涵蓋影格抽取、YOLO 多物件追蹤、ToonOut 角色分割、人臉身份分群、DWpose 姿態、VLM 字幕、到 LoRA／ControlNet 訓練；以 OmegaConf 階層設定與分階段協調器串接，支援 checkpoint 續跑與無權重的 stub 模式快速驗證。"
+role: "獨立開發者：負責管線架構、各階段模組、設定系統與訓練實驗（個人 AI 研究專案）"
+problem: "從 2D 動畫影片建立高品質角色 LoRA 訓練集需處理大量繁瑣步驟：同一畫面多角色須分離、跨鏡頭同一角色須合併、2D 硬邊線稿與跨集風格差異使既有 3D 流程的參數不適用，且整段流程缺乏可重現、可續跑的自動化。"
+solution: "設計分階段（frame → 多角色抽取 → 姿態 → 資料集 → 訓練）的協調器架構：YOLO+ByteTrack 偵測追蹤、ToonOut 逐軌分割、以 HDBSCAN 對人臉嵌入做身份分群來合併同一角色；用 OmegaConf 階層設定並自動套用 2D／3D 參數轉換（alpha/blur 門檻、cluster 大小等）。訓練端整合 kohya-ss 與 diffusers 訓練 SD/SDXL LoRA 與 ControlNet，並以 GPT-4V 產生字幕。全模組支援 stub 模式與 dry-run 以利無 GPU 快速驗證。"
+outcome: "完成可運作的多階段管線雛形，並實際訓練出多個角色 LoRA（如 Luca、Inazuma 系列，含 CLIP 驗證過濾的乾淨資料集與 kohya .toml 設定）；具備 checkpoint／resume、資源監控、批次提示測試與監控腳本，整體可重現性與工程化程度高。"
 highlights:
-  - "README 顯示：🎬 End-to-end automation: Video → frames → segmentation → clustering → training"
-  - "README 顯示：👥 Multi-character support: Handles 2+ char"
+  - "分階段協調器＋階段相依管理，支援 checkpoint／resume 與進度追蹤"
+  - "多角色處理三部曲：YOLO+ByteTrack 追蹤、逐軌 ToonOut 分割、HDBSCAN 人臉身份分群"
+  - "OmegaConf 階層設定與 2D／3D 參數自動轉換（硬邊門檻、cluster 大小、資料量等）"
+  - "整合 kohya-ss／diffusers 訓練 SD/SDXL LoRA 與 ControlNet-Pose（DWpose 條件）"
+  - "全模組 stub 模式＋dry-run，無模型權重也能快速冒煙測試"
+  - "完整周邊：RealESRGAN/GFPGAN 增強、RIFE 補幀、LaMa/PowerPaint 背景修補、GPT-4V 字幕"
 challenges:
-  - "需要從 README 與原始碼中整理出可信、可展示的專案範圍。"
-  - "需要把技術名詞轉換成清楚的功能、資料流與學習成果。"
-  - "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
+  - "同畫面多角色分離與跨鏡頭身份合併，需結合追蹤與人臉嵌入分群"
+  - "2D 硬邊線稿與跨集風格差異，使 3D 既有參數需重新校準（透過參數轉換層解決）"
 nextSteps:
-  - "補齊更完整的中英文案例研究與操作截圖。"
-  - "確認 GitHub、Demo、文件與素材是否適合公開展示。"
-  - "依完成度補強測試、README 與部署或執行說明。"
+  - "將分散的訓練腳本與設定收斂為單一 CLI 工作流並補齊端到端整合測試"
+  - "以更多角色／作品驗證身份分群與資料品質過濾的泛化能力"
 ---
-2d Animation Lora Pipeline 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
+## 概述
 
-從掃描資料來看，這個專案的主要技術線索包含 目前掃描到的專案檔案與 README 線索。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。
+**2D Animation LoRA Pipeline** 是一條針對西方 2D 卡通（如辛普森家庭、蓋酷家庭、瑞克和莫蒂）打造的端到端角色 LoRA 訓練資料管線。它將「影片 → 影格 → 多角色抽取 → 姿態 → 資料集 → LoRA 訓練」整合為可重現、可續跑的自動化流程，並複用既有 3D 動畫管線的成熟基礎、針對 2D 特性重新調校。
 
-這個專案用來練習互動體驗中的場景結構、操作回饋、狀態變化與使用者流程。 我根據專案中的技術線索與 README 內容，將它整理成一個以互動設計、場景控制與原型驗證為主的作品案例。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。
+## 架構與技術
 
-後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。
+核心採分階段協調器（orchestrator）＋階段相依管理（stage manager），以 OmegaConf 做階層式設定並提供 2D／3D 參數自動轉換。視覺處理串接 Ultralytics YOLO + ByteTrack 多物件追蹤、ToonOut（ONNX）逐軌角色分割、InsightFace 人臉嵌入＋HDBSCAN 身份分群，以及 DWpose 姿態抽取。訓練端整合 kohya-ss 與 Diffusers／PEFT，訓練 Stable Diffusion / SDXL 的角色 LoRA 與 ControlNet-Pose，搭配 bitsandbytes/Prodigy 等最佳化器與 TensorBoard/W&B 監控。
+
+## 工程化特色
+
+全模組支援 **stub 模式** 與 dry-run，讓開發者在無模型權重、無 GPU 的情況下也能快速冒煙測試整條管線；並提供統一的 MetadataIO（parquet 優先）、資源監控與 checkpoint/resume。周邊另含 RealESRGAN/GFPGAN 影像增強、RIFE 補幀、LaMa/PowerPaint 背景修補與 GPT-4V 自動字幕。
+
+## 成果與現況
+
+專案已實際訓練出多個角色 LoRA（如經 CLIP 多參考驗證過濾的 Luca 乾淨資料集、Inazuma 系列），並附完整 kohya .toml 設定、提示測試集與訓練監控腳本。目前仍屬持續演進的個人研究雛形：許多階段以 stub 驅動、訓練腳本尚分散，下一步將收斂為單一 CLI 工作流並補齊端到端測試。
+
+> 註：字幕模組透過環境變數讀取 OpenAI 金鑰；本文不含任何金鑰或機密資訊。

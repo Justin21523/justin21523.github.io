@@ -6,8 +6,78 @@
   "year": 2026,
   "technologies": [
     "Python",
-    "FastAPI"
+    "FastAPI",
+    "LangGraph",
+    "Ollama",
+    "Qdrant",
+    "Neo4j",
+    "React",
+    "TypeScript",
+    "WebSocket",
+    "Tailwind CSS"
   ],
   "coverImage": "/portfolio/projects/multi-ai-agents/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "Multi-agent AI game ecosystem",
+    "domains": [
+      "Multi-agent systems",
+      "Generative AI",
+      "Game AI",
+      "Interactive narrative",
+      "Knowledge retrieval"
+    ],
+    "capabilities": [
+      "Agent orchestration & routing",
+      "Local LLM inference",
+      "Retrieval-augmented generation",
+      "Real-time streaming",
+      "Character knowledge base",
+      "Text adventure game engine"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "LangGraph",
+      "React 18",
+      "Vite"
+    ],
+    "libraries": [
+      "LlamaIndex",
+      "qdrant-client",
+      "neo4j",
+      "httpx",
+      "Pydantic",
+      "Zustand/React Query",
+      "shadcn/ui",
+      "Phaser 3",
+      "Three.js",
+      "Unsloth",
+      "PEFT",
+      "TRL"
+    ],
+    "backend": [
+      "FastAPI",
+      "WebSocket",
+      "Ollama",
+      "vLLM",
+      "Qdrant",
+      "Neo4j"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "keywords": [
+      "multi-agent",
+      "game master",
+      "NPC agent",
+      "RAG",
+      "knowledge graph",
+      "Ollama",
+      "LangGraph",
+      "fine-tuning",
+      "WebSocket",
+      "local LLM"
+    ],
+    "needsReview": false
+  }
 }

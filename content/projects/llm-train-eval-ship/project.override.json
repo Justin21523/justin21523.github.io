@@ -5,7 +5,14 @@
   "status": "prototype",
   "year": 2026,
   "technologies": [
-    "Python"
+    "Python",
+    "FastAPI",
+    "Uvicorn",
+    "Docker",
+    "Nginx",
+    "Hugging Face",
+    "vLLM",
+    "TGI"
   ],
   "coverImage": "/portfolio/projects/llm-train-eval-ship/cover.webp",
   "links": [
@@ -17,5 +24,49 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "LLM MLOps pipeline scaffold",
+    "domains": [
+      "MLOps",
+      "LLM fine-tuning",
+      "Model evaluation",
+      "Model serving"
+    ],
+    "capabilities": [
+      "Fine-tune → evaluate → deploy flow design",
+      "Shared HF model cache management",
+      "FastAPI service skeleton with health check",
+      "Containerized static landing page delivery"
+    ],
+    "frameworks": [
+      "FastAPI"
+    ],
+    "libraries": [
+      "Uvicorn"
+    ],
+    "backend": [
+      "Python",
+      "FastAPI",
+      "Uvicorn"
+    ],
+    "platforms": [
+      "CLI"
+    ],
+    "keywords": [
+      "LLM",
+      "fine-tuning",
+      "LoRA",
+      "DPO",
+      "RAG",
+      "vLLM",
+      "TGI",
+      "Hugging Face cache",
+      "auto-eval",
+      "canary deploy",
+      "MLOps",
+      "train-eval-ship"
+    ],
+    "needsReview": false
+  }
 }

@@ -1,12 +1,73 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
   "technologies": [
-    "Python"
+    "Python",
+    "PyTorch",
+    "Diffusers",
+    "Hugging Face PEFT",
+    "Transformers",
+    "ComfyUI",
+    "Typer",
+    "Accelerate / DeepSpeed",
+    "Pydantic"
   ],
   "coverImage": "/portfolio/projects/video-family-lora-hub/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "AI 影片生成與多模型家族 LoRA 訓練工具鏈",
+    "domains": [
+      "generative-ai",
+      "video-generation",
+      "model-finetuning",
+      "mlops"
+    ],
+    "capabilities": [
+      "text-to-video",
+      "image-to-video",
+      "video-to-video",
+      "lora-training",
+      "batch-pipeline-orchestration",
+      "comfyui-workflow-integration",
+      "16gb-vram-optimization",
+      "reproducible-outputs"
+    ],
+    "frameworks": [
+      "PyTorch",
+      "Diffusers",
+      "Typer",
+      "ComfyUI"
+    ],
+    "libraries": [
+      "PEFT",
+      "Transformers",
+      "Accelerate",
+      "Pydantic",
+      "safetensors",
+      "imageio-ffmpeg"
+    ],
+    "backend": [
+      "Python CLI",
+      "subprocess trainer backends (finetrainers / musubi / simpletuner)",
+      "ComfyUI API helpers"
+    ],
+    "platforms": [
+      "CLI",
+      "Web"
+    ],
+    "keywords": [
+      "LoRA",
+      "LTX-2",
+      "Wan",
+      "CogVideoX",
+      "Stable Video Diffusion",
+      "AnimateDiff SDXL",
+      "identity-lora",
+      "single-16GB-GPU"
+    ],
+    "needsReview": false
+  }
 }

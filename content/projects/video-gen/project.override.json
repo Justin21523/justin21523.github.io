@@ -1,10 +1,65 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "Python 3.12",
+    "venv",
+    "pip",
+    "AMD ROCm",
+    "PyTorch (ROCm)",
+    "ComfyUI (referenced)",
+    "LTX-Video (referenced)",
+    "OpenClaw agent framework",
+    "Markdown"
+  ],
   "coverImage": "/portfolio/projects/video-gen/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "AI agent workspace + GPU environment tooling",
+    "domains": [
+      "AI 基礎設施",
+      "影片生成工具鏈",
+      "MLOps / 環境治理",
+      "GPU 運算 (AMD ROCm)"
+    ],
+    "capabilities": [
+      "盤點多個 ROCm 虛擬環境的 pip 套件清單",
+      "計算跨環境套件重疊與冗餘率",
+      "輸出環境整併建議報告 (JSON)",
+      "紀錄 GPU 溫度/功耗與磁碟使用狀態",
+      "以代理記憶檔管理決策與文件"
+    ],
+    "frameworks": [
+      "OpenClaw agent framework",
+      "ComfyUI (外部參考，未內含)",
+      "PyTorch ROCm 工具鏈 (外部參考)"
+    ],
+    "libraries": [
+      "Python 標準庫: subprocess / json / pathlib / datetime",
+      "pip",
+      "setuptools / wheel / packaging"
+    ],
+    "backend": [
+      "Python 3.12 (CLI 腳本)"
+    ],
+    "platforms": [
+      "CLI"
+    ],
+    "keywords": [
+      "rocm",
+      "amd-radeon-ai-pro-r9700",
+      "environment-consolidation",
+      "package-overlap-analysis",
+      "video-gen",
+      "comfyui",
+      "ltx-video",
+      "pytorch",
+      "agent-workspace",
+      "gpu-tooling"
+    ],
+    "needsReview": false
+  }
 }

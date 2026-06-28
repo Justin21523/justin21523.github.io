@@ -1,29 +1,37 @@
 ---
-title: "Openclaw Multimodal Stack"
-tagline: "A data processing, AI, analysis, or automation workflow practice project."
-summary: "Openclaw Multimodal Stack is a learning-focused project with detected technology signals including detected project files and README signals. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
-role: "Independent Developer / Learning Project Builder"
-problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
-solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
-outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
+title: "OpenClaw Multimodal Stack"
+tagline: "Local vision-language inference workspace wiring VLMs through llama.cpp on AMD ROCm"
+summary: "A ROCm/llama.cpp multimodal workspace for the AMD Radeon AI PRO R9700 (32GB) that serves vision-language models such as Gemma 4 31B and exposes image-text inference via an OpenClaw Gateway and a Model Control UI. It focuses on diagnosing lost images in multi-turn WebChat, stabilizing VLM configs, and planning a Qwen-family VLM profile. The repo is mainly investigation docs, systemd service profiles, and Bash automation — a prototype stage."
+role: "Solo developer / systems integration & technical writing"
+problem: "When serving large vision-language models locally via llama.cpp, WebChat stores images as base64 in chat history, making single messages 1-2MB — well over OpenClaw's hardcoded 128KB per-message cap. From turn two onward the message is replaced with the placeholder '[chat.history omitted: message too large]', breaking multi-turn image analysis."
+solution: "A read-only audit mapped four image-inference paths and the layered memory-limit hierarchy, pinpointing the hardcoded constants inside OpenClaw's compiled bundle. The proposed fix adds an /img skill that routes through the Model Control UI's /api/image-test endpoint to bypass history storage, keeping only text in history. YAML model profiles manage Gemma/Qwen switching with the mmproj projector offloaded to CPU, backed by backup and rollback scripts."
+outcome: "Verified that the direct API, the Model Control UI image test, and CLI inference all work; completed root-cause analysis, a ~28-30GB VRAM budget estimate, and a cross-profile validation plan. The WebChat patch and Qwen VLM download remain pending approval, keeping the stack a fully rollback-able prototype."
 highlights:
-  - "README signal: Active model: Gemma 4 31B IT Q4KM gemma31"
-  - "README signal: Image support: Working via direct API and Model Control UI"
-  - "README signal: WebChat image: Broken for multi-turn see investigation"
-  - "README signal: Services: llama-server:8080, openclaw-gateway:18789, model-control-ui:18888"
+  - "Mapped all four image-inference paths plus the multi-tier memory-limit hierarchy"
+  - "Located and documented config-immutable hardcoded constants (128KB / 6MB / 1.43MB) in the compiled bundle"
+  - "Orchestrated llama-server, Gateway, and Model Control UI as systemd user services"
+  - "YAML-profiled switching across Gemma 4 31B VLM and Qwen3.6 text/MoE models"
+  - "Offloaded the mmproj vision projector to CPU via --no-mmproj-offload with a precise VRAM budget"
+  - "Every change paired with backup and rollback scripts, plus a stall-watchdog toggle for long inference tests"
 challenges:
-  - "The project scope needs to be summarized from README content and source evidence in a credible way."
-  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
-  - "More screenshots, test notes, or operation details can still improve the case study."
+  - "Image base64 payloads vastly exceed the hardcoded history cap, which cannot be changed via config"
+  - "An embedded agent hits a 400 tokenize failure when oversized bootstrap files exceed the Gemma tokenizer limit"
 nextSteps:
-  - "Complete a more detailed bilingual case study and add operation screenshots."
-  - "Verify which GitHub, demo, documentation, and media assets should be public."
-  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
+  - "Implement the /img skill and validate multi-turn WebChat image conversations"
+  - "Download and verify Qwen2.5-VL-32B mmproj compatibility, then add the VLM profile"
+  - "Run the cross-profile validation test matrix"
 ---
-Openclaw Multimodal Stack is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
+## Overview
+The OpenClaw Multimodal Stack is a ROCm/llama.cpp investigation-and-implementation workspace built around the AMD Radeon AI PRO R9700 (32GB HBM). Its goal is to serve vision-language models (VLMs) reliably on a local GPU and make image-text inference work through the OpenClaw Gateway chat interface.
 
-The scanned project data points to detected project files and README signals. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+## Architecture
+The system runs three systemd user services: `llama-server` (port 8080, hosting Gemma 4 31B Q4_K_M plus an mmproj projector), `openclaw-gateway` (port 18789, chat and history management), and a custom `model-control-ui` (port 18888, model switching and an /api/image-test endpoint). The LLM backbone sits on the GPU while the vision projector is offloaded to CPU via `--no-mmproj-offload`, for a total VRAM budget of roughly 28-30GB.
 
-This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+## Core problem and solution
+The centerpiece is a `[chat.history omitted: message too large]` defect: WebChat stores images as base64 in history at 1-2MB per message, exceeding a hardcoded 128KB cap and getting replaced by a placeholder so multi-turn image analysis fails. After a read-only audit clarified the four inference paths, the proposed remedy is an `/img` skill that routes to the history-bypassing image-test endpoint.
 
-Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.
+## What it contains
+The project is documentation-led: an architecture diagram, root-cause investigation, an image-pipeline fix plan, a VLM stability guide, a Qwen VLM research report, and validation/rollback plans — alongside YAML model profiles and a set of Bash automation scripts for audit, backup, testing, and rollback.
+
+## Status
+This is a prototype: the direct API, Model Control UI, and CLI inference paths are verified working, while the WebChat patch and Qwen VLM addition await approval. Every change follows a strict 'back up first, stay rollback-able, never break the working Gemma service' safety policy.

@@ -1,29 +1,37 @@
 ---
-title: "Openclaw Multimodal Stack"
-tagline: "資料處理、AI、分析或自動化流程練習專案。"
-summary: "Openclaw Multimodal Stack 是一個以 目前掃描到的專案檔案與 README 線索 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
-role: "獨立開發者 / 學習型專案實作者"
-problem: "這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。"
-solution: "我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。"
-outcome: "目前適合作為資料整理、分析、自動化或 AI 應用流程的學習型作品。"
+title: "OpenClaw 多模態整合堆疊"
+tagline: "在 AMD ROCm 上以 llama.cpp 串接視覺語言模型的本機推論工作區"
+summary: "針對 AMD Radeon AI PRO R9700（32GB）的 ROCm／llama.cpp 多模態工作區，串接 Gemma 4 31B 等視覺語言模型，並透過 OpenClaw Gateway 與 Model Control UI 提供圖文推論。重點在診斷 WebChat 多輪對話的影像遺失問題、穩定 VLM 設定，並規劃新增 Qwen 系列 VLM。內容以調查文件、systemd 服務設定與 Bash 自動化腳本為主，屬原型階段。"
+role: "獨立開發者／系統整合與技術文件撰寫"
+problem: "在本機 GPU 上以 llama.cpp 服務大型視覺語言模型時，WebChat 將影像以 base64 存入對話歷史，單則訊息達 1–2MB，超過 OpenClaw 內建硬編碼的 128KB 上限，第二輪起即被替換為「[chat.history omitted: message too large]」佔位字串，導致多輪影像分析失效。"
+solution: "以唯讀稽核釐清四條影像推論路徑與記憶體上限階層，定位 OpenClaw 編譯包中的硬編碼常數；提出 /img skill 改走 Model Control UI 的 /api/image-test 端點以繞過歷史儲存，僅保留文字於歷史。同時用 YAML 模型 profile 管理 Gemma 與 Qwen 切換、CPU 端 mmproj 投影器卸載，並備妥備份與回滾腳本。"
+outcome: "確認直接 API、Model Control UI 圖文測試與 CLI 推論三條路徑可正常運作；完成根因分析、VRAM 約 28–30GB 預算估算與跨 profile 驗證計畫。WebChat 修補與 Qwen VLM 下載仍待核准，整體維持可隨時回滾的原型狀態。"
 highlights:
-  - "README 顯示：Active model: Gemma 4 31B IT Q4KM gemma31"
-  - "README 顯示：Image support: Working via direct API and Model Control UI"
-  - "README 顯示：WebChat image: Broken for multi-turn see investigation"
-  - "README 顯示：Services: llama-server:8080, openclaw-gateway:18789, model-control-ui:18888"
+  - "完整繪製四條影像推論路徑與多層記憶體上限階層圖"
+  - "定位並記錄 OpenClaw 編譯包中無法用設定變更的硬編碼常數（128KB／6MB／1.43MB）"
+  - "以 systemd 使用者服務管理 llama-server、Gateway 與 Model Control UI 三服務"
+  - "YAML profile 化管理 Gemma 4 31B VLM 與 Qwen3.6 文字／MoE 模型切換"
+  - "mmproj 投影器以 --no-mmproj-offload 卸載至 CPU，精算 VRAM 預算"
+  - "每項變更皆配備備份與回滾腳本，並設停止看門狗以利長推論測試"
 challenges:
-  - "需要從 README 與原始碼中整理出可信、可展示的專案範圍。"
-  - "需要把技術名詞轉換成清楚的功能、資料流與學習成果。"
-  - "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
+  - "影像 base64 體積遠超內建硬編碼歷史上限，且該限制無法由設定調整"
+  - "嵌入式 agent 因 bootstrap 檔過大觸發 Gemma tokenizer 的 400 失敗"
 nextSteps:
-  - "補齊更完整的中英文案例研究與操作截圖。"
-  - "確認 GitHub、Demo、文件與素材是否適合公開展示。"
-  - "依完成度補強測試、README 與部署或執行說明。"
+  - "實作 /img skill 並驗證 WebChat 多輪影像對話"
+  - "下載並驗證 Qwen2.5-VL-32B 的 mmproj 相容性後新增 VLM profile"
+  - "執行跨所有 profile 的驗證測試矩陣"
 ---
-Openclaw Multimodal Stack 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
+## 概觀
+OpenClaw 多模態整合堆疊是一個針對 AMD Radeon AI PRO R9700（32GB HBM）打造的 ROCm／llama.cpp 多模態調查與實作工作區。目標是在本機 GPU 上穩定服務視覺語言模型（VLM），並讓 OpenClaw Gateway 的對話介面能可靠地進行圖文推論。
 
-從掃描資料來看，這個專案的主要技術線索包含 目前掃描到的專案檔案與 README 線索。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。
+## 架構
+系統由三個 systemd 使用者服務組成：`llama-server`（埠 8080，承載 Gemma 4 31B Q4_K_M 與 mmproj 投影器）、`openclaw-gateway`（埠 18789，對話與歷史管理）以及自製的 `model-control-ui`（埠 18888，模型切換與 /api/image-test 影像測試端點）。LLM 主幹放於 GPU、視覺投影器以 `--no-mmproj-offload` 卸載至 CPU，整體 VRAM 預算約 28–30GB。
 
-這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。 我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。
+## 核心問題與解法
+本工作區的核心是一則 `[chat.history omitted: message too large]` 缺陷：WebChat 將影像以 base64 存入歷史，單則約 1–2MB，超過編譯包中硬編碼的 128KB 上限後被替換為佔位字串，使多輪影像分析失效。透過唯讀稽核釐清四條推論路徑後，提出以 `/img` skill 改走繞過歷史的 image-test 端點作為修補方向。
 
-後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。
+## 內容組成
+專案以工程文件為主：架構圖、根因調查、影像管線修補計畫、VLM 穩定指南、Qwen VLM 研究報告與驗證／回滾計畫；搭配 YAML 模型 profile 設定與一系列 Bash 自動化腳本（稽核、備份、測試、回滾）。
+
+## 現況
+屬原型階段：直接 API、Model Control UI 與 CLI 三條推論路徑已驗證可用，WebChat 修補與 Qwen VLM 新增仍待核准；所有變更皆遵循「先備份、可回滾、不破壞既有 Gemma 服務」的安全規範。

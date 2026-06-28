@@ -1,29 +1,37 @@
 ---
-title: "Llm Train Eval Ship"
-tagline: "A data processing, AI, analysis, or automation workflow practice project."
-summary: "Llm Train Eval Ship is a learning-focused project with detected technology signals including Python. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
-role: "Independent Developer / Learning Project Builder"
-problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
-solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
-outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
+title: "LLM Train-Eval-Ship Pipeline"
+tagline: "One-click scaffold to fine-tune, evaluate, and ship LLMs"
+summary: "An early-stage LLM engineering pipeline built around a train-eval-ship flow: dataset upload, fine-tuning, auto-evaluation, then deployment via vLLM or TGI, with shared model caches to avoid re-downloads. Currently a FastAPI service skeleton with cache-path inspection and containerized delivery is implemented; advanced training and serving features are on the roadmap."
+role: "Solo developer (architecture and engineering)"
+problem: "Taking an LLM from fine-tuning through evaluation to production spans many tools and huge weight files; the workflow is fragmented, re-downloads are costly, and end-to-end runs with safe rollback are hard to achieve."
+solution: "Designed a three-stage train-eval-ship pipeline blueprint: a FastAPI entry point with health checks, shared caching via HF_HOME / TRANSFORMERS_CACHE / HF_HUB_CACHE, planned dual deploy engines (vLLM and TGI), extensible hooks for LoRA/PEFT and DPO fine-tuning, a RAG tool whitelist, and canary/rollback — all packaged with Docker + Nginx for the demo landing page."
+outcome: "Delivered a runnable FastAPI skeleton (/healthz plus startup cache-path printing), containerized deployment config, and a portfolio landing page; the full end-to-end training and serving pipeline remains on the roadmap and is honestly labeled a prototype."
 highlights:
-  - "README signal: One-click flow: dataset upload → fine-tune → auto-eval → deploy."
-  - "README signal: Deploy engines: vLLM or TGI OpenAI/HF compatible."
-  - "README signal: Shared caches: HFHOME / TRANSFORMERSCACHE / HFHUBCACHE to avoid re-downloading."
-  - "README signal: Canary & rollback roadmap: traffic shift and safe fallback."
+  - "Unified shared model-cache management via environment variables to avoid re-downloading large weights"
+  - "FastAPI skeleton with /healthz health check and startup cache-path logging"
+  - "Planned vLLM / TGI dual-engine deployment (OpenAI / HF-compatible)"
+  - "Reserved extension points for LoRA/PEFT, DPO, RAG, and human-in-the-loop feedback"
+  - "Docker (nginx:alpine) + Nginx containerized landing page with back-to-portfolio nav injection"
+  - "DEPLOYMENT.md documents the docker-compose rollout and update workflow"
 challenges:
-  - "The project scope needs to be summarized from README content and source evidence in a credible way."
-  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
-  - "More screenshots, test notes, or operation details can still improve the case study."
+  - "Designing a single one-click, rollback-capable pipeline across fragmented training/eval/serving tools"
+  - "Shared caching and storage-path governance for large model weights"
 nextSteps:
-  - "Complete a more detailed bilingual case study and add operation screenshots."
-  - "Verify which GitHub, demo, documentation, and media assets should be public."
-  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
+  - "Implement real fine-tuning (LoRA/PEFT, DPO) and an auto-eval dashboard"
+  - "Wire up vLLM / TGI deploy engines with canary traffic shift and safe rollback"
+  - "Populate requirements.txt dependencies and an interactive end-to-end demo"
 ---
-Llm Train Eval Ship is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
+## Overview
+**LLM Train-Eval-Ship** is an LLM-MLOps pipeline prototype that aims to chain "dataset upload → fine-tune → auto-eval → deploy" into a one-click flow, using shared model caches to cut redundant downloads. It is positioned as an extensible engineering scaffold: the README outlines the full vision, with several advanced capabilities marked as roadmap.
 
-The scanned project data points to Python. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+## What's implemented
+The current code centers on a **FastAPI** service skeleton: it exposes a `/healthz` health-check endpoint and, on startup, calls `print_cache_paths()` to log shared cache locations (`MODEL_STORE_ROOT`, `HF_HOME`, `TRANSFORMERS_CACHE`, `HF_HUB_CACHE`), making model-storage governance easy to verify. The service runs under **Uvicorn** on port 8080.
 
-This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+## Deployment & demo
+The project ships **Docker** (`nginx:1.27-alpine`) and **Nginx** config that containerize and serve the portfolio landing page, injecting a "back to portfolio" link via `sub_filter` and guarding static assets with explicit 404 handling. `DEPLOYMENT.md` details the docker-compose rollout and update workflow.
 
-Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.
+## Roadmap (not yet built)
+Capabilities described in the README but currently blueprint/hooks include: dual deploy engines **vLLM** and **TGI** (OpenAI / HF-compatible), **LoRA/PEFT** and **DPO** fine-tuning, a **RAG** tool whitelist, AutoEval dashboards, and canary deployment with safe rollback. `requirements.txt` is currently empty and the interactive end-to-end demo is still in progress.
+
+## Honest labeling
+This project is a prototype: the service skeleton, cache governance, and containerized deployment work, but the actual training, evaluation, and model-serving pipeline is not yet realized. It contains no keys, `.env` files, or passwords.

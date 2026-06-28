@@ -1,10 +1,75 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "ROCm",
+    "PyTorch",
+    "ComfyUI",
+    "HuggingFace Diffusers",
+    "LTX-2.3",
+    "FFmpeg",
+    "Python",
+    "Bash"
+  ],
   "coverImage": "/portfolio/projects/rocm-image-video-stack/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "GPU image/video generation pipeline",
+    "domains": [
+      "Generative AI",
+      "Image Generation",
+      "Video Generation",
+      "GPU Computing",
+      "MLOps"
+    ],
+    "capabilities": [
+      "Text-to-video generation",
+      "Image-to-video generation",
+      "Text-to-image generation",
+      "Model symlink management",
+      "ROCm environment provisioning",
+      "Automated validation and benchmarking"
+    ],
+    "frameworks": [
+      "ComfyUI",
+      "HuggingFace Diffusers",
+      "PyTorch (ROCm)"
+    ],
+    "libraries": [
+      "OpenCV",
+      "moviepy",
+      "imageio",
+      "PyAV",
+      "ffmpeg-python",
+      "llama-cpp-python"
+    ],
+    "backend": [
+      "Python",
+      "Bash",
+      "Conda"
+    ],
+    "platforms": [
+      "CLI"
+    ],
+    "keywords": [
+      "ROCm",
+      "AMD GPU",
+      "gfx1201",
+      "Radeon AI PRO R9700",
+      "LTX-2.3",
+      "SDXL",
+      "FLUX",
+      "Qwen-Image",
+      "Wan2.1",
+      "GGUF",
+      "FP8",
+      "WSL2",
+      "text-to-video",
+      "conda"
+    ],
+    "needsReview": false
+  }
 }

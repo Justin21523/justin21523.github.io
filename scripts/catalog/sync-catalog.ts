@@ -135,10 +135,6 @@ function hasPlaceholderText(value: string | undefined): boolean {
   ].some((placeholder) => value.includes(placeholder));
 }
 
-function isUnverifiedAutoDemoLink(link: { kind?: string; url?: string }): boolean {
-  return false;
-}
-
 function buildReviewContent(scanData: ScannedProject, stack: string[]) {
   const stackText = stack.length > 0 ? stack.join(", ") : "detected source files";
   const status =
@@ -445,11 +441,7 @@ ${readmeInfo.description}
     // Normalize Technologies
     const rawTechnologies: string[] = override.technologies || scanData.detectedStack || [];
     const normalizedTechs = Array.from(new Set(rawTechnologies.map(t => normalizeTechTerm(t).label)));
-    const projectLinks = (override.links || []).filter(
-      (link: { kind?: string; url?: string }) =>
-        slug === "fandom-gui-scraper" ||
-        !isUnverifiedAutoDemoLink(link)
-    );
+    const projectLinks = override.links || [];
     const missingFields = new Set<string>(override.metadata?.missingFields || []);
     if (contentNeedsReview) {
       missingFields.add("reviewed bilingual case study");

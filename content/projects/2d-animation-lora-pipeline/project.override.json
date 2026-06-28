@@ -1,10 +1,92 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "Python",
+    "PyTorch",
+    "Diffusers",
+    "kohya-ss",
+    "PEFT (LoRA)",
+    "Stable Diffusion / SDXL",
+    "ControlNet",
+    "Ultralytics YOLO",
+    "HDBSCAN",
+    "OmegaConf"
+  ],
   "coverImage": "/portfolio/projects/2d-animation-lora-pipeline/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "AI image-generation data pipeline",
+    "domains": [
+      "generative-ai",
+      "computer-vision",
+      "2d-animation",
+      "character-modeling",
+      "mlops"
+    ],
+    "capabilities": [
+      "video-frame-extraction",
+      "multi-object-detection-tracking",
+      "character-segmentation",
+      "face-identity-clustering",
+      "pose-estimation",
+      "vlm-captioning",
+      "lora-controlnet-training",
+      "checkpoint-resume-orchestration",
+      "frame-interpolation-upscaling",
+      "inpainting"
+    ],
+    "frameworks": [
+      "PyTorch",
+      "Diffusers",
+      "kohya-ss",
+      "Accelerate",
+      "Transformers",
+      "OmegaConf"
+    ],
+    "libraries": [
+      "PEFT",
+      "Ultralytics",
+      "ByteTrack",
+      "HDBSCAN",
+      "scikit-learn",
+      "InsightFace",
+      "ONNX Runtime",
+      "OpenCV",
+      "RealESRGAN",
+      "GFPGAN",
+      "RIFE",
+      "PySceneDetect",
+      "bitsandbytes",
+      "Prodigy",
+      "pandas",
+      "pyarrow"
+    ],
+    "backend": [
+      "Python CLI",
+      "OmegaConf hierarchical config"
+    ],
+    "platforms": [
+      "CLI"
+    ],
+    "keywords": [
+      "LoRA",
+      "ControlNet",
+      "Stable Diffusion",
+      "SDXL",
+      "2D animation",
+      "character identity",
+      "YOLO tracking",
+      "ToonOut segmentation",
+      "DWpose",
+      "HDBSCAN clustering",
+      "stub mode",
+      "AI warehouse",
+      "Western cartoon"
+    ],
+    "needsReview": false
+  }
 }
