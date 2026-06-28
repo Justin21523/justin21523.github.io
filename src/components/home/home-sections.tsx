@@ -13,6 +13,7 @@ import {
   FolderKanban,
   GitBranch,
   Mail,
+  PlayCircle,
 } from "lucide-react";
 import {
   m,
@@ -26,6 +27,10 @@ import type {
 import {
   statusLabels as projectStatusLabels,
 } from "@/lib/project-taxonomy";
+import {
+  getProjectThumbnailMedia,
+  getProjectThumbnailSource,
+} from "@/lib/project-media";
 import {
   withBasePath,
 } from "@/lib/site-assets";
@@ -373,18 +378,9 @@ export function FeaturedProjectsSection({
                     const projectContent =
                       project.content[locale];
                     const featuredMedia =
-                      project.media.find(
-                        (item) =>
-                          item.featured &&
-                          item.type === "image"
-                      ) ??
-                      project.media.find(
-                        (item) =>
-                          item.type === "image"
-                      );
+                      getProjectThumbnailMedia(project);
                     const image =
-                      featuredMedia?.src ??
-                      project.coverImage;
+                      getProjectThumbnailSource(project);
                     const imageAlt =
                       featuredMedia?.alt[
                         locale
@@ -440,6 +436,14 @@ export function FeaturedProjectsSection({
                               }}
                               className="object-cover transition-transform duration-500 group-hover:scale-105"
                             />
+
+                            {featuredMedia?.type === "video" && (
+                              <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+                                <span className="rounded-full bg-background/90 p-3 text-foreground shadow-lg">
+                                  <PlayCircle className="h-6 w-6" />
+                                </span>
+                              </div>
+                            )}
                           </div>
                         ) : null}
 

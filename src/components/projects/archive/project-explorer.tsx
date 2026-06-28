@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  useCallback,
   useMemo,
   useState,
   useTransition,
@@ -38,7 +39,7 @@ import {
   buildFacetOptions,
   createDefaultFilterState,
   getHasFacetLabel,
-  getUpdatedPresetLabel,
+  getProjectTypeGroupLabel,
   getYearBounds,
   hasFacetValues,
   normalizeFilterState,
@@ -54,7 +55,6 @@ import {
   type FilterState,
   type HasFacet,
   type ProjectSort,
-  type UpdatedPreset,
 } from "@/lib/project-filters";
 import type {
   PortfolioLocale,
@@ -73,11 +73,17 @@ import {
 interface ProjectExplorerProps {
   projects: Project[];
   locale: PortfolioLocale;
+  archiveCopy?: {
+    eyebrow: string;
+    title: string;
+    description: string;
+  };
 }
 
 export function ProjectExplorer({
   projects,
   locale,
+  archiveCopy,
 }: ProjectExplorerProps) {
   const router = useRouter();
   const pathname = usePathname();
@@ -94,6 +100,20 @@ export function ProjectExplorer({
   );
   const [searchVal, setSearchVal] = useState("");
   const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const facetOptions = useMemo(() => {
+    return buildFacetOptions(projects);
+  }, [projects]);
+  const normalizeVisibleFilters = useCallback((nextFilters: FilterState) => {
+    const normalized = normalizeFilterState(nextFilters, yearBounds);
+    const visibleTechnologies = new Set(facetOptions.technologies.map((option) => option.value));
+    const visibleProjectTypes = new Set(facetOptions.projectTypes.map((option) => option.value));
+
+    return {
+      ...normalized,
+      technologies: normalized.technologies.filter((value) => visibleTechnologies.has(value)),
+      projectTypes: normalized.projectTypes.filter((value) => visibleProjectTypes.has(value)),
+    };
+  }, [facetOptions, yearBounds]);
 
   // Sync state from searchParams on client mount and URL change
   useEffect(() => {
@@ -101,11 +121,12 @@ export function ProjectExplorer({
       new URLSearchParams(searchParams.toString()),
       yearBounds
     );
+    const visibleFilters = normalizeVisibleFilters(nextFilters);
     queueMicrotask(() => {
-      setFilters(nextFilters);
-      setSearchVal(nextFilters.q);
+      setFilters(visibleFilters);
+      setSearchVal(visibleFilters.q);
     });
-  }, [searchParams, yearBounds]);
+  }, [normalizeVisibleFilters, searchParams, yearBounds]);
 
   // Clean up debounce timer on unmount
   useEffect(() => {
@@ -145,29 +166,10 @@ export function ProjectExplorer({
   const selectedCategories = filters.categories;
   const selectedStatuses = filters.statuses;
   const selectedTechnologies = filters.technologies;
-  const selectedLanguages = filters.languages;
-  const selectedFrameworks = filters.frameworks;
-  const selectedPlatforms = filters.platforms;
-  const selectedDatabases = filters.databases;
-  const selectedCapabilities = filters.capabilities;
   const selectedProjectTypes = filters.projectTypes;
-  const selectedDomains = filters.domains;
-  const selectedSubjects = filters.subjects;
-  const selectedKeywords = filters.keywords;
-  const selectedAudiences = filters.audiences;
-  const selectedContentTypes = filters.contentTypes;
-  const selectedDataTypes = filters.dataTypes;
-  const selectedRoles = filters.roles;
   const selectedHas = filters.has;
-  const fromYear = filters.fromYear;
-  const toYear = filters.toYear;
-  const updatedPreset = filters.updatedPreset;
   const sort = filters.sort;
   const viewMode = filters.viewMode;
-
-  const facetOptions = useMemo(() => {
-    return buildFacetOptions(projects);
-  }, [projects]);
 
   const categoryOptions: FacetOption[] = projectCategories.map((category) => ({
     value: category,
@@ -187,6 +189,11 @@ export function ProjectExplorer({
     count: projects.filter((project) => projectMatchesHas(project, value)).length,
   }));
 
+  const projectTypeOptions = facetOptions.projectTypes.map((option) => ({
+    ...option,
+    label: getProjectTypeGroupLabel(option.value, locale),
+  }));
+
   const filteredProjects = useMemo(() => {
     return applyProjectFilters(projects, filters, locale);
   }, [filters, locale, projects]);
@@ -198,22 +205,8 @@ export function ProjectExplorer({
     selectedCategories.length +
     selectedStatuses.length +
     selectedTechnologies.length +
-    selectedLanguages.length +
-    selectedFrameworks.length +
-    selectedPlatforms.length +
-    selectedDatabases.length +
-    selectedCapabilities.length +
     selectedProjectTypes.length +
-    selectedDomains.length +
-    selectedSubjects.length +
-    selectedKeywords.length +
-    selectedAudiences.length +
-    selectedContentTypes.length +
-    selectedDataTypes.length +
-    selectedRoles.length +
-    selectedHas.length +
-    Number(fromYear !== yearBounds.min || toYear !== yearBounds.max) +
-    Number(updatedPreset !== "any");
+    selectedHas.length;
 
   const text = getText(locale);
   const activeFilterChips: Array<{
@@ -236,110 +229,21 @@ export function ProjectExplorer({
       label: value,
       onRemove: () => removeFacet("technologies", value),
     })),
-    ...selectedLanguages.map((value) => ({
-      key: `language-${value}`,
-      label: value,
-      onRemove: () => removeFacet("languages", value),
-    })),
-    ...selectedFrameworks.map((value) => ({
-      key: `framework-${value}`,
-      label: value,
-      onRemove: () => removeFacet("frameworks", value),
-    })),
-    ...selectedPlatforms.map((value) => ({
-      key: `platform-${value}`,
-      label: value,
-      onRemove: () => removeFacet("platforms", value),
-    })),
-    ...selectedDatabases.map((value) => ({
-      key: `database-${value}`,
-      label: value,
-      onRemove: () => removeFacet("databases", value),
-    })),
-    ...selectedCapabilities.map((value) => ({
-      key: `capability-${value}`,
-      label: value,
-      onRemove: () => removeFacet("capabilities", value),
-    })),
     ...selectedProjectTypes.map((value) => ({
       key: `projectType-${value}`,
-      label: value,
+      label: getProjectTypeGroupLabel(value, locale),
       onRemove: () => removeFacet("projectTypes", value),
-    })),
-    ...selectedDomains.map((value) => ({
-      key: `domain-${value}`,
-      label: value,
-      onRemove: () => removeFacet("domains", value),
-    })),
-    ...selectedSubjects.map((value) => ({
-      key: `subject-${value}`,
-      label: value,
-      onRemove: () => removeFacet("subjects", value),
-    })),
-    ...selectedKeywords.map((value) => ({
-      key: `keyword-${value}`,
-      label: value,
-      onRemove: () => removeFacet("keywords", value),
-    })),
-    ...selectedAudiences.map((value) => ({
-      key: `audience-${value}`,
-      label: value,
-      onRemove: () => removeFacet("audiences", value),
-    })),
-    ...selectedContentTypes.map((value) => ({
-      key: `contentType-${value}`,
-      label: value,
-      onRemove: () => removeFacet("contentTypes", value),
-    })),
-    ...selectedDataTypes.map((value) => ({
-      key: `dataType-${value}`,
-      label: value,
-      onRemove: () => removeFacet("dataTypes", value),
-    })),
-    ...selectedRoles.map((value) => ({
-      key: `role-${value}`,
-      label: value,
-      onRemove: () => removeFacet("roles", value),
     })),
     ...selectedHas.map((value) => ({
       key: `has-${value}`,
       label: getHasFacetLabel(value, locale),
       onRemove: () => removeFacet("has", value),
     })),
-    ...(fromYear !== yearBounds.min || toYear !== yearBounds.max
-      ? [
-          {
-            key: "year-range",
-            label: `${fromYear}-${toYear}`,
-            onRemove: () =>
-              commitFilters({
-                ...filters,
-                fromYear: yearBounds.min,
-                toYear: yearBounds.max,
-              }),
-          },
-        ]
-      : []),
-    ...(updatedPreset !== "any"
-      ? [
-          {
-            key: "updated",
-            label: getUpdatedPresetLabel(updatedPreset, locale),
-            onRemove: () =>
-              setSingleFilter({
-                updatedPreset: "any",
-              }),
-          },
-        ]
-      : []),
   ];
 
   function commitFilters(nextFilters: FilterState) {
     const normalizedFilters =
-      normalizeFilterState(
-        nextFilters,
-        yearBounds
-      );
+      normalizeVisibleFilters(nextFilters);
     const queryString =
       serializeFilterState(
         normalizedFilters,
@@ -360,7 +264,7 @@ export function ProjectExplorer({
     values: Partial<
       Pick<
         FilterState,
-        "sort" | "viewMode" | "updatedPreset" | "q"
+        "sort" | "viewMode" | "q"
       >
     >
   ) {
@@ -382,20 +286,6 @@ export function ProjectExplorer({
         yearBounds
       )
     );
-  }
-
-  function setYearRange(bound: "from" | "to", value: number) {
-    commitFilters({
-      ...filters,
-      fromYear:
-        bound === "from"
-          ? value
-          : fromYear,
-      toYear:
-        bound === "to"
-          ? value
-          : toYear,
-    });
   }
 
   function removeFacet<T extends FilterListKey>(
@@ -442,13 +332,13 @@ export function ProjectExplorer({
             className="mx-auto mb-12 max-w-4xl text-center"
           >
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-primary">
-              {text.eyebrow}
+              {archiveCopy?.eyebrow ?? text.eyebrow}
             </p>
             <h1 className="text-balance text-4xl font-bold tracking-tight md:text-6xl">
-              {text.title}
+              {archiveCopy?.title ?? text.title}
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-pretty text-lg leading-8 text-muted-foreground">
-              {text.description}
+              {archiveCopy?.description ?? text.description}
             </p>
           </m.header>
 
@@ -561,59 +451,13 @@ export function ProjectExplorer({
                   ))}
                 </FilterGroup>
 
-                <FilterGroup title={text.timeline}>
-                  <YearRangeFacet
-                    min={yearBounds.min}
-                    max={yearBounds.max}
-                    from={fromYear}
-                    to={toYear}
-                    fromLabel={text.fromYear}
-                    toLabel={text.toYear}
-                    onChange={setYearRange}
-                  />
-
-                  <SelectFacet
-                    label={text.updated}
-                    value={updatedPreset}
-                    onChange={(value) => setSingleFilter({ updatedPreset: value as UpdatedPreset })}
-                    options={[
-                      { value: "any", label: text.updatedAny },
-                      { value: "30d", label: text.updated30d },
-                      { value: "90d", label: text.updated90d },
-                      { value: "1y", label: text.updated1y },
-                    ]}
-                  />
-                </FilterGroup>
-
                 <FilterGroup title={text.projectType}>
-                  {facetOptions.projectTypes.map((option) => (
+                  {projectTypeOptions.map((option) => (
                     <CheckboxFacet
                       key={option.value}
                       option={option}
                       checked={selectedProjectTypes.includes(option.value)}
                       onChange={() => toggleFacet("projectTypes", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.domain}>
-                  {facetOptions.domains.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedDomains.includes(option.value)}
-                      onChange={() => toggleFacet("domains", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.audience}>
-                  {facetOptions.audiences.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedAudiences.includes(option.value)}
-                      onChange={() => toggleFacet("audiences", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -636,116 +480,6 @@ export function ProjectExplorer({
                       option={option}
                       checked={selectedTechnologies.includes(option.value)}
                       onChange={() => toggleFacet("technologies", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.language}>
-                  {facetOptions.languages.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedLanguages.includes(option.value)}
-                      onChange={() => toggleFacet("languages", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.framework}>
-                  {facetOptions.frameworks.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedFrameworks.includes(option.value)}
-                      onChange={() => toggleFacet("frameworks", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.platform}>
-                  {facetOptions.platforms.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedPlatforms.includes(option.value)}
-                      onChange={() => toggleFacet("platforms", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.database}>
-                  {facetOptions.databases.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedDatabases.includes(option.value)}
-                      onChange={() => toggleFacet("databases", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.contentType}>
-                  {facetOptions.contentTypes.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedContentTypes.includes(option.value)}
-                      onChange={() => toggleFacet("contentTypes", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.dataType}>
-                  {facetOptions.dataTypes.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedDataTypes.includes(option.value)}
-                      onChange={() => toggleFacet("dataTypes", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.role}>
-                  {facetOptions.roles.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedRoles.includes(option.value)}
-                      onChange={() => toggleFacet("roles", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.capability}>
-                  {facetOptions.capabilities.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedCapabilities.includes(option.value)}
-                      onChange={() => toggleFacet("capabilities", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.subject}>
-                  {facetOptions.subjects.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedSubjects.includes(option.value)}
-                      onChange={() => toggleFacet("subjects", option.value)}
-                    />
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup title={text.keyword}>
-                  {facetOptions.keywords.map((option) => (
-                    <CheckboxFacet
-                      key={option.value}
-                      option={option}
-                      checked={selectedKeywords.includes(option.value)}
-                      onChange={() => toggleFacet("keywords", option.value)}
                     />
                   ))}
                 </FilterGroup>
@@ -896,103 +630,6 @@ function CheckboxFacet({
         {option.count}
       </span>
     </button>
-  );
-}
-
-interface SelectFacetProps {
-  label: string;
-  value: string;
-  options: Array<{
-    value: string;
-    label: string;
-  }>;
-  onChange: (value: string) => void;
-}
-
-function SelectFacet({
-  label,
-  value,
-  options,
-  onChange,
-}: SelectFacetProps) {
-  return (
-    <label className="mt-4 block space-y-2">
-      <span className="text-xs font-medium text-muted-foreground">
-        {label}
-      </span>
-      <select
-        value={value}
-        onChange={(event) => onChange(event.target.value)}
-        className="h-10 w-full rounded-xl border border-border bg-background px-3 text-sm outline-none transition-colors focus:border-primary"
-      >
-        {options.map((option) => (
-          <option key={option.value} value={option.value}>
-            {option.label}
-          </option>
-        ))}
-      </select>
-    </label>
-  );
-}
-
-interface YearRangeFacetProps {
-  min: number;
-  max: number;
-  from: number;
-  to: number;
-  fromLabel: string;
-  toLabel: string;
-  onChange: (bound: "from" | "to", value: number) => void;
-}
-
-function YearRangeFacet({
-  min,
-  max,
-  from,
-  to,
-  fromLabel,
-  toLabel,
-  onChange,
-}: YearRangeFacetProps) {
-  if (min === max) {
-    return (
-      <div className="rounded-2xl border border-border bg-background/55 p-3 text-sm text-muted-foreground">
-        {fromLabel}: <strong className="text-foreground">{min}</strong>
-      </div>
-    );
-  }
-
-  return (
-    <div className="rounded-2xl border border-border bg-background/55 p-3">
-      <div className="mb-3 flex items-center justify-between text-xs text-muted-foreground">
-        <span>{fromLabel}: <strong className="text-foreground">{from}</strong></span>
-        <span>{toLabel}: <strong className="text-foreground">{to}</strong></span>
-      </div>
-      <div className="space-y-3">
-        <input
-          type="range"
-          min={min}
-          max={max}
-          value={from}
-          onChange={(event) => onChange("from", Number(event.target.value))}
-          className="w-full accent-primary"
-          aria-label={fromLabel}
-        />
-        <input
-          type="range"
-          min={min}
-          max={max}
-          value={to}
-          onChange={(event) => onChange("to", Number(event.target.value))}
-          className="w-full accent-primary"
-          aria-label={toLabel}
-        />
-      </div>
-      <div className="mt-2 flex justify-between text-[11px] text-muted-foreground">
-        <span>{min}</span>
-        <span>{max}</span>
-      </div>
-    </div>
   );
 }
 

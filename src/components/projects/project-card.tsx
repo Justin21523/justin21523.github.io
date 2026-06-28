@@ -6,6 +6,7 @@ import {
   ArrowUpRight,
   BookOpen,
   GitBranch,
+  ImageIcon,
   MonitorPlay,
   PlayCircle,
 } from "lucide-react";
@@ -14,6 +15,10 @@ import { Link } from "@/i18n/navigation";
 import {
   getProjectActionLinks,
 } from "@/lib/project-links";
+import {
+  getProjectThumbnailMedia,
+  getProjectThumbnailSource,
+} from "@/lib/project-media";
 import {
   categoryLabels,
 } from "@/lib/project-taxonomy";
@@ -59,14 +64,13 @@ export function ProjectCard({
 }: ProjectCardProps) {
   const content = project.content[locale];
   const actions = getProjectActionLinks(project, locale);
-  const image =
-    project.heroImage ??
-    project.coverImage ??
-    project.media.find((item) => item.type === "image" && !item.placeholder)?.src ??
-    project.media.find((item) => item.type === "image")?.src;
+  const image = getProjectThumbnailSource(project);
+  const thumbnailMedia = getProjectThumbnailMedia(project);
   const imageAlt =
-    project.media.find((item) => item.src === image)?.alt[locale] ??
+    thumbnailMedia?.alt[locale] ??
     content.title;
+  const screenshotCount = project.media.filter((item) => item.type === "image" && !item.placeholder).length;
+  const videoCount = project.media.filter((item) => item.type === "video" && !item.placeholder).length;
 
   return (
     <motion.article
@@ -102,6 +106,13 @@ export function ProjectCard({
               .slice(0, 3)}
           </span>
         )}
+        {thumbnailMedia?.type === "video" && (
+          <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+            <span className="rounded-full bg-background/90 p-3 text-foreground shadow-lg">
+              <PlayCircle className="h-7 w-7" />
+            </span>
+          </div>
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-background/10" />
 
         <div className="absolute left-4 top-4 rounded-full border border-border bg-background/80 px-3 py-1 text-xs font-medium backdrop-blur">
@@ -117,6 +128,24 @@ export function ProjectCard({
         <div className="absolute bottom-4 left-4 rounded-full border border-background/30 bg-background/85 px-3 py-1 text-xs font-semibold text-muted-foreground backdrop-blur">
           {categoryLabels[locale][project.category]} · {project.year}
         </div>
+
+        {(screenshotCount > 0 || videoCount > 0) && (
+          <div className="absolute bottom-4 right-4 flex gap-2">
+            {screenshotCount > 0 && (
+              <span className="inline-flex items-center gap-1 rounded-full border border-background/30 bg-background/85 px-2.5 py-1 text-xs font-semibold text-foreground backdrop-blur">
+                <ImageIcon className="h-3.5 w-3.5" />
+                {screenshotCount}
+              </span>
+            )}
+
+            {videoCount > 0 && (
+              <span className="inline-flex items-center gap-1 rounded-full border border-background/30 bg-background/85 px-2.5 py-1 text-xs font-semibold text-foreground backdrop-blur">
+                <PlayCircle className="h-3.5 w-3.5" />
+                {videoCount}
+              </span>
+            )}
+          </div>
+        )}
       </div>
 
       <div className="flex flex-1 flex-col p-6">

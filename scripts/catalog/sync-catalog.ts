@@ -169,6 +169,41 @@ function publicAssetExists(publicUrl: string | undefined) {
   return fs.existsSync(path.join(PORTFOLIO_ROOT, "public", publicUrl.replace(/^\//, "")));
 }
 
+function extractedPosterUrlForVideo(videoUrl: string) {
+  const parsed = path.posix.parse(videoUrl);
+  return `${parsed.dir}/posters/${parsed.name}.webp`;
+}
+
+function posterUrlForVideo(videoUrl: string, fallbackImage: string | undefined) {
+  const posterUrl = extractedPosterUrlForVideo(videoUrl);
+
+  if (publicAssetExists(posterUrl)) {
+    return posterUrl;
+  }
+
+  return fallbackImage;
+}
+
+function addVideoPosters(media: ProjectMediaDraft[]) {
+  const fallbackImage = media.find((item) => item.type === "image" && item.src && !item.placeholder)?.src ??
+    media.find((item) => item.type === "image" && item.src)?.src;
+
+  return media.map((item) => {
+    if (item.type !== "video" || !item.src) {
+      return item;
+    }
+
+    const extractedPoster = extractedPosterUrlForVideo(item.src);
+
+    return {
+      ...item,
+      poster: publicAssetExists(extractedPoster)
+        ? extractedPoster
+        : item.poster ?? fallbackImage,
+    };
+  });
+}
+
 function loadQualityResults() {
   if (!fs.existsSync(QUALITY_REPORT_PATH)) {
     return new Map<string, QualityProjectResult>();
@@ -206,7 +241,10 @@ function buildQualityMedia(slug: string, title: string, zhTitle: string, quality
     ...(quality?.copiedAssets ?? []),
     ...(quality?.capturedScreenshots ?? []),
     ...existingPublicUrls,
-  ])).filter((url) => url.startsWith(`/projects/${slug}/`) && publicAssetExists(url));
+  ])).filter((url) => url.startsWith(`/projects/${slug}/`) && !url.includes("/videos/posters/") && publicAssetExists(url));
+
+  const imageUrls = urls.filter((url) => /\.(png|jpe?g|webp)$/i.test(url));
+  const firstImageUrl = imageUrls[0];
 
   let imageIndex = 1;
   let videoIndex = 1;
@@ -258,6 +296,7 @@ function buildQualityMedia(slug: string, title: string, zhTitle: string, quality
             "zh-TW": "由 portfolio quality pass 從既有專案 demo 素材複製。",
             en: "Copied by the portfolio quality pass from existing project demo media.",
           },
+          poster: posterUrlForVideo(url, firstImageUrl),
         },
       ];
     }
@@ -762,16 +801,18 @@ ${readmeInfo.description}
     const zhTitleForMedia = asString(zhParsed.metadata.title, scanData.name);
     const enTitleForMedia = asString(enParsed.metadata.title, scanData.name);
     const qualityMedia = buildQualityMedia(slug, enTitleForMedia, zhTitleForMedia, qualityResult);
-    const media = mergeMedia((override.media || []) as ProjectMediaDraft[], qualityMedia);
+    const media = addVideoPosters(mergeMedia((override.media || []) as ProjectMediaDraft[], qualityMedia));
     const firstQualityImage = media.find((item) => item.type === "image" && item.src)?.src;
     if (!coverImage && firstQualityImage) {
       coverImage = firstQualityImage;
     }
 
     const projectLinks = ensurePortfolioLinks(slug, scanData, override.links || []);
-    const firstQualityVideo = media.find((item) => item.type === "video" && item.src)?.src;
+    const firstQualityVideo =
+      media.find((item) => item.type === "video" && item.src?.startsWith(`/projects/${slug}/videos/`))?.src ??
+      media.find((item) => item.type === "video" && item.src)?.src;
     const videoLinkDraft = linkByKind(projectLinks, "video");
-    if (firstQualityVideo && videoLinkDraft && isInternalFallback(videoLinkDraft.url)) {
+    if (firstQualityVideo && videoLinkDraft && !isExternalUrl(videoLinkDraft.url)) {
       videoLinkDraft.url = firstQualityVideo;
       videoLinkDraft.label = { "zh-TW": "Demo 錄影", en: "Demo Recording" };
     }
@@ -783,7 +824,10 @@ ${readmeInfo.description}
     const hasRealVideo = mediaHasRealItem(media, "video") || isExternalUrl(videoLink);
     const hasRealDemo = isExternalUrl(liveLink);
     const screenshotSources = mediaSources(media, "image");
-    const videoSources = mediaSources(media, "video");
+    const videoSources = Array.from(new Set([
+      ...(firstQualityVideo ? [firstQualityVideo] : []),
+      ...mediaSources(media, "video"),
+    ]));
     const heroImage = coverImage || `/projects/${slug}/hero.png`;
     const missingFields = new Set<string>(override.metadata?.missingFields || []);
     if (contentNeedsReview) {

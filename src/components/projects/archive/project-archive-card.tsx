@@ -6,6 +6,7 @@ import {
   ArrowUpRight,
   Eye,
   Layers3,
+  PlayCircle,
 } from "lucide-react";
 
 import {
@@ -25,6 +26,10 @@ import {
 import {
   getProjectActionLinks,
 } from "@/lib/project-links";
+import {
+  getProjectThumbnailMedia,
+  getProjectThumbnailSource,
+} from "@/lib/project-media";
 
 import type {
   PortfolioLocale,
@@ -192,17 +197,8 @@ export function ProjectArchiveCard({
           compare: "比較",
         };
 
-  const image =
-    project.media.find(
-      (item) =>
-        item.featured &&
-        item.type === "image"
-    )?.src ??
-    project.media.find(
-      (item) =>
-        item.type === "image"
-    )?.src ??
-    project.coverImage;
+  const image = getProjectThumbnailSource(project);
+  const thumbnailMedia = getProjectThumbnailMedia(project);
 
   const features =
     content.features ?? [];
@@ -430,7 +426,10 @@ export function ProjectArchiveCard({
               withBasePath(image) ??
               image
             }
-            alt={content.title}
+            alt={
+              thumbnailMedia?.alt[locale] ??
+              content.title
+            }
             fill
             sizes={
               isList
@@ -446,6 +445,14 @@ export function ProjectArchiveCard({
         ) : (
           <div className="absolute inset-0 flex items-center justify-center">
             <Layers3 className="h-16 w-16 text-primary/25" />
+          </div>
+        )}
+
+        {thumbnailMedia?.type === "video" && (
+          <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+            <span className="rounded-full bg-background/90 p-3 text-foreground shadow-lg">
+              <PlayCircle className="h-7 w-7" />
+            </span>
           </div>
         )}
 

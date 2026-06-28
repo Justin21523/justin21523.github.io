@@ -22,6 +22,10 @@ import type {
   ProjectMedia,
 } from "@/types/projects";
 import {
+  getMediaPreviewSource,
+  getVideoFirstMedia,
+} from "@/lib/project-media";
+import {
   withBasePath,
 } from "@/lib/site-assets";
 
@@ -37,19 +41,7 @@ export function ProjectMediaGallery({
   const orderedMedia =
     useMemo(
       () =>
-        [...media].sort(
-          (a, b) =>
-            Number(
-              Boolean(
-                b.featured
-              )
-            ) -
-            Number(
-              Boolean(
-                a.featured
-              )
-            )
-        ),
+        getVideoFirstMedia(media),
       [media]
     );
 
@@ -66,6 +58,11 @@ export function ProjectMediaGallery({
         item.id === selectedId
     ) ??
     orderedMedia[0];
+  const fallbackPoster =
+    orderedMedia.find((item) => item.type === "image" && !item.placeholder)?.src ??
+    orderedMedia.find((item) => item.type === "image")?.src;
+  const screenshotCount = orderedMedia.filter((item) => item.type === "image" && !item.placeholder).length;
+  const videoCount = orderedMedia.filter((item) => item.type === "video" && !item.placeholder).length;
 
   if (!selectedMedia) {
     return (
@@ -116,7 +113,7 @@ export function ProjectMediaGallery({
                 preload="metadata"
                 poster={
                   withBasePath(
-                    selectedMedia.poster
+                    getMediaPreviewSource(selectedMedia, fallbackPoster)
                   )
                 }
                 className="h-full w-full object-contain"
@@ -174,6 +171,20 @@ export function ProjectMediaGallery({
               }
             </p>
           )}
+
+          <div className="mt-4 flex flex-wrap gap-2 text-xs font-semibold text-muted-foreground">
+            {screenshotCount > 0 && (
+              <span className="rounded-full bg-secondary px-3 py-1">
+                {locale === "en" ? `${screenshotCount} screenshots` : `${screenshotCount} 張截圖`}
+              </span>
+            )}
+
+            {videoCount > 0 && (
+              <span className="rounded-full bg-secondary px-3 py-1">
+                {locale === "en" ? `${videoCount} demo videos` : `${videoCount} 支 Demo 影片`}
+              </span>
+            )}
+          </div>
         </div>
       </div>
 
@@ -184,6 +195,8 @@ export function ProjectMediaGallery({
               const active =
                 item.id ===
                 selectedMedia.id;
+              const preview =
+                getMediaPreviewSource(item, fallbackPoster);
 
               return (
                 <m.button
@@ -214,12 +227,12 @@ export function ProjectMediaGallery({
                   {item.type ===
                   "video" ? (
                     <>
-                      {item.poster && (
+                      {preview && (
                         <Image
                           src={
                             withBasePath(
-                              item.poster
-                            ) ?? item.poster
+                              preview
+                            ) ?? preview
                           }
                           alt=""
                           fill
@@ -257,6 +270,80 @@ export function ProjectMediaGallery({
               );
             }
           )}
+        </div>
+      )}
+
+      {orderedMedia.length > 1 && (
+        <div className="mt-8">
+          <div className="mb-4">
+            <h2 className="text-xl font-bold">
+              {locale === "en" ? "Media overview" : "媒體總覽"}
+            </h2>
+
+            <p className="mt-1 text-sm text-muted-foreground">
+              {locale === "en"
+                ? "Browse the project screenshots and recorded walkthroughs."
+                : "快速瀏覽這個專案的截圖與錄影展示。"}
+            </p>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {orderedMedia.map((item) => {
+              const preview = getMediaPreviewSource(item, fallbackPoster);
+              const active = item.id === selectedMedia.id;
+
+              return (
+                <button
+                  key={`overview-${item.id}`}
+                  type="button"
+                  onClick={() => setSelectedId(item.id)}
+                  className={`group overflow-hidden rounded-2xl border bg-card text-left transition ${
+                    active ? "border-primary ring-2 ring-primary/20" : "border-border hover:border-primary/60"
+                  }`}
+                >
+                  <span className="relative block aspect-video bg-secondary">
+                    {preview && (
+                      <Image
+                        src={withBasePath(preview) ?? preview}
+                        alt={item.alt[locale]}
+                        fill
+                        sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                        onError={(event) => {
+                          event.currentTarget.style.opacity =
+                            "0";
+                        }}
+                        className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
+                      />
+                    )}
+
+                    {item.type === "video" && (
+                      <span className="absolute inset-0 flex items-center justify-center bg-black/30">
+                        <span className="rounded-full bg-background/90 p-3 text-foreground">
+                          <Play className="h-6 w-6" />
+                        </span>
+                      </span>
+                    )}
+                  </span>
+
+                  <span className="block p-3">
+                    <span className="block text-sm font-semibold">
+                      {item.title[locale]}
+                    </span>
+
+                    <span className="mt-1 block text-xs text-muted-foreground">
+                      {item.type === "video"
+                        ? locale === "en"
+                          ? "Demo recording"
+                          : "Demo 錄影"
+                        : locale === "en"
+                          ? "Screenshot"
+                          : "截圖"}
+                    </span>
+                  </span>
+                </button>
+              );
+            })}
+          </div>
         </div>
       )}
     </section>

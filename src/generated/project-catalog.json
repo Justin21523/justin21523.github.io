@@ -48,7 +48,7 @@
       "/projects/2d-animation-lora-pipeline/screenshots/04-architecture-or-data-flow.png",
       "/projects/2d-animation-lora-pipeline/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/2d-animation-lora-pipeline/demo/demo-walkthrough.webm",
+    "videoUrl": "/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
     "links": [
       {
         "kind": "live",
@@ -61,7 +61,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/2d-animation-lora-pipeline/demo/demo-walkthrough.webm",
+        "url": "/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -89,7 +89,7 @@
         "id": "demo-walkthrough",
         "type": "video",
         "src": "/portfolio/projects/2d-animation-lora-pipeline/demo/demo-walkthrough.webm",
-        "poster": "/portfolio/projects/2d-animation-lora-pipeline/cover.webp",
+        "poster": "/portfolio/projects/2d-animation-lora-pipeline/demo/posters/demo-walkthrough.webp",
         "alt": {
           "zh-TW": "2D Animation LoRA Pipeline 的 mock-safe demo 錄影。",
           "en": "A mock-safe demo recording of the 2D Animation LoRA Pipeline."
@@ -228,6 +228,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
+        "poster": "/projects/2d-animation-lora-pipeline/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "2D 動畫角色 LoRA 訓練管線 的已驗證 demo 錄影。",
           "en": "2D Animation Character LoRA Training Pipeline verified demo recording."
@@ -353,6 +354,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/2d-animation-lora-pipeline/videos/02-real-demo-walkthrough.webm",
+        "poster": "/projects/2d-animation-lora-pipeline/videos/posters/02-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "2D 動畫角色 LoRA 訓練管線 的已驗證 demo 錄影。",
           "en": "2D Animation Character LoRA Training Pipeline verified demo recording."
@@ -370,6 +372,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/2d-animation-lora-pipeline/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/2d-animation-lora-pipeline/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "2D 動畫角色 LoRA 訓練管線 的已驗證 demo 錄影。",
           "en": "2D Animation Character LoRA Training Pipeline verified demo recording."
@@ -662,7 +665,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.013Z",
+      "lastScannedAt": "2026-06-28T18:05:16.319Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -826,7 +829,7 @@
       "/projects/3d-animation-lora-pipeline/screenshots/04-architecture-or-data-flow.png",
       "/projects/3d-animation-lora-pipeline/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/3d-animation-lora-pipeline/demo/demo-walkthrough.mp4",
+    "videoUrl": "/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
     "links": [
       {
         "kind": "live",
@@ -839,7 +842,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/3d-animation-lora-pipeline/demo/demo-walkthrough.mp4",
+        "url": "/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -867,7 +870,7 @@
         "id": "demo-walkthrough",
         "type": "video",
         "src": "/portfolio/projects/3d-animation-lora-pipeline/demo/demo-walkthrough.mp4",
-        "poster": "/portfolio/projects/3d-animation-lora-pipeline/cover.webp",
+        "poster": "/portfolio/projects/3d-animation-lora-pipeline/demo/posters/demo-walkthrough.webp",
         "alt": {
           "zh-TW": "3D Animation LoRA Pipeline 的匿名資料管線 demo 錄影。",
           "en": "An anonymized demo recording of the 3D Animation LoRA Pipeline."
@@ -1005,6 +1008,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
+        "poster": "/projects/3d-animation-lora-pipeline/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "3D 動畫 LoRA 訓練管線與 Demo 展示平台 的已驗證 demo 錄影。",
           "en": "3D Animation LoRA Pipeline and Demo Showcase verified demo recording."
@@ -1130,6 +1134,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/3d-animation-lora-pipeline/videos/02-real-demo-walkthrough.mp4",
+        "poster": "/projects/3d-animation-lora-pipeline/videos/posters/02-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "3D 動畫 LoRA 訓練管線與 Demo 展示平台 的已驗證 demo 錄影。",
           "en": "3D Animation LoRA Pipeline and Demo Showcase verified demo recording."
@@ -1147,6 +1152,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/3d-animation-lora-pipeline/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/3d-animation-lora-pipeline/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "3D 動畫 LoRA 訓練管線與 Demo 展示平台 的已驗證 demo 錄影。",
           "en": "3D Animation LoRA Pipeline and Demo Showcase verified demo recording."
@@ -1442,7 +1448,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.018Z",
+      "lastScannedAt": "2026-06-28T18:05:16.324Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1696,6 +1702,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/3d-maze-explorer/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/3d-maze-explorer/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "3d Maze Explorer 的已驗證 demo 錄影。",
           "en": "3d Maze Explorer verified demo recording."
@@ -1786,7 +1793,7 @@
         "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.019Z",
+      "lastScannedAt": "2026-06-28T18:05:16.325Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -1965,6 +1972,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/3d-platformer-runner/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/3d-platformer-runner/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "3d Platformer Runner 的已驗證 demo 錄影。",
           "en": "3d Platformer Runner verified demo recording."
@@ -2132,7 +2140,7 @@
         "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.019Z",
+      "lastScannedAt": "2026-06-28T18:05:16.326Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -2308,7 +2316,7 @@
       "/projects/agentic-bi-dataops-copilot/screenshots/04-architecture-or-data-flow.png",
       "/projects/agentic-bi-dataops-copilot/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/agentic-bi-dataops-copilot/demo/demo-tour.webm",
+    "videoUrl": "/projects/agentic-bi-dataops-copilot/videos/01-real-demo-tour.webm",
     "links": [
       {
         "kind": "live",
@@ -2329,9 +2337,9 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/agentic-bi-dataops-copilot/demo/demo-tour.webm",
+        "url": "/projects/agentic-bi-dataops-copilot/videos/01-real-demo-tour.webm",
         "label": {
-          "zh-TW": "查看 Demo 影片",
+          "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
         }
       },
@@ -2349,7 +2357,7 @@
         "id": "demo-tour-video",
         "type": "video",
         "src": "/portfolio/projects/agentic-bi-dataops-copilot/demo/demo-tour.webm",
-        "poster": "/portfolio/projects/agentic-bi-dataops-copilot/cover.webp",
+        "poster": "/portfolio/projects/agentic-bi-dataops-copilot/demo/posters/demo-tour.webp",
         "alt": {
           "zh-TW": "Agentic BI DataOps Copilot 完整 16 步驟 Data Journey Tour 錄影。",
           "en": "Full 16-step Data Journey Tour recording of Agentic BI DataOps Copilot."
@@ -2714,6 +2722,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/agentic-bi-dataops-copilot/videos/01-real-demo-tour.webm",
+        "poster": "/projects/agentic-bi-dataops-copilot/videos/posters/01-real-demo-tour.webp",
         "alt": {
           "zh-TW": "Agentic BI / DataOps 副駕 的已驗證 demo 錄影。",
           "en": "Agentic BI / DataOps Copilot verified demo recording."
@@ -2839,6 +2848,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/agentic-bi-dataops-copilot/videos/02-real-demo-tour.webm",
+        "poster": "/projects/agentic-bi-dataops-copilot/videos/posters/02-real-demo-tour.webp",
         "alt": {
           "zh-TW": "Agentic BI / DataOps 副駕 的已驗證 demo 錄影。",
           "en": "Agentic BI / DataOps Copilot verified demo recording."
@@ -2856,6 +2866,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/agentic-bi-dataops-copilot/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/agentic-bi-dataops-copilot/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Agentic BI / DataOps 副駕 的已驗證 demo 錄影。",
           "en": "Agentic BI / DataOps Copilot verified demo recording."
@@ -3098,7 +3109,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.020Z",
+      "lastScannedAt": "2026-06-28T18:05:16.327Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3370,6 +3381,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/ai-3d-studio/videos/01-real-demo-walkthrough.webm",
+        "poster": "/projects/ai-3d-studio/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "AI 3D Studio — 統一多後端的 image-to-3D 生成與 Blender 整合框架 的已驗證 demo 錄影。",
           "en": "AI 3D Studio — A Unified Multi-Backend Image-to-3D Generation and Blender Integration Framework verified demo recording."
@@ -3387,6 +3399,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/ai-3d-studio/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/ai-3d-studio/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "AI 3D Studio — 統一多後端的 image-to-3D 生成與 Blender 整合框架 的已驗證 demo 錄影。",
           "en": "AI 3D Studio — A Unified Multi-Backend Image-to-3D Generation and Blender Integration Framework verified demo recording."
@@ -3628,7 +3641,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.021Z",
+      "lastScannedAt": "2026-06-28T18:05:16.328Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3817,6 +3830,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/ai-game-website/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/ai-game-website/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Ai Game Website 的已驗證 demo 錄影。",
           "en": "Ai Game Website verified demo recording."
@@ -4001,7 +4015,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.022Z",
+      "lastScannedAt": "2026-06-28T18:05:16.329Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4261,6 +4275,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/ai-knowledge-workspace/videos/01-real-demo-walkthrough.mp4",
+        "poster": "/projects/ai-knowledge-workspace/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Ai Knowledge Workspace 的已驗證 demo 錄影。",
           "en": "Ai Knowledge Workspace verified demo recording."
@@ -4278,6 +4293,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/ai-knowledge-workspace/videos/02-real-demo-walkthrough.webm",
+        "poster": "/projects/ai-knowledge-workspace/videos/posters/02-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Ai Knowledge Workspace 的已驗證 demo 錄影。",
           "en": "Ai Knowledge Workspace verified demo recording."
@@ -4295,6 +4311,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/ai-knowledge-workspace/videos/playwright-local-dev-server.webm",
+        "poster": "/projects/ai-knowledge-workspace/videos/posters/playwright-local-dev-server.webp",
         "alt": {
           "zh-TW": "Ai Knowledge Workspace 的已驗證 demo 錄影。",
           "en": "Ai Knowledge Workspace verified demo recording."
@@ -4463,7 +4480,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.022Z",
+      "lastScannedAt": "2026-06-28T18:05:16.329Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4798,6 +4815,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/amazon-review-intelligence/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/amazon-review-intelligence/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Amazon Review Intelligence 的已驗證 demo 錄影。",
           "en": "Amazon Review Intelligence verified demo recording."
@@ -5002,7 +5020,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.023Z",
+      "lastScannedAt": "2026-06-28T18:05:16.330Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -5161,7 +5179,7 @@
       "/projects/animation-ai-studio/screenshots/04-architecture-or-data-flow.png",
       "/projects/animation-ai-studio/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/animation-ai-studio/demo/demo-walkthrough.webm",
+    "videoUrl": "/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
     "links": [
       {
         "kind": "live",
@@ -5190,10 +5208,10 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/animation-ai-studio/demo/demo-walkthrough.webm",
+        "url": "/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
         "label": {
-          "zh-TW": "觀看 Demo 錄影",
-          "en": "Watch Demo Video"
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
         }
       }
     ],
@@ -5202,7 +5220,7 @@
         "id": "demo-walkthrough",
         "type": "video",
         "src": "/portfolio/projects/animation-ai-studio/demo/demo-walkthrough.webm",
-        "poster": "/portfolio/projects/animation-ai-studio/screenshots/webui-jobs.png",
+        "poster": "/portfolio/projects/animation-ai-studio/demo/posters/demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Animation AI Studio demo 錄影，展示作品頁、Job Dashboard、Results Browser 與 System Monitor。",
           "en": "Animation AI Studio demo walkthrough showing the portfolio page, job dashboard, results browser, and system monitor."
@@ -5398,6 +5416,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
+        "poster": "/projects/animation-ai-studio/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Animation AI Studio：可展示的 AI 動畫工作流 Demo 平台 的已驗證 demo 錄影。",
           "en": "Animation AI Studio: A Demoable AI Animation Workflow Platform verified demo recording."
@@ -5505,6 +5524,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/animation-ai-studio/videos/02-real-demo-walkthrough.webm",
+        "poster": "/projects/animation-ai-studio/videos/posters/02-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Animation AI Studio：可展示的 AI 動畫工作流 Demo 平台 的已驗證 demo 錄影。",
           "en": "Animation AI Studio: A Demoable AI Animation Workflow Platform verified demo recording."
@@ -5522,6 +5542,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/animation-ai-studio/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/animation-ai-studio/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Animation AI Studio：可展示的 AI 動畫工作流 Demo 平台 的已驗證 demo 錄影。",
           "en": "Animation AI Studio: A Demoable AI Animation Workflow Platform verified demo recording."
@@ -5767,7 +5788,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.025Z",
+      "lastScannedAt": "2026-06-28T18:05:16.331Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -5926,7 +5947,7 @@
       "/projects/anime-adventure-lab/screenshots/04-architecture-or-data-flow.png",
       "/projects/anime-adventure-lab/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/anime-adventure-lab/demo/demo-recording.mp4",
+    "videoUrl": "/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
     "links": [
       {
         "kind": "live",
@@ -5939,7 +5960,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/anime-adventure-lab/demo/demo-recording.mp4",
+        "url": "/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -5967,7 +5988,7 @@
         "id": "demo-recording",
         "type": "video",
         "src": "/portfolio/projects/anime-adventure-lab/demo/demo-recording.mp4",
-        "poster": "/portfolio/projects/anime-adventure-lab/demo/demo-video-poster.svg",
+        "poster": "/portfolio/projects/anime-adventure-lab/demo/posters/demo-recording.webp",
         "alt": {
           "zh-TW": "Anime Adventure Lab 的 18 秒作品集 demo 錄影，展示 Story、RAG、Agent 與 T2I 展示流程。",
           "en": "An 18-second portfolio demo recording for Anime Adventure Lab showing Story, RAG, Agent, and T2I showcase flows."
@@ -6055,6 +6076,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
+        "poster": "/projects/anime-adventure-lab/videos/posters/01-real-demo-recording.webp",
         "alt": {
           "zh-TW": "Anime Adventure Lab — RAG + LLM 故事世界生成平台 的已驗證 demo 錄影。",
           "en": "Anime Adventure Lab — RAG + LLM Story World Generation Platform verified demo recording."
@@ -6072,6 +6094,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/anime-adventure-lab/videos/02-real-demo-recording.mp4",
+        "poster": "/projects/anime-adventure-lab/videos/posters/02-real-demo-recording.webp",
         "alt": {
           "zh-TW": "Anime Adventure Lab — RAG + LLM 故事世界生成平台 的已驗證 demo 錄影。",
           "en": "Anime Adventure Lab — RAG + LLM Story World Generation Platform verified demo recording."
@@ -6089,6 +6112,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/anime-adventure-lab/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/anime-adventure-lab/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Anime Adventure Lab — RAG + LLM 故事世界生成平台 的已驗證 demo 錄影。",
           "en": "Anime Adventure Lab — RAG + LLM Story World Generation Platform verified demo recording."
@@ -6359,7 +6383,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.027Z",
+      "lastScannedAt": "2026-06-28T18:05:16.332Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -6570,6 +6594,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/aqua-rush/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/aqua-rush/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Aqua Rush 的已驗證 demo 錄影。",
           "en": "Aqua Rush verified demo recording."
@@ -6760,7 +6785,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.028Z",
+      "lastScannedAt": "2026-06-28T18:05:16.333Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -7025,6 +7050,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/ArchiveFlow/videos/01-real-0329-lecture-recording-video.mp4",
+        "poster": "/projects/ArchiveFlow/videos/posters/01-real-0329-lecture-recording-video.webp",
         "alt": {
           "zh-TW": "ArchiveFlow Studio 的已驗證 demo 錄影。",
           "en": "ArchiveFlow Studio verified demo recording."
@@ -7042,6 +7068,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/ArchiveFlow/videos/02-real-0063-lecture-recording-video.mp4",
+        "poster": "/projects/ArchiveFlow/videos/posters/02-real-0063-lecture-recording-video.webp",
         "alt": {
           "zh-TW": "ArchiveFlow Studio 的已驗證 demo 錄影。",
           "en": "ArchiveFlow Studio verified demo recording."
@@ -7288,7 +7315,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.029Z",
+      "lastScannedAt": "2026-06-28T18:05:16.333Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7464,6 +7491,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/automation/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/automation/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Automation 的已驗證 demo 錄影。",
           "en": "Automation verified demo recording."
@@ -7623,7 +7651,7 @@
         "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.029Z",
+      "lastScannedAt": "2026-06-28T18:05:16.334Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7886,6 +7914,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/cafe-net-manager/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/cafe-net-manager/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "CafeNet Manager 的已驗證 demo 錄影。",
           "en": "CafeNet Manager verified demo recording."
@@ -8124,7 +8153,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.030Z",
+      "lastScannedAt": "2026-06-28T18:05:16.335Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8343,6 +8372,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/campus-quest-3d/videos/playwright-local-dev-server.webm",
+        "poster": "/projects/campus-quest-3d/videos/posters/playwright-local-dev-server.webp",
         "alt": {
           "zh-TW": "Campus Quest 3d 的已驗證 demo 錄影。",
           "en": "Campus Quest 3d verified demo recording."
@@ -8432,6 +8462,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/campus-quest-3d/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/campus-quest-3d/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Campus Quest 3d 的已驗證 demo 錄影。",
           "en": "Campus Quest 3d verified demo recording."
@@ -8522,7 +8553,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.030Z",
+      "lastScannedAt": "2026-06-28T18:05:16.335Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -8686,7 +8717,7 @@
       "/projects/charaforge-T2I-Lab/screenshots/04-architecture-or-data-flow.png",
       "/projects/charaforge-T2I-Lab/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/charaforge-t2i-lab/demo-walkthrough.mp4",
+    "videoUrl": "/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
     "links": [
       {
         "kind": "live",
@@ -8699,7 +8730,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/charaforge-t2i-lab/demo-walkthrough.mp4",
+        "url": "/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -8727,7 +8758,7 @@
         "id": "recorded-walkthrough",
         "type": "video",
         "src": "/portfolio/projects/charaforge-t2i-lab/demo-walkthrough.mp4",
-        "poster": "/portfolio/projects/charaforge-t2i-lab/cover.png",
+        "poster": "/portfolio/projects/charaforge-t2i-lab/posters/demo-walkthrough.webp",
         "alt": {
           "zh-TW": "CharaForge T2I Lab 的完整作品集導覽錄影。",
           "en": "Complete portfolio walkthrough recording for CharaForge T2I Lab."
@@ -8884,6 +8915,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
+        "poster": "/projects/charaforge-T2I-Lab/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "CharaForge T2I Lab — 文生圖、ControlNet 與 LoRA 訓練平台 的已驗證 demo 錄影。",
           "en": "CharaForge T2I Lab — Text-to-Image, ControlNet, and LoRA Training Platform verified demo recording."
@@ -8901,6 +8933,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/charaforge-T2I-Lab/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/charaforge-T2I-Lab/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "CharaForge T2I Lab — 文生圖、ControlNet 與 LoRA 訓練平台 的已驗證 demo 錄影。",
           "en": "CharaForge T2I Lab — Text-to-Image, ControlNet, and LoRA Training Platform verified demo recording."
@@ -9162,7 +9195,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.031Z",
+      "lastScannedAt": "2026-06-28T18:05:16.336Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9354,6 +9387,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/ChronosMap/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/ChronosMap/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "ChronosMap 時空編織者 的已驗證 demo 錄影。",
           "en": "ChronosMap Spatio-Temporal Weaver verified demo recording."
@@ -9572,7 +9606,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.032Z",
+      "lastScannedAt": "2026-06-28T18:05:16.337Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9768,6 +9802,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/commercial-ml-analysis/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/commercial-ml-analysis/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "商業機器學習分析平台 的已驗證 demo 錄影。",
           "en": "Commercial ML Analysis Platform verified demo recording."
@@ -10033,7 +10068,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.032Z",
+      "lastScannedAt": "2026-06-28T18:05:16.337Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -10227,6 +10262,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/commute-reliability-analysis/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/commute-reliability-analysis/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "CommuteReliability 通勤可靠度分析 的已驗證 demo 錄影。",
           "en": "CommuteReliability Analytics verified demo recording."
@@ -10465,7 +10501,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.033Z",
+      "lastScannedAt": "2026-06-28T18:05:16.338Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -10655,6 +10691,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/css-advanced-mastery/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/css-advanced-mastery/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "CSS Advanced Mastery 進階 CSS 練習與案例庫 的已驗證 demo 錄影。",
           "en": "CSS Advanced Mastery — Hands-on Advanced CSS Lab verified demo recording."
@@ -10886,7 +10923,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.033Z",
+      "lastScannedAt": "2026-06-28T18:05:16.338Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11076,6 +11113,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/CulturePOS/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/CulturePOS/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "CulturePOS 文創零售 POS 桌面系統 的已驗證 demo 錄影。",
           "en": "CulturePOS Cultural-Retail POS Desktop System verified demo recording."
@@ -11297,7 +11335,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.034Z",
+      "lastScannedAt": "2026-06-28T18:05:16.339Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11503,6 +11541,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/data-narrative-studio/videos/playwright-local-dev-server.webm",
+        "poster": "/projects/data-narrative-studio/videos/posters/playwright-local-dev-server.webp",
         "alt": {
           "zh-TW": "Data Narrative Studio 的已驗證 demo 錄影。",
           "en": "Data Narrative Studio verified demo recording."
@@ -11592,6 +11631,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/data-narrative-studio/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/data-narrative-studio/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Data Narrative Studio 的已驗證 demo 錄影。",
           "en": "Data Narrative Studio verified demo recording."
@@ -11688,7 +11728,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.035Z",
+      "lastScannedAt": "2026-06-28T18:05:16.339Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -11864,6 +11904,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/data-pipelines/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/data-pipelines/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Data Pipelines 的已驗證 demo 錄影。",
           "en": "Data Pipelines verified demo recording."
@@ -12023,7 +12064,7 @@
         "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.035Z",
+      "lastScannedAt": "2026-06-28T18:05:16.340Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12217,6 +12258,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/dataagent-analyst/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "DataAgent Analyst：AI 代理資料分析與機器學習工作台 的已驗證 demo 錄影。",
           "en": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench verified demo recording."
@@ -12473,7 +12515,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.036Z",
+      "lastScannedAt": "2026-06-28T18:05:16.340Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12660,6 +12702,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/datalab-studio/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/datalab-studio/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Datalab Studio 的已驗證 demo 錄影。",
           "en": "Datalab Studio verified demo recording."
@@ -12825,7 +12868,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.037Z",
+      "lastScannedAt": "2026-06-28T18:05:16.341Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -13141,6 +13184,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/dcard-trending-crawler/videos/01-real-full-guided-demo.webm",
+        "poster": "/projects/dcard-trending-crawler/videos/posters/01-real-full-guided-demo.webp",
         "alt": {
           "zh-TW": "posts-trending-crawler 的已驗證 demo 錄影。",
           "en": "posts-trending-crawler verified demo recording."
@@ -13325,7 +13369,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.037Z",
+      "lastScannedAt": "2026-06-28T18:05:16.341Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -13507,6 +13551,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/digital-archive-review-board/videos/playwright-local-dev-server.webm",
+        "poster": "/projects/digital-archive-review-board/videos/posters/playwright-local-dev-server.webp",
         "alt": {
           "zh-TW": "Digital Archive Review Board 的已驗證 demo 錄影。",
           "en": "Digital Archive Review Board verified demo recording."
@@ -13694,7 +13739,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.038Z",
+      "lastScannedAt": "2026-06-28T18:05:16.342Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -13874,6 +13919,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/digital-living/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/digital-living/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Digital Living 的已驗證 demo 錄影。",
           "en": "Digital Living verified demo recording."
@@ -14058,7 +14104,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.038Z",
+      "lastScannedAt": "2026-06-28T18:05:16.342Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14253,6 +14299,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/discord-clone/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/discord-clone/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Discord Clone 即時通訊平台 的已驗證 demo 錄影。",
           "en": "Discord Clone Real-Time Chat Platform verified demo recording."
@@ -14488,7 +14535,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.039Z",
+      "lastScannedAt": "2026-06-28T18:05:16.343Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -14674,6 +14721,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/elio-discord-bot/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/elio-discord-bot/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Elio Discord Bot 的已驗證 demo 錄影。",
           "en": "Elio Discord Bot verified demo recording."
@@ -14838,7 +14886,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.039Z",
+      "lastScannedAt": "2026-06-28T18:05:16.343Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -15007,7 +15055,7 @@
       "/projects/excel-python-data-analysis/screenshots/03-detail-view.png",
       "/projects/excel-python-data-analysis/screenshots/04-architecture-or-data-flow.png"
     ],
-    "videoUrl": "/portfolio/projects/excel-python-data-analysis/demo/demo-walkthrough.mp4",
+    "videoUrl": "/projects/excel-python-data-analysis/videos/01-real-demo-walkthrough.mp4",
     "videoEmbedUrl": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
     "links": [
       {
@@ -15056,7 +15104,7 @@
         "id": "guided-demo-video",
         "type": "video",
         "src": "/portfolio/projects/excel-python-data-analysis/demo/demo-walkthrough.mp4",
-        "poster": "/portfolio/projects/excel-python-data-analysis/cover.png",
+        "poster": "/portfolio/projects/excel-python-data-analysis/demo/posters/demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Excel Python Data Analysis Platform 的完整 Streamlit demo 錄影。",
           "en": "A full Streamlit demo recording of the Excel Python Data Analysis Platform."
@@ -15265,6 +15313,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/excel-python-data-analysis/videos/01-real-demo-walkthrough.mp4",
+        "poster": "/projects/excel-python-data-analysis/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Excel Python Data Analysis Platform 的已驗證 demo 錄影。",
           "en": "Excel Python Data Analysis Platform verified demo recording."
@@ -15390,6 +15439,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/excel-python-data-analysis/videos/02-real-demo_walkthrough.mp4",
+        "poster": "/projects/excel-python-data-analysis/videos/posters/02-real-demo_walkthrough.webp",
         "alt": {
           "zh-TW": "Excel Python Data Analysis Platform 的已驗證 demo 錄影。",
           "en": "Excel Python Data Analysis Platform verified demo recording."
@@ -15659,7 +15709,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.040Z",
+      "lastScannedAt": "2026-06-28T18:05:16.344Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -15828,7 +15878,7 @@
       "/projects/fandom-gui-scraper/screenshots/03-detail-view.png",
       "/projects/fandom-gui-scraper/screenshots/04-architecture-or-data-flow.png"
     ],
-    "videoUrl": "/portfolio/projects/fandom-gui-scraper/demo/guided-demo-desktop.webm",
+    "videoUrl": "/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
     "links": [
       {
         "kind": "github",
@@ -15840,7 +15890,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/fandom-gui-scraper/demo/guided-demo-desktop.webm",
+        "url": "/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -15876,7 +15926,7 @@
         "id": "guided-demo-video",
         "type": "video",
         "src": "/portfolio/projects/fandom-gui-scraper/demo/guided-demo-desktop.webm",
-        "poster": "/portfolio/projects/fandom-gui-scraper/cover.png",
+        "poster": "/portfolio/projects/fandom-gui-scraper/demo/posters/guided-demo-desktop.webp",
         "alt": {
           "zh-TW": "Fandom MediaWiki Scraper Platform 的完整使用者導覽錄影。",
           "en": "A full user-guided walkthrough recording of the Fandom MediaWiki Scraper Platform."
@@ -15986,6 +16036,7 @@
         "id": "fandom-gui-scraper-guided-demo-mobile",
         "type": "video",
         "src": "/portfolio/projects/fandom-gui-scraper/demo/guided-demo-mobile.webm",
+        "poster": "/portfolio/projects/fandom-gui-scraper/demo/posters/guided-demo-mobile.webp",
         "alt": {
           "zh-TW": "Fandom 爬蟲平台 導覽 展示 行動版",
           "en": "Fandom Scraper Guided Demo Mobile"
@@ -16107,6 +16158,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
+        "poster": "/projects/fandom-gui-scraper/videos/posters/01-real-guided-demo-desktop.webp",
         "alt": {
           "zh-TW": "Fandom / MediaWiki Scraper Platform 的已驗證 demo 錄影。",
           "en": "Fandom / MediaWiki Scraper Platform verified demo recording."
@@ -16124,6 +16176,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/fandom-gui-scraper/videos/02-real-guided-demo-mobile.webm",
+        "poster": "/projects/fandom-gui-scraper/videos/posters/02-real-guided-demo-mobile.webp",
         "alt": {
           "zh-TW": "Fandom / MediaWiki Scraper Platform 的已驗證 demo 錄影。",
           "en": "Fandom / MediaWiki Scraper Platform verified demo recording."
@@ -16249,6 +16302,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/fandom-gui-scraper/videos/03-real-guided-demo-desktop.webm",
+        "poster": "/projects/fandom-gui-scraper/videos/posters/03-real-guided-demo-desktop.webp",
         "alt": {
           "zh-TW": "Fandom / MediaWiki Scraper Platform 的已驗證 demo 錄影。",
           "en": "Fandom / MediaWiki Scraper Platform verified demo recording."
@@ -16266,6 +16320,7 @@
         "id": "quality-video-4",
         "type": "video",
         "src": "/projects/fandom-gui-scraper/videos/04-real-guided-demo-mobile.webm",
+        "poster": "/projects/fandom-gui-scraper/videos/posters/04-real-guided-demo-mobile.webp",
         "alt": {
           "zh-TW": "Fandom / MediaWiki Scraper Platform 的已驗證 demo 錄影。",
           "en": "Fandom / MediaWiki Scraper Platform verified demo recording."
@@ -16530,7 +16585,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.041Z",
+      "lastScannedAt": "2026-06-28T18:05:16.345Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -16754,6 +16809,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/frontend-interaction-lab/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/frontend-interaction-lab/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Frontend Interaction Lab 的已驗證 demo 錄影。",
           "en": "Frontend Interaction Lab verified demo recording."
@@ -16940,7 +16996,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.042Z",
+      "lastScannedAt": "2026-06-28T18:05:16.346Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -17123,6 +17179,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/game-dialogue-simulator/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/game-dialogue-simulator/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Game Dialogue Simulator 的已驗證 demo 錄影。",
           "en": "Game Dialogue Simulator verified demo recording."
@@ -17289,7 +17346,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.042Z",
+      "lastScannedAt": "2026-06-28T18:05:16.346Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -17520,6 +17577,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/gan-ae-vision-suite/videos/01-real-demo-walkthrough.mp4",
+        "poster": "/projects/gan-ae-vision-suite/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "GAN-AE 視覺工具套件 的已驗證 demo 錄影。",
           "en": "GAN-AE Vision Suite verified demo recording."
@@ -17537,6 +17595,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/gan-ae-vision-suite/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/gan-ae-vision-suite/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "GAN-AE 視覺工具套件 的已驗證 demo 錄影。",
           "en": "GAN-AE Vision Suite verified demo recording."
@@ -17786,7 +17845,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.042Z",
+      "lastScannedAt": "2026-06-28T18:05:16.347Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -17978,6 +18037,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/geovideo-env-check/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/geovideo-env-check/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "GeoVideo Evidence Viewer 影像證據檢視器 的已驗證 demo 錄影。",
           "en": "GeoVideo Evidence Viewer verified demo recording."
@@ -18193,7 +18253,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.043Z",
+      "lastScannedAt": "2026-06-28T18:05:16.347Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -18384,6 +18444,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/govcase-tracker/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/govcase-tracker/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "GovCase Tracker 政府案件追蹤系統 的已驗證 demo 錄影。",
           "en": "GovCase Tracker — Government Case Tracking System verified demo recording."
@@ -18626,7 +18687,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.043Z",
+      "lastScannedAt": "2026-06-28T18:05:16.348Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -18818,6 +18879,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/HeritageMapStudio/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/HeritageMapStudio/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "HeritageMap Studio 文化資產地圖工作室 的已驗證 demo 錄影。",
           "en": "HeritageMap Studio verified demo recording."
@@ -19034,7 +19096,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.044Z",
+      "lastScannedAt": "2026-06-28T18:05:16.348Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -19243,6 +19305,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/highway-adventure-3d/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/highway-adventure-3d/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Highway Adventure 3d 的已驗證 demo 錄影。",
           "en": "Highway Adventure 3d verified demo recording."
@@ -19433,7 +19496,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.044Z",
+      "lastScannedAt": "2026-06-28T18:05:16.349Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -19677,6 +19740,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/image-process/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/image-process/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "瀏覽器 3D 模型檢視與編輯器 的已驗證 demo 錄影。",
           "en": "Browser-Based 3D Model Viewer & Editor verified demo recording."
@@ -19887,7 +19951,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.044Z",
+      "lastScannedAt": "2026-06-28T18:05:16.349Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -20091,7 +20155,7 @@
       "/projects/information-retrieval/screenshots/04-architecture-or-data-flow.png",
       "/projects/information-retrieval/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/information-retrieval/demo/cnirs-demo.webm",
+    "videoUrl": "/projects/information-retrieval/videos/01-real-cnirs-demo.webm",
     "videoEmbedUrl": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
     "links": [
       {
@@ -20141,7 +20205,7 @@
         "id": "cnirs-demo-video",
         "type": "video",
         "src": "/portfolio/projects/information-retrieval/demo/cnirs-demo.webm",
-        "poster": "/portfolio/projects/information-retrieval/cover.png",
+        "poster": "/portfolio/projects/information-retrieval/demo/posters/cnirs-demo.webp",
         "alt": {
           "zh-TW": "CNIRS 中文新聞檢索系統完整操作錄影。",
           "en": "Full demo recording of the CNIRS Chinese news retrieval system."
@@ -20738,6 +20802,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/information-retrieval/videos/01-real-cnirs-demo.webm",
+        "poster": "/projects/information-retrieval/videos/posters/01-real-cnirs-demo.webp",
         "alt": {
           "zh-TW": "CNIRS 中文新聞智能檢索系統 的已驗證 demo 錄影。",
           "en": "CNIRS Chinese News IR System verified demo recording."
@@ -20863,6 +20928,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/information-retrieval/videos/02-real-cnirs-demo.webm",
+        "poster": "/projects/information-retrieval/videos/posters/02-real-cnirs-demo.webp",
         "alt": {
           "zh-TW": "CNIRS 中文新聞智能檢索系統 的已驗證 demo 錄影。",
           "en": "CNIRS Chinese News IR System verified demo recording."
@@ -20880,6 +20946,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/information-retrieval/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/information-retrieval/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "CNIRS 中文新聞智能檢索系統 的已驗證 demo 錄影。",
           "en": "CNIRS Chinese News IR System verified demo recording."
@@ -21164,7 +21231,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.045Z",
+      "lastScannedAt": "2026-06-28T18:05:16.350Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -21359,6 +21426,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/intro-to-dl/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/intro-to-dl/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Deep Learning 系統化實戰教程 的已驗證 demo 錄影。",
           "en": "Deep Learning Hands-On Tutorial Series verified demo recording."
@@ -21604,7 +21672,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.046Z",
+      "lastScannedAt": "2026-06-28T18:05:16.351Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -21796,6 +21864,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/intro-to-ml/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/intro-to-ml/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Intro to ML：傳統機器學習從零手刻 的已驗證 demo 錄影。",
           "en": "Intro to ML: Classical Machine Learning From Scratch verified demo recording."
@@ -22044,7 +22113,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.047Z",
+      "lastScannedAt": "2026-06-28T18:05:16.351Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -22236,6 +22305,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/intro-to-vml/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/intro-to-vml/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Intro to VML：視覺機器學習入門教材 的已驗證 demo 錄影。",
           "en": "Intro to VML: Visual Machine Learning Primer verified demo recording."
@@ -22468,7 +22538,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.047Z",
+      "lastScannedAt": "2026-06-28T18:05:16.351Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -22640,7 +22710,7 @@
       "/projects/ir-rag-evaluation-lab/screenshots/03-detail-view.png",
       "/projects/ir-rag-evaluation-lab/screenshots/04-architecture-or-data-flow.png"
     ],
-    "videoUrl": "/portfolio/projects/ir-rag-evaluation-lab/demo/ir-rag-evaluation-lab-demo.mp4",
+    "videoUrl": "/projects/ir-rag-evaluation-lab/videos/01-real-ir-rag-evaluation-lab-demo.mp4",
     "links": [
       {
         "kind": "github",
@@ -22652,7 +22722,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/ir-rag-evaluation-lab/demo/ir-rag-evaluation-lab-demo.mp4",
+        "url": "/projects/ir-rag-evaluation-lab/videos/01-real-ir-rag-evaluation-lab-demo.mp4",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -22688,7 +22758,7 @@
         "id": "full-demo-video",
         "type": "video",
         "src": "/portfolio/projects/ir-rag-evaluation-lab/demo/ir-rag-evaluation-lab-demo.mp4",
-        "poster": "/portfolio/projects/ir-rag-evaluation-lab/cover.png",
+        "poster": "/portfolio/projects/ir-rag-evaluation-lab/demo/posters/ir-rag-evaluation-lab-demo.webp",
         "alt": {
           "zh-TW": "IR / RAG Evaluation Lab 的完整 Playwright 導覽錄影。",
           "en": "Full Playwright walkthrough recording of IR / RAG Evaluation Lab."
@@ -22919,6 +22989,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/ir-rag-evaluation-lab/videos/01-real-ir-rag-evaluation-lab-demo.mp4",
+        "poster": "/projects/ir-rag-evaluation-lab/videos/posters/01-real-ir-rag-evaluation-lab-demo.webp",
         "alt": {
           "zh-TW": "IR / RAG Evaluation Lab 的已驗證 demo 錄影。",
           "en": "IR / RAG Evaluation Lab verified demo recording."
@@ -23044,6 +23115,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/ir-rag-evaluation-lab/videos/02-real-ir-rag-evaluation-lab-demo.mp4",
+        "poster": "/projects/ir-rag-evaluation-lab/videos/posters/02-real-ir-rag-evaluation-lab-demo.webp",
         "alt": {
           "zh-TW": "IR / RAG Evaluation Lab 的已驗證 demo 錄影。",
           "en": "IR / RAG Evaluation Lab verified demo recording."
@@ -23061,6 +23133,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/ir-rag-evaluation-lab/videos/03-real-ir-rag-evaluation-lab-demo.webm",
+        "poster": "/projects/ir-rag-evaluation-lab/videos/posters/03-real-ir-rag-evaluation-lab-demo.webp",
         "alt": {
           "zh-TW": "IR / RAG Evaluation Lab 的已驗證 demo 錄影。",
           "en": "IR / RAG Evaluation Lab verified demo recording."
@@ -23243,7 +23316,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.048Z",
+      "lastScannedAt": "2026-06-28T18:05:16.352Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -23535,6 +23608,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/javascript-platformer-concepts/videos/01-real-demo-walkthrough.webm",
+        "poster": "/projects/javascript-platformer-concepts/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "JavaScript 平台遊戲概念原型 的已驗證 demo 錄影。",
           "en": "JavaScript Platformer Concepts verified demo recording."
@@ -23552,6 +23626,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/javascript-platformer-concepts/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/javascript-platformer-concepts/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "JavaScript 平台遊戲概念原型 的已驗證 demo 錄影。",
           "en": "JavaScript Platformer Concepts verified demo recording."
@@ -23783,7 +23858,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.048Z",
+      "lastScannedAt": "2026-06-28T18:05:16.353Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -23962,6 +24037,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/Justin21523/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/Justin21523/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Hi, I'm Justin 👋 的已驗證 demo 錄影。",
           "en": "Hi, I'm Justin 👋 verified demo recording."
@@ -24124,7 +24200,7 @@
         "content/projects/Justin21523/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.049Z",
+      "lastScannedAt": "2026-06-28T18:05:16.353Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -24291,6 +24367,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/libradesk/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/libradesk/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Libradesk 的已驗證 demo 錄影。",
           "en": "Libradesk verified demo recording."
@@ -24454,7 +24531,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.049Z",
+      "lastScannedAt": "2026-06-28T18:05:16.354Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -24751,6 +24828,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/library-reach-analysis/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/library-reach-analysis/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Library Reach Analysis 的已驗證 demo 錄影。",
           "en": "Library Reach Analysis verified demo recording."
@@ -24909,7 +24987,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.050Z",
+      "lastScannedAt": "2026-06-28T18:05:16.354Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -25074,7 +25152,7 @@
       "/projects/llm-train-eval-ship/screenshots/04-architecture-or-data-flow.png",
       "/projects/llm-train-eval-ship/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/llm-train-eval-ship/demo/guided-demo.webm",
+    "videoUrl": "/projects/llm-train-eval-ship/videos/01-real-guided-demo.webm",
     "links": [
       {
         "kind": "live",
@@ -25103,7 +25181,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/llm-train-eval-ship/demo/guided-demo.webm",
+        "url": "/projects/llm-train-eval-ship/videos/01-real-guided-demo.webm",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -25115,7 +25193,7 @@
         "id": "guided-demo-video",
         "type": "video",
         "src": "/portfolio/projects/llm-train-eval-ship/demo/guided-demo.webm",
-        "poster": "/portfolio/projects/llm-train-eval-ship/cover.png",
+        "poster": "/portfolio/projects/llm-train-eval-ship/demo/posters/guided-demo.webp",
         "alt": {
           "zh-TW": "LLM Train-Eval-Ship mock-safe 控制台操作錄影。",
           "en": "Mock-safe walkthrough recording of the LLM Train-Eval-Ship control plane."
@@ -25320,6 +25398,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/llm-train-eval-ship/videos/01-real-guided-demo.webm",
+        "poster": "/projects/llm-train-eval-ship/videos/posters/01-real-guided-demo.webp",
         "alt": {
           "zh-TW": "LLM Train-Eval-Ship 發布控制台 的已驗證 demo 錄影。",
           "en": "LLM Train-Eval-Ship Release Console verified demo recording."
@@ -25445,6 +25524,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/llm-train-eval-ship/videos/02-real-guided-demo.webm",
+        "poster": "/projects/llm-train-eval-ship/videos/posters/02-real-guided-demo.webp",
         "alt": {
           "zh-TW": "LLM Train-Eval-Ship 發布控制台 的已驗證 demo 錄影。",
           "en": "LLM Train-Eval-Ship Release Console verified demo recording."
@@ -25462,6 +25542,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/llm-train-eval-ship/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/llm-train-eval-ship/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "LLM Train-Eval-Ship 發布控制台 的已驗證 demo 錄影。",
           "en": "LLM Train-Eval-Ship Release Console verified demo recording."
@@ -25709,7 +25790,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.050Z",
+      "lastScannedAt": "2026-06-28T18:05:16.355Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -25879,7 +25960,7 @@
       "/projects/lyrics-cultural-analytics-lab/screenshots/03-detail-view.png",
       "/projects/lyrics-cultural-analytics-lab/screenshots/04-architecture-or-data-flow.png"
     ],
-    "videoUrl": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+    "videoUrl": "/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
     "links": [
       {
         "kind": "github",
@@ -25899,9 +25980,9 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+        "url": "/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
         "label": {
-          "zh-TW": "Demo 影片",
+          "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
         }
       },
@@ -25998,7 +26079,7 @@
         "id": "guided-tour",
         "type": "video",
         "src": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
-        "poster": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/guided-tour-step-01.png",
+        "poster": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/posters/guided-tour.webp",
         "alt": {
           "zh-TW": "Lyrics Cultural Analytics Lab 的互動導覽錄影。",
           "en": "Interactive guided tour recording for Lyrics Cultural Analytics Lab."
@@ -26172,6 +26253,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
+        "poster": "/projects/lyrics-cultural-analytics-lab/videos/posters/01-real-guided-tour.webp",
         "alt": {
           "zh-TW": "Lyrics Cultural Analytics Lab 的已驗證 demo 錄影。",
           "en": "Lyrics Cultural Analytics Lab verified demo recording."
@@ -26297,6 +26379,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/lyrics-cultural-analytics-lab/videos/02-real-demo-tour.webm",
+        "poster": "/projects/lyrics-cultural-analytics-lab/videos/posters/02-real-demo-tour.webp",
         "alt": {
           "zh-TW": "Lyrics Cultural Analytics Lab 的已驗證 demo 錄影。",
           "en": "Lyrics Cultural Analytics Lab verified demo recording."
@@ -26497,7 +26580,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.053Z",
+      "lastScannedAt": "2026-06-28T18:05:16.356Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -26679,6 +26762,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/MetaCleaner/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/MetaCleaner/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "MetaCleaner 批次中介資料清理工具 的已驗證 demo 錄影。",
           "en": "MetaCleaner Batch Metadata Scrubbing Tool verified demo recording."
@@ -26899,7 +26983,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.054Z",
+      "lastScannedAt": "2026-06-28T18:05:16.356Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -27097,6 +27181,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/metashelf/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/metashelf/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "MetaShelf 書目資源探索平台 的已驗證 demo 錄影。",
           "en": "MetaShelf — Bibliographic Resource Discovery Platform verified demo recording."
@@ -27329,7 +27414,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.054Z",
+      "lastScannedAt": "2026-06-28T18:05:16.357Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -27516,6 +27601,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/modelops-dashboard/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/modelops-dashboard/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Modelops Dashboard 的已驗證 demo 錄影。",
           "en": "Modelops Dashboard verified demo recording."
@@ -27681,7 +27767,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.055Z",
+      "lastScannedAt": "2026-06-28T18:05:16.357Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -27968,6 +28054,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/mrt-ubike-analysis/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/mrt-ubike-analysis/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "MetroBikeAtlas：捷運與共享單車都市移動分析平台 的已驗證 demo 錄影。",
           "en": "MetroBikeAtlas: Metro & Shared-Bike Urban Mobility Analytics verified demo recording."
@@ -28210,7 +28297,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.055Z",
+      "lastScannedAt": "2026-06-28T18:05:16.357Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28406,6 +28493,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/multi-ai-agents/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/multi-ai-agents/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Multi-AI Agents 多智能體遊戲生態系 的已驗證 demo 錄影。",
           "en": "Multi-AI Agents — Game Agent Ecosystem verified demo recording."
@@ -28653,7 +28741,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.055Z",
+      "lastScannedAt": "2026-06-28T18:05:16.358Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28857,7 +28945,7 @@
       "/projects/music-intelligence-platform/screenshots/03-detail-view.png",
       "/projects/music-intelligence-platform/screenshots/04-architecture-or-data-flow.png"
     ],
-    "videoUrl": "/portfolio/projects/music-intelligence-platform/demo-tour.webm",
+    "videoUrl": "/projects/music-intelligence-platform/videos/01-real-demo-tour.webm",
     "links": [
       {
         "kind": "github",
@@ -28869,7 +28957,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/music-intelligence-platform/demo-tour.webm",
+        "url": "/projects/music-intelligence-platform/videos/01-real-demo-tour.webm",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -28897,7 +28985,7 @@
         "id": "guided-demo-video",
         "type": "video",
         "src": "/portfolio/projects/music-intelligence-platform/demo-tour.webm",
-        "poster": "/portfolio/projects/music-intelligence-platform/cover.png",
+        "poster": "/portfolio/projects/music-intelligence-platform/posters/demo-tour.webp",
         "alt": {
           "zh-TW": "Music Intelligence Platform 的完整 Playwright 導覽錄影。",
           "en": "Full Playwright guided tour recording of Music Intelligence Platform."
@@ -29589,6 +29677,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/music-intelligence-platform/videos/01-real-demo-tour.webm",
+        "poster": "/projects/music-intelligence-platform/videos/posters/01-real-demo-tour.webp",
         "alt": {
           "zh-TW": "Music Intelligence Platform 的已驗證 demo 錄影。",
           "en": "Music Intelligence Platform verified demo recording."
@@ -29714,6 +29803,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/music-intelligence-platform/videos/02-real-demo-tour.webm",
+        "poster": "/projects/music-intelligence-platform/videos/posters/02-real-demo-tour.webp",
         "alt": {
           "zh-TW": "Music Intelligence Platform 的已驗證 demo 錄影。",
           "en": "Music Intelligence Platform verified demo recording."
@@ -29894,7 +29984,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.056Z",
+      "lastScannedAt": "2026-06-28T18:05:16.358Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -30066,6 +30156,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/my-3d-platformer/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/my-3d-platformer/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "My 3d Platformer 的已驗證 demo 錄影。",
           "en": "My 3d Platformer verified demo recording."
@@ -30252,7 +30343,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.057Z",
+      "lastScannedAt": "2026-06-28T18:05:16.359Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -30419,7 +30510,7 @@
       "/projects/news-web-crawler/screenshots/03-detail-view.png",
       "/projects/news-web-crawler/screenshots/04-architecture-or-data-flow.png"
     ],
-    "videoUrl": "/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+    "videoUrl": "/projects/news-web-crawler/videos/01-real-guided-tour.webm",
     "links": [
       {
         "kind": "github",
@@ -30439,7 +30530,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+        "url": "/projects/news-web-crawler/videos/01-real-guided-tour.webm",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -30459,7 +30550,7 @@
         "id": "guided-tour-video",
         "type": "video",
         "src": "/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
-        "poster": "/portfolio/projects/news-web-crawler/cover.png",
+        "poster": "/portfolio/projects/news-web-crawler/demo/posters/guided-tour.webp",
         "alt": {
           "zh-TW": "News Web Crawler 分析平台導覽錄影。",
           "en": "Guided walkthrough recording of the News Web Crawler analytics platform."
@@ -30740,6 +30831,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/news-web-crawler/videos/01-real-guided-tour.webm",
+        "poster": "/projects/news-web-crawler/videos/posters/01-real-guided-tour.webp",
         "alt": {
           "zh-TW": "新聞網路爬蟲與資料智慧平台 的已驗證 demo 錄影。",
           "en": "News Web Crawler & Data Intelligence Platform verified demo recording."
@@ -30865,6 +30957,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/news-web-crawler/videos/02-real-guided-tour.webm",
+        "poster": "/projects/news-web-crawler/videos/posters/02-real-guided-tour.webp",
         "alt": {
           "zh-TW": "新聞網路爬蟲與資料智慧平台 的已驗證 demo 錄影。",
           "en": "News Web Crawler & Data Intelligence Platform verified demo recording."
@@ -31099,7 +31192,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.057Z",
+      "lastScannedAt": "2026-06-28T18:05:16.360Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -31256,7 +31349,7 @@
       "/projects/nyc-taxi-mobility-analytics/screenshots/03-detail-view.png",
       "/projects/nyc-taxi-mobility-analytics/screenshots/04-architecture-or-data-flow.png"
     ],
-    "videoUrl": "/portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm",
+    "videoUrl": "/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
     "links": [
       {
         "kind": "github",
@@ -31268,7 +31361,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm",
+        "url": "/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -31296,7 +31389,7 @@
         "id": "guided-demo-video",
         "type": "video",
         "src": "/portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm",
-        "poster": "/portfolio/projects/nyc-taxi-mobility-analytics/cover.png",
+        "poster": "/portfolio/projects/nyc-taxi-mobility-analytics/demo/posters/demo-tour.webp",
         "alt": {
           "zh-TW": "NYC Taxi Mobility Analytics Platform 的完整 Playwright 導覽錄影。",
           "en": "Full Playwright guided tour recording of NYC Taxi Mobility Analytics Platform."
@@ -31458,6 +31551,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
+        "poster": "/projects/nyc-taxi-mobility-analytics/videos/posters/01-real-demo-tour.webp",
         "alt": {
           "zh-TW": "NYC Taxi Mobility Analytics Platform 的已驗證 demo 錄影。",
           "en": "NYC Taxi Mobility Analytics Platform verified demo recording."
@@ -31475,6 +31569,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/nyc-taxi-mobility-analytics/videos/02-real-demo-tour.webm",
+        "poster": "/projects/nyc-taxi-mobility-analytics/videos/posters/02-real-demo-tour.webp",
         "alt": {
           "zh-TW": "NYC Taxi Mobility Analytics Platform 的已驗證 demo 錄影。",
           "en": "NYC Taxi Mobility Analytics Platform verified demo recording."
@@ -31492,6 +31587,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/nyc-taxi-mobility-analytics/videos/playwright-local-dev-server.webm",
+        "poster": "/projects/nyc-taxi-mobility-analytics/videos/posters/playwright-local-dev-server.webp",
         "alt": {
           "zh-TW": "NYC Taxi Mobility Analytics Platform 的已驗證 demo 錄影。",
           "en": "NYC Taxi Mobility Analytics Platform verified demo recording."
@@ -31675,7 +31771,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.058Z",
+      "lastScannedAt": "2026-06-28T18:05:16.360Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -31839,7 +31935,7 @@
       "/projects/openalex-research-rag/screenshots/03-detail-view.png",
       "/projects/openalex-research-rag/screenshots/04-architecture-or-data-flow.png"
     ],
-    "videoUrl": "/portfolio/projects/openalex-research-rag/demo/openalex-demo.mp4",
+    "videoUrl": "/projects/openalex-research-rag/videos/01-real-openalex-demo.mp4",
     "videoEmbedUrl": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
     "links": [
       {
@@ -31888,7 +31984,7 @@
         "id": "openalex-demo-video",
         "type": "video",
         "src": "/portfolio/projects/openalex-research-rag/demo/openalex-demo.mp4",
-        "poster": "/portfolio/projects/openalex-research-rag/cover.png",
+        "poster": "/portfolio/projects/openalex-research-rag/demo/posters/openalex-demo.webp",
         "alt": {
           "zh-TW": "OpenAlex 研究智能平台完整操作錄影。",
           "en": "Full walkthrough recording of the OpenAlex Research Intelligence platform."
@@ -32119,6 +32215,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/openalex-research-rag/videos/01-real-openalex-demo.mp4",
+        "poster": "/projects/openalex-research-rag/videos/posters/01-real-openalex-demo.webp",
         "alt": {
           "zh-TW": "OpenAlex 學術研究智能平台 (RAG) 的已驗證 demo 錄影。",
           "en": "OpenAlex Research Intelligence (RAG) verified demo recording."
@@ -32244,6 +32341,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/openalex-research-rag/videos/02-real-demo.mp4",
+        "poster": "/projects/openalex-research-rag/videos/posters/02-real-demo.webp",
         "alt": {
           "zh-TW": "OpenAlex 學術研究智能平台 (RAG) 的已驗證 demo 錄影。",
           "en": "OpenAlex Research Intelligence (RAG) verified demo recording."
@@ -32462,7 +32560,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.059Z",
+      "lastScannedAt": "2026-06-28T18:05:16.361Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -32658,6 +32756,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/openclaw-multimodal-stack/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/openclaw-multimodal-stack/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "OpenClaw 多模態整合堆疊 的已驗證 demo 錄影。",
           "en": "OpenClaw Multimodal Stack verified demo recording."
@@ -32890,7 +32989,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.059Z",
+      "lastScannedAt": "2026-06-28T18:05:16.362Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -33073,6 +33172,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/platformer-game/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/platformer-game/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Platformer Game 的已驗證 demo 錄影。",
           "en": "Platformer Game verified demo recording."
@@ -33253,7 +33353,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.060Z",
+      "lastScannedAt": "2026-06-28T18:05:16.363Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -33533,6 +33633,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/poker-ai-arena/videos/01-real-demo-walkthrough.mp4",
+        "poster": "/projects/poker-ai-arena/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Poker AI Arena 的已驗證 demo 錄影。",
           "en": "Poker AI Arena verified demo recording."
@@ -33550,6 +33651,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/poker-ai-arena/videos/02-real-demo-walkthrough.webm",
+        "poster": "/projects/poker-ai-arena/videos/posters/02-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Poker AI Arena 的已驗證 demo 錄影。",
           "en": "Poker AI Arena verified demo recording."
@@ -33720,7 +33822,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.060Z",
+      "lastScannedAt": "2026-06-28T18:05:16.363Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -33912,6 +34014,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/poker-ai-web/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/poker-ai-web/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Poker AI Web 撲克對局 AI 平台 的已驗證 demo 錄影。",
           "en": "Poker AI Web — Learning Card-Game AI Platform verified demo recording."
@@ -34149,7 +34252,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.060Z",
+      "lastScannedAt": "2026-06-28T18:05:16.363Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -34375,6 +34478,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/prism-runner-3d/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/prism-runner-3d/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Prism Runner 3d 的已驗證 demo 錄影。",
           "en": "Prism Runner 3d verified demo recording."
@@ -34547,7 +34651,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.061Z",
+      "lastScannedAt": "2026-06-28T18:05:16.364Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -34743,6 +34847,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/procedural-3d-maze/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/procedural-3d-maze/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "程序生成 3D 迷宮 的已驗證 demo 錄影。",
           "en": "Procedural 3D Maze verified demo recording."
@@ -34984,7 +35089,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.061Z",
+      "lastScannedAt": "2026-06-28T18:05:16.364Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -35212,6 +35317,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/procedural-dungeon-crawler/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/procedural-dungeon-crawler/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Procedural Dungeon Crawler 的已驗證 demo 錄影。",
           "en": "Procedural Dungeon Crawler verified demo recording."
@@ -35402,7 +35508,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.062Z",
+      "lastScannedAt": "2026-06-28T18:05:16.365Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -35587,6 +35693,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/projectmind/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/projectmind/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Projectmind 的已驗證 demo 錄影。",
           "en": "Projectmind verified demo recording."
@@ -35752,7 +35859,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.062Z",
+      "lastScannedAt": "2026-06-28T18:05:16.365Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -35944,6 +36051,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/quant-strategy-agent-lab/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/quant-strategy-agent-lab/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Quant Strategy Agent Lab 量化策略 Agent 實驗室 的已驗證 demo 錄影。",
           "en": "Quant Strategy Agent Lab verified demo recording."
@@ -36181,7 +36289,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.062Z",
+      "lastScannedAt": "2026-06-28T18:05:16.365Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -36389,6 +36497,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/r3f-rpg-builder/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/r3f-rpg-builder/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "R3f RPG Builder 的已驗證 demo 錄影。",
           "en": "R3f RPG Builder verified demo recording."
@@ -36561,7 +36670,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.063Z",
+      "lastScannedAt": "2026-06-28T18:05:16.366Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -36756,6 +36865,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/recsys-benchmark-suite/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/recsys-benchmark-suite/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "推薦系統基準測試套件 的已驗證 demo 錄影。",
           "en": "Recommendation Benchmark Suite verified demo recording."
@@ -37013,7 +37123,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.064Z",
+      "lastScannedAt": "2026-06-28T18:05:16.366Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -37278,6 +37388,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/research-paper-and-knowledge-workspace/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/research-paper-and-knowledge-workspace/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Research Paper & Knowledge Workspace 的已驗證 demo 錄影。",
           "en": "Research Paper & Knowledge Workspace verified demo recording."
@@ -37518,7 +37629,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.064Z",
+      "lastScannedAt": "2026-06-28T18:05:16.367Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -37684,7 +37795,7 @@
       "/projects/restoreAI-studio/screenshots/04-architecture-or-data-flow.png",
       "/projects/restoreAI-studio/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/restoreAI-studio/demo/demo-tour.webm",
+    "videoUrl": "/projects/restoreAI-studio/videos/01-real-demo-tour.webm",
     "links": [
       {
         "kind": "live",
@@ -37697,7 +37808,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/restoreAI-studio/demo/demo-tour.webm",
+        "url": "/projects/restoreAI-studio/videos/01-real-demo-tour.webm",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -37725,7 +37836,7 @@
         "id": "demo-tour-video",
         "type": "video",
         "src": "/portfolio/projects/restoreAI-studio/demo/demo-tour.webm",
-        "poster": "/portfolio/projects/restoreAI-studio/cover.webp",
+        "poster": "/portfolio/projects/restoreAI-studio/demo/posters/demo-tour.webp",
         "alt": {
           "zh-TW": "RestorAI Studio 互動修復工作台導覽錄影。",
           "en": "RestorAI Studio interactive restoration workbench demo recording."
@@ -37868,6 +37979,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/restoreAI-studio/videos/01-real-demo-tour.webm",
+        "poster": "/projects/restoreAI-studio/videos/posters/01-real-demo-tour.webp",
         "alt": {
           "zh-TW": "RestorAI Studio — AI 影像修復與超解析展示工作台 的已驗證 demo 錄影。",
           "en": "RestorAI Studio — AI Image Restoration Portfolio Workbench verified demo recording."
@@ -37957,6 +38069,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/restoreAI-studio/videos/02-real-demo-tour.webm",
+        "poster": "/projects/restoreAI-studio/videos/posters/02-real-demo-tour.webp",
         "alt": {
           "zh-TW": "RestorAI Studio — AI 影像修復與超解析展示工作台 的已驗證 demo 錄影。",
           "en": "RestorAI Studio — AI Image Restoration Portfolio Workbench verified demo recording."
@@ -37974,6 +38087,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/restoreAI-studio/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/restoreAI-studio/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "RestorAI Studio — AI 影像修復與超解析展示工作台 的已驗證 demo 錄影。",
           "en": "RestorAI Studio — AI Image Restoration Portfolio Workbench verified demo recording."
@@ -38226,7 +38340,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.065Z",
+      "lastScannedAt": "2026-06-28T18:05:16.367Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -38400,7 +38514,7 @@
       "/projects/retailpulse-bi-recommender/screenshots/03-detail-view.png",
       "/projects/retailpulse-bi-recommender/screenshots/04-architecture-or-data-flow.png"
     ],
-    "videoUrl": "/portfolio/projects/retailpulse-bi-recommender/demo/full-verification.webm",
+    "videoUrl": "/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
     "links": [
       {
         "kind": "github",
@@ -38412,7 +38526,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/retailpulse-bi-recommender/demo/full-verification.webm",
+        "url": "/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -38448,7 +38562,7 @@
         "id": "full-verification-video",
         "type": "video",
         "src": "/portfolio/projects/retailpulse-bi-recommender/demo/full-verification.webm",
-        "poster": "/portfolio/projects/retailpulse-bi-recommender/screenshots/01-dashboard.png",
+        "poster": "/portfolio/projects/retailpulse-bi-recommender/demo/posters/full-verification.webp",
         "alt": {
           "zh-TW": "RetailPulse BI Recommender 的完整 Playwright 驗證錄影。",
           "en": "Full Playwright verification recording of RetailPulse BI Recommender."
@@ -38679,6 +38793,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
+        "poster": "/projects/retailpulse-bi-recommender/videos/posters/01-real-full-verification.webp",
         "alt": {
           "zh-TW": "RetailPulse 零售 BI 與推薦平台 的已驗證 demo 錄影。",
           "en": "RetailPulse BI & Recommendation Platform verified demo recording."
@@ -39041,7 +39156,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.066Z",
+      "lastScannedAt": "2026-06-28T18:05:16.368Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -39229,6 +39344,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/rigview3d/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/rigview3d/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Rigview3d 的已驗證 demo 錄影。",
           "en": "Rigview3d verified demo recording."
@@ -39411,7 +39527,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.066Z",
+      "lastScannedAt": "2026-06-28T18:05:16.369Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -39599,6 +39715,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/rocm-image-video-stack/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/rocm-image-video-stack/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "ROCm 影像／影片 AI 生成技術棧 的已驗證 demo 錄影。",
           "en": "ROCm Image & Video AI Generation Stack verified demo recording."
@@ -39836,7 +39953,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.067Z",
+      "lastScannedAt": "2026-06-28T18:05:16.369Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -40045,6 +40162,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/runner-inspired-3d/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/runner-inspired-3d/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "3D Rushy Runner 的已驗證 demo 錄影。",
           "en": "3D Rushy Runner verified demo recording."
@@ -40221,7 +40339,7 @@
         "content/projects/runner-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.067Z",
+      "lastScannedAt": "2026-06-28T18:05:16.370Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -40420,6 +40538,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/sailing-adventure/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/sailing-adventure/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Sailing Adventure 的已驗證 demo 錄影。",
           "en": "Sailing Adventure verified demo recording."
@@ -40610,7 +40729,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.067Z",
+      "lastScannedAt": "2026-06-28T18:05:16.370Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -40791,6 +40910,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/school-library-lms/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/school-library-lms/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "School Library Lms 的已驗證 demo 錄影。",
           "en": "School Library Lms verified demo recording."
@@ -40949,7 +41069,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.068Z",
+      "lastScannedAt": "2026-06-28T18:05:16.371Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -41125,6 +41245,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/scrapers/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/scrapers/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Scrapers 的已驗證 demo 錄影。",
           "en": "Scrapers verified demo recording."
@@ -41284,7 +41405,7 @@
         "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.068Z",
+      "lastScannedAt": "2026-06-28T18:05:16.373Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -41454,7 +41575,7 @@
       "/projects/sd-multimodal-platform/screenshots/04-architecture-or-data-flow.png",
       "/projects/sd-multimodal-platform/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/sd-multimodal-platform/demo/demo-walkthrough.webm",
+    "videoUrl": "/projects/sd-multimodal-platform/videos/01-real-demo-walkthrough.webm",
     "links": [
       {
         "kind": "live",
@@ -41483,10 +41604,10 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/sd-multimodal-platform/demo/demo-walkthrough.webm",
+        "url": "/projects/sd-multimodal-platform/videos/01-real-demo-walkthrough.webm",
         "label": {
-          "zh-TW": "觀看 Demo 錄影",
-          "en": "Watch Demo Video"
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
         }
       }
     ],
@@ -41495,7 +41616,7 @@
         "id": "demo-walkthrough",
         "type": "video",
         "src": "/portfolio/projects/sd-multimodal-platform/demo/demo-walkthrough.webm",
-        "poster": "/portfolio/projects/sd-multimodal-platform/screenshots/02-generated-result-desktop.png",
+        "poster": "/portfolio/projects/sd-multimodal-platform/demo/posters/demo-walkthrough.webp",
         "alt": {
           "zh-TW": "SD Multi-Modal Platform demo 錄影，展示 prompt workbench、mock generation、architecture 與 runbook。",
           "en": "SD Multi-Modal Platform demo walkthrough showing the prompt workbench, mock generation, architecture, and runbook."
@@ -41638,6 +41759,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/sd-multimodal-platform/videos/01-real-demo-walkthrough.webm",
+        "poster": "/projects/sd-multimodal-platform/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "SD Multi-Modal Platform：可展示的 Stable Diffusion 多模態平台 的已驗證 demo 錄影。",
           "en": "SD Multi-Modal Platform: Portfolio-Ready Stable Diffusion Platform verified demo recording."
@@ -41763,6 +41885,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/sd-multimodal-platform/videos/02-real-demo-walkthrough.webm",
+        "poster": "/projects/sd-multimodal-platform/videos/posters/02-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "SD Multi-Modal Platform：可展示的 Stable Diffusion 多模態平台 的已驗證 demo 錄影。",
           "en": "SD Multi-Modal Platform: Portfolio-Ready Stable Diffusion Platform verified demo recording."
@@ -41780,6 +41903,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/sd-multimodal-platform/videos/03-real-demo-walkthrough.webm",
+        "poster": "/projects/sd-multimodal-platform/videos/posters/03-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "SD Multi-Modal Platform：可展示的 Stable Diffusion 多模態平台 的已驗證 demo 錄影。",
           "en": "SD Multi-Modal Platform: Portfolio-Ready Stable Diffusion Platform verified demo recording."
@@ -41797,6 +41921,7 @@
         "id": "quality-video-4",
         "type": "video",
         "src": "/projects/sd-multimodal-platform/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/sd-multimodal-platform/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "SD Multi-Modal Platform：可展示的 Stable Diffusion 多模態平台 的已驗證 demo 錄影。",
           "en": "SD Multi-Modal Platform: Portfolio-Ready Stable Diffusion Platform verified demo recording."
@@ -42061,7 +42186,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.069Z",
+      "lastScannedAt": "2026-06-28T18:05:16.374Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -42292,6 +42417,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/signal-diver-3d/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/signal-diver-3d/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Signal Diver 3d 的已驗證 demo 錄影。",
           "en": "Signal Diver 3d verified demo recording."
@@ -42484,7 +42610,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.070Z",
+      "lastScannedAt": "2026-06-28T18:05:16.374Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -42678,6 +42804,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/starforge-AI-narrative/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/starforge-AI-narrative/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Starforge AI 敘事遊戲 的已驗證 demo 錄影。",
           "en": "Starforge AI Narrative verified demo recording."
@@ -42912,7 +43039,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.070Z",
+      "lastScannedAt": "2026-06-28T18:05:16.375Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -43104,6 +43231,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/text2sql-evaluation-harness/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/text2sql-evaluation-harness/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Text2SQL 評估框架 的已驗證 demo 錄影。",
           "en": "Text2SQL Evaluation Harness verified demo recording."
@@ -43354,7 +43482,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.070Z",
+      "lastScannedAt": "2026-06-28T18:05:16.375Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -43583,6 +43711,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/the-archive-that-watches-you/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/the-archive-that-watches-you/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "The Archive That Watches You 的已驗證 demo 錄影。",
           "en": "The Archive That Watches You verified demo recording."
@@ -43775,7 +43904,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.071Z",
+      "lastScannedAt": "2026-06-28T18:05:16.376Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -43951,6 +44080,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/the-classrooms/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/the-classrooms/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "The Classrooms 的已驗證 demo 錄影。",
           "en": "The Classrooms verified demo recording."
@@ -44133,7 +44263,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.071Z",
+      "lastScannedAt": "2026-06-28T18:05:16.376Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44312,6 +44442,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/threejs-product-viewer/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/threejs-product-viewer/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Threejs Product Viewer 的已驗證 demo 錄影。",
           "en": "Threejs Product Viewer verified demo recording."
@@ -44474,7 +44605,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.071Z",
+      "lastScannedAt": "2026-06-28T18:05:16.377Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44767,6 +44898,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/traffic-pulse/videos/playwright-portfolio-case-study.webm",
+        "poster": "/projects/traffic-pulse/videos/posters/playwright-portfolio-case-study.webp",
         "alt": {
           "zh-TW": "Traffic Pulse 的已驗證 demo 錄影。",
           "en": "Traffic Pulse verified demo recording."
@@ -44925,7 +45057,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.072Z",
+      "lastScannedAt": "2026-06-28T18:05:16.377Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -45117,6 +45249,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/tripscore/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/tripscore/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "TripScore 可解釋旅遊目的地評分推薦系統 的已驗證 demo 錄影。",
           "en": "TripScore: Explainable Destination Scoring & Recommendation verified demo recording."
@@ -45358,7 +45491,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.073Z",
+      "lastScannedAt": "2026-06-28T18:05:16.377Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -45554,6 +45687,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/urban-analytics-core/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/urban-analytics-core/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "urban-analytics-core 都市分析共用核心 的已驗證 demo 錄影。",
           "en": "urban-analytics-core verified demo recording."
@@ -45801,7 +45935,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.073Z",
+      "lastScannedAt": "2026-06-28T18:05:16.378Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -45992,6 +46126,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/vanilla-dom-playground/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/vanilla-dom-playground/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Vanilla DOM Playground 原生 DOM 練習場 的已驗證 demo 錄影。",
           "en": "Vanilla DOM Playground verified demo recording."
@@ -46219,7 +46354,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.074Z",
+      "lastScannedAt": "2026-06-28T18:05:16.378Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46389,7 +46524,7 @@
       "/projects/video-family-lora-hub/screenshots/04-architecture-or-data-flow.png",
       "/projects/video-family-lora-hub/screenshots/01-live-demo-real.png"
     ],
-    "videoUrl": "/portfolio/projects/video-family-lora-hub/demo/demo-walkthrough.webm",
+    "videoUrl": "/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
     "links": [
       {
         "kind": "live",
@@ -46402,7 +46537,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/video-family-lora-hub/demo/demo-walkthrough.webm",
+        "url": "/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -46430,7 +46565,7 @@
         "id": "demo-walkthrough",
         "type": "video",
         "src": "/portfolio/projects/video-family-lora-hub/demo/demo-walkthrough.webm",
-        "poster": "/portfolio/projects/video-family-lora-hub/cover.png",
+        "poster": "/portfolio/projects/video-family-lora-hub/demo/posters/demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Video Family LoRA Hub 的 mock-safe demo 錄影。",
           "en": "Mock-safe demo recording of Video Family LoRA Hub."
@@ -46608,6 +46743,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
+        "poster": "/projects/video-family-lora-hub/videos/posters/01-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Video Family LoRA Hub 的已驗證 demo 錄影。",
           "en": "Video Family LoRA Hub verified demo recording."
@@ -46733,6 +46869,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/video-family-lora-hub/videos/02-real-demo-walkthrough.webm",
+        "poster": "/projects/video-family-lora-hub/videos/posters/02-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Video Family LoRA Hub 的已驗證 demo 錄影。",
           "en": "Video Family LoRA Hub verified demo recording."
@@ -46750,6 +46887,7 @@
         "id": "quality-video-3",
         "type": "video",
         "src": "/projects/video-family-lora-hub/videos/03-real-demo-walkthrough.webm",
+        "poster": "/projects/video-family-lora-hub/videos/posters/03-real-demo-walkthrough.webp",
         "alt": {
           "zh-TW": "Video Family LoRA Hub 的已驗證 demo 錄影。",
           "en": "Video Family LoRA Hub verified demo recording."
@@ -46767,6 +46905,7 @@
         "id": "quality-video-4",
         "type": "video",
         "src": "/projects/video-family-lora-hub/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/video-family-lora-hub/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "Video Family LoRA Hub 的已驗證 demo 錄影。",
           "en": "Video Family LoRA Hub verified demo recording."
@@ -47021,7 +47160,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.074Z",
+      "lastScannedAt": "2026-06-28T18:05:16.379Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47214,6 +47353,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/video-gen/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/video-gen/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "video-gen：ROCm 影片生成環境治理工作區 的已驗證 demo 錄影。",
           "en": "video-gen: ROCm Video-Gen Environment Governance Workspace verified demo recording."
@@ -47442,7 +47582,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.075Z",
+      "lastScannedAt": "2026-06-28T18:05:16.379Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47749,6 +47889,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/vision-quest/videos/01-real-demo-tour.webm",
+        "poster": "/projects/vision-quest/videos/posters/01-real-demo-tour.webp",
         "alt": {
           "zh-TW": "VisionQuest 多模態 AI 平台 的已驗證 demo 錄影。",
           "en": "VisionQuest Multi-Modal AI Platform verified demo recording."
@@ -47766,6 +47907,7 @@
         "id": "quality-video-2",
         "type": "video",
         "src": "/projects/vision-quest/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/vision-quest/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "VisionQuest 多模態 AI 平台 的已驗證 demo 錄影。",
           "en": "VisionQuest Multi-Modal AI Platform verified demo recording."
@@ -48003,7 +48145,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.075Z",
+      "lastScannedAt": "2026-06-28T18:05:16.380Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -48198,6 +48340,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/YouTube-Web-Automation-Analysis/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/YouTube-Web-Automation-Analysis/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "YouTube 網路自動化分析平台 的已驗證 demo 錄影。",
           "en": "YouTube Web Automation & Analysis Platform verified demo recording."
@@ -48447,7 +48590,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.076Z",
+      "lastScannedAt": "2026-06-28T18:05:16.380Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -48641,6 +48784,7 @@
         "id": "quality-video-1",
         "type": "video",
         "src": "/projects/ytp-factory/videos/playwright-external-live-demo.webm",
+        "poster": "/projects/ytp-factory/videos/posters/playwright-external-live-demo.webp",
         "alt": {
           "zh-TW": "YTP Factory — AI 驅動的影片自動化生產工廠 的已驗證 demo 錄影。",
           "en": "YTP Factory — AI-Driven Video Automation Factory verified demo recording."
@@ -48891,7 +49035,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T17:38:01.076Z",
+      "lastScannedAt": "2026-06-28T18:05:16.380Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",

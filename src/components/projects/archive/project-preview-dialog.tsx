@@ -27,6 +27,11 @@ import {
   getProjectActionLinks,
 } from "@/lib/project-links";
 import {
+  getMediaPreviewSource,
+  getProjectPreviewMedia,
+  getPrimaryImageMedia,
+} from "@/lib/project-media";
+import {
   withBasePath,
 } from "@/lib/site-assets";
 
@@ -180,11 +185,9 @@ function PreviewContent({
     );
 
   const featuredMedia =
-    project.media.find(
-      (item) =>
-        item.featured
-    ) ??
-    project.media[0];
+    getProjectPreviewMedia(project);
+  const fallbackPoster =
+    getPrimaryImageMedia(project.media)?.src;
 
   const features =
     content.features ?? [];
@@ -217,7 +220,7 @@ function PreviewContent({
             preload="metadata"
             poster={
               withBasePath(
-                featuredMedia.poster
+                getMediaPreviewSource(featuredMedia, fallbackPoster)
               )
             }
             className="h-full w-full object-cover"

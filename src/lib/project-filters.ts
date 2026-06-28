@@ -40,6 +40,27 @@ const pinnedProjectSlugs = [
   "lyrics-cultural-analytics-lab",
 ];
 
+const fixedFeaturedSortSlugs = [
+  "dcard-trending-crawler",
+  "ir-rag-evaluation-lab",
+  "agentic-bi-dataops-copilot",
+  "nyc-taxi-mobility-analytics",
+  "openalex-research-rag",
+  "music-intelligence-platform",
+  "lyrics-cultural-analytics-lab",
+  "2d-animation-lora-pipeline",
+  "3d-animation-lora-pipeline",
+  "3d-maze-explorer",
+  "3d-platformer-runner",
+  "ai-3d-studio",
+  "ai-game-website",
+  "ai-knowledge-workspace",
+  "amazon-review-intelligence",
+  "animation-ai-studio",
+  "anime-adventure-lab",
+  "aqua-rush",
+];
+
 export interface FacetOption {
   value: string;
   label: string;
@@ -50,6 +71,28 @@ export interface YearBounds {
   min: number;
   max: number;
 }
+
+export const projectTypeGroups = [
+  "AI / Data Platforms",
+  "RAG / Search",
+  "BI / Analytics",
+  "Data Engineering / Crawlers",
+  "Generative AI Media",
+  "3D / Interactive",
+  "Games / Simulation",
+  "Frontend / Web UI",
+  "Full-Stack Web Apps",
+  "Desktop / Cross-platform",
+  "Backend / API / CLI",
+  "Automation / Scraping",
+  "Learning Labs",
+  "Library / Knowledge Systems",
+  "Infrastructure / DevOps",
+  "Portfolio / Case Study",
+] as const;
+
+export type ProjectTypeGroup =
+  (typeof projectTypeGroups)[number];
 
 export interface FilterState {
   q: string;
@@ -238,32 +281,8 @@ export function serializeFilterState(
   appendAll(params, "category", normalized.categories);
   appendAll(params, "status", normalized.statuses);
   appendAll(params, "technology", normalized.technologies);
-  appendAll(params, "language", normalized.languages);
-  appendAll(params, "framework", normalized.frameworks);
-  appendAll(params, "platform", normalized.platforms);
-  appendAll(params, "database", normalized.databases);
-  appendAll(params, "capability", normalized.capabilities);
   appendAll(params, "projectType", normalized.projectTypes);
-  appendAll(params, "domain", normalized.domains);
-  appendAll(params, "subject", normalized.subjects);
-  appendAll(params, "keyword", normalized.keywords);
-  appendAll(params, "audience", normalized.audiences);
-  appendAll(params, "contentType", normalized.contentTypes);
-  appendAll(params, "dataType", normalized.dataTypes);
-  appendAll(params, "role", normalized.roles);
   appendAll(params, "has", normalized.has);
-
-  if (normalized.fromYear !== yearBounds.min) {
-    params.set("from", String(normalized.fromYear));
-  }
-
-  if (normalized.toYear !== yearBounds.max) {
-    params.set("to", String(normalized.toYear));
-  }
-
-  if (normalized.updatedPreset !== "any") {
-    params.set("updated", normalized.updatedPreset);
-  }
 
   if (normalized.sort !== "featured") {
     params.set("sort", normalized.sort);
@@ -280,11 +299,6 @@ export function normalizeFilterState(
   filters: FilterState,
   yearBounds: YearBounds
 ): FilterState {
-  const fromYear =
-    clampYear(filters.fromYear, yearBounds);
-  const toYear =
-    clampYear(filters.toYear, yearBounds);
-
   return {
     ...filters,
     q: filters.q,
@@ -295,24 +309,27 @@ export function normalizeFilterState(
       projectStatuses.includes(value)
     ),
     technologies: uniqueValues(filters.technologies),
-    languages: uniqueValues(filters.languages),
-    frameworks: uniqueValues(filters.frameworks),
-    platforms: uniqueValues(filters.platforms),
-    databases: uniqueValues(filters.databases),
-    capabilities: uniqueValues(filters.capabilities),
-    projectTypes: uniqueValues(filters.projectTypes),
-    domains: uniqueValues(filters.domains),
-    subjects: uniqueValues(filters.subjects),
-    keywords: uniqueValues(filters.keywords),
-    audiences: uniqueValues(filters.audiences),
-    contentTypes: uniqueValues(filters.contentTypes),
-    dataTypes: uniqueValues(filters.dataTypes),
-    roles: uniqueValues(filters.roles),
+    languages: [],
+    frameworks: [],
+    platforms: [],
+    databases: [],
+    capabilities: [],
+    projectTypes: uniqueValues(filters.projectTypes).filter((value) =>
+      projectTypeGroups.includes(value as ProjectTypeGroup)
+    ),
+    domains: [],
+    subjects: [],
+    keywords: [],
+    audiences: [],
+    contentTypes: [],
+    dataTypes: [],
+    roles: [],
     has: uniqueValues(filters.has).filter((value) =>
       hasFacetValues.includes(value)
     ),
-    fromYear: Math.min(fromYear, toYear),
-    toYear: Math.max(fromYear, toYear),
+    fromYear: yearBounds.min,
+    toYear: yearBounds.max,
+    updatedPreset: "any",
   };
 }
 
@@ -388,6 +405,7 @@ export function applyProjectFilters(
         ...project.metadata.capabilities,
         ...project.metadata.keywords,
         ...project.metadata.platforms,
+        getProjectTypeGroup(project),
         ...(project.metadata.languages ?? []),
         ...(project.metadata.frameworks ?? []),
         ...(project.metadata.database ?? []),
@@ -401,23 +419,8 @@ export function applyProjectFilters(
         includesAny([project.category], filters.categories) &&
         includesAny([project.status], filters.statuses) &&
         includesAny(project.technologies, filters.technologies) &&
-        includesAny(project.metadata.languages ?? [], filters.languages) &&
-        includesAny(project.metadata.frameworks ?? [], filters.frameworks) &&
-        includesAny(project.metadata.platforms ?? [], filters.platforms) &&
-        includesAny(project.metadata.database ?? [], filters.databases) &&
-        includesAny(project.metadata.capabilities ?? [], filters.capabilities) &&
-        includesAny(project.metadata.projectType ? [project.metadata.projectType] : [], filters.projectTypes) &&
-        includesAny(project.metadata.domains ?? [], filters.domains) &&
-        includesAny(project.metadata.subjects ?? [], filters.subjects) &&
-        includesAny(project.metadata.keywords ?? [], filters.keywords) &&
-        includesAny(project.metadata.audiences ?? [], filters.audiences) &&
-        includesAny(project.metadata.contentTypes ?? [], filters.contentTypes) &&
-        includesAny(project.metadata.dataTypes ?? [], filters.dataTypes) &&
-        includesAny(project.metadata.roles ?? [], filters.roles) &&
+        includesAny([getProjectTypeGroup(project)], filters.projectTypes) &&
         matchesHas(project, filters.has) &&
-        project.year >= filters.fromYear &&
-        project.year <= filters.toYear &&
-        matchesUpdatedPreset(project.metadata.updatedAt, filters.updatedPreset) &&
         (normalized.length === 0 || searchableText.includes(normalized))
       );
     })
@@ -428,13 +431,13 @@ export function applyProjectFilters(
 
 export function buildFacetOptions(projects: Project[]) {
   return {
-    technologies: countOptions(projects.flatMap((project) => project.technologies)),
+    technologies: countOptions(projects.flatMap((project) => project.technologies)).slice(0, 20),
     languages: countOptions(projects.flatMap((project) => project.metadata.languages ?? [])),
     frameworks: countOptions(projects.flatMap((project) => project.metadata.frameworks ?? [])),
     platforms: countOptions(projects.flatMap((project) => project.metadata.platforms ?? [])),
     databases: countOptions(projects.flatMap((project) => project.metadata.database ?? [])),
     capabilities: countOptions(projects.flatMap((project) => project.metadata.capabilities ?? [])),
-    projectTypes: countOptions(projects.flatMap((project) => project.metadata.projectType ? [project.metadata.projectType] : [])),
+    projectTypes: countOptions(projects.map((project) => getProjectTypeGroup(project))),
     domains: countOptions(projects.flatMap((project) => project.metadata.domains ?? [])),
     subjects: countOptions(projects.flatMap((project) => project.metadata.subjects ?? [])),
     keywords: countOptions(projects.flatMap((project) => project.metadata.keywords ?? [])),
@@ -443,6 +446,130 @@ export function buildFacetOptions(projects: Project[]) {
     dataTypes: countOptions(projects.flatMap((project) => project.metadata.dataTypes ?? [])),
     roles: countOptions(projects.flatMap((project) => project.metadata.roles ?? [])),
   };
+}
+
+export function getProjectTypeGroup(project: Project): ProjectTypeGroup {
+  const terms = [
+    project.category,
+    project.metadata.projectType,
+    ...project.technologies,
+    ...project.metadata.domains,
+    ...project.metadata.capabilities,
+    ...project.metadata.keywords,
+    ...project.metadata.platforms,
+    ...(project.metadata.frameworks ?? []),
+    ...(project.metadata.backend ?? []),
+    ...(project.metadata.threeD ?? []),
+    ...(project.metadata.desktop ?? []),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+  if (matchesTerms(terms, ["rag", "retrieval", "search", "information retrieval", "bm25", "faiss", "text2sql"])) {
+    return "RAG / Search";
+  }
+
+  if (matchesTerms(terms, ["business intelligence", "bi", "analytics", "analysis", "dashboard", "forecast", "recommendation"])) {
+    return "BI / Analytics";
+  }
+
+  if (matchesTerms(terms, ["crawler", "scraper", "scraping", "pipeline", "etl", "data engineering", "data-platform"])) {
+    return "Data Engineering / Crawlers";
+  }
+
+  if (matchesTerms(terms, ["diffusion", "lora", "comfyui", "video generation", "image restoration", "generative ai", "sd-", "stable diffusion"])) {
+    return "Generative AI Media";
+  }
+
+  if (matchesTerms(terms, ["game", "rpg", "platformer", "simulation", "phaser", "arena"])) {
+    return "Games / Simulation";
+  }
+
+  if (project.category === "interactive-3d" || matchesTerms(terms, ["three.js", "threejs", "react three fiber", "3d", "webgl", "blender"])) {
+    return "3D / Interactive";
+  }
+
+  if (project.category === "backend-desktop" || matchesTerms(terms, ["desktop", "cross-platform", "avalonia", "qt", "pos", "gis", "native"])) {
+    return "Desktop / Cross-platform";
+  }
+
+  if (matchesTerms(terms, ["automation", "bot", "youtube", "discord", "factory"])) {
+    return "Automation / Scraping";
+  }
+
+  if (matchesTerms(terms, ["learning", "course", "curriculum", "intro-to", "lab"])) {
+    return "Learning Labs";
+  }
+
+  if (matchesTerms(terms, ["library", "archive", "knowledge", "metadata", "lms", "catalog", "heritage"])) {
+    return "Library / Knowledge Systems";
+  }
+
+  if (matchesTerms(terms, ["devops", "infrastructure", "environment", "rocm", "gpu", "deployment", "docker"])) {
+    return "Infrastructure / DevOps";
+  }
+
+  if (matchesTerms(terms, ["portfolio", "case study", "demo platform"])) {
+    return "Portfolio / Case Study";
+  }
+
+  if (matchesTerms(terms, ["fastapi", "api", "cli", "backend", "server"])) {
+    return "Backend / API / CLI";
+  }
+
+  if (matchesTerms(terms, ["full-stack", "fullstack", "next.js", "react", "vite", "web application", "web-app"])) {
+    return "Full-Stack Web Apps";
+  }
+
+  if (project.category === "frontend" || matchesTerms(terms, ["frontend", "ui", "tailwind", "vanilla javascript"])) {
+    return "Frontend / Web UI";
+  }
+
+  return "AI / Data Platforms";
+}
+
+export function getProjectTypeGroupLabel(value: string, locale: PortfolioLocale) {
+  const labels: Record<PortfolioLocale, Record<ProjectTypeGroup, string>> = {
+    en: {
+      "AI / Data Platforms": "AI / Data Platforms",
+      "RAG / Search": "RAG / Search",
+      "BI / Analytics": "BI / Analytics",
+      "Data Engineering / Crawlers": "Data Engineering / Crawlers",
+      "Generative AI Media": "Generative AI Media",
+      "3D / Interactive": "3D / Interactive",
+      "Games / Simulation": "Games / Simulation",
+      "Frontend / Web UI": "Frontend / Web UI",
+      "Full-Stack Web Apps": "Full-Stack Web Apps",
+      "Desktop / Cross-platform": "Desktop / Cross-platform",
+      "Backend / API / CLI": "Backend / API / CLI",
+      "Automation / Scraping": "Automation / Scraping",
+      "Learning Labs": "Learning Labs",
+      "Library / Knowledge Systems": "Library / Knowledge Systems",
+      "Infrastructure / DevOps": "Infrastructure / DevOps",
+      "Portfolio / Case Study": "Portfolio / Case Study",
+    },
+    "zh-TW": {
+      "AI / Data Platforms": "AI / 資料平台",
+      "RAG / Search": "RAG / 搜尋檢索",
+      "BI / Analytics": "BI / 分析儀表板",
+      "Data Engineering / Crawlers": "資料工程 / 爬蟲",
+      "Generative AI Media": "生成式 AI 影音",
+      "3D / Interactive": "3D / 互動體驗",
+      "Games / Simulation": "遊戲 / 模擬",
+      "Frontend / Web UI": "前端 / Web UI",
+      "Full-Stack Web Apps": "全端 Web 應用",
+      "Desktop / Cross-platform": "桌面 / 跨平台",
+      "Backend / API / CLI": "後端 / API / CLI",
+      "Automation / Scraping": "自動化 / 擷取",
+      "Learning Labs": "學習實驗室",
+      "Library / Knowledge Systems": "圖資 / 知識系統",
+      "Infrastructure / DevOps": "基礎設施 / DevOps",
+      "Portfolio / Case Study": "作品集 / 案例頁",
+    },
+  };
+
+  return labels[locale][value as ProjectTypeGroup] ?? value;
 }
 
 export function projectMatchesHas(project: Project, value: HasFacet) {
@@ -546,19 +673,8 @@ function includesAny(source: string[], selected: string[]) {
   return selected.some((value) => sourceSet.has(value.toLowerCase()));
 }
 
-function matchesUpdatedPreset(updatedAt: string, preset: UpdatedPreset) {
-  if (preset === "any") {
-    return true;
-  }
-
-  const updatedTime = new Date(updatedAt).getTime();
-  if (!Number.isFinite(updatedTime)) {
-    return false;
-  }
-
-  const days = preset === "30d" ? 30 : preset === "90d" ? 90 : 365;
-  const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
-  return updatedTime >= cutoff;
+function matchesTerms(source: string, terms: string[]) {
+  return terms.some((term) => source.includes(term));
 }
 
 function sortProjects(
@@ -567,12 +683,20 @@ function sortProjects(
   sort: ProjectSort,
   locale: PortfolioLocale
 ) {
-  const priorityDelta =
-    getPinnedProjectRank(a) -
-    getPinnedProjectRank(b);
+  if (sort === "featured") {
+    const fixedDelta =
+      compareFixedFeaturedProjects(a, b);
 
-  if (priorityDelta !== 0) {
-    return priorityDelta;
+    if (fixedDelta !== 0) {
+      return fixedDelta;
+    }
+  } else {
+    const priorityDelta =
+      comparePinnedProjects(a, b);
+
+    if (priorityDelta !== 0) {
+      return priorityDelta;
+    }
   }
 
   switch (sort) {
@@ -584,20 +708,101 @@ function sortProjects(
       return a.content[locale].title.localeCompare(b.content[locale].title, locale);
     case "featured":
     default:
-      if (a.featured !== b.featured) return a.featured ? -1 : 1;
-      return b.year - a.year;
+      return sortByReleaseCompleteness(a, b, locale);
   }
 }
 
-function getPinnedProjectRank(project: Project) {
-  const index =
-    pinnedProjectSlugs.indexOf(
-      project.slug
-    );
+function comparePinnedProjects(a: Project, b: Project) {
+  const aRank = getSlugRank(a.slug, pinnedProjectSlugs);
+  const bRank = getSlugRank(b.slug, pinnedProjectSlugs);
+
+  if (aRank === bRank) {
+    return 0;
+  }
+
+  if (aRank === Number.POSITIVE_INFINITY) {
+    return 1;
+  }
+
+  if (bRank === Number.POSITIVE_INFINITY) {
+    return -1;
+  }
+
+  return aRank - bRank;
+}
+
+function compareFixedFeaturedProjects(a: Project, b: Project) {
+  const aRank = getSlugRank(a.slug, fixedFeaturedSortSlugs);
+  const bRank = getSlugRank(b.slug, fixedFeaturedSortSlugs);
+
+  if (aRank !== Number.POSITIVE_INFINITY || bRank !== Number.POSITIVE_INFINITY) {
+    if (aRank === bRank) {
+      return 0;
+    }
+
+    return aRank - bRank;
+  }
+
+  return 0;
+}
+
+function getSlugRank(slug: string, slugs: string[]) {
+  const index = slugs.indexOf(slug);
 
   return index === -1
     ? Number.POSITIVE_INFINITY
     : index;
+}
+
+function sortByReleaseCompleteness(a: Project, b: Project, locale: PortfolioLocale) {
+  const scoreDelta =
+    getProjectCompletenessScore(b) -
+    getProjectCompletenessScore(a);
+
+  if (scoreDelta !== 0) {
+    return scoreDelta;
+  }
+
+  if (a.featured !== b.featured) {
+    return a.featured ? -1 : 1;
+  }
+
+  if (a.year !== b.year) {
+    return b.year - a.year;
+  }
+
+  return a.content[locale].title.localeCompare(b.content[locale].title, locale);
+}
+
+function getProjectCompletenessScore(project: Project) {
+  const realScreenshots = project.media.filter((item) => item.type === "image" && !item.placeholder).length;
+  const realVideos = project.media.filter((item) => item.type === "video" && !item.placeholder).length;
+  const videoPosters = project.media.filter((item) => item.type === "video" && item.poster).length;
+  const externalLinks = ["github", "live", "documentation", "video"].filter((kind) =>
+    project.links.some((link) => link.kind === kind && /^https?:\/\//.test(link.url))
+  ).length;
+  const content = project.content.en ?? project.content["zh-TW"];
+  const caseStudyFields = [
+    content.problem,
+    content.solution,
+    content.architecture,
+    content.dataFlow,
+    content.projectStructure,
+    content.setupGuide,
+  ].filter(Boolean).length;
+  const missingFields = project.metadata.missingFields?.length ?? 0;
+  const manualFollowUps =
+    project.metadata.releaseStatus?.manualFollowUpNeeded.length ?? 0;
+
+  return Math.min(realScreenshots, 12) * 5 +
+    Math.min(realVideos, 3) * 12 +
+    Math.min(videoPosters, 3) * 4 +
+    externalLinks * 10 +
+    caseStudyFields * 4 +
+    (project.featured ? 10 : 0) -
+    missingFields * 12 -
+    manualFollowUps * 10 -
+    (project.metadata.needsReview ? 20 : 0);
 }
 
 function parseCategories(values: string[]): ProjectCategory[] {

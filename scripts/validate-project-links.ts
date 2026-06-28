@@ -30,6 +30,26 @@ const excludedSlugs = new Set([
   "polly-rpg-game",
   "lost-yokai-campus-rpg",
 ]);
+const fixedFeaturedSortSlugs = [
+  "dcard-trending-crawler",
+  "ir-rag-evaluation-lab",
+  "agentic-bi-dataops-copilot",
+  "nyc-taxi-mobility-analytics",
+  "openalex-research-rag",
+  "music-intelligence-platform",
+  "lyrics-cultural-analytics-lab",
+  "2d-animation-lora-pipeline",
+  "3d-animation-lora-pipeline",
+  "3d-maze-explorer",
+  "3d-platformer-runner",
+  "ai-3d-studio",
+  "ai-game-website",
+  "ai-knowledge-workspace",
+  "amazon-review-intelligence",
+  "animation-ai-studio",
+  "anime-adventure-lab",
+  "aqua-rush",
+];
 
 type ProjectLink = {
   kind: string;
@@ -41,12 +61,15 @@ type ProjectMedia = {
   type: "image" | "video";
   src: string;
   poster?: string;
+  featured?: boolean;
   placeholder?: boolean;
 };
 
 type Project = {
   slug: string;
   title?: string;
+  year: number;
+  featured: boolean;
   links: ProjectLink[];
   media: ProjectMedia[];
   coverImage?: string;
@@ -58,7 +81,16 @@ type Project = {
   readmeUrl?: string;
   videoUrl?: string;
   videoEmbedUrl?: string;
-  content: Record<string, { title: string; summary: string }>;
+  content: Record<string, {
+    title: string;
+    summary: string;
+    problem?: string;
+    solution?: string;
+    architecture?: string;
+    dataFlow?: string;
+    projectStructure?: string;
+    setupGuide?: string;
+  }>;
   metadata: {
     localAuditStatus?: string;
     missingFields?: string[];
@@ -116,6 +148,78 @@ function sitePathExists(url: string) {
   return fs.existsSync(publicPath);
 }
 
+function publicAssetExists(url: string | undefined) {
+  if (!url || isExternal(url) || !url.startsWith("/")) {
+    return Boolean(url && isExternal(url));
+  }
+
+  const withoutHash = url.split("#")[0];
+  return fs.existsSync(path.join(ROOT, "public", withoutHash.replace(/^\//, "")));
+}
+
+function projectPreview(project: Project) {
+  return primaryVideo(project)?.poster ??
+    project.media.find((item) => item.type === "image" && item.featured && !item.placeholder)?.src ??
+    project.media.find((item) => item.type === "image" && !item.placeholder)?.src ??
+    project.coverImage ??
+    project.heroImage ??
+    project.media.find((item) => item.type === "image")?.src;
+}
+
+function primaryVideo(project: Project) {
+  return project.media.find((item) => item.type === "video" && !item.placeholder && item.poster) ??
+    project.media.find((item) => item.type === "video" && !item.placeholder);
+}
+
+function getSlugRank(slug: string) {
+  const index = fixedFeaturedSortSlugs.indexOf(slug);
+  return index === -1 ? Number.POSITIVE_INFINITY : index;
+}
+
+function completenessScore(project: Project) {
+  const realScreenshots = project.media.filter((item) => item.type === "image" && !item.placeholder).length;
+  const realVideos = project.media.filter((item) => item.type === "video" && !item.placeholder).length;
+  const videoPosters = project.media.filter((item) => item.type === "video" && item.poster).length;
+  const externalLinks = ["github", "live", "documentation", "video"].filter((kind) =>
+    project.links.some((link) => link.kind === kind && isExternal(link.url))
+  ).length;
+  const content = project.content.en ?? project.content["zh-TW"];
+  const caseStudyFields = [
+    content?.problem,
+    content?.solution,
+    content?.architecture,
+    content?.dataFlow,
+    content?.projectStructure,
+    content?.setupGuide,
+  ].filter(Boolean).length;
+
+  return Math.min(realScreenshots, 12) * 5 +
+    Math.min(realVideos, 3) * 12 +
+    Math.min(videoPosters, 3) * 4 +
+    externalLinks * 10 +
+    caseStudyFields * 4 +
+    (project.featured ? 10 : 0) -
+    (project.metadata.missingFields?.length ?? 0) * 12 -
+    (project.metadata.releaseStatus?.manualFollowUpNeeded?.length ?? 0) * 10 -
+    (project.metadata.needsReview ? 20 : 0);
+}
+
+function compareDefaultFeaturedSort(a: Project, b: Project) {
+  const aRank = getSlugRank(a.slug);
+  const bRank = getSlugRank(b.slug);
+
+  if (aRank !== Number.POSITIVE_INFINITY || bRank !== Number.POSITIVE_INFINITY) {
+    return aRank - bRank;
+  }
+
+  const scoreDelta = completenessScore(b) - completenessScore(a);
+  if (scoreDelta !== 0) return scoreDelta;
+  if (a.featured !== b.featured) return a.featured ? -1 : 1;
+  if (a.year !== b.year) return b.year - a.year;
+
+  return (a.content.en?.title ?? a.slug).localeCompare(b.content.en?.title ?? b.slug, "en");
+}
+
 function hasForbiddenLocalPath(filePath: string) {
   if (!fs.existsSync(filePath)) {
     return false;
@@ -155,6 +259,15 @@ function main() {
   scanned.forEach((project) => {
     if (!catalogBySlug.has(project.folder)) {
       errors.push(`Scanned project is missing from public catalog: ${project.folder}`);
+    }
+  });
+
+  const defaultFeaturedOrder = [...projects].sort(compareDefaultFeaturedSort).map((project) => project.slug);
+  fixedFeaturedSortSlugs.forEach((slug, index) => {
+    if (defaultFeaturedOrder[index] !== slug) {
+      errors.push(
+        `Default featured sort position ${index + 1} changed: expected ${slug}, received ${defaultFeaturedOrder[index] ?? "missing"}`
+      );
     }
   });
 
@@ -219,6 +332,33 @@ function main() {
     if (!fs.existsSync(path.join(publicProjectDir, "screenshots", "01-overview.png"))) {
       errors.push(`${project.slug} is missing placeholder or real overview screenshot`);
     }
+
+    const imageMedia = project.media.filter((item) => item.type === "image" && item.src && !item.placeholder);
+    const videoMedia = project.media.filter((item) => item.type === "video" && item.src && !item.placeholder);
+    const preview = projectPreview(project);
+
+    if (imageMedia.length === 0) {
+      errors.push(`${project.slug} has no real screenshot media for card/detail previews`);
+    }
+    if (videoMedia.length === 0) {
+      errors.push(`${project.slug} has no real demo video media`);
+    }
+    if (!preview || !publicAssetExists(preview)) {
+      errors.push(`${project.slug} has no renderable card preview asset: ${preview ?? "missing"}`);
+    }
+    if (videoMedia.length > 0 && preview !== primaryVideo(project)?.poster) {
+      errors.push(`${project.slug} card thumbnail does not default to the demo video poster`);
+    }
+
+    videoMedia.forEach((item) => {
+      if (!item.poster) {
+        errors.push(`${project.slug} video is missing poster metadata: ${item.src}`);
+        return;
+      }
+      if (!publicAssetExists(item.poster)) {
+        errors.push(`${project.slug} video references missing poster asset: ${item.poster}`);
+      }
+    });
 
     [
       ...project.media.map((item) => item.src),

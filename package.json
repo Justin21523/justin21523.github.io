@@ -13,6 +13,7 @@
     "catalog:sync": "npm run catalog:scan && npm run catalog:validate",
     "release:projects": "tsx scripts/portfolio-release/process-project-releases.ts",
     "quality:projects": "tsx scripts/portfolio-release/run-project-quality-pass.ts",
+    "media:posters": "tsx scripts/portfolio-release/generate-video-posters.ts",
     "deploy:project-demos": "tsx scripts/portfolio-release/deploy-project-demos.ts",
     "deploy": "bash scripts/deploy.sh",
     "validate:projects": "tsx scripts/validate-project-links.ts"
