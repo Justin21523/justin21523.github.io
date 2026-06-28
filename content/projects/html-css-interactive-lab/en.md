@@ -1,29 +1,39 @@
 ---
-title: "Html CSS Interactive Lab"
-tagline: "A data processing, AI, analysis, or automation workflow practice project."
-summary: "Html CSS Interactive Lab is a learning-focused project with detected technology signals including detected project files and README signals. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
-role: "Independent Developer / Learning Project Builder"
-problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
-solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
-outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
+title: "InteractCSS — Interactive HTML/CSS Learning Lab"
+tagline: "Turning CSS properties into live, manipulable controls with real-time preview"
+summary: "InteractCSS is a vanilla HTML/CSS/JavaScript learning platform that turns CSS properties and components into sliders, toggles, color pickers and drag handles with live preview. It covers 3D transforms, OKLCH color, Flexbox/Grid, scroll timelines, variable fonts and more across 28+ built demos. A schema-driven engine auto-generates control panels, with a built-in FPS perf HUD, full keyboard navigation, ARIA accessibility, and @supports-based graceful degradation."
+role: "Solo developer (architecture, core modules, demos, deployment)"
+problem: "Advanced CSS features — 3D transforms, blend modes, scroll-linked animation, modern color spaces — are abstract and hard to grasp. Static docs and code snippets cannot show learners how a property change instantly affects rendering."
+solution: "Build a reusable core engine: studio.js provides the stage and shortcuts, ui.js auto-generates a control panel from a JSON schema and binds it to CSS custom properties, perf.js monitors FPS and layout shifts, and base.css uses @layer to manage cascade order. Each demo keeps HTML/CSS/JS strictly separate, controls only mutate CSS variables, and animations favor transform/opacity to avoid reflow."
+outcome: "Delivered 28+ interactive demos plus multi-element labs (3D transforms, color filters, Flexbox), spanning ten topic categories from HTML basics to modern CSS, with keyboard navigation, screen-reader announcements, reduced-motion and high-contrast support, deployed via Docker/Nginx."
 highlights:
-  - "README signal: Quick Startquick-start"
-  - "README signal: Project Structureproject-structure"
-  - "README signal: Core Modulescore-modules"
-  - "README signal: Available Demosavailable-demos"
+  - "Schema-driven control factory: a JSON definition auto-generates slider/select/switch/color controls bound to CSS variables"
+  - "CSS @layer manages the reset->base->utilities->demo->overrides cascade to avoid specificity conflicts"
+  - "Multi-element labs dynamically add/remove up to 20 elements with isolated per-element CSS-variable state"
+  - "Built-in perf HUD computes FPS and frame time via rAF and detects layout shifts with PerformanceObserver"
+  - "Accessibility-first: full keyboard control, ARIA live-region announcements, reduced-motion and high-contrast support"
+  - "Pure vanilla — no frameworks or build tools — using native browser ES Modules"
 challenges:
-  - "The project scope needs to be summarized from README content and source evidence in a credible way."
-  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
-  - "More screenshots, test notes, or operation details can still improve the case study."
+  - "Designing an extensible schema and core modules in a pure vanilla stack so new demos work by just declaring controls"
+  - "Providing consistent @supports fallbacks for new features like backdrop-filter, 3D transforms, container queries, :has() and color-mix()"
+  - "Isolating each element's CSS variables and property state in multi-element scenarios while keeping drag and keyboard interaction smooth"
 nextSteps:
-  - "Complete a more detailed bilingual case study and add operation screenshots."
-  - "Verify which GitHub, demo, documentation, and media assets should be public."
-  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
+  - "Complete remaining roadmap milestones toward the full ~60-demo curriculum"
+  - "Add still-missing demos such as Position Playground, Variable Font Player and Color Mix"
+  - "Clean up leftover test/debug files in the demos folder and unify each demo's entry-point structure"
 ---
-Html CSS Interactive Lab is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
+## Overview
 
-The scanned project data points to detected project files and README signals. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+**InteractCSS** (html-css-interactive-lab) is an interactive learning laboratory built in pure vanilla HTML/CSS/JavaScript. It turns abstract CSS properties and components into manipulable sliders, switches, color pickers and drag handles with real-time preview, so learners can tweak and instantly see how each property affects rendering.
 
-This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+## Architecture
 
-Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.
+The project deliberately avoids any framework or build tooling, relying only on native browser ES Modules. Four core modules form a reusable engine: studio.js handles the stage, shortcuts and ARIA; ui.js is a control factory that auto-generates UI from a JSON schema and binds it to CSS custom properties; perf.js provides FPS and frame-time monitoring; and base.css manages cascade order with CSS @layer and exposes design tokens. Each demo keeps HTML/CSS/JS strictly separate, controls mutate only CSS variables, and animations favor transform/opacity to avoid reflow.
+
+## Scope
+
+More than 28 interactive demos have been built, covering 3D transforms and perspective, the OKLCH color space, gradient generation, Flexbox and Grid, scroll/view timelines, variable fonts, clip-path, blend modes, dialog modals, ARIA live regions and more — mapping to ten curriculum categories from HTML fundamentals to modern CSS. Multi-element labs additionally allow dynamically adding/removing elements with independent per-element property editing.
+
+## Engineering Focus
+
+Pointer Events unify mouse and touch dragging, complemented by continuous keyboard input. Accessibility is a first-class requirement: full keyboard navigation, screen-reader announcements, prefers-reduced-motion and high-contrast support. Every modern CSS feature is wrapped in @supports with graceful fallbacks. The project is containerized with Docker and Nginx.

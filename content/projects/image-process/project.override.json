@@ -1,12 +1,65 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "frontend",
+  "status": "completed",
   "year": 2026,
   "technologies": [
-    "Three.js"
+    "Vite 5",
+    "Three.js (r160)",
+    "JavaScript (ES Modules)",
+    "WebGL",
+    "HTML5 File API",
+    "Docker",
+    "Nginx"
   ],
   "coverImage": "/portfolio/projects/image-process/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "web-app",
+    "domains": [
+      "3D 視覺化",
+      "互動式編輯器",
+      "WebGL 圖形"
+    ],
+    "capabilities": [
+      "多格式 3D 模型載入 (glb/gltf/fbx/obj/stl/ply)",
+      "拖放匯入與材質解析 (MTL)",
+      "軌道相機控制 (OrbitControls)",
+      "變換 Gizmo 編輯 (移動/旋轉/縮放)",
+      "Raycaster 點選物件",
+      "數值檢視器即時編輯",
+      "平移/旋轉/縮放吸附 (Snapping)",
+      "骨骼動畫播放 (AnimationMixer)",
+      "Grid/Axes 輔助線切換",
+      "GPU 記憶體釋放管理"
+    ],
+    "frameworks": [
+      "Three.js"
+    ],
+    "libraries": [
+      "OrbitControls",
+      "TransformControls",
+      "GLTFLoader",
+      "FBXLoader",
+      "OBJLoader/MTLLoader",
+      "STLLoader",
+      "PLYLoader"
+    ],
+    "platforms": [
+      "Web (桌面瀏覽器)"
+    ],
+    "keywords": [
+      "Three.js",
+      "WebGL",
+      "3D model viewer",
+      "model editor",
+      "glTF",
+      "Vite",
+      "transform gizmo",
+      "raycasting",
+      "Docker"
+    ],
+    "needsReview": false
+  }
 }

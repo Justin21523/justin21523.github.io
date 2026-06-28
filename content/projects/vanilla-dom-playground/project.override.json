@@ -1,10 +1,20 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "frontend",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "Vanilla JavaScript (ES6 Modules)",
+    "HTML5",
+    "CSS3",
+    "Canvas 2D API",
+    "Web Audio API",
+    "Drag & Drop API",
+    "CustomEvent API",
+    "localStorage",
+    "Docker / Nginx"
+  ],
   "coverImage": "/portfolio/projects/vanilla-dom-playground/cover.webp",
   "links": [
     {
@@ -32,5 +42,46 @@
         "en": "Read README"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "互動式學習平台 / Interactive learning platform",
+    "domains": [
+      "frontend",
+      "web development",
+      "developer education",
+      "interactive learning"
+    ],
+    "capabilities": [
+      "visual DOM builder",
+      "drag-resize-snap stage",
+      "event binding",
+      "CSS transition authoring",
+      "live code generation",
+      "gamified learning (achievements/leaderboard)",
+      "mini games",
+      "interactive tutorials"
+    ],
+    "platforms": [
+      "web browser",
+      "Docker",
+      "Nginx"
+    ],
+    "keywords": [
+      "DOM",
+      "event propagation",
+      "event delegation",
+      "bubbling",
+      "capturing",
+      "CustomEvent",
+      "pub/sub event bus",
+      "state management",
+      "code generation",
+      "vanilla js",
+      "no framework",
+      "drag and drop",
+      "gamification",
+      "ES modules"
+    ],
+    "needsReview": false
+  }
 }

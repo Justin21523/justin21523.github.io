@@ -2,9 +2,80 @@
   "visibility": "public",
   "featured": false,
   "category": "information-system",
-  "status": "prototype",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "SQLAlchemy 2.0 (Async)",
+    "Pydantic v2",
+    "SQLite",
+    "aiosqlite",
+    "Alembic",
+    "Uvicorn",
+    "React 19",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS v4",
+    "TanStack Query",
+    "Axios",
+    "Zustand"
+  ],
   "coverImage": "/portfolio/projects/metashelf/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "Full-stack web application (MVP / portfolio prototype)",
+    "domains": [
+      "Library & Information Science",
+      "Digital Catalog / Bibliographic Metadata",
+      "Resource Discovery",
+      "Book/Media Management"
+    ],
+    "capabilities": [
+      "Bibliographic resource catalog browsing",
+      "REST API for resource list & creation",
+      "Paginated resource retrieval",
+      "Database seeding for demo data",
+      "Responsive card-based catalog UI with dark mode",
+      "Async ORM data access via repository pattern"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "React 19",
+      "Vite",
+      "Tailwind CSS"
+    ],
+    "libraries": [
+      "SQLAlchemy",
+      "Pydantic",
+      "TanStack React Query",
+      "Axios",
+      "Zustand",
+      "lucide-react",
+      "python-jose",
+      "passlib"
+    ],
+    "backend": [
+      "FastAPI",
+      "SQLAlchemy Async",
+      "SQLite (MVP) / PostgreSQL (target)",
+      "Alembic"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "keywords": [
+      "metadata",
+      "FRBR",
+      "library catalog",
+      "clean architecture",
+      "repository pattern",
+      "async SQLAlchemy",
+      "DTO",
+      "ISBN",
+      "call number",
+      "subject headings"
+    ],
+    "needsReview": false
+  }
 }

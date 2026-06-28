@@ -1,23 +1,75 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "backend-desktop",
+  "status": "in-progress",
   "year": 2026,
   "technologies": [
     "C#",
-    ".NET",
-    "Avalonia"
+    ".NET 10",
+    "Avalonia UI 12",
+    "ReactiveUI",
+    "CommunityToolkit.Mvvm",
+    "Mapsui",
+    "OpenStreetMap",
+    "xUnit",
+    "JSON Serialization"
   ],
   "coverImage": "/portfolio/projects/ChronosMap/cover.webp",
   "links": [],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "Cross-platform desktop application",
+    "domains": [
+      "Digital Archives",
+      "Cultural Heritage",
+      "Historical GIS",
+      "Knowledge Graphs",
+      "Spatio-temporal Visualization"
+    ],
+    "capabilities": [
+      "Timeline-driven temporal filtering",
+      "Interactive map with geo-pinned archival events",
+      "Force-directed knowledge-relation topology graph",
+      "Full CRUD event management",
+      "Keyword and tag search",
+      "Local JSON project persistence (import/export)"
+    ],
+    "frameworks": [
+      "Avalonia UI 12",
+      "ReactiveUI",
+      "CommunityToolkit.Mvvm"
+    ],
+    "libraries": [
+      "Mapsui.Avalonia12",
+      "Avalonia.Themes.Fluent",
+      "Avalonia.Fonts.Inter",
+      "xUnit"
+    ],
+    "backend": [
+      ".NET 10",
+      "Clean/Layered Architecture (Domain / Application / Infrastructure)"
+    ],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS (Avalonia desktop)"
+    ],
+    "keywords": [
+      "時空地圖",
+      "數位典藏",
+      "時間軸",
+      "知識圖譜",
+      "MVVM",
+      "Avalonia",
+      "Mapsui",
+      "歷史地理"
     ]
   }
 }

@@ -1,11 +1,21 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "frontend",
+  "status": "archived",
   "year": 2026,
   "technologies": [
-    "Phaser"
+    "JavaScript (ES Modules)",
+    "Phaser 3",
+    "Vite",
+    "HTML5 Canvas",
+    "Custom ECS",
+    "Node.js",
+    "A* Pathfinding",
+    "Behavior Tree AI",
+    "Tiled (TMX/JSON)",
+    "Docker",
+    "Nginx"
   ],
   "coverImage": "/portfolio/projects/javascript-platformer-concepts/cover.webp",
   "links": [
@@ -34,5 +44,49 @@
         "en": "Read README"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "2D 平台動作遊戲原型 / 2D action-platformer prototype",
+    "domains": [
+      "game-development",
+      "procedural-generation",
+      "game-ai",
+      "interactive-entertainment"
+    ],
+    "capabilities": [
+      "procedural-level-generation",
+      "ai-player-autopilot",
+      "grid-astar-pathfinding",
+      "automated-balance-stress-testing",
+      "combat-ability-systems",
+      "roguelite-meta-progression"
+    ],
+    "frameworks": [
+      "Phaser 3",
+      "Vite"
+    ],
+    "libraries": [
+      "phaser"
+    ],
+    "backend": [
+      "Node.js (offline tooling)"
+    ],
+    "platforms": [
+      "Web (browser)",
+      "Docker"
+    ],
+    "keywords": [
+      "platformer",
+      "ECS",
+      "procedural-generation",
+      "A* pathfinding",
+      "game-ai",
+      "auto-tuning",
+      "hyperdrive",
+      "parallax",
+      "seeded-rng",
+      "meta-progression"
+    ],
+    "needsReview": false
+  }
 }

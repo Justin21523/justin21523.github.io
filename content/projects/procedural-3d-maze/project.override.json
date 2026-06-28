@@ -2,11 +2,23 @@
   "visibility": "public",
   "featured": false,
   "category": "interactive-3d",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
-    "React",
-    "Three.js"
+    "Three.js",
+    "WebGL",
+    "React 19",
+    "Vite 7",
+    "Tauri 2",
+    "JavaScript ES Modules",
+    "A* Pathfinding",
+    "Behavior Tree AI",
+    "UnrealBloom Post-processing",
+    "GLTF/Collada",
+    "HDR/EXR PBR Textures",
+    "Web Audio API",
+    "Docker",
+    "Nginx"
   ],
   "coverImage": "/portfolio/projects/procedural-3d-maze/cover.webp",
   "links": [
@@ -26,5 +38,72 @@
         "en": "Read README"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "瀏覽器 3D 第一人稱程序生成迷宮生存遊戲原型",
+    "domains": [
+      "遊戲開發",
+      "3D 即時圖形",
+      "程序生成",
+      "遊戲 AI"
+    ],
+    "capabilities": [
+      "程序化迷宮生成",
+      "第一人稱導航",
+      "A* 尋路",
+      "敵人 AI 與感知",
+      "潛行/戰鬥/道具系統",
+      "任務目標與出口閘控",
+      "小地圖與世界標記",
+      "AI 自動駕駛玩家",
+      "後處理與大氣渲染",
+      "桌面應用打包"
+    ],
+    "frameworks": [
+      "Three.js",
+      "React",
+      "Vite",
+      "Tauri"
+    ],
+    "libraries": [
+      "three",
+      "react",
+      "react-dom",
+      "EffectComposer",
+      "UnrealBloomPass",
+      "GLTFLoader",
+      "ColladaLoader",
+      "RGBELoader"
+    ],
+    "backend": [
+      "Vite 開發期自訂中介層 (Node) 提供模型 manifest／meta 儲存／匯入 API",
+      "靜態部署於 Docker + Nginx"
+    ],
+    "threeD": [
+      "Three.js / WebGL",
+      "PBR 材質 (4K diff/nor/rough/disp/ao)",
+      "HDR 環境貼圖 IBL",
+      "EXR 貼圖",
+      "UnrealBloom + 色彩分級後處理",
+      "GLTF / Collada (.dae) 模型載入",
+      "第一人稱攝影機與視覺特效"
+    ],
+    "platforms": [
+      "Web 瀏覽器",
+      "桌面 (Tauri：Windows/Linux/macOS)"
+    ],
+    "keywords": [
+      "procedural maze",
+      "backrooms",
+      "first-person",
+      "Three.js",
+      "game AI",
+      "A* pathfinding",
+      "behavior tree",
+      "stealth",
+      "roguelite",
+      "DFS maze"
+    ],
+    "needsReview": false
+  }
 }

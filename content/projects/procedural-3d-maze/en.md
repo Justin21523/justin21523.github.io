@@ -1,28 +1,38 @@
 ---
-title: "Procedural 3d Maze"
-tagline: "An interactive web, 3D scene, or game prototype practice project."
-summary: "Procedural 3d Maze is a learning-focused project with detected technology signals including React, Three.js. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
-role: "Independent Developer / Learning Project Builder"
-problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
-solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
-outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
+title: "Procedural 3D Maze"
+tagline: "A backrooms-style first-person procedural maze survival prototype built with Three.js"
+summary: "A browser-based 3D first-person game prototype built with Three.js, Vite, and React. Each level procedurally generates a fresh maze and rooms via DFS; the player completes mission objectives under monster pressure to unlock the exit. Features A* pathfinding, multi-archetype enemy AI with vision/hearing/smell perception, tools and stealth systems, and a takeover-capable AI 'Autopilot' player. Ships as a web demo and a Tauri desktop build, deployed via Docker/Nginx."
+role: "Solo developer (full-stack / game programming, 3D graphics, AI systems)"
+problem: "To prove out a browser-runnable, always-different procedural maze experience that combines atmospheric real-time 3D with strategically deep, non-trivial enemy AI and an objective system that avoids a single 'always-chase' loop."
+solution: "Levels are generated with a DFS maze plus room carving, extra connections, and dead-end removal; grid navigation and enemy routing use a custom MinHeap A*. Multi-archetype monsters are built from behavior trees and a brain-composer, driven by centralized perception (FOV/LOS vision, noise, scent). Rendering uses PBR materials, HDR image-based lighting, and UnrealBloom post-processing, while the HUD/panels are mounted with React 19 and decoupled from gameplay through an EventBus."
+outcome: "A data-driven (level JSON), end-to-end playable prototype: objective-gated exits, tools (smoke/flash/decoy/jammer and more), minimap and world markers, procedural audio, and an AI Autopilot for demos and stress testing. Deployable as a web demo and packageable as a Tauri desktop app."
 highlights:
-  - "Uses or involves React, Three.js."
-  - "Organizes features, data, and interface flow as a portfolio practice project."
-  - "Uses conservative wording so the project is not presented as a finished production product."
+  - "DFS procedural maze generation with room carving and dead-end removal for a unique map every run"
+  - "Custom MinHeap A* pathfinding with anti-stuck visited/unreachable memory"
+  - "Multi-archetype enemy AI (Hunter, Wanderer, Sentinel, Stalker, Weeping Angel, etc.) with behavior trees and vision/hearing/smell perception"
+  - "Atmospheric Three.js rendering: 4K PBR materials, HDR IBL, and UnrealBloom post-processing"
+  - "React 19 HUD and panels decoupled via an EventBus and ordered system registry"
+  - "A single game loop orchestrating 40+ subsystems, packageable as a Tauri desktop build"
 challenges:
-  - "The project scope needs to be summarized from README content and source evidence in a credible way."
-  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
-  - "More screenshots, test notes, or operation details can still improve the case study."
+  - "Making enemy AI both performant and 'not dumb': far-AI throttling reduces thinking frequency, not movement, to preserve immersion"
+  - "Sustaining a playable frame rate in-browser while combining live maze generation with heavy PBR and post-processing"
 nextSteps:
-  - "Complete a more detailed bilingual case study and add operation screenshots."
-  - "Verify which GitHub, demo, documentation, and media assets should be public."
-  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
+  - "Consolidate Tauri, CI, and Docker setup"
+  - "Expand level recipes and mission templates to increase endless-mode variety"
+  - "Keep tuning monster brains, tool balance, and perception coupling"
 ---
-Procedural 3d Maze is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
+## Overview
 
-The scanned project data points to React, Three.js. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+**Procedural 3D Maze** is a browser-based first-person game prototype built with Three.js, Vite, and React 19, drawing on a 'Backrooms' atmosphere. Every level generates a fresh maze and room layout at runtime; the player must complete mission objectives under pressure from multiple monster archetypes to unlock and reach the exit, then advance through endless, difficulty-scaling levels.
 
-This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+## Technical Architecture
 
-Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.
+The project runs a single game loop (gameLoop.js) coordinating 40+ subsystems via an explicitly ordered system registry, with gameplay logic decoupled from the UI through an EventBus. World state (maze grid, walkability, line-of-sight) is kept separate from game state (HP, timer, inventory). Maps are produced by a DFS maze algorithm that carves base corridors, grows rooms, adds extra connections, and removes dead ends; navigation and enemy routing use a custom MinHeap A*.
+
+## Rendering and AI
+
+Rendering uses Three.js ES modules with 4K PBR materials, HDR image-based lighting, and an EffectComposer/UnrealBloom post-processing stack for atmosphere; models load via GLTF and Collada (.dae). Enemy AI is built from behavior trees and a 'brain composer' covering several archetypes, driven by a centralized perception module handling vision (FOV/LOS), hearing (footsteps, gunfire, tool noise), and smell (player breadcrumb trail, lure scent). An **Autopilot** AI player can take over when the human is idle, serving as a demo and stress-testing harness.
+
+## Platforms and Deployment
+
+The UI is mounted with React 19 (HUD, panels, overlays); a Vite multi-page build also bundles developer tools (enemy-lab, level-lab, diagnostics). The app packages as a Tauri 2 (Rust) desktop build and deploys as a web demo via Docker + Nginx.

@@ -2,10 +2,19 @@
   "visibility": "public",
   "featured": false,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "in-progress",
   "year": 2026,
   "technologies": [
-    "Three.js"
+    "JavaScript (ES6 Modules)",
+    "Vanilla JS",
+    "Vite",
+    "Vitest",
+    "ESLint",
+    "Prettier",
+    "Husky",
+    "CSS3",
+    "Docker",
+    "Nginx"
   ],
   "coverImage": "/portfolio/projects/poker-ai-web/cover.webp",
   "links": [
@@ -25,5 +34,57 @@
         "en": "Read README"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "web-application",
+    "domains": [
+      "game-ai",
+      "reinforcement-learning",
+      "card-games",
+      "poker",
+      "interactive-web"
+    ],
+    "capabilities": [
+      "Q-learning reinforcement learning",
+      "Monte Carlo equity simulation",
+      "opponent modeling (VPIP/PFR/aggression)",
+      "expected-value decision engine",
+      "finite state machine game flow",
+      "event-driven architecture",
+      "multi-game platform",
+      "AI knowledge persistence",
+      "statistics & analytics dashboard"
+    ],
+    "frameworks": [
+      "Vite",
+      "Vitest"
+    ],
+    "libraries": [
+      "Three.js (declared dependency, 2D CSS/DOM rendering in use)"
+    ],
+    "backend": [
+      "static SPA (no server-side runtime)"
+    ],
+    "platforms": [
+      "web",
+      "browser",
+      "Docker"
+    ],
+    "keywords": [
+      "Texas Hold'em",
+      "poker AI",
+      "Q-learning",
+      "Monte Carlo",
+      "opponent modeling",
+      "Sklansky hand groups",
+      "epsilon-greedy",
+      "EventBus",
+      "state machine",
+      "Big Two",
+      "Blackjack",
+      "Old Maid",
+      "vanilla JavaScript"
+    ],
+    "needsReview": false
+  }
 }

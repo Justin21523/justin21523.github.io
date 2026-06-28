@@ -1,28 +1,41 @@
 ---
-title: "Javascript Platformer Concepts"
-tagline: "An interactive web, 3D scene, or game prototype practice project."
-summary: "Javascript Platformer Concepts is a learning-focused project with detected technology signals including Phaser. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
-role: "Independent Developer / Learning Project Builder"
-problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
-solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
-outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
+title: "JavaScript Platformer Concepts"
+tagline: "A 2D action-platformer tech sandbox built with Phaser 3 and a custom ECS"
+summary: "A concept prototype exploring the core tech of 2D platformers: it ships both a Phaser 3 runtime and a hand-rolled Vanilla JS ECS engine, covering procedural level generation with reachability validation, an AI auto-player, and an offline stress-test / auto-tuning toolchain. Gameplay includes a Hyperdrive boost, ability-based combat, artifacts, and meta-progression. Now folded into platformer-game; this repo is kept as a technical archive."
+role: "Solo developer / gameplay engineering & systems design"
+problem: "To prove out whether a purely front-end 2D platformer could be both hand-playable and machine-verifiable by an AI, while guaranteeing reproducible procedural levels that are always completable."
+solution: "A data-driven ECS splits dozens of systems (physics, collision, camera, parallax, combat, abilities, VFX, waves), with seeded-RNG procedural generation backed by reachability checks and retries. An A*-with-jump-edges AI player feeds commands that merge with human input, paired with Node.js offline tools for stress testing, auto-tuning, variation replay comparison, and nightly regression."
+outcome: "A platformer foundation that is instantly playable in the browser yet can be auto-completed and quantitatively scored by an AI (pass rate, stall rate, rescue rate, completion P90), packaged with Vite and deployable via Docker/Nginx. Validated concepts were merged into the successor project."
 highlights:
-  - "Uses or involves Phaser."
-  - "Organizes features, data, and interface flow as a portfolio practice project."
-  - "Uses conservative wording so the project is not presented as a finished production product."
+  - "Dual implementation: a Phaser 3 runtime alongside a hand-built Vanilla JS ECS engine for architecture comparison"
+  - "Seeded procedural level generation with built-in reachability guarantees and retry-on-failure to avoid uncompletable maps"
+  - "AI player using grid A* with jump edges; its commands merge with human input via InputMergeSystem without conflict"
+  - "Full offline QA toolchain: stress tests, auto-tuning, AI dual-check, variation replay compare, and nightly regression gates"
+  - "Rich gameplay systems: Hyperdrive boost, light/heavy/spin attacks and shots, shield, artifact rarities, and meta-progression"
+  - "Vite builds plus Docker + Nginx deployment configs and asset-generation scripts, mirroring real delivery practice"
 challenges:
-  - "The project scope needs to be summarized from README content and source evidence in a credible way."
-  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
-  - "More screenshots, test notes, or operation details can still improve the case study."
+  - "Keeping procedurally generated levels always completable in a pure front-end, requiring conservative reachability validation and retries"
+  - "Letting the AI and human input coexist without fighting for control, and scoring level balance with objective quantitative metrics"
 nextSteps:
-  - "Complete a more detailed bilingual case study and add operation screenshots."
-  - "Verify which GitHub, demo, documentation, and media assets should be public."
-  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
+  - "Continue the merge into platformer-game, consolidating the dual implementations into a single runtime"
+  - "Expand AI evaluation metrics and auto-tuning dimensions to establish a sustainable level-quality baseline"
 ---
-Javascript Platformer Concepts is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
+## Overview
 
-The scanned project data points to Phaser. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+**JavaScript Platformer Concepts** is a sandbox focused on the core technology of 2D action-platformers. Its defining trait is a dual approach: index.html boots a Phaser 3 runtime (src/phaser-main.js), while the repo also preserves a complete, hand-rolled Vanilla JS ECS engine (src/main.js, src/ecs, and dozens of systems under src/systems) to contrast a framework against a from-scratch architecture across physics, collision, camera, parallax, and combat.
 
-This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+## Architecture & systems
 
-Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.
+The core is a data-driven Entity-Component-System: a World manages entities and component storage via bitmasks, with systems for input merging, physics, collision, camera, parallax background, hitboxes, damage, abilities, projectiles, VFX, waves, goals, and celebration modes. Levels come from fixed maps (Tiled TMX/JSON) or the ProceduralLevelGenerator, which uses a mulberry32 seeded RNG plus reachability guarantees and retries so it never ships an uncompletable map.
+
+## AI & offline toolchain
+
+The standout idea is treating machine-verifiability as a first-class concern. AiPlayerSystem drives play through PlatformerPathfinding (grid A* with jump edges) and a task runner, with commands merged against human input by InputMergeSystem. package.json exposes a Node.js tool suite — ai:autotune, ai:stress, map:ai:dual, variation:eval, nightly:stress — that auto-tunes and runs nightly regression against thresholds like pass rate, stall rate, rescue rate, and completion P90.
+
+## Gameplay & delivery
+
+Gameplay adds a Hyperdrive boost, light/heavy/spin/shot abilities, shield blocking, artifact rarities and meta-progression. On the engineering side it builds with Vite and ships Docker + Nginx deployment configs alongside asset-generation scripts.
+
+## Status
+
+This project's contents have been merged into platformer-game for ongoing development, and this repository remains as a technical archive and architecture reference.

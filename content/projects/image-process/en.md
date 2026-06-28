@@ -1,28 +1,35 @@
 ---
-title: "Image Process"
-tagline: "An interactive web, 3D scene, or game prototype practice project."
-summary: "Image Process is a learning-focused project with detected technology signals including Three.js. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
-role: "Independent Developer / Learning Project Builder"
-problem: "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience."
-solution: "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation."
-outcome: "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project."
+title: "Browser-Based 3D Model Viewer & Editor"
+tagline: "A multi-format 3D model viewer/editor built with Three.js"
+summary: "A pure front-end 3D model tool built with Vite and Three.js. It loads glb/gltf/fbx/obj/stl/ply via drag-and-drop and offers a Unity-like editing experience: orbit camera, transform gizmo (move/rotate/scale), click-to-select, a numeric inspector, snapping, and animation playback. Built on a modular controller architecture with no heavy UI framework, plus GPU memory disposal and Docker/Nginx deployment."
+role: "Front-end / WebGL engineering (personal project)"
+problem: "Quickly inspecting and tweaking 3D models from various pipelines usually means launching heavyweight desktop software; there was no lightweight, drag-and-drop, cross-format tool to adjust and preview models (and their animations) directly in the browser."
+solution: "Three.js wraps six model loaders plus resource resolution (including MTL materials for OBJ), and editing is split into independent controllers: EditorController (TransformControls gizmo), SelectionController (Raycaster picking), InspectorController (numeric editing), SnapController (snapping), and AnimationController (AnimationMixer), all served and bundled by Vite."
+outcome: "A deployable single-page WebGL app that loads multi-format models via drag-and-drop and supports live transform editing, snapping, animation playback, and helper toggles; shipped via Docker/Nginx."
 highlights:
-  - "Uses or involves Three.js."
-  - "Organizes features, data, and interface flow as a portfolio practice project."
-  - "Uses conservative wording so the project is not presented as a finished production product."
+  - "Drag-and-drop loading of glb/gltf/fbx/obj/stl/ply, with automatic resolution of external textures and .mtl materials"
+  - "TransformControls gizmo with W/E/R hotkeys and local/world space toggling, modeled on a Unity-like workflow"
+  - "Raycaster sub-mesh selection plus a numeric inspector for live position/rotation/scale editing"
+  - "Independent translate/rotate/scale snapping parameters for precise placement"
+  - "Modular controller architecture; animation playback supports multi-clip switching and speed control"
+  - "Built-in disposeObject3D frees geometry and materials to prevent GPU memory leaks when swapping models"
 challenges:
-  - "The project scope needs to be summarized from README content and source evidence in a credible way."
-  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
-  - "More screenshots, test notes, or operation details can still improve the case study."
+  - "Reconstructing glTF/OBJ relative paths to external buffers and textures within a browser drag-and-drop context"
+  - "Coordinating events across multiple controllers sharing one camera, renderer, and selection state (disabling orbit while dragging the gizmo)"
+  - "Properly releasing WebGL resources on model swap to avoid memory buildup over long sessions"
 nextSteps:
-  - "Complete a more detailed bilingual case study and add operation screenshots."
-  - "Verify which GitHub, demo, documentation, and media assets should be public."
-  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
+  - "Add post-processing and HDR environment lighting for better material rendering"
+  - "Support exporting the edited scene or transform results"
+  - "Add mobile touch controls and multi-select/group editing"
 ---
-Image Process is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
+## Overview
+This is the browser front-end within the `image-process` repository — a pure front-end 3D model viewer and editor built with **Vite + Three.js**. While the repo as a whole includes Python image/frame and LoRA/SDXL pipelines, this Vite app (web/, the site actually deployed) focuses on viewing and fine-tuning 3D models in the browser.
 
-The scanned project data points to Three.js. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+## Features & Architecture
+Users drag model files straight into the viewport; model_loader.js selects the right loader by extension, supporting **glb, gltf, fbx, obj, stl, and ply**, and attempts to resolve OBJ .mtl materials and external texture resources. The UI uses a modular controller design: EditorController provides a TransformControls gizmo, SelectionController picks sub-objects via Raycaster, InspectorController offers numeric position/rotation/scale editing, SnapController adds three snapping modes, AnimationController plays skeletal animations through AnimationMixer with multi-clip and speed control, and SceneHelpersController toggles Grid/Axes helpers.
 
-This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+## Engineering Details
+The project deliberately avoids any heavy UI framework — the HUD is plain HTML/CSS and all 3D logic is organized as ES Modules. dispose_utils.js releases geometry and materials on model swap to prevent GPU memory leaks, and scene_utils.js auto-frames the camera from the model's bounding box. The source is heavily annotated in a tutorial style.
 
-Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.
+## Deployment
+The Vite config roots at web/, outputs to dist/ with source maps, and the project is containerized via Docker/Nginx.

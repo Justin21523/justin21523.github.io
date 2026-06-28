@@ -1,10 +1,19 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "frontend",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "HTML",
+    "CSS",
+    "Flexbox",
+    "CSS Grid",
+    "Container Queries",
+    "CSS Cascade Layers",
+    "Docker",
+    "Nginx"
+  ],
   "coverImage": "/portfolio/projects/css-advanced-mastery/cover.webp",
   "links": [
     {
@@ -32,5 +41,52 @@
         "en": "Read README"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "learning-lab",
+    "domains": [
+      "frontend",
+      "css",
+      "web-layout",
+      "ui-design"
+    ],
+    "capabilities": [
+      "responsive-layout",
+      "css-animation",
+      "modern-css-features",
+      "component-styling",
+      "accessibility-focus"
+    ],
+    "platforms": [
+      "web",
+      "docker",
+      "nginx"
+    ],
+    "keywords": [
+      "CSS",
+      "HTML",
+      "Flexbox",
+      "Grid",
+      "container-queries",
+      "cascade-layers",
+      "logical-properties",
+      "clip-path",
+      "mask",
+      "transitions",
+      "transforms",
+      "keyframes",
+      ":has",
+      ":is",
+      ":where",
+      "@layer",
+      "clamp",
+      "aspect-ratio",
+      "focus-visible",
+      "reduce-motion",
+      "BEM",
+      "responsive-design",
+      "practice-lab"
+    ],
+    "needsReview": false
+  }
 }

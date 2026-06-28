@@ -1,19 +1,77 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "backend-desktop",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "C#",
+    ".NET 10",
+    "Avalonia UI",
+    "MVVM",
+    "CommunityToolkit.Mvvm",
+    "Entity Framework Core",
+    "SQLite",
+    "Microsoft.Extensions.DependencyInjection",
+    "xUnit"
+  ],
   "coverImage": "/portfolio/projects/CulturePOS/cover.webp",
   "links": [],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "Cross-platform desktop POS application",
+    "domains": [
+      "retail",
+      "point-of-sale",
+      "inventory-management",
+      "cultural-retail"
+    ],
+    "capabilities": [
+      "product-management",
+      "inventory-tracking",
+      "stock-adjustment",
+      "low-stock-alert",
+      "pos-checkout",
+      "barcode-search",
+      "cart-management",
+      "payment-processing",
+      "sales-persistence",
+      "role-based-access"
+    ],
+    "frameworks": [
+      "Avalonia UI",
+      "Entity Framework Core",
+      ".NET 10"
+    ],
+    "libraries": [
+      "CommunityToolkit.Mvvm",
+      "Microsoft.Extensions.DependencyInjection",
+      "SQLitePCLRaw",
+      "Avalonia.Controls.DataGrid"
+    ],
+    "backend": [
+      "EF Core",
+      "SQLite"
+    ],
+    "platforms": [
+      "Linux",
+      "Windows",
+      "Desktop"
+    ],
+    "keywords": [
+      "POS",
+      "clean-architecture",
+      "layered-architecture",
+      "MVVM",
+      "dependency-injection",
+      "DbContextFactory",
+      "portfolio"
     ]
   }
 }

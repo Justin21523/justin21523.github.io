@@ -1,10 +1,21 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "frontend",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "HTML5",
+    "CSS",
+    "JavaScript",
+    "ES Modules",
+    "CSS @layer",
+    "CSS Custom Properties",
+    "Pointer Events API",
+    "Web Animations API",
+    "Docker",
+    "Nginx"
+  ],
   "coverImage": "/portfolio/projects/html-css-interactive-lab/cover.webp",
   "links": [
     {
@@ -32,5 +43,44 @@
         "en": "Read README"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "互動式學習平台 / Interactive learning lab",
+    "domains": [
+      "前端開發 / Frontend development",
+      "CSS 教學 / CSS education",
+      "網頁無障礙 / Web accessibility",
+      "網頁動畫 / Web animation"
+    ],
+    "capabilities": [
+      "CSS 屬性即時操控",
+      "Schema 驅動控制面板生成",
+      "拖曳與鍵盤互動",
+      "效能監控 HUD (FPS)",
+      "多元素獨立屬性編輯",
+      "漸進增強與優雅降級"
+    ],
+    "platforms": [
+      "Web",
+      "Docker",
+      "Nginx"
+    ],
+    "keywords": [
+      "InteractCSS",
+      "CSS @layer",
+      "CSS custom properties",
+      "Pointer Events",
+      "3D transforms",
+      "OKLCH",
+      "Flexbox",
+      "Grid",
+      "scroll timeline",
+      "backdrop-filter",
+      "ARIA",
+      "prefers-reduced-motion",
+      "vanilla JS",
+      "ES Modules"
+    ],
+    "needsReview": false
+  }
 }

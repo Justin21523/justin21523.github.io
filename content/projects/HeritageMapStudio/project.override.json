@@ -1,19 +1,73 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "backend-desktop",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "C++17",
+    "Qt6 Widgets",
+    "OpenGL 3.3 Core",
+    "GLSL Shaders",
+    "SQLite",
+    "Qt SQL",
+    "CMake",
+    "QSS",
+    "CSV Import"
+  ],
   "coverImage": "/portfolio/projects/HeritageMapStudio/cover.webp",
   "links": [],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "native-desktop-gis-application",
+    "domains": [
+      "文化資產",
+      "地理資訊系統 (GIS)",
+      "資料視覺化",
+      "數位人文"
+    ],
+    "capabilities": [
+      "互動式地圖渲染",
+      "地理座標投影",
+      "SQLite 資料庫與遷移",
+      "CSV 匯入管線",
+      "Metadata 編輯",
+      "圖層管理",
+      "時間軸篩選與播放",
+      "進階搜尋與分面篩選"
+    ],
+    "frameworks": [
+      "Qt6",
+      "Qt Widgets",
+      "Qt OpenGLWidgets"
+    ],
+    "libraries": [
+      "Qt Core/Gui/Widgets",
+      "Qt OpenGL",
+      "Qt SQL (QSQLITE)",
+      "Desktop OpenGL"
+    ],
+    "backend": [
+      "SQLite 3"
+    ],
+    "platforms": [
+      "Linux Desktop"
+    ],
+    "keywords": [
+      "cultural heritage",
+      "map studio",
+      "QOpenGLWidget",
+      "heritage mapping",
+      "timeline visualization",
+      "faceted search",
+      "repository pattern",
+      "schema migration"
     ]
   }
 }

@@ -1,29 +1,39 @@
 ---
-title: "Css Advanced Mastery"
-tagline: "A data processing, AI, analysis, or automation workflow practice project."
-summary: "Css Advanced Mastery is a learning-focused project with detected technology signals including detected project files and README signals. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
-role: "Independent Developer / Learning Project Builder"
-problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
-solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
-outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
+title: "CSS Advanced Mastery — Hands-on Advanced CSS Lab"
+tagline: "A learn-by-doing, framework-free lab covering CSS from fundamentals to modern features"
+summary: "A learn-by-doing, pure-frontend lab built only with native HTML and CSS (with minimal JS for behavior demos). It systematically covers 15 units — cascade/specificity, box model, Flexbox, Grid, positioning and stacking contexts, typography and color, sizing units, transitions/transforms, animations, modern selectors and @layer, container queries, logical properties, and clip-path/mask — plus a capstone SkillHub dashboard. Each unit ships with a tasks.md of goals and acceptance criteria."
+role: "Solo developer / frontend learner — designed the learning roadmap, authored each unit's HTML structure, CSS solutions and exercise briefs, and set up Docker/Nginx deployment."
+problem: "Frontend learning often stays scattered across one-off tutorials, lacking a structured, reproducible space to build skills incrementally. Modern CSS features (container queries, @layer, :has, logical properties) are fragmented and hard to master systematically."
+solution: "A staged practice library (fundamentals & common pitfalls -> core layout -> visuals & interaction -> responsive & maintainable CSS -> modern CSS in practice -> performance) where each unit is a self-contained folder (index.html / style.css / tasks.md) with explicit goals, TODOs and acceptance criteria, tracked in roadmap.md. A dark, card-based index page links every unit and project."
+outcome: "Scaffolded 15 practice units and a SkillHub capstone page; 01-cascade-specificity is fully implemented while the rest progress per the roadmap, totaling roughly 3,000 lines of practice CSS, with Docker/Nginx deployment config included."
 highlights:
-  - "README signal: exercises/：每個單元一個資料夾，含 index.html、style.css、tasks.md。"
-  - "README signal: projects/：整合型案例（稍後進行）。"
-  - "README signal: assets/：共享圖片、字體等靜態資源。"
-  - "README signal: roadmap.md：學習路線與進度。"
+  - "15 topic units spanning cascade/specificity through modern visual effects like clip-path and mask"
+  - "Systematic practice of modern CSS: container queries, @layer cascade, :is/:where/:has, logical properties"
+  - "Every unit includes a tasks.md with clear goals, TODOs and checkable acceptance criteria"
+  - "Dark-themed, auto-fit grid index page linking all exercises and projects"
+  - "SkillHub capstone builds a dashboard UI with Flex/Grid/RWD to validate cross-unit integration"
+  - "Accessibility-aware throughout: focus-visible, prefers-reduced-motion and similar user-preference handling"
 challenges:
-  - "The project scope needs to be summarized from README content and source evidence in a credible way."
-  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
-  - "More screenshots, test notes, or operation details can still improve the case study."
+  - "Organizing scattered modern CSS features into a progressive, interconnected learning path without any framework"
+  - "Designing acceptance criteria and TODOs so exercises are self-checkable rather than copy-paste"
+  - "Using @layer and :where() to control specificity and build a predictable, easy-to-override cascade"
 nextSteps:
-  - "Complete a more detailed bilingual case study and add operation screenshots."
-  - "Verify which GitHub, demo, documentation, and media assets should be public."
-  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
+  - "Implement units 02-15 per the roadmap (currently mostly scaffolds and task briefs)"
+  - "Expand projects/ with more integrated case studies applying unit techniques to real UI"
+  - "Add notes/ write-ups and a performance unit (reflow/repaint, selector efficiency)"
 ---
-Css Advanced Mastery is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
+## Overview
 
-The scanned project data points to detected project files and README signals. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+**CSS Advanced Mastery** (css-mastery-lab) is a learn-by-doing practice and case library built entirely with native HTML and CSS (with minimal JS only for behavior demos). The goal is to systematically master layout, animation, responsiveness, maintainability and modern CSS features without relying on any framework.
 
-This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+## Content structure
 
-Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.
+The `exercises/` directory holds 15 self-contained units, each a folder with `index.html`, `style.css` and `tasks.md`. Topics range from fundamentals and common pitfalls (cascade, specificity, box model) through core layout (Flexbox, Grid, position/stacking, container queries), visuals and interaction (transition/transform, animation, filter/clip-path/mask), to modern CSS in practice (:is/:where/:has, @layer, logical properties). `projects/skillhub/` is a capstone dashboard that integrates Flex, Grid and responsive design.
+
+## Learning approach
+
+Each unit's `tasks.md` spells out learning goals, style-only TODO exercises and self-checkable acceptance criteria, with `roadmap.md` tracking progress across staged phases. A dark-themed index page with an auto-fit card grid links every exercise and project into a quick-preview catalog.
+
+## Engineering & deployment
+
+The project includes Docker and Nginx configuration. Unit 01-cascade-specificity is fully implemented, and the remaining units continue to advance along the roadmap.

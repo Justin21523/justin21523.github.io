@@ -1,19 +1,77 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "backend-desktop",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "C#",
+    ".NET 10",
+    "Avalonia UI 12",
+    "CommunityToolkit.Mvvm",
+    "Microsoft.Extensions.DependencyInjection",
+    "System.Xml.Linq",
+    "System.Text.Json",
+    "xUnit"
+  ],
   "coverImage": "/portfolio/projects/MetaCleaner/cover.webp",
   "links": [],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "跨平台桌面應用程式 / Cross-platform desktop application",
+    "domains": [
+      "metadata-cleaning",
+      "digital-libraries",
+      "data-quality",
+      "batch-processing"
+    ],
+    "capabilities": [
+      "Dublin Core XML 解析與序列化",
+      "可組態的規則引擎（條件＋動作）",
+      "欄位層級差異追蹤",
+      "規則集 JSON 匯入匯出與驗證",
+      "視覺化規則建構器",
+      "內建範例清理規則集"
+    ],
+    "frameworks": [
+      "Avalonia UI",
+      "CommunityToolkit.Mvvm",
+      ".NET 10"
+    ],
+    "libraries": [
+      "Microsoft.Extensions.DependencyInjection",
+      "System.Xml.Linq",
+      "System.Text.Json",
+      "Avalonia.Themes.Fluent",
+      "xUnit",
+      "coverlet"
+    ],
+    "backend": [
+      "Clean Architecture (Core / Application / Infrastructure / App)",
+      "策略模式規則引擎",
+      "依賴注入容器"
+    ],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "keywords": [
+      "Dublin Core",
+      "metadata",
+      "XML",
+      "rule engine",
+      "MVVM",
+      "Avalonia",
+      "Clean Architecture",
+      "batch cleaning",
+      "data normalization"
     ]
   }
 }

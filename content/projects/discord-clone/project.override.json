@@ -2,12 +2,83 @@
   "visibility": "public",
   "featured": false,
   "category": "information-system",
-  "status": "prototype",
+  "status": "in-progress",
   "year": 2026,
   "technologies": [
     "Python",
-    "FastAPI"
+    "FastAPI",
+    "SQLModel",
+    "SQLAlchemy 2.0",
+    "Pydantic v2",
+    "SQLite",
+    "Uvicorn",
+    "WebSockets",
+    "JWT (python-jose)",
+    "passlib/bcrypt",
+    "JavaScript (ES Modules)",
+    "HTML5",
+    "CSS3",
+    "Docker",
+    "Nginx"
   ],
   "coverImage": "/portfolio/projects/discord-clone/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "full-stack real-time chat application",
+    "domains": [
+      "real-time messaging",
+      "community/social platform",
+      "collaboration tooling"
+    ],
+    "capabilities": [
+      "即時聊天 WebSocket",
+      "身分驗證與授權 (JWT)",
+      "伺服器/頻道/分類管理",
+      "私訊 DM",
+      "訊息表情回應",
+      "檔案上傳/下載",
+      "在線狀態 Presence",
+      "角色與權限",
+      "審核 moderation",
+      "討論串 threads",
+      "稽核日誌 audit log",
+      "全文搜尋"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "SQLModel"
+    ],
+    "libraries": [
+      "SQLAlchemy",
+      "Pydantic",
+      "python-jose",
+      "passlib",
+      "Uvicorn",
+      "aiofiles",
+      "websockets"
+    ],
+    "backend": [
+      "FastAPI",
+      "SQLModel",
+      "SQLAlchemy",
+      "SQLite",
+      "WebSocket ConnectionManager"
+    ],
+    "platforms": [
+      "Web",
+      "Docker"
+    ],
+    "keywords": [
+      "Discord clone",
+      "real-time chat",
+      "WebSocket",
+      "FastAPI",
+      "RESTful API",
+      "service layer",
+      "SPA",
+      "JWT auth",
+      "full-stack"
+    ],
+    "needsReview": false
+  }
 }
