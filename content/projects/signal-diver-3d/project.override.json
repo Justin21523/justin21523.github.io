@@ -16,6 +16,15 @@
   "coverImage": "/portfolio/projects/signal-diver-3d/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/signal-diver-3d/",
+      "label": {
+        "zh-TW": "線上 Demo",
+        "en": "Live Demo"
+      },
+      "primary": true
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/signal-diver-3d",
       "label": {

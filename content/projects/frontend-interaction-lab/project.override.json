@@ -13,6 +13,15 @@
   "coverImage": "/portfolio/projects/frontend-interaction-lab/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/frontend-interaction-lab/",
+      "label": {
+        "zh-TW": "線上 Demo",
+        "en": "Live Demo"
+      },
+      "primary": true
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/frontend-interaction-lab",
       "label": {

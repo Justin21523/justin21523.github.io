@@ -16,6 +16,15 @@
   "coverImage": "/portfolio/projects/the-archive-that-watches-you/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/the-archive-that-watches-you/",
+      "label": {
+        "zh-TW": "線上 Demo",
+        "en": "Live Demo"
+      },
+      "primary": true
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/3d-library-searching-quest",
       "label": {
