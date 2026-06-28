@@ -3,7 +3,7 @@
 ## Completed
 - Portfolio case study exists for `sd-multimodal-platform`.
 - Four CTA slots are present with verified links or honest preparing states.
-- Public asset folders, placeholder images, and demo guide are available.
+- Public asset folders, preview media, and external static demo are available.
 - README release notes status: updated-release-section.
 
 ## Changed Files

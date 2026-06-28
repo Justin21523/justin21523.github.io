@@ -16,7 +16,7 @@
 - Portfolio Case Study: /projects/Justin21523
 - GitHub: https://github.com/Justin21523/Justin21523
 - README: https://github.com/Justin21523/Justin21523#readme
-- Live Demo: /projects/Justin21523#demo-guide
+- Live Demo: https://justin21523.github.io/Justin21523/
 - Demo Video: /projects/Justin21523#demo-video
 
 ## Build / Run Status
@@ -35,7 +35,7 @@
 ## Manual Follow-up Needed
 - Replace placeholder screenshots with real project screenshots.
 - Record and link a real demo video.
-- Deploy a real live demo or keep portfolio case-study demo fallback.
+- External static demo URL is linked for consistency with the portfolio demo policy.
 - Verify or add build instructions.
 - Verify or add run instructions.
 - Review generated case-study content against source evidence.
@@ -55,9 +55,9 @@
 - Lint: no lint script detected
 - Screenshots: real screenshots present; captured 4 new
 - Demo video: real video present
-- Deployment: portfolio case-study fallback; external deployment still needed
+- Deployment: external static demo URL linked.
 
 ### Remaining Manual Work
-- Deploy an external live demo if this project should be showcased as runnable.
+- Verify the static demo remains aligned with future profile changes.
 - Review generated case-study text against source evidence.
 <!-- quality-pass:end -->

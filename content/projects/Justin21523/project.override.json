@@ -25,10 +25,10 @@
     },
     {
       "kind": "live",
-      "url": "/projects/Justin21523#demo-guide",
+      "url": "https://justin21523.github.io/Justin21523/",
       "label": {
-        "en": "Portfolio Case Study Demo",
-        "zh-TW": "作品集案例 Demo"
+        "en": "Static Demo Site",
+        "zh-TW": "Static Demo Site"
       }
     }
   ],

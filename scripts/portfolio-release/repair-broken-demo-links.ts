@@ -35,13 +35,20 @@ function writeJson(filePath: string, value: unknown) {
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
-function fallbackLiveLink(slug: string): ProjectLink {
+function githubPagesLiveLink(links: ProjectLink[]): ProjectLink | undefined {
+  const githubUrl = links.find((link) => link.kind === "github" && /^https:\/\/github\.com\/Justin21523\//i.test(link.url))?.url;
+  const repoName = githubUrl?.match(/^https:\/\/github\.com\/Justin21523\/([^/#?]+)/i)?.[1]?.replace(/\.git$/, "");
+
+  if (!repoName) {
+    return undefined;
+  }
+
   return {
     kind: "live",
-    url: `/projects/${slug}#demo-guide`,
+    url: `https://justin21523.github.io/${repoName}/`,
     label: {
-      "zh-TW": "作品集案例 Demo",
-      en: "Portfolio Case Study Demo",
+      "zh-TW": "Static Demo Site",
+      en: "Static Demo Site",
     },
     primary: true,
   };
@@ -70,11 +77,16 @@ function main() {
     const override = readJson<ProjectOverride>(overridePath);
     const links = override.links ?? [];
     const liveIndex = links.findIndex((link) => link.kind === "live");
+    const repairedLiveLink = githubPagesLiveLink(links);
+
+    if (!repairedLiveLink) {
+      return;
+    }
 
     if (liveIndex === -1) {
-      links.unshift(fallbackLiveLink(slug));
+      links.unshift(repairedLiveLink);
     } else if (/^https?:\/\//.test(links[liveIndex].url)) {
-      links[liveIndex] = fallbackLiveLink(slug);
+      links[liveIndex] = repairedLiveLink;
     } else {
       return;
     }

@@ -3,7 +3,7 @@
 ## Completed
 - Portfolio case study exists for `openalex-research-rag`.
 - Four CTA slots are present with verified links or honest preparing states.
-- Public asset folders, placeholder images, and demo guide are available.
+- Public asset folders, preview media, and external static demo are available.
 - README release notes status: updated-release-section.
 
 ## Changed Files
@@ -16,7 +16,7 @@
 - Portfolio Case Study: /projects/openalex-research-rag
 - GitHub: https://github.com/Justin21523/openalex-research-rag
 - README: https://github.com/Justin21523/openalex-research-rag#-demo-video
-- Live Demo: /projects/openalex-research-rag#demo-guide
+- Live Demo: https://justin21523.github.io/openalex-research-rag/
 - Demo Video: https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4
 
 ## Build / Run Status
@@ -33,7 +33,7 @@
 - Diagrams: public/projects/openalex-research-rag/diagrams/
 
 ## Manual Follow-up Needed
-- Deploy a real live demo or keep portfolio case-study demo fallback.
+- External static demo is deployed and linked from the portfolio card.
 - Verify or add build instructions.
 - Verify or add run instructions.
 
@@ -52,8 +52,8 @@
 - Lint: no lint script detected
 - Screenshots: real screenshots present
 - Demo video: real video present
-- Deployment: portfolio case-study fallback; external deployment still needed
+- Deployment: external static demo verified.
 
 ### Remaining Manual Work
-- Deploy an external live demo if this project should be showcased as runnable.
+- Verify the static demo remains aligned with future product changes.
 <!-- quality-pass:end -->

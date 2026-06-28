@@ -94,7 +94,7 @@ async function checkUrl(slug: string, kind: LinkKind, sourceUrl: string, checked
     }
 
     const isPortfolioFallback = checkedUrl.includes(`/projects/${slug}/#${fallbackAnchor(kind)}`);
-    const generatedCaseStudy = kind === "live" && /Portfolio Case Study|Case Study Demo|Demo Video|README/.test(firstChunk);
+    const generatedCaseStudy = kind === "live" && /Portfolio Case Study|Case Study Demo/.test(firstChunk);
 
     return {
       slug,
@@ -203,14 +203,18 @@ async function main() {
   const results = await runWithConcurrency(checks, 8, async ({ project, kind, sourceUrl }) =>
     Promise.all(urlsToCheck(project, kind, sourceUrl).map((checkedUrl) => checkUrl(project.slug, kind, sourceUrl, checkedUrl)))
   );
-  const broken = results.filter((result) => !result.ok);
+  const broken = results.filter((result) =>
+    !result.ok ||
+    (result.kind === "live" && result.demoType === "portfolio-fallback") ||
+    (result.kind === "live" && result.demoType === "generated-case-study-demo")
+  );
 
   if (writeReport) {
     writeReports(results);
   }
 
   if (broken.length > 0) {
-    console.error(`Demo link validation failed: ${broken.length} broken URLs.`);
+    console.error(`Demo link validation failed: ${broken.length} live demo URLs are broken or point to portfolio fallback pages.`);
     broken.forEach((result) => {
       console.error(`- ${result.slug} ${result.kind}: ${result.status ?? "error"} ${result.checkedUrl}`);
     });

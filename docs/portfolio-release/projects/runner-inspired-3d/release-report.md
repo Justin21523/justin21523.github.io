@@ -3,7 +3,7 @@
 ## Completed
 - Portfolio case study exists for `runner-inspired-3d`.
 - Four CTA slots are present with verified links or honest preparing states.
-- Public asset folders, placeholder images, and demo guide are available.
+- Public asset folders, preview media, and external static demo are available.
 - README release notes status: updated-release-section.
 
 ## Changed Files
@@ -16,7 +16,7 @@
 - Portfolio Case Study: /projects/runner-inspired-3d
 - GitHub: https://github.com/Justin21523/3d-rushy-runner
 - README: https://github.com/Justin21523/3d-rushy-runner#readme
-- Live Demo: /projects/runner-inspired-3d#demo-guide
+- Live Demo: https://justin21523.github.io/3d-rushy-runner/
 - Demo Video: /projects/runner-inspired-3d#demo-video
 
 ## Build / Run Status
@@ -35,7 +35,7 @@
 ## Manual Follow-up Needed
 - Replace placeholder screenshots with real project screenshots.
 - Record and link a real demo video.
-- Deploy a real live demo or keep portfolio case-study demo fallback.
+- External static demo is deployed and linked from the portfolio card.
 - Review generated case-study content against source evidence.
 
 ## Notes for Interview
@@ -53,9 +53,9 @@
 - Lint: passed
 - Screenshots: real screenshots present; captured 4 new
 - Demo video: real video present
-- Deployment: portfolio case-study fallback; external deployment still needed
+- Deployment: external static demo verified.
 
 ### Remaining Manual Work
-- Deploy an external live demo if this project should be showcased as runnable.
+- Verify the static demo remains aligned with future product changes.
 - Review generated case-study text against source evidence.
 <!-- quality-pass:end -->

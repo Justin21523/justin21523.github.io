@@ -3,7 +3,7 @@
 ## Completed
 - Portfolio case study exists for `campus-quest-3d`.
 - Four CTA slots are present with verified links or honest preparing states.
-- Public asset folders, placeholder images, and demo guide are available.
+- Public asset folders, preview media, and external static demo are available.
 - README release notes status: updated-release-section.
 
 ## Changed Files
@@ -16,7 +16,7 @@
 - Portfolio Case Study: /projects/campus-quest-3d
 - GitHub: https://github.com/Justin21523/campus-quest-3d
 - README: https://github.com/Justin21523/campus-quest-3d#readme
-- Live Demo: /projects/campus-quest-3d#demo-guide
+- Live Demo: https://justin21523.github.io/campus-quest-3d/
 - Demo Video: /projects/campus-quest-3d#demo-video
 
 ## Build / Run Status
@@ -35,7 +35,7 @@
 ## Manual Follow-up Needed
 - Replace placeholder screenshots with real project screenshots.
 - Record and link a real demo video.
-- Deploy a real live demo or keep portfolio case-study demo fallback.
+- External static demo is deployed and linked from the portfolio card.
 
 ## Notes for Interview
 - State the current maturity and demonstrable scope first
@@ -52,9 +52,9 @@
 - Lint: failed: failed (1)
 - Screenshots: real screenshots present; captured 4 new
 - Demo video: real video present
-- Deployment: portfolio case-study fallback; external deployment still needed
+- Deployment: external static demo verified.
 
 ### Remaining Manual Work
 - Fix the local build before publishing this as a fully runnable demo.
-- Deploy an external live demo if this project should be showcased as runnable.
+- Verify the static demo remains aligned with future product changes.
 <!-- quality-pass:end -->

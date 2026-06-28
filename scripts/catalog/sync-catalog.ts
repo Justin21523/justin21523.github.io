@@ -100,12 +100,15 @@ function sanitizePublicData<T>(value: T): T {
 function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: ProjectLinkDraft[]) {
   const nextLinks = [...links];
   const githubUrl = nextLinks.find((link) => link.kind === "github")?.url || scanData.gitRemote;
+  const githubRepoName = githubUrl?.match(/^https:\/\/github\.com\/Justin21523\/([^/#?]+)/i)?.[1]?.replace(/\.git$/, "");
+  const staticDemoUrl = githubRepoName ? `https://justin21523.github.io/${githubRepoName}/` : "";
 
   const fallbackLinks = {
     live: {
       kind: "live",
-      url: `/projects/${slug}#demo-guide`,
-      label: { "zh-TW": "Demo 指南", en: "Demo Guide" },
+      url: staticDemoUrl,
+      label: { "zh-TW": "Static Demo Site", en: "Static Demo Site" },
+      primary: true,
     },
     github: {
       kind: "github",
@@ -128,11 +131,14 @@ function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: Pro
     },
   } as const;
 
-  (["live", "github", "video", "documentation"] as const).forEach((kind) => {
+  (["github", "video", "documentation"] as const).forEach((kind) => {
     if (!nextLinks.some((link) => link.kind === kind && link.url)) {
       nextLinks.push(fallbackLinks[kind]);
     }
   });
+  if (!nextLinks.some((link) => link.kind === "live" && link.url) && staticDemoUrl) {
+    nextLinks.push(fallbackLinks.live);
+  }
 
   return nextLinks;
 }

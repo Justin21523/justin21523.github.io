@@ -3,7 +3,7 @@
 ## Completed
 - Portfolio case study exists for `nyc-taxi-mobility-analytics`.
 - Four CTA slots are present with verified links or honest preparing states.
-- Public asset folders, placeholder images, and demo guide are available.
+- Public asset folders, preview media, and external static demo are available.
 - README release notes status: updated-release-section.
 
 ## Changed Files
@@ -16,7 +16,7 @@
 - Portfolio Case Study: /projects/nyc-taxi-mobility-analytics
 - GitHub: https://github.com/Justin21523/nyc-taxi-mobility-analytics
 - README: https://github.com/Justin21523/nyc-taxi-mobility-analytics#readme
-- Live Demo: /projects/nyc-taxi-mobility-analytics#demo-guide
+- Live Demo: https://justin21523.github.io/nyc-taxi-mobility-analytics/
 - Demo Video: /portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm
 
 ## Build / Run Status
@@ -33,7 +33,7 @@
 - Diagrams: public/projects/nyc-taxi-mobility-analytics/diagrams/
 
 ## Manual Follow-up Needed
-- Deploy a real live demo or keep portfolio case-study demo fallback.
+- External static demo is deployed and linked from the portfolio card.
 
 ## Notes for Interview
 - State the current maturity and demonstrable scope first
@@ -50,8 +50,8 @@
 - Lint: lint script detected; not executed
 - Screenshots: real screenshots present; captured 4 new
 - Demo video: real video present
-- Deployment: portfolio case-study fallback; external deployment still needed
+- Deployment: external static demo verified.
 
 ### Remaining Manual Work
-- Deploy an external live demo if this project should be showcased as runnable.
+- Verify the static demo remains aligned with future product changes.
 <!-- quality-pass:end -->

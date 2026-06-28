@@ -305,6 +305,14 @@ function main() {
       if (!link.url || link.url === "undefined") {
         errors.push(`${project.slug} has an empty ${kind} link`);
       }
+      if (kind === "live" && isFallbackLink(project, kind, link.url)) {
+        errors.push(`${project.slug} has portfolio-detail fallback live demo link: ${link.url}`);
+        return;
+      }
+      if (kind === "live" && !isExternal(link.url)) {
+        errors.push(`${project.slug} live demo link must be an external deployed demo URL: ${link.url}`);
+        return;
+      }
       if (isFallbackLink(project, kind, link.url)) {
         return;
       }

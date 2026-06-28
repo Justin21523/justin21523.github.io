@@ -1,121 +1,131 @@
 # Real App Demo Deployment Report
 
-Generated at: 2026-06-28T18:54:04.142Z
+Generated at: 2026-06-28T19:32:38.387Z
+
+This report is kept for compatibility with the older real-app demo workflow. It now mirrors the external static demo policy used by the portfolio cards.
 
 ## Summary
 
-- Total projects: 98
-- Real app demo projects labeled App Demo: 20
+- Total projects: 114
+- External live demo URLs: 114
+- Portfolio fallback live demos: 0
 - Broken live demo checks: 0
-- Generated case-study pages still labeled as external live demos: 0
-- Portfolio fallback live checks: 98
 
-## Real App Demo Links
+## Project Demo URLs
 
-| Project | Title | URL | Status |
-| :--- | :--- | :--- | :--- |
-| ai-game-website | ai-game-website | https://justin21523.github.io/ai-game-website/ | verified |
-| ai-knowledge-workspace | ai-knowledge-workspace | https://justin21523.github.io/ai-knowledge-workspace/ | verified |
-| aqua-rush | aqua-rush | https://justin21523.github.io/aqua-rush/ | verified |
-| campus-quest-3d | campus-quest-3d | https://justin21523.github.io/campus-quest-3d/ | verified |
-| elio-discord-bot | elio-discord-bot | https://justin21523.github.io/elio-discord-bot/ | verified |
-| frontend-interaction-lab | frontend-interaction-lab | https://justin21523.github.io/frontend-interaction-lab/ | verified |
-| game-dialogue-simulator | game-dialogue-simulator | https://justin21523.github.io/game-dialogue-simulator/ | verified |
-| highway-adventure-3d | highway-adventure-3d | https://justin21523.github.io/highway-adventure-3d/ | verified |
-| javascript-platformer-concepts | javascript-platformer-concepts | https://justin21523.github.io/javascript-platformer-concepts/ | verified |
-| poker-ai-arena | poker-ai-arena | https://justin21523.github.io/poker-ai-arena/ | verified |
-| prism-runner-3d | prism-runner-3d | https://justin21523.github.io/prism-runner-3d/ | verified |
-| procedural-3d-maze | procedural-3d-maze | https://justin21523.github.io/procedural-3d-maze/ | verified |
-| procedural-dungeon-crawler | procedural-dungeon-crawler | https://justin21523.github.io/procedural-dungeon-crawler/ | verified |
-| r3f-rpg-builder | r3f-rpg-builder | https://justin21523.github.io/react-three-fiber-rpg-builder/ | verified |
-| rigview3d | rigview3d | https://justin21523.github.io/rigview3d/ | verified |
-| runner-inspired-3d | runner-inspired-3d | https://justin21523.github.io/3d-rushy-runner/ | verified |
-| sailing-adventure | sailing-adventure | https://justin21523.github.io/sailing-adventure/ | verified |
-| signal-diver-3d | signal-diver-3d | https://justin21523.github.io/signal-diver-3d/ | verified |
-| the-archive-that-watches-you | the-archive-that-watches-you | https://justin21523.github.io/3d-library-searching-quest/ | verified |
-| threejs-product-viewer | threejs-product-viewer | https://justin21523.github.io/threejs-product-viewer/ | verified |
-
-## Portfolio Case-Study Fallbacks
-
-These projects do not currently claim an external app demo. Their Demo CTA routes to the portfolio case-study demo section instead.
-
-| Project | Title | Demo link | Reason |
-| :--- | :--- | :--- | :--- |
-| 2d-animation-lora-pipeline | 2d-animation-lora-pipeline | /projects/2d-animation-lora-pipeline#demo-guide | portfolio-fallback |
-| 3d-animation-lora-pipeline | 3d-animation-lora-pipeline | https://justin21523.github.io/3d-animation-lora-pipeline/ | external-app-demo |
-| 3d-maze-explorer | 3d-maze-explorer | /projects/3d-maze-explorer#demo-guide | portfolio-fallback |
-| 3d-platformer-runner | 3d-platformer-runner | /projects/3d-platformer-runner#demo-guide | portfolio-fallback |
-| agentic-bi-dataops-copilot | agentic-bi-dataops-copilot | /projects/agentic-bi-dataops-copilot#demo-guide | portfolio-fallback |
-| ai-3d-studio | ai-3d-studio | /projects/ai-3d-studio#demo-guide | portfolio-fallback |
-| amazon-review-intelligence | amazon-review-intelligence | /projects/amazon-review-intelligence#demo-guide | portfolio-fallback |
-| animation-ai-studio | animation-ai-studio | /projects/animation-ai-studio#demo-guide | portfolio-fallback |
-| anime-adventure-lab | anime-adventure-lab | /projects/anime-adventure-lab#demo-guide | portfolio-fallback |
-| ArchiveFlow | ArchiveFlow | /projects/ArchiveFlow#demo-guide | portfolio-fallback |
-| automation | automation | /projects/automation#demo-guide | portfolio-fallback |
-| cafe-net-manager | cafe-net-manager | /projects/cafe-net-manager#demo-guide | portfolio-fallback |
-| charaforge-T2I-Lab | charaforge-T2I-Lab | https://justin21523.github.io/charaforge-T2I-Lab/ | external-app-demo |
-| ChronosMap | ChronosMap | /projects/ChronosMap#demo-guide | portfolio-fallback |
-| commercial-ml-analysis | commercial-ml-analysis | https://justin21523.github.io/commercial-ml-analysis/ | external-app-demo |
-| commute-reliability-analysis | commute-reliability-analysis | https://justin21523.github.io/commute-reliability-analysis/ | external-app-demo |
-| css-advanced-mastery | css-advanced-mastery | https://justin21523.github.io/css-advanced-mastery/ | external-app-demo |
-| CulturePOS | CulturePOS | /projects/CulturePOS#demo-guide | portfolio-fallback |
-| data-narrative-studio | data-narrative-studio | /projects/data-narrative-studio#demo-guide | portfolio-fallback |
-| data-pipelines | data-pipelines | /projects/data-pipelines#demo-guide | portfolio-fallback |
-| dataagent-analyst | dataagent-analyst | https://justin21523.github.io/dataagent-analyst/ | external-app-demo |
-| datalab-studio | datalab-studio | /projects/datalab-studio#demo-guide | portfolio-fallback |
-| dcard-trending-crawler | dcard-trending-crawler | /projects/dcard-trending-crawler#demo-guide | portfolio-fallback |
-| digital-archive-review-board | digital-archive-review-board | /projects/digital-archive-review-board#demo-guide | portfolio-fallback |
-| digital-living | digital-living | https://justin21523.github.io/digital-living/ | external-app-demo |
-| discord-clone | discord-clone | /projects/discord-clone#demo-guide | portfolio-fallback |
-| excel-python-data-analysis | excel-python-data-analysis | /projects/excel-python-data-analysis#demo-guide | portfolio-fallback |
-| fandom-gui-scraper | fandom-gui-scraper | /projects/fandom-gui-scraper#demo-guide | portfolio-fallback |
-| gan-ae-vision-suite | gan-ae-vision-suite | /projects/gan-ae-vision-suite#demo-guide | portfolio-fallback |
-| geovideo-env-check | geovideo-env-check | /projects/geovideo-env-check#demo-guide | portfolio-fallback |
-| govcase-tracker | govcase-tracker | /projects/govcase-tracker#demo-guide | portfolio-fallback |
-| HeritageMapStudio | HeritageMapStudio | /projects/HeritageMapStudio#demo-guide | portfolio-fallback |
-| image-process | image-process | /projects/image-process#demo-guide | portfolio-fallback |
-| information-retrieval | information-retrieval | https://neojustin.dothost.net/projects/information-retrieval/ | external-app-demo |
-| intro-to-dl | intro-to-dl | https://justin21523.github.io/intro-to-dl/ | external-app-demo |
-| intro-to-ml | intro-to-ml | https://justin21523.github.io/intro-to-ml/ | external-app-demo |
-| intro-to-vml | intro-to-vml | https://justin21523.github.io/intro-to-vml/ | external-app-demo |
-| ir-rag-evaluation-lab | ir-rag-evaluation-lab | /projects/ir-rag-evaluation-lab#demo-guide | portfolio-fallback |
-| Justin21523 | Justin21523 | /projects/Justin21523#demo-guide | portfolio-fallback |
-| libradesk | libradesk | /projects/libradesk#demo-guide | portfolio-fallback |
-| library-reach-analysis | library-reach-analysis | /projects/library-reach-analysis#demo-guide | portfolio-fallback |
-| llm-train-eval-ship | llm-train-eval-ship | https://justin21523.github.io/LLM-train-eval-ship/ | external-app-demo |
-| lyrics-cultural-analytics-lab | lyrics-cultural-analytics-lab | /projects/lyrics-cultural-analytics-lab#demo-guide | portfolio-fallback |
-| MetaCleaner | MetaCleaner | /projects/MetaCleaner#demo-guide | portfolio-fallback |
-| metashelf | metashelf | /projects/metashelf#demo-guide | portfolio-fallback |
-| modelops-dashboard | modelops-dashboard | /projects/modelops-dashboard#demo-guide | portfolio-fallback |
-| mrt-ubike-analysis | mrt-ubike-analysis | https://justin21523.github.io/mrt-ubike-analysis/ | external-app-demo |
-| multi-ai-agents | multi-ai-agents | https://justin21523.github.io/multi-ai-agents/ | external-app-demo |
-| music-intelligence-platform | music-intelligence-platform | /projects/music-intelligence-platform#demo-guide | portfolio-fallback |
-| my-3d-platformer | my-3d-platformer | https://justin21523.github.io/my-3d-platformer/ | external-app-demo |
-| news-web-crawler | news-web-crawler | /projects/news-web-crawler#demo-guide | portfolio-fallback |
-| nyc-taxi-mobility-analytics | nyc-taxi-mobility-analytics | /projects/nyc-taxi-mobility-analytics#demo-guide | portfolio-fallback |
-| openalex-research-rag | openalex-research-rag | /projects/openalex-research-rag#demo-guide | portfolio-fallback |
-| openclaw-multimodal-stack | openclaw-multimodal-stack | https://justin21523.github.io/openclaw-multimodal-stack/ | external-app-demo |
-| platformer-game | platformer-game | https://justin21523.github.io/platformer-game/ | external-app-demo |
-| poker-ai-web | poker-ai-web | /projects/poker-ai-web#demo-guide | portfolio-fallback |
-| projectmind | projectmind | /projects/projectmind#demo-guide | portfolio-fallback |
-| quant-strategy-agent-lab | quant-strategy-agent-lab | https://justin21523.github.io/quant-strategy-agent-lab/ | external-app-demo |
-| recsys-benchmark-suite | recsys-benchmark-suite | https://justin21523.github.io/recsys-benchmark-suite/ | external-app-demo |
-| research-paper-and-knowledge-workspace | research-paper-and-knowledge-workspace | /projects/research-paper-and-knowledge-workspace#demo-guide | portfolio-fallback |
-| restoreAI-studio | restoreAI-studio | https://justin21523.github.io/restoreAI-studio/ | external-app-demo |
-| retailpulse-bi-recommender | retailpulse-bi-recommender | /projects/retailpulse-bi-recommender#demo-guide | portfolio-fallback |
-| rocm-image-video-stack | rocm-image-video-stack | https://justin21523.github.io/rocm-image-video-stack/ | external-app-demo |
-| school-library-lms | school-library-lms | /projects/school-library-lms#demo-guide | portfolio-fallback |
-| scrapers | scrapers | /projects/scrapers#demo-guide | portfolio-fallback |
-| sd-multimodal-platform | sd-multimodal-platform | /projects/sd-multimodal-platform#demo-guide | portfolio-fallback |
-| starforge-AI-narrative | starforge-AI-narrative | /projects/starforge-AI-narrative#demo-guide | portfolio-fallback |
-| text2sql-evaluation-harness | text2sql-evaluation-harness | https://justin21523.github.io/text2sql-evaluation-harness/ | external-app-demo |
-| the-classrooms | the-classrooms | https://justin21523.github.io/the-classrooms/ | external-app-demo |
-| traffic-pulse | traffic-pulse | /projects/traffic-pulse#demo-guide | portfolio-fallback |
-| tripscore | tripscore | /projects/tripscore#demo-guide | portfolio-fallback |
-| urban-analytics-core | urban-analytics-core | https://justin21523.github.io/urban-analytics-core/ | external-app-demo |
-| vanilla-dom-playground | vanilla-dom-playground | /projects/vanilla-dom-playground#demo-guide | portfolio-fallback |
-| video-family-lora-hub | video-family-lora-hub | https://justin21523.github.io/video-family-lora-hub/ | external-app-demo |
-| video-gen | video-gen | https://justin21523.github.io/video-gen/ | external-app-demo |
-| vision-quest | vision-quest | https://justin21523.github.io/vision-quest/ | external-app-demo |
-| YouTube-Web-Automation-Analysis | YouTube-Web-Automation-Analysis | https://justin21523.github.io/YouTube-Web-Automation-Analysis/ | external-app-demo |
-| ytp-factory | ytp-factory | https://justin21523.github.io/ytp-factory/ | external-app-demo |
+| Project | Title | Live Demo | Label | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| 2d-animation-lora-pipeline | 2D Animation Character LoRA Training Pipeline | https://justin21523.github.io/2d-animation-lora-pipeline/ | Static Demo Site | verified |
+| 3d-animation-lora-pipeline | 3D Animation LoRA Pipeline and Demo Showcase | https://justin21523.github.io/3d-animation-lora-pipeline/ | Interactive Demo Site | verified |
+| 3d-maze-explorer | 3d Maze Explorer | https://justin21523.github.io/3d-maze-explorer/ | Static Demo Site | verified |
+| 3d-platformer-runner | 3d Platformer Runner | https://justin21523.github.io/3d-platformer-runner/ | Static Demo Site | verified |
+| agentic-bi-dataops-copilot | Agentic BI / DataOps Copilot | https://justin21523.github.io/agentic-bi-dataops-copilot/ | Static Demo Site | verified |
+| ai-3d-studio | AI 3D Studio — A Unified Multi-Backend Image-to-3D Generation and Blender Integration Framework | https://justin21523.github.io/ai-3d-studio/ | Static Demo Site | verified |
+| ai-game-website | Ai Game Website | https://justin21523.github.io/ai-game-website/ | App Demo | verified |
+| ai-knowledge-workspace | Ai Knowledge Workspace | https://justin21523.github.io/ai-knowledge-workspace/ | App Demo | verified |
+| amazon-review-intelligence | Amazon Review Intelligence | https://justin21523.github.io/amazon-review-intelligence/ | Static Demo Site | verified |
+| animation-ai-studio | Animation AI Studio: A Demoable AI Animation Workflow Platform | https://justin21523.github.io/animation-ai-studio/ | Static Demo Site | verified |
+| anime-adventure-lab | Anime Adventure Lab — RAG + LLM Story World Generation Platform | https://justin21523.github.io/anime-adventure-lab/ | Static Demo Site | verified |
+| anime-lora-pipeline | Anime Lora Pipeline | https://justin21523.github.io/anime-lora-pipeline/ | Static Demo Site | verified |
+| aqua-rush | Aqua Rush | https://justin21523.github.io/aqua-rush/ | App Demo | verified |
+| ArchiveFlow | ArchiveFlow Studio | https://justin21523.github.io/archive-flow-studio/ | Static Demo Site | verified |
+| AutoForge-llm-studio | AutoForge LLM Studio | https://justin21523.github.io/AutoForge-llm-studio/ | Static Demo Site | verified |
+| automation | Automation | https://justin21523.github.io/automation/ | Static Demo Site | verified |
+| cafe-net-manager | CafeNet Manager | https://justin21523.github.io/cafe-net-manager/ | Static Demo Site | verified |
+| campus-quest-3d | Campus Quest 3d | https://justin21523.github.io/campus-quest-3d/ | App Demo | verified |
+| charaforge-T2I-Lab | CharaForge T2I Lab — Text-to-Image, ControlNet, and LoRA Training Platform | https://justin21523.github.io/charaforge-T2I-Lab/ | Interactive Demo | verified |
+| ChronosMap | ChronosMap Spatio-Temporal Weaver | https://justin21523.github.io/ChronosMap/ | Static Demo Site | verified |
+| commercial-ml-analysis | Commercial ML Analysis Platform | https://justin21523.github.io/commercial-ml-analysis/ | Interactive Demo | verified |
+| commute-reliability-analysis | CommuteReliability Analytics | https://justin21523.github.io/commute-reliability-analysis/ | Interactive Demo | verified |
+| css-advanced-mastery | CSS Advanced Mastery — Hands-on Advanced CSS Lab | https://justin21523.github.io/css-advanced-mastery/ | Live Demo | verified |
+| CulturePOS | CulturePOS Cultural-Retail POS Desktop System | https://justin21523.github.io/CulturePOS/ | Static Demo Site | verified |
+| data-narrative-studio | Data Narrative Studio | https://justin21523.github.io/data-narrative-studio/ | Static Demo Site | verified |
+| data-pipelines | Data Pipelines | https://justin21523.github.io/data-pipelines/ | Static Demo Site | verified |
+| dataagent-analyst | DataAgent Analyst: AI Agent Data Analysis & ML Workbench | https://justin21523.github.io/dataagent-analyst/ | Interactive Demo | verified |
+| datalab-studio | Datalab Studio | https://justin21523.github.io/datalab-studio/ | Static Demo Site | verified |
+| dcard-trending-crawler | posts-trending-crawler | https://justin21523.github.io/posts-trending-crawler/ | Static Demo Site | verified |
+| digital-archive-review-board | Digital Archive Review Board | https://justin21523.github.io/digital-archive-review-board/ | Static Demo Site | verified |
+| digital-living | Digital Living | https://justin21523.github.io/digital-living/ | Live Demo | verified |
+| discord-clone | Discord Clone Real-Time Chat Platform | https://justin21523.github.io/discord-clone/ | Static Demo Site | verified |
+| dom-visualizer-oop | Dom Visualizer Oop | https://justin21523.github.io/dom-visualizer-oop/ | Static Demo Site | verified |
+| edge-deid-studio | Edge Deid Studio | https://justin21523.github.io/edge-deid-studio/ | Static Demo Site | verified |
+| elio-discord-bot | Elio Discord Bot | https://justin21523.github.io/elio-discord-bot/ | App Demo | verified |
+| excel-python-data-analysis | Excel Python Data Analysis Platform | https://justin21523.github.io/excel-python-data-analysis/ | Static Demo Site | verified |
+| fandom-gui-scraper | Fandom / MediaWiki Scraper Platform | https://justin21523.github.io/fandom-gui-scraper/ | Static Demo Site | verified |
+| frontend-interaction-lab | Frontend Interaction Lab | https://justin21523.github.io/frontend-interaction-lab/ | App Demo | verified |
+| game-dialogue-simulator | Game Dialogue Simulator | https://justin21523.github.io/game-dialogue-simulator/ | App Demo | verified |
+| gan-ae-vision-suite | GAN-AE Vision Suite | https://justin21523.github.io/GAN-AE-vision-suite/ | Static Demo Site | verified |
+| geovideo-env-check | GeoVideo Evidence Viewer | https://justin21523.github.io/geovideo-env-check/ | Static Demo Site | verified |
+| govcase-tracker | GovCase Tracker — Government Case Tracking System | https://justin21523.github.io/govcase-tracker/ | Static Demo Site | verified |
+| HeritageMapStudio | HeritageMap Studio | https://justin21523.github.io/HeritageMapStudio/ | Static Demo Site | verified |
+| highway-adventure-3d | Highway Adventure 3d | https://justin21523.github.io/highway-adventure-3d/ | App Demo | verified |
+| html-css-interactive-lab | Html Css Interactive Lab | https://justin21523.github.io/html-css-interactive-lab/ | Static Demo Site | verified |
+| image-process | Browser-Based 3D Model Viewer & Editor | https://justin21523.github.io/image-process/ | Static Demo Site | verified |
+| information-retrieval | CNIRS Chinese News IR System | https://neojustin.dothost.net/projects/information-retrieval/ | Open Live Demo | verified |
+| intro-to-dl | Deep Learning Hands-On Tutorial Series | https://justin21523.github.io/intro-to-dl/ | Interactive Demo | verified |
+| intro-to-ml | Intro to ML: Classical Machine Learning From Scratch | https://justin21523.github.io/intro-to-ml/ | Interactive Demo | verified |
+| intro-to-vml | Intro to VML: Visual Machine Learning Primer | https://justin21523.github.io/intro-to-vml/ | Interactive Demo | verified |
+| ir-rag-evaluation-lab | IR / RAG Evaluation Lab | https://justin21523.github.io/ir-rag-evaluation-lab/ | Static Demo Site | verified |
+| javascript-game-physics | Javascript Game Physics | https://justin21523.github.io/javascript-game-physics/ | Static Demo Site | verified |
+| javascript-platformer-concepts | JavaScript Platformer Concepts | https://justin21523.github.io/javascript-platformer-concepts/ | App Demo | verified |
+| libradesk | Libradesk | https://justin21523.github.io/library-desk/ | Static Demo Site | verified |
+| library-reach-analysis | Library Reach Analysis | https://justin21523.github.io/library-reach-analysis/ | Static Demo Site | verified |
+| llm-switch-chat | LLM Switch Chat | https://justin21523.github.io/llm-switch-chat/ | Static Demo Site | verified |
+| llm-train-eval-ship | LLM Train-Eval-Ship Release Console | https://justin21523.github.io/LLM-train-eval-ship/ | Interactive Demo | verified |
+| lyrics-cultural-analytics-lab | Lyrics Cultural Analytics Lab | https://justin21523.github.io/lyrics-cultural-analytics-lab/ | Static Demo Site | verified |
+| MetaCleaner | MetaCleaner Batch Metadata Scrubbing Tool | https://justin21523.github.io/MetaCleaner/ | Static Demo Site | verified |
+| metashelf | MetaShelf — Bibliographic Resource Discovery Platform | https://justin21523.github.io/metashelf/ | Static Demo Site | verified |
+| mock-master | Mock Master | https://justin21523.github.io/mock-master/ | Static Demo Site | verified |
+| modelops-dashboard | Modelops Dashboard | https://justin21523.github.io/modelops-dashboard/ | Static Demo Site | verified |
+| mrt-ubike-analysis | MetroBikeAtlas: Metro & Shared-Bike Urban Mobility Analytics | https://justin21523.github.io/mrt-ubike-analysis/ | Interactive Demo | verified |
+| multi-ai-agents | Multi-AI Agents — Game Agent Ecosystem | https://justin21523.github.io/multi-ai-agents/ | Interactive Demo | verified |
+| music-intelligence-platform | Music Intelligence Platform | https://justin21523.github.io/music-intelligence-platform/ | Static Demo Site | verified |
+| my-3d-platformer | My 3d Platformer | https://justin21523.github.io/my-3d-platformer/ | Live Demo | verified |
+| mystery-phenomena-files | Mystery Phenomena Files | https://justin21523.github.io/mystery-phenomena-files/ | Static Demo Site | verified |
+| news-web-crawler | News Web Crawler & Data Intelligence Platform | https://justin21523.github.io/news-web-crawler/ | Static Demo Site | verified |
+| nyc-taxi-mobility-analytics | NYC Taxi Mobility Analytics Platform | https://justin21523.github.io/nyc-taxi-mobility-analytics/ | Static Demo Site | verified |
+| openalex-research-rag | OpenAlex Research Intelligence (RAG) | https://justin21523.github.io/openalex-research-rag/ | Static Demo Site | verified |
+| openclaw-multimodal-stack | OpenClaw Multimodal Stack | https://justin21523.github.io/openclaw-multimodal-stack/ | Interactive Demo | verified |
+| platformer-game | Platformer Game | https://justin21523.github.io/platformer-game/ | Live Demo | verified |
+| playwright-automation | Playwright Automation | https://justin21523.github.io/playwright-automation/ | Static Demo Site | verified |
+| poker-ai-arena | Poker AI Arena | https://justin21523.github.io/poker-ai-arena/ | App Demo | verified |
+| poker-ai-web | Poker AI Web — Learning Card-Game AI Platform | https://justin21523.github.io/poker-AI-web/ | Static Demo Site | verified |
+| prism-runner-3d | Prism Runner 3d | https://justin21523.github.io/prism-runner-3d/ | App Demo | verified |
+| procedural-3d-maze | Procedural 3D Maze | https://justin21523.github.io/procedural-3d-maze/ | App Demo | verified |
+| procedural-dungeon-crawler | Procedural Dungeon Crawler | https://justin21523.github.io/procedural-dungeon-crawler/ | App Demo | verified |
+| projectmind | Projectmind | https://justin21523.github.io/project-mind/ | Static Demo Site | verified |
+| quant-strategy-agent-lab | Quant Strategy Agent Lab | https://justin21523.github.io/quant-strategy-agent-lab/ | Interactive Demo | verified |
+| r3f-rpg-builder | R3f RPG Builder | https://justin21523.github.io/react-three-fiber-rpg-builder/ | App Demo | verified |
+| recsys-benchmark-suite | Recommendation Benchmark Suite | https://justin21523.github.io/recsys-benchmark-suite/ | Interactive Demo | verified |
+| research-paper-and-knowledge-workspace | Research Paper & Knowledge Workspace | https://justin21523.github.io/research-paper-and-knowledge-workspace/ | Static Demo Site | verified |
+| restoreAI-studio | RestorAI Studio — AI Image Restoration Portfolio Workbench | https://justin21523.github.io/restoreAI-studio/ | Interactive Demo | verified |
+| retailpulse-bi-recommender | RetailPulse BI & Recommendation Platform | https://justin21523.github.io/retailpulse-bi-recommender/ | Static Demo Site | verified |
+| rigview3d | Rigview3d | https://justin21523.github.io/rigview3d/ | App Demo | verified |
+| rocm-image-video-stack | ROCm Image & Video AI Generation Stack | https://justin21523.github.io/rocm-image-video-stack/ | Interactive Demo | verified |
+| runner-inspired-3d | 3D Rushy Runner | https://justin21523.github.io/3d-rushy-runner/ | App Demo | verified |
+| sailing-adventure | Sailing Adventure | https://justin21523.github.io/sailing-adventure/ | App Demo | verified |
+| school-library-lms | School Library Lms | https://justin21523.github.io/school-library-lms/ | Static Demo Site | verified |
+| scrapers | Scrapers | https://justin21523.github.io/scrapers/ | Static Demo Site | verified |
+| sd-multimodal-platform | SD Multi-Modal Platform: Portfolio-Ready Stable Diffusion Platform | https://justin21523.github.io/sd-multimodal-platform/ | Static Demo Site | verified |
+| signal-diver-3d | Signal Diver 3d | https://justin21523.github.io/signal-diver-3d/ | App Demo | verified |
+| smart-home-energy-monitor | Smart Home Energy Monitor | https://justin21523.github.io/smart-home-energy-monitor/ | Static Demo Site | verified |
+| soundscape-taiwan | Soundscape Taiwan | https://justin21523.github.io/soundscape-taiwan/ | Static Demo Site | verified |
+| starforge-AI-narrative | Starforge AI Narrative | https://justin21523.github.io/starforge-AI-narrative/ | Static Demo Site | verified |
+| text2sql-evaluation-harness | Text2SQL Evaluation Harness | https://justin21523.github.io/text2sql-evaluation-harness/ | Interactive Demo | verified |
+| TGW-playbook | TGW Playbook | https://justin21523.github.io/TGW-playbook/ | Static Demo Site | verified |
+| the-archive-that-watches-you | The Archive That Watches You | https://justin21523.github.io/3d-library-searching-quest/ | App Demo | verified |
+| the-classrooms | The Classrooms | https://justin21523.github.io/the-classrooms/ | Live Demo | verified |
+| threejs-product-viewer | Threejs Product Viewer | https://justin21523.github.io/threejs-product-viewer/ | App Demo | verified |
+| traffic-pulse | Traffic Pulse | https://justin21523.github.io/traffic-pulse/ | Static Demo Site | verified |
+| transformer-core | Transformer Core | https://justin21523.github.io/transformer-core/ | Static Demo Site | verified |
+| tripscore | TripScore: Explainable Destination Scoring & Recommendation | https://justin21523.github.io/tripscore/ | Static Demo Site | verified |
+| tts-voice-app | TTS Voice App | https://justin21523.github.io/tts-voice-app/ | Static Demo Site | verified |
+| urban-analytics-core | urban-analytics-core | https://justin21523.github.io/urban-analytics-core/ | Interactive Demo | verified |
+| vanilla-dom-playground | Vanilla DOM Playground | https://justin21523.github.io/vanilla-dom-playground/ | Static Demo Site | verified |
+| video-family-lora-hub | Video Family LoRA Hub | https://justin21523.github.io/video-family-lora-hub/ | Open Interactive Demo | verified |
+| video-gen | video-gen: ROCm Video-Gen Environment Governance Workspace | https://justin21523.github.io/video-gen/ | Interactive Demo | verified |
+| video-gen-factory | Video Gen Factory | https://justin21523.github.io/video-gen-factory/ | Static Demo Site | verified |
+| vision-quest | VisionQuest Multi-Modal AI Platform | https://justin21523.github.io/vision-quest/ | Interactive Demo | verified |
+| web-auto-concepts | Web Auto Concepts | https://justin21523.github.io/web-auto-concepts/ | Static Demo Site | verified |
+| YouTube-Web-Automation-Analysis | YouTube Web Automation & Analysis Platform | https://justin21523.github.io/YouTube-Web-Automation-Analysis/ | Interactive Demo | verified |
+| ytp-factory | YTP Factory — AI-Driven Video Automation Factory | https://justin21523.github.io/ytp-factory/ | Interactive Demo | verified |

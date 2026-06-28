@@ -14,7 +14,7 @@ const actionOrder: ProjectActionKind[] = ["live", "github", "video", "documentat
 
 const labels: Record<PortfolioLocale, Record<ProjectActionKind, { available: string; unavailable: string }>> = {
   en: {
-    live: { available: "Live Demo", unavailable: "Portfolio Case Study Demo" },
+    live: { available: "Live Demo", unavailable: "Demo pending" },
     github: { available: "GitHub", unavailable: "GitHub pending" },
     video: { available: "Demo Video", unavailable: "Video pending" },
     documentation: { available: "README", unavailable: "README pending" },
@@ -52,6 +52,10 @@ function isFallbackLink(project: Project, kind: ProjectActionKind, url: string |
   ].includes(url);
 }
 
+function isExternalUrl(url: string | undefined) {
+  return Boolean(url && /^https?:\/\//.test(url));
+}
+
 export function getProjectActionLinks(project: Project, locale: PortfolioLocale): ProjectActionLink[] {
   return actionOrder.map((kind) => {
     const link = project.links.find((item) => item.kind === kind);
@@ -65,9 +69,9 @@ export function getProjectActionLinks(project: Project, locale: PortfolioLocale)
     const linkedUrl = link?.url;
     const fallbackLink = isFallbackLink(project, kind, linkedUrl);
     const url = fallbackLink ? fallbackUrls[kind] : linkedUrl ?? fallbackUrls[kind];
-    const available = kind === "live" ? Boolean(url) : Boolean(url && !fallbackLink);
+    const available = kind === "live" ? isExternalUrl(linkedUrl) && !fallbackLink : Boolean(url && !fallbackLink);
     const fallbackLabels: Record<ProjectActionKind, string> = {
-      live: locale === "en" ? "Portfolio Case Study Demo" : "作品集案例 Demo",
+      live: fallback.unavailable,
       github: fallback.unavailable,
       video: fallback.unavailable,
       documentation: fallback.unavailable,

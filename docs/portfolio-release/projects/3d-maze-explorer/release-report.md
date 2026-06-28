@@ -3,7 +3,7 @@
 ## Completed
 - Portfolio case study exists for `3d-maze-explorer`.
 - Four CTA slots are present with verified links or honest preparing states.
-- Public asset folders, placeholder images, and demo guide are available.
+- Public asset folders, preview media, and external static demo are available.
 - README release notes status: updated-release-section.
 
 ## Changed Files
@@ -16,7 +16,7 @@
 - Portfolio Case Study: /projects/3d-maze-explorer
 - GitHub: /projects/3d-maze-explorer#source-access
 - README: /projects/3d-maze-explorer#readme-guide
-- Live Demo: /projects/3d-maze-explorer#demo-guide
+- Live Demo: https://justin21523.github.io/3d-maze-explorer/
 - Demo Video: /projects/3d-maze-explorer#demo-video
 
 ## Build / Run Status
@@ -35,7 +35,7 @@
 ## Manual Follow-up Needed
 - Replace placeholder screenshots with real project screenshots.
 - Record and link a real demo video.
-- Deploy a real live demo or keep portfolio case-study demo fallback.
+- External static demo is deployed and linked from the portfolio card.
 
 ## Notes for Interview
 - State the current maturity and demonstrable scope first
@@ -52,8 +52,8 @@
 - Lint: no lint script detected
 - Screenshots: real screenshots present
 - Demo video: real video present
-- Deployment: portfolio case-study fallback; external deployment still needed
+- Deployment: external static demo verified.
 
 ### Remaining Manual Work
-- Deploy an external live demo if this project should be showcased as runnable.
+- Verify the static demo remains aligned with future product changes.
 <!-- quality-pass:end -->
