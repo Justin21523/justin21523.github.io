@@ -11,7 +11,7 @@ highlights:
   - "Complete portfolio media package: cover, desktop screenshots, mobile screenshot, results screenshot, and MP4 walkthrough"
   - "Stage manifest shows frame extraction, dedupe, segmentation, pose data, embeddings, training data, and generated outputs"
   - "Demo-safe tests run in CPU-only environments without private videos or large model weights"
-  - "Static demo deploys to GitHub Pages and can also be packaged with Docker/Nginx"
+  - "Live demo deploys to GitHub Pages and can also be packaged with Docker/Nginx"
   - "README and portfolio page explain stack, architecture, startup commands, and interview walkthrough flow"
 challenges:
   - "Converting a research-style pipeline into a product-style demo that reviewers can understand quickly"

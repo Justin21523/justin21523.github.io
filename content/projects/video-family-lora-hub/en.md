@@ -1,11 +1,11 @@
 ---
 title: "Video Family LoRA Hub"
 tagline: "A multi-model video generation and identity LoRA workflow hub for a single 16GB GPU"
-summary: "A portfolio-ready Python CLI and static demo that unifies SVD, LTX-2, Wan, CogVideoX, and AnimateDiff SDXL through YAML manifests, ComfyUI workflow templates, adapters, mock-safe demo flows, screenshots, and a WebM walkthrough."
+summary: "A portfolio-ready Python CLI and demo app that unifies SVD, LTX-2, Wan, CogVideoX, and AnimateDiff SDXL through YAML manifests, ComfyUI workflow templates, adapters, mock-safe demo flows, screenshots, and a WebM walkthrough."
 role: "Solo developer: system architecture, CLI and adapter design, ComfyUI workflow integration, mock-safe demo, README diagrams, and GitHub Pages deployment"
 problem: "Video generation and LoRA training workflows are fragmented across model families, weight formats, ComfyUI nodes, and trainer projects. Running t2v, i2v, v2v, and identity LoRA workflows on one 16GB GPU needs a unified, reproducible operator surface that can also be shown publicly without private models."
 solution: "The project uses a Typer CLI and Pydantic-validated YAML model catalog to coordinate a family registry, generation adapters, manifest runner, ComfyUI API templates, and trainer subprocess bridges. The public demo runs through deterministic dummy flows, so it is safe without GPU access, model weights, API keys, or external services."
-outcome: "The project is now portfolio-ready: the GitHub Pages demo opens directly on the product console, includes demo scenarios, pipeline state, artifact browser, screenshots, and a WebM walkthrough; locally it passes pytest, ruff, mypy, package build, demo smoke, and static demo build checks."
+outcome: "The project is now portfolio-ready: the GitHub Pages demo opens directly on the product console, includes demo scenarios, pipeline state, artifact browser, screenshots, and a WebM walkthrough; locally it passes pytest, ruff, mypy, package build, demo smoke, and demo app build checks."
 highlights:
   - "The first viewport is the actual product console, not a marketing-only page"
   - "Mock-safe demo mode works without GPU, model weights, ComfyUI, or external APIs"

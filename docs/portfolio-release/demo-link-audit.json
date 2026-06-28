@@ -1,33 +1,9 @@
 {
-  "generatedAt": "2026-06-28T20:10:02.856Z",
+  "generatedAt": "2026-06-28T20:14:13.896Z",
   "baseUrl": "https://justin21523.github.io",
   "total": 228,
   "broken": 0,
   "results": [
-    {
-      "slug": "3d-maze-explorer",
-      "kind": "live",
-      "sourceUrl": "https://justin21523.github.io/3d-maze-explorer/",
-      "checkedUrl": "https://justin21523.github.io/3d-maze-explorer/",
-      "demoType": "external-app-demo",
-      "status": 200,
-      "ok": true,
-      "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://justin21523.github.io/3d-maze-explorer/",
-      "bytesRead": 782
-    },
-    {
-      "slug": "3d-platformer-runner",
-      "kind": "live",
-      "sourceUrl": "https://justin21523.github.io/3d-platformer-runner/",
-      "checkedUrl": "https://justin21523.github.io/3d-platformer-runner/",
-      "demoType": "external-app-demo",
-      "status": 200,
-      "ok": true,
-      "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://justin21523.github.io/3d-platformer-runner/",
-      "bytesRead": 817
-    },
     {
       "slug": "2d-animation-lora-pipeline",
       "kind": "live",
@@ -39,6 +15,18 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/2d-animation-lora-pipeline/",
       "bytesRead": 837
+    },
+    {
+      "slug": "3d-maze-explorer",
+      "kind": "live",
+      "sourceUrl": "https://justin21523.github.io/3d-maze-explorer/",
+      "checkedUrl": "https://justin21523.github.io/3d-maze-explorer/",
+      "demoType": "external-app-demo",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://justin21523.github.io/3d-maze-explorer/",
+      "bytesRead": 782
     },
     {
       "slug": "3d-animation-lora-pipeline",
@@ -53,6 +41,18 @@
       "bytesRead": 4110
     },
     {
+      "slug": "3d-platformer-runner",
+      "kind": "live",
+      "sourceUrl": "https://justin21523.github.io/3d-platformer-runner/",
+      "checkedUrl": "https://justin21523.github.io/3d-platformer-runner/",
+      "demoType": "external-app-demo",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://justin21523.github.io/3d-platformer-runner/",
+      "bytesRead": 817
+    },
+    {
       "slug": "agentic-bi-dataops-copilot",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
@@ -63,6 +63,18 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
       "bytesRead": 930
+    },
+    {
+      "slug": "ai-game-website",
+      "kind": "live",
+      "sourceUrl": "https://justin21523.github.io/ai-game-website/",
+      "checkedUrl": "https://justin21523.github.io/ai-game-website/",
+      "demoType": "external-app-demo",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://justin21523.github.io/ai-game-website/",
+      "bytesRead": 461
     },
     {
       "slug": "ai-3d-studio",
@@ -77,16 +89,16 @@
       "bytesRead": 966
     },
     {
-      "slug": "ai-game-website",
-      "kind": "live",
-      "sourceUrl": "https://justin21523.github.io/ai-game-website/",
-      "checkedUrl": "https://justin21523.github.io/ai-game-website/",
-      "demoType": "external-app-demo",
+      "slug": "3d-animation-lora-pipeline",
+      "kind": "video",
+      "sourceUrl": "/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
+      "checkedUrl": "https://justin21523.github.io/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
+      "demoType": "external-media",
       "status": 200,
       "ok": true,
-      "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://justin21523.github.io/ai-game-website/",
-      "bytesRead": 461
+      "contentType": "video/mp4",
+      "finalUrl": "https://justin21523.github.io/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
+      "bytesRead": 1378
     },
     {
       "slug": "ai-knowledge-workspace",
@@ -113,42 +125,6 @@
       "bytesRead": 16384
     },
     {
-      "slug": "3d-animation-lora-pipeline",
-      "kind": "video",
-      "sourceUrl": "/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
-      "checkedUrl": "https://justin21523.github.io/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/mp4",
-      "finalUrl": "https://justin21523.github.io/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "2d-animation-lora-pipeline",
-      "kind": "video",
-      "sourceUrl": "/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
-      "bytesRead": 1378
-    },
-    {
-      "slug": "3d-platformer-runner",
-      "kind": "video",
-      "sourceUrl": "/projects/3d-platformer-runner/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/3d-platformer-runner/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/3d-platformer-runner/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 1378
-    },
-    {
       "slug": "agentic-bi-dataops-copilot",
       "kind": "video",
       "sourceUrl": "/projects/agentic-bi-dataops-copilot/videos/01-real-demo-tour.webm",
@@ -158,7 +134,7 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/agentic-bi-dataops-copilot/videos/01-real-demo-tour.webm",
-      "bytesRead": 16384
+      "bytesRead": 1378
     },
     {
       "slug": "ai-3d-studio",
@@ -182,6 +158,18 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/ai-game-website/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "2d-animation-lora-pipeline",
+      "kind": "video",
+      "sourceUrl": "/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
       "bytesRead": 1378
     },
     {
@@ -221,18 +209,6 @@
       "bytesRead": 898
     },
     {
-      "slug": "anime-adventure-lab",
-      "kind": "live",
-      "sourceUrl": "https://justin21523.github.io/anime-adventure-lab/",
-      "checkedUrl": "https://justin21523.github.io/anime-adventure-lab/",
-      "demoType": "external-app-demo",
-      "status": 200,
-      "ok": true,
-      "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://justin21523.github.io/anime-adventure-lab/",
-      "bytesRead": 894
-    },
-    {
       "slug": "anime-lora-pipeline",
       "kind": "video",
       "sourceUrl": "https://justin21523.github.io/anime-lora-pipeline/#demo-video",
@@ -243,6 +219,18 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/anime-lora-pipeline/",
       "bytesRead": 898
+    },
+    {
+      "slug": "anime-adventure-lab",
+      "kind": "live",
+      "sourceUrl": "https://justin21523.github.io/anime-adventure-lab/",
+      "checkedUrl": "https://justin21523.github.io/anime-adventure-lab/",
+      "demoType": "external-app-demo",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://justin21523.github.io/anime-adventure-lab/",
+      "bytesRead": 894
     },
     {
       "slug": "aqua-rush",
@@ -269,6 +257,18 @@
       "bytesRead": 778
     },
     {
+      "slug": "ai-knowledge-workspace",
+      "kind": "video",
+      "sourceUrl": "/projects/ai-knowledge-workspace/videos/01-real-demo-walkthrough.mp4",
+      "checkedUrl": "https://justin21523.github.io/projects/ai-knowledge-workspace/videos/01-real-demo-walkthrough.mp4",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/mp4",
+      "finalUrl": "https://justin21523.github.io/projects/ai-knowledge-workspace/videos/01-real-demo-walkthrough.mp4",
+      "bytesRead": 1378
+    },
+    {
       "slug": "AutoForge-llm-studio",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/AutoForge-llm-studio/",
@@ -293,15 +293,15 @@
       "bytesRead": 666
     },
     {
-      "slug": "ai-knowledge-workspace",
+      "slug": "animation-ai-studio",
       "kind": "video",
-      "sourceUrl": "/projects/ai-knowledge-workspace/videos/01-real-demo-walkthrough.mp4",
-      "checkedUrl": "https://justin21523.github.io/projects/ai-knowledge-workspace/videos/01-real-demo-walkthrough.mp4",
+      "sourceUrl": "/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
-      "contentType": "video/mp4",
-      "finalUrl": "https://justin21523.github.io/projects/ai-knowledge-workspace/videos/01-real-demo-walkthrough.mp4",
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
       "bytesRead": 16384
     },
     {
@@ -317,30 +317,6 @@
       "bytesRead": 791
     },
     {
-      "slug": "anime-adventure-lab",
-      "kind": "video",
-      "sourceUrl": "/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
-      "checkedUrl": "https://justin21523.github.io/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/mp4",
-      "finalUrl": "https://justin21523.github.io/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "animation-ai-studio",
-      "kind": "video",
-      "sourceUrl": "/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
-      "bytesRead": 1378
-    },
-    {
       "slug": "cafe-net-manager",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/cafe-net-manager/",
@@ -353,16 +329,40 @@
       "bytesRead": 751
     },
     {
-      "slug": "amazon-review-intelligence",
+      "slug": "anime-adventure-lab",
       "kind": "video",
-      "sourceUrl": "/projects/amazon-review-intelligence/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/amazon-review-intelligence/videos/playwright-portfolio-case-study.webm",
+      "sourceUrl": "/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
+      "checkedUrl": "https://justin21523.github.io/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/mp4",
+      "finalUrl": "https://justin21523.github.io/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "3d-platformer-runner",
+      "kind": "video",
+      "sourceUrl": "/projects/3d-platformer-runner/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/3d-platformer-runner/videos/playwright-portfolio-case-study.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/amazon-review-intelligence/videos/playwright-portfolio-case-study.webm",
+      "finalUrl": "https://justin21523.github.io/projects/3d-platformer-runner/videos/playwright-portfolio-case-study.webm",
       "bytesRead": 16384
+    },
+    {
+      "slug": "ArchiveFlow",
+      "kind": "video",
+      "sourceUrl": "/projects/ArchiveFlow/videos/01-real-0329-lecture-recording-video.mp4",
+      "checkedUrl": "https://justin21523.github.io/projects/ArchiveFlow/videos/01-real-0329-lecture-recording-video.mp4",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/mp4",
+      "finalUrl": "https://justin21523.github.io/projects/ArchiveFlow/videos/01-real-0329-lecture-recording-video.mp4",
+      "bytesRead": 1378
     },
     {
       "slug": "campus-quest-3d",
@@ -401,30 +401,6 @@
       "bytesRead": 928
     },
     {
-      "slug": "aqua-rush",
-      "kind": "video",
-      "sourceUrl": "/projects/aqua-rush/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/aqua-rush/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/aqua-rush/videos/playwright-external-live-demo.webm",
-      "bytesRead": 1378
-    },
-    {
-      "slug": "ArchiveFlow",
-      "kind": "video",
-      "sourceUrl": "/projects/ArchiveFlow/videos/01-real-0329-lecture-recording-video.mp4",
-      "checkedUrl": "https://justin21523.github.io/projects/ArchiveFlow/videos/01-real-0329-lecture-recording-video.mp4",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/mp4",
-      "finalUrl": "https://justin21523.github.io/projects/ArchiveFlow/videos/01-real-0329-lecture-recording-video.mp4",
-      "bytesRead": 1378
-    },
-    {
       "slug": "commercial-ml-analysis",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/commercial-ml-analysis/",
@@ -446,6 +422,18 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/automation/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "cafe-net-manager",
+      "kind": "video",
+      "sourceUrl": "/projects/cafe-net-manager/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/cafe-net-manager/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/cafe-net-manager/videos/playwright-portfolio-case-study.webm",
       "bytesRead": 1378
     },
     {
@@ -473,16 +461,16 @@
       "bytesRead": 4046
     },
     {
-      "slug": "cafe-net-manager",
+      "slug": "campus-quest-3d",
       "kind": "video",
-      "sourceUrl": "/projects/cafe-net-manager/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/cafe-net-manager/videos/playwright-portfolio-case-study.webm",
+      "sourceUrl": "/projects/campus-quest-3d/videos/playwright-local-dev-server.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/campus-quest-3d/videos/playwright-local-dev-server.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/cafe-net-manager/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
+      "finalUrl": "https://justin21523.github.io/projects/campus-quest-3d/videos/playwright-local-dev-server.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "CulturePOS",
@@ -497,28 +485,16 @@
       "bytesRead": 884
     },
     {
-      "slug": "campus-quest-3d",
+      "slug": "aqua-rush",
       "kind": "video",
-      "sourceUrl": "/projects/campus-quest-3d/videos/playwright-local-dev-server.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/campus-quest-3d/videos/playwright-local-dev-server.webm",
+      "sourceUrl": "/projects/aqua-rush/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/aqua-rush/videos/playwright-external-live-demo.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/campus-quest-3d/videos/playwright-local-dev-server.webm",
+      "finalUrl": "https://justin21523.github.io/projects/aqua-rush/videos/playwright-external-live-demo.webm",
       "bytesRead": 1378
-    },
-    {
-      "slug": "charaforge-T2I-Lab",
-      "kind": "video",
-      "sourceUrl": "/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
-      "checkedUrl": "https://justin21523.github.io/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/mp4",
-      "finalUrl": "https://justin21523.github.io/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
-      "bytesRead": 16384
     },
     {
       "slug": "data-narrative-studio",
@@ -533,6 +509,30 @@
       "bytesRead": 834
     },
     {
+      "slug": "commercial-ml-analysis",
+      "kind": "video",
+      "sourceUrl": "/projects/commercial-ml-analysis/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/commercial-ml-analysis/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/commercial-ml-analysis/videos/playwright-external-live-demo.webm",
+      "bytesRead": 16384
+    },
+    {
+      "slug": "amazon-review-intelligence",
+      "kind": "video",
+      "sourceUrl": "/projects/amazon-review-intelligence/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/amazon-review-intelligence/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/amazon-review-intelligence/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 16384
+    },
+    {
       "slug": "data-pipelines",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/data-pipelines/",
@@ -545,28 +545,16 @@
       "bytesRead": 807
     },
     {
-      "slug": "ChronosMap",
+      "slug": "css-advanced-mastery",
       "kind": "video",
-      "sourceUrl": "/projects/ChronosMap/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/ChronosMap/videos/playwright-portfolio-case-study.webm",
+      "sourceUrl": "/projects/css-advanced-mastery/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/css-advanced-mastery/videos/playwright-external-live-demo.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/ChronosMap/videos/playwright-portfolio-case-study.webm",
+      "finalUrl": "https://justin21523.github.io/projects/css-advanced-mastery/videos/playwright-external-live-demo.webm",
       "bytesRead": 16384
-    },
-    {
-      "slug": "commercial-ml-analysis",
-      "kind": "video",
-      "sourceUrl": "/projects/commercial-ml-analysis/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/commercial-ml-analysis/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/commercial-ml-analysis/videos/playwright-external-live-demo.webm",
-      "bytesRead": 1378
     },
     {
       "slug": "dataagent-analyst",
@@ -581,16 +569,16 @@
       "bytesRead": 3459
     },
     {
-      "slug": "commute-reliability-analysis",
+      "slug": "charaforge-T2I-Lab",
       "kind": "video",
-      "sourceUrl": "/projects/commute-reliability-analysis/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/commute-reliability-analysis/videos/playwright-external-live-demo.webm",
+      "sourceUrl": "/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
+      "checkedUrl": "https://justin21523.github.io/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/commute-reliability-analysis/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
+      "contentType": "video/mp4",
+      "finalUrl": "https://justin21523.github.io/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
+      "bytesRead": 1378
     },
     {
       "slug": "datalab-studio",
@@ -605,15 +593,15 @@
       "bytesRead": 790
     },
     {
-      "slug": "css-advanced-mastery",
+      "slug": "CulturePOS",
       "kind": "video",
-      "sourceUrl": "/projects/css-advanced-mastery/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/css-advanced-mastery/videos/playwright-external-live-demo.webm",
+      "sourceUrl": "/projects/CulturePOS/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/CulturePOS/videos/playwright-portfolio-case-study.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/css-advanced-mastery/videos/playwright-external-live-demo.webm",
+      "finalUrl": "https://justin21523.github.io/projects/CulturePOS/videos/playwright-portfolio-case-study.webm",
       "bytesRead": 16384
     },
     {
@@ -629,6 +617,18 @@
       "bytesRead": 804
     },
     {
+      "slug": "data-narrative-studio",
+      "kind": "video",
+      "sourceUrl": "/projects/data-narrative-studio/videos/playwright-local-dev-server.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/data-narrative-studio/videos/playwright-local-dev-server.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/data-narrative-studio/videos/playwright-local-dev-server.webm",
+      "bytesRead": 1378
+    },
+    {
       "slug": "digital-archive-review-board",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/digital-archive-review-board/",
@@ -641,27 +641,15 @@
       "bytesRead": 862
     },
     {
-      "slug": "CulturePOS",
+      "slug": "commute-reliability-analysis",
       "kind": "video",
-      "sourceUrl": "/projects/CulturePOS/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/CulturePOS/videos/playwright-portfolio-case-study.webm",
+      "sourceUrl": "/projects/commute-reliability-analysis/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/commute-reliability-analysis/videos/playwright-external-live-demo.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/CulturePOS/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "data-narrative-studio",
-      "kind": "video",
-      "sourceUrl": "/projects/data-narrative-studio/videos/playwright-local-dev-server.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/data-narrative-studio/videos/playwright-local-dev-server.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/data-narrative-studio/videos/playwright-local-dev-server.webm",
+      "finalUrl": "https://justin21523.github.io/projects/commute-reliability-analysis/videos/playwright-external-live-demo.webm",
       "bytesRead": 1378
     },
     {
@@ -689,27 +677,15 @@
       "bytesRead": 1000
     },
     {
-      "slug": "data-pipelines",
+      "slug": "datalab-studio",
       "kind": "video",
-      "sourceUrl": "/projects/data-pipelines/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/data-pipelines/videos/playwright-portfolio-case-study.webm",
+      "sourceUrl": "/projects/datalab-studio/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/datalab-studio/videos/playwright-portfolio-case-study.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/data-pipelines/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "dataagent-analyst",
-      "kind": "video",
-      "sourceUrl": "/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
+      "finalUrl": "https://justin21523.github.io/projects/datalab-studio/videos/playwright-portfolio-case-study.webm",
       "bytesRead": 16384
     },
     {
@@ -725,6 +701,30 @@
       "bytesRead": 707
     },
     {
+      "slug": "dcard-trending-crawler",
+      "kind": "video",
+      "sourceUrl": "/projects/dcard-trending-crawler/videos/01-real-full-guided-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/dcard-trending-crawler/videos/01-real-full-guided-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/dcard-trending-crawler/videos/01-real-full-guided-demo.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "digital-archive-review-board",
+      "kind": "video",
+      "sourceUrl": "/projects/digital-archive-review-board/videos/playwright-local-dev-server.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/digital-archive-review-board/videos/playwright-local-dev-server.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/digital-archive-review-board/videos/playwright-local-dev-server.webm",
+      "bytesRead": 1378
+    },
+    {
       "slug": "dom-visualizer-oop",
       "kind": "video",
       "sourceUrl": "https://justin21523.github.io/dom-visualizer-oop/#demo-video",
@@ -735,18 +735,6 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/dom-visualizer-oop/",
       "bytesRead": 707
-    },
-    {
-      "slug": "datalab-studio",
-      "kind": "video",
-      "sourceUrl": "/projects/datalab-studio/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/datalab-studio/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/datalab-studio/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
     },
     {
       "slug": "edge-deid-studio",
@@ -785,16 +773,28 @@
       "bytesRead": 776
     },
     {
-      "slug": "dcard-trending-crawler",
+      "slug": "ChronosMap",
       "kind": "video",
-      "sourceUrl": "/projects/dcard-trending-crawler/videos/01-real-full-guided-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/dcard-trending-crawler/videos/01-real-full-guided-demo.webm",
+      "sourceUrl": "/projects/ChronosMap/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/ChronosMap/videos/playwright-portfolio-case-study.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/dcard-trending-crawler/videos/01-real-full-guided-demo.webm",
-      "bytesRead": 16384
+      "finalUrl": "https://justin21523.github.io/projects/ChronosMap/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "digital-living",
+      "kind": "video",
+      "sourceUrl": "/projects/digital-living/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/digital-living/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/digital-living/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "excel-python-data-analysis",
@@ -833,30 +833,6 @@
       "bytesRead": 501
     },
     {
-      "slug": "digital-living",
-      "kind": "video",
-      "sourceUrl": "/projects/digital-living/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/digital-living/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/digital-living/videos/playwright-external-live-demo.webm",
-      "bytesRead": 1378
-    },
-    {
-      "slug": "digital-archive-review-board",
-      "kind": "video",
-      "sourceUrl": "/projects/digital-archive-review-board/videos/playwright-local-dev-server.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/digital-archive-review-board/videos/playwright-local-dev-server.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/digital-archive-review-board/videos/playwright-local-dev-server.webm",
-      "bytesRead": 16384
-    },
-    {
       "slug": "discord-clone",
       "kind": "video",
       "sourceUrl": "/projects/discord-clone/videos/playwright-portfolio-case-study.webm",
@@ -866,7 +842,7 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/discord-clone/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 1378
+      "bytesRead": 16384
     },
     {
       "slug": "game-dialogue-simulator",
@@ -893,6 +869,30 @@
       "bytesRead": 3345
     },
     {
+      "slug": "elio-discord-bot",
+      "kind": "video",
+      "sourceUrl": "/projects/elio-discord-bot/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/elio-discord-bot/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/elio-discord-bot/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 16384
+    },
+    {
+      "slug": "data-pipelines",
+      "kind": "video",
+      "sourceUrl": "/projects/data-pipelines/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/data-pipelines/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/data-pipelines/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
       "slug": "geovideo-env-check",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/geovideo-env-check/",
@@ -903,6 +903,18 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/geovideo-env-check/",
       "bytesRead": 1018
+    },
+    {
+      "slug": "frontend-interaction-lab",
+      "kind": "video",
+      "sourceUrl": "/projects/frontend-interaction-lab/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/frontend-interaction-lab/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/frontend-interaction-lab/videos/playwright-external-live-demo.webm",
+      "bytesRead": 16384
     },
     {
       "slug": "govcase-tracker",
@@ -917,18 +929,6 @@
       "bytesRead": 1064
     },
     {
-      "slug": "elio-discord-bot",
-      "kind": "video",
-      "sourceUrl": "/projects/elio-discord-bot/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/elio-discord-bot/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/elio-discord-bot/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
       "slug": "HeritageMapStudio",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/HeritageMapStudio/",
@@ -941,27 +941,15 @@
       "bytesRead": 945
     },
     {
-      "slug": "fandom-gui-scraper",
+      "slug": "game-dialogue-simulator",
       "kind": "video",
-      "sourceUrl": "/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
+      "sourceUrl": "/projects/game-dialogue-simulator/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/game-dialogue-simulator/videos/playwright-portfolio-case-study.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "frontend-interaction-lab",
-      "kind": "video",
-      "sourceUrl": "/projects/frontend-interaction-lab/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/frontend-interaction-lab/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/frontend-interaction-lab/videos/playwright-external-live-demo.webm",
+      "finalUrl": "https://justin21523.github.io/projects/game-dialogue-simulator/videos/playwright-portfolio-case-study.webm",
       "bytesRead": 1378
     },
     {
@@ -977,16 +965,28 @@
       "bytesRead": 3233
     },
     {
-      "slug": "game-dialogue-simulator",
+      "slug": "dataagent-analyst",
       "kind": "video",
-      "sourceUrl": "/projects/game-dialogue-simulator/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/game-dialogue-simulator/videos/playwright-portfolio-case-study.webm",
+      "sourceUrl": "/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/game-dialogue-simulator/videos/playwright-portfolio-case-study.webm",
+      "finalUrl": "https://justin21523.github.io/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
       "bytesRead": 16384
+    },
+    {
+      "slug": "gan-ae-vision-suite",
+      "kind": "video",
+      "sourceUrl": "/projects/gan-ae-vision-suite/videos/01-real-demo-walkthrough.mp4",
+      "checkedUrl": "https://justin21523.github.io/projects/gan-ae-vision-suite/videos/01-real-demo-walkthrough.mp4",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/mp4",
+      "finalUrl": "https://justin21523.github.io/projects/gan-ae-vision-suite/videos/01-real-demo-walkthrough.mp4",
+      "bytesRead": 1378
     },
     {
       "slug": "html-css-interactive-lab",
@@ -1013,18 +1013,6 @@
       "bytesRead": 826
     },
     {
-      "slug": "gan-ae-vision-suite",
-      "kind": "video",
-      "sourceUrl": "/projects/gan-ae-vision-suite/videos/01-real-demo-walkthrough.mp4",
-      "checkedUrl": "https://justin21523.github.io/projects/gan-ae-vision-suite/videos/01-real-demo-walkthrough.mp4",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/mp4",
-      "finalUrl": "https://justin21523.github.io/projects/gan-ae-vision-suite/videos/01-real-demo-walkthrough.mp4",
-      "bytesRead": 16384
-    },
-    {
       "slug": "geovideo-env-check",
       "kind": "video",
       "sourceUrl": "/projects/geovideo-env-check/videos/playwright-portfolio-case-study.webm",
@@ -1034,7 +1022,7 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/geovideo-env-check/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 1378
+      "bytesRead": 16384
     },
     {
       "slug": "image-process",
@@ -1049,6 +1037,18 @@
       "bytesRead": 923
     },
     {
+      "slug": "excel-python-data-analysis",
+      "kind": "video",
+      "sourceUrl": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
+      "checkedUrl": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
+      "bytesRead": 438
+    },
+    {
       "slug": "govcase-tracker",
       "kind": "video",
       "sourceUrl": "/projects/govcase-tracker/videos/playwright-portfolio-case-study.webm",
@@ -1058,7 +1058,7 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/govcase-tracker/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 1378
+      "bytesRead": 16384
     },
     {
       "slug": "intro-to-dl",
@@ -1073,28 +1073,16 @@
       "bytesRead": 3406
     },
     {
-      "slug": "excel-python-data-analysis",
+      "slug": "HeritageMapStudio",
       "kind": "video",
-      "sourceUrl": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
-      "checkedUrl": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
-      "bytesRead": 5795
-    },
-    {
-      "slug": "highway-adventure-3d",
-      "kind": "video",
-      "sourceUrl": "/projects/highway-adventure-3d/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/highway-adventure-3d/videos/playwright-external-live-demo.webm",
+      "sourceUrl": "/projects/HeritageMapStudio/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/HeritageMapStudio/videos/playwright-portfolio-case-study.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/highway-adventure-3d/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
+      "finalUrl": "https://justin21523.github.io/projects/HeritageMapStudio/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "intro-to-ml",
@@ -1109,6 +1097,18 @@
       "bytesRead": 3321
     },
     {
+      "slug": "highway-adventure-3d",
+      "kind": "video",
+      "sourceUrl": "/projects/highway-adventure-3d/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/highway-adventure-3d/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/highway-adventure-3d/videos/playwright-external-live-demo.webm",
+      "bytesRead": 16384
+    },
+    {
       "slug": "intro-to-vml",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/intro-to-vml/",
@@ -1121,18 +1121,6 @@
       "bytesRead": 3324
     },
     {
-      "slug": "image-process",
-      "kind": "video",
-      "sourceUrl": "/projects/image-process/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/image-process/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/image-process/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
       "slug": "ir-rag-evaluation-lab",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/ir-rag-evaluation-lab/",
@@ -1143,6 +1131,18 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/ir-rag-evaluation-lab/",
       "bytesRead": 898
+    },
+    {
+      "slug": "image-process",
+      "kind": "video",
+      "sourceUrl": "/projects/image-process/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/image-process/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/image-process/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "javascript-game-physics",
@@ -1169,28 +1169,16 @@
       "bytesRead": 750
     },
     {
-      "slug": "intro-to-ml",
+      "slug": "fandom-gui-scraper",
       "kind": "video",
-      "sourceUrl": "/projects/intro-to-ml/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/intro-to-ml/videos/playwright-external-live-demo.webm",
+      "sourceUrl": "/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/intro-to-ml/videos/playwright-external-live-demo.webm",
+      "finalUrl": "https://justin21523.github.io/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
       "bytesRead": 1378
-    },
-    {
-      "slug": "HeritageMapStudio",
-      "kind": "video",
-      "sourceUrl": "/projects/HeritageMapStudio/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/HeritageMapStudio/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/HeritageMapStudio/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
     },
     {
       "slug": "intro-to-vml",
@@ -1202,7 +1190,7 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/intro-to-vml/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
+      "bytesRead": 1378
     },
     {
       "slug": "javascript-platformer-concepts",
@@ -1229,18 +1217,6 @@
       "bytesRead": 763
     },
     {
-      "slug": "library-reach-analysis",
-      "kind": "live",
-      "sourceUrl": "https://justin21523.github.io/library-reach-analysis/",
-      "checkedUrl": "https://justin21523.github.io/library-reach-analysis/",
-      "demoType": "external-app-demo",
-      "status": 200,
-      "ok": true,
-      "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://justin21523.github.io/library-reach-analysis/",
-      "bytesRead": 839
-    },
-    {
       "slug": "ir-rag-evaluation-lab",
       "kind": "video",
       "sourceUrl": "/projects/ir-rag-evaluation-lab/videos/01-real-ir-rag-evaluation-lab-demo.mp4",
@@ -1253,16 +1229,16 @@
       "bytesRead": 1378
     },
     {
-      "slug": "information-retrieval",
-      "kind": "video",
-      "sourceUrl": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
-      "checkedUrl": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
-      "demoType": "external-media",
+      "slug": "library-reach-analysis",
+      "kind": "live",
+      "sourceUrl": "https://justin21523.github.io/library-reach-analysis/",
+      "checkedUrl": "https://justin21523.github.io/library-reach-analysis/",
+      "demoType": "external-app-demo",
       "status": 200,
       "ok": true,
       "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
-      "bytesRead": 5796
+      "finalUrl": "https://justin21523.github.io/library-reach-analysis/",
+      "bytesRead": 839
     },
     {
       "slug": "llm-switch-chat",
@@ -1275,6 +1251,18 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/llm-switch-chat/",
       "bytesRead": 646
+    },
+    {
+      "slug": "information-retrieval",
+      "kind": "video",
+      "sourceUrl": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
+      "checkedUrl": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
+      "bytesRead": 5796
     },
     {
       "slug": "llm-switch-chat",
@@ -1301,6 +1289,30 @@
       "bytesRead": 3931
     },
     {
+      "slug": "javascript-platformer-concepts",
+      "kind": "video",
+      "sourceUrl": "/projects/javascript-platformer-concepts/videos/01-real-demo-walkthrough.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/javascript-platformer-concepts/videos/01-real-demo-walkthrough.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/javascript-platformer-concepts/videos/01-real-demo-walkthrough.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "libradesk",
+      "kind": "video",
+      "sourceUrl": "/projects/libradesk/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/libradesk/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/libradesk/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
       "slug": "lyrics-cultural-analytics-lab",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/lyrics-cultural-analytics-lab/",
@@ -1313,16 +1325,28 @@
       "bytesRead": 773
     },
     {
-      "slug": "javascript-platformer-concepts",
+      "slug": "information-retrieval",
+      "kind": "live",
+      "sourceUrl": "https://neojustin.dothost.net/projects/information-retrieval/",
+      "checkedUrl": "https://neojustin.dothost.net/projects/information-retrieval/",
+      "demoType": "external-app-demo",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://neojustin.dothost.net/projects/information-retrieval/",
+      "bytesRead": 11094
+    },
+    {
+      "slug": "library-reach-analysis",
       "kind": "video",
-      "sourceUrl": "/projects/javascript-platformer-concepts/videos/01-real-demo-walkthrough.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/javascript-platformer-concepts/videos/01-real-demo-walkthrough.webm",
+      "sourceUrl": "/projects/library-reach-analysis/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/library-reach-analysis/videos/playwright-portfolio-case-study.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/javascript-platformer-concepts/videos/01-real-demo-walkthrough.webm",
-      "bytesRead": 16384
+      "finalUrl": "https://justin21523.github.io/projects/library-reach-analysis/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "MetaCleaner",
@@ -1337,18 +1361,6 @@
       "bytesRead": 1076
     },
     {
-      "slug": "libradesk",
-      "kind": "video",
-      "sourceUrl": "/projects/libradesk/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/libradesk/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/libradesk/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
       "slug": "metashelf",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/metashelf/",
@@ -1359,30 +1371,6 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/metashelf/",
       "bytesRead": 1064
-    },
-    {
-      "slug": "library-reach-analysis",
-      "kind": "video",
-      "sourceUrl": "/projects/library-reach-analysis/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/library-reach-analysis/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/library-reach-analysis/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "mock-master",
-      "kind": "video",
-      "sourceUrl": "https://justin21523.github.io/mock-master/#demo-video",
-      "checkedUrl": "https://justin21523.github.io/mock-master/#demo-video",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://justin21523.github.io/mock-master/",
-      "bytesRead": 848
     },
     {
       "slug": "mock-master",
@@ -1397,16 +1385,28 @@
       "bytesRead": 848
     },
     {
-      "slug": "information-retrieval",
-      "kind": "live",
-      "sourceUrl": "https://neojustin.dothost.net/projects/information-retrieval/",
-      "checkedUrl": "https://neojustin.dothost.net/projects/information-retrieval/",
-      "demoType": "external-app-demo",
+      "slug": "intro-to-dl",
+      "kind": "video",
+      "sourceUrl": "/projects/intro-to-dl/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/intro-to-dl/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/intro-to-dl/videos/playwright-external-live-demo.webm",
+      "bytesRead": 16384
+    },
+    {
+      "slug": "mock-master",
+      "kind": "video",
+      "sourceUrl": "https://justin21523.github.io/mock-master/#demo-video",
+      "checkedUrl": "https://justin21523.github.io/mock-master/#demo-video",
+      "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://neojustin.dothost.net/projects/information-retrieval/",
-      "bytesRead": 11094
+      "finalUrl": "https://justin21523.github.io/mock-master/",
+      "bytesRead": 848
     },
     {
       "slug": "modelops-dashboard",
@@ -1430,19 +1430,7 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/llm-train-eval-ship/videos/01-real-guided-demo.webm",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "lyrics-cultural-analytics-lab",
-      "kind": "video",
-      "sourceUrl": "/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
-      "bytesRead": 16384
+      "bytesRead": 1378
     },
     {
       "slug": "mrt-ubike-analysis",
@@ -1469,18 +1457,6 @@
       "bytesRead": 3461
     },
     {
-      "slug": "intro-to-dl",
-      "kind": "video",
-      "sourceUrl": "/projects/intro-to-dl/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/intro-to-dl/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/intro-to-dl/videos/playwright-external-live-demo.webm",
-      "bytesRead": 1378
-    },
-    {
       "slug": "MetaCleaner",
       "kind": "video",
       "sourceUrl": "/projects/MetaCleaner/videos/playwright-portfolio-case-study.webm",
@@ -1490,7 +1466,7 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/MetaCleaner/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
+      "bytesRead": 1378
     },
     {
       "slug": "music-intelligence-platform",
@@ -1505,6 +1481,18 @@
       "bytesRead": 767
     },
     {
+      "slug": "metashelf",
+      "kind": "video",
+      "sourceUrl": "/projects/metashelf/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/metashelf/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/metashelf/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
       "slug": "my-3d-platformer",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/my-3d-platformer/",
@@ -1517,16 +1505,16 @@
       "bytesRead": 466
     },
     {
-      "slug": "metashelf",
+      "slug": "intro-to-ml",
       "kind": "video",
-      "sourceUrl": "/projects/metashelf/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/metashelf/videos/playwright-portfolio-case-study.webm",
+      "sourceUrl": "/projects/intro-to-ml/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/intro-to-ml/videos/playwright-external-live-demo.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/metashelf/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
+      "finalUrl": "https://justin21523.github.io/projects/intro-to-ml/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "mystery-phenomena-files",
@@ -1553,6 +1541,18 @@
       "bytesRead": 739
     },
     {
+      "slug": "modelops-dashboard",
+      "kind": "video",
+      "sourceUrl": "/projects/modelops-dashboard/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/modelops-dashboard/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/modelops-dashboard/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
       "slug": "news-web-crawler",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/news-web-crawler/",
@@ -1563,18 +1563,6 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/news-web-crawler/",
       "bytesRead": 893
-    },
-    {
-      "slug": "modelops-dashboard",
-      "kind": "video",
-      "sourceUrl": "/projects/modelops-dashboard/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/modelops-dashboard/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/modelops-dashboard/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
     },
     {
       "slug": "nyc-taxi-mobility-analytics",
@@ -1589,6 +1577,30 @@
       "bytesRead": 760
     },
     {
+      "slug": "multi-ai-agents",
+      "kind": "video",
+      "sourceUrl": "/projects/multi-ai-agents/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/multi-ai-agents/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/multi-ai-agents/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "lyrics-cultural-analytics-lab",
+      "kind": "video",
+      "sourceUrl": "/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
+      "bytesRead": 1378
+    },
+    {
       "slug": "openalex-research-rag",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/openalex-research-rag/",
@@ -1599,18 +1611,6 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/openalex-research-rag/",
       "bytesRead": 1007
-    },
-    {
-      "slug": "mrt-ubike-analysis",
-      "kind": "video",
-      "sourceUrl": "/projects/mrt-ubike-analysis/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/mrt-ubike-analysis/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/mrt-ubike-analysis/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
     },
     {
       "slug": "openclaw-multimodal-stack",
@@ -1685,18 +1685,6 @@
       "bytesRead": 705
     },
     {
-      "slug": "multi-ai-agents",
-      "kind": "video",
-      "sourceUrl": "/projects/multi-ai-agents/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/multi-ai-agents/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/multi-ai-agents/videos/playwright-external-live-demo.webm",
-      "bytesRead": 1378
-    },
-    {
       "slug": "poker-ai-arena",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/poker-ai-arena/",
@@ -1709,16 +1697,16 @@
       "bytesRead": 590
     },
     {
-      "slug": "nyc-taxi-mobility-analytics",
+      "slug": "news-web-crawler",
       "kind": "video",
-      "sourceUrl": "/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
+      "sourceUrl": "/projects/news-web-crawler/videos/01-real-guided-tour.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/news-web-crawler/videos/01-real-guided-tour.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
-      "bytesRead": 16384
+      "finalUrl": "https://justin21523.github.io/projects/news-web-crawler/videos/01-real-guided-tour.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "poker-ai-web",
@@ -1754,7 +1742,7 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/openclaw-multimodal-stack/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
+      "bytesRead": 1378
     },
     {
       "slug": "procedural-3d-maze",
@@ -1793,16 +1781,16 @@
       "bytesRead": 557
     },
     {
-      "slug": "projectmind",
-      "kind": "live",
-      "sourceUrl": "https://justin21523.github.io/project-mind/",
-      "checkedUrl": "https://justin21523.github.io/project-mind/",
-      "demoType": "external-app-demo",
+      "slug": "openalex-research-rag",
+      "kind": "video",
+      "sourceUrl": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
+      "checkedUrl": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
+      "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://justin21523.github.io/project-mind/",
-      "bytesRead": 780
+      "finalUrl": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
+      "bytesRead": 5807
     },
     {
       "slug": "poker-ai-arena",
@@ -1817,6 +1805,18 @@
       "bytesRead": 16384
     },
     {
+      "slug": "projectmind",
+      "kind": "live",
+      "sourceUrl": "https://justin21523.github.io/project-mind/",
+      "checkedUrl": "https://justin21523.github.io/project-mind/",
+      "demoType": "external-app-demo",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://justin21523.github.io/project-mind/",
+      "bytesRead": 780
+    },
+    {
       "slug": "poker-ai-web",
       "kind": "video",
       "sourceUrl": "/projects/poker-ai-web/videos/playwright-external-live-demo.webm",
@@ -1827,6 +1827,18 @@
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/poker-ai-web/videos/playwright-external-live-demo.webm",
       "bytesRead": 16384
+    },
+    {
+      "slug": "mrt-ubike-analysis",
+      "kind": "video",
+      "sourceUrl": "/projects/mrt-ubike-analysis/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/mrt-ubike-analysis/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/mrt-ubike-analysis/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "quant-strategy-agent-lab",
@@ -1841,42 +1853,6 @@
       "bytesRead": 3300
     },
     {
-      "slug": "prism-runner-3d",
-      "kind": "video",
-      "sourceUrl": "/projects/prism-runner-3d/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/prism-runner-3d/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/prism-runner-3d/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "openalex-research-rag",
-      "kind": "video",
-      "sourceUrl": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
-      "checkedUrl": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
-      "bytesRead": 686
-    },
-    {
-      "slug": "procedural-3d-maze",
-      "kind": "video",
-      "sourceUrl": "/projects/procedural-3d-maze/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/procedural-3d-maze/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/procedural-3d-maze/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
       "slug": "r3f-rpg-builder",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/react-three-fiber-rpg-builder/",
@@ -1887,6 +1863,18 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/react-three-fiber-rpg-builder/",
       "bytesRead": 829
+    },
+    {
+      "slug": "prism-runner-3d",
+      "kind": "video",
+      "sourceUrl": "/projects/prism-runner-3d/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/prism-runner-3d/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/prism-runner-3d/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "recsys-benchmark-suite",
@@ -1901,15 +1889,15 @@
       "bytesRead": 3333
     },
     {
-      "slug": "procedural-dungeon-crawler",
+      "slug": "procedural-3d-maze",
       "kind": "video",
-      "sourceUrl": "/projects/procedural-dungeon-crawler/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/procedural-dungeon-crawler/videos/playwright-external-live-demo.webm",
+      "sourceUrl": "/projects/procedural-3d-maze/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/procedural-3d-maze/videos/playwright-portfolio-case-study.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/procedural-dungeon-crawler/videos/playwright-external-live-demo.webm",
+      "finalUrl": "https://justin21523.github.io/projects/procedural-3d-maze/videos/playwright-portfolio-case-study.webm",
       "bytesRead": 16384
     },
     {
@@ -1925,16 +1913,16 @@
       "bytesRead": 862
     },
     {
-      "slug": "news-web-crawler",
+      "slug": "nyc-taxi-mobility-analytics",
       "kind": "video",
-      "sourceUrl": "/projects/news-web-crawler/videos/01-real-guided-tour.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/news-web-crawler/videos/01-real-guided-tour.webm",
+      "sourceUrl": "/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/news-web-crawler/videos/01-real-guided-tour.webm",
-      "bytesRead": 1378
+      "finalUrl": "https://justin21523.github.io/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
+      "bytesRead": 16384
     },
     {
       "slug": "restoreAI-studio",
@@ -1958,7 +1946,7 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/projectmind/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
+      "bytesRead": 1378
     },
     {
       "slug": "retailpulse-bi-recommender",
@@ -1985,18 +1973,6 @@
       "bytesRead": 3268
     },
     {
-      "slug": "quant-strategy-agent-lab",
-      "kind": "video",
-      "sourceUrl": "/projects/quant-strategy-agent-lab/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/quant-strategy-agent-lab/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/quant-strategy-agent-lab/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
-    },
-    {
       "slug": "r3f-rpg-builder",
       "kind": "video",
       "sourceUrl": "/projects/r3f-rpg-builder/videos/playwright-portfolio-case-study.webm",
@@ -2006,6 +1982,18 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/r3f-rpg-builder/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "recsys-benchmark-suite",
+      "kind": "video",
+      "sourceUrl": "/projects/recsys-benchmark-suite/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/recsys-benchmark-suite/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/recsys-benchmark-suite/videos/playwright-external-live-demo.webm",
       "bytesRead": 16384
     },
     {
@@ -2021,15 +2009,15 @@
       "bytesRead": 3394
     },
     {
-      "slug": "recsys-benchmark-suite",
+      "slug": "research-paper-and-knowledge-workspace",
       "kind": "video",
-      "sourceUrl": "/projects/recsys-benchmark-suite/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/recsys-benchmark-suite/videos/playwright-external-live-demo.webm",
+      "sourceUrl": "/projects/research-paper-and-knowledge-workspace/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/research-paper-and-knowledge-workspace/videos/playwright-portfolio-case-study.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/recsys-benchmark-suite/videos/playwright-external-live-demo.webm",
+      "finalUrl": "https://justin21523.github.io/projects/research-paper-and-knowledge-workspace/videos/playwright-portfolio-case-study.webm",
       "bytesRead": 1378
     },
     {
@@ -2045,18 +2033,6 @@
       "bytesRead": 1191
     },
     {
-      "slug": "research-paper-and-knowledge-workspace",
-      "kind": "video",
-      "sourceUrl": "/projects/research-paper-and-knowledge-workspace/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/research-paper-and-knowledge-workspace/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/research-paper-and-knowledge-workspace/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 1378
-    },
-    {
       "slug": "sailing-adventure",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/sailing-adventure/",
@@ -2067,6 +2043,30 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/sailing-adventure/",
       "bytesRead": 1237
+    },
+    {
+      "slug": "procedural-dungeon-crawler",
+      "kind": "video",
+      "sourceUrl": "/projects/procedural-dungeon-crawler/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/procedural-dungeon-crawler/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/procedural-dungeon-crawler/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "quant-strategy-agent-lab",
+      "kind": "video",
+      "sourceUrl": "/projects/quant-strategy-agent-lab/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/quant-strategy-agent-lab/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/quant-strategy-agent-lab/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "school-library-lms",
@@ -2081,6 +2081,30 @@
       "bytesRead": 823
     },
     {
+      "slug": "retailpulse-bi-recommender",
+      "kind": "video",
+      "sourceUrl": "/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "runner-inspired-3d",
+      "kind": "video",
+      "sourceUrl": "/projects/runner-inspired-3d/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/runner-inspired-3d/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/runner-inspired-3d/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
       "slug": "restoreAI-studio",
       "kind": "video",
       "sourceUrl": "/projects/restoreAI-studio/videos/01-real-demo-tour.webm",
@@ -2091,18 +2115,6 @@
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/restoreAI-studio/videos/01-real-demo-tour.webm",
       "bytesRead": 1378
-    },
-    {
-      "slug": "retailpulse-bi-recommender",
-      "kind": "video",
-      "sourceUrl": "/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
-      "bytesRead": 16384
     },
     {
       "slug": "scrapers",
@@ -2129,15 +2141,27 @@
       "bytesRead": 3388
     },
     {
-      "slug": "rigview3d",
+      "slug": "rocm-image-video-stack",
       "kind": "video",
-      "sourceUrl": "/projects/rigview3d/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/rigview3d/videos/playwright-external-live-demo.webm",
+      "sourceUrl": "/projects/rocm-image-video-stack/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/rocm-image-video-stack/videos/playwright-external-live-demo.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/rigview3d/videos/playwright-external-live-demo.webm",
+      "finalUrl": "https://justin21523.github.io/projects/rocm-image-video-stack/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "sailing-adventure",
+      "kind": "video",
+      "sourceUrl": "/projects/sailing-adventure/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/sailing-adventure/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/sailing-adventure/videos/playwright-external-live-demo.webm",
       "bytesRead": 16384
     },
     {
@@ -2151,42 +2175,6 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/signal-diver-3d/",
       "bytesRead": 826
-    },
-    {
-      "slug": "rocm-image-video-stack",
-      "kind": "video",
-      "sourceUrl": "/projects/rocm-image-video-stack/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/rocm-image-video-stack/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/rocm-image-video-stack/videos/playwright-external-live-demo.webm",
-      "bytesRead": 1378
-    },
-    {
-      "slug": "runner-inspired-3d",
-      "kind": "video",
-      "sourceUrl": "/projects/runner-inspired-3d/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/runner-inspired-3d/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/runner-inspired-3d/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "sailing-adventure",
-      "kind": "video",
-      "sourceUrl": "/projects/sailing-adventure/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/sailing-adventure/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/sailing-adventure/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
     },
     {
       "slug": "smart-home-energy-monitor",
@@ -2225,30 +2213,6 @@
       "bytesRead": 654
     },
     {
-      "slug": "soundscape-taiwan",
-      "kind": "video",
-      "sourceUrl": "https://justin21523.github.io/soundscape-taiwan/#demo-video",
-      "checkedUrl": "https://justin21523.github.io/soundscape-taiwan/#demo-video",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://justin21523.github.io/soundscape-taiwan/",
-      "bytesRead": 654
-    },
-    {
-      "slug": "school-library-lms",
-      "kind": "video",
-      "sourceUrl": "/projects/school-library-lms/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/school-library-lms/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/school-library-lms/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
       "slug": "starforge-AI-narrative",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/starforge-AI-narrative/",
@@ -2261,28 +2225,16 @@
       "bytesRead": 901
     },
     {
-      "slug": "scrapers",
+      "slug": "soundscape-taiwan",
       "kind": "video",
-      "sourceUrl": "/projects/scrapers/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/scrapers/videos/playwright-portfolio-case-study.webm",
+      "sourceUrl": "https://justin21523.github.io/soundscape-taiwan/#demo-video",
+      "checkedUrl": "https://justin21523.github.io/soundscape-taiwan/#demo-video",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/scrapers/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 1378
-    },
-    {
-      "slug": "TGW-playbook",
-      "kind": "live",
-      "sourceUrl": "https://justin21523.github.io/TGW-playbook/",
-      "checkedUrl": "https://justin21523.github.io/TGW-playbook/",
-      "demoType": "external-app-demo",
-      "status": 200,
-      "ok": true,
       "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://justin21523.github.io/TGW-playbook/",
-      "bytesRead": 778
+      "finalUrl": "https://justin21523.github.io/soundscape-taiwan/",
+      "bytesRead": 654
     },
     {
       "slug": "text2sql-evaluation-harness",
@@ -2297,6 +2249,30 @@
       "bytesRead": 3388
     },
     {
+      "slug": "school-library-lms",
+      "kind": "video",
+      "sourceUrl": "/projects/school-library-lms/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/school-library-lms/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/school-library-lms/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "scrapers",
+      "kind": "video",
+      "sourceUrl": "/projects/scrapers/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/scrapers/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/scrapers/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
       "slug": "sd-multimodal-platform",
       "kind": "video",
       "sourceUrl": "/projects/sd-multimodal-platform/videos/01-real-demo-walkthrough.webm",
@@ -2306,7 +2282,19 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/sd-multimodal-platform/videos/01-real-demo-walkthrough.webm",
-      "bytesRead": 16384
+      "bytesRead": 1378
+    },
+    {
+      "slug": "TGW-playbook",
+      "kind": "live",
+      "sourceUrl": "https://justin21523.github.io/TGW-playbook/",
+      "checkedUrl": "https://justin21523.github.io/TGW-playbook/",
+      "demoType": "external-app-demo",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://justin21523.github.io/TGW-playbook/",
+      "bytesRead": 778
     },
     {
       "slug": "TGW-playbook",
@@ -2331,6 +2319,18 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/3d-library-searching-quest/",
       "bytesRead": 507
+    },
+    {
+      "slug": "rigview3d",
+      "kind": "video",
+      "sourceUrl": "/projects/rigview3d/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/rigview3d/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/rigview3d/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "the-classrooms",
@@ -2369,18 +2369,6 @@
       "bytesRead": 803
     },
     {
-      "slug": "signal-diver-3d",
-      "kind": "video",
-      "sourceUrl": "/projects/signal-diver-3d/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/signal-diver-3d/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/signal-diver-3d/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
-    },
-    {
       "slug": "transformer-core",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/transformer-core/",
@@ -2417,28 +2405,40 @@
       "bytesRead": 978
     },
     {
-      "slug": "starforge-AI-narrative",
+      "slug": "the-classrooms",
       "kind": "video",
-      "sourceUrl": "/projects/starforge-AI-narrative/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/starforge-AI-narrative/videos/playwright-portfolio-case-study.webm",
+      "sourceUrl": "/projects/the-classrooms/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/the-classrooms/videos/playwright-external-live-demo.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/starforge-AI-narrative/videos/playwright-portfolio-case-study.webm",
+      "finalUrl": "https://justin21523.github.io/projects/the-classrooms/videos/playwright-external-live-demo.webm",
       "bytesRead": 1378
     },
     {
-      "slug": "text2sql-evaluation-harness",
+      "slug": "the-archive-that-watches-you",
       "kind": "video",
-      "sourceUrl": "/projects/text2sql-evaluation-harness/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/text2sql-evaluation-harness/videos/playwright-external-live-demo.webm",
+      "sourceUrl": "/projects/the-archive-that-watches-you/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/the-archive-that-watches-you/videos/playwright-external-live-demo.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/text2sql-evaluation-harness/videos/playwright-external-live-demo.webm",
+      "finalUrl": "https://justin21523.github.io/projects/the-archive-that-watches-you/videos/playwright-external-live-demo.webm",
       "bytesRead": 16384
+    },
+    {
+      "slug": "threejs-product-viewer",
+      "kind": "video",
+      "sourceUrl": "/projects/threejs-product-viewer/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/threejs-product-viewer/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/threejs-product-viewer/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "tts-voice-app",
@@ -2465,15 +2465,15 @@
       "bytesRead": 743
     },
     {
-      "slug": "the-archive-that-watches-you",
+      "slug": "traffic-pulse",
       "kind": "video",
-      "sourceUrl": "/projects/the-archive-that-watches-you/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/the-archive-that-watches-you/videos/playwright-external-live-demo.webm",
+      "sourceUrl": "/projects/traffic-pulse/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/traffic-pulse/videos/playwright-portfolio-case-study.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/the-archive-that-watches-you/videos/playwright-external-live-demo.webm",
+      "finalUrl": "https://justin21523.github.io/projects/traffic-pulse/videos/playwright-portfolio-case-study.webm",
       "bytesRead": 1378
     },
     {
@@ -2501,18 +2501,6 @@
       "bytesRead": 965
     },
     {
-      "slug": "threejs-product-viewer",
-      "kind": "video",
-      "sourceUrl": "/projects/threejs-product-viewer/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/threejs-product-viewer/videos/playwright-portfolio-case-study.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/threejs-product-viewer/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 1378
-    },
-    {
       "slug": "video-family-lora-hub",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/video-family-lora-hub/",
@@ -2537,28 +2525,16 @@
       "bytesRead": 3450
     },
     {
-      "slug": "traffic-pulse",
+      "slug": "text2sql-evaluation-harness",
       "kind": "video",
-      "sourceUrl": "/projects/traffic-pulse/videos/playwright-portfolio-case-study.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/traffic-pulse/videos/playwright-portfolio-case-study.webm",
+      "sourceUrl": "/projects/text2sql-evaluation-harness/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/text2sql-evaluation-harness/videos/playwright-external-live-demo.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/traffic-pulse/videos/playwright-portfolio-case-study.webm",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "video-gen-factory",
-      "kind": "live",
-      "sourceUrl": "https://justin21523.github.io/video-gen-factory/",
-      "checkedUrl": "https://justin21523.github.io/video-gen-factory/",
-      "demoType": "external-app-demo",
-      "status": 200,
-      "ok": true,
-      "contentType": "text/html; charset=utf-8",
-      "finalUrl": "https://justin21523.github.io/video-gen-factory/",
-      "bytesRead": 654
+      "finalUrl": "https://justin21523.github.io/projects/text2sql-evaluation-harness/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "tripscore",
@@ -2574,6 +2550,30 @@
     },
     {
       "slug": "video-gen-factory",
+      "kind": "live",
+      "sourceUrl": "https://justin21523.github.io/video-gen-factory/",
+      "checkedUrl": "https://justin21523.github.io/video-gen-factory/",
+      "demoType": "external-app-demo",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://justin21523.github.io/video-gen-factory/",
+      "bytesRead": 654
+    },
+    {
+      "slug": "starforge-AI-narrative",
+      "kind": "video",
+      "sourceUrl": "/projects/starforge-AI-narrative/videos/playwright-portfolio-case-study.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/starforge-AI-narrative/videos/playwright-portfolio-case-study.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/starforge-AI-narrative/videos/playwright-portfolio-case-study.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "video-gen-factory",
       "kind": "video",
       "sourceUrl": "https://justin21523.github.io/video-gen-factory/#demo-video",
       "checkedUrl": "https://justin21523.github.io/video-gen-factory/#demo-video",
@@ -2583,6 +2583,30 @@
       "contentType": "text/html; charset=utf-8",
       "finalUrl": "https://justin21523.github.io/video-gen-factory/",
       "bytesRead": 654
+    },
+    {
+      "slug": "urban-analytics-core",
+      "kind": "video",
+      "sourceUrl": "/projects/urban-analytics-core/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/urban-analytics-core/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/urban-analytics-core/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
+    },
+    {
+      "slug": "signal-diver-3d",
+      "kind": "video",
+      "sourceUrl": "/projects/signal-diver-3d/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/signal-diver-3d/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/signal-diver-3d/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "vision-quest",
@@ -2597,16 +2621,16 @@
       "bytesRead": 488
     },
     {
-      "slug": "urban-analytics-core",
+      "slug": "vanilla-dom-playground",
       "kind": "video",
-      "sourceUrl": "/projects/urban-analytics-core/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/urban-analytics-core/videos/playwright-external-live-demo.webm",
+      "sourceUrl": "/projects/vanilla-dom-playground/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/vanilla-dom-playground/videos/playwright-external-live-demo.webm",
       "demoType": "external-media",
       "status": 200,
       "ok": true,
       "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/urban-analytics-core/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
+      "finalUrl": "https://justin21523.github.io/projects/vanilla-dom-playground/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
     },
     {
       "slug": "web-auto-concepts",
@@ -2633,6 +2657,18 @@
       "bytesRead": 765
     },
     {
+      "slug": "video-family-lora-hub",
+      "kind": "video",
+      "sourceUrl": "/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
+      "bytesRead": 1378
+    },
+    {
       "slug": "YouTube-Web-Automation-Analysis",
       "kind": "live",
       "sourceUrl": "https://justin21523.github.io/YouTube-Web-Automation-Analysis/",
@@ -2657,42 +2693,6 @@
       "bytesRead": 3251
     },
     {
-      "slug": "vanilla-dom-playground",
-      "kind": "video",
-      "sourceUrl": "/projects/vanilla-dom-playground/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/vanilla-dom-playground/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/vanilla-dom-playground/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
-    },
-    {
-      "slug": "video-family-lora-hub",
-      "kind": "video",
-      "sourceUrl": "/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
-      "bytesRead": 1378
-    },
-    {
-      "slug": "video-gen",
-      "kind": "video",
-      "sourceUrl": "/projects/video-gen/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/video-gen/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/video-gen/videos/playwright-external-live-demo.webm",
-      "bytesRead": 1378
-    },
-    {
       "slug": "vision-quest",
       "kind": "video",
       "sourceUrl": "/projects/vision-quest/videos/01-real-demo-tour.webm",
@@ -2702,18 +2702,6 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/vision-quest/videos/01-real-demo-tour.webm",
-      "bytesRead": 1378
-    },
-    {
-      "slug": "the-classrooms",
-      "kind": "video",
-      "sourceUrl": "/projects/the-classrooms/videos/playwright-external-live-demo.webm",
-      "checkedUrl": "https://justin21523.github.io/projects/the-classrooms/videos/playwright-external-live-demo.webm",
-      "demoType": "external-media",
-      "status": 200,
-      "ok": true,
-      "contentType": "video/webm",
-      "finalUrl": "https://justin21523.github.io/projects/the-classrooms/videos/playwright-external-live-demo.webm",
       "bytesRead": 16384
     },
     {
@@ -2738,7 +2726,19 @@
       "ok": true,
       "contentType": "video/webm",
       "finalUrl": "https://justin21523.github.io/projects/ytp-factory/videos/playwright-external-live-demo.webm",
-      "bytesRead": 16384
+      "bytesRead": 1378
+    },
+    {
+      "slug": "video-gen",
+      "kind": "video",
+      "sourceUrl": "/projects/video-gen/videos/playwright-external-live-demo.webm",
+      "checkedUrl": "https://justin21523.github.io/projects/video-gen/videos/playwright-external-live-demo.webm",
+      "demoType": "external-media",
+      "status": 200,
+      "ok": true,
+      "contentType": "video/webm",
+      "finalUrl": "https://justin21523.github.io/projects/video-gen/videos/playwright-external-live-demo.webm",
+      "bytesRead": 1378
     }
   ]
 }

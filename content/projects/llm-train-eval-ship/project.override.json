@@ -175,7 +175,7 @@
       "Shared Hugging Face cache governance via MODEL_STORE_ROOT, HF_HOME, TRANSFORMERS_CACHE, and HF_HUB_CACHE",
       "Canary promotion and rollback decision modeling",
       "Automated Playwright screenshot capture and FFmpeg WebM walkthrough generation",
-      "Dockerized static demo smoke path"
+      "Dockerized demo smoke path"
     ],
     "frameworks": [
       "FastAPI",
@@ -201,12 +201,12 @@
     ],
     "testing": [
       "pytest backend smoke tests",
-      "Static demo smoke test",
+      "Live demo smoke test",
       "Docker build smoke test",
       "Playwright screenshot capture"
     ],
     "deployment": [
-      "GitHub Pages static demo",
+      "GitHub Pages demo app",
       "GitHub Actions Pages workflow",
       "Docker + Nginx local static service"
     ],

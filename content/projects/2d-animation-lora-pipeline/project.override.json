@@ -129,7 +129,7 @@
     "startedAt": "2026-06-01",
     "updatedAt": "2026-06-28",
     "completedAt": "2026-06-28",
-    "duration": "Pipeline audit, static demo layer, documentation, portfolio media packaging",
+    "duration": "Pipeline audit, live demo layer, documentation, portfolio media packaging",
     "teamSize": 1,
     "version": "1.0.0-demo",
     "catalogNumber": "PF-2026-AI-2D-LORA",
@@ -161,7 +161,7 @@
     ],
     "contentTypes": [
       "Pipeline dashboard",
-      "Static demo site",
+      "Live demo site",
       "Screenshot gallery",
       "Demo recording",
       "Technical case study"

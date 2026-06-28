@@ -145,7 +145,7 @@
       "Deterministic txt2img/img2img/inpaint mock generation for smoke tests and public demos",
       "Graceful degradation when optional Redis/Celery/model/postprocess dependencies are missing",
       "Storage discipline for models, caches, outputs, assets, logs, and generated metadata",
-      "GitHub Pages static demo with screenshots and WebM walkthrough"
+      "GitHub Pages demo app with screenshots and WebM walkthrough"
     ],
     "frameworks": [
       "FastAPI",
