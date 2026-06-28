@@ -22,6 +22,15 @@
   "coverImage": "/portfolio/projects/information-retrieval/cover.png",
   "links": [
     {
+      "kind": "live",
+      "url": "https://neojustin.dothost.net/projects/information-retrieval/",
+      "label": {
+        "zh-TW": "開啟 Live Demo",
+        "en": "Open Live Demo"
+      },
+      "primary": true
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/news-information-retrieval-system",
       "label": {
@@ -547,9 +556,9 @@
   ],
   "metadata": {
     "startedAt": "2026-06-01",
-    "updatedAt": "2026-06-24",
-    "completedAt": "2026-06-24",
-    "duration": "IR system hardening and portfolio demo completion",
+    "updatedAt": "2026-06-28",
+    "completedAt": "2026-06-28",
+    "duration": "IR system hardening, deployment verification, and portfolio demo completion",
     "teamSize": 1,
     "version": "1.0.0",
     "catalogNumber": "PF-2026-IS-CNIRS",
@@ -626,8 +635,10 @@
     ],
     "deployment": [
       "Flask",
+      "Docker",
+      "Dothost portfolio gateway",
       "GitHub Pages portfolio",
-      "dothost live server"
+      "GitHub Actions"
     ],
     "roles": [
       "System architect",
@@ -677,7 +688,9 @@
     ],
     "evidenceSources": [
       "README.md",
+      "DEPLOYMENT.md",
       "docs/assets/evaluation/",
+      "scripts/smoke_demo.py",
       "tests/test_ir_app_api.py",
       "scripts/verify_ui_playwright.py"
     ],
