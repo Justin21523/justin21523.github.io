@@ -1,39 +1,35 @@
 ---
-title: "RestorAI Studio — AI Image Restoration & Super-Resolution Platform"
-tagline: "A prototype AI image restoration & super-resolution toolkit spanning Web, API, and CLI"
-summary: "RestorAI Studio is a PyTorch-based image/video enhancement platform prototype integrating Real-ESRGAN super-resolution, GFPGAN/CodeFormer face restoration, and RIFE frame interpolation. It exposes four front-ends — Gradio web, FastAPI REST API, CLI, and a PyQt desktop app — over modular pipelines featuring tiled inference, an async job queue, batch processing, safety filtering, and Prometheus monitoring."
-role: "Solo developer (architecture, backend API, inference pipelines, multi-interface integration)"
-problem: "Typical restoration tools are locked to a single interface, redownload model weights per project wasting disk, and lack the batching, job-tracking, and deployment scaffolding needed to move from demo to a maintainable service."
-solution: "A `BaseProcessor` abstraction unifies model loading, inference, memory management, and tiled processing across ESRGAN/GFPGAN/RIFE. The FastAPI backend is split into jobs, batch, video, safety, metrics, and admin routers, backed by a ThreadPoolExecutor job queue with disk journaling. A centralized 'AI Warehouse' shares model weights across projects, while Gradio, static Web, PyQt desktop, and CLI all reuse the same inference core."
-outcome: "A working prototype where a single run.py switches between UI/API/CLI, with health checks, Prometheus metrics, safety filtering, and Docker deployment configs. Several modules (pipeline, gfpgan, rife loaders) remain scaffolding — a functionality-validation-stage prototype."
+title: "RestorAI Studio — AI Image Restoration Portfolio Workbench"
+tagline: "A public, mock-safe AI restoration demo with before/after viewing, pipeline status, and reproducible media"
+summary: "RestorAI Studio is an AI image restoration and super-resolution platform prototype reshaped into an interview-ready portfolio demo. The public demo uses browser Canvas to simulate the inference workflow without GPU, model weights, or external services; the local smoke path exposes a FastAPI + Pillow API to validate upload, processing, and PNG response behavior."
+role: "Solo developer (portfolio demo design, frontend demo, FastAPI demo API, CI/CD, documentation, and portfolio integration)"
+problem: "The original project had a useful AI restoration service architecture, but true model inference depends on large weights, GPU availability, and version-sensitive packages, making it hard for interviewers to launch, inspect, screenshot, or evaluate quickly."
+solution: "Split the project into two presentation-safe paths: a pure static GitHub Pages demo whose first screen is the restoration workbench, and a local FastAPI/Pillow smoke API for upload and processing verification. The README now documents the system with Mermaid product flow, architecture, data flow, deployment, and module diagrams."
+outcome: "Delivered a public interactive demo, cover image, desktop/mobile screenshots, and a WebM demo recording. GitHub Actions verifies compile, pytest, API smoke, and static build before GitHub Pages deployment. The real model path is honestly labeled as a prototype scaffold instead of being presented as production-ready inference."
 highlights:
-  - "Abstract base classes unify image/video processors with FP16 and tiled inference for large-image memory control"
-  - "Modular FastAPI backend split into a dozen routers (jobs, batch, video, safety, metrics, exports, history)"
-  - "Async ThreadPoolExecutor job queue with progress/event callbacks and disk journaling for recovery"
-  - "Centralized AI Warehouse design shares model weights across projects to save disk"
-  - "Four interfaces — Gradio, static Web, PyQt desktop, and CLI — over one shared inference core"
-  - "Built-in NSFW/face-blur safety filtering, Prometheus metrics endpoint, and Docker deployment config"
+  - "Product-first first screen: before/after viewer, scenario selector, scale, restore strength, pipeline status, and job payload"
+  - "Mock-safe public demo requiring no GPU, model download, backend, or external service"
+  - "FastAPI demo API validates upload, Pillow resize/sharpen, PNG response headers, and smoke tests"
+  - "README includes Mermaid product, architecture, data flow, deployment, stack, and module diagrams"
+  - "Playwright-generated cover, screenshots, and WebM demo tour keep media reproducible"
+  - "GitHub Pages workflow runs compile, pytest, smoke, and static build before deployment"
 challenges:
-  - "Sharing one inference core across Web/API/CLI/Desktop while keeping state consistent"
-  - "Tiled inference and memory release for large images and video under limited VRAM"
-  - "Reproducibility and deployment complexity from heavy, version-sensitive deps (CUDA nightly, basicsr/realesrgan)"
+  - "Creating a convincing AI product workflow without relying on brittle GPU/model infrastructure"
+  - "Turning scattered FastAPI, Gradio, CLI, PyQt, and model scaffolding into an explainable architecture"
+  - "Being explicit about prototype boundaries while still making the project easy to evaluate"
 nextSteps:
-  - "Complete the still-scaffolded model loaders/inference for pipeline, GFPGAN, and RIFE"
-  - "Upgrade the in-memory/ThreadPool job queue to the already-declared Celery + Redis for horizontal scaling"
-  - "Pin dependency versions (PyTorch nightly, mismatched PyQt5/6) and add automated tests and CI"
+  - "Complete Real-ESRGAN/GFPGAN/RIFE lifecycle and CPU/GPU fallback"
+  - "Consolidate prototype API routers into one production contract"
+  - "Add true-model integration tests, model weight health checks, and artifact persistence"
 ---
 ## Overview
 
-RestorAI Studio (internally RestorAI MVP) is a **PyTorch**-based prototype platform for AI image and video restoration and super-resolution, integrating **Real-ESRGAN** upscaling, **GFPGAN / CodeFormer** face restoration, and **RIFE** frame interpolation. The goal is to engineer a plain model demo into a service scaffold with multiple interfaces, a job queue, and deployable structure.
+RestorAI Studio demonstrates how to turn an AI model prototype into an evaluable product demo. The public demo does not assume the interviewer has a GPU or model weights. It presents a browser-based image restoration workbench where users can load samples, tune scale/strength, run a pipeline, compare before/after output, and inspect a job payload.
 
 ## Architecture
 
-The core `core/base.py` defines `BaseProcessor` / `ImageProcessor` / `VideoProcessor` abstractions that unify model loading, inference, memory measurement, and **tiled inference**; `ESRGANProcessor` is the most complete implementation, supporting FP16 and automatic device selection. The **FastAPI** backend under `api/` is modularized into a dozen routers — jobs, batch, video, safety, metrics, admin, exports, history — with a `ThreadPoolExecutor` job queue and `jobs_journal.jsonl` disk journaling for progress tracking and recovery.
+The repository keeps the broader AI service scaffold: FastAPI routers, job manager, metrics/history/export/admin routes, Gradio/CLI/PyQt entries, AI Warehouse model paths, and Real-ESRGAN/GFPGAN/RIFE adapter design. The stable presentation path is delivered through `portfolio-web/` and the `webapp/main.py` demo API.
 
-## Multi-interface & engineering
+## Portfolio Value
 
-A single entry point `run.py` switches between **Gradio web UI, FastAPI REST API, and CLI**, with an additional **PyQt desktop** app and a static web front-end, all reusing one inference core. The project adopts a centralized **'AI Warehouse'** that stores model weights under `~/ai-warehouse` for cross-project sharing, and ships NSFW/face-blur safety filtering, a Prometheus metrics endpoint, health checks, pytest suites, and Docker / docker-compose deployment configs.
-
-## Prototype status
-
-Honestly labeled a **prototype**. Several modules (`core/pipeline.py`, `core/gfpgan.py`, `core/rife.py` weight loaders) are still placeholder scaffolding; `jobs.py` contains a duplicate Job definition; and although requirements declare Celery/Redis/Flower, the actual job system runs in-process via ThreadPool. Dependency versions (CUDA nightly, coexisting PyQt5 and PyQt6) also need consolidation. The multi-interface design and pipeline architecture are validated; next steps focus on completing model implementations and deployment stability.
+The value is not just the model list. The project shows practical engineering judgment: isolate GPU/model-weight risk, provide a reproducible mock-safe demo, add CI, generate portfolio media, and document the production path clearly enough for interviewers to understand product scope and next steps.

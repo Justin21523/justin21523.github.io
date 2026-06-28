@@ -47,7 +47,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-05-09",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -198,7 +198,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.173Z"
+      "lastScannedAt": "2026-06-28T12:30:25.456Z"
     },
     "content": {
       "zh-TW": {
@@ -575,7 +575,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.175Z"
+      "lastScannedAt": "2026-06-28T12:30:25.459Z"
     },
     "content": {
       "zh-TW": {
@@ -955,7 +955,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-27",
+      "startedAt": "2026-06-26",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -1092,7 +1092,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.176Z"
+      "lastScannedAt": "2026-06-28T12:30:25.460Z"
     },
     "content": {
       "zh-TW": {
@@ -1205,7 +1205,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-05-09",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -1343,7 +1343,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.177Z"
+      "lastScannedAt": "2026-06-28T12:30:25.460Z"
     },
     "content": {
       "zh-TW": {
@@ -1519,14 +1519,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/ai-game-website/project.override.json",
         "content/projects/ai-game-website/zh-TW.md",
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.177Z"
+      "lastScannedAt": "2026-06-28T12:30:25.460Z"
     },
     "content": {
       "zh-TW": {
@@ -1620,7 +1622,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-06-15",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -1701,7 +1703,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.177Z"
+      "lastScannedAt": "2026-06-28T12:30:25.460Z"
     },
     "content": {
       "zh-TW": {
@@ -1814,7 +1816,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-27",
+      "startedAt": "2026-06-25",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -1931,7 +1933,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.177Z"
+      "lastScannedAt": "2026-06-28T12:30:25.461Z"
     },
     "content": {
       "zh-TW": {
@@ -2131,7 +2133,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2025-12-29",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -2271,7 +2273,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.177Z"
+      "lastScannedAt": "2026-06-28T12:30:25.461Z"
     },
     "content": {
       "zh-TW": {
@@ -2464,7 +2466,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-05-13",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0-demo",
@@ -2629,7 +2631,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.178Z"
+      "lastScannedAt": "2026-06-28T12:30:25.462Z"
     },
     "content": {
       "zh-TW": {
@@ -2814,14 +2816,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/aqua-rush/project.override.json",
         "content/projects/aqua-rush/zh-TW.md",
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.179Z"
+      "lastScannedAt": "2026-06-28T12:30:25.462Z"
     },
     "content": {
       "zh-TW": {
@@ -2940,7 +2944,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-27",
+      "startedAt": "2026-06-22",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -3099,7 +3103,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.179Z"
+      "lastScannedAt": "2026-06-28T12:30:25.463Z"
     },
     "content": {
       "zh-TW": {
@@ -3365,7 +3369,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.179Z"
+      "lastScannedAt": "2026-06-28T12:30:25.463Z"
     },
     "content": {
       "zh-TW": {
@@ -3531,7 +3535,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.179Z"
+      "lastScannedAt": "2026-06-28T12:30:25.463Z"
     },
     "content": {
       "zh-TW": {
@@ -3948,7 +3952,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.179Z"
+      "lastScannedAt": "2026-06-28T12:30:25.463Z"
     },
     "content": {
       "zh-TW": {
@@ -4036,7 +4040,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-06-20",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -4166,7 +4170,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.180Z"
+      "lastScannedAt": "2026-06-28T12:30:25.463Z"
     },
     "content": {
       "zh-TW": {
@@ -4435,7 +4439,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.180Z"
+      "lastScannedAt": "2026-06-28T12:30:25.463Z"
     },
     "content": {
       "zh-TW": {
@@ -4679,7 +4683,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.180Z"
+      "lastScannedAt": "2026-06-28T12:30:25.463Z"
     },
     "content": {
       "zh-TW": {
@@ -4903,14 +4907,16 @@
       "dependencies": [],
       "extractionConfidence": 0.7,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/css-advanced-mastery/project.override.json",
         "content/projects/css-advanced-mastery/zh-TW.md",
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.180Z"
+      "lastScannedAt": "2026-06-28T12:30:25.464Z"
     },
     "content": {
       "zh-TW": {
@@ -4996,7 +5002,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-20",
+      "startedAt": "2026-06-21",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -5129,7 +5135,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.180Z"
+      "lastScannedAt": "2026-06-28T12:30:25.464Z"
     },
     "content": {
       "zh-TW": {
@@ -5304,7 +5310,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.180Z"
+      "lastScannedAt": "2026-06-28T12:30:25.464Z"
     },
     "content": {
       "zh-TW": {
@@ -5411,7 +5417,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-25",
+      "startedAt": "2026-06-26",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -5562,7 +5568,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.180Z"
+      "lastScannedAt": "2026-06-28T12:30:25.464Z"
     },
     "content": {
       "zh-TW": {
@@ -5737,7 +5743,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.181Z"
+      "lastScannedAt": "2026-06-28T12:30:25.464Z"
     },
     "content": {
       "zh-TW": {
@@ -5829,7 +5835,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-27",
+      "startedAt": "2026-06-26",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -5926,7 +5932,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.181Z"
+      "lastScannedAt": "2026-06-28T12:30:25.464Z"
     },
     "content": {
       "zh-TW": {
@@ -6003,7 +6009,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-16",
+      "startedAt": "2026-06-20",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -6084,7 +6090,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.181Z"
+      "lastScannedAt": "2026-06-28T12:30:25.464Z"
     },
     "content": {
       "zh-TW": {
@@ -6234,14 +6240,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/digital-living/project.override.json",
         "content/projects/digital-living/zh-TW.md",
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.181Z"
+      "lastScannedAt": "2026-06-28T12:30:25.464Z"
     },
     "content": {
       "zh-TW": {
@@ -6329,7 +6337,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-05-09",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -6477,7 +6485,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.181Z"
+      "lastScannedAt": "2026-06-28T12:30:25.465Z"
     },
     "content": {
       "zh-TW": {
@@ -6650,7 +6658,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.181Z"
+      "lastScannedAt": "2026-06-28T12:30:25.465Z"
     },
     "content": {
       "zh-TW": {
@@ -7049,7 +7057,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.181Z"
+      "lastScannedAt": "2026-06-28T12:30:25.465Z"
     },
     "content": {
       "zh-TW": {
@@ -7467,7 +7475,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.181Z"
+      "lastScannedAt": "2026-06-28T12:30:25.465Z"
     },
     "content": {
       "zh-TW": {
@@ -7642,14 +7650,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/frontend-interaction-lab/project.override.json",
         "content/projects/frontend-interaction-lab/zh-TW.md",
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.182Z"
+      "lastScannedAt": "2026-06-28T12:30:25.465Z"
     },
     "content": {
       "zh-TW": {
@@ -7821,7 +7831,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.182Z"
+      "lastScannedAt": "2026-06-28T12:30:25.465Z"
     },
     "content": {
       "zh-TW": {
@@ -7931,7 +7941,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-05-09",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -8068,14 +8078,16 @@
       "dependencies": [],
       "extractionConfidence": 0.8,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/gan-ae-vision-suite/project.override.json",
         "content/projects/gan-ae-vision-suite/zh-TW.md",
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.182Z"
+      "lastScannedAt": "2026-06-28T12:30:25.465Z"
     },
     "content": {
       "zh-TW": {
@@ -8160,7 +8172,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-06-21",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -8288,7 +8300,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.182Z"
+      "lastScannedAt": "2026-06-28T12:30:25.465Z"
     },
     "content": {
       "zh-TW": {
@@ -8375,7 +8387,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-26",
+      "startedAt": "2026-06-24",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -8529,7 +8541,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.183Z"
+      "lastScannedAt": "2026-06-28T12:30:25.466Z"
     },
     "content": {
       "zh-TW": {
@@ -8611,7 +8623,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-06-21",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -8740,7 +8752,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.183Z"
+      "lastScannedAt": "2026-06-28T12:30:25.466Z"
     },
     "content": {
       "zh-TW": {
@@ -8923,14 +8935,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/highway-adventure-3d/project.override.json",
         "content/projects/highway-adventure-3d/zh-TW.md",
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.183Z"
+      "lastScannedAt": "2026-06-28T12:30:25.466Z"
     },
     "content": {
       "zh-TW": {
@@ -9159,7 +9173,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.183Z"
+      "lastScannedAt": "2026-06-28T12:30:25.466Z"
     },
     "content": {
       "zh-TW": {
@@ -9365,7 +9379,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.183Z"
+      "lastScannedAt": "2026-06-28T12:30:25.466Z"
     },
     "content": {
       "zh-TW": {
@@ -10156,7 +10170,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.183Z"
+      "lastScannedAt": "2026-06-28T12:30:25.466Z"
     },
     "content": {
       "zh-TW": {
@@ -10408,7 +10422,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.183Z"
+      "lastScannedAt": "2026-06-28T12:30:25.467Z"
     },
     "content": {
       "zh-TW": {
@@ -10660,7 +10674,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.184Z"
+      "lastScannedAt": "2026-06-28T12:30:25.467Z"
     },
     "content": {
       "zh-TW": {
@@ -10896,7 +10910,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.184Z"
+      "lastScannedAt": "2026-06-28T12:30:25.467Z"
     },
     "content": {
       "zh-TW": {
@@ -11139,7 +11153,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-27",
+      "startedAt": "2026-06-26",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -11234,7 +11248,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.184Z"
+      "lastScannedAt": "2026-06-28T12:30:25.467Z"
     },
     "content": {
       "zh-TW": {
@@ -11465,14 +11479,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/javascript-platformer-concepts/project.override.json",
         "content/projects/javascript-platformer-concepts/zh-TW.md",
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.184Z"
+      "lastScannedAt": "2026-06-28T12:30:25.467Z"
     },
     "content": {
       "zh-TW": {
@@ -11640,7 +11656,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.184Z"
+      "lastScannedAt": "2026-06-28T12:30:25.467Z"
     },
     "content": {
       "zh-TW": {
@@ -11800,7 +11816,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.184Z"
+      "lastScannedAt": "2026-06-28T12:30:25.467Z"
     },
     "content": {
       "zh-TW": {
@@ -12021,7 +12037,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.184Z"
+      "lastScannedAt": "2026-06-28T12:30:25.468Z"
     },
     "content": {
       "zh-TW": {
@@ -12479,7 +12495,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.184Z"
+      "lastScannedAt": "2026-06-28T12:30:25.468Z"
     },
     "content": {
       "zh-TW": {
@@ -12554,7 +12570,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-20",
+      "startedAt": "2026-06-21",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -12686,7 +12702,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.185Z"
+      "lastScannedAt": "2026-06-28T12:30:25.468Z"
     },
     "content": {
       "zh-TW": {
@@ -12774,7 +12790,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-05-09",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -12919,7 +12935,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.185Z"
+      "lastScannedAt": "2026-06-28T12:30:25.468Z"
     },
     "content": {
       "zh-TW": {
@@ -13094,7 +13110,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.185Z"
+      "lastScannedAt": "2026-06-28T12:30:25.468Z"
     },
     "content": {
       "zh-TW": {
@@ -13338,7 +13354,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.185Z"
+      "lastScannedAt": "2026-06-28T12:30:25.468Z"
     },
     "content": {
       "zh-TW": {
@@ -13451,7 +13467,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-19",
+      "startedAt": "2026-05-16",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -13593,7 +13609,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.185Z"
+      "lastScannedAt": "2026-06-28T12:30:25.468Z"
     },
     "content": {
       "zh-TW": {
@@ -14378,7 +14394,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-27",
+      "startedAt": "2026-06-25",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -14471,7 +14487,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.185Z"
+      "lastScannedAt": "2026-06-28T12:30:25.469Z"
     },
     "content": {
       "zh-TW": {
@@ -14618,14 +14634,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/my-3d-platformer/project.override.json",
         "content/projects/my-3d-platformer/zh-TW.md",
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.186Z"
+      "lastScannedAt": "2026-06-28T12:30:25.469Z"
     },
     "content": {
       "zh-TW": {
@@ -15051,7 +15069,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.186Z"
+      "lastScannedAt": "2026-06-28T12:30:25.469Z"
     },
     "content": {
       "zh-TW": {
@@ -15231,7 +15249,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-27",
+      "startedAt": "2026-06-26",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -15327,7 +15345,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.186Z"
+      "lastScannedAt": "2026-06-28T12:30:25.469Z"
     },
     "content": {
       "zh-TW": {
@@ -15692,7 +15710,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.186Z"
+      "lastScannedAt": "2026-06-28T12:30:25.469Z"
     },
     "content": {
       "zh-TW": {
@@ -15805,7 +15823,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-05-09",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -15932,7 +15950,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.186Z"
+      "lastScannedAt": "2026-06-28T12:30:25.470Z"
     },
     "content": {
       "zh-TW": {
@@ -16084,14 +16102,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/platformer-game/project.override.json",
         "content/projects/platformer-game/zh-TW.md",
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.186Z"
+      "lastScannedAt": "2026-06-28T12:30:25.470Z"
     },
     "content": {
       "zh-TW": {
@@ -16186,7 +16206,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-06-14",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -16269,7 +16289,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.186Z"
+      "lastScannedAt": "2026-06-28T12:30:25.470Z"
     },
     "content": {
       "zh-TW": {
@@ -16510,7 +16530,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.187Z"
+      "lastScannedAt": "2026-06-28T12:30:25.470Z"
     },
     "content": {
       "zh-TW": {
@@ -16693,7 +16713,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.187Z"
+      "lastScannedAt": "2026-06-28T12:30:25.470Z"
     },
     "content": {
       "zh-TW": {
@@ -16942,16 +16962,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/procedural-3d-maze/project.override.json",
         "content/projects/procedural-3d-maze/zh-TW.md",
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.187Z"
+      "lastScannedAt": "2026-06-28T12:30:25.471Z"
     },
     "content": {
       "zh-TW": {
@@ -17134,14 +17152,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/procedural-dungeon-crawler/project.override.json",
         "content/projects/procedural-dungeon-crawler/zh-TW.md",
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.187Z"
+      "lastScannedAt": "2026-06-28T12:30:25.471Z"
     },
     "content": {
       "zh-TW": {
@@ -17312,7 +17332,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.187Z"
+      "lastScannedAt": "2026-06-28T12:30:25.471Z"
     },
     "content": {
       "zh-TW": {
@@ -17551,7 +17571,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.187Z"
+      "lastScannedAt": "2026-06-28T12:30:25.471Z"
     },
     "content": {
       "zh-TW": {
@@ -17736,7 +17756,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.187Z"
+      "lastScannedAt": "2026-06-28T12:30:25.471Z"
     },
     "content": {
       "zh-TW": {
@@ -17997,7 +18017,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.187Z"
+      "lastScannedAt": "2026-06-28T12:30:25.471Z"
     },
     "content": {
       "zh-TW": {
@@ -18269,7 +18289,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.188Z"
+      "lastScannedAt": "2026-06-28T12:30:25.471Z"
     },
     "content": {
       "zh-TW": {
@@ -18336,23 +18356,24 @@
     "category": "ai-data",
     "status": "prototype",
     "year": 2026,
-    "featured": false,
+    "featured": true,
     "technologies": [
       "Python",
+      "FastAPI",
+      "Pillow",
+      "JavaScript",
+      "Canvas",
+      "Playwright",
       "PyTorch",
       "Real-ESRGAN",
       "GFPGAN",
-      "CodeFormer",
       "RIFE",
-      "BasicSR",
-      "FastAPI",
       "Gradio",
       "PyQt",
-      "OpenCV",
-      "Uvicorn",
-      "Pydantic",
+      "GitHub Pages",
       "Docker"
     ],
+    "coverImage": "/portfolio/projects/restoreAI-studio/cover.webp",
     "links": [
       {
         "kind": "live",
@@ -18362,6 +18383,14 @@
           "en": "Interactive Demo"
         },
         "primary": true
+      },
+      {
+        "kind": "video",
+        "url": "/portfolio/projects/restoreAI-studio/demo/demo-tour.webm",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
       },
       {
         "kind": "github",
@@ -18380,61 +18409,132 @@
         }
       }
     ],
-    "media": [],
+    "media": [
+      {
+        "id": "demo-tour-video",
+        "type": "video",
+        "src": "/portfolio/projects/restoreAI-studio/demo/demo-tour.webm",
+        "poster": "/portfolio/projects/restoreAI-studio/cover.webp",
+        "alt": {
+          "zh-TW": "RestorAI Studio 互動修復工作台導覽錄影。",
+          "en": "RestorAI Studio interactive restoration workbench demo recording."
+        },
+        "title": {
+          "zh-TW": "互動工作台導覽",
+          "en": "Interactive Workbench Tour"
+        },
+        "caption": {
+          "zh-TW": "展示 before/after slider、scenario 切換、pipeline 狀態與 mock-safe 推論流程。",
+          "en": "Shows the before/after slider, scenario switching, pipeline status, and mock-safe inference flow."
+        },
+        "featured": true
+      },
+      {
+        "id": "workspace",
+        "type": "image",
+        "src": "/portfolio/projects/restoreAI-studio/screenshots/workspace.webp",
+        "alt": {
+          "zh-TW": "RestorAI Studio 第一屏影像修復工作台。",
+          "en": "RestorAI Studio first-screen image restoration workbench."
+        },
+        "title": {
+          "zh-TW": "產品工作台",
+          "en": "Product Workbench"
+        },
+        "caption": {
+          "zh-TW": "第一屏直接呈現產品本體，包含修復控制、before/after viewer、pipeline 與 job payload。",
+          "en": "The first screen presents the product itself with controls, before/after viewer, pipeline, and job payload."
+        },
+        "featured": true
+      },
+      {
+        "id": "pipeline-complete",
+        "type": "image",
+        "src": "/portfolio/projects/restoreAI-studio/screenshots/pipeline-complete.webp",
+        "alt": {
+          "zh-TW": "RestorAI Studio pipeline 完成狀態畫面。",
+          "en": "RestorAI Studio completed pipeline status screen."
+        },
+        "title": {
+          "zh-TW": "Pipeline 完成狀態",
+          "en": "Completed Pipeline State"
+        },
+        "caption": {
+          "zh-TW": "可截圖展示 ingest、safety、restore、upscale、export 的完整任務流程。",
+          "en": "Screenshot-ready view of the ingest, safety, restore, upscale, and export flow."
+        }
+      },
+      {
+        "id": "mobile",
+        "type": "image",
+        "src": "/portfolio/projects/restoreAI-studio/screenshots/mobile.webp",
+        "alt": {
+          "zh-TW": "RestorAI Studio 手機版 demo 畫面。",
+          "en": "RestorAI Studio mobile demo screen."
+        },
+        "title": {
+          "zh-TW": "手機版展示",
+          "en": "Mobile Demo"
+        },
+        "caption": {
+          "zh-TW": "靜態 demo 支援小螢幕，方便面試官從 portfolio 頁快速預覽。",
+          "en": "The static demo supports small screens for quick portfolio review."
+        }
+      }
+    ],
     "metadata": {
       "startedAt": "2025-10-10",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
-      "version": "1.0.0",
+      "version": "1.0.0-demo",
       "catalogNumber": "PF-2026-AI-034",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
       "secondaryCategories": [],
-      "projectType": "AI image & video restoration / super-resolution toolkit",
+      "projectType": "AI image restoration and super-resolution portfolio demo",
       "domains": [
         "Computer Vision",
         "Image Restoration",
         "Super-Resolution",
-        "Generative AI Tooling"
+        "AI Product Demo"
       ],
       "subjects": [],
       "controlledTerms": [
         "Python",
+        "FastAPI",
+        "Pillow",
+        "JavaScript",
+        "Canvas",
+        "Playwright",
         "PyTorch",
         "Real-ESRGAN",
         "GFPGAN",
-        "CodeFormer",
         "RIFE",
-        "BasicSR",
-        "FastAPI",
         "Gradio",
         "PyQt",
-        "OpenCV",
-        "Uvicorn",
-        "Pydantic",
+        "GitHub Pages",
         "Docker"
       ],
       "keywords": [
-        "super-resolution",
         "image-restoration",
-        "face-enhancement",
-        "Real-ESRGAN",
-        "GFPGAN",
-        "frame-interpolation",
-        "computer-vision",
-        "deep-learning",
+        "super-resolution",
+        "portfolio-demo",
+        "mock-safe-ai",
         "FastAPI",
-        "Gradio"
+        "Canvas",
+        "GitHub Pages",
+        "Real-ESRGAN",
+        "GFPGAN"
       ],
       "audiences": [],
       "contentTypes": [],
       "dataTypes": [],
       "platforms": [
-        "CLI",
         "Web",
-        "Desktop",
-        "API"
+        "API",
+        "CLI",
+        "Desktop"
       ],
       "operatingSystems": [],
       "languages": [
@@ -18445,22 +18545,16 @@
         "FastAPI",
         "Gradio",
         "PyQt",
-        "Celery (declared)"
+        "GitHub Pages"
       ],
       "libraries": [
+        "Pillow",
+        "Playwright",
+        "PyTorch",
         "Real-ESRGAN",
         "GFPGAN",
-        "CodeFormer",
-        "BasicSR",
         "RIFE",
-        "facexlib",
-        "lpips",
-        "mediapipe",
-        "OpenCV",
-        "Pillow",
-        "NumPy",
-        "Pydantic",
-        "psutil"
+        "OpenCV"
       ],
       "stateManagement": [],
       "styling": [],
@@ -18468,57 +18562,59 @@
       "backend": [
         "FastAPI",
         "Uvicorn",
-        "ThreadPoolExecutor job runner",
-        "PyTorch (CUDA 12.8)"
+        "Pillow demo API"
       ],
       "desktop": [],
       "gameEngine": [],
       "threeD": [],
-      "testing": [],
+      "testing": [
+        "pytest",
+        "FastAPI TestClient",
+        "compileall",
+        "smoke tests"
+      ],
       "buildTools": [],
       "infrastructure": [],
-      "deployment": [],
+      "deployment": [
+        "GitHub Pages",
+        "GitHub Actions",
+        "Docker demo files"
+      ],
       "developmentTools": [],
       "roles": [
-        "獨立開發者（架構設計、後端 API、推論管線與多介面整合）"
+        "獨立開發者（產品展示設計、前端 demo、FastAPI demo API、CI/CD、文件與 portfolio 整合）"
       ],
       "responsibilities": [],
       "collaborationType": "Solo",
       "learningGoals": [],
       "skillsDemonstrated": [
-        "Python",
-        "PyTorch",
-        "Real-ESRGAN",
-        "GFPGAN",
-        "CodeFormer",
-        "RIFE",
-        "BasicSR",
-        "FastAPI",
-        "Gradio",
-        "PyQt",
-        "OpenCV",
-        "Uvicorn",
-        "Pydantic",
-        "Docker"
+        "AI product demo design",
+        "Backend smoke testing",
+        "Static deployment",
+        "Technical documentation",
+        "Portfolio media production"
       ],
       "capabilities": [
-        "Image super-resolution (2x/4x/8x)",
-        "Face restoration",
-        "Video frame interpolation & upscaling",
-        "Tiled inference for large images",
-        "Async job queue with progress tracking",
-        "Batch processing",
-        "Safety filtering (NSFW / face blur)",
-        "A/B compare & export",
-        "Prometheus metrics & health checks"
+        "Mock-safe image restoration demo",
+        "Before/after comparison viewer",
+        "Scenario-driven demo flow",
+        "Image upload preview",
+        "Pipeline status animation",
+        "FastAPI upload/upscale smoke API",
+        "Reproducible screenshots and demo video",
+        "README architecture diagrams"
       ],
       "tools": [],
-      "hasUnitTests": false,
-      "hasIntegrationTests": false,
-      "hasE2ETests": false,
+      "hasUnitTests": true,
+      "hasIntegrationTests": true,
+      "hasE2ETests": true,
       "responsive": true,
       "browserSupport": [],
-      "codeQualityTools": [],
+      "codeQualityTools": [
+        "pytest",
+        "compileall",
+        "GitHub Actions"
+      ],
       "relatedProjects": [],
       "subprojects": [],
       "successorProjects": [],
@@ -18527,76 +18623,74 @@
       "dependencies": [],
       "extractionConfidence": 0.8,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/restoreAI-studio/project.override.json",
         "content/projects/restoreAI-studio/zh-TW.md",
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.188Z"
+      "lastScannedAt": "2026-06-28T12:30:25.471Z"
     },
     "content": {
       "zh-TW": {
-        "title": "RestorAI Studio — AI 影像修復與超解析平台",
-        "summary": "RestorAI Studio 是以 PyTorch 為核心、整合 Real-ESRGAN 超解析、GFPGAN/CodeFormer 人臉修復與 RIFE 影格插補的影像/影片增強平台原型。提供 Gradio 網頁、FastAPI REST API、CLI 與 PyQt 桌面四種介面，並具備分塊推論、非同步任務佇列、批次處理、安全過濾與 Prometheus 監控等模組化管線。",
-        "description": "## 專案概述\n\nRestorAI Studio（程式內部代號 RestorAI MVP）是一套以 **PyTorch** 為核心的 AI 影像／影片修復與超解析平台原型，整合 **Real-ESRGAN** 超解析、**GFPGAN / CodeFormer** 人臉修復，以及 **RIFE** 影格插補。專案目標是把單純的模型 Demo，工程化為具備多介面、任務佇列與可部署結構的服務雛形。\n\n## 架構設計\n\n核心 `core/base.py` 以 `BaseProcessor` / `ImageProcessor` / `VideoProcessor` 抽象類別統一各模型的載入、推論、記憶體量測與**分塊（tiling）推論**介面；`ESRGANProcessor` 為目前較完整的實作，支援 FP16 與自動裝置選擇。後端 `api/` 以 **FastAPI** 模組化拆分為 jobs、batch、video、safety、metrics、admin、exports、history 等十餘個路由，並由 `ThreadPoolExecutor` 任務佇列搭配 `jobs_journal.jsonl` 磁碟日誌提供進度追蹤與復原。\n\n## 多介面與工程化\n\n單一進入點 `run.py` 可切換 **Gradio 網頁 UI、FastAPI REST API、CLI**，另有 **PyQt 桌面** 與靜態 Web 前端，皆共用同一推論核心。專案導入集中式「**AI Warehouse**」設計，將模型權重集中於 `~/ai-warehouse` 供跨專案共享；並內建 NSFW／人臉模糊安全過濾、Prometheus 指標端點、健康檢查、pytest 測試與 Docker／docker-compose 部署設定。\n\n## 原型狀態\n\n誠實標示：此為**原型（prototype）**。部分模組（`core/pipeline.py`、`core/gfpgan.py`、`core/rife.py` 的權重載入器）仍為骨架佔位；`jobs.py` 存在重複的 Job 定義，且 requirements 宣告了 Celery／Redis／Flower 但實際任務系統採行程內 ThreadPool，依賴版本（CUDA nightly、PyQt5 與 PyQt6 並存）亦待收斂。整體已驗證多介面與管線架構可行，下一步聚焦補完模型實作與部署穩定性。",
-        "tagline": "一套打通 Web、API、CLI 的 AI 影像修復與超解析工具原型",
-        "role": "獨立開發者（架構設計、後端 API、推論管線與多介面整合）",
-        "problem": "一般影像修復工具往往綁定單一介面、模型權重各專案重複下載佔用磁碟，且缺乏批次、任務追蹤與部署所需的工程化結構，難以從 Demo 走向可維運的服務。",
-        "solution": "以 BaseProcessor 抽象類統一各模型（ESRGAN/GFPGAN/RIFE）的載入、推論、記憶體管理與分塊處理介面；後端用 FastAPI 拆分 jobs、batch、video、safety、metrics、admin 等路由，搭配 ThreadPoolExecutor 任務佇列與磁碟日誌；並導入集中式「AI Warehouse」共享模型倉，讓權重跨專案共用。前端同時提供 Gradio、靜態 Web、PyQt 桌面與 CLI 多入口。",
-        "outcome": "完成可透過單一 run.py 切換 UI／API／CLI 的原型，具備健康檢查、Prometheus 指標、安全過濾與 Docker 部署設定；部分模組（pipeline、gfpgan、rife 載入器）仍為骨架，屬功能驗證階段的原型。",
+        "title": "RestorAI Studio — AI 影像修復與超解析展示工作台",
+        "summary": "RestorAI Studio 是一套 AI 影像修復與超解析平台原型，將 Real-ESRGAN、GFPGAN/CodeFormer、RIFE 等模型服務架構整理成可讓面試官直接操作的作品集 Demo。公開版以瀏覽器 Canvas 模擬推論流程，不依賴 GPU 或模型權重；本機則提供 FastAPI + Pillow 的 smoke-safe API，用來驗證上傳、處理與回傳流程。",
+        "description": "## 專案概述\n\nRestorAI Studio 展示的是「如何把 AI 模型原型整理成可展示產品」。公開 demo 不假設面試官有 GPU 或模型權重，而是用瀏覽器 Canvas 建立可操作的影像修復工作台：載入 sample、調整 scale/strength、執行 pipeline、觀看 before/after、檢查 job payload。\n\n## 技術架構\n\n專案保留完整 AI service scaffold：FastAPI routers、job manager、metrics/history/export/admin routes、Gradio/CLI/PyQt 入口、AI Warehouse 模型路徑，以及 Real-ESRGAN/GFPGAN/RIFE adapter 設計。展示路徑則以 `portfolio-web/` 靜態前端與 `webapp/main.py` demo API 穩定交付。\n\n## 展示價值\n\n這個作品的重點不只是模型名稱，而是展示工程判斷：把不可控的 GPU/外部權重風險隔離，建立可重現的 mock-safe demo、CI、媒體資產與完整 README，讓面試官能快速理解產品定位、架構取捨與後續 production 化路線。",
+        "tagline": "可公開展示的 AI 影像修復產品 Demo，含 before/after、任務流程與 mock-safe 推論模式",
+        "role": "獨立開發者（產品展示設計、前端 demo、FastAPI demo API、CI/CD、文件與 portfolio 整合）",
+        "problem": "原專案具備 AI 影像修復服務的架構雛形，但真模型依賴大型權重、GPU 與版本敏感套件，對面試官而言不容易快速啟動、截圖或理解核心價值。",
+        "solution": "將展示路徑拆成兩層：公開 GitHub Pages 採純前端 mock-safe demo，第一屏直接呈現影像修復工作台；本機 smoke path 使用 FastAPI + Pillow 模擬上傳與放大 API。README 補齊 Mermaid 架構圖、資料流圖、部署圖與 demo 操作圖，讓專案價值、技術棧與風險一眼可讀。",
+        "outcome": "完成可公開瀏覽的互動 demo、cover、桌面/手機截圖與 demo 錄影，並以 GitHub Actions 驗證 compile、pytest、API smoke、static build 後部署到 GitHub Pages。真模型路徑誠實標示為 prototype scaffold，避免展示時被外部服務或硬體卡住。",
         "features": [],
         "metrics": [],
         "highlights": [
-          "以抽象基底類別統一影像/影片處理器，支援 FP16 與分塊推論處理大圖記憶體",
-          "FastAPI 後端模組化拆分十餘個路由（任務、批次、影片、安全、指標、匯出、歷史）",
-          "ThreadPoolExecutor 非同步任務佇列，含進度回呼、事件回呼與磁碟 journaling 復原",
-          "集中式 AI Warehouse 設計，模型權重跨專案共享以節省磁碟",
-          "四種使用介面：Gradio、靜態 Web、PyQt 桌面與 CLI，皆共用同一推論核心",
-          "內建 NSFW／人臉模糊安全過濾、Prometheus 指標端點與 Docker 部署設定"
+          "第一屏即是產品工作台：before/after viewer、scenario、scale、restore strength、pipeline status 與 job payload",
+          "Mock-safe public demo：不用 GPU、不下載模型、不呼叫外部服務也能完整展示",
+          "FastAPI demo API 驗證上傳、Pillow resize/sharpen、PNG response headers 與 smoke tests",
+          "README 以 Mermaid 補齊產品流程、系統架構、資料流、部署與模組組織圖",
+          "Playwright 產生 cover、screenshots 與 WebM demo tour，媒體可重現",
+          "GitHub Pages workflow 在部署前執行 compile、pytest、smoke 與 static build"
         ],
         "challenges": [
-          "跨多介面（Web/API/CLI/Desktop）共用同一套推論核心並保持狀態一致",
-          "大圖與影片在有限 VRAM 下的分塊推論與記憶體釋放策略",
-          "真實模型權重與環境相依（CUDA nightly、basicsr/realesrgan）導致可重現性與部署複雜度"
+          "在不依賴真模型/GPU 的前提下，仍讓面試官看懂 AI 影像修復產品的完整操作感",
+          "把原本分散的 FastAPI、Gradio、CLI、PyQt 與模型 scaffold 整理成可解釋的架構",
+          "避免將 prototype scaffold 誤包裝成 production-ready inference service"
         ],
         "nextSteps": [
-          "補完 pipeline、GFPGAN、RIFE 等仍為骨架的模型載入與推論實作",
-          "將 in-memory／ThreadPool 任務佇列升級為已宣告的 Celery + Redis 以利水平擴展",
-          "收斂依賴版本（PyTorch nightly、PyQt5/6 不一致）並補強自動化測試與 CI"
+          "補完 Real-ESRGAN/GFPGAN/RIFE 真模型 lifecycle 與 CPU/GPU fallback",
+          "將 prototype API routers 收斂成一致的 production contract",
+          "加入真模型 integration test、模型權重 health check 與 artifact persistence"
         ]
       },
       "en": {
-        "title": "RestorAI Studio — AI Image Restoration & Super-Resolution Platform",
-        "summary": "RestorAI Studio is a PyTorch-based image/video enhancement platform prototype integrating Real-ESRGAN super-resolution, GFPGAN/CodeFormer face restoration, and RIFE frame interpolation. It exposes four front-ends — Gradio web, FastAPI REST API, CLI, and a PyQt desktop app — over modular pipelines featuring tiled inference, an async job queue, batch processing, safety filtering, and Prometheus monitoring.",
-        "description": "## Overview\n\nRestorAI Studio (internally RestorAI MVP) is a **PyTorch**-based prototype platform for AI image and video restoration and super-resolution, integrating **Real-ESRGAN** upscaling, **GFPGAN / CodeFormer** face restoration, and **RIFE** frame interpolation. The goal is to engineer a plain model demo into a service scaffold with multiple interfaces, a job queue, and deployable structure.\n\n## Architecture\n\nThe core `core/base.py` defines `BaseProcessor` / `ImageProcessor` / `VideoProcessor` abstractions that unify model loading, inference, memory measurement, and **tiled inference**; `ESRGANProcessor` is the most complete implementation, supporting FP16 and automatic device selection. The **FastAPI** backend under `api/` is modularized into a dozen routers — jobs, batch, video, safety, metrics, admin, exports, history — with a `ThreadPoolExecutor` job queue and `jobs_journal.jsonl` disk journaling for progress tracking and recovery.\n\n## Multi-interface & engineering\n\nA single entry point `run.py` switches between **Gradio web UI, FastAPI REST API, and CLI**, with an additional **PyQt desktop** app and a static web front-end, all reusing one inference core. The project adopts a centralized **'AI Warehouse'** that stores model weights under `~/ai-warehouse` for cross-project sharing, and ships NSFW/face-blur safety filtering, a Prometheus metrics endpoint, health checks, pytest suites, and Docker / docker-compose deployment configs.\n\n## Prototype status\n\nHonestly labeled a **prototype**. Several modules (`core/pipeline.py`, `core/gfpgan.py`, `core/rife.py` weight loaders) are still placeholder scaffolding; `jobs.py` contains a duplicate Job definition; and although requirements declare Celery/Redis/Flower, the actual job system runs in-process via ThreadPool. Dependency versions (CUDA nightly, coexisting PyQt5 and PyQt6) also need consolidation. The multi-interface design and pipeline architecture are validated; next steps focus on completing model implementations and deployment stability.",
-        "tagline": "A prototype AI image restoration & super-resolution toolkit spanning Web, API, and CLI",
-        "role": "Solo developer (architecture, backend API, inference pipelines, multi-interface integration)",
-        "problem": "Typical restoration tools are locked to a single interface, redownload model weights per project wasting disk, and lack the batching, job-tracking, and deployment scaffolding needed to move from demo to a maintainable service.",
-        "solution": "A `BaseProcessor` abstraction unifies model loading, inference, memory management, and tiled processing across ESRGAN/GFPGAN/RIFE. The FastAPI backend is split into jobs, batch, video, safety, metrics, and admin routers, backed by a ThreadPoolExecutor job queue with disk journaling. A centralized 'AI Warehouse' shares model weights across projects, while Gradio, static Web, PyQt desktop, and CLI all reuse the same inference core.",
-        "outcome": "A working prototype where a single run.py switches between UI/API/CLI, with health checks, Prometheus metrics, safety filtering, and Docker deployment configs. Several modules (pipeline, gfpgan, rife loaders) remain scaffolding — a functionality-validation-stage prototype.",
+        "title": "RestorAI Studio — AI Image Restoration Portfolio Workbench",
+        "summary": "RestorAI Studio is an AI image restoration and super-resolution platform prototype reshaped into an interview-ready portfolio demo. The public demo uses browser Canvas to simulate the inference workflow without GPU, model weights, or external services; the local smoke path exposes a FastAPI + Pillow API to validate upload, processing, and PNG response behavior.",
+        "description": "## Overview\n\nRestorAI Studio demonstrates how to turn an AI model prototype into an evaluable product demo. The public demo does not assume the interviewer has a GPU or model weights. It presents a browser-based image restoration workbench where users can load samples, tune scale/strength, run a pipeline, compare before/after output, and inspect a job payload.\n\n## Architecture\n\nThe repository keeps the broader AI service scaffold: FastAPI routers, job manager, metrics/history/export/admin routes, Gradio/CLI/PyQt entries, AI Warehouse model paths, and Real-ESRGAN/GFPGAN/RIFE adapter design. The stable presentation path is delivered through `portfolio-web/` and the `webapp/main.py` demo API.\n\n## Portfolio Value\n\nThe value is not just the model list. The project shows practical engineering judgment: isolate GPU/model-weight risk, provide a reproducible mock-safe demo, add CI, generate portfolio media, and document the production path clearly enough for interviewers to understand product scope and next steps.",
+        "tagline": "A public, mock-safe AI restoration demo with before/after viewing, pipeline status, and reproducible media",
+        "role": "Solo developer (portfolio demo design, frontend demo, FastAPI demo API, CI/CD, documentation, and portfolio integration)",
+        "problem": "The original project had a useful AI restoration service architecture, but true model inference depends on large weights, GPU availability, and version-sensitive packages, making it hard for interviewers to launch, inspect, screenshot, or evaluate quickly.",
+        "solution": "Split the project into two presentation-safe paths: a pure static GitHub Pages demo whose first screen is the restoration workbench, and a local FastAPI/Pillow smoke API for upload and processing verification. The README now documents the system with Mermaid product flow, architecture, data flow, deployment, and module diagrams.",
+        "outcome": "Delivered a public interactive demo, cover image, desktop/mobile screenshots, and a WebM demo recording. GitHub Actions verifies compile, pytest, API smoke, and static build before GitHub Pages deployment. The real model path is honestly labeled as a prototype scaffold instead of being presented as production-ready inference.",
         "features": [],
         "metrics": [],
         "highlights": [
-          "Abstract base classes unify image/video processors with FP16 and tiled inference for large-image memory control",
-          "Modular FastAPI backend split into a dozen routers (jobs, batch, video, safety, metrics, exports, history)",
-          "Async ThreadPoolExecutor job queue with progress/event callbacks and disk journaling for recovery",
-          "Centralized AI Warehouse design shares model weights across projects to save disk",
-          "Four interfaces — Gradio, static Web, PyQt desktop, and CLI — over one shared inference core",
-          "Built-in NSFW/face-blur safety filtering, Prometheus metrics endpoint, and Docker deployment config"
+          "Product-first first screen: before/after viewer, scenario selector, scale, restore strength, pipeline status, and job payload",
+          "Mock-safe public demo requiring no GPU, model download, backend, or external service",
+          "FastAPI demo API validates upload, Pillow resize/sharpen, PNG response headers, and smoke tests",
+          "README includes Mermaid product, architecture, data flow, deployment, stack, and module diagrams",
+          "Playwright-generated cover, screenshots, and WebM demo tour keep media reproducible",
+          "GitHub Pages workflow runs compile, pytest, smoke, and static build before deployment"
         ],
         "challenges": [
-          "Sharing one inference core across Web/API/CLI/Desktop while keeping state consistent",
-          "Tiled inference and memory release for large images and video under limited VRAM",
-          "Reproducibility and deployment complexity from heavy, version-sensitive deps (CUDA nightly, basicsr/realesrgan)"
+          "Creating a convincing AI product workflow without relying on brittle GPU/model infrastructure",
+          "Turning scattered FastAPI, Gradio, CLI, PyQt, and model scaffolding into an explainable architecture",
+          "Being explicit about prototype boundaries while still making the project easy to evaluate"
         ],
         "nextSteps": [
-          "Complete the still-scaffolded model loaders/inference for pipeline, GFPGAN, and RIFE",
-          "Upgrade the in-memory/ThreadPool job queue to the already-declared Celery + Redis for horizontal scaling",
-          "Pin dependency versions (PyTorch nightly, mismatched PyQt5/6) and add automated tests and CI"
+          "Complete Real-ESRGAN/GFPGAN/RIFE lifecycle and CPU/GPU fallback",
+          "Consolidate prototype API routers into one production contract",
+          "Add true-model integration tests, model weight health checks, and artifact persistence"
         ]
       }
     }
@@ -18948,7 +19042,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.188Z"
+      "lastScannedAt": "2026-06-28T12:30:25.471Z"
     },
     "content": {
       "zh-TW": {
@@ -19121,14 +19215,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/rigview3d/project.override.json",
         "content/projects/rigview3d/zh-TW.md",
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.188Z"
+      "lastScannedAt": "2026-06-28T12:30:25.471Z"
     },
     "content": {
       "zh-TW": {
@@ -19233,7 +19329,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-05-09",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -19365,7 +19461,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.188Z"
+      "lastScannedAt": "2026-06-28T12:30:25.472Z"
     },
     "content": {
       "zh-TW": {
@@ -19550,14 +19646,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/sailing-adventure/project.override.json",
         "content/projects/sailing-adventure/zh-TW.md",
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.188Z"
+      "lastScannedAt": "2026-06-28T12:30:25.472Z"
     },
     "content": {
       "zh-TW": {
@@ -19717,7 +19815,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.188Z"
+      "lastScannedAt": "2026-06-28T12:30:25.472Z"
     },
     "content": {
       "zh-TW": {
@@ -19966,7 +20064,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.188Z"
+      "lastScannedAt": "2026-06-28T12:30:25.472Z"
     },
     "content": {
       "zh-TW": {
@@ -20154,14 +20252,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/signal-diver-3d/project.override.json",
         "content/projects/signal-diver-3d/zh-TW.md",
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.189Z"
+      "lastScannedAt": "2026-06-28T12:30:25.472Z"
     },
     "content": {
       "zh-TW": {
@@ -20208,6 +20308,179 @@
           "README signal: Advanced Submarine Controls: Intuitive 3D movement with mouse-look camera and realistic underwater physics.",
           "README signal: Dynamic Environment: Volumetric lighting, caustics, and post-processing effects create a truly atmospheric experience.",
           "README signal: Interactive Missions: Engage in complex hacking and alignment puzzles powered b"
+        ],
+        "challenges": [
+          "The project scope needs to be summarized from README content and source evidence in a credible way.",
+          "Technical terms need to be translated into clear features, data flow, and learning outcomes.",
+          "More screenshots, test notes, or operation details can still improve the case study."
+        ],
+        "nextSteps": [
+          "Complete a more detailed bilingual case study and add operation screenshots.",
+          "Verify which GitHub, demo, documentation, and media assets should be public.",
+          "Improve tests, README details, and deployment or run instructions based on actual completion level."
+        ]
+      }
+    }
+  },
+  {
+    "id": "project-sonic-inspired-3d-pf-2026-3d-012",
+    "slug": "sonic-inspired-3d",
+    "category": "interactive-3d",
+    "status": "prototype",
+    "year": 2026,
+    "featured": false,
+    "technologies": [
+      "React Three Fiber",
+      "React",
+      "Three.js",
+      "Zustand",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "links": [
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/3d-rushy-runner",
+        "label": {
+          "zh-TW": "查看 GitHub",
+          "en": "View GitHub"
+        }
+      }
+    ],
+    "media": [],
+    "metadata": {
+      "startedAt": "2026-06-14",
+      "updatedAt": "2026-06-28",
+      "teamSize": 1,
+      "version": "1.0.0",
+      "catalogNumber": "PF-2026-3D-012",
+      "visibility": "public",
+      "aliases": [],
+      "primaryCategory": "interactive-3d",
+      "secondaryCategories": [],
+      "projectType": "Web/Node",
+      "domains": [],
+      "subjects": [],
+      "controlledTerms": [
+        "React Three Fiber",
+        "React",
+        "Three.js",
+        "Zustand",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "keywords": [],
+      "audiences": [],
+      "contentTypes": [],
+      "dataTypes": [],
+      "platforms": [
+        "Web"
+      ],
+      "operatingSystems": [],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "stateManagement": [],
+      "styling": [],
+      "database": [],
+      "backend": [],
+      "desktop": [],
+      "gameEngine": [],
+      "threeD": [],
+      "testing": [],
+      "buildTools": [],
+      "infrastructure": [],
+      "deployment": [],
+      "developmentTools": [],
+      "roles": [
+        "獨立開發者 / 學習型專案實作者"
+      ],
+      "responsibilities": [],
+      "collaborationType": "Solo",
+      "learningGoals": [],
+      "skillsDemonstrated": [
+        "React Three Fiber",
+        "React",
+        "Three.js",
+        "Zustand",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "capabilities": [],
+      "tools": [],
+      "hasUnitTests": false,
+      "hasIntegrationTests": false,
+      "hasE2ETests": false,
+      "responsive": true,
+      "browserSupport": [],
+      "codeQualityTools": [],
+      "relatedProjects": [],
+      "subprojects": [],
+      "successorProjects": [],
+      "usesPackages": [],
+      "inspiredBy": [],
+      "dependencies": [],
+      "extractionConfidence": 0.9,
+      "needsReview": false,
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
+      "evidenceSources": [
+        "content/projects/sonic-inspired-3d/project.override.json",
+        "content/projects/sonic-inspired-3d/zh-TW.md",
+        "content/projects/sonic-inspired-3d/en.md",
+        "git log"
+      ],
+      "lastScannedAt": "2026-06-28T12:30:25.472Z"
+    },
+    "content": {
+      "zh-TW": {
+        "title": "Sonic Inspired 3d",
+        "summary": "Sonic Inspired 3d 是一個以 React Three Fiber、React、Three.js、Zustand、Tailwind CSS、TypeScript 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。",
+        "description": "Sonic Inspired 3d 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。\n\n從掃描資料來看，這個專案的主要技術線索包含 React Three Fiber、React、Three.js、Zustand、Tailwind CSS、TypeScript。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。\n\n這個專案用來練習互動體驗中的場景結構、操作回饋、狀態變化與使用者流程。 我根據專案中的技術線索與 README 內容，將它整理成一個以互動設計、場景控制與原型驗證為主的作品案例。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。\n\n後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。",
+        "tagline": "互動式 Web、3D 場景或遊戲原型練習專案。",
+        "role": "獨立開發者 / 學習型專案實作者",
+        "problem": "這個專案用來練習互動體驗中的場景結構、操作回饋、狀態變化與使用者流程。",
+        "solution": "我根據專案中的技術線索與 README 內容，將它整理成一個以互動設計、場景控制與原型驗證為主的作品案例。",
+        "outcome": "目前適合作為 3D Web、遊戲式介面或互動原型的學習型作品。",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "README 顯示：Advanced Movement: Jump, Double Jump, Dash, Slide, Wall Jump, and Roll for fluid traversal.",
+          "README 顯示：Infinite Highway: Procedurally generated road chunks and backgrounds for an endless experience.",
+          "README 顯示：Sonic-Style Health: Collect rings to protect yourself. Losing rings saves you from lethal hits.",
+          "README 顯示：Ability System: Unlock and use special abilities like Magic Burst to overcome obstacles."
+        ],
+        "challenges": [
+          "需要從 README 與原始碼中整理出可信、可展示的專案範圍。",
+          "需要把技術名詞轉換成清楚的功能、資料流與學習成果。",
+          "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
+        ],
+        "nextSteps": [
+          "補齊更完整的中英文案例研究與操作截圖。",
+          "確認 GitHub、Demo、文件與素材是否適合公開展示。",
+          "依完成度補強測試、README 與部署或執行說明。"
+        ]
+      },
+      "en": {
+        "title": "Sonic Inspired 3d",
+        "summary": "Sonic Inspired 3d is a learning-focused project with detected technology signals including React Three Fiber, React, Three.js, Zustand, Tailwind CSS, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts.",
+        "description": "Sonic Inspired 3d is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.\n\nThe scanned project data points to React Three Fiber, React, Three.js, Zustand, Tailwind CSS, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.\n\nThis project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.\n\nNext, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.",
+        "tagline": "An interactive web, 3D scene, or game prototype practice project.",
+        "role": "Independent Developer / Learning Project Builder",
+        "problem": "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience.",
+        "solution": "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation.",
+        "outcome": "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project.",
+        "features": [],
+        "metrics": [],
+        "highlights": [
+          "README signal: Advanced Movement: Jump, Double Jump, Dash, Slide, Wall Jump, and Roll for fluid traversal.",
+          "README signal: Infinite Highway: Procedurally generated road chunks and backgrounds for an endless experience.",
+          "README signal: Sonic-Style Health: Collect rings to protect yourself. Losing rings saves you from lethal hits.",
+          "README signal: Ability System: Unlock and use special abilities like Magic Burst to overcome obstacles."
         ],
         "challenges": [
           "The project scope needs to be summarized from README content and source evidence in a credible way.",
@@ -20410,7 +20683,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.189Z"
+      "lastScannedAt": "2026-06-28T12:30:25.472Z"
     },
     "content": {
       "zh-TW": {
@@ -20664,7 +20937,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.189Z"
+      "lastScannedAt": "2026-06-28T12:30:25.472Z"
     },
     "content": {
       "zh-TW": {
@@ -20850,14 +21123,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/the-archive-that-watches-you/project.override.json",
         "content/projects/the-archive-that-watches-you/zh-TW.md",
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.189Z"
+      "lastScannedAt": "2026-06-28T12:30:25.472Z"
     },
     "content": {
       "zh-TW": {
@@ -21004,14 +21279,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/the-classrooms/project.override.json",
         "content/projects/the-classrooms/zh-TW.md",
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.189Z"
+      "lastScannedAt": "2026-06-28T12:30:25.472Z"
     },
     "content": {
       "zh-TW": {
@@ -21175,7 +21452,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.189Z"
+      "lastScannedAt": "2026-06-28T12:30:25.473Z"
     },
     "content": {
       "zh-TW": {
@@ -21335,7 +21612,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.189Z"
+      "lastScannedAt": "2026-06-28T12:30:25.473Z"
     },
     "content": {
       "zh-TW": {
@@ -21580,7 +21857,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.189Z"
+      "lastScannedAt": "2026-06-28T12:30:25.473Z"
     },
     "content": {
       "zh-TW": {
@@ -21693,7 +21970,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-05-09",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -21835,7 +22112,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.190Z"
+      "lastScannedAt": "2026-06-28T12:30:25.473Z"
     },
     "content": {
       "zh-TW": {
@@ -22056,14 +22333,16 @@
       "dependencies": [],
       "extractionConfidence": 0.7,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/vanilla-dom-playground/project.override.json",
         "content/projects/vanilla-dom-playground/zh-TW.md",
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.190Z"
+      "lastScannedAt": "2026-06-28T12:30:25.473Z"
     },
     "content": {
       "zh-TW": {
@@ -22175,7 +22454,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-20",
+      "startedAt": "2026-03-02",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -22306,7 +22585,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.190Z"
+      "lastScannedAt": "2026-06-28T12:30:25.473Z"
     },
     "content": {
       "zh-TW": {
@@ -22416,7 +22695,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-28",
+      "startedAt": "2026-05-20",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -22539,7 +22818,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.190Z"
+      "lastScannedAt": "2026-06-28T12:30:25.473Z"
     },
     "content": {
       "zh-TW": {
@@ -22781,7 +23060,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.190Z"
+      "lastScannedAt": "2026-06-28T12:30:25.473Z"
     },
     "content": {
       "zh-TW": {
@@ -23037,7 +23316,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.191Z"
+      "lastScannedAt": "2026-06-28T12:30:25.474Z"
     },
     "content": {
       "zh-TW": {
@@ -23293,7 +23572,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:20:55.191Z"
+      "lastScannedAt": "2026-06-28T12:30:25.474Z"
     },
     "content": {
       "zh-TW": {

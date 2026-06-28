@@ -1,23 +1,23 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "ai-data",
   "status": "prototype",
   "year": 2026,
   "technologies": [
     "Python",
+    "FastAPI",
+    "Pillow",
+    "JavaScript",
+    "Canvas",
+    "Playwright",
     "PyTorch",
     "Real-ESRGAN",
     "GFPGAN",
-    "CodeFormer",
     "RIFE",
-    "BasicSR",
-    "FastAPI",
     "Gradio",
     "PyQt",
-    "OpenCV",
-    "Uvicorn",
-    "Pydantic",
+    "GitHub Pages",
     "Docker"
   ],
   "coverImage": "/portfolio/projects/restoreAI-studio/cover.webp",
@@ -30,6 +30,14 @@
         "en": "Interactive Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/portfolio/projects/restoreAI-studio/demo/demo-tour.webm",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
     },
     {
       "kind": "github",
@@ -48,69 +56,162 @@
       }
     }
   ],
+  "media": [
+    {
+      "id": "demo-tour-video",
+      "type": "video",
+      "src": "/portfolio/projects/restoreAI-studio/demo/demo-tour.webm",
+      "poster": "/portfolio/projects/restoreAI-studio/cover.webp",
+      "alt": {
+        "zh-TW": "RestorAI Studio 互動修復工作台導覽錄影。",
+        "en": "RestorAI Studio interactive restoration workbench demo recording."
+      },
+      "title": {
+        "zh-TW": "互動工作台導覽",
+        "en": "Interactive Workbench Tour"
+      },
+      "caption": {
+        "zh-TW": "展示 before/after slider、scenario 切換、pipeline 狀態與 mock-safe 推論流程。",
+        "en": "Shows the before/after slider, scenario switching, pipeline status, and mock-safe inference flow."
+      },
+      "featured": true
+    },
+    {
+      "id": "workspace",
+      "type": "image",
+      "src": "/portfolio/projects/restoreAI-studio/screenshots/workspace.webp",
+      "alt": {
+        "zh-TW": "RestorAI Studio 第一屏影像修復工作台。",
+        "en": "RestorAI Studio first-screen image restoration workbench."
+      },
+      "title": {
+        "zh-TW": "產品工作台",
+        "en": "Product Workbench"
+      },
+      "caption": {
+        "zh-TW": "第一屏直接呈現產品本體，包含修復控制、before/after viewer、pipeline 與 job payload。",
+        "en": "The first screen presents the product itself with controls, before/after viewer, pipeline, and job payload."
+      },
+      "featured": true
+    },
+    {
+      "id": "pipeline-complete",
+      "type": "image",
+      "src": "/portfolio/projects/restoreAI-studio/screenshots/pipeline-complete.webp",
+      "alt": {
+        "zh-TW": "RestorAI Studio pipeline 完成狀態畫面。",
+        "en": "RestorAI Studio completed pipeline status screen."
+      },
+      "title": {
+        "zh-TW": "Pipeline 完成狀態",
+        "en": "Completed Pipeline State"
+      },
+      "caption": {
+        "zh-TW": "可截圖展示 ingest、safety、restore、upscale、export 的完整任務流程。",
+        "en": "Screenshot-ready view of the ingest, safety, restore, upscale, and export flow."
+      }
+    },
+    {
+      "id": "mobile",
+      "type": "image",
+      "src": "/portfolio/projects/restoreAI-studio/screenshots/mobile.webp",
+      "alt": {
+        "zh-TW": "RestorAI Studio 手機版 demo 畫面。",
+        "en": "RestorAI Studio mobile demo screen."
+      },
+      "title": {
+        "zh-TW": "手機版展示",
+        "en": "Mobile Demo"
+      },
+      "caption": {
+        "zh-TW": "靜態 demo 支援小螢幕，方便面試官從 portfolio 頁快速預覽。",
+        "en": "The static demo supports small screens for quick portfolio review."
+      }
+    }
+  ],
   "metadata": {
-    "projectType": "AI image & video restoration / super-resolution toolkit",
+    "updatedAt": "2026-06-28",
+    "version": "1.0.0-demo",
+    "projectType": "AI image restoration and super-resolution portfolio demo",
     "domains": [
       "Computer Vision",
       "Image Restoration",
       "Super-Resolution",
-      "Generative AI Tooling"
+      "AI Product Demo"
     ],
-    "capabilities": [
-      "Image super-resolution (2x/4x/8x)",
-      "Face restoration",
-      "Video frame interpolation & upscaling",
-      "Tiled inference for large images",
-      "Async job queue with progress tracking",
-      "Batch processing",
-      "Safety filtering (NSFW / face blur)",
-      "A/B compare & export",
-      "Prometheus metrics & health checks"
+    "platforms": [
+      "Web",
+      "API",
+      "CLI",
+      "Desktop"
     ],
     "frameworks": [
       "FastAPI",
       "Gradio",
       "PyQt",
-      "Celery (declared)"
+      "GitHub Pages"
     ],
     "libraries": [
+      "Pillow",
+      "Playwright",
+      "PyTorch",
       "Real-ESRGAN",
       "GFPGAN",
-      "CodeFormer",
-      "BasicSR",
       "RIFE",
-      "facexlib",
-      "lpips",
-      "mediapipe",
-      "OpenCV",
-      "Pillow",
-      "NumPy",
-      "Pydantic",
-      "psutil"
+      "OpenCV"
     ],
     "backend": [
       "FastAPI",
       "Uvicorn",
-      "ThreadPoolExecutor job runner",
-      "PyTorch (CUDA 12.8)"
+      "Pillow demo API"
     ],
-    "platforms": [
-      "CLI",
-      "Web",
-      "Desktop",
-      "API"
+    "testing": [
+      "pytest",
+      "FastAPI TestClient",
+      "compileall",
+      "smoke tests"
+    ],
+    "deployment": [
+      "GitHub Pages",
+      "GitHub Actions",
+      "Docker demo files"
+    ],
+    "capabilities": [
+      "Mock-safe image restoration demo",
+      "Before/after comparison viewer",
+      "Scenario-driven demo flow",
+      "Image upload preview",
+      "Pipeline status animation",
+      "FastAPI upload/upscale smoke API",
+      "Reproducible screenshots and demo video",
+      "README architecture diagrams"
     ],
     "keywords": [
-      "super-resolution",
       "image-restoration",
-      "face-enhancement",
-      "Real-ESRGAN",
-      "GFPGAN",
-      "frame-interpolation",
-      "computer-vision",
-      "deep-learning",
+      "super-resolution",
+      "portfolio-demo",
+      "mock-safe-ai",
       "FastAPI",
-      "Gradio"
+      "Canvas",
+      "GitHub Pages",
+      "Real-ESRGAN",
+      "GFPGAN"
+    ],
+    "hasUnitTests": true,
+    "hasIntegrationTests": true,
+    "hasE2ETests": true,
+    "responsive": true,
+    "codeQualityTools": [
+      "pytest",
+      "compileall",
+      "GitHub Actions"
+    ],
+    "skillsDemonstrated": [
+      "AI product demo design",
+      "Backend smoke testing",
+      "Static deployment",
+      "Technical documentation",
+      "Portfolio media production"
     ],
     "needsReview": false
   }

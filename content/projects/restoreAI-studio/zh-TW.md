@@ -1,39 +1,35 @@
 ---
-title: "RestorAI Studio — AI 影像修復與超解析平台"
-tagline: "一套打通 Web、API、CLI 的 AI 影像修復與超解析工具原型"
-summary: "RestorAI Studio 是以 PyTorch 為核心、整合 Real-ESRGAN 超解析、GFPGAN/CodeFormer 人臉修復與 RIFE 影格插補的影像/影片增強平台原型。提供 Gradio 網頁、FastAPI REST API、CLI 與 PyQt 桌面四種介面，並具備分塊推論、非同步任務佇列、批次處理、安全過濾與 Prometheus 監控等模組化管線。"
-role: "獨立開發者（架構設計、後端 API、推論管線與多介面整合）"
-problem: "一般影像修復工具往往綁定單一介面、模型權重各專案重複下載佔用磁碟，且缺乏批次、任務追蹤與部署所需的工程化結構，難以從 Demo 走向可維運的服務。"
-solution: "以 BaseProcessor 抽象類統一各模型（ESRGAN/GFPGAN/RIFE）的載入、推論、記憶體管理與分塊處理介面；後端用 FastAPI 拆分 jobs、batch、video、safety、metrics、admin 等路由，搭配 ThreadPoolExecutor 任務佇列與磁碟日誌；並導入集中式「AI Warehouse」共享模型倉，讓權重跨專案共用。前端同時提供 Gradio、靜態 Web、PyQt 桌面與 CLI 多入口。"
-outcome: "完成可透過單一 run.py 切換 UI／API／CLI 的原型，具備健康檢查、Prometheus 指標、安全過濾與 Docker 部署設定；部分模組（pipeline、gfpgan、rife 載入器）仍為骨架，屬功能驗證階段的原型。"
+title: "RestorAI Studio — AI 影像修復與超解析展示工作台"
+tagline: "可公開展示的 AI 影像修復產品 Demo，含 before/after、任務流程與 mock-safe 推論模式"
+summary: "RestorAI Studio 是一套 AI 影像修復與超解析平台原型，將 Real-ESRGAN、GFPGAN/CodeFormer、RIFE 等模型服務架構整理成可讓面試官直接操作的作品集 Demo。公開版以瀏覽器 Canvas 模擬推論流程，不依賴 GPU 或模型權重；本機則提供 FastAPI + Pillow 的 smoke-safe API，用來驗證上傳、處理與回傳流程。"
+role: "獨立開發者（產品展示設計、前端 demo、FastAPI demo API、CI/CD、文件與 portfolio 整合）"
+problem: "原專案具備 AI 影像修復服務的架構雛形，但真模型依賴大型權重、GPU 與版本敏感套件，對面試官而言不容易快速啟動、截圖或理解核心價值。"
+solution: "將展示路徑拆成兩層：公開 GitHub Pages 採純前端 mock-safe demo，第一屏直接呈現影像修復工作台；本機 smoke path 使用 FastAPI + Pillow 模擬上傳與放大 API。README 補齊 Mermaid 架構圖、資料流圖、部署圖與 demo 操作圖，讓專案價值、技術棧與風險一眼可讀。"
+outcome: "完成可公開瀏覽的互動 demo、cover、桌面/手機截圖與 demo 錄影，並以 GitHub Actions 驗證 compile、pytest、API smoke、static build 後部署到 GitHub Pages。真模型路徑誠實標示為 prototype scaffold，避免展示時被外部服務或硬體卡住。"
 highlights:
-  - "以抽象基底類別統一影像/影片處理器，支援 FP16 與分塊推論處理大圖記憶體"
-  - "FastAPI 後端模組化拆分十餘個路由（任務、批次、影片、安全、指標、匯出、歷史）"
-  - "ThreadPoolExecutor 非同步任務佇列，含進度回呼、事件回呼與磁碟 journaling 復原"
-  - "集中式 AI Warehouse 設計，模型權重跨專案共享以節省磁碟"
-  - "四種使用介面：Gradio、靜態 Web、PyQt 桌面與 CLI，皆共用同一推論核心"
-  - "內建 NSFW／人臉模糊安全過濾、Prometheus 指標端點與 Docker 部署設定"
+  - "第一屏即是產品工作台：before/after viewer、scenario、scale、restore strength、pipeline status 與 job payload"
+  - "Mock-safe public demo：不用 GPU、不下載模型、不呼叫外部服務也能完整展示"
+  - "FastAPI demo API 驗證上傳、Pillow resize/sharpen、PNG response headers 與 smoke tests"
+  - "README 以 Mermaid 補齊產品流程、系統架構、資料流、部署與模組組織圖"
+  - "Playwright 產生 cover、screenshots 與 WebM demo tour，媒體可重現"
+  - "GitHub Pages workflow 在部署前執行 compile、pytest、smoke 與 static build"
 challenges:
-  - "跨多介面（Web/API/CLI/Desktop）共用同一套推論核心並保持狀態一致"
-  - "大圖與影片在有限 VRAM 下的分塊推論與記憶體釋放策略"
-  - "真實模型權重與環境相依（CUDA nightly、basicsr/realesrgan）導致可重現性與部署複雜度"
+  - "在不依賴真模型/GPU 的前提下，仍讓面試官看懂 AI 影像修復產品的完整操作感"
+  - "把原本分散的 FastAPI、Gradio、CLI、PyQt 與模型 scaffold 整理成可解釋的架構"
+  - "避免將 prototype scaffold 誤包裝成 production-ready inference service"
 nextSteps:
-  - "補完 pipeline、GFPGAN、RIFE 等仍為骨架的模型載入與推論實作"
-  - "將 in-memory／ThreadPool 任務佇列升級為已宣告的 Celery + Redis 以利水平擴展"
-  - "收斂依賴版本（PyTorch nightly、PyQt5/6 不一致）並補強自動化測試與 CI"
+  - "補完 Real-ESRGAN/GFPGAN/RIFE 真模型 lifecycle 與 CPU/GPU fallback"
+  - "將 prototype API routers 收斂成一致的 production contract"
+  - "加入真模型 integration test、模型權重 health check 與 artifact persistence"
 ---
 ## 專案概述
 
-RestorAI Studio（程式內部代號 RestorAI MVP）是一套以 **PyTorch** 為核心的 AI 影像／影片修復與超解析平台原型，整合 **Real-ESRGAN** 超解析、**GFPGAN / CodeFormer** 人臉修復，以及 **RIFE** 影格插補。專案目標是把單純的模型 Demo，工程化為具備多介面、任務佇列與可部署結構的服務雛形。
+RestorAI Studio 展示的是「如何把 AI 模型原型整理成可展示產品」。公開 demo 不假設面試官有 GPU 或模型權重，而是用瀏覽器 Canvas 建立可操作的影像修復工作台：載入 sample、調整 scale/strength、執行 pipeline、觀看 before/after、檢查 job payload。
 
-## 架構設計
+## 技術架構
 
-核心 `core/base.py` 以 `BaseProcessor` / `ImageProcessor` / `VideoProcessor` 抽象類別統一各模型的載入、推論、記憶體量測與**分塊（tiling）推論**介面；`ESRGANProcessor` 為目前較完整的實作，支援 FP16 與自動裝置選擇。後端 `api/` 以 **FastAPI** 模組化拆分為 jobs、batch、video、safety、metrics、admin、exports、history 等十餘個路由，並由 `ThreadPoolExecutor` 任務佇列搭配 `jobs_journal.jsonl` 磁碟日誌提供進度追蹤與復原。
+專案保留完整 AI service scaffold：FastAPI routers、job manager、metrics/history/export/admin routes、Gradio/CLI/PyQt 入口、AI Warehouse 模型路徑，以及 Real-ESRGAN/GFPGAN/RIFE adapter 設計。展示路徑則以 `portfolio-web/` 靜態前端與 `webapp/main.py` demo API 穩定交付。
 
-## 多介面與工程化
+## 展示價值
 
-單一進入點 `run.py` 可切換 **Gradio 網頁 UI、FastAPI REST API、CLI**，另有 **PyQt 桌面** 與靜態 Web 前端，皆共用同一推論核心。專案導入集中式「**AI Warehouse**」設計，將模型權重集中於 `~/ai-warehouse` 供跨專案共享；並內建 NSFW／人臉模糊安全過濾、Prometheus 指標端點、健康檢查、pytest 測試與 Docker／docker-compose 部署設定。
-
-## 原型狀態
-
-誠實標示：此為**原型（prototype）**。部分模組（`core/pipeline.py`、`core/gfpgan.py`、`core/rife.py` 的權重載入器）仍為骨架佔位；`jobs.py` 存在重複的 Job 定義，且 requirements 宣告了 Celery／Redis／Flower 但實際任務系統採行程內 ThreadPool，依賴版本（CUDA nightly、PyQt5 與 PyQt6 並存）亦待收斂。整體已驗證多介面與管線架構可行，下一步聚焦補完模型實作與部署穩定性。
+這個作品的重點不只是模型名稱，而是展示工程判斷：把不可控的 GPU/外部權重風險隔離，建立可重現的 mock-safe demo、CI、媒體資產與完整 README，讓面試官能快速理解產品定位、架構取捨與後續 production 化路線。
