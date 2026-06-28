@@ -19,6 +19,15 @@
   "coverImage": "/portfolio/projects/poker-ai-web/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/poker-ai-web/",
+      "label": {
+        "zh-TW": "互動 Demo",
+        "en": "Interactive Demo"
+      },
+      "primary": true
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/poker-AI-web",
       "label": {

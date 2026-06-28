@@ -18,6 +18,15 @@
   "coverImage": "/portfolio/projects/vision-quest/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/vision-quest/",
+      "label": {
+        "zh-TW": "互動 Demo",
+        "en": "Interactive Demo"
+      },
+      "primary": true
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/vision-quest",
       "label": {

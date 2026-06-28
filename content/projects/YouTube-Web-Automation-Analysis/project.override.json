@@ -18,6 +18,15 @@
   "coverImage": "/portfolio/projects/YouTube-Web-Automation-Analysis/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/YouTube-Web-Automation-Analysis/",
+      "label": {
+        "zh-TW": "互動 Demo",
+        "en": "Interactive Demo"
+      },
+      "primary": true
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/YouTube-Web-Automation-Analysis",
       "label": {

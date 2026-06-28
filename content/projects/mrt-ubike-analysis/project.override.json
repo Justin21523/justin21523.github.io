@@ -19,6 +19,15 @@
   "coverImage": "/portfolio/projects/mrt-ubike-analysis/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/mrt-ubike-analysis/",
+      "label": {
+        "zh-TW": "互動 Demo",
+        "en": "Interactive Demo"
+      },
+      "primary": true
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/mrt-ubike-analysis",
       "label": {
