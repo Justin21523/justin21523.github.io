@@ -21,6 +21,14 @@
         "zh-TW": "查看 GitHub",
         "en": "View GitHub"
       }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/highway-adventure-3d#readme",
+      "label": {
+        "zh-TW": "閱讀 README",
+        "en": "Read README"
+      }
     }
   ]
 }

@@ -41,6 +41,14 @@
         "zh-TW": "README Demo 說明",
         "en": "README Demo Guide"
       }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/fandom-gui-scraper#readme",
+      "label": {
+        "zh-TW": "閱讀 README",
+        "en": "Read README"
+      }
     }
   ],
   "media": [

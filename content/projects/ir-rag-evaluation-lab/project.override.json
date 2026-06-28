@@ -43,6 +43,14 @@
         "zh-TW": "README",
         "en": "README"
       }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/ir-rag-evaluation-lab#readme",
+      "label": {
+        "zh-TW": "閱讀 README",
+        "en": "Read README"
+      }
     }
   ],
   "media": [

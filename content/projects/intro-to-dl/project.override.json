@@ -24,6 +24,14 @@
         "zh-TW": "查看 GitHub",
         "en": "View GitHub"
       }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/intro-to-dl-practice#readme",
+      "label": {
+        "zh-TW": "閱讀 README",
+        "en": "Read README"
+      }
     }
   ],
   "metadata": {

@@ -39,6 +39,14 @@
         "zh-TW": "Demo 腳本",
         "en": "Demo Script"
       }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/excel-python-data-analysis#readme",
+      "label": {
+        "zh-TW": "閱讀 README",
+        "en": "Read README"
+      }
     }
   ],
   "media": [
