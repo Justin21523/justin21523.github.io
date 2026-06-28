@@ -135,15 +135,29 @@ function isFallbackLink(project: Project, kind: string, url: string) {
           ? "demo-video"
           : "readme-guide";
 
-  return url === `/projects/${project.slug}#${anchor}`;
+  return [
+    `/projects/${project.slug}#${anchor}`,
+    `/projects/${project.slug}/#${anchor}`,
+    `/zh-TW/projects/${project.slug}/#${anchor}`,
+    `/en/projects/${project.slug}/#${anchor}`,
+  ].includes(url);
 }
 
 function sitePathExists(url: string) {
-  if (isExternal(url) || url.startsWith("/projects/")) {
+  if (isExternal(url)) {
     return true;
   }
 
   const withoutHash = url.split("#")[0];
+
+  if (/^\/projects\/.+\.[a-z0-9]+$/i.test(withoutHash)) {
+    return fs.existsSync(path.join(ROOT, "public", withoutHash.replace(/^\//, "")));
+  }
+
+  if (/^\/(zh-TW|en)\/projects\/[^/]+\/?$/.test(withoutHash)) {
+    return true;
+  }
+
   const publicPath = path.join(ROOT, "public", withoutHash.replace(/^\//, ""));
   return fs.existsSync(publicPath);
 }
@@ -291,11 +305,11 @@ function main() {
       if (!link.url || link.url === "undefined") {
         errors.push(`${project.slug} has an empty ${kind} link`);
       }
+      if (isFallbackLink(project, kind, link.url)) {
+        return;
+      }
       if (!sitePathExists(link.url)) {
         errors.push(`${project.slug} has a broken local ${kind} link: ${link.url}`);
-      }
-      if (kind !== "live" && isFallbackLink(project, kind, link.url)) {
-        return;
       }
       if (["github", "documentation"].includes(kind) && !isExternal(link.url) && !isFallbackLink(project, kind, link.url)) {
         errors.push(`${project.slug} has non-external ${kind} link that is not a known fallback: ${link.url}`);

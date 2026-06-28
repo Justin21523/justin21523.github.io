@@ -25,7 +25,6 @@
     "coverImage": "/portfolio/projects/2d-animation-lora-pipeline/cover.webp",
     "subtitle": "A 2D animation LoRA data pipeline packaged as a screenshot-ready, recordable portfolio demo",
     "githubUrl": "https://github.com/Justin21523/2d-animation-lora-pipeline",
-    "liveDemoUrl": "https://justin21523.github.io/2d-animation-lora-pipeline/",
     "readmeUrl": "https://github.com/Justin21523/2d-animation-lora-pipeline#readme",
     "heroImage": "/portfolio/projects/2d-animation-lora-pipeline/cover.webp",
     "screenshots": [
@@ -52,10 +51,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/2d-animation-lora-pipeline/",
+        "url": "/projects/2d-animation-lora-pipeline#demo-guide",
         "label": {
-          "zh-TW": "互動 Demo 網站",
-          "en": "Interactive Demo Site"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         },
         "primary": true
       },
@@ -646,13 +645,13 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.949Z",
+      "lastScannedAt": "2026-06-28T18:54:41.060Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -1410,7 +1409,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.954Z",
+      "lastScannedAt": "2026-06-28T18:54:41.066Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1755,7 +1754,7 @@
         "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.955Z",
+      "lastScannedAt": "2026-06-28T18:54:41.067Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -2102,7 +2101,7 @@
         "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.955Z",
+      "lastScannedAt": "2026-06-28T18:54:41.068Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -2242,7 +2241,6 @@
     "coverImage": "/portfolio/projects/agentic-bi-dataops-copilot/cover.webp",
     "subtitle": "Local BI copilot: schema-aware Text2SQL with three-pass SQL guardrails",
     "githubUrl": "https://github.com/Justin21523/agentic-bi-dataops-copilot",
-    "liveDemoUrl": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
     "readmeUrl": "https://github.com/Justin21523/agentic-bi-dataops-copilot#readme",
     "heroImage": "/portfolio/projects/agentic-bi-dataops-copilot/cover.webp",
     "screenshots": [
@@ -2282,10 +2280,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
+        "url": "/projects/agentic-bi-dataops-copilot#demo-guide",
         "label": {
-          "zh-TW": "互動 Demo",
-          "en": "Interactive Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         },
         "primary": true
       },
@@ -3052,13 +3050,13 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.956Z",
+      "lastScannedAt": "2026-06-28T18:54:41.069Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -3197,7 +3195,6 @@
     "coverImage": "/projects/ai-3d-studio/screenshots/01-real-cover.webp",
     "subtitle": "Turn a single image into a Blender-ready, video-conditioning 3D asset pipeline",
     "githubUrl": "https://github.com/Justin21523/ai-3d-studio",
-    "liveDemoUrl": "https://justin21523.github.io/ai-3d-studio/",
     "readmeUrl": "https://github.com/Justin21523/ai-3d-studio#readme",
     "heroImage": "/projects/ai-3d-studio/screenshots/01-real-cover.webp",
     "screenshots": [
@@ -3215,10 +3212,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/ai-3d-studio/",
+        "url": "/projects/ai-3d-studio#demo-guide",
         "label": {
-          "zh-TW": "互動 Demo",
-          "en": "Interactive Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         },
         "primary": true
       },
@@ -3584,13 +3581,13 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.958Z",
+      "lastScannedAt": "2026-06-28T18:54:41.070Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -3738,8 +3735,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/ai-game-website/",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "App Demo",
+          "en": "App Demo"
         },
         "primary": true
       },
@@ -3958,7 +3955,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.958Z",
+      "lastScannedAt": "2026-06-28T18:54:41.071Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4128,9 +4125,10 @@
         "kind": "live",
         "url": "https://justin21523.github.io/ai-knowledge-workspace/",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
-        }
+          "zh-TW": "App Demo",
+          "en": "App Demo"
+        },
+        "primary": true
       },
       {
         "kind": "video",
@@ -4423,7 +4421,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.959Z",
+      "lastScannedAt": "2026-06-28T18:54:41.071Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4557,7 +4555,6 @@
     "coverImage": "/portfolio/projects/amazon-review-intelligence/cover.webp",
     "subtitle": "A review-centered product search and recommendation data product.",
     "githubUrl": "https://github.com/Justin21523/amazon-review-intelligence",
-    "liveDemoUrl": "https://justin21523.github.io/amazon-review-intelligence/",
     "readmeUrl": "https://github.com/Justin21523/amazon-review-intelligence#readme",
     "heroImage": "/portfolio/projects/amazon-review-intelligence/cover.webp",
     "screenshots": [
@@ -4594,10 +4591,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/amazon-review-intelligence/",
+        "url": "/projects/amazon-review-intelligence#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -4963,13 +4960,13 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.960Z",
+      "lastScannedAt": "2026-06-28T18:54:41.072Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -5097,7 +5094,6 @@
     "coverImage": "/portfolio/projects/animation-ai-studio/cover.png",
     "subtitle": "Turning shot planning, generation jobs, artifact review, and system monitoring into an interview-ready product surface",
     "githubUrl": "https://github.com/Justin21523/animation-ai-studio",
-    "liveDemoUrl": "https://justin21523.github.io/animation-ai-studio/",
     "readmeUrl": "https://github.com/Justin21523/animation-ai-studio#readme",
     "heroImage": "/portfolio/projects/animation-ai-studio/cover.png",
     "screenshots": [
@@ -5126,10 +5122,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/animation-ai-studio/",
+        "url": "/projects/animation-ai-studio#demo-guide",
         "label": {
-          "zh-TW": "開啟 Demo 網站",
-          "en": "Open Demo Site"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         },
         "primary": true
       },
@@ -5712,13 +5708,13 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.960Z",
+      "lastScannedAt": "2026-06-28T18:54:41.074Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -5857,7 +5853,6 @@
     "coverImage": "/portfolio/projects/anime-adventure-lab/cover.webp",
     "subtitle": "A service stack that generates, retrieves, and illustrates interactive story worlds with RAG and LLMs",
     "githubUrl": "https://github.com/Justin21523/anime-adventure-lab",
-    "liveDemoUrl": "https://justin21523.github.io/anime-adventure-lab/",
     "readmeUrl": "https://github.com/Justin21523/anime-adventure-lab#readme",
     "heroImage": "/portfolio/projects/anime-adventure-lab/cover.webp",
     "screenshots": [
@@ -5875,10 +5870,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/anime-adventure-lab/",
+        "url": "/projects/anime-adventure-lab#demo-guide",
         "label": {
-          "zh-TW": "互動 Demo",
-          "en": "Interactive Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         },
         "primary": true
       },
@@ -6288,13 +6283,13 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.962Z",
+      "lastScannedAt": "2026-06-28T18:54:41.075Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -6446,8 +6441,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/aqua-rush/",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "App Demo",
+          "en": "App Demo"
         },
         "primary": true
       },
@@ -6690,7 +6685,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.962Z",
+      "lastScannedAt": "2026-06-28T18:54:41.076Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -6830,7 +6825,6 @@
     "coverImage": "/portfolio/projects/ArchiveFlow/cover.webp",
     "subtitle": "A node-based desktop workflow system for personal digital archives, metadata, file processing, and Dublin Core export.",
     "githubUrl": "https://github.com/Justin21523/archive-flow-studio",
-    "liveDemoUrl": "https://justin21523.github.io/archive-flow-studio/",
     "readmeUrl": "https://github.com/Justin21523/archive-flow-studio#readme",
     "heroImage": "/portfolio/projects/ArchiveFlow/cover.webp",
     "screenshots": [
@@ -6863,10 +6857,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/archive-flow-studio/",
+        "url": "/projects/ArchiveFlow#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -7220,13 +7214,13 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.963Z",
+      "lastScannedAt": "2026-06-28T18:54:41.076Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -7556,7 +7550,7 @@
         "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.964Z",
+      "lastScannedAt": "2026-06-28T18:54:41.077Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7694,7 +7688,6 @@
     "coverImage": "/portfolio/projects/cafe-net-manager/cover.webp",
     "subtitle": "A C++ / Qt desktop operations system for cafes and internet cafes.",
     "githubUrl": "https://github.com/Justin21523/cafe-net-manager",
-    "liveDemoUrl": "https://justin21523.github.io/cafe-net-manager/",
     "readmeUrl": "https://github.com/Justin21523/cafe-net-manager#readme",
     "heroImage": "/portfolio/projects/cafe-net-manager/cover.webp",
     "screenshots": [
@@ -7727,10 +7720,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/cafe-net-manager/",
+        "url": "/projects/cafe-net-manager#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -8058,13 +8051,13 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.964Z",
+      "lastScannedAt": "2026-06-28T18:54:41.077Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -8223,9 +8216,10 @@
         "kind": "live",
         "url": "https://justin21523.github.io/campus-quest-3d/",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
-        }
+          "zh-TW": "App Demo",
+          "en": "App Demo"
+        },
+        "primary": true
       },
       {
         "kind": "video",
@@ -8458,7 +8452,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.965Z",
+      "lastScannedAt": "2026-06-28T18:54:41.078Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9081,7 +9075,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.965Z",
+      "lastScannedAt": "2026-06-28T18:54:41.079Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9492,7 +9486,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.966Z",
+      "lastScannedAt": "2026-06-28T18:54:41.079Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9954,7 +9948,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.967Z",
+      "lastScannedAt": "2026-06-28T18:54:41.081Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -10387,7 +10381,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.967Z",
+      "lastScannedAt": "2026-06-28T18:54:41.081Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -10809,7 +10803,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.968Z",
+      "lastScannedAt": "2026-06-28T18:54:41.082Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11221,7 +11215,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.968Z",
+      "lastScannedAt": "2026-06-28T18:54:41.082Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11359,7 +11353,6 @@
     "coverImage": "/projects/data-narrative-studio/screenshots/01-real-screenshot.png",
     "subtitle": "A data processing, AI, analysis, or automation workflow practice project.",
     "githubUrl": "https://github.com/Justin21523/data-narrative-studio",
-    "liveDemoUrl": "https://justin21523.github.io/data-narrative-studio/",
     "readmeUrl": "https://github.com/Justin21523/data-narrative-studio#readme",
     "heroImage": "/projects/data-narrative-studio/screenshots/01-real-screenshot.png",
     "screenshots": [
@@ -11389,10 +11382,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/data-narrative-studio/",
+        "url": "/projects/data-narrative-studio#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -11614,13 +11607,13 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.968Z",
+      "lastScannedAt": "2026-06-28T18:54:41.083Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -11950,7 +11943,7 @@
         "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.969Z",
+      "lastScannedAt": "2026-06-28T18:54:41.083Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12401,7 +12394,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.969Z",
+      "lastScannedAt": "2026-06-28T18:54:41.084Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12539,7 +12532,6 @@
     "coverImage": "/projects/datalab-studio/screenshots/01-overview.png",
     "subtitle": "A desktop application and local data workflow practice project.",
     "githubUrl": "https://github.com/Justin21523/datalab-studio",
-    "liveDemoUrl": "https://justin21523.github.io/datalab-studio/",
     "readmeUrl": "https://github.com/Justin21523/datalab-studio#readme",
     "heroImage": "/projects/datalab-studio/screenshots/01-overview.png",
     "screenshots": [
@@ -12568,10 +12560,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/datalab-studio/",
+        "url": "/projects/datalab-studio#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -12754,13 +12746,13 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.970Z",
+      "lastScannedAt": "2026-06-28T18:54:41.085Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -12888,7 +12880,6 @@
     "coverImage": "/portfolio/projects/dcard-trending-crawler/cover.webp",
     "subtitle": "A data processing, AI, analysis, or automation workflow practice project.",
     "githubUrl": "https://github.com/Justin21523/posts-trending-crawler",
-    "liveDemoUrl": "https://justin21523.github.io/posts-trending-crawler/",
     "readmeUrl": "https://github.com/Justin21523/posts-trending-crawler#readme",
     "heroImage": "/portfolio/projects/dcard-trending-crawler/cover.webp",
     "screenshots": [
@@ -12924,10 +12915,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/posts-trending-crawler/",
+        "url": "/projects/dcard-trending-crawler#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -13255,13 +13246,13 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.970Z",
+      "lastScannedAt": "2026-06-28T18:54:41.085Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -13625,7 +13616,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.971Z",
+      "lastScannedAt": "2026-06-28T18:54:41.086Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -13990,7 +13981,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.971Z",
+      "lastScannedAt": "2026-06-28T18:54:41.086Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14136,7 +14127,6 @@
     "coverImage": "/projects/discord-clone/screenshots/01-overview.png",
     "subtitle": "A full-stack real-time chat system built with FastAPI + WebSocket",
     "githubUrl": "https://github.com/Justin21523/discord-clone",
-    "liveDemoUrl": "https://justin21523.github.io/discord-clone/",
     "readmeUrl": "https://github.com/Justin21523/discord-clone#readme",
     "heroImage": "/projects/discord-clone/screenshots/01-overview.png",
     "screenshots": [
@@ -14165,10 +14155,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/discord-clone/",
+        "url": "/projects/discord-clone#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -14421,13 +14411,13 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.972Z",
+      "lastScannedAt": "2026-06-28T18:54:41.087Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -14589,9 +14579,10 @@
         "kind": "live",
         "url": "https://justin21523.github.io/elio-discord-bot/",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
-        }
+          "zh-TW": "App Demo",
+          "en": "App Demo"
+        },
+        "primary": true
       },
       {
         "kind": "video",
@@ -14772,7 +14763,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.972Z",
+      "lastScannedAt": "2026-06-28T18:54:41.088Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14913,7 +14904,6 @@
     "coverImage": "/portfolio/projects/excel-python-data-analysis/cover.png",
     "subtitle": "A portfolio-ready Excel-to-Python analytics platform for profiling, cleaning, business analysis, dashboards, and automated Excel reports.",
     "githubUrl": "https://github.com/Justin21523/excel-python-data-analysis",
-    "liveDemoUrl": "https://justin21523.github.io/excel-python-data-analysis/",
     "demoVideoUrl": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
     "readmeUrl": "https://github.com/Justin21523/excel-python-data-analysis#readme",
     "heroImage": "/portfolio/projects/excel-python-data-analysis/cover.png",
@@ -14978,10 +14968,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/excel-python-data-analysis/",
+        "url": "/projects/excel-python-data-analysis#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       }
     ],
@@ -15576,13 +15566,13 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.973Z",
+      "lastScannedAt": "2026-06-28T18:54:41.088Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -15717,7 +15707,6 @@
     "coverImage": "/portfolio/projects/fandom-gui-scraper/cover.png",
     "subtitle": "A MediaWiki API-first wiki data platform with SQLite browsing, analysis, export, and compliance logging.",
     "githubUrl": "https://github.com/Justin21523/fandom-gui-scraper",
-    "liveDemoUrl": "https://justin21523.github.io/fandom-gui-scraper/",
     "readmeUrl": "https://github.com/Justin21523/fandom-gui-scraper#readme",
     "heroImage": "/portfolio/projects/fandom-gui-scraper/cover.png",
     "screenshots": [
@@ -15781,10 +15770,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/fandom-gui-scraper/",
+        "url": "/projects/fandom-gui-scraper#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       }
     ],
@@ -16419,13 +16408,13 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.973Z",
+      "lastScannedAt": "2026-06-28T18:54:41.090Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -16572,8 +16561,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/frontend-interaction-lab/",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "App Demo",
+          "en": "App Demo"
         },
         "primary": true
       },
@@ -16830,7 +16819,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.974Z",
+      "lastScannedAt": "2026-06-28T18:54:41.091Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -16995,9 +16984,10 @@
         "kind": "live",
         "url": "https://justin21523.github.io/game-dialogue-simulator/",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
-        }
+          "zh-TW": "App Demo",
+          "en": "App Demo"
+        },
+        "primary": true
       },
       {
         "kind": "video",
@@ -17180,7 +17170,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.975Z",
+      "lastScannedAt": "2026-06-28T18:54:41.091Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -17322,7 +17312,6 @@
     "coverImage": "/projects/gan-ae-vision-suite/screenshots/01-real-screenshot-landing.png",
     "subtitle": "End-to-end toolkit for training, sampling, and evaluating GANs and autoencoders",
     "githubUrl": "https://github.com/Justin21523/GAN-AE-vision-suite",
-    "liveDemoUrl": "https://justin21523.github.io/gan-ae-vision-suite/",
     "readmeUrl": "https://github.com/Justin21523/GAN-AE-vision-suite#readme",
     "heroImage": "/projects/gan-ae-vision-suite/screenshots/01-real-screenshot-landing.png",
     "screenshots": [
@@ -17338,10 +17327,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/gan-ae-vision-suite/",
+        "url": "/projects/gan-ae-vision-suite#demo-guide",
         "label": {
-          "zh-TW": "互動 Demo",
-          "en": "Interactive Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         },
         "primary": true
       },
@@ -17679,13 +17668,13 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.975Z",
+      "lastScannedAt": "2026-06-28T18:54:41.093Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -17822,7 +17811,6 @@
     "coverImage": "/projects/geovideo-env-check/screenshots/01-overview.png",
     "subtitle": "C++/Qt6 desktop tool for video event retrieval and spatial visualization",
     "githubUrl": "https://github.com/Justin21523/geovideo-env-check",
-    "liveDemoUrl": "https://justin21523.github.io/geovideo-env-check/",
     "readmeUrl": "https://github.com/Justin21523/geovideo-env-check#readme",
     "heroImage": "/projects/geovideo-env-check/screenshots/01-overview.png",
     "screenshots": [
@@ -17851,10 +17839,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/geovideo-env-check/",
+        "url": "/projects/geovideo-env-check#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -18087,13 +18075,13 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.976Z",
+      "lastScannedAt": "2026-06-28T18:54:41.093Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -18521,7 +18509,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.976Z",
+      "lastScannedAt": "2026-06-28T18:54:41.094Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -18664,7 +18652,6 @@
     "coverImage": "/projects/HeritageMapStudio/screenshots/01-overview.png",
     "subtitle": "A native Qt6 + OpenGL desktop workstation for cultural-heritage mapping and timeline visualization",
     "githubUrl": "https://github.com/Justin21523/HeritageMapStudio",
-    "liveDemoUrl": "https://justin21523.github.io/HeritageMapStudio/",
     "readmeUrl": "https://github.com/Justin21523/HeritageMapStudio#readme",
     "heroImage": "/projects/HeritageMapStudio/screenshots/01-overview.png",
     "screenshots": [
@@ -18693,10 +18680,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/HeritageMapStudio/",
+        "url": "/projects/HeritageMapStudio#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -18930,13 +18917,13 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.977Z",
+      "lastScannedAt": "2026-06-28T18:54:41.094Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -19086,8 +19073,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/highway-adventure-3d/",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "App Demo",
+          "en": "App Demo"
         },
         "primary": true
       },
@@ -19330,7 +19317,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.977Z",
+      "lastScannedAt": "2026-06-28T18:54:41.095Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -19785,7 +19772,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.977Z",
+      "lastScannedAt": "2026-06-28T18:54:41.095Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -21046,7 +21033,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.978Z",
+      "lastScannedAt": "2026-06-28T18:54:41.096Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -21487,7 +21474,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.979Z",
+      "lastScannedAt": "2026-06-28T18:54:41.097Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -21928,7 +21915,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.979Z",
+      "lastScannedAt": "2026-06-28T18:54:41.097Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -22353,7 +22340,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.980Z",
+      "lastScannedAt": "2026-06-28T18:54:41.098Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -22496,7 +22483,6 @@
     "coverImage": "/portfolio/projects/ir-rag-evaluation-lab/cover.png",
     "subtitle": "A professional information retrieval and RAG evaluation workbench covering BM25, Dense, Hybrid, Rerank, RAG citation, LLM judge, and text-mining analytics.",
     "githubUrl": "https://github.com/Justin21523/ir-rag-evaluation-lab",
-    "liveDemoUrl": "https://justin21523.github.io/ir-rag-evaluation-lab/",
     "readmeUrl": "https://github.com/Justin21523/ir-rag-evaluation-lab#readme",
     "heroImage": "/portfolio/projects/ir-rag-evaluation-lab/cover.png",
     "screenshots": [
@@ -22561,10 +22547,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/ir-rag-evaluation-lab/",
+        "url": "/projects/ir-rag-evaluation-lab#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       }
     ],
@@ -23112,13 +23098,13 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.980Z",
+      "lastScannedAt": "2026-06-28T18:54:41.098Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -23279,8 +23265,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/javascript-platformer-concepts/",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "App Demo",
+          "en": "App Demo"
         },
         "primary": true
       },
@@ -23654,7 +23640,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.981Z",
+      "lastScannedAt": "2026-06-28T18:54:41.099Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -23784,7 +23770,6 @@
     "coverImage": "/projects/Justin21523/screenshots/01-overview.png",
     "subtitle": "I am a junior developer in training, currently building practical projects with ...",
     "githubUrl": "https://github.com/Justin21523/Justin21523",
-    "liveDemoUrl": "https://justin21523.github.io/Justin21523/",
     "readmeUrl": "https://github.com/Justin21523/Justin21523#readme",
     "heroImage": "/projects/Justin21523/screenshots/01-overview.png",
     "screenshots": [
@@ -23813,10 +23798,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/Justin21523/",
+        "url": "/projects/Justin21523#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -23996,13 +23981,13 @@
         "content/projects/Justin21523/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.981Z",
+      "lastScannedAt": "2026-06-28T18:54:41.099Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -24327,7 +24312,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.982Z",
+      "lastScannedAt": "2026-06-28T18:54:41.100Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -24461,7 +24446,6 @@
     "coverImage": "/projects/library-reach-analysis/screenshots/01-real-brief.png",
     "subtitle": "A data processing, AI, analysis, or automation workflow practice project.",
     "githubUrl": "https://github.com/Justin21523/library-reach-analysis",
-    "liveDemoUrl": "https://justin21523.github.io/library-reach-analysis/",
     "readmeUrl": "https://github.com/Justin21523/library-reach-analysis#readme",
     "heroImage": "/projects/library-reach-analysis/screenshots/01-real-brief.png",
     "screenshots": [
@@ -24496,10 +24480,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/library-reach-analysis/",
+        "url": "/projects/library-reach-analysis#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -24783,13 +24767,13 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.982Z",
+      "lastScannedAt": "2026-06-28T18:54:41.100Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -25567,7 +25551,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.983Z",
+      "lastScannedAt": "2026-06-28T18:54:41.101Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -26343,7 +26327,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.984Z",
+      "lastScannedAt": "2026-06-28T18:54:41.102Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -26746,7 +26730,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.984Z",
+      "lastScannedAt": "2026-06-28T18:54:41.103Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -26895,7 +26879,6 @@
     "coverImage": "/projects/metashelf/screenshots/01-overview.png",
     "subtitle": "An LIS-grounded book & metadata management MVP with an e-commerce-style browsing experience",
     "githubUrl": "https://github.com/Justin21523/metashelf",
-    "liveDemoUrl": "https://justin21523.github.io/metashelf/",
     "readmeUrl": "https://github.com/Justin21523/metashelf#readme",
     "heroImage": "/projects/metashelf/screenshots/01-overview.png",
     "screenshots": [
@@ -26924,10 +26907,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/metashelf/",
+        "url": "/projects/metashelf#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -27177,13 +27160,13 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.985Z",
+      "lastScannedAt": "2026-06-28T18:54:41.104Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -27315,7 +27298,6 @@
     "coverImage": "/projects/modelops-dashboard/screenshots/01-overview.png",
     "subtitle": "A data processing, AI, analysis, or automation workflow practice project.",
     "githubUrl": "https://github.com/Justin21523/modelops-dashboard",
-    "liveDemoUrl": "https://justin21523.github.io/modelops-dashboard/",
     "readmeUrl": "https://github.com/Justin21523/modelops-dashboard#readme",
     "heroImage": "/projects/modelops-dashboard/screenshots/01-overview.png",
     "screenshots": [
@@ -27344,10 +27326,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/modelops-dashboard/",
+        "url": "/projects/modelops-dashboard#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -27530,13 +27512,13 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.985Z",
+      "lastScannedAt": "2026-06-28T18:54:41.104Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -28060,7 +28042,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.985Z",
+      "lastScannedAt": "2026-06-28T18:54:41.105Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28504,7 +28486,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.986Z",
+      "lastScannedAt": "2026-06-28T18:54:41.106Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28646,7 +28628,6 @@
     "coverImage": "/portfolio/projects/music-intelligence-platform/cover.png",
     "subtitle": "Music Intelligence Platform 是一個音樂知識檢索、相似歌曲搜尋、推薦系統與 artist analytics 平台。它整合 Milli...",
     "githubUrl": "https://github.com/Justin21523/music-intelligence-platform",
-    "liveDemoUrl": "https://justin21523.github.io/music-intelligence-platform/",
     "readmeUrl": "https://github.com/Justin21523/music-intelligence-platform#readme",
     "heroImage": "/portfolio/projects/music-intelligence-platform/cover.png",
     "screenshots": [
@@ -28736,10 +28717,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/music-intelligence-platform/",
+        "url": "/projects/music-intelligence-platform#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       }
     ],
@@ -29728,13 +29709,13 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.987Z",
+      "lastScannedAt": "2026-06-28T18:54:41.107Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -30087,7 +30068,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.987Z",
+      "lastScannedAt": "2026-06-28T18:54:41.108Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -30224,7 +30205,6 @@
     "coverImage": "/portfolio/projects/news-web-crawler/cover.png",
     "subtitle": "Full-stack news pipeline from crawling to Chinese NLP and ML analysis",
     "githubUrl": "https://github.com/Justin21523/news-web-crawler",
-    "liveDemoUrl": "https://justin21523.github.io/news-web-crawler/",
     "readmeUrl": "https://github.com/Justin21523/news-web-crawler#readme",
     "heroImage": "/portfolio/projects/news-web-crawler/cover.png",
     "screenshots": [
@@ -30282,10 +30262,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/news-web-crawler/",
+        "url": "/projects/news-web-crawler#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       }
     ],
@@ -30917,13 +30897,13 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.988Z",
+      "lastScannedAt": "2026-06-28T18:54:41.109Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -31056,7 +31036,6 @@
     "coverImage": "/portfolio/projects/nyc-taxi-mobility-analytics/cover.png",
     "subtitle": "「NYC Taxi Mobility Analytics Platform 是一個城市交通資料工程與分析平台。它使用 NYC TLC Taxi Trip Rec...",
     "githubUrl": "https://github.com/Justin21523/nyc-taxi-mobility-analytics",
-    "liveDemoUrl": "https://justin21523.github.io/nyc-taxi-mobility-analytics/",
     "readmeUrl": "https://github.com/Justin21523/nyc-taxi-mobility-analytics#readme",
     "heroImage": "/portfolio/projects/nyc-taxi-mobility-analytics/cover.png",
     "screenshots": [
@@ -31102,10 +31081,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/nyc-taxi-mobility-analytics/",
+        "url": "/projects/nyc-taxi-mobility-analytics#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       }
     ],
@@ -31477,13 +31456,13 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.988Z",
+      "lastScannedAt": "2026-06-28T18:54:41.110Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -31611,7 +31590,6 @@
     "coverImage": "/portfolio/projects/openalex-research-rag/cover.png",
     "subtitle": "A scholarly research intelligence platform with hybrid search, citation-grounded RAG, and an animated data-pipeline journey.",
     "githubUrl": "https://github.com/Justin21523/openalex-research-rag",
-    "liveDemoUrl": "https://justin21523.github.io/openalex-research-rag/",
     "demoVideoUrl": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
     "readmeUrl": "https://github.com/Justin21523/openalex-research-rag#readme",
     "heroImage": "/portfolio/projects/openalex-research-rag/cover.png",
@@ -31678,10 +31656,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/openalex-research-rag/",
+        "url": "/projects/openalex-research-rag#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       }
     ],
@@ -32247,13 +32225,13 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.989Z",
+      "lastScannedAt": "2026-06-28T18:54:41.111Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -32676,7 +32654,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.990Z",
+      "lastScannedAt": "2026-06-28T18:54:41.112Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -33040,7 +33018,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.990Z",
+      "lastScannedAt": "2026-06-28T18:54:41.113Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -33212,9 +33190,10 @@
         "kind": "live",
         "url": "https://justin21523.github.io/poker-ai-arena/",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
-        }
+          "zh-TW": "App Demo",
+          "en": "App Demo"
+        },
+        "primary": true
       },
       {
         "kind": "video",
@@ -33509,7 +33488,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.991Z",
+      "lastScannedAt": "2026-06-28T18:54:41.113Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -33650,7 +33629,6 @@
     "coverImage": "/projects/poker-ai-web/screenshots/01-overview.png",
     "subtitle": "A self-learning poker AI and multi-game card platform built in pure JavaScript",
     "githubUrl": "https://github.com/Justin21523/poker-AI-web",
-    "liveDemoUrl": "https://justin21523.github.io/poker-ai-web/",
     "readmeUrl": "https://github.com/Justin21523/poker-AI-web#readme",
     "heroImage": "/projects/poker-ai-web/screenshots/01-overview.png",
     "screenshots": [
@@ -33664,10 +33642,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/poker-ai-web/",
+        "url": "/projects/poker-ai-web#demo-guide",
         "label": {
-          "zh-TW": "互動 Demo",
-          "en": "Interactive Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         },
         "primary": true
       },
@@ -33939,13 +33917,13 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.991Z",
+      "lastScannedAt": "2026-06-28T18:54:41.114Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -34111,9 +34089,10 @@
         "kind": "live",
         "url": "https://justin21523.github.io/prism-runner-3d/",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
-        }
+          "zh-TW": "App Demo",
+          "en": "App Demo"
+        },
+        "primary": true
       },
       {
         "kind": "video",
@@ -34338,7 +34317,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.991Z",
+      "lastScannedAt": "2026-06-28T18:54:41.114Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -34516,9 +34495,10 @@
         "kind": "live",
         "url": "https://justin21523.github.io/procedural-3d-maze/",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
-        }
+          "zh-TW": "App Demo",
+          "en": "App Demo"
+        },
+        "primary": true
       },
       {
         "kind": "video",
@@ -34776,7 +34756,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.992Z",
+      "lastScannedAt": "2026-06-28T18:54:41.115Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -34933,8 +34913,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/procedural-dungeon-crawler/",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "App Demo",
+          "en": "App Demo"
         },
         "primary": true
       },
@@ -35195,7 +35175,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.992Z",
+      "lastScannedAt": "2026-06-28T18:54:41.115Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -35331,7 +35311,6 @@
     "coverImage": "/projects/projectmind/screenshots/01-overview.png",
     "subtitle": "A data processing, AI, analysis, or automation workflow practice project.",
     "githubUrl": "https://github.com/Justin21523/project-mind",
-    "liveDemoUrl": "https://justin21523.github.io/project-mind/",
     "readmeUrl": "https://github.com/Justin21523/project-mind#readme",
     "heroImage": "/projects/projectmind/screenshots/01-overview.png",
     "screenshots": [
@@ -35360,10 +35339,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/project-mind/",
+        "url": "/projects/projectmind#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -35546,13 +35525,13 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.993Z",
+      "lastScannedAt": "2026-06-28T18:54:41.115Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -35976,7 +35955,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.993Z",
+      "lastScannedAt": "2026-06-28T18:54:41.116Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -36117,6 +36096,7 @@
     "coverImage": "/projects/r3f-rpg-builder/screenshots/01-real-screenshot.png",
     "subtitle": "An interactive web, 3D scene, or game prototype practice project.",
     "githubUrl": "https://github.com/Justin21523/react-three-fiber-rpg-builder",
+    "liveDemoUrl": "https://justin21523.github.io/react-three-fiber-rpg-builder/",
     "readmeUrl": "https://github.com/Justin21523/react-three-fiber-rpg-builder#readme",
     "heroImage": "/projects/r3f-rpg-builder/screenshots/01-real-screenshot.png",
     "screenshots": [
@@ -36128,6 +36108,15 @@
     ],
     "videoUrl": "/projects/r3f-rpg-builder/videos/playwright-portfolio-case-study.webm",
     "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/react-three-fiber-rpg-builder/",
+        "label": {
+          "zh-TW": "App Demo",
+          "en": "App Demo"
+        },
+        "primary": true
+      },
       {
         "kind": "github",
         "url": "https://github.com/Justin21523/react-three-fiber-rpg-builder",
@@ -36142,14 +36131,6 @@
         "label": {
           "zh-TW": "閱讀 README",
           "en": "Read README"
-        }
-      },
-      {
-        "kind": "live",
-        "url": "/projects/r3f-rpg-builder#demo-guide",
-        "label": {
-          "zh-TW": "Demo 指南",
-          "en": "Demo Guide"
         }
       },
       {
@@ -36357,13 +36338,13 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.995Z",
+      "lastScannedAt": "2026-06-28T18:54:41.116Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "preparing",
+        "demo": "verified",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -36810,7 +36791,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.995Z",
+      "lastScannedAt": "2026-06-28T18:54:41.117Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -36950,7 +36931,6 @@
     "coverImage": "/portfolio/projects/research-paper-and-knowledge-workspace/cover.webp",
     "subtitle": "A local desktop workspace for papers, notes, metadata, and literature relationships.",
     "githubUrl": "https://github.com/Justin21523/research-paper-and-knowledge-workspace",
-    "liveDemoUrl": "https://justin21523.github.io/research-paper-and-knowledge-workspace/",
     "readmeUrl": "https://github.com/Justin21523/research-paper-and-knowledge-workspace#readme",
     "heroImage": "/portfolio/projects/research-paper-and-knowledge-workspace/cover.webp",
     "screenshots": [
@@ -36983,10 +36963,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/research-paper-and-knowledge-workspace/",
+        "url": "/projects/research-paper-and-knowledge-workspace#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -37316,13 +37296,13 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.996Z",
+      "lastScannedAt": "2026-06-28T18:54:41.117Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -38008,7 +37988,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.996Z",
+      "lastScannedAt": "2026-06-28T18:54:41.118Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -38153,7 +38133,6 @@
     "coverImage": "/portfolio/projects/retailpulse-bi-recommender/screenshots/01-dashboard.png",
     "subtitle": "End-to-end data product turning retail transactions into actionable insight and recommendations",
     "githubUrl": "https://github.com/Justin21523/retailpulse-bi-recommender",
-    "liveDemoUrl": "https://justin21523.github.io/retailpulse-bi-recommender/",
     "readmeUrl": "https://github.com/Justin21523/retailpulse-bi-recommender#readme",
     "heroImage": "/portfolio/projects/retailpulse-bi-recommender/screenshots/01-dashboard.png",
     "screenshots": [
@@ -38218,10 +38197,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/retailpulse-bi-recommender/",
+        "url": "/projects/retailpulse-bi-recommender#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       }
     ],
@@ -38805,13 +38784,13 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.997Z",
+      "lastScannedAt": "2026-06-28T18:54:41.118Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -38958,8 +38937,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/rigview3d/",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "App Demo",
+          "en": "App Demo"
         },
         "primary": true
       },
@@ -39176,7 +39155,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.998Z",
+      "lastScannedAt": "2026-06-28T18:54:41.119Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -39602,7 +39581,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.998Z",
+      "lastScannedAt": "2026-06-28T18:54:41.120Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -39775,9 +39754,10 @@
         "kind": "live",
         "url": "https://justin21523.github.io/3d-rushy-runner/",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
-        }
+          "zh-TW": "App Demo",
+          "en": "App Demo"
+        },
+        "primary": true
       },
       {
         "kind": "video",
@@ -39988,7 +39968,7 @@
         "content/projects/runner-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.998Z",
+      "lastScannedAt": "2026-06-28T18:54:41.120Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -40134,8 +40114,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/sailing-adventure/",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "App Demo",
+          "en": "App Demo"
         },
         "primary": true
       },
@@ -40378,7 +40358,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.999Z",
+      "lastScannedAt": "2026-06-28T18:54:41.120Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -40510,7 +40490,6 @@
     "coverImage": "/projects/school-library-lms/screenshots/01-overview.png",
     "subtitle": "A data processing, AI, analysis, or automation workflow practice project.",
     "githubUrl": "https://github.com/Justin21523/school-library-lms",
-    "liveDemoUrl": "https://justin21523.github.io/school-library-lms/",
     "readmeUrl": "https://github.com/Justin21523/school-library-lms#readme",
     "heroImage": "/projects/school-library-lms/screenshots/01-overview.png",
     "screenshots": [
@@ -40539,10 +40518,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/school-library-lms/",
+        "url": "/projects/school-library-lms#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -40718,13 +40697,13 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.999Z",
+      "lastScannedAt": "2026-06-28T18:54:41.121Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -41054,7 +41033,7 @@
         "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:40.999Z",
+      "lastScannedAt": "2026-06-28T18:54:41.122Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -41201,7 +41180,6 @@
     "coverImage": "/portfolio/projects/sd-multimodal-platform/cover.webp",
     "subtitle": "A product-shaped AI generation demo unifying txt2img, img2img, inpaint, post-processing, queue state, assets, and history",
     "githubUrl": "https://github.com/Justin21523/sd-multimodal-platform",
-    "liveDemoUrl": "https://justin21523.github.io/sd-multimodal-platform/",
     "readmeUrl": "https://github.com/Justin21523/sd-multimodal-platform#readme",
     "heroImage": "/portfolio/projects/sd-multimodal-platform/cover.webp",
     "screenshots": [
@@ -41228,10 +41206,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/sd-multimodal-platform/",
+        "url": "/projects/sd-multimodal-platform#demo-guide",
         "label": {
-          "zh-TW": "開啟互動 Demo",
-          "en": "Open Interactive Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         },
         "primary": true
       },
@@ -41816,13 +41794,13 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.000Z",
+      "lastScannedAt": "2026-06-28T18:54:41.122Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -41976,8 +41954,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/signal-diver-3d/",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "App Demo",
+          "en": "App Demo"
         },
         "primary": true
       },
@@ -42240,7 +42218,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.000Z",
+      "lastScannedAt": "2026-06-28T18:54:41.123Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -42385,7 +42363,6 @@
     "coverImage": "/projects/starforge-AI-narrative/screenshots/01-overview.png",
     "subtitle": "A school-life adventure game driven by multi-agent AI and RAG",
     "githubUrl": "https://github.com/Justin21523/starforge-AI-narrative",
-    "liveDemoUrl": "https://justin21523.github.io/starforge-AI-narrative/",
     "readmeUrl": "https://github.com/Justin21523/starforge-AI-narrative#readme",
     "heroImage": "/projects/starforge-AI-narrative/screenshots/01-overview.png",
     "screenshots": [
@@ -42414,10 +42391,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/starforge-AI-narrative/",
+        "url": "/projects/starforge-AI-narrative#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -42669,13 +42646,13 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.001Z",
+      "lastScannedAt": "2026-06-28T18:54:41.124Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -43112,7 +43089,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.001Z",
+      "lastScannedAt": "2026-06-28T18:54:41.126Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -43252,7 +43229,7 @@
     "coverImage": "/projects/the-archive-that-watches-you/screenshots/01-real-screenshot.png",
     "subtitle": "An interactive web, 3D scene, or game prototype practice project.",
     "githubUrl": "https://github.com/Justin21523/3d-library-searching-quest",
-    "liveDemoUrl": "https://justin21523.github.io/the-archive-that-watches-you/",
+    "liveDemoUrl": "https://justin21523.github.io/3d-library-searching-quest/",
     "readmeUrl": "https://github.com/Justin21523/3d-library-searching-quest#readme",
     "heroImage": "/projects/the-archive-that-watches-you/screenshots/01-real-screenshot.png",
     "screenshots": [
@@ -43268,10 +43245,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/the-archive-that-watches-you/",
+        "url": "https://justin21523.github.io/3d-library-searching-quest/",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "App Demo",
+          "en": "App Demo"
         },
         "primary": true
       },
@@ -43534,7 +43511,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.002Z",
+      "lastScannedAt": "2026-06-28T18:54:41.126Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -43893,7 +43870,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.002Z",
+      "lastScannedAt": "2026-06-28T18:54:41.127Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44054,9 +44031,10 @@
         "kind": "live",
         "url": "https://justin21523.github.io/threejs-product-viewer/",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
-        }
+          "zh-TW": "App Demo",
+          "en": "App Demo"
+        },
+        "primary": true
       },
       {
         "kind": "video",
@@ -44235,7 +44213,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.002Z",
+      "lastScannedAt": "2026-06-28T18:54:41.127Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44365,7 +44343,6 @@
     "coverImage": "/projects/traffic-pulse/screenshots/01-real-events.png",
     "subtitle": "A data processing, AI, analysis, or automation workflow practice project.",
     "githubUrl": "https://github.com/Justin21523/traffic-pulse",
-    "liveDemoUrl": "https://justin21523.github.io/traffic-pulse/",
     "readmeUrl": "https://github.com/Justin21523/traffic-pulse#readme",
     "heroImage": "/projects/traffic-pulse/screenshots/01-real-events.png",
     "screenshots": [
@@ -44400,10 +44377,10 @@
       },
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/traffic-pulse/",
+        "url": "/projects/traffic-pulse#demo-guide",
         "label": {
-          "zh-TW": "Live Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         }
       },
       {
@@ -44687,13 +44664,13 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.003Z",
+      "lastScannedAt": "2026-06-28T18:54:41.128Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -44828,7 +44805,6 @@
     "coverImage": "/projects/tripscore/screenshots/01-overview.png",
     "subtitle": "Rule-based, explainable trip recommender fusing transit, weather and preferences",
     "githubUrl": "https://github.com/Justin21523/tripscore",
-    "liveDemoUrl": "https://justin21523.github.io/tripscore/",
     "readmeUrl": "https://github.com/Justin21523/tripscore#readme",
     "heroImage": "/projects/tripscore/screenshots/01-overview.png",
     "screenshots": [
@@ -44842,10 +44818,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/tripscore/",
+        "url": "/projects/tripscore#demo-guide",
         "label": {
-          "zh-TW": "互動 Demo",
-          "en": "Interactive Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         },
         "primary": true
       },
@@ -45121,13 +45097,13 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.003Z",
+      "lastScannedAt": "2026-06-28T18:54:41.128Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -45565,7 +45541,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.004Z",
+      "lastScannedAt": "2026-06-28T18:54:41.128Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -45705,7 +45681,6 @@
     "coverImage": "/projects/vanilla-dom-playground/screenshots/01-overview.png",
     "subtitle": "A visual learn-by-doing platform for DOM and events, built in pure JavaScript",
     "githubUrl": "https://github.com/Justin21523/vanilla-dom-playground",
-    "liveDemoUrl": "https://justin21523.github.io/vanilla-dom-playground/",
     "readmeUrl": "https://github.com/Justin21523/vanilla-dom-playground#readme",
     "heroImage": "/projects/vanilla-dom-playground/screenshots/01-overview.png",
     "screenshots": [
@@ -45719,10 +45694,10 @@
     "links": [
       {
         "kind": "live",
-        "url": "https://justin21523.github.io/vanilla-dom-playground/",
+        "url": "/projects/vanilla-dom-playground#demo-guide",
         "label": {
-          "zh-TW": "線上 Demo",
-          "en": "Live Demo"
+          "zh-TW": "作品集案例 Demo",
+          "en": "Portfolio Case Study Demo"
         },
         "primary": true
       },
@@ -45984,13 +45959,13 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.004Z",
+      "lastScannedAt": "2026-06-28T18:54:41.129Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
         "readme": "verified",
         "screenshots": "verified",
-        "demo": "verified",
+        "demo": "preparing",
         "video": "verified",
         "portfolioPage": "verified",
         "links": "preparing",
@@ -46771,7 +46746,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.005Z",
+      "lastScannedAt": "2026-06-28T18:54:41.129Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47193,7 +47168,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.005Z",
+      "lastScannedAt": "2026-06-28T18:54:41.130Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47756,7 +47731,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.006Z",
+      "lastScannedAt": "2026-06-28T18:54:41.131Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -48201,7 +48176,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.006Z",
+      "lastScannedAt": "2026-06-28T18:54:41.131Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -48646,7 +48621,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:18:41.007Z",
+      "lastScannedAt": "2026-06-28T18:54:41.131Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",

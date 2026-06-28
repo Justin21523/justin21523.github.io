@@ -55,10 +55,10 @@
     },
     {
       "kind": "live",
-      "url": "https://justin21523.github.io/openalex-research-rag/",
+      "url": "/projects/openalex-research-rag#demo-guide",
       "label": {
-        "en": "Live Demo",
-        "zh-TW": "Live Demo"
+        "en": "Portfolio Case Study Demo",
+        "zh-TW": "作品集案例 Demo"
       }
     }
   ],

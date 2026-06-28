@@ -50,10 +50,10 @@
     },
     {
       "kind": "live",
-      "url": "https://justin21523.github.io/excel-python-data-analysis/",
+      "url": "/projects/excel-python-data-analysis#demo-guide",
       "label": {
-        "en": "Live Demo",
-        "zh-TW": "Live Demo"
+        "en": "Portfolio Case Study Demo",
+        "zh-TW": "作品集案例 Demo"
       }
     }
   ],

@@ -27,8 +27,29 @@ const labels: Record<PortfolioLocale, Record<ProjectActionKind, { available: str
   },
 };
 
+const fallbackAnchors: Record<ProjectActionKind, string> = {
+  live: "demo-guide",
+  github: "source-access",
+  video: "demo-video",
+  documentation: "readme-guide",
+};
+
+function fallbackUrl(project: Project, locale: PortfolioLocale, kind: ProjectActionKind) {
+  return `/${locale}/projects/${project.slug}/#${fallbackAnchors[kind]}`;
+}
+
 function isFallbackLink(project: Project, kind: ProjectActionKind, url: string | undefined) {
-  return Boolean(url && url === `/projects/${project.slug}#${kind === "live" ? "demo-guide" : kind === "github" ? "source-access" : kind === "video" ? "demo-video" : "readme-guide"}`);
+  if (!url) {
+    return false;
+  }
+
+  const anchor = fallbackAnchors[kind];
+  return [
+    `/projects/${project.slug}#${anchor}`,
+    `/projects/${project.slug}/#${anchor}`,
+    `/en/projects/${project.slug}/#${anchor}`,
+    `/zh-TW/projects/${project.slug}/#${anchor}`,
+  ].includes(url);
 }
 
 export function getProjectActionLinks(project: Project, locale: PortfolioLocale): ProjectActionLink[] {
@@ -36,13 +57,14 @@ export function getProjectActionLinks(project: Project, locale: PortfolioLocale)
     const link = project.links.find((item) => item.kind === kind);
     const fallback = labels[locale][kind];
     const fallbackUrls: Record<ProjectActionKind, string> = {
-      live: `/projects/${project.slug}#demo-guide`,
-      github: `/projects/${project.slug}#source-access`,
-      video: `/projects/${project.slug}#demo-video`,
-      documentation: `/projects/${project.slug}#readme-guide`,
+      live: fallbackUrl(project, locale, "live"),
+      github: fallbackUrl(project, locale, "github"),
+      video: fallbackUrl(project, locale, "video"),
+      documentation: fallbackUrl(project, locale, "documentation"),
     };
-    const url = link?.url ?? fallbackUrls[kind];
-    const fallbackLink = isFallbackLink(project, kind, url);
+    const linkedUrl = link?.url;
+    const fallbackLink = isFallbackLink(project, kind, linkedUrl);
+    const url = fallbackLink ? fallbackUrls[kind] : linkedUrl ?? fallbackUrls[kind];
     const available = kind === "live" ? Boolean(url) : Boolean(url && !fallbackLink);
     const fallbackLabels: Record<ProjectActionKind, string> = {
       live: locale === "en" ? "Portfolio Case Study Demo" : "作品集案例 Demo",

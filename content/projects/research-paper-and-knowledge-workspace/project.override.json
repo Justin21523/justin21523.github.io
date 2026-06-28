@@ -33,10 +33,10 @@
     },
     {
       "kind": "live",
-      "url": "https://justin21523.github.io/research-paper-and-knowledge-workspace/",
+      "url": "/projects/research-paper-and-knowledge-workspace#demo-guide",
       "label": {
-        "en": "Live Demo",
-        "zh-TW": "Live Demo"
+        "en": "Portfolio Case Study Demo",
+        "zh-TW": "作品集案例 Demo"
       }
     }
   ],

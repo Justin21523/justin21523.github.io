@@ -14,8 +14,8 @@
       "kind": "live",
       "url": "https://justin21523.github.io/rigview3d/",
       "label": {
-        "zh-TW": "線上 Demo",
-        "en": "Live Demo"
+        "zh-TW": "App Demo",
+        "en": "App Demo"
       },
       "primary": true
     },

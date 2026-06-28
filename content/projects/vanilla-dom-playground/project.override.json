@@ -19,10 +19,10 @@
   "links": [
     {
       "kind": "live",
-      "url": "https://justin21523.github.io/vanilla-dom-playground/",
+      "url": "/projects/vanilla-dom-playground#demo-guide",
       "label": {
-        "zh-TW": "線上 Demo",
-        "en": "Live Demo"
+        "zh-TW": "作品集案例 Demo",
+        "en": "Portfolio Case Study Demo"
       },
       "primary": true
     },

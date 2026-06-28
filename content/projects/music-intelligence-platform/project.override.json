@@ -45,10 +45,10 @@
     },
     {
       "kind": "live",
-      "url": "https://justin21523.github.io/music-intelligence-platform/",
+      "url": "/projects/music-intelligence-platform#demo-guide",
       "label": {
-        "en": "Live Demo",
-        "zh-TW": "Live Demo"
+        "en": "Portfolio Case Study Demo",
+        "zh-TW": "作品集案例 Demo"
       }
     }
   ],

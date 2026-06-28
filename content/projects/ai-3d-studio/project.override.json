@@ -20,10 +20,10 @@
   "links": [
     {
       "kind": "live",
-      "url": "https://justin21523.github.io/ai-3d-studio/",
+      "url": "/projects/ai-3d-studio#demo-guide",
       "label": {
-        "zh-TW": "互動 Demo",
-        "en": "Interactive Demo"
+        "zh-TW": "作品集案例 Demo",
+        "en": "Portfolio Case Study Demo"
       },
       "primary": true
     },

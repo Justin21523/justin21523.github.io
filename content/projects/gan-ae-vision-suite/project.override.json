@@ -21,10 +21,10 @@
   "links": [
     {
       "kind": "live",
-      "url": "https://justin21523.github.io/gan-ae-vision-suite/",
+      "url": "/projects/gan-ae-vision-suite#demo-guide",
       "label": {
-        "zh-TW": "互動 Demo",
-        "en": "Interactive Demo"
+        "zh-TW": "作品集案例 Demo",
+        "en": "Portfolio Case Study Demo"
       },
       "primary": true
     },

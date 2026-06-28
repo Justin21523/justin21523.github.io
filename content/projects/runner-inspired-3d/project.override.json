@@ -34,9 +34,10 @@
       "kind": "live",
       "url": "https://justin21523.github.io/3d-rushy-runner/",
       "label": {
-        "en": "Live Demo",
-        "zh-TW": "Live Demo"
-      }
+        "zh-TW": "App Demo",
+        "en": "App Demo"
+      },
+      "primary": true
     }
   ],
   "metadata": {

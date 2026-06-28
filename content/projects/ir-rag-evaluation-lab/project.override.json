@@ -54,10 +54,10 @@
     },
     {
       "kind": "live",
-      "url": "https://justin21523.github.io/ir-rag-evaluation-lab/",
+      "url": "/projects/ir-rag-evaluation-lab#demo-guide",
       "label": {
-        "en": "Live Demo",
-        "zh-TW": "Live Demo"
+        "en": "Portfolio Case Study Demo",
+        "zh-TW": "作品集案例 Demo"
       }
     }
   ],

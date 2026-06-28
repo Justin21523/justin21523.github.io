@@ -21,10 +21,10 @@
   "links": [
     {
       "kind": "live",
-      "url": "https://justin21523.github.io/animation-ai-studio/",
+      "url": "/projects/animation-ai-studio#demo-guide",
       "label": {
-        "zh-TW": "開啟 Demo 網站",
-        "en": "Open Demo Site"
+        "zh-TW": "作品集案例 Demo",
+        "en": "Portfolio Case Study Demo"
       },
       "primary": true
     },
