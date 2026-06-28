@@ -1,8 +1,8 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
     "Python",
@@ -12,26 +12,35 @@
     "Transformers",
     "ComfyUI",
     "Typer",
-    "Accelerate / DeepSpeed",
-    "Pydantic"
+    "Pydantic",
+    "PyYAML",
+    "GitHub Pages"
   ],
-  "coverImage": "/portfolio/projects/video-family-lora-hub/cover.webp",
+  "coverImage": "/portfolio/projects/video-family-lora-hub/cover.png",
   "links": [
     {
       "kind": "live",
       "url": "https://justin21523.github.io/video-family-lora-hub/",
       "label": {
-        "zh-TW": "互動 Demo",
-        "en": "Interactive Demo"
+        "zh-TW": "開啟互動 Demo",
+        "en": "Open Interactive Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/portfolio/projects/video-family-lora-hub/demo/demo-walkthrough.webm",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
     },
     {
       "kind": "github",
       "url": "https://github.com/Justin21523/video-family-lora-hub",
       "label": {
-        "zh-TW": "查看原始碼",
-        "en": "View Source"
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
       }
     },
     {
@@ -43,46 +52,146 @@
       }
     }
   ],
+  "media": [
+    {
+      "id": "demo-walkthrough",
+      "type": "video",
+      "src": "/portfolio/projects/video-family-lora-hub/demo/demo-walkthrough.webm",
+      "poster": "/portfolio/projects/video-family-lora-hub/cover.png",
+      "alt": {
+        "zh-TW": "Video Family LoRA Hub 的 mock-safe demo 錄影。",
+        "en": "Mock-safe demo recording of Video Family LoRA Hub."
+      },
+      "title": {
+        "zh-TW": "Demo 操作錄影",
+        "en": "Demo Walkthrough"
+      },
+      "caption": {
+        "zh-TW": "展示多模型影片生成與身份 LoRA pipeline 的操作台、manifest、artifact browser 與架構狀態。",
+        "en": "Shows the product console, manifest, artifact browser, and architecture states for the multi-model video and identity LoRA pipeline."
+      },
+      "featured": true
+    },
+    {
+      "id": "showcase-console",
+      "type": "image",
+      "src": "/portfolio/projects/video-family-lora-hub/screenshots/01-showcase-console.png",
+      "alt": {
+        "zh-TW": "Video Family LoRA Hub mock-safe 產品操作台與 pipeline state。",
+        "en": "Video Family LoRA Hub mock-safe product console and pipeline state."
+      },
+      "title": {
+        "zh-TW": "產品操作台",
+        "en": "Product Console"
+      },
+      "caption": {
+        "zh-TW": "第一屏直接展示 run composer、pipeline stage、mock-safe backend 與 smoke 指標。",
+        "en": "The first viewport shows the run composer, pipeline stages, mock-safe backend, and smoke metrics."
+      },
+      "featured": true
+    },
+    {
+      "id": "pipeline-manifest",
+      "type": "image",
+      "src": "/portfolio/projects/video-family-lora-hub/screenshots/02-pipeline-manifest.png",
+      "alt": {
+        "zh-TW": "YAML manifest 與 resolved execution graph。",
+        "en": "YAML manifest and resolved execution graph."
+      },
+      "title": {
+        "zh-TW": "Manifest Pipeline",
+        "en": "Manifest Pipeline"
+      },
+      "caption": {
+        "zh-TW": "用一份 demo manifest 串接 t2v、i2v、v2v 與 source job dependency。",
+        "en": "A demo manifest chains t2v, i2v, v2v, and source-job dependencies."
+      }
+    },
+    {
+      "id": "artifact-browser",
+      "type": "image",
+      "src": "/portfolio/projects/video-family-lora-hub/screenshots/03-artifact-browser.png",
+      "alt": {
+        "zh-TW": "Run artifact browser，顯示 metadata、preview、run summary。",
+        "en": "Run artifact browser showing metadata, preview, and run summary."
+      },
+      "title": {
+        "zh-TW": "Artifact Browser",
+        "en": "Artifact Browser"
+      },
+      "caption": {
+        "zh-TW": "每次執行輸出 metadata、config snapshot、preview 與 summary，方便重現與展示。",
+        "en": "Each run writes metadata, config snapshots, previews, and summaries for reproducibility and review."
+      }
+    },
+    {
+      "id": "architecture",
+      "type": "image",
+      "src": "/portfolio/projects/video-family-lora-hub/screenshots/04-architecture.png",
+      "alt": {
+        "zh-TW": "Video Family LoRA Hub 系統架構摘要。",
+        "en": "Video Family LoRA Hub system architecture summary."
+      },
+      "title": {
+        "zh-TW": "系統架構",
+        "en": "System Architecture"
+      },
+      "caption": {
+        "zh-TW": "Registry、Pydantic config、adapters、ComfyUI templates、trainer bridges 與 artifacts 的層級關係。",
+        "en": "Layered view of registry, Pydantic config, adapters, ComfyUI templates, trainer bridges, and artifacts."
+      }
+    }
+  ],
   "metadata": {
-    "projectType": "AI 影片生成與多模型家族 LoRA 訓練工具鏈",
+    "projectType": "Portfolio-ready AI video generation and identity LoRA workflow lab",
     "domains": [
       "generative-ai",
       "video-generation",
       "model-finetuning",
-      "mlops"
+      "mlops",
+      "portfolio-demo-engineering"
     ],
     "capabilities": [
-      "text-to-video",
-      "image-to-video",
-      "video-to-video",
-      "lora-training",
-      "batch-pipeline-orchestration",
-      "comfyui-workflow-integration",
-      "16gb-vram-optimization",
-      "reproducible-outputs"
+      "mock-safe demo mode without GPU, model weights, API keys, or external services",
+      "text-to-video, image-to-video, and video-to-video run orchestration",
+      "identity LoRA training workflow design",
+      "manifest-driven batch pipelines with source-job chaining",
+      "ComfyUI API template integration",
+      "Pydantic-validated YAML model registry",
+      "reproducible artifacts with metadata and config snapshots",
+      "static GitHub Pages demo with screenshots and WebM walkthrough"
     ],
     "frameworks": [
       "PyTorch",
       "Diffusers",
       "Typer",
-      "ComfyUI"
+      "ComfyUI",
+      "GitHub Actions"
     ],
     "libraries": [
       "PEFT",
       "Transformers",
       "Accelerate",
       "Pydantic",
-      "safetensors",
-      "imageio-ffmpeg"
+      "PyYAML",
+      "imageio-ffmpeg",
+      "Pillow",
+      "Ruff",
+      "Mypy",
+      "Pytest"
     ],
     "backend": [
       "Python CLI",
-      "subprocess trainer backends (finetrainers / musubi / simpletuner)",
-      "ComfyUI API helpers"
+      "model-family adapters",
+      "manifest pipeline runner",
+      "ComfyUI API helper",
+      "trainer subprocess bridges",
+      "mock-safe dummy backend"
     ],
     "platforms": [
       "CLI",
-      "Web"
+      "Web",
+      "GitHub Pages"
     ],
     "keywords": [
       "LoRA",
@@ -92,7 +201,21 @@
       "Stable Video Diffusion",
       "AnimateDiff SDXL",
       "identity-lora",
-      "single-16GB-GPU"
+      "single-16GB-GPU",
+      "mock-safe demo"
+    ],
+    "hasUnitTests": true,
+    "hasIntegrationTests": true,
+    "hasE2ETests": false,
+    "responsive": true,
+    "deployment": [
+      "GitHub Pages"
+    ],
+    "codeQualityTools": [
+      "pytest",
+      "ruff",
+      "mypy",
+      "python build"
     ],
     "needsReview": false
   }

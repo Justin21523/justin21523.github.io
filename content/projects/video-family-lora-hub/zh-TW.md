@@ -1,42 +1,38 @@
 ---
-title: "影片家族 LoRA 訓練中樞"
-tagline: "單張 16GB GPU 上的多模型影片生成與 LoRA 訓練實驗室"
-summary: "以統一 Python CLI 整合 Diffusers 與 ComfyUI，於單張 16GB 顯卡上跨 LTX-2、Wan、CogVideoX、SVD、AnimateDiff SDXL 等模型家族執行文生影片、圖生影片與角色 LoRA 微調，並以 YAML 預設與清單批次流程確保可重現產出。"
-role: "獨立開發者：系統架構、CLI 與訓練後端設計、VRAM 優化與工作流整合"
-problem: "影片擴散模型百花齊放，但每個家族（LTX、Wan、CogVideoX、SVD、AnimateDiff）各有不同的推論與 LoRA 訓練介面、相依與 VRAM 需求；在一張 16GB 消費級顯卡上要同時做生成與角色身份 LoRA 訓練，缺乏統一、可重現的工作流。"
-solution: "打造一個以家族為單位的註冊表式架構：統一 Typer CLI 提供 run t2v/i2v/v2v、list、comfy、pipeline 等子指令；adapters 與 runners 封裝各模型推論，trainers 以子程序後端串接 finetrainers / musubi / simpletuner 等外部訓練器。設定全部以 Pydantic 驗證的 YAML 預設驅動（rank、量化、gradient checkpointing、int8/bf16 等 16GB 優化），並提供 ComfyUI 工作流模板與 API、清單批次流程與 render-farm 分片，輸出附帶 metadata 與環境快照以利重現。"
-outcome: "原型已能在 RTX 5080 16GB 上跑通多家族推論與身份 LoRA 訓練流程，累積 70+ 份 YAML 設定與 50+ 份技術文件；以 dummy 後端支援 dry-run 驗證管線。屬個人研究原型，部分路徑（原生 v2v、真生成式 v2v）仍標記為分開追蹤中。"
+title: "Video Family LoRA Hub"
+tagline: "單張 16GB GPU 的多模型影片生成與身份 LoRA 工作流中樞"
+summary: "把 SVD、LTX-2、Wan、CogVideoX、AnimateDiff SDXL 等影片生成模型家族整理成統一 Python CLI、YAML manifest pipeline、ComfyUI workflow template 與 mock-safe portfolio demo，讓面試官可直接看到操作台、artifact、架構與驗證流程。"
+role: "獨立開發者：系統架構、CLI 與 adapter 設計、ComfyUI workflow 整合、mock-safe demo、README 與 GitHub Pages 部署"
+problem: "影片生成模型與 LoRA 訓練工具鏈分散在不同框架、權重格式、ComfyUI 節點與訓練器之間。若要在一張 16GB 消費級 GPU 上做 t2v、i2v、v2v 與角色身份 LoRA，缺少一個可重現、可測試、可對外展示的統一入口。"
+solution: "以 Typer CLI 與 Pydantic 驗證的 YAML model catalog 為核心，建立 family registry、generation adapters、manifest pipeline runner、ComfyUI API template 與 trainer subprocess bridges。公開展示版本使用 dummy/mock-safe backend 與 deterministic sample assets，因此不需要 GPU、模型權重、API key 或外部服務，也能完整展示產品流程。"
+outcome: "專案已整理成 portfolio-ready demo：GitHub Pages 第一屏直接是產品操作台，含 demo scenarios、pipeline state、artifact browser、截圖與 WebM 錄影；本機可跑 pytest、ruff、mypy、package build、demo smoke 與 static demo build。"
 highlights:
-  - "以家族註冊表（registry）統一 LTX-2、Wan、CogVideoX、SVD、AnimateDiff SDXL 的推論與訓練進入點"
-  - "Typer CLI 提供 t2v / i2v / v2v、ComfyUI 匯出與清單批次流程等子指令"
-  - "YAML + Pydantic 設定驅動，內建 16GB VRAM 優化（int8-quanto 量化、bf16、gradient checkpointing、adamw8bit）"
-  - "trainers 以子程序後端整合 finetrainers / musubi / simpletuner 等外部訓練器，支援批次訓練多角色身份 LoRA"
-  - "ComfyUI 工作流模板與 API helper，銜接 AnimateDiff SDXL 與 Wan 的 i2v 路徑"
-  - "產出附帶 metadata、環境與設定快照，並提供 dummy 後端做 dry-run 管線驗證"
+  - "第一屏直接展示產品操作台，不是單純 marketing landing page"
+  - "Mock-safe demo mode 不依賴 GPU、模型權重、ComfyUI 或外部 API"
+  - "Typer CLI 統一 t2v / i2v / v2v / pipeline run，輸出 metadata 與 config snapshot"
+  - "YAML + Pydantic 管理 SVD、LTX-2、Wan、CogVideoX、AnimateDiff SDXL 模型家族"
+  - "ComfyUI API workflow metadata 與 GUI export 對齊，支援 template validation"
+  - "README 使用 Mermaid 補齊架構圖、資料流圖、部署圖、模組組織圖與 demo flow"
 challenges:
-  - "在單張 16GB 顯卡上訓練大型影片模型 LoRA（如 LTX 2.3 22B）需大量量化與記憶體優化，逼近硬體極限"
-  - "各模型家族介面與相依差異大，需以子程序後端與轉接層吸收不一致性"
+  - "真模型推論與 LoRA 訓練需要大型權重、GPU 與 ComfyUI custom nodes，因此公開 demo 必須安全降級"
+  - "原始研究 repo 有大量實驗腳本、log、outputs、local_data 與模型 symlink，需要嚴格隔離 commit scope"
 nextSteps:
-  - "補上生產級 Diffusers 原生 LTX-2 / Wan 推論轉接，減少對 ComfyUI 子程序的依賴"
-  - "加入 CLIP／動態／美學評分等輸出評估與訓練實驗追蹤"
-  - "以 Gradio 或 FastAPI 在同一核心套件上提供編排端點"
+  - "加入真實 GPU output gallery 與評估指標 dashboard"
+  - "把 CLI 核心包成 FastAPI 或 Gradio operator UI"
+  - "將 LoRA training experiment tracking 與 artifact registry 補成正式 MLOps workflow"
 ---
 ## 概觀
 
-影片家族 LoRA 訓練中樞（Video Generation Lab）是一個為「單張 16GB GPU 上的短影片生成研究」設計的可重現工具鏈。它把分散的影片擴散生態（LTX-2、Wan 2.1/2.2、CogVideoX、Stable Video Diffusion、AnimateDiff SDXL）收斂到一個統一的 Python 套件與 CLI 之下，讓推論與角色身份 LoRA 微調共用同一套設定、流程與產出規範。
+Video Family LoRA Hub 是一個以作品集展示為目標整理過的 AI 影片生成工具鏈。它保留真實工程架構：CLI、manifest、adapter、ComfyUI template、trainer bridge、metadata artifact；同時補上可公開展示的 mock-safe demo，讓面試官不需要 GPU 或私有模型也能理解系統價值。
 
-## 架構
+## 展示重點
 
-核心採用「家族（family）」為單位的註冊表設計：`adapters` 與 `runners` 封裝各模型的推論細節，`trainers` 則以子程序後端串接 finetrainers、musubi-tuner、simpletuner 等外部訓練器。一支以 Typer 打造的統一 CLI 暴露 `run`（t2v/i2v/v2v）、`list`、`comfy`、`pipeline` 等子指令；所有行為由 Pydantic 驗證的 YAML 設定驅動，倉庫內已累積 70 多份生成與訓練預設。
+Demo 第一屏就是 run composer 與 pipeline state，可切換 family film teaser、reference portrait i2v、continuity polish v2v、identity LoRA training batch 等情境。截圖與 WebM 錄影呈現 manifest orchestration、artifact browser、architecture layers，README 則提供完整 Mermaid 圖與驗證命令。
 
-## 16GB VRAM 優化
+## 技術架構
 
-專案的核心約束是在消費級 RTX 5080 16GB 上同時完成生成與訓練。設定預設大量使用 int8-quanto 量化、bf16 混合精度、gradient checkpointing、adamw8bit 優化器與 batch size 1，並以 accelerate／DeepSpeed ZeRO offload 設定處理大型骨幹；技術文件中詳細評估了不同訓練器在 16GB 下的可行性。
+核心是 `video_generation_lab` Python package：`cli.py` 提供 Typer 入口，`pipeline.py` 處理 YAML manifest、job chaining 與 sharding，`adapters/` 封裝不同影片模型家族，`comfyui/api.py` 負責 workflow parameter binding 與 artifact download，`outputs.py` 統一產出 metadata、config snapshot、preview 與 run log。
 
-## 工作流與可重現性
+## 可驗證性
 
-除 Diffusers 路徑外，專案整合 ComfyUI：提供工作流模板、匯出器與 API helper，把 AnimateDiff SDXL 與 Wan 的 i2v 路徑接入同一流程。清單（manifest）驅動的批次流程支援多角色、多鏡頭與 render-farm 分片，輸出一律附帶 metadata、環境與設定快照；並提供 dummy 後端讓管線能 dry-run 驗證。
-
-## 現況
-
-本專案為個人研究原型，倉庫中保有大量實驗腳本、日誌與規劃文件；部分路徑（原生 v2v 與真生成式 v2v）仍標記為分開追蹤，路線圖也列出評估指標、實驗追蹤與 FastAPI/Gradio 編排等待辦事項。
+公開 demo 使用 deterministic assets；本機則可執行 `python scripts/run_demo_smoke.py` 跑完整 mock-safe pipeline，並用 `pytest`、`ruff`、`mypy`、`python -m build` 驗證核心品質。這讓作品不只是靜態頁，而是一個可重建、可檢查、可部署的展示專案。
