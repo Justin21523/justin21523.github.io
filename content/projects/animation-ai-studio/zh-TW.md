@@ -1,41 +1,39 @@
 ---
-title: "Animation AI Studio：本地優先的模組化 AI 動畫生產管線"
-tagline: "把分鏡、影像、語音與生成模型串成一條可重複的短片生產流程"
-summary: "一套以本地優先、模組化為核心的 AI 動畫生產管線，聚焦短片與分鏡式工作流。專案以 studio/ 套件重構出型別化的專案、角色與分鏡資料模型，並以 CLI 串接影片生成、語音合成與輸出等子系統。目前處於架構與工作流的雛形階段。"
-role: "獨立開發者（架構設計與全端實作）"
-problem: "個人化 AI 短片創作牽涉影像生成、影片生成、語音克隆、字幕與後製等大量分散工具，彼此之間缺乏統一的資料模型與流程編排。手動串接這些工具既容易出錯，也難以重複執行同一個專案。如何把這些異質子系統收斂成一條清晰、可追蹤的生產管線，是本專案要解決的核心問題。"
-solution: "專案採用保守式重構：新建 studio/ 套件作為面向專案的新架構，用 Pydantic 定義型別化的專案、角色、分鏡、影片、語音與 QC 資料模型，並在 data/projects/<slug>/ 下建立標準化的工作區。CLI（python -m studio.cli.main）負責編排建立專案、註冊角色、定義分鏡、準備渲染任務與執行音訊／影片任務清單。影片層圍繞 LTX-2.3 與 Wan 系列 provider 設計，分成 API、ComfyUI 與本地三條路徑，目前只產生正規化的任務 manifest。既有的 scripts/ 子系統（影像生成、TTS、分析、編輯）刻意保留，由新編排層包覆而非立即重寫；另有 vLLM + FastAPI 的 LLM gateway 與 Vanilla JS + FastAPI 的 Web UI 提供推論與批次監控能力。"
-outcome: "目前為雛形階段：專案工作區、角色／分鏡註冊、任務 manifest 準備、FFmpeg 匯出與字幕生成、語音資料集匯出等已可運作；而 Wan 系列推論、自動 I2V 接續、音訊合成對齊與 QC 評分等仍為 scaffold，尚未完整實作。這是一個誠實標示為學習與探索性質的進行中專案。"
+title: "Animation AI Studio：可展示的 AI 動畫工作流 Demo 平台"
+tagline: "把分鏡規劃、生成任務、結果瀏覽與系統監控整理成面試官能快速理解的產品介面"
+summary: "Animation AI Studio 是一個本地優先的 AI 動畫工作流平台。這次整理後，專案不再只是研究型 scripts，而是具備 GitHub Pages 作品頁、可重跑的 mock-safe Web UI、seeded demo scenarios、截圖與錄影素材的 portfolio demo。面試官可以先看公開頁面理解價值，再用本機 demo mode 看到 FastAPI、SQLite、Job Queue、Results Browser 與 System Monitor 的完整操作流程。"
+role: "獨立開發者（產品定位、全端實作、demo engineering、部署與文件整理）"
+problem: "AI 動畫專案很容易停留在模型腳本或半成品狀態：需要 GPU、模型權重、ComfyUI、API key、影片素材與多個 batch scripts 才能展示。這對面試情境很不友善，因為審查者無法在短時間內理解專案價值，也無法穩定看到功能成果。這個專案要解決的是：如何把研究型 AI pipeline 包裝成可以展示、截圖、錄影、重跑且誠實標示能力邊界的作品集專案。"
+solution: "我建立了雙模式架構：demo mode 使用 repo-local SQLite 與 outputs/demo，透過 deterministic mock runner 產生 logs、summary、storyboard、quality report 與 gallery preview，不需要私密金鑰、GPU 或模型檔；full mode 則保留原本通往 ComfyUI、image providers、TTS、FFmpeg 與 batch scripts 的整合路徑。Web UI 使用 Vanilla JS SPA + FastAPI，提供 Jobs、Action、Image、Creative、Results、System 等頁面；後端以 FastAPI routers、SQLite job database 與 JobService 管理任務、輸出與進度。另有 GitHub Pages 的 portfolio-web，第一屏直接展示產品本體，並包含截圖、WebM demo 影片、架構說明與本機啟動指令。"
+outcome: "目前公開展示鏈路已完成：GitHub Pages 能看到完整 landing page、截圖、錄影 demo 與說明；本機可用 scripts/demo/run_web_ui_demo.sh seed demo data 並啟動 Web UI；核心 API、前端 JS 語法、Python py_compile、重點 pytest、demo job submission、公開媒體資產 200 檢查都已驗證。完整 GPU/model pipeline 仍需本機模型、外部服務與 provider credentials，因此在文件中明確標示為 full-mode extension path。"
 highlights:
-  - "以 Pydantic 建立型別化的專案／角色／分鏡資料模型"
-  - "標準化的 data/projects 工作區與角色、分鏡、LoRA 註冊表"
-  - "面向專案的 CLI 編排建立、渲染準備與任務執行"
-  - "LTX-2.3 與 Wan2.2 多 provider 影片生成架構（API／ComfyUI／本地）"
-  - "對話驅動的 TTS 與來源影片語者分段分析"
-  - "per-character 語音克隆與 RVC／歌聲轉換訓練資料集匯出"
+  - "GitHub Pages 公開展示頁：包含產品定位、架構、截圖、WebM demo 與本機操作指引"
+  - "Mock-safe demo mode：不需要 API key、模型權重或 GPU，也能展示完整 job flow"
+  - "Seeded scenarios：completed、running、failed、provider routing 等展示狀態"
+  - "FastAPI + SQLite job backend：jobs、outputs、stats、results、system metrics API"
+  - "Vanilla JS Web UI：Jobs Dashboard、Results Browser、System Monitor 與 job detail"
+  - "Demo artifacts：summary.json、quality_report.json、storyboard manifest、logs、gallery preview"
 challenges:
-  - "在不破壞既有 scripts/ 子系統的前提下，用新編排層保守式包覆重構"
-  - "為 LTX-2.3 / Wan / ComfyUI 等異質後端設計統一的 provider 介面與正規化 task manifest"
-  - "在 16GB VRAM（RTX 5080）一次只能載入單一模型的限制下規劃 LLM gateway 與模型切換"
+  - "把原本分散的 AI scripts 包裝成可被面試官快速理解的產品型 demo，而不是只展示程式碼"
+  - "在不依賴 GPU、ComfyUI、模型權重或私密金鑰的情況下，仍保留可信的資料流與結果輸出"
+  - "維持 demo mode 與 full mode 的界線，避免公開展示時誇大尚需外部 runtime 的能力"
 nextSteps:
-  - "完成 Wan 系列推論與自動 I2V 接續的實際執行"
-  - "落實音訊合成／對齊與 FFmpeg 合成輸出管線"
-  - "實作連續性評分與 QC 執行，並完善 Web UI 端到端流程"
+  - "將互動式 FastAPI demo 部署到 Render / Railway / Fly.io，讓面試官不必本機啟動也能操作"
+  - "補上更多真實模型輸出案例，讓 demo artifacts 從 mock preview 擴展到真實生成結果"
+  - "把 full-mode provider execution、queue retry、job cancellation 與 artifact preview 做更完整的端到端測試"
 ---
-## 背景
+## 展示重點
 
-Animation AI Studio 是一套本地優先（local-first）、模組化的 AI 動畫生產管線，目標是把短片、分鏡式的創作流程系統化。AI 短片創作通常需要拼接大量工具：影像生成、影片生成、語音克隆、字幕與後製，每個工具各有自己的輸入輸出格式，缺乏統一的資料模型與編排。這個專案嘗試把這些異質子系統收斂成一條清晰、可重複執行的管線。
+這個專案現在的展示重點不是「我有很多生成模型 scripts」，而是「我能把複雜 AI pipeline 整理成可觀測、可重跑、可部署、可被非專案成員理解的產品介面」。公開頁面可以直接看到 demo video 與 screenshots，本機 demo mode 則可以實際跑出 seeded jobs、提交 mock job、瀏覽 outputs，並看到 CPU/RAM/GPU/Disk 監控。
 
-## 架構
+## 技術架構
 
-專案採取保守式重構策略，分為兩層。新的 `studio/` 套件是面向專案的核心架構，內含 `core`（共用結果模型、路徑、儲存）、`story`（專案與分鏡 schema）、`assets`（角色與 LoRA 註冊）、`video`／`audio`（任務模型與 provider 介面）、`editing`、`evaluation`、`pipelines` 與 `cli`。既有的 `scripts/` 子系統（生成、合成、分析、編輯、編排、訓練）刻意保留，由新編排層包覆而非立即取代，讓重構風險可控。
+前端分成兩層：`portfolio-web/` 是 GitHub Pages 靜態展示站，放置 landing page、截圖與錄影；`web_ui/frontend/` 是 Vanilla JS SPA，提供 Jobs、Results、System 等操作頁。後端是 `web_ui/backend/` 的 FastAPI service，包含 jobs、stats、results、system、action、image、creative 等 routers。資料層使用 SQLite，記錄 jobs、job_outputs、progress events 與 system metrics。執行層由 JobService 管理：demo mode 走 deterministic artifact generator，full mode 才交給 batch scripts 與外部 provider。
 
-所有領域物件都以 Pydantic 型別化定義（如 `ShotSpec`、`ShotCharacterBinding`），專案資料則以標準化的 `data/projects/<slug>/` 工作區落地，包含 project.yaml、characters、shots、assets/loras、audio、renders 與 exports 等目錄。
+## Demo 操作流程
 
-## 技術細節
+建議面試展示流程是：先打開 GitHub Pages 作品頁說明定位，再展示 Jobs Dashboard 的 completed/running/failed 狀態；接著打開 Results Browser 看 outputs/demo 裡的 artifacts；再提交一個 demo-mode job，展示 job 從 pending 到 completed 並產生 logs、summary、storyboard、gallery；最後打開 System Monitor，說明這個介面如何對應真實 GPU/模型 pipeline 的資源監控。
 
-影片生成層圍繞 LTX-2.3 與 Wan 系列重新設計，拆成 `ltx23_api`、`ltx23_comfy`、`ltx23_local` 三條路徑，並以正規化的 task manifest 作為統一輸出；ComfyUI 路徑透過帶有 `__PROMPT__`、`__IMAGE_URI__` 等佔位符的工作流範本注入參數。語音子系統涵蓋 Whisper 語者分段、對話驅動 TTS、per-character 語音資料集匯出，以及通往 RVC、Seed-VC、Demucs、DiffSinger／OpenUtau 的歌聲轉換路線圖。此外還有以 vLLM + FastAPI 打造、針對 RTX 5080 16GB 最佳化的 LLM gateway（一次僅載入單一模型），以及 Vanilla JS + FastAPI + SSE 的 Web UI 來提交與監控批次任務。技術棧涵蓋 PyTorch 2.7 / CUDA 12.8、Diffusers、Transformers、ControlNet、InsightFace、FAISS／ChromaDB、moviepy／OpenCV／FFmpeg 等。
+## 工程取捨
 
-## 學到什麼
-
-這個專案最大的收穫在於「先把資料模型與介面定義清楚，再談實作」：用型別化 schema 與 provider 介面把異質工具抽象化，讓編排層得以在不重寫舊程式的情況下逐步演進。它也是一個誠實的學習型雛形——README 明確區分「已實作」與「僅 scaffold」，避免誇大未完成的能力，這種對工程邊界的誠實標示本身就是重要的實務練習。
+我刻意把 demo mode 和 full mode 分開。demo mode 的目標是穩定展示：不需要私密環境、不讀大型模型、不依賴 `/mnt/data`，所有輸出都在 repo-local `outputs/demo` 產生。full mode 則保留通往 ComfyUI、LTX/Wan providers、TTS、FFmpeg 與既有 scripts 的路徑，但文件明確標示這部分需要本機 runtime、模型資產與 credentials。這樣做可以讓作品展示誠實，同時也讓面試官看到我對部署、可觀測性與 demo engineering 的重視。

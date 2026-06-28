@@ -1,29 +1,30 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
     "Python",
-    "PyTorch",
     "FastAPI",
+    "SQLite",
+    "Vanilla JavaScript",
+    "Server-Sent Events",
     "Pydantic",
-    "vLLM",
-    "Stable Diffusion / Diffusers",
-    "FFmpeg",
+    "PyTorch",
+    "Diffusers",
     "ComfyUI",
-    "Whisper",
-    "FAISS"
+    "FFmpeg",
+    "GitHub Pages"
   ],
-  "coverImage": "/portfolio/projects/animation-ai-studio/cover.webp",
+  "coverImage": "/portfolio/projects/animation-ai-studio/cover.png",
   "links": [
     {
       "kind": "live",
       "url": "https://justin21523.github.io/animation-ai-studio/",
       "label": {
-        "zh-TW": "互動 Demo",
-        "en": "Interactive Demo"
+        "zh-TW": "開啟 Demo 網站",
+        "en": "Open Demo Site"
       },
       "primary": true
     },
@@ -42,69 +43,163 @@
         "zh-TW": "閱讀 README",
         "en": "Read README"
       }
+    },
+    {
+      "kind": "video",
+      "url": "/portfolio/projects/animation-ai-studio/demo/demo-walkthrough.webm",
+      "label": {
+        "zh-TW": "觀看 Demo 錄影",
+        "en": "Watch Demo Video"
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": "demo-walkthrough",
+      "type": "video",
+      "src": "/portfolio/projects/animation-ai-studio/demo/demo-walkthrough.webm",
+      "poster": "/portfolio/projects/animation-ai-studio/screenshots/webui-jobs.png",
+      "alt": {
+        "zh-TW": "Animation AI Studio demo 錄影，展示作品頁、Job Dashboard、Results Browser 與 System Monitor。",
+        "en": "Animation AI Studio demo walkthrough showing the portfolio page, job dashboard, results browser, and system monitor."
+      },
+      "title": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Walkthrough"
+      },
+      "caption": {
+        "zh-TW": "公開展示用 WebM 影片，使用 mock-safe demo mode 產生的真實截圖串接而成。",
+        "en": "A public WebM walkthrough assembled from real mock-safe demo-mode screenshots."
+      },
+      "featured": true
+    },
+    {
+      "id": "job-dashboard",
+      "type": "image",
+      "src": "/portfolio/projects/animation-ai-studio/screenshots/webui-jobs.png",
+      "alt": {
+        "zh-TW": "Animation AI Studio Web UI Job Dashboard，顯示 completed、running、failed demo scenarios。",
+        "en": "Animation AI Studio Web UI job dashboard with completed, running, and failed demo scenarios."
+      },
+      "title": {
+        "zh-TW": "Job Dashboard",
+        "en": "Job Dashboard"
+      },
+      "caption": {
+        "zh-TW": "Seeded demo data 讓面試官可立即看到排程、進度、錯誤狀態與 mock-safe pipeline 行為。",
+        "en": "Seeded demo data makes queue state, progress, failure handling, and mock-safe pipeline behavior immediately visible."
+      },
+      "featured": true
+    },
+    {
+      "id": "result-browser",
+      "type": "image",
+      "src": "/portfolio/projects/animation-ai-studio/screenshots/webui-results.png",
+      "alt": {
+        "zh-TW": "Animation AI Studio Results Browser，顯示 demo output folders。",
+        "en": "Animation AI Studio result browser showing demo output folders."
+      },
+      "title": {
+        "zh-TW": "Results Browser",
+        "en": "Results Browser"
+      },
+      "caption": {
+        "zh-TW": "瀏覽 repo-local demo artifacts，例如 summary、quality report、storyboard manifest 與 gallery preview。",
+        "en": "Browses repo-local demo artifacts such as summaries, quality reports, storyboard manifests, and gallery previews."
+      }
+    },
+    {
+      "id": "system-monitor",
+      "type": "image",
+      "src": "/portfolio/projects/animation-ai-studio/screenshots/webui-system.png",
+      "alt": {
+        "zh-TW": "Animation AI Studio System Monitor，顯示 CPU、RAM、GPU、Disk 與使用率圖表。",
+        "en": "Animation AI Studio system monitor showing CPU, RAM, GPU, disk, and usage chart."
+      },
+      "title": {
+        "zh-TW": "System Monitor",
+        "en": "System Monitor"
+      },
+      "caption": {
+        "zh-TW": "用 FastAPI + SSE 呈現本地 AI pipeline 執行時最重要的資源監控訊號。",
+        "en": "FastAPI + SSE expose the resource signals that matter for local AI pipeline execution."
+      }
+    },
+    {
+      "id": "portfolio-landing",
+      "type": "image",
+      "src": "/portfolio/projects/animation-ai-studio/screenshots/portfolio-landing.png",
+      "alt": {
+        "zh-TW": "Animation AI Studio GitHub Pages landing page。",
+        "en": "Animation AI Studio GitHub Pages landing page."
+      },
+      "title": {
+        "zh-TW": "GitHub Pages Demo Site",
+        "en": "GitHub Pages Demo Site"
+      },
+      "caption": {
+        "zh-TW": "靜態作品頁整合產品定位、架構、截圖、錄影與本機啟動指引。",
+        "en": "The static project site combines positioning, architecture, screenshots, video, and local run instructions."
+      }
     }
   ],
   "metadata": {
-    "projectType": "Local-first modular AI animation pipeline",
+    "projectType": "Portfolio-ready AI animation workflow platform",
     "domains": [
       "Generative AI",
       "AI animation",
-      "Voice synthesis",
+      "Workflow orchestration",
       "Media production tooling",
-      "MLOps"
+      "MLOps",
+      "Portfolio demo engineering"
     ],
     "capabilities": [
-      "Scaffolding shot-based animation production workflows",
-      "Creating typed project workspaces and registries",
-      "Preparing provider-based video generation task manifests",
-      "Generating dialogue-driven TTS and subtitle tasks",
-      "Analyzing source video for speaker segmentation",
-      "Exporting per-character voice-clone training datasets",
-      "Orchestrating self-hosted LLM inference via a gateway"
+      "Mock-safe demo mode that runs without API keys, model weights, or GPU access",
+      "Seeded demo scenarios for completed, running, and failed job states",
+      "FastAPI job orchestration with SQLite persistence",
+      "Result artifact browser for logs, summaries, manifests, and gallery previews",
+      "Realtime CPU/RAM/GPU/disk monitoring through SSE-compatible APIs",
+      "Static GitHub Pages demo site with screenshots and WebM walkthrough",
+      "Full-mode extension path for ComfyUI, image providers, TTS, FFmpeg, and batch scripts"
     ],
     "frameworks": [
       "FastAPI",
-      "PyTorch",
       "Pydantic",
-      "LangChain / LangGraph",
-      "Diffusers"
+      "Vanilla JavaScript SPA",
+      "GitHub Actions",
+      "GitHub Pages"
     ],
     "libraries": [
-      "vLLM",
-      "Transformers",
-      "OpenAI Whisper",
-      "librosa",
-      "moviepy",
-      "OpenCV",
-      "FAISS",
-      "ChromaDB",
-      "sentence-transformers",
-      "ControlNet-aux",
-      "InsightFace"
+      "SQLite",
+      "sse-starlette",
+      "psutil",
+      "PyYAML",
+      "Pytest",
+      "Playwright",
+      "FFmpeg"
     ],
     "backend": [
-      "FastAPI gateway",
-      "vLLM inference servers",
-      "Redis cache",
-      "FFmpeg",
-      "ComfyUI",
-      "Server-Sent Events"
+      "FastAPI routers",
+      "SQLite job database",
+      "JobService async execution",
+      "Demo-mode artifact generator",
+      "Results browser API",
+      "System metrics API"
     ],
     "platforms": [
+      "Web",
       "CLI",
-      "Web"
+      "GitHub Pages"
     ],
     "keywords": [
       "AI animation",
-      "text-to-video",
-      "image-to-video",
-      "LTX-2.3",
-      "Wan2.2",
-      "voice cloning",
-      "RVC",
-      "singing voice conversion",
-      "pipeline architecture",
-      "local-first"
+      "portfolio demo",
+      "FastAPI",
+      "SQLite",
+      "job orchestration",
+      "mock-safe workflow",
+      "GitHub Pages",
+      "MLOps"
     ],
     "needsReview": false
   }

@@ -1,41 +1,39 @@
 ---
-title: "Animation AI Studio: A Local-First Modular AI Animation Pipeline"
-tagline: "Wiring storyboards, imagery, voice, and generative models into one repeatable short-film pipeline"
-summary: "A local-first, modular AI animation pipeline focused on short-form, shot-based production workflows. The project introduces a typed studio/ package modeling projects, characters, and shots, with a CLI that orchestrates video generation, voice synthesis, and export subsystems. It is currently at an architecture-and-workflow prototype stage."
-role: "Solo developer (architecture and full-stack implementation)"
-problem: "Personal AI short-film creation involves stitching together many disconnected tools: image generation, video generation, voice cloning, subtitling, and post-production. These tools share no common data model or orchestration layer, making manual chaining error-prone and hard to reproduce for the same project. Converging these heterogeneous subsystems into one clear, traceable production pipeline is the core problem this project tackles."
-solution: "The project uses a conservative refactor: a new studio/ package provides the project-facing architecture, with Pydantic-typed models for projects, characters, shots, video, audio, and QC, and a standardized workspace under data/projects/<slug>/. A CLI (python -m studio.cli.main) orchestrates creating projects, registering characters, defining shots, preparing render tasks, and executing audio/video task manifests. The video layer is designed around LTX-2.3 and Wan-family providers split into API, ComfyUI, and local routes, currently emitting normalized task manifests only. Existing scripts/ subsystems (image generation, TTS, analysis, editing) are intentionally left in place and wrapped by the new orchestration layer rather than rewritten, alongside a vLLM + FastAPI LLM gateway and a Vanilla JS + FastAPI Web UI for inference and batch-job monitoring."
-outcome: "Currently a prototype: project workspace creation, character/shot registries, task-manifest preparation, FFmpeg-based export and subtitle generation, and voice-dataset export are working, while Wan-family inference, automatic I2V continuation, audio synthesis/alignment, and QC scoring remain scaffolded and not yet fully implemented. It is honestly framed as an exploratory, in-progress learning project."
+title: "Animation AI Studio: A Demoable AI Animation Workflow Platform"
+tagline: "Turning shot planning, generation jobs, artifact review, and system monitoring into an interview-ready product surface"
+summary: "Animation AI Studio is a local-first AI animation workflow platform. It has been shaped from a research-heavy script collection into a portfolio-ready demo with a GitHub Pages project site, a runnable mock-safe Web UI, seeded demo scenarios, screenshots, and a WebM walkthrough. Reviewers can understand the project from the public page first, then run the local demo mode to inspect FastAPI, SQLite, job orchestration, result browsing, and system monitoring."
+role: "Solo developer (product framing, full-stack implementation, demo engineering, deployment, and documentation)"
+problem: "AI animation projects often remain hard to evaluate because they depend on GPU hardware, model weights, ComfyUI, API keys, media assets, and many batch scripts. That is weak for interviews: reviewers cannot quickly understand the value or reliably see a working result. This project solves the presentation problem by turning a research pipeline into a demoable, screenshot-ready, recordable, and honestly scoped portfolio project."
+solution: "I built a dual-mode architecture. Demo mode uses repo-local SQLite and outputs/demo with a deterministic mock runner that writes logs, summaries, storyboard manifests, quality reports, and gallery previews without private keys, GPU access, or model files. Full mode preserves the integration path to ComfyUI, image providers, TTS, FFmpeg, and batch scripts. The Web UI is a Vanilla JS SPA served by FastAPI, with Jobs, Action, Image, Creative, Results, and System pages. The backend uses FastAPI routers, a SQLite job database, and a JobService layer for execution and progress tracking. A separate GitHub Pages site presents the product in the first viewport and includes screenshots, a WebM demo, architecture notes, and local run instructions."
+outcome: "The public demo path is complete: GitHub Pages serves the landing page, screenshots, demo video, and description; the local runner seeds sample data and starts the Web UI; core APIs, frontend JS syntax, Python py_compile, focused pytest tests, demo job submission, and public media HTTP checks have all been verified. The full GPU/model pipeline still requires local model assets, external services, and provider credentials, so it is documented as a full-mode extension path rather than overstated as universally runnable."
 highlights:
-  - "Pydantic-typed data models for projects, characters, and shots"
-  - "Standardized data/projects workspace with character, shot, and LoRA registries"
-  - "Project-facing CLI orchestrating creation, render prep, and task execution"
-  - "Multi-provider video architecture for LTX-2.3 and Wan2.2 (API / ComfyUI / local)"
-  - "Dialogue-driven TTS and source-video speaker segmentation analysis"
-  - "Per-character voice-clone and RVC / singing-conversion dataset export"
+  - "GitHub Pages project site with positioning, architecture, screenshots, WebM demo, and local run instructions"
+  - "Mock-safe demo mode that runs without API keys, model weights, or GPU access"
+  - "Seeded scenarios for completed, running, failed, and provider-routing states"
+  - "FastAPI + SQLite backend for jobs, outputs, stats, results, and system metrics"
+  - "Vanilla JS Web UI with Jobs Dashboard, Results Browser, System Monitor, and job details"
+  - "Demo artifacts including summary.json, quality_report.json, storyboard manifests, logs, and gallery previews"
 challenges:
-  - "Refactoring conservatively by wrapping existing scripts/ subsystems without breaking them"
-  - "Designing a unified provider interface and normalized task manifests across heterogeneous backends (LTX-2.3 / Wan / ComfyUI)"
-  - "Planning an LLM gateway and model switching under the constraint that a 16GB RTX 5080 can load only one model at a time"
+  - "Packaging scattered AI scripts into a product-like demo that an interviewer can understand quickly"
+  - "Keeping the demo credible without relying on GPU hardware, ComfyUI, model weights, or private credentials"
+  - "Drawing a clear boundary between mock-safe demo mode and full-mode runtime integrations"
 nextSteps:
-  - "Complete actual execution of Wan-family inference and automatic I2V continuation"
-  - "Implement audio synthesis/alignment and the FFmpeg-based composition/export pipeline"
-  - "Build out continuity scoring and QC execution, and finish the end-to-end Web UI flow"
+  - "Deploy the interactive FastAPI demo to Render, Railway, Fly.io, or a VM so reviewers can use it without local setup"
+  - "Add more real model-output examples so demo artifacts can mix mock previews with actual generations"
+  - "Strengthen full-mode provider execution, retry/cancel behavior, and artifact preview with broader end-to-end tests"
 ---
-## Background
+## What To Review
 
-Animation AI Studio is a local-first, modular AI animation pipeline aimed at systematizing short-form, shot-based creative workflows. AI short-film creation typically requires gluing together many tools: image generation, video generation, voice cloning, subtitling, and post-production, each with its own input/output formats and no shared data model or orchestration. This project attempts to converge those heterogeneous subsystems into one clear, repeatable pipeline.
+The project is now framed around the ability to make a complex AI workflow inspectable. The public site shows the demo video and screenshots. The local demo mode lets reviewers seed jobs, submit a mock job, browse generated artifacts, and inspect CPU/RAM/GPU/disk monitoring without needing a private runtime.
 
 ## Architecture
 
-The project follows a conservative refactor strategy split into two layers. The new `studio/` package is the project-facing core, containing `core` (shared result models, paths, storage), `story` (project and shot schemas), `assets` (character and LoRA registries), `video`/`audio` (task models and provider interfaces), `editing`, `evaluation`, `pipelines`, and `cli`. The existing `scripts/` subsystems (generation, synthesis, analysis, editing, orchestration, training) are intentionally retained and wrapped by the new orchestration layer rather than replaced outright, keeping refactor risk manageable.
+There are two frontend surfaces: `portfolio-web/` is the GitHub Pages static project site with screenshots and video, while `web_ui/frontend/` is the Vanilla JS SPA for the interactive dashboard. The backend is `web_ui/backend/`, a FastAPI service with routers for jobs, stats, results, system metrics, action, image, and creative flows. SQLite stores jobs, outputs, progress events, and metrics. JobService owns execution: demo mode writes deterministic artifacts, while full mode can hand off to batch scripts and external providers.
 
-All domain objects are defined as Pydantic-typed models (e.g., `ShotSpec`, `ShotCharacterBinding`), and project data lands in standardized `data/projects/<slug>/` workspaces containing project.yaml, characters, shots, assets/loras, audio, renders, and exports.
+## Demo Flow
 
-## Technical Detail
+The recommended interview flow is: open the GitHub Pages page and explain the project positioning; show the Jobs Dashboard with completed/running/failed states; open the Results Browser and inspect outputs/demo artifacts; submit a demo-mode job and watch it complete with logs, summary, storyboard, and gallery outputs; then open System Monitor to explain how the same interface maps to real GPU/model pipeline execution.
 
-The video layer is reoriented around LTX-2.3 and the Wan family, split into `ltx23_api`, `ltx23_comfy`, and `ltx23_local` routes, all emitting normalized task manifests as a unified output; the ComfyUI route injects parameters via workflow templates with placeholders such as `__PROMPT__` and `__IMAGE_URI__`. The audio subsystem spans Whisper speaker segmentation, dialogue-driven TTS, per-character voice-dataset export, and a roadmap toward RVC, Seed-VC, Demucs, and DiffSinger/OpenUtau singing conversion. There is also a vLLM + FastAPI LLM gateway optimized for an RTX 5080 16GB (loading a single model at a time) and a Vanilla JS + FastAPI + SSE Web UI to submit and monitor batch jobs. The stack spans PyTorch 2.7 / CUDA 12.8, Diffusers, Transformers, ControlNet, InsightFace, FAISS/ChromaDB, and moviepy/OpenCV/FFmpeg.
+## Engineering Tradeoffs
 
-## What I Learned
-
-The biggest takeaway is "define the data models and interfaces clearly before implementing": typed schemas and provider interfaces abstract heterogeneous tools so the orchestration layer can evolve incrementally without rewriting legacy code. It is also an honest learning prototype, the README explicitly separates "implemented" from "scaffolded only" to avoid overstating unfinished capabilities, and that honest marking of engineering boundaries is itself a valuable practice.
+Demo mode and full mode are intentionally separate. Demo mode optimizes reliability: no private environment, no model downloads, no `/mnt/data` dependency, and all outputs are regenerated under repo-local `outputs/demo`. Full mode keeps the path to ComfyUI, LTX/Wan providers, TTS, FFmpeg, and existing scripts, but it is clearly documented as requiring local runtime assets and credentials. That makes the portfolio demo honest while still showing architecture, observability, and deployment thinking.

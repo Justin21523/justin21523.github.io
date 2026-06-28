@@ -47,7 +47,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-09",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -198,7 +198,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.329Z"
+      "lastScannedAt": "2026-06-28T12:20:55.173Z"
     },
     "content": {
       "zh-TW": {
@@ -575,7 +575,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.332Z"
+      "lastScannedAt": "2026-06-28T12:20:55.175Z"
     },
     "content": {
       "zh-TW": {
@@ -955,7 +955,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-26",
+      "startedAt": "2026-06-27",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -1092,7 +1092,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.333Z"
+      "lastScannedAt": "2026-06-28T12:20:55.176Z"
     },
     "content": {
       "zh-TW": {
@@ -1205,7 +1205,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-09",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -1343,7 +1343,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.333Z"
+      "lastScannedAt": "2026-06-28T12:20:55.177Z"
     },
     "content": {
       "zh-TW": {
@@ -1519,16 +1519,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/ai-game-website/project.override.json",
         "content/projects/ai-game-website/zh-TW.md",
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.333Z"
+      "lastScannedAt": "2026-06-28T12:20:55.177Z"
     },
     "content": {
       "zh-TW": {
@@ -1622,7 +1620,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-15",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -1703,7 +1701,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.334Z"
+      "lastScannedAt": "2026-06-28T12:20:55.177Z"
     },
     "content": {
       "zh-TW": {
@@ -1816,7 +1814,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-25",
+      "startedAt": "2026-06-27",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -1933,7 +1931,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.334Z"
+      "lastScannedAt": "2026-06-28T12:20:55.177Z"
     },
     "content": {
       "zh-TW": {
@@ -1990,28 +1988,30 @@
     "id": "project-animation-ai-studio-pf-2026-ai-007",
     "slug": "animation-ai-studio",
     "category": "ai-data",
-    "status": "prototype",
+    "status": "completed",
     "year": 2026,
-    "featured": false,
+    "featured": true,
     "technologies": [
       "Python",
-      "PyTorch",
       "FastAPI",
+      "SQLite",
+      "Vanilla JavaScript",
+      "Server-Sent Events",
       "Pydantic",
-      "vLLM",
-      "Stable Diffusion / Diffusers",
-      "FFmpeg",
+      "PyTorch",
+      "Diffusers",
       "ComfyUI",
-      "Whisper",
-      "FAISS"
+      "FFmpeg",
+      "GitHub Pages"
     ],
+    "coverImage": "/portfolio/projects/animation-ai-studio/cover.png",
     "links": [
       {
         "kind": "live",
         "url": "https://justin21523.github.io/animation-ai-studio/",
         "label": {
-          "zh-TW": "互動 Demo",
-          "en": "Interactive Demo"
+          "zh-TW": "開啟 Demo 網站",
+          "en": "Open Demo Site"
         },
         "primary": true
       },
@@ -2030,11 +2030,108 @@
           "zh-TW": "閱讀 README",
           "en": "Read README"
         }
+      },
+      {
+        "kind": "video",
+        "url": "/portfolio/projects/animation-ai-studio/demo/demo-walkthrough.webm",
+        "label": {
+          "zh-TW": "觀看 Demo 錄影",
+          "en": "Watch Demo Video"
+        }
       }
     ],
-    "media": [],
+    "media": [
+      {
+        "id": "demo-walkthrough",
+        "type": "video",
+        "src": "/portfolio/projects/animation-ai-studio/demo/demo-walkthrough.webm",
+        "poster": "/portfolio/projects/animation-ai-studio/screenshots/webui-jobs.png",
+        "alt": {
+          "zh-TW": "Animation AI Studio demo 錄影，展示作品頁、Job Dashboard、Results Browser 與 System Monitor。",
+          "en": "Animation AI Studio demo walkthrough showing the portfolio page, job dashboard, results browser, and system monitor."
+        },
+        "title": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Walkthrough"
+        },
+        "caption": {
+          "zh-TW": "公開展示用 WebM 影片，使用 mock-safe demo mode 產生的真實截圖串接而成。",
+          "en": "A public WebM walkthrough assembled from real mock-safe demo-mode screenshots."
+        },
+        "featured": true
+      },
+      {
+        "id": "job-dashboard",
+        "type": "image",
+        "src": "/portfolio/projects/animation-ai-studio/screenshots/webui-jobs.png",
+        "alt": {
+          "zh-TW": "Animation AI Studio Web UI Job Dashboard，顯示 completed、running、failed demo scenarios。",
+          "en": "Animation AI Studio Web UI job dashboard with completed, running, and failed demo scenarios."
+        },
+        "title": {
+          "zh-TW": "Job Dashboard",
+          "en": "Job Dashboard"
+        },
+        "caption": {
+          "zh-TW": "Seeded demo data 讓面試官可立即看到排程、進度、錯誤狀態與 mock-safe pipeline 行為。",
+          "en": "Seeded demo data makes queue state, progress, failure handling, and mock-safe pipeline behavior immediately visible."
+        },
+        "featured": true
+      },
+      {
+        "id": "result-browser",
+        "type": "image",
+        "src": "/portfolio/projects/animation-ai-studio/screenshots/webui-results.png",
+        "alt": {
+          "zh-TW": "Animation AI Studio Results Browser，顯示 demo output folders。",
+          "en": "Animation AI Studio result browser showing demo output folders."
+        },
+        "title": {
+          "zh-TW": "Results Browser",
+          "en": "Results Browser"
+        },
+        "caption": {
+          "zh-TW": "瀏覽 repo-local demo artifacts，例如 summary、quality report、storyboard manifest 與 gallery preview。",
+          "en": "Browses repo-local demo artifacts such as summaries, quality reports, storyboard manifests, and gallery previews."
+        }
+      },
+      {
+        "id": "system-monitor",
+        "type": "image",
+        "src": "/portfolio/projects/animation-ai-studio/screenshots/webui-system.png",
+        "alt": {
+          "zh-TW": "Animation AI Studio System Monitor，顯示 CPU、RAM、GPU、Disk 與使用率圖表。",
+          "en": "Animation AI Studio system monitor showing CPU, RAM, GPU, disk, and usage chart."
+        },
+        "title": {
+          "zh-TW": "System Monitor",
+          "en": "System Monitor"
+        },
+        "caption": {
+          "zh-TW": "用 FastAPI + SSE 呈現本地 AI pipeline 執行時最重要的資源監控訊號。",
+          "en": "FastAPI + SSE expose the resource signals that matter for local AI pipeline execution."
+        }
+      },
+      {
+        "id": "portfolio-landing",
+        "type": "image",
+        "src": "/portfolio/projects/animation-ai-studio/screenshots/portfolio-landing.png",
+        "alt": {
+          "zh-TW": "Animation AI Studio GitHub Pages landing page。",
+          "en": "Animation AI Studio GitHub Pages landing page."
+        },
+        "title": {
+          "zh-TW": "GitHub Pages Demo Site",
+          "en": "GitHub Pages Demo Site"
+        },
+        "caption": {
+          "zh-TW": "靜態作品頁整合產品定位、架構、截圖、錄影與本機啟動指引。",
+          "en": "The static project site combines positioning, architecture, screenshots, video, and local run instructions."
+        }
+      }
+    ],
     "metadata": {
-      "startedAt": "2025-12-29",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -2043,45 +2140,46 @@
       "aliases": [],
       "primaryCategory": "ai-data",
       "secondaryCategories": [],
-      "projectType": "Local-first modular AI animation pipeline",
+      "projectType": "Portfolio-ready AI animation workflow platform",
       "domains": [
         "Generative AI",
         "AI animation",
-        "Voice synthesis",
+        "Workflow orchestration",
         "Media production tooling",
-        "MLOps"
+        "MLOps",
+        "Portfolio demo engineering"
       ],
       "subjects": [],
       "controlledTerms": [
         "Python",
-        "PyTorch",
         "FastAPI",
+        "SQLite",
+        "Vanilla JavaScript",
+        "Server-Sent Events",
         "Pydantic",
-        "vLLM",
-        "Stable Diffusion / Diffusers",
-        "FFmpeg",
+        "PyTorch",
+        "Diffusers",
         "ComfyUI",
-        "Whisper",
-        "FAISS"
+        "FFmpeg",
+        "GitHub Pages"
       ],
       "keywords": [
         "AI animation",
-        "text-to-video",
-        "image-to-video",
-        "LTX-2.3",
-        "Wan2.2",
-        "voice cloning",
-        "RVC",
-        "singing voice conversion",
-        "pipeline architecture",
-        "local-first"
+        "portfolio demo",
+        "FastAPI",
+        "SQLite",
+        "job orchestration",
+        "mock-safe workflow",
+        "GitHub Pages",
+        "MLOps"
       ],
       "audiences": [],
       "contentTypes": [],
       "dataTypes": [],
       "platforms": [
+        "Web",
         "CLI",
-        "Web"
+        "GitHub Pages"
       ],
       "operatingSystems": [],
       "languages": [
@@ -2090,34 +2188,30 @@
       ],
       "frameworks": [
         "FastAPI",
-        "PyTorch",
         "Pydantic",
-        "LangChain / LangGraph",
-        "Diffusers"
+        "Vanilla JavaScript SPA",
+        "GitHub Actions",
+        "GitHub Pages"
       ],
       "libraries": [
-        "vLLM",
-        "Transformers",
-        "OpenAI Whisper",
-        "librosa",
-        "moviepy",
-        "OpenCV",
-        "FAISS",
-        "ChromaDB",
-        "sentence-transformers",
-        "ControlNet-aux",
-        "InsightFace"
+        "SQLite",
+        "sse-starlette",
+        "psutil",
+        "PyYAML",
+        "Pytest",
+        "Playwright",
+        "FFmpeg"
       ],
       "stateManagement": [],
       "styling": [],
       "database": [],
       "backend": [
-        "FastAPI gateway",
-        "vLLM inference servers",
-        "Redis cache",
-        "FFmpeg",
-        "ComfyUI",
-        "Server-Sent Events"
+        "FastAPI routers",
+        "SQLite job database",
+        "JobService async execution",
+        "Demo-mode artifact generator",
+        "Results browser API",
+        "System metrics API"
       ],
       "desktop": [],
       "gameEngine": [],
@@ -2128,31 +2222,32 @@
       "deployment": [],
       "developmentTools": [],
       "roles": [
-        "獨立開發者（架構設計與全端實作）"
+        "獨立開發者（產品定位、全端實作、demo engineering、部署與文件整理）"
       ],
       "responsibilities": [],
       "collaborationType": "Solo",
       "learningGoals": [],
       "skillsDemonstrated": [
         "Python",
-        "PyTorch",
         "FastAPI",
+        "SQLite",
+        "Vanilla JavaScript",
+        "Server-Sent Events",
         "Pydantic",
-        "vLLM",
-        "Stable Diffusion / Diffusers",
-        "FFmpeg",
+        "PyTorch",
+        "Diffusers",
         "ComfyUI",
-        "Whisper",
-        "FAISS"
+        "FFmpeg",
+        "GitHub Pages"
       ],
       "capabilities": [
-        "Scaffolding shot-based animation production workflows",
-        "Creating typed project workspaces and registries",
-        "Preparing provider-based video generation task manifests",
-        "Generating dialogue-driven TTS and subtitle tasks",
-        "Analyzing source video for speaker segmentation",
-        "Exporting per-character voice-clone training datasets",
-        "Orchestrating self-hosted LLM inference via a gateway"
+        "Mock-safe demo mode that runs without API keys, model weights, or GPU access",
+        "Seeded demo scenarios for completed, running, and failed job states",
+        "FastAPI job orchestration with SQLite persistence",
+        "Result artifact browser for logs, summaries, manifests, and gallery previews",
+        "Realtime CPU/RAM/GPU/disk monitoring through SSE-compatible APIs",
+        "Static GitHub Pages demo site with screenshots and WebM walkthrough",
+        "Full-mode extension path for ComfyUI, image providers, TTS, FFmpeg, and batch scripts"
       ],
       "tools": [],
       "hasUnitTests": false,
@@ -2169,76 +2264,74 @@
       "dependencies": [],
       "extractionConfidence": 0.8,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/animation-ai-studio/project.override.json",
         "content/projects/animation-ai-studio/zh-TW.md",
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.335Z"
+      "lastScannedAt": "2026-06-28T12:20:55.177Z"
     },
     "content": {
       "zh-TW": {
-        "title": "Animation AI Studio：本地優先的模組化 AI 動畫生產管線",
-        "summary": "一套以本地優先、模組化為核心的 AI 動畫生產管線，聚焦短片與分鏡式工作流。專案以 studio/ 套件重構出型別化的專案、角色與分鏡資料模型，並以 CLI 串接影片生成、語音合成與輸出等子系統。目前處於架構與工作流的雛形階段。",
-        "description": "## 背景\n\nAnimation AI Studio 是一套本地優先（local-first）、模組化的 AI 動畫生產管線，目標是把短片、分鏡式的創作流程系統化。AI 短片創作通常需要拼接大量工具：影像生成、影片生成、語音克隆、字幕與後製，每個工具各有自己的輸入輸出格式，缺乏統一的資料模型與編排。這個專案嘗試把這些異質子系統收斂成一條清晰、可重複執行的管線。\n\n## 架構\n\n專案採取保守式重構策略，分為兩層。新的 `studio/` 套件是面向專案的核心架構，內含 `core`（共用結果模型、路徑、儲存）、`story`（專案與分鏡 schema）、`assets`（角色與 LoRA 註冊）、`video`／`audio`（任務模型與 provider 介面）、`editing`、`evaluation`、`pipelines` 與 `cli`。既有的 `scripts/` 子系統（生成、合成、分析、編輯、編排、訓練）刻意保留，由新編排層包覆而非立即取代，讓重構風險可控。\n\n所有領域物件都以 Pydantic 型別化定義（如 `ShotSpec`、`ShotCharacterBinding`），專案資料則以標準化的 `data/projects/<slug>/` 工作區落地，包含 project.yaml、characters、shots、assets/loras、audio、renders 與 exports 等目錄。\n\n## 技術細節\n\n影片生成層圍繞 LTX-2.3 與 Wan 系列重新設計，拆成 `ltx23_api`、`ltx23_comfy`、`ltx23_local` 三條路徑，並以正規化的 task manifest 作為統一輸出；ComfyUI 路徑透過帶有 `__PROMPT__`、`__IMAGE_URI__` 等佔位符的工作流範本注入參數。語音子系統涵蓋 Whisper 語者分段、對話驅動 TTS、per-character 語音資料集匯出，以及通往 RVC、Seed-VC、Demucs、DiffSinger／OpenUtau 的歌聲轉換路線圖。此外還有以 vLLM + FastAPI 打造、針對 RTX 5080 16GB 最佳化的 LLM gateway（一次僅載入單一模型），以及 Vanilla JS + FastAPI + SSE 的 Web UI 來提交與監控批次任務。技術棧涵蓋 PyTorch 2.7 / CUDA 12.8、Diffusers、Transformers、ControlNet、InsightFace、FAISS／ChromaDB、moviepy／OpenCV／FFmpeg 等。\n\n## 學到什麼\n\n這個專案最大的收穫在於「先把資料模型與介面定義清楚，再談實作」：用型別化 schema 與 provider 介面把異質工具抽象化，讓編排層得以在不重寫舊程式的情況下逐步演進。它也是一個誠實的學習型雛形——README 明確區分「已實作」與「僅 scaffold」，避免誇大未完成的能力，這種對工程邊界的誠實標示本身就是重要的實務練習。",
-        "tagline": "把分鏡、影像、語音與生成模型串成一條可重複的短片生產流程",
-        "role": "獨立開發者（架構設計與全端實作）",
-        "problem": "個人化 AI 短片創作牽涉影像生成、影片生成、語音克隆、字幕與後製等大量分散工具，彼此之間缺乏統一的資料模型與流程編排。手動串接這些工具既容易出錯，也難以重複執行同一個專案。如何把這些異質子系統收斂成一條清晰、可追蹤的生產管線，是本專案要解決的核心問題。",
-        "solution": "專案採用保守式重構：新建 studio/ 套件作為面向專案的新架構，用 Pydantic 定義型別化的專案、角色、分鏡、影片、語音與 QC 資料模型，並在 data/projects/<slug>/ 下建立標準化的工作區。CLI（python -m studio.cli.main）負責編排建立專案、註冊角色、定義分鏡、準備渲染任務與執行音訊／影片任務清單。影片層圍繞 LTX-2.3 與 Wan 系列 provider 設計，分成 API、ComfyUI 與本地三條路徑，目前只產生正規化的任務 manifest。既有的 scripts/ 子系統（影像生成、TTS、分析、編輯）刻意保留，由新編排層包覆而非立即重寫；另有 vLLM + FastAPI 的 LLM gateway 與 Vanilla JS + FastAPI 的 Web UI 提供推論與批次監控能力。",
-        "outcome": "目前為雛形階段：專案工作區、角色／分鏡註冊、任務 manifest 準備、FFmpeg 匯出與字幕生成、語音資料集匯出等已可運作；而 Wan 系列推論、自動 I2V 接續、音訊合成對齊與 QC 評分等仍為 scaffold，尚未完整實作。這是一個誠實標示為學習與探索性質的進行中專案。",
+        "title": "Animation AI Studio：可展示的 AI 動畫工作流 Demo 平台",
+        "summary": "Animation AI Studio 是一個本地優先的 AI 動畫工作流平台。這次整理後，專案不再只是研究型 scripts，而是具備 GitHub Pages 作品頁、可重跑的 mock-safe Web UI、seeded demo scenarios、截圖與錄影素材的 portfolio demo。面試官可以先看公開頁面理解價值，再用本機 demo mode 看到 FastAPI、SQLite、Job Queue、Results Browser 與 System Monitor 的完整操作流程。",
+        "description": "## 展示重點\n\n這個專案現在的展示重點不是「我有很多生成模型 scripts」，而是「我能把複雜 AI pipeline 整理成可觀測、可重跑、可部署、可被非專案成員理解的產品介面」。公開頁面可以直接看到 demo video 與 screenshots，本機 demo mode 則可以實際跑出 seeded jobs、提交 mock job、瀏覽 outputs，並看到 CPU/RAM/GPU/Disk 監控。\n\n## 技術架構\n\n前端分成兩層：`portfolio-web/` 是 GitHub Pages 靜態展示站，放置 landing page、截圖與錄影；`web_ui/frontend/` 是 Vanilla JS SPA，提供 Jobs、Results、System 等操作頁。後端是 `web_ui/backend/` 的 FastAPI service，包含 jobs、stats、results、system、action、image、creative 等 routers。資料層使用 SQLite，記錄 jobs、job_outputs、progress events 與 system metrics。執行層由 JobService 管理：demo mode 走 deterministic artifact generator，full mode 才交給 batch scripts 與外部 provider。\n\n## Demo 操作流程\n\n建議面試展示流程是：先打開 GitHub Pages 作品頁說明定位，再展示 Jobs Dashboard 的 completed/running/failed 狀態；接著打開 Results Browser 看 outputs/demo 裡的 artifacts；再提交一個 demo-mode job，展示 job 從 pending 到 completed 並產生 logs、summary、storyboard、gallery；最後打開 System Monitor，說明這個介面如何對應真實 GPU/模型 pipeline 的資源監控。\n\n## 工程取捨\n\n我刻意把 demo mode 和 full mode 分開。demo mode 的目標是穩定展示：不需要私密環境、不讀大型模型、不依賴 `/mnt/data`，所有輸出都在 repo-local `outputs/demo` 產生。full mode 則保留通往 ComfyUI、LTX/Wan providers、TTS、FFmpeg 與既有 scripts 的路徑，但文件明確標示這部分需要本機 runtime、模型資產與 credentials。這樣做可以讓作品展示誠實，同時也讓面試官看到我對部署、可觀測性與 demo engineering 的重視。",
+        "tagline": "把分鏡規劃、生成任務、結果瀏覽與系統監控整理成面試官能快速理解的產品介面",
+        "role": "獨立開發者（產品定位、全端實作、demo engineering、部署與文件整理）",
+        "problem": "AI 動畫專案很容易停留在模型腳本或半成品狀態：需要 GPU、模型權重、ComfyUI、API key、影片素材與多個 batch scripts 才能展示。這對面試情境很不友善，因為審查者無法在短時間內理解專案價值，也無法穩定看到功能成果。這個專案要解決的是：如何把研究型 AI pipeline 包裝成可以展示、截圖、錄影、重跑且誠實標示能力邊界的作品集專案。",
+        "solution": "我建立了雙模式架構：demo mode 使用 repo-local SQLite 與 outputs/demo，透過 deterministic mock runner 產生 logs、summary、storyboard、quality report 與 gallery preview，不需要私密金鑰、GPU 或模型檔；full mode 則保留原本通往 ComfyUI、image providers、TTS、FFmpeg 與 batch scripts 的整合路徑。Web UI 使用 Vanilla JS SPA + FastAPI，提供 Jobs、Action、Image、Creative、Results、System 等頁面；後端以 FastAPI routers、SQLite job database 與 JobService 管理任務、輸出與進度。另有 GitHub Pages 的 portfolio-web，第一屏直接展示產品本體，並包含截圖、WebM demo 影片、架構說明與本機啟動指令。",
+        "outcome": "目前公開展示鏈路已完成：GitHub Pages 能看到完整 landing page、截圖、錄影 demo 與說明；本機可用 scripts/demo/run_web_ui_demo.sh seed demo data 並啟動 Web UI；核心 API、前端 JS 語法、Python py_compile、重點 pytest、demo job submission、公開媒體資產 200 檢查都已驗證。完整 GPU/model pipeline 仍需本機模型、外部服務與 provider credentials，因此在文件中明確標示為 full-mode extension path。",
         "features": [],
         "metrics": [],
         "highlights": [
-          "以 Pydantic 建立型別化的專案／角色／分鏡資料模型",
-          "標準化的 data/projects 工作區與角色、分鏡、LoRA 註冊表",
-          "面向專案的 CLI 編排建立、渲染準備與任務執行",
-          "LTX-2.3 與 Wan2.2 多 provider 影片生成架構（API／ComfyUI／本地）",
-          "對話驅動的 TTS 與來源影片語者分段分析",
-          "per-character 語音克隆與 RVC／歌聲轉換訓練資料集匯出"
+          "GitHub Pages 公開展示頁：包含產品定位、架構、截圖、WebM demo 與本機操作指引",
+          "Mock-safe demo mode：不需要 API key、模型權重或 GPU，也能展示完整 job flow",
+          "Seeded scenarios：completed、running、failed、provider routing 等展示狀態",
+          "FastAPI + SQLite job backend：jobs、outputs、stats、results、system metrics API",
+          "Vanilla JS Web UI：Jobs Dashboard、Results Browser、System Monitor 與 job detail",
+          "Demo artifacts：summary.json、quality_report.json、storyboard manifest、logs、gallery preview"
         ],
         "challenges": [
-          "在不破壞既有 scripts/ 子系統的前提下，用新編排層保守式包覆重構",
-          "為 LTX-2.3 / Wan / ComfyUI 等異質後端設計統一的 provider 介面與正規化 task manifest",
-          "在 16GB VRAM（RTX 5080）一次只能載入單一模型的限制下規劃 LLM gateway 與模型切換"
+          "把原本分散的 AI scripts 包裝成可被面試官快速理解的產品型 demo，而不是只展示程式碼",
+          "在不依賴 GPU、ComfyUI、模型權重或私密金鑰的情況下，仍保留可信的資料流與結果輸出",
+          "維持 demo mode 與 full mode 的界線，避免公開展示時誇大尚需外部 runtime 的能力"
         ],
         "nextSteps": [
-          "完成 Wan 系列推論與自動 I2V 接續的實際執行",
-          "落實音訊合成／對齊與 FFmpeg 合成輸出管線",
-          "實作連續性評分與 QC 執行，並完善 Web UI 端到端流程"
+          "將互動式 FastAPI demo 部署到 Render / Railway / Fly.io，讓面試官不必本機啟動也能操作",
+          "補上更多真實模型輸出案例，讓 demo artifacts 從 mock preview 擴展到真實生成結果",
+          "把 full-mode provider execution、queue retry、job cancellation 與 artifact preview 做更完整的端到端測試"
         ]
       },
       "en": {
-        "title": "Animation AI Studio: A Local-First Modular AI Animation Pipeline",
-        "summary": "A local-first, modular AI animation pipeline focused on short-form, shot-based production workflows. The project introduces a typed studio/ package modeling projects, characters, and shots, with a CLI that orchestrates video generation, voice synthesis, and export subsystems. It is currently at an architecture-and-workflow prototype stage.",
-        "description": "## Background\n\nAnimation AI Studio is a local-first, modular AI animation pipeline aimed at systematizing short-form, shot-based creative workflows. AI short-film creation typically requires gluing together many tools: image generation, video generation, voice cloning, subtitling, and post-production, each with its own input/output formats and no shared data model or orchestration. This project attempts to converge those heterogeneous subsystems into one clear, repeatable pipeline.\n\n## Architecture\n\nThe project follows a conservative refactor strategy split into two layers. The new `studio/` package is the project-facing core, containing `core` (shared result models, paths, storage), `story` (project and shot schemas), `assets` (character and LoRA registries), `video`/`audio` (task models and provider interfaces), `editing`, `evaluation`, `pipelines`, and `cli`. The existing `scripts/` subsystems (generation, synthesis, analysis, editing, orchestration, training) are intentionally retained and wrapped by the new orchestration layer rather than replaced outright, keeping refactor risk manageable.\n\nAll domain objects are defined as Pydantic-typed models (e.g., `ShotSpec`, `ShotCharacterBinding`), and project data lands in standardized `data/projects/<slug>/` workspaces containing project.yaml, characters, shots, assets/loras, audio, renders, and exports.\n\n## Technical Detail\n\nThe video layer is reoriented around LTX-2.3 and the Wan family, split into `ltx23_api`, `ltx23_comfy`, and `ltx23_local` routes, all emitting normalized task manifests as a unified output; the ComfyUI route injects parameters via workflow templates with placeholders such as `__PROMPT__` and `__IMAGE_URI__`. The audio subsystem spans Whisper speaker segmentation, dialogue-driven TTS, per-character voice-dataset export, and a roadmap toward RVC, Seed-VC, Demucs, and DiffSinger/OpenUtau singing conversion. There is also a vLLM + FastAPI LLM gateway optimized for an RTX 5080 16GB (loading a single model at a time) and a Vanilla JS + FastAPI + SSE Web UI to submit and monitor batch jobs. The stack spans PyTorch 2.7 / CUDA 12.8, Diffusers, Transformers, ControlNet, InsightFace, FAISS/ChromaDB, and moviepy/OpenCV/FFmpeg.\n\n## What I Learned\n\nThe biggest takeaway is \"define the data models and interfaces clearly before implementing\": typed schemas and provider interfaces abstract heterogeneous tools so the orchestration layer can evolve incrementally without rewriting legacy code. It is also an honest learning prototype, the README explicitly separates \"implemented\" from \"scaffolded only\" to avoid overstating unfinished capabilities, and that honest marking of engineering boundaries is itself a valuable practice.",
-        "tagline": "Wiring storyboards, imagery, voice, and generative models into one repeatable short-film pipeline",
-        "role": "Solo developer (architecture and full-stack implementation)",
-        "problem": "Personal AI short-film creation involves stitching together many disconnected tools: image generation, video generation, voice cloning, subtitling, and post-production. These tools share no common data model or orchestration layer, making manual chaining error-prone and hard to reproduce for the same project. Converging these heterogeneous subsystems into one clear, traceable production pipeline is the core problem this project tackles.",
-        "solution": "The project uses a conservative refactor: a new studio/ package provides the project-facing architecture, with Pydantic-typed models for projects, characters, shots, video, audio, and QC, and a standardized workspace under data/projects/<slug>/. A CLI (python -m studio.cli.main) orchestrates creating projects, registering characters, defining shots, preparing render tasks, and executing audio/video task manifests. The video layer is designed around LTX-2.3 and Wan-family providers split into API, ComfyUI, and local routes, currently emitting normalized task manifests only. Existing scripts/ subsystems (image generation, TTS, analysis, editing) are intentionally left in place and wrapped by the new orchestration layer rather than rewritten, alongside a vLLM + FastAPI LLM gateway and a Vanilla JS + FastAPI Web UI for inference and batch-job monitoring.",
-        "outcome": "Currently a prototype: project workspace creation, character/shot registries, task-manifest preparation, FFmpeg-based export and subtitle generation, and voice-dataset export are working, while Wan-family inference, automatic I2V continuation, audio synthesis/alignment, and QC scoring remain scaffolded and not yet fully implemented. It is honestly framed as an exploratory, in-progress learning project.",
+        "title": "Animation AI Studio: A Demoable AI Animation Workflow Platform",
+        "summary": "Animation AI Studio is a local-first AI animation workflow platform. It has been shaped from a research-heavy script collection into a portfolio-ready demo with a GitHub Pages project site, a runnable mock-safe Web UI, seeded demo scenarios, screenshots, and a WebM walkthrough. Reviewers can understand the project from the public page first, then run the local demo mode to inspect FastAPI, SQLite, job orchestration, result browsing, and system monitoring.",
+        "description": "## What To Review\n\nThe project is now framed around the ability to make a complex AI workflow inspectable. The public site shows the demo video and screenshots. The local demo mode lets reviewers seed jobs, submit a mock job, browse generated artifacts, and inspect CPU/RAM/GPU/disk monitoring without needing a private runtime.\n\n## Architecture\n\nThere are two frontend surfaces: `portfolio-web/` is the GitHub Pages static project site with screenshots and video, while `web_ui/frontend/` is the Vanilla JS SPA for the interactive dashboard. The backend is `web_ui/backend/`, a FastAPI service with routers for jobs, stats, results, system metrics, action, image, and creative flows. SQLite stores jobs, outputs, progress events, and metrics. JobService owns execution: demo mode writes deterministic artifacts, while full mode can hand off to batch scripts and external providers.\n\n## Demo Flow\n\nThe recommended interview flow is: open the GitHub Pages page and explain the project positioning; show the Jobs Dashboard with completed/running/failed states; open the Results Browser and inspect outputs/demo artifacts; submit a demo-mode job and watch it complete with logs, summary, storyboard, and gallery outputs; then open System Monitor to explain how the same interface maps to real GPU/model pipeline execution.\n\n## Engineering Tradeoffs\n\nDemo mode and full mode are intentionally separate. Demo mode optimizes reliability: no private environment, no model downloads, no `/mnt/data` dependency, and all outputs are regenerated under repo-local `outputs/demo`. Full mode keeps the path to ComfyUI, LTX/Wan providers, TTS, FFmpeg, and existing scripts, but it is clearly documented as requiring local runtime assets and credentials. That makes the portfolio demo honest while still showing architecture, observability, and deployment thinking.",
+        "tagline": "Turning shot planning, generation jobs, artifact review, and system monitoring into an interview-ready product surface",
+        "role": "Solo developer (product framing, full-stack implementation, demo engineering, deployment, and documentation)",
+        "problem": "AI animation projects often remain hard to evaluate because they depend on GPU hardware, model weights, ComfyUI, API keys, media assets, and many batch scripts. That is weak for interviews: reviewers cannot quickly understand the value or reliably see a working result. This project solves the presentation problem by turning a research pipeline into a demoable, screenshot-ready, recordable, and honestly scoped portfolio project.",
+        "solution": "I built a dual-mode architecture. Demo mode uses repo-local SQLite and outputs/demo with a deterministic mock runner that writes logs, summaries, storyboard manifests, quality reports, and gallery previews without private keys, GPU access, or model files. Full mode preserves the integration path to ComfyUI, image providers, TTS, FFmpeg, and batch scripts. The Web UI is a Vanilla JS SPA served by FastAPI, with Jobs, Action, Image, Creative, Results, and System pages. The backend uses FastAPI routers, a SQLite job database, and a JobService layer for execution and progress tracking. A separate GitHub Pages site presents the product in the first viewport and includes screenshots, a WebM demo, architecture notes, and local run instructions.",
+        "outcome": "The public demo path is complete: GitHub Pages serves the landing page, screenshots, demo video, and description; the local runner seeds sample data and starts the Web UI; core APIs, frontend JS syntax, Python py_compile, focused pytest tests, demo job submission, and public media HTTP checks have all been verified. The full GPU/model pipeline still requires local model assets, external services, and provider credentials, so it is documented as a full-mode extension path rather than overstated as universally runnable.",
         "features": [],
         "metrics": [],
         "highlights": [
-          "Pydantic-typed data models for projects, characters, and shots",
-          "Standardized data/projects workspace with character, shot, and LoRA registries",
-          "Project-facing CLI orchestrating creation, render prep, and task execution",
-          "Multi-provider video architecture for LTX-2.3 and Wan2.2 (API / ComfyUI / local)",
-          "Dialogue-driven TTS and source-video speaker segmentation analysis",
-          "Per-character voice-clone and RVC / singing-conversion dataset export"
+          "GitHub Pages project site with positioning, architecture, screenshots, WebM demo, and local run instructions",
+          "Mock-safe demo mode that runs without API keys, model weights, or GPU access",
+          "Seeded scenarios for completed, running, failed, and provider-routing states",
+          "FastAPI + SQLite backend for jobs, outputs, stats, results, and system metrics",
+          "Vanilla JS Web UI with Jobs Dashboard, Results Browser, System Monitor, and job details",
+          "Demo artifacts including summary.json, quality_report.json, storyboard manifests, logs, and gallery previews"
         ],
         "challenges": [
-          "Refactoring conservatively by wrapping existing scripts/ subsystems without breaking them",
-          "Designing a unified provider interface and normalized task manifests across heterogeneous backends (LTX-2.3 / Wan / ComfyUI)",
-          "Planning an LLM gateway and model switching under the constraint that a 16GB RTX 5080 can load only one model at a time"
+          "Packaging scattered AI scripts into a product-like demo that an interviewer can understand quickly",
+          "Keeping the demo credible without relying on GPU hardware, ComfyUI, model weights, or private credentials",
+          "Drawing a clear boundary between mock-safe demo mode and full-mode runtime integrations"
         ],
         "nextSteps": [
-          "Complete actual execution of Wan-family inference and automatic I2V continuation",
-          "Implement audio synthesis/alignment and the FFmpeg-based composition/export pipeline",
-          "Build out continuity scoring and QC execution, and finish the end-to-end Web UI flow"
+          "Deploy the interactive FastAPI demo to Render, Railway, Fly.io, or a VM so reviewers can use it without local setup",
+          "Add more real model-output examples so demo artifacts can mix mock previews with actual generations",
+          "Strengthen full-mode provider execution, retry/cancel behavior, and artifact preview with broader end-to-end tests"
         ]
       }
     }
@@ -2371,7 +2464,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-05-13",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0-demo",
@@ -2536,7 +2629,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.335Z"
+      "lastScannedAt": "2026-06-28T12:20:55.178Z"
     },
     "content": {
       "zh-TW": {
@@ -2721,16 +2814,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/aqua-rush/project.override.json",
         "content/projects/aqua-rush/zh-TW.md",
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.335Z"
+      "lastScannedAt": "2026-06-28T12:20:55.179Z"
     },
     "content": {
       "zh-TW": {
@@ -2849,7 +2940,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-22",
+      "startedAt": "2026-06-27",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -3008,7 +3099,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.336Z"
+      "lastScannedAt": "2026-06-28T12:20:55.179Z"
     },
     "content": {
       "zh-TW": {
@@ -3274,7 +3365,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.336Z"
+      "lastScannedAt": "2026-06-28T12:20:55.179Z"
     },
     "content": {
       "zh-TW": {
@@ -3440,7 +3531,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.336Z"
+      "lastScannedAt": "2026-06-28T12:20:55.179Z"
     },
     "content": {
       "zh-TW": {
@@ -3857,7 +3948,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.336Z"
+      "lastScannedAt": "2026-06-28T12:20:55.179Z"
     },
     "content": {
       "zh-TW": {
@@ -3945,7 +4036,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-20",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -4075,7 +4166,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.336Z"
+      "lastScannedAt": "2026-06-28T12:20:55.180Z"
     },
     "content": {
       "zh-TW": {
@@ -4344,7 +4435,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.337Z"
+      "lastScannedAt": "2026-06-28T12:20:55.180Z"
     },
     "content": {
       "zh-TW": {
@@ -4588,7 +4679,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.337Z"
+      "lastScannedAt": "2026-06-28T12:20:55.180Z"
     },
     "content": {
       "zh-TW": {
@@ -4812,16 +4903,14 @@
       "dependencies": [],
       "extractionConfidence": 0.7,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/css-advanced-mastery/project.override.json",
         "content/projects/css-advanced-mastery/zh-TW.md",
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.337Z"
+      "lastScannedAt": "2026-06-28T12:20:55.180Z"
     },
     "content": {
       "zh-TW": {
@@ -4907,7 +4996,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-21",
+      "startedAt": "2026-06-20",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -5040,7 +5129,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.337Z"
+      "lastScannedAt": "2026-06-28T12:20:55.180Z"
     },
     "content": {
       "zh-TW": {
@@ -5215,7 +5304,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.337Z"
+      "lastScannedAt": "2026-06-28T12:20:55.180Z"
     },
     "content": {
       "zh-TW": {
@@ -5322,7 +5411,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-26",
+      "startedAt": "2026-06-25",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -5473,7 +5562,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.338Z"
+      "lastScannedAt": "2026-06-28T12:20:55.180Z"
     },
     "content": {
       "zh-TW": {
@@ -5648,7 +5737,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.338Z"
+      "lastScannedAt": "2026-06-28T12:20:55.181Z"
     },
     "content": {
       "zh-TW": {
@@ -5740,7 +5829,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-26",
+      "startedAt": "2026-06-27",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -5837,7 +5926,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.338Z"
+      "lastScannedAt": "2026-06-28T12:20:55.181Z"
     },
     "content": {
       "zh-TW": {
@@ -5914,7 +6003,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-20",
+      "startedAt": "2026-06-16",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -5995,7 +6084,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.338Z"
+      "lastScannedAt": "2026-06-28T12:20:55.181Z"
     },
     "content": {
       "zh-TW": {
@@ -6145,16 +6234,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/digital-living/project.override.json",
         "content/projects/digital-living/zh-TW.md",
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.338Z"
+      "lastScannedAt": "2026-06-28T12:20:55.181Z"
     },
     "content": {
       "zh-TW": {
@@ -6242,7 +6329,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-09",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -6390,7 +6477,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.338Z"
+      "lastScannedAt": "2026-06-28T12:20:55.181Z"
     },
     "content": {
       "zh-TW": {
@@ -6563,7 +6650,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.338Z"
+      "lastScannedAt": "2026-06-28T12:20:55.181Z"
     },
     "content": {
       "zh-TW": {
@@ -6962,7 +7049,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.338Z"
+      "lastScannedAt": "2026-06-28T12:20:55.181Z"
     },
     "content": {
       "zh-TW": {
@@ -7380,7 +7467,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.339Z"
+      "lastScannedAt": "2026-06-28T12:20:55.181Z"
     },
     "content": {
       "zh-TW": {
@@ -7555,16 +7642,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/frontend-interaction-lab/project.override.json",
         "content/projects/frontend-interaction-lab/zh-TW.md",
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.339Z"
+      "lastScannedAt": "2026-06-28T12:20:55.182Z"
     },
     "content": {
       "zh-TW": {
@@ -7736,7 +7821,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.339Z"
+      "lastScannedAt": "2026-06-28T12:20:55.182Z"
     },
     "content": {
       "zh-TW": {
@@ -7846,7 +7931,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-09",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -7983,16 +8068,14 @@
       "dependencies": [],
       "extractionConfidence": 0.8,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/gan-ae-vision-suite/project.override.json",
         "content/projects/gan-ae-vision-suite/zh-TW.md",
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.340Z"
+      "lastScannedAt": "2026-06-28T12:20:55.182Z"
     },
     "content": {
       "zh-TW": {
@@ -8077,7 +8160,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-21",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -8205,7 +8288,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.340Z"
+      "lastScannedAt": "2026-06-28T12:20:55.182Z"
     },
     "content": {
       "zh-TW": {
@@ -8292,7 +8375,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-24",
+      "startedAt": "2026-06-26",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -8446,7 +8529,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.340Z"
+      "lastScannedAt": "2026-06-28T12:20:55.183Z"
     },
     "content": {
       "zh-TW": {
@@ -8528,7 +8611,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-21",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -8657,7 +8740,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.340Z"
+      "lastScannedAt": "2026-06-28T12:20:55.183Z"
     },
     "content": {
       "zh-TW": {
@@ -8840,16 +8923,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/highway-adventure-3d/project.override.json",
         "content/projects/highway-adventure-3d/zh-TW.md",
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.340Z"
+      "lastScannedAt": "2026-06-28T12:20:55.183Z"
     },
     "content": {
       "zh-TW": {
@@ -9078,7 +9159,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.340Z"
+      "lastScannedAt": "2026-06-28T12:20:55.183Z"
     },
     "content": {
       "zh-TW": {
@@ -9284,7 +9365,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.340Z"
+      "lastScannedAt": "2026-06-28T12:20:55.183Z"
     },
     "content": {
       "zh-TW": {
@@ -10075,7 +10156,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.341Z"
+      "lastScannedAt": "2026-06-28T12:20:55.183Z"
     },
     "content": {
       "zh-TW": {
@@ -10327,7 +10408,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.341Z"
+      "lastScannedAt": "2026-06-28T12:20:55.183Z"
     },
     "content": {
       "zh-TW": {
@@ -10579,7 +10660,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.341Z"
+      "lastScannedAt": "2026-06-28T12:20:55.184Z"
     },
     "content": {
       "zh-TW": {
@@ -10815,7 +10896,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.341Z"
+      "lastScannedAt": "2026-06-28T12:20:55.184Z"
     },
     "content": {
       "zh-TW": {
@@ -11058,7 +11139,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-26",
+      "startedAt": "2026-06-27",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -11153,7 +11234,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.341Z"
+      "lastScannedAt": "2026-06-28T12:20:55.184Z"
     },
     "content": {
       "zh-TW": {
@@ -11384,16 +11465,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/javascript-platformer-concepts/project.override.json",
         "content/projects/javascript-platformer-concepts/zh-TW.md",
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.341Z"
+      "lastScannedAt": "2026-06-28T12:20:55.184Z"
     },
     "content": {
       "zh-TW": {
@@ -11561,7 +11640,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.341Z"
+      "lastScannedAt": "2026-06-28T12:20:55.184Z"
     },
     "content": {
       "zh-TW": {
@@ -11721,7 +11800,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.342Z"
+      "lastScannedAt": "2026-06-28T12:20:55.184Z"
     },
     "content": {
       "zh-TW": {
@@ -11942,7 +12021,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.342Z"
+      "lastScannedAt": "2026-06-28T12:20:55.184Z"
     },
     "content": {
       "zh-TW": {
@@ -12400,7 +12479,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.342Z"
+      "lastScannedAt": "2026-06-28T12:20:55.184Z"
     },
     "content": {
       "zh-TW": {
@@ -12475,7 +12554,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-21",
+      "startedAt": "2026-06-20",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -12607,7 +12686,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.342Z"
+      "lastScannedAt": "2026-06-28T12:20:55.185Z"
     },
     "content": {
       "zh-TW": {
@@ -12695,7 +12774,7 @@
     "links": [],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-09",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -12840,7 +12919,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.342Z"
+      "lastScannedAt": "2026-06-28T12:20:55.185Z"
     },
     "content": {
       "zh-TW": {
@@ -13015,7 +13094,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.342Z"
+      "lastScannedAt": "2026-06-28T12:20:55.185Z"
     },
     "content": {
       "zh-TW": {
@@ -13259,7 +13338,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.342Z"
+      "lastScannedAt": "2026-06-28T12:20:55.185Z"
     },
     "content": {
       "zh-TW": {
@@ -13372,7 +13451,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-16",
+      "startedAt": "2026-05-19",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -13514,7 +13593,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.343Z"
+      "lastScannedAt": "2026-06-28T12:20:55.185Z"
     },
     "content": {
       "zh-TW": {
@@ -14299,7 +14378,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-25",
+      "startedAt": "2026-06-27",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -14392,7 +14471,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.343Z"
+      "lastScannedAt": "2026-06-28T12:20:55.185Z"
     },
     "content": {
       "zh-TW": {
@@ -14539,16 +14618,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/my-3d-platformer/project.override.json",
         "content/projects/my-3d-platformer/zh-TW.md",
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.343Z"
+      "lastScannedAt": "2026-06-28T12:20:55.186Z"
     },
     "content": {
       "zh-TW": {
@@ -14974,7 +15051,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.343Z"
+      "lastScannedAt": "2026-06-28T12:20:55.186Z"
     },
     "content": {
       "zh-TW": {
@@ -15154,7 +15231,7 @@
       }
     ],
     "metadata": {
-      "startedAt": "2026-06-26",
+      "startedAt": "2026-06-27",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -15250,7 +15327,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.344Z"
+      "lastScannedAt": "2026-06-28T12:20:55.186Z"
     },
     "content": {
       "zh-TW": {
@@ -15615,7 +15692,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.344Z"
+      "lastScannedAt": "2026-06-28T12:20:55.186Z"
     },
     "content": {
       "zh-TW": {
@@ -15728,7 +15805,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-09",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -15855,7 +15932,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.344Z"
+      "lastScannedAt": "2026-06-28T12:20:55.186Z"
     },
     "content": {
       "zh-TW": {
@@ -16007,16 +16084,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/platformer-game/project.override.json",
         "content/projects/platformer-game/zh-TW.md",
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.344Z"
+      "lastScannedAt": "2026-06-28T12:20:55.186Z"
     },
     "content": {
       "zh-TW": {
@@ -16111,7 +16186,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-06-14",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -16194,7 +16269,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.344Z"
+      "lastScannedAt": "2026-06-28T12:20:55.186Z"
     },
     "content": {
       "zh-TW": {
@@ -16435,7 +16510,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.344Z"
+      "lastScannedAt": "2026-06-28T12:20:55.187Z"
     },
     "content": {
       "zh-TW": {
@@ -16618,7 +16693,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.344Z"
+      "lastScannedAt": "2026-06-28T12:20:55.187Z"
     },
     "content": {
       "zh-TW": {
@@ -16867,14 +16942,16 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/procedural-3d-maze/project.override.json",
         "content/projects/procedural-3d-maze/zh-TW.md",
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.345Z"
+      "lastScannedAt": "2026-06-28T12:20:55.187Z"
     },
     "content": {
       "zh-TW": {
@@ -17057,16 +17134,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/procedural-dungeon-crawler/project.override.json",
         "content/projects/procedural-dungeon-crawler/zh-TW.md",
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.345Z"
+      "lastScannedAt": "2026-06-28T12:20:55.187Z"
     },
     "content": {
       "zh-TW": {
@@ -17237,7 +17312,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.345Z"
+      "lastScannedAt": "2026-06-28T12:20:55.187Z"
     },
     "content": {
       "zh-TW": {
@@ -17476,7 +17551,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.345Z"
+      "lastScannedAt": "2026-06-28T12:20:55.187Z"
     },
     "content": {
       "zh-TW": {
@@ -17661,7 +17736,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.345Z"
+      "lastScannedAt": "2026-06-28T12:20:55.187Z"
     },
     "content": {
       "zh-TW": {
@@ -17922,7 +17997,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.345Z"
+      "lastScannedAt": "2026-06-28T12:20:55.187Z"
     },
     "content": {
       "zh-TW": {
@@ -18194,7 +18269,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.345Z"
+      "lastScannedAt": "2026-06-28T12:20:55.188Z"
     },
     "content": {
       "zh-TW": {
@@ -18461,7 +18536,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.346Z"
+      "lastScannedAt": "2026-06-28T12:20:55.188Z"
     },
     "content": {
       "zh-TW": {
@@ -18873,7 +18948,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.346Z"
+      "lastScannedAt": "2026-06-28T12:20:55.188Z"
     },
     "content": {
       "zh-TW": {
@@ -19046,16 +19121,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/rigview3d/project.override.json",
         "content/projects/rigview3d/zh-TW.md",
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.346Z"
+      "lastScannedAt": "2026-06-28T12:20:55.188Z"
     },
     "content": {
       "zh-TW": {
@@ -19160,7 +19233,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-09",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -19292,7 +19365,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.346Z"
+      "lastScannedAt": "2026-06-28T12:20:55.188Z"
     },
     "content": {
       "zh-TW": {
@@ -19477,16 +19550,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/sailing-adventure/project.override.json",
         "content/projects/sailing-adventure/zh-TW.md",
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.346Z"
+      "lastScannedAt": "2026-06-28T12:20:55.188Z"
     },
     "content": {
       "zh-TW": {
@@ -19646,7 +19717,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.346Z"
+      "lastScannedAt": "2026-06-28T12:20:55.188Z"
     },
     "content": {
       "zh-TW": {
@@ -19895,7 +19966,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.346Z"
+      "lastScannedAt": "2026-06-28T12:20:55.188Z"
     },
     "content": {
       "zh-TW": {
@@ -20083,16 +20154,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/signal-diver-3d/project.override.json",
         "content/projects/signal-diver-3d/zh-TW.md",
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.346Z"
+      "lastScannedAt": "2026-06-28T12:20:55.189Z"
     },
     "content": {
       "zh-TW": {
@@ -20139,179 +20208,6 @@
           "README signal: Advanced Submarine Controls: Intuitive 3D movement with mouse-look camera and realistic underwater physics.",
           "README signal: Dynamic Environment: Volumetric lighting, caustics, and post-processing effects create a truly atmospheric experience.",
           "README signal: Interactive Missions: Engage in complex hacking and alignment puzzles powered b"
-        ],
-        "challenges": [
-          "The project scope needs to be summarized from README content and source evidence in a credible way.",
-          "Technical terms need to be translated into clear features, data flow, and learning outcomes.",
-          "More screenshots, test notes, or operation details can still improve the case study."
-        ],
-        "nextSteps": [
-          "Complete a more detailed bilingual case study and add operation screenshots.",
-          "Verify which GitHub, demo, documentation, and media assets should be public.",
-          "Improve tests, README details, and deployment or run instructions based on actual completion level."
-        ]
-      }
-    }
-  },
-  {
-    "id": "project-sonic-inspired-3d-pf-2026-3d-012",
-    "slug": "sonic-inspired-3d",
-    "category": "interactive-3d",
-    "status": "prototype",
-    "year": 2026,
-    "featured": false,
-    "technologies": [
-      "React Three Fiber",
-      "React",
-      "Three.js",
-      "Zustand",
-      "Tailwind CSS",
-      "TypeScript"
-    ],
-    "links": [
-      {
-        "kind": "github",
-        "url": "https://github.com/Justin21523/3d-rushy-runner",
-        "label": {
-          "zh-TW": "查看 GitHub",
-          "en": "View GitHub"
-        }
-      }
-    ],
-    "media": [],
-    "metadata": {
-      "startedAt": "2026-06-14",
-      "updatedAt": "2026-06-28",
-      "teamSize": 1,
-      "version": "1.0.0",
-      "catalogNumber": "PF-2026-3D-012",
-      "visibility": "public",
-      "aliases": [],
-      "primaryCategory": "interactive-3d",
-      "secondaryCategories": [],
-      "projectType": "Web/Node",
-      "domains": [],
-      "subjects": [],
-      "controlledTerms": [
-        "React Three Fiber",
-        "React",
-        "Three.js",
-        "Zustand",
-        "Tailwind CSS",
-        "TypeScript"
-      ],
-      "keywords": [],
-      "audiences": [],
-      "contentTypes": [],
-      "dataTypes": [],
-      "platforms": [
-        "Web"
-      ],
-      "operatingSystems": [],
-      "languages": [
-        "JavaScript",
-        "TypeScript"
-      ],
-      "frameworks": [],
-      "libraries": [],
-      "stateManagement": [],
-      "styling": [],
-      "database": [],
-      "backend": [],
-      "desktop": [],
-      "gameEngine": [],
-      "threeD": [],
-      "testing": [],
-      "buildTools": [],
-      "infrastructure": [],
-      "deployment": [],
-      "developmentTools": [],
-      "roles": [
-        "獨立開發者 / 學習型專案實作者"
-      ],
-      "responsibilities": [],
-      "collaborationType": "Solo",
-      "learningGoals": [],
-      "skillsDemonstrated": [
-        "React Three Fiber",
-        "React",
-        "Three.js",
-        "Zustand",
-        "Tailwind CSS",
-        "TypeScript"
-      ],
-      "capabilities": [],
-      "tools": [],
-      "hasUnitTests": false,
-      "hasIntegrationTests": false,
-      "hasE2ETests": false,
-      "responsive": true,
-      "browserSupport": [],
-      "codeQualityTools": [],
-      "relatedProjects": [],
-      "subprojects": [],
-      "successorProjects": [],
-      "usesPackages": [],
-      "inspiredBy": [],
-      "dependencies": [],
-      "extractionConfidence": 0.9,
-      "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
-      "evidenceSources": [
-        "content/projects/sonic-inspired-3d/project.override.json",
-        "content/projects/sonic-inspired-3d/zh-TW.md",
-        "content/projects/sonic-inspired-3d/en.md",
-        "git log"
-      ],
-      "lastScannedAt": "2026-06-28T12:01:51.347Z"
-    },
-    "content": {
-      "zh-TW": {
-        "title": "Sonic Inspired 3d",
-        "summary": "Sonic Inspired 3d 是一個以 React Three Fiber、React、Three.js、Zustand、Tailwind CSS、TypeScript 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。",
-        "description": "Sonic Inspired 3d 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。\n\n從掃描資料來看，這個專案的主要技術線索包含 React Three Fiber、React、Three.js、Zustand、Tailwind CSS、TypeScript。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。\n\n這個專案用來練習互動體驗中的場景結構、操作回饋、狀態變化與使用者流程。 我根據專案中的技術線索與 README 內容，將它整理成一個以互動設計、場景控制與原型驗證為主的作品案例。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。\n\n後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。",
-        "tagline": "互動式 Web、3D 場景或遊戲原型練習專案。",
-        "role": "獨立開發者 / 學習型專案實作者",
-        "problem": "這個專案用來練習互動體驗中的場景結構、操作回饋、狀態變化與使用者流程。",
-        "solution": "我根據專案中的技術線索與 README 內容，將它整理成一個以互動設計、場景控制與原型驗證為主的作品案例。",
-        "outcome": "目前適合作為 3D Web、遊戲式介面或互動原型的學習型作品。",
-        "features": [],
-        "metrics": [],
-        "highlights": [
-          "README 顯示：Advanced Movement: Jump, Double Jump, Dash, Slide, Wall Jump, and Roll for fluid traversal.",
-          "README 顯示：Infinite Highway: Procedurally generated road chunks and backgrounds for an endless experience.",
-          "README 顯示：Sonic-Style Health: Collect rings to protect yourself. Losing rings saves you from lethal hits.",
-          "README 顯示：Ability System: Unlock and use special abilities like Magic Burst to overcome obstacles."
-        ],
-        "challenges": [
-          "需要從 README 與原始碼中整理出可信、可展示的專案範圍。",
-          "需要把技術名詞轉換成清楚的功能、資料流與學習成果。",
-          "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
-        ],
-        "nextSteps": [
-          "補齊更完整的中英文案例研究與操作截圖。",
-          "確認 GitHub、Demo、文件與素材是否適合公開展示。",
-          "依完成度補強測試、README 與部署或執行說明。"
-        ]
-      },
-      "en": {
-        "title": "Sonic Inspired 3d",
-        "summary": "Sonic Inspired 3d is a learning-focused project with detected technology signals including React Three Fiber, React, Three.js, Zustand, Tailwind CSS, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts.",
-        "description": "Sonic Inspired 3d is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.\n\nThe scanned project data points to React Three Fiber, React, Three.js, Zustand, Tailwind CSS, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.\n\nThis project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience. Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.\n\nNext, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.",
-        "tagline": "An interactive web, 3D scene, or game prototype practice project.",
-        "role": "Independent Developer / Learning Project Builder",
-        "problem": "This project is used to practice scene structure, interaction feedback, state changes, and user flow in an interactive experience.",
-        "solution": "Using the project README and detected technology signals, I framed it as a portfolio case focused on interaction design, scene control, and prototype validation.",
-        "outcome": "It currently works best as a learning-focused 3D web, game-like interface, or interaction prototype project.",
-        "features": [],
-        "metrics": [],
-        "highlights": [
-          "README signal: Advanced Movement: Jump, Double Jump, Dash, Slide, Wall Jump, and Roll for fluid traversal.",
-          "README signal: Infinite Highway: Procedurally generated road chunks and backgrounds for an endless experience.",
-          "README signal: Sonic-Style Health: Collect rings to protect yourself. Losing rings saves you from lethal hits.",
-          "README signal: Ability System: Unlock and use special abilities like Magic Burst to overcome obstacles."
         ],
         "challenges": [
           "The project scope needs to be summarized from README content and source evidence in a credible way.",
@@ -20514,7 +20410,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.347Z"
+      "lastScannedAt": "2026-06-28T12:20:55.189Z"
     },
     "content": {
       "zh-TW": {
@@ -20768,7 +20664,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.347Z"
+      "lastScannedAt": "2026-06-28T12:20:55.189Z"
     },
     "content": {
       "zh-TW": {
@@ -20954,16 +20850,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/the-archive-that-watches-you/project.override.json",
         "content/projects/the-archive-that-watches-you/zh-TW.md",
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.347Z"
+      "lastScannedAt": "2026-06-28T12:20:55.189Z"
     },
     "content": {
       "zh-TW": {
@@ -21110,16 +21004,14 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/the-classrooms/project.override.json",
         "content/projects/the-classrooms/zh-TW.md",
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.348Z"
+      "lastScannedAt": "2026-06-28T12:20:55.189Z"
     },
     "content": {
       "zh-TW": {
@@ -21283,7 +21175,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.348Z"
+      "lastScannedAt": "2026-06-28T12:20:55.189Z"
     },
     "content": {
       "zh-TW": {
@@ -21443,7 +21335,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.349Z"
+      "lastScannedAt": "2026-06-28T12:20:55.189Z"
     },
     "content": {
       "zh-TW": {
@@ -21688,7 +21580,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.349Z"
+      "lastScannedAt": "2026-06-28T12:20:55.189Z"
     },
     "content": {
       "zh-TW": {
@@ -21801,7 +21693,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-09",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -21943,7 +21835,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.349Z"
+      "lastScannedAt": "2026-06-28T12:20:55.190Z"
     },
     "content": {
       "zh-TW": {
@@ -22164,16 +22056,14 @@
       "dependencies": [],
       "extractionConfidence": 0.7,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/vanilla-dom-playground/project.override.json",
         "content/projects/vanilla-dom-playground/zh-TW.md",
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.349Z"
+      "lastScannedAt": "2026-06-28T12:20:55.190Z"
     },
     "content": {
       "zh-TW": {
@@ -22285,7 +22175,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-03-02",
+      "startedAt": "2026-05-20",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -22416,7 +22306,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.349Z"
+      "lastScannedAt": "2026-06-28T12:20:55.190Z"
     },
     "content": {
       "zh-TW": {
@@ -22526,7 +22416,7 @@
     ],
     "media": [],
     "metadata": {
-      "startedAt": "2026-05-20",
+      "startedAt": "2026-06-28",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
       "version": "1.0.0",
@@ -22649,7 +22539,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.349Z"
+      "lastScannedAt": "2026-06-28T12:20:55.190Z"
     },
     "content": {
       "zh-TW": {
@@ -22891,7 +22781,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.349Z"
+      "lastScannedAt": "2026-06-28T12:20:55.190Z"
     },
     "content": {
       "zh-TW": {
@@ -23147,7 +23037,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.350Z"
+      "lastScannedAt": "2026-06-28T12:20:55.191Z"
     },
     "content": {
       "zh-TW": {
@@ -23403,7 +23293,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T12:01:51.350Z"
+      "lastScannedAt": "2026-06-28T12:20:55.191Z"
     },
     "content": {
       "zh-TW": {
