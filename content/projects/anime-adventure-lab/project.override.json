@@ -28,6 +28,14 @@
       "primary": true
     },
     {
+      "kind": "video",
+      "url": "/portfolio/projects/anime-adventure-lab/demo/demo-recording.mp4",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/anime-adventure-lab",
       "label": {
@@ -44,7 +52,81 @@
       }
     }
   ],
+  "media": [
+    {
+      "id": "demo-recording",
+      "type": "video",
+      "src": "/portfolio/projects/anime-adventure-lab/demo/demo-recording.mp4",
+      "poster": "/portfolio/projects/anime-adventure-lab/demo/demo-video-poster.svg",
+      "alt": {
+        "zh-TW": "Anime Adventure Lab 的 18 秒作品集 demo 錄影，展示 Story、RAG、Agent 與 T2I 展示流程。",
+        "en": "An 18-second portfolio demo recording for Anime Adventure Lab showing Story, RAG, Agent, and T2I showcase flows."
+      },
+      "title": {
+        "zh-TW": "作品集 Demo 錄影",
+        "en": "Portfolio Demo Recording"
+      },
+      "caption": {
+        "zh-TW": "可直接在作品頁播放的公開展示影片，說明穩定 mock demo 如何呈現故事引擎、RAG 檢索、Agent 決策與文生圖 hooks。",
+        "en": "A public recording embedded in the project page, showing how the stable mock demo presents the story engine, RAG retrieval, agent decisions, and text-to-image hooks."
+      },
+      "featured": true
+    },
+    {
+      "id": "story-showcase",
+      "type": "image",
+      "src": "/portfolio/projects/anime-adventure-lab/screenshots/story-showcase.svg",
+      "alt": {
+        "zh-TW": "Anime Adventure Lab 的故事回合展示截圖，包含情境選擇、視覺小說舞台、對話與 pipeline 指標。",
+        "en": "Story turn showcase screenshot with scenario controls, visual novel stage, dialogue, and pipeline metrics."
+      },
+      "title": {
+        "zh-TW": "Story-first 互動故事展示",
+        "en": "Story-first Interactive Showcase"
+      },
+      "caption": {
+        "zh-TW": "用可截圖的方式呈現玩家輸入、世界狀態、對話輸出、mock latency 與 traceable state delta。",
+        "en": "A screenshot-ready view of player input, world state, dialogue output, mock latency, and traceable state delta."
+      }
+    },
+    {
+      "id": "rag-retrieval",
+      "type": "image",
+      "src": "/portfolio/projects/anime-adventure-lab/screenshots/rag-retrieval.svg",
+      "alt": {
+        "zh-TW": "RAG 世界觀檢索展示截圖，包含 query、rerank 狀態、文件引用與分數。",
+        "en": "RAG world-lore retrieval screenshot with query, rerank state, document citations, and scores."
+      },
+      "title": {
+        "zh-TW": "World-scoped RAG 檢索",
+        "en": "World-scoped RAG Retrieval"
+      },
+      "caption": {
+        "zh-TW": "展示故事回合如何從 WorldPack lore 取回 grounded evidence，並以 citation score 解釋下一步線索。",
+        "en": "Shows how a story turn retrieves grounded evidence from WorldPack lore and explains the next clue through citation scores."
+      }
+    },
+    {
+      "id": "agent-choice",
+      "type": "image",
+      "src": "/portfolio/projects/anime-adventure-lab/screenshots/agent-choice.svg",
+      "alt": {
+        "zh-TW": "Agent 輔助選擇展示截圖，包含工具計畫、推薦路徑、風險理由與 review queue。",
+        "en": "Agent-assisted choice screenshot with tool plan, recommended path, risk rationale, and review queue."
+      },
+      "title": {
+        "zh-TW": "Agent 輔助決策流程",
+        "en": "Agent-assisted Decision Flow"
+      },
+      "caption": {
+        "zh-TW": "說明 Agent 如何根據 relationship state、world state 與 risk estimator 提供可審核的建議。",
+        "en": "Explains how the agent uses relationship state, world state, and a risk estimator to produce reviewable recommendations."
+      }
+    }
+  ],
   "metadata": {
+    "updatedAt": "2026-06-28",
+    "version": "1.0.0-demo",
     "projectType": "RAG + LLM story-driven game world generation service stack",
     "domains": [
       "Generative AI",
@@ -59,7 +141,8 @@
       "Manage persistent game state and memory",
       "Generate scene images via diffusion pipelines",
       "Fine-tune and hot-swap LoRA adapters",
-      "Orchestrate long-running jobs asynchronously"
+      "Orchestrate long-running jobs asynchronously",
+      "Present a mock-safe public portfolio demo with screenshots and video"
     ],
     "frameworks": [
       "FastAPI",
@@ -92,7 +175,8 @@
     "platforms": [
       "Web",
       "Desktop (Qt prototype)",
-      "Docker Compose"
+      "Docker Compose",
+      "GitHub Pages"
     ],
     "keywords": [
       "RAG",
@@ -104,7 +188,32 @@
       "game state",
       "citations",
       "bge-m3",
-      "low-VRAM"
+      "low-VRAM",
+      "portfolio demo",
+      "GitHub Pages"
+    ],
+    "contentTypes": [
+      "Static demo site",
+      "Screenshot gallery",
+      "Demo recording",
+      "Technical case study",
+      "Mock-safe AI product walkthrough"
+    ],
+    "audiences": [
+      "Interviewers",
+      "AI product reviewers",
+      "Full-stack reviewers",
+      "Portfolio visitors"
+    ],
+    "testing": [
+      "pytest smoke",
+      "React production build",
+      "GitHub Actions Demo CI"
+    ],
+    "deployment": [
+      "GitHub Pages",
+      "GitHub Actions",
+      "Docker Compose optional full stack"
     ],
     "needsReview": false
   }
