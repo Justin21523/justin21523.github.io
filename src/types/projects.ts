@@ -54,6 +54,14 @@ export interface LocalizedProjectContent {
   problem: string;
   solution: string;
   outcome?: string;
+  targetUsers?: string[];
+  technicalHighlights?: string[];
+  architecture?: string;
+  dataFlow?: string;
+  projectStructure?: string;
+  setupGuide?: string;
+  futureImprovements?: string[];
+  interviewNotes?: string[];
 
   features?: ProjectFeature[];
   metrics?: ProjectMetric[];
@@ -89,6 +97,27 @@ export interface ProjectMedia {
   caption?: LocalizedText;
 
   featured?: boolean;
+  placeholder?: boolean;
+}
+
+export type ProjectReleaseState =
+  | "verified"
+  | "preparing"
+  | "missing"
+  | "blocked"
+  | "failed"
+  | "not-applicable";
+
+export interface ProjectReleaseStatus {
+  audit: ProjectReleaseState;
+  readme: ProjectReleaseState;
+  screenshots: ProjectReleaseState;
+  demo: ProjectReleaseState;
+  video: ProjectReleaseState;
+  portfolioPage: ProjectReleaseState;
+  links: ProjectReleaseState;
+  build: ProjectReleaseState;
+  manualFollowUpNeeded: string[];
 }
 
 export interface ProjectMetadata {
@@ -174,7 +203,10 @@ export interface ProjectMetadata {
   missingFields?: string[];
   evidenceSources?: string[];
   lastScannedAt?: string;
+  localAuditStatus?: "matched" | "unmatched" | "excluded" | "needs-review";
+  releaseStatus?: ProjectReleaseStatus;
 }
+
 
 export interface Project {
   id: string;
@@ -188,6 +220,15 @@ export interface Project {
 
   technologies: string[];
   coverImage?: string;
+  subtitle?: string;
+  githubUrl?: string;
+  liveDemoUrl?: string;
+  demoVideoUrl?: string;
+  readmeUrl?: string;
+  heroImage?: string;
+  screenshots?: string[];
+  videoUrl?: string;
+  videoEmbedUrl?: string;
 
   links: ProjectLink[];
   media: ProjectMedia[];

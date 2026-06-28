@@ -1,14 +1,17 @@
 import fs from "fs";
+import os from "os";
 import path from "path";
 import { execSync } from "child_process";
 import { normalizeTechTerm } from "../../src/lib/catalog/vocabulary";
 
 const PORTFOLIO_ROOT = process.cwd();
+const HOME_DIR = os.homedir();
+const WINDOWS_PROJECT_ROOT = process.env.PORTFOLIO_WINDOWS_PROJECT_ROOT || path.join(path.sep, "mnt", "c", "ai_projects");
 
 interface ProjectScanResult {
   name: string;
   folder: string;
-  path: string;
+  path?: string;
   type: string;
   hasReadme: boolean;
   readmeContent: string;
@@ -26,12 +29,21 @@ interface ProjectScanResult {
 }
 
 const PROJECT_ROOTS = [
-  "/home/justin/web-projects",
-  "/mnt/c/ai_projects",
+  process.env.PORTFOLIO_WEB_PROJECTS_ROOT || path.join(HOME_DIR, "web-projects"),
+  WINDOWS_PROJECT_ROOT,
 ];
 
 const EXCLUDED_FOLDERS = [
   "justin-portfolio", // Skip the portfolio itself
+  "justin21523.github.io",
+  "3d-rendering-showcase",
+  "data",
+  "wayfarer",
+  "justin-portfolio-platformer-worktree",
+  "soccer-player-rpg",
+  "super-wings-rpg-game",
+  "polly-rpg-game",
+  "lost-yokai-campus-rpg",
   "node_modules",
   ".next",
   "dist",
@@ -51,11 +63,36 @@ const EXCLUDED_FOLDERS = [
   ".git",
 ];
 
+const EXCLUDED_PROJECT_PATHS = new Set([
+  path.join(HOME_DIR, "web-projects", "justin-portfolio"),
+  path.join(HOME_DIR, "web-projects", "3d-rendering-showcase"),
+  path.join(HOME_DIR, "web-projects", "data"),
+  path.join(HOME_DIR, "web-projects", "wayfarer"),
+  path.join(HOME_DIR, "web-projects", "justin-portfolio-platformer-worktree"),
+  path.join(HOME_DIR, "web-projects", "soccer-player-rpg"),
+  path.join(HOME_DIR, "web-projects", "super-wings-rpg-game"),
+  path.join(HOME_DIR, "web-projects", "polly-rpg-game"),
+  path.join(HOME_DIR, "web-projects", "lost-yokai-campus-rpg"),
+  path.join(WINDOWS_PROJECT_ROOT, "justin-portfolio"),
+  path.join(WINDOWS_PROJECT_ROOT, "justin21523.github.io"),
+]);
+
 const STANDALONE_PROJECT_PATHS = [
-  "/home/justin/java-learning-lab",
-  "/home/justin/lost-campus-3d",
-  "/home/justin/unity-3d-course",
+  path.join(HOME_DIR, "java-learning-lab"),
+  path.join(HOME_DIR, "lost-campus-3d"),
+  path.join(HOME_DIR, "unity-3d-course"),
 ];
+
+function isExcludedProjectPath(projectPath: string) {
+  return EXCLUDED_PROJECT_PATHS.has(projectPath);
+}
+
+function redactLocalPaths(value: string) {
+  return value
+    .replace(new RegExp(`${HOME_DIR.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\/[^\\s)\`"'，。；,;]*`, "g"), "[local-path]")
+    .replace(new RegExp(`${WINDOWS_PROJECT_ROOT.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?:\\/[^\\s)\`"'，。；,;]*)?`, "g"), "[local-path]")
+    .replace(/[A-Za-z]:\\Users\\[^\\\s]+\\[^\s)`"']*/g, "[local-path]");
+}
 
 function getGitMetadata(dirPath: string) {
   const metadata = {
@@ -272,7 +309,7 @@ function analyzeProjectDir(dirPath: string, folderName: string): ProjectScanResu
       path: dirPath,
       type,
       hasReadme,
-      readmeContent: readmeContent.slice(0, 800), // Keep it compact for JSON
+      readmeContent: redactLocalPaths(readmeContent.slice(0, 800)), // Keep it compact for JSON
       detectedStack: Array.from(detectedStackSet),
       lastUpdate,
       gitRemote: gitMeta.remote,
@@ -306,6 +343,7 @@ export function scan() {
     folders.forEach(folder => {
       if (EXCLUDED_FOLDERS.includes(folder)) return;
       const folderPath = path.join(root, folder);
+      if (isExcludedProjectPath(folderPath)) return;
       
       // Only include folders that are tracked with Git (.git exists)
       if (!fs.existsSync(path.join(folderPath, ".git"))) return;
@@ -314,7 +352,11 @@ export function scan() {
   });
 
   STANDALONE_PROJECT_PATHS.forEach(projectPath => {
-    if (fs.existsSync(projectPath) && fs.existsSync(path.join(projectPath, ".git"))) {
+    if (
+      !isExcludedProjectPath(projectPath) &&
+      fs.existsSync(projectPath) &&
+      fs.existsSync(path.join(projectPath, ".git"))
+    ) {
       projectPaths.add(projectPath);
     }
   });
@@ -332,17 +374,34 @@ export function scan() {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
+  const localMap = scannedProjects.map((project) => ({
+    slug: project.folder,
+    localPath: project.path,
+    sourceRoot: PROJECT_ROOTS.find((root) => project.path?.startsWith(`${root}/`)) ?? "standalone",
+    gitRemote: project.gitRemote,
+    gitBranch: project.gitBranch,
+    lastScannedAt: new Date().toISOString(),
+  }));
+  const localMapPath = path.join(PORTFOLIO_ROOT, ".portfolio-local-map.json");
+  fs.writeFileSync(localMapPath, JSON.stringify(localMap, null, 2), "utf8");
+  console.log(`Successfully generated local-only project map at: ${localMapPath}`);
+
+  const publicProjects = scannedProjects.map((project) => {
+    const publicProject = { ...project };
+    delete publicProject.path;
+    return publicProject;
+  });
   const reportPath = path.join(outputDir, "project-scan-report.json");
-  fs.writeFileSync(reportPath, JSON.stringify(scannedProjects, null, 2), "utf8");
+  fs.writeFileSync(reportPath, JSON.stringify(publicProjects, null, 2), "utf8");
   console.log(`Successfully generated scan report at: ${reportPath}`);
   console.log(`Total scanned projects: ${scannedProjects.length}`);
 
-  // Also write the documentation docs/project-inventory.md
-  generateInventoryMarkdown(scannedProjects);
+  // Also write the documentation docs/portfolio-release/project-inventory.md
+  generateInventoryMarkdown(publicProjects);
 }
 
 function generateInventoryMarkdown(projects: ProjectScanResult[]) {
-  const docsDir = path.join(PORTFOLIO_ROOT, "docs");
+  const docsDir = path.join(PORTFOLIO_ROOT, "docs/portfolio-release");
   if (!fs.existsSync(docsDir)) {
     fs.mkdirSync(docsDir, { recursive: true });
   }
@@ -359,11 +418,11 @@ This document is automatically generated by the project catalog sync pipeline.
     const stackStr = p.detectedStack.join(", ") || "Other";
     const lastUpdateDate = p.lastUpdate.slice(0, 10);
     const gitUrl = p.gitRemote ? `[Git](${p.gitRemote})` : "None";
-    const hasReadmeStr = p.hasReadme ? "✅" : "❌";
-    const hasMediaStr = p.hasMedia ? "✅" : "❌";
-    const canBuildStr = p.canBuild ? "✅" : "❌";
-    const canRunStr = p.canRun ? "✅" : "❌";
-    const needsReviewStr = p.needsManualReview ? "✅" : "❌";
+    const hasReadmeStr = p.hasReadme ? "Yes" : "No";
+    const hasMediaStr = p.hasMedia ? "Yes" : "No";
+    const canBuildStr = p.canBuild ? "Yes" : "No";
+    const canRunStr = p.canRun ? "Yes" : "No";
+    const needsReviewStr = p.needsManualReview ? "Yes" : "No";
     
     md += `| ${p.name} | \`${p.folder}\` | ${stackStr} | ${lastUpdateDate} | ${gitUrl} | ${hasReadmeStr} | ${hasMediaStr} | ${canBuildStr} | ${canRunStr} | ${p.suitability} | ${p.confidence} | ${needsReviewStr} |\n`;
   });

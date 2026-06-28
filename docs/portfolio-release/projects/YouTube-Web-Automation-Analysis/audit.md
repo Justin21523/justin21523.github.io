@@ -1,0 +1,32 @@
+# YouTube Web Automation & Analysis Platform Audit
+
+| Field | Value |
+| :--- | :--- |
+| Portfolio slug | `YouTube-Web-Automation-Analysis` |
+| Matched GitHub repo | https://github.com/Justin21523/YouTube-Web-Automation-Analysis |
+| Matched local path | Stored in `.portfolio-local-map.json` |
+| Match confidence | high |
+| Match status | matched |
+| Tech stack | FastAPI, SQLAlchemy (async), Celery + Redis, YouTube Data API v3, Playwright / Selenium, Transformers / Sentence-Transformers, RAG & LLM, Docker, Prometheus + Grafana |
+| Framework / language | Python |
+| Package manager | unknown |
+| Available scripts | None detected |
+| Install status | No package install command detected. |
+| Run status | No verified run command detected. |
+| Build status | No verified build command detected. |
+| Test status | No test script detected. |
+| README status | updated-release-section |
+| Screenshots status | placeholder screenshots generated |
+| Demo status | external demo link |
+| Portfolio detail page | /projects/YouTube-Web-Automation-Analysis |
+
+## Missing Items
+- Replace placeholder screenshots with real project screenshots.
+- Record and link a real demo video.
+- Verify or add build instructions.
+- Verify or add run instructions.
+
+## Recommended Fixes
+- Replace generated placeholders under `public/projects/YouTube-Web-Automation-Analysis/` with real screenshots when possible.
+- Record a 30-90 second demo video and update the video link.
+- Verify install/build/test commands in the matched local repository.

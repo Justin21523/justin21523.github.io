@@ -4,14 +4,18 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run catalog:validate && next build",
+    "build": "npm run catalog:validate && npm run validate:projects && next build",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "next typegen && tsc --noEmit",
     "catalog:scan": "tsx scripts/catalog/scan-projects.ts",
     "catalog:validate": "tsx scripts/catalog/sync-catalog.ts",
     "catalog:sync": "npm run catalog:scan && npm run catalog:validate",
-    "deploy": "bash scripts/deploy.sh"
+    "release:projects": "tsx scripts/portfolio-release/process-project-releases.ts",
+    "quality:projects": "tsx scripts/portfolio-release/run-project-quality-pass.ts",
+    "deploy:project-demos": "tsx scripts/portfolio-release/deploy-project-demos.ts",
+    "deploy": "bash scripts/deploy.sh",
+    "validate:projects": "tsx scripts/validate-project-links.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
@@ -35,6 +39,7 @@
     "zustand": "^5.0.14"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

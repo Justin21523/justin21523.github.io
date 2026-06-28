@@ -41,3 +41,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local portfolio project mapping (contains machine paths)
+.portfolio-local-map.json

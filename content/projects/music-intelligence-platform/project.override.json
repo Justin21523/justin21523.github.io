@@ -23,8 +23,8 @@
       "kind": "github",
       "url": "https://github.com/Justin21523/music-intelligence-platform",
       "label": {
-        "zh-TW": "查看 GitHub",
-        "en": "View GitHub"
+        "en": "View GitHub",
+        "zh-TW": "查看 GitHub"
       }
     },
     {
@@ -39,8 +39,16 @@
       "kind": "documentation",
       "url": "https://github.com/Justin21523/music-intelligence-platform#readme",
       "label": {
-        "zh-TW": "README",
-        "en": "README"
+        "en": "README",
+        "zh-TW": "README"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/music-intelligence-platform/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "Live Demo"
       }
     }
   ],

@@ -4,14 +4,14 @@ tagline: "A parallel, non-destructive image/video generation pipeline on AMD's R
 summary: "A ROCm-based image and video AI generation stack for the AMD Radeon AI PRO R9700 (gfx1201, 32GB HBM) that runs alongside an existing NVIDIA/CUDA setup on the same machine without disturbing it. Staged scripts provision ComfyUI ROCm, Diffusers, and LTX-2.3 video generation, share weights via symlinks, and confirm ROCm compatibility through an automated validation suite."
 role: "Solo developer / ML platform & infrastructure engineer"
 problem: "After swapping an RTX 5080 for an AMD R9700, the existing CUDA image-generation environment had to be preserved exactly while a new ROCm pipeline was stood up amid uncertain ROCm-ecosystem compatibility (FP8 compute, custom nodes, PyTorch versions)."
-solution: "A 10-phase, approval-gated, non-destructive deployment: read-only scripts first audit the existing CUDA stack and model inventory, then isolated rocm-*-r9700 conda envs are created, ComfyUI ROCm is installed on port 8189 (CUDA stays on 8188), weights are shared via symlinks into /mnt/c/ai_models to avoid re-downloads, and Python harnesses drive SDXL/FLUX/Qwen-Image/LTX-2.3 validation workflows over the ComfyUI HTTP API."
+solution: "A 10-phase, approval-gated, non-destructive deployment: read-only scripts first audit the existing CUDA stack and model inventory, then isolated ROCm conda environments are created, ComfyUI ROCm is installed on a separate service port, weights are shared through a configurable local model directory to avoid re-downloads, and Python harnesses drive SDXL/FLUX/Qwen-Image/LTX-2.3 validation workflows over the ComfyUI HTTP API."
 outcome: "Completed read-only audit, conda env validation, ComfyUI ROCm install, and initial LTX-2.3 workflow validation with execution logs retained; produced a full document set covering safety policy, rollback plan, and a custom-node compatibility matrix as a reproducible ROCm image/video generation prototype."
 highlights:
   - "Parallel, non-destructive architecture: explicit protected paths and a forbidden-command list keep existing CUDA tools, models, and conda envs untouched"
   - "Phase-gated deployment: numbered scripts (00-13) map to 10 phases, with read-only audits requiring no approval and write phases requiring explicit sign-off"
   - "ROCm tuning for gfx1201: PYTORCH_HIP_ALLOC_CONF, AOTRITON experimental flags, and tailored ComfyUI launch flags"
   - "Multi-model validation suite: a runner queues SDXL, FLUX, Qwen-Image, Z-Image, and multiple LTX-2.3 video workflows via the ComfyUI API"
-  - "Weight-sharing strategy: symlink mapping into /mnt/c/ai_models avoids duplicating tens of GB of model weights"
+  - "Weight-sharing strategy: configurable symlink mapping avoids duplicating tens of GB of model weights"
   - "Honest risk labeling: the model manifest flags gfx1201 FP8 compute risk and documents a GGUF fallback"
 challenges:
   - "Unstable FP8 compute on AMD gfx1201, requiring either BF16 dequantization on load via ComfyUI-LTXVideo or a GGUF fallback"

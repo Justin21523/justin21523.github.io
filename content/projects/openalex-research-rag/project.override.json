@@ -25,8 +25,8 @@
       "kind": "github",
       "url": "https://github.com/Justin21523/openalex-research-rag",
       "label": {
-        "zh-TW": "查看 GitHub",
-        "en": "View GitHub"
+        "en": "View GitHub",
+        "zh-TW": "查看 GitHub"
       }
     },
     {
@@ -39,10 +39,10 @@
     },
     {
       "kind": "documentation",
-      "url": "https://github.com/Justin21523/openalex-research-rag#-demo-video",
+      "url": "https://github.com/Justin21523/openalex-research-rag#readme",
       "label": {
-        "zh-TW": "README Demo 說明",
-        "en": "README Demo Guide"
+        "en": "README",
+        "zh-TW": "README"
       }
     },
     {
@@ -51,6 +51,14 @@
       "label": {
         "zh-TW": "閱讀 README",
         "en": "Read README"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/openalex-research-rag/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "Live Demo"
       }
     }
   ],

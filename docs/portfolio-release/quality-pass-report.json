@@ -1,0 +1,3102 @@
+{
+  "generatedAt": "2026-06-28T17:34:27.671Z",
+  "results": [
+    {
+      "slug": "2d-animation-lora-pipeline",
+      "title": "2D Animation Character LoRA Training Pipeline",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/2d-animation-lora-pipeline/screenshots/01-real-cover.webp",
+        "/projects/2d-animation-lora-pipeline/screenshots/02-real-01-demo-home-desktop.png",
+        "/projects/2d-animation-lora-pipeline/screenshots/03-real-02-demo-results-desktop.png",
+        "/projects/2d-animation-lora-pipeline/screenshots/04-real-03-demo-home-mobile.png",
+        "/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
+        "/projects/2d-animation-lora-pipeline/screenshots/05-real-cover.webp",
+        "/projects/2d-animation-lora-pipeline/screenshots/06-real-animation-strip.png",
+        "/projects/2d-animation-lora-pipeline/screenshots/07-real-character-sheet.png",
+        "/projects/2d-animation-lora-pipeline/screenshots/08-real-evaluation-matrix.png",
+        "/projects/2d-animation-lora-pipeline/screenshots/09-real-pipeline-before-after.png",
+        "/projects/2d-animation-lora-pipeline/screenshots/10-real-training-metrics.png",
+        "/projects/2d-animation-lora-pipeline/videos/02-real-demo-walkthrough.webm",
+        "/projects/2d-animation-lora-pipeline/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/2d-animation-lora-pipeline/screenshots/01-overview.png",
+        "/projects/2d-animation-lora-pipeline/screenshots/02-core-feature.png",
+        "/projects/2d-animation-lora-pipeline/screenshots/03-detail-view.png",
+        "/projects/2d-animation-lora-pipeline/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "3d-animation-lora-pipeline",
+      "title": "3D Animation LoRA Pipeline and Demo Showcase",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/3d-animation-lora-pipeline/screenshots/01-real-cover.webp",
+        "/projects/3d-animation-lora-pipeline/screenshots/02-real-01-demo-home-desktop.png",
+        "/projects/3d-animation-lora-pipeline/screenshots/03-real-02-demo-results-desktop.png",
+        "/projects/3d-animation-lora-pipeline/screenshots/04-real-03-demo-home-mobile.png",
+        "/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
+        "/projects/3d-animation-lora-pipeline/screenshots/05-real-animation-strip.png",
+        "/projects/3d-animation-lora-pipeline/screenshots/06-real-character-sheet.png",
+        "/projects/3d-animation-lora-pipeline/screenshots/07-real-evaluation-matrix.png",
+        "/projects/3d-animation-lora-pipeline/screenshots/08-real-pipeline-before-after.png",
+        "/projects/3d-animation-lora-pipeline/screenshots/09-real-training-metrics.png",
+        "/projects/3d-animation-lora-pipeline/screenshots/10-real-demo-home-desktop.png",
+        "/projects/3d-animation-lora-pipeline/videos/02-real-demo-walkthrough.mp4",
+        "/projects/3d-animation-lora-pipeline/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/3d-animation-lora-pipeline/screenshots/01-overview.png",
+        "/projects/3d-animation-lora-pipeline/screenshots/02-core-feature.png",
+        "/projects/3d-animation-lora-pipeline/screenshots/03-detail-view.png",
+        "/projects/3d-animation-lora-pipeline/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "3d-maze-explorer",
+      "title": "3d Maze Explorer",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "not run; node_modules already present or install not requested",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "3d-platformer-runner",
+      "title": "3d Platformer Runner",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "not run; node_modules already present or install not requested",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "passed",
+      "testStatus": "passed",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [
+        "/projects/3d-platformer-runner/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/3d-platformer-runner/screenshots/01-overview.png",
+        "/projects/3d-platformer-runner/screenshots/02-core-feature.png",
+        "/projects/3d-platformer-runner/screenshots/03-detail-view.png",
+        "/projects/3d-platformer-runner/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "agentic-bi-dataops-copilot",
+      "title": "Agentic BI / DataOps Copilot",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/agentic-bi-dataops-copilot/screenshots/01-real-cover.webp",
+        "/projects/agentic-bi-dataops-copilot/screenshots/02-real-cover.webp",
+        "/projects/agentic-bi-dataops-copilot/screenshots/03-real-customers.webp",
+        "/projects/agentic-bi-dataops-copilot/screenshots/04-real-dashboard.webp",
+        "/projects/agentic-bi-dataops-copilot/screenshots/05-real-data-quality.webp",
+        "/projects/agentic-bi-dataops-copilot/screenshots/06-real-funnel.webp",
+        "/projects/agentic-bi-dataops-copilot/videos/01-real-demo-tour.webm",
+        "/projects/agentic-bi-dataops-copilot/screenshots/07-real-artist-style-visual-upgrade.png",
+        "/projects/agentic-bi-dataops-copilot/screenshots/08-real-evaluation-journey-v2.png",
+        "/projects/agentic-bi-dataops-copilot/screenshots/09-real-evaluation-journey.png",
+        "/projects/agentic-bi-dataops-copilot/screenshots/10-real-evaluation-visual-upgrade.png",
+        "/projects/agentic-bi-dataops-copilot/screenshots/11-real-genre-classifier-visual-upgrade.png",
+        "/projects/agentic-bi-dataops-copilot/screenshots/12-real-step-01.png",
+        "/projects/agentic-bi-dataops-copilot/videos/02-real-demo-tour.webm",
+        "/projects/agentic-bi-dataops-copilot/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/agentic-bi-dataops-copilot/screenshots/01-overview.png",
+        "/projects/agentic-bi-dataops-copilot/screenshots/02-core-feature.png",
+        "/projects/agentic-bi-dataops-copilot/screenshots/03-detail-view.png",
+        "/projects/agentic-bi-dataops-copilot/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "ai-3d-studio",
+      "title": "AI 3D Studio — A Unified Multi-Backend Image-to-3D Generation and Blender Integration Framework",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/ai-3d-studio/screenshots/01-real-cover.webp",
+        "/projects/ai-3d-studio/screenshots/02-real-01-demo-console-desktop.png",
+        "/projects/ai-3d-studio/screenshots/03-real-02-demo-completed-desktop.png",
+        "/projects/ai-3d-studio/screenshots/04-real-03-demo-mobile.png",
+        "/projects/ai-3d-studio/videos/01-real-demo-walkthrough.webm",
+        "/projects/ai-3d-studio/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/ai-3d-studio/screenshots/01-overview.png",
+        "/projects/ai-3d-studio/screenshots/02-core-feature.png",
+        "/projects/ai-3d-studio/screenshots/03-detail-view.png",
+        "/projects/ai-3d-studio/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "ai-game-website",
+      "title": "Ai Game Website",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/ai-game-website/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/ai-game-website/screenshots/01-overview.png",
+        "/projects/ai-game-website/screenshots/02-core-feature.png",
+        "/projects/ai-game-website/screenshots/03-detail-view.png",
+        "/projects/ai-game-website/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "ai-knowledge-workspace",
+      "title": "Ai Knowledge Workspace",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "local dev server launched and Playwright media captured",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/ai-knowledge-workspace/",
+      "copiedAssets": [
+        "/projects/ai-knowledge-workspace/screenshots/01-real-dashboard-dark-desktop.png",
+        "/projects/ai-knowledge-workspace/screenshots/02-real-home-light-desktop.png",
+        "/projects/ai-knowledge-workspace/screenshots/03-real-mobile.png",
+        "/projects/ai-knowledge-workspace/screenshots/04-real-tablet.png",
+        "/projects/ai-knowledge-workspace/videos/01-real-demo-walkthrough.mp4",
+        "/projects/ai-knowledge-workspace/videos/02-real-demo-walkthrough.webm",
+        "/projects/ai-knowledge-workspace/videos/playwright-local-dev-server.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/ai-knowledge-workspace/screenshots/01-overview.png",
+        "/projects/ai-knowledge-workspace/screenshots/02-core-feature.png",
+        "/projects/ai-knowledge-workspace/screenshots/03-detail-view.png",
+        "/projects/ai-knowledge-workspace/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "amazon-review-intelligence",
+      "title": "Amazon Review Intelligence",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/amazon-review-intelligence/",
+      "copiedAssets": [
+        "/projects/amazon-review-intelligence/screenshots/01-real-cover.webp",
+        "/projects/amazon-review-intelligence/screenshots/02-real-001-nav-overview-viewport-1.png",
+        "/projects/amazon-review-intelligence/screenshots/03-real-002-nav-overview-viewport-2.png",
+        "/projects/amazon-review-intelligence/screenshots/04-real-003-nav-overview-viewport-3.png",
+        "/projects/amazon-review-intelligence/screenshots/05-real-004-nav-demo-viewport-1.png",
+        "/projects/amazon-review-intelligence/screenshots/06-real-005-nav-demo-viewport-2.png",
+        "/projects/amazon-review-intelligence/screenshots/07-real-006-nav-search-viewport-1.png",
+        "/projects/amazon-review-intelligence/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/amazon-review-intelligence/screenshots/01-overview.png",
+        "/projects/amazon-review-intelligence/screenshots/02-core-feature.png",
+        "/projects/amazon-review-intelligence/screenshots/03-detail-view.png",
+        "/projects/amazon-review-intelligence/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "animation-ai-studio",
+      "title": "Animation AI Studio: A Demoable AI Animation Workflow Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/animation-ai-studio/screenshots/01-real-cover.png",
+        "/projects/animation-ai-studio/screenshots/02-real-portfolio-landing.png",
+        "/projects/animation-ai-studio/screenshots/03-real-webui-dashboard.png",
+        "/projects/animation-ai-studio/screenshots/04-real-webui-jobs.png",
+        "/projects/animation-ai-studio/screenshots/05-real-webui-results.png",
+        "/projects/animation-ai-studio/screenshots/06-real-webui-system.png",
+        "/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
+        "/projects/animation-ai-studio/screenshots/07-real-portfolio-landing.png",
+        "/projects/animation-ai-studio/screenshots/08-real-webui-dashboard.png",
+        "/projects/animation-ai-studio/screenshots/09-real-webui-jobs.png",
+        "/projects/animation-ai-studio/screenshots/10-real-webui-results.png",
+        "/projects/animation-ai-studio/screenshots/11-real-webui-system.png",
+        "/projects/animation-ai-studio/videos/02-real-demo-walkthrough.webm",
+        "/projects/animation-ai-studio/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/animation-ai-studio/screenshots/01-overview.png",
+        "/projects/animation-ai-studio/screenshots/02-core-feature.png",
+        "/projects/animation-ai-studio/screenshots/03-detail-view.png",
+        "/projects/animation-ai-studio/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "anime-adventure-lab",
+      "title": "Anime Adventure Lab — RAG + LLM Story World Generation Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/anime-adventure-lab/screenshots/01-real-cover.webp",
+        "/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
+        "/projects/anime-adventure-lab/videos/02-real-demo-recording.mp4",
+        "/projects/anime-adventure-lab/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/anime-adventure-lab/screenshots/01-overview.png",
+        "/projects/anime-adventure-lab/screenshots/02-core-feature.png",
+        "/projects/anime-adventure-lab/screenshots/03-detail-view.png",
+        "/projects/anime-adventure-lab/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "aqua-rush",
+      "title": "Aqua Rush",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/aqua-rush/screenshots/01-real-screenshot.png",
+        "/projects/aqua-rush/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/aqua-rush/screenshots/01-overview.png",
+        "/projects/aqua-rush/screenshots/02-core-feature.png",
+        "/projects/aqua-rush/screenshots/03-detail-view.png",
+        "/projects/aqua-rush/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "ArchiveFlow",
+      "title": "ArchiveFlow Studio",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/archive-flow-studio/",
+      "copiedAssets": [
+        "/projects/ArchiveFlow/screenshots/01-real-cover.webp",
+        "/projects/ArchiveFlow/screenshots/02-real-01-node-workflow-canvas.webp",
+        "/projects/ArchiveFlow/screenshots/03-real-screenshot.png",
+        "/projects/ArchiveFlow/videos/01-real-0329-lecture-recording-video.mp4",
+        "/projects/ArchiveFlow/videos/02-real-0063-lecture-recording-video.mp4"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "automation",
+      "title": "Automation",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [
+        "/projects/automation/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/automation/screenshots/01-overview.png",
+        "/projects/automation/screenshots/02-core-feature.png",
+        "/projects/automation/screenshots/03-detail-view.png",
+        "/projects/automation/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "Review generated case-study text against source evidence.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "cafe-net-manager",
+      "title": "CafeNet Manager",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/cafe-net-manager/",
+      "copiedAssets": [
+        "/projects/cafe-net-manager/screenshots/01-real-cover.webp",
+        "/projects/cafe-net-manager/screenshots/02-real-01-dashboard.webp",
+        "/projects/cafe-net-manager/screenshots/03-real-screenshot.png",
+        "/projects/cafe-net-manager/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/cafe-net-manager/screenshots/01-overview.png",
+        "/projects/cafe-net-manager/screenshots/02-core-feature.png",
+        "/projects/cafe-net-manager/screenshots/03-detail-view.png",
+        "/projects/cafe-net-manager/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "campus-quest-3d",
+      "title": "Campus Quest 3d",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "local dev server launched and Playwright media captured",
+      "buildStatus": "failed: failed (2)",
+      "testStatus": "no test script detected",
+      "lintStatus": "failed: failed (1)",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/campus-quest-3d/",
+      "copiedAssets": [
+        "/projects/campus-quest-3d/screenshots/01-real-screenshot.png",
+        "/projects/campus-quest-3d/screenshots/02-real-hero.png",
+        "/projects/campus-quest-3d/videos/playwright-local-dev-server.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/campus-quest-3d/screenshots/01-overview.png",
+        "/projects/campus-quest-3d/screenshots/02-core-feature.png",
+        "/projects/campus-quest-3d/screenshots/03-detail-view.png",
+        "/projects/campus-quest-3d/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Fix the local build before publishing this as a fully runnable demo."
+      ],
+      "notes": [
+        "Build output tail: cript `build` failed with error:\nnpm error code 2\nnpm error path [local-path]\nnpm error workspace @campus-quest/api@0.1.0\nnpm error location [local-path]\nnpm error command failed\nnpm error command sh -c tsc\n\nnpm error Lifecycle script `build` failed with error:\nnpm error code 2\nnpm error path [local-path]\nnpm error workspace @campus-quest/game-data@0.1.0\nnpm error location [local-path]\nnpm error command failed\nnpm error command sh -c tsc\n\nCommand failed: npm run build --if-present\nnpm error Lifecycle script `build` failed with error:\nnpm error code 2\nnpm error path [local-path]\nnpm error workspace web@0.0.0\nnpm error location [local-path]\nnpm error command failed\nnpm error command sh -c tsc -b && vite build\n\nnpm error Lifecycle script `build` failed with error:\nnpm error code 2\nnpm error path [local-path]\nnpm error workspace @campus-quest/api@0.1.0\nnpm error location [local-path]\nnpm error command failed\nnpm error command sh -c tsc\n\nnpm error Lifecycle script `build` failed with error:\nnpm error code 2\nnpm error path [local-path]\nnpm error workspace @campus-quest/game-data@0.1.0\nnpm error location [local-path]\nnpm error command failed\nnpm error command sh -c tsc",
+        "Lint output tail: nused-vars\n  26:11  error  'zone' is assigned a value but never used  @typescript-eslint/no-unused-vars\n\n[local-path]\n  19:5  warning  React Hook useMemo has missing dependencies: 'player.position.x', 'player.position.y', and 'player.position.z'. Either include them or remove the dependency array  react-hooks/exhaustive-deps\n\n[local-path]\n  208:11  error  'resultBg' is assigned a value but never used  @typescript-eslint/no-unused-vars\n\n[local-path]\n  179:33  error  '_' is assigned a value but never used  @typescript-eslint/no-unused-vars\n\n[local-path]\n  43:36  error  '_day' is defined but never used  @typescript-eslint/no-unused-vars\n\n✖ 12 problems (11 errors, 1 warning)\n\n\nnpm error Lifecycle script `lint` failed with error:\nnpm error code 1\nnpm error path [local-path]\nnpm error workspace web@0.0.0\nnpm error location [local-path]\nnpm error command failed\nnpm error command sh -c eslint .\n\n\nCommand failed: npm run lint --if-present\nnpm error Lifecycle script `lint` failed with error:\nnpm error code 1\nnpm error path [local-path]\nnpm error workspace web@0.0.0\nnpm error location [local-path]\nnpm error command failed\nnpm error command sh -c eslint ."
+      ]
+    },
+    {
+      "slug": "charaforge-T2I-Lab",
+      "title": "CharaForge T2I Lab — Text-to-Image, ControlNet, and LoRA Training Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "no build script",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/charaforge-T2I-Lab/screenshots/01-real-hero-dashboard.png",
+        "/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
+        "/projects/charaforge-T2I-Lab/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/charaforge-T2I-Lab/screenshots/01-overview.png",
+        "/projects/charaforge-T2I-Lab/screenshots/02-core-feature.png",
+        "/projects/charaforge-T2I-Lab/screenshots/03-detail-view.png",
+        "/projects/charaforge-T2I-Lab/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "ChronosMap",
+      "title": "ChronosMap Spatio-Temporal Weaver",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "C#/.NET",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "build capability detected by scanner, but no executable npm build was verified",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [
+        "/projects/ChronosMap/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/ChronosMap/screenshots/01-overview.png",
+        "/projects/ChronosMap/screenshots/02-core-feature.png",
+        "/projects/ChronosMap/screenshots/03-detail-view.png",
+        "/projects/ChronosMap/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Verify build command from the project-specific documentation.",
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "commercial-ml-analysis",
+      "title": "Commercial ML Analysis Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/commercial-ml-analysis/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/commercial-ml-analysis/screenshots/01-overview.png",
+        "/projects/commercial-ml-analysis/screenshots/02-core-feature.png",
+        "/projects/commercial-ml-analysis/screenshots/03-detail-view.png",
+        "/projects/commercial-ml-analysis/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "commute-reliability-analysis",
+      "title": "CommuteReliability Analytics",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/commute-reliability-analysis/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/commute-reliability-analysis/screenshots/01-overview.png",
+        "/projects/commute-reliability-analysis/screenshots/02-core-feature.png",
+        "/projects/commute-reliability-analysis/screenshots/03-detail-view.png",
+        "/projects/commute-reliability-analysis/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "css-advanced-mastery",
+      "title": "CSS Advanced Mastery — Hands-on Advanced CSS Lab",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/css-advanced-mastery/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/css-advanced-mastery/screenshots/01-overview.png",
+        "/projects/css-advanced-mastery/screenshots/02-core-feature.png",
+        "/projects/css-advanced-mastery/screenshots/03-detail-view.png",
+        "/projects/css-advanced-mastery/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "CulturePOS",
+      "title": "CulturePOS Cultural-Retail POS Desktop System",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [
+        "/projects/CulturePOS/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/CulturePOS/screenshots/01-overview.png",
+        "/projects/CulturePOS/screenshots/02-core-feature.png",
+        "/projects/CulturePOS/screenshots/03-detail-view.png",
+        "/projects/CulturePOS/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "data-narrative-studio",
+      "title": "Data Narrative Studio",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "local dev server launched and Playwright media captured",
+      "buildStatus": "failed: failed (1)",
+      "testStatus": "no test script detected",
+      "lintStatus": "failed: failed (1)",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/data-narrative-studio/",
+      "copiedAssets": [
+        "/projects/data-narrative-studio/screenshots/01-real-screenshot.png",
+        "/projects/data-narrative-studio/videos/playwright-local-dev-server.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/data-narrative-studio/screenshots/01-overview.png",
+        "/projects/data-narrative-studio/screenshots/02-core-feature.png",
+        "/projects/data-narrative-studio/screenshots/03-detail-view.png",
+        "/projects/data-narrative-studio/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Fix the local build before publishing this as a fully runnable demo."
+      ],
+      "notes": [
+        "Build output tail: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  4 | import mongoose from 'mongoose';\n  5 |\n  6 | export async function GET(\n\nImport map: aliased to relative './src/lib/db/models/dataset.model' inside of [project]/\n\n\nhttps://nextjs.org/docs/messages/module-not-found\n\n\n    at <unknown> (./src/app/api/datasets/[slugs]/records/route.ts:3:1)\n    at <unknown> (https://nextjs.org/docs/messages/module-not-found)\n\nCommand failed: npm run build --if-present\n\n> Build error occurred\nError: Turbopack build failed with 1 errors:\n./src/app/api/datasets/[slugs]/records/route.ts:3:1\nModule not found: Can't resolve '@/lib/db/models/dataset.model'\n  1 | import { NextRequest, NextResponse } from 'next/server';\n  2 | import { connectDB } from '@/lib/db/mongoose';\n> 3 | import { Dataset } from '@/lib/db/models/dataset.model';\n    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  4 | import mongoose from 'mongoose';\n  5 |\n  6 | export async function GET(\n\nImport map: aliased to relative './src/lib/db/models/dataset.model' inside of [project]/\n\n\nhttps://nextjs.org/docs/messages/module-not-found\n\n\n    at <unknown> (./src/app/api/datasets/[slugs]/records/route.ts:3:1)\n    at <unknown> (https://nextjs.org/docs/messages/module-not-found)",
+        "Lint output tail: BlockList.tsx\n   3:10  warning  'useMemo' is defined but never used             @typescript-eslint/no-unused-vars\n  11:50  error    Unexpected any. Specify a different type        @typescript-eslint/no-explicit-any\n  23:13  warning  'reordered' is assigned a value but never used  @typescript-eslint/no-unused-vars\n\n[local-path]\n  11:10  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any\n  12:12  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any\n\n[local-path]\n  5:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type\n\n[local-path]\n  5:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type\n\n[local-path]\n  70:53  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any\n  75:30  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any\n\n[local-path]\n   9:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any\n  11:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any\n\n✖ 20 problems (17 errors, 3 warnings)\n\n\n\nCommand failed: npm run lint --if-present"
+      ]
+    },
+    {
+      "slug": "data-pipelines",
+      "title": "Data Pipelines",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [
+        "/projects/data-pipelines/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/data-pipelines/screenshots/01-overview.png",
+        "/projects/data-pipelines/screenshots/02-core-feature.png",
+        "/projects/data-pipelines/screenshots/03-detail-view.png",
+        "/projects/data-pipelines/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "Review generated case-study text against source evidence.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "dataagent-analyst",
+      "title": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/dataagent-analyst/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/dataagent-analyst/screenshots/01-overview.png",
+        "/projects/dataagent-analyst/screenshots/02-core-feature.png",
+        "/projects/dataagent-analyst/screenshots/03-detail-view.png",
+        "/projects/dataagent-analyst/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "datalab-studio",
+      "title": "Datalab Studio",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Java/Maven",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "build capability detected by scanner, but no executable npm build was verified",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/datalab-studio/",
+      "copiedAssets": [
+        "/projects/datalab-studio/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/datalab-studio/screenshots/01-overview.png",
+        "/projects/datalab-studio/screenshots/02-core-feature.png",
+        "/projects/datalab-studio/screenshots/03-detail-view.png",
+        "/projects/datalab-studio/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Verify build command from the project-specific documentation."
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "dcard-trending-crawler",
+      "title": "posts-trending-crawler",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/posts-trending-crawler/",
+      "copiedAssets": [
+        "/projects/dcard-trending-crawler/screenshots/01-real-cover.webp",
+        "/projects/dcard-trending-crawler/screenshots/02-real-architecture-map-01.png",
+        "/projects/dcard-trending-crawler/screenshots/03-real-architecture-map-02.png",
+        "/projects/dcard-trending-crawler/screenshots/04-real-assistant-guided-step.png",
+        "/projects/dcard-trending-crawler/screenshots/05-real-assistant-stage-overlay.png",
+        "/projects/dcard-trending-crawler/screenshots/06-real-compliance-diagnostics-01.png",
+        "/projects/dcard-trending-crawler/screenshots/07-real-compliance-diagnostics-02.png",
+        "/projects/dcard-trending-crawler/videos/01-real-full-guided-demo.webm"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "digital-archive-review-board",
+      "title": "Digital Archive Review Board",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "not run; node_modules already present or install not requested",
+      "runStatus": "local dev server launched and Playwright media captured",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [
+        "/projects/digital-archive-review-board/videos/playwright-local-dev-server.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/digital-archive-review-board/screenshots/01-overview.png",
+        "/projects/digital-archive-review-board/screenshots/02-core-feature.png",
+        "/projects/digital-archive-review-board/screenshots/03-detail-view.png",
+        "/projects/digital-archive-review-board/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "digital-living",
+      "title": "Digital Living",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "not run; node_modules already present or install not requested",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "failed: failed (2)",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/digital-living/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/digital-living/screenshots/01-overview.png",
+        "/projects/digital-living/screenshots/02-core-feature.png",
+        "/projects/digital-living/screenshots/03-detail-view.png",
+        "/projects/digital-living/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Lint output tail: > nebula-ai@1.0.0 lint\n> eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0\n\n\n\nOops! Something went wrong! :(\n\nESLint: 8.57.1\n\nESLint couldn't find a configuration file. To set up a configuration file for this project, please run:\n\n    npm init @eslint/config\n\nESLint looked for configuration files in [local-path] and its ancestors. If it found none, it then looked in your home directory.\n\nIf you think you already have a configuration file or if you need more help, please stop by the ESLint Discord server: https://eslint.org/chat\n\n\nCommand failed: npm run lint --if-present\n\nOops! Something went wrong! :(\n\nESLint: 8.57.1\n\nESLint couldn't find a configuration file. To set up a configuration file for this project, please run:\n\n    npm init @eslint/config\n\nESLint looked for configuration files in [local-path] and its ancestors. If it found none, it then looked in your home directory.\n\nIf you think you already have a configuration file or if you need more help, please stop by the ESLint Discord server: https://eslint.org/chat"
+      ]
+    },
+    {
+      "slug": "discord-clone",
+      "title": "Discord Clone Real-Time Chat Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/discord-clone/",
+      "copiedAssets": [
+        "/projects/discord-clone/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/discord-clone/screenshots/01-overview.png",
+        "/projects/discord-clone/screenshots/02-core-feature.png",
+        "/projects/discord-clone/screenshots/03-detail-view.png",
+        "/projects/discord-clone/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "elio-discord-bot",
+      "title": "Elio Discord Bot",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "failed: failed (2)",
+      "testStatus": "failed: failed (1)",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/elio-discord-bot/",
+      "copiedAssets": [
+        "/projects/elio-discord-bot/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/elio-discord-bot/screenshots/01-overview.png",
+        "/projects/elio-discord-bot/screenshots/02-core-feature.png",
+        "/projects/elio-discord-bot/screenshots/03-detail-view.png",
+        "/projects/elio-discord-bot/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Fix the local build before publishing this as a fully runnable demo."
+      ],
+      "notes": [
+        "Build output tail: > communiverse-bot@1.0.0 build\n> npm run build:ts && node scripts/copy-build-assets.js\n\n\n> communiverse-bot@1.0.0 build:ts\n> node scripts/clean-dist.js && tsc -p tsconfig.json\n\nsrc/handlers/feedbackHandlers.ts(10,36): error TS2307: Cannot find module '../db/models/interaction.js' or its corresponding type declarations.\nsrc/jobs/exportInteractions.ts(15,8): error TS2307: Cannot find module '../db/models/interaction.js' or its corresponding type declarations.\nsrc/services/interactionLogger.ts(6,81): error TS2307: Cannot find module '../db/models/interaction.js' or its corresponding type declarations.\nsrc/services/interactionLogger.ts(7,48): error TS2307: Cannot find module '../db/models/interaction.js' or its corresponding type declarations.\n\n\nCommand failed: npm run build --if-present",
+        "Test output tail: tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n#     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n# Node.js v22.22.3\n# Subtest: tests/engagement.test.js\nnot ok 2 - tests/engagement.test.js\n  ---\n  duration_ms: 185.495913\n  type: 'test'\n  location: '[local-path]'\n  failureType: 'testCodeFailure'\n  exitCode: 1\n  signal: ~\n  error: 'test failed'\n  code: 'ERR_TEST_FAILURE'\n  ...\n# [local-path]\n#   if (!value) throw new Error(`Missing required configuration: ${key}`);\n#                     ^\n# Error: Missing required configuration: DISCORD_TOKEN\n#     at requireEnv ([local-path])\n#     at <anonymous> ([local-path])\n#     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n#     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n#     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n# Node.js v22.22.3\n# Subtest: tests/minigames.test.js\nnot ok 3 - tests/minigames.test.js\n  ---\n  duration_ms: 120.994841\n  type: 'test'\n  location: '[local-path]'\n  failureType: 'testCodeFailure'\n  exitCode: 1\n  signal: ~\n  error: 'test failed'\n  code: 'ERR_TEST_FAILURE'\n  ...\n1..9\n# tests 9\n# suites 0\n# pass 7\n# fail 2\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 191.627111\n\n\nCommand failed: npm test --if-present",
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "excel-python-data-analysis",
+      "title": "Excel Python Data Analysis Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/excel-python-data-analysis/",
+      "copiedAssets": [
+        "/projects/excel-python-data-analysis/screenshots/01-real-cover.png",
+        "/projects/excel-python-data-analysis/screenshots/02-real-01-home-guided.png",
+        "/projects/excel-python-data-analysis/screenshots/03-real-02-upload-profile.png",
+        "/projects/excel-python-data-analysis/screenshots/04-real-03-cleaning-workbench.png",
+        "/projects/excel-python-data-analysis/screenshots/05-real-04-business-analytics.png",
+        "/projects/excel-python-data-analysis/screenshots/06-real-05-report-export.png",
+        "/projects/excel-python-data-analysis/videos/01-real-demo-walkthrough.mp4",
+        "/projects/excel-python-data-analysis/screenshots/07-real-before_single_page.png",
+        "/projects/excel-python-data-analysis/screenshots/08-real-business_analytics.png",
+        "/projects/excel-python-data-analysis/screenshots/09-real-demo_01_home_guided.png",
+        "/projects/excel-python-data-analysis/screenshots/10-real-demo_02_upload_profile.png",
+        "/projects/excel-python-data-analysis/screenshots/11-real-demo_03_cleaning.png",
+        "/projects/excel-python-data-analysis/screenshots/12-real-demo_04_business_analytics.png",
+        "/projects/excel-python-data-analysis/videos/02-real-demo_walkthrough.mp4"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "fandom-gui-scraper",
+      "title": "Fandom / MediaWiki Scraper Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "no build script",
+      "testStatus": "passed",
+      "lintStatus": "failed: failed (1)",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/fandom-gui-scraper/",
+      "copiedAssets": [
+        "/projects/fandom-gui-scraper/screenshots/01-real-cover.png",
+        "/projects/fandom-gui-scraper/screenshots/02-real-01-campaigns-overview.png",
+        "/projects/fandom-gui-scraper/screenshots/03-real-02-campaign-preset.png",
+        "/projects/fandom-gui-scraper/screenshots/04-real-03-process-timeline.png",
+        "/projects/fandom-gui-scraper/screenshots/05-real-04-dataset-browser.png",
+        "/projects/fandom-gui-scraper/screenshots/06-real-05-analysis-network.png",
+        "/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
+        "/projects/fandom-gui-scraper/videos/02-real-guided-demo-mobile.webm",
+        "/projects/fandom-gui-scraper/screenshots/07-real-desktop-step-01-campaigns-overview.png",
+        "/projects/fandom-gui-scraper/screenshots/08-real-desktop-step-02-campaign-preset.png",
+        "/projects/fandom-gui-scraper/screenshots/09-real-desktop-step-03-campaign-events.png",
+        "/projects/fandom-gui-scraper/screenshots/10-real-desktop-step-04-scraper-source.png",
+        "/projects/fandom-gui-scraper/screenshots/11-real-desktop-step-05-scraper-compliance.png",
+        "/projects/fandom-gui-scraper/screenshots/12-real-desktop-step-06-scraper-progress.png",
+        "/projects/fandom-gui-scraper/videos/03-real-guided-demo-desktop.webm",
+        "/projects/fandom-gui-scraper/videos/04-real-guided-demo-mobile.webm"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Lint output tail: 8 spaces but found 16   indent\n  280:1   error    Expected indentation of 6 spaces but found 12   indent\n  281:1   error    Expected indentation of 4 spaces but found 8    indent\n  282:1   error    Expected indentation of 2 spaces but found 4    indent\n  284:1   error    Expected indentation of 2 spaces but found 4    indent\n  288:1   error    Expected indentation of 2 spaces but found 4    indent\n  289:1   error    Expected indentation of 4 spaces but found 8    indent\n  291:1   error    Expected indentation of 4 spaces but found 8    indent\n  292:1   error    Expected indentation of 6 spaces but found 12   indent\n  293:1   error    Expected indentation of 8 spaces but found 16   indent\n  294:1   error    Expected indentation of 6 spaces but found 12   indent\n  295:1   error    Expected indentation of 4 spaces but found 8    indent\n  296:1   error    Expected indentation of 2 spaces but found 4    indent\n  298:1   error    Expected indentation of 2 spaces but found 4    indent\n  302:1   error    Expected indentation of 2 spaces but found 4    indent\n  303:1   error    Expected indentation of 4 spaces but found 8    indent\n  304:1   error    Expected indentation of 6 spaces but found 12   indent\n  305:1   error    Expected indentation of 6 spaces but found 12   indent\n  306:1   error    Expected indentation of 4 spaces but found 8    indent\n  307:1   error    Expected indentation of 2 spaces but found 4    indent\n\n✖ 4876 problems (4604 errors, 272 warnings)\n  4597 errors and 0 warnings potentially fixable with the `--fix` option.\n\n\n\nCommand failed: npm run lint --if-present"
+      ]
+    },
+    {
+      "slug": "frontend-interaction-lab",
+      "title": "Frontend Interaction Lab",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/frontend-interaction-lab/screenshots/01-real-screenshot.png",
+        "/projects/frontend-interaction-lab/screenshots/02-real-hero.png",
+        "/projects/frontend-interaction-lab/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/frontend-interaction-lab/screenshots/01-overview.png",
+        "/projects/frontend-interaction-lab/screenshots/02-core-feature.png",
+        "/projects/frontend-interaction-lab/screenshots/03-detail-view.png",
+        "/projects/frontend-interaction-lab/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "game-dialogue-simulator",
+      "title": "Game Dialogue Simulator",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/game-dialogue-simulator/",
+      "copiedAssets": [
+        "/projects/game-dialogue-simulator/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/game-dialogue-simulator/screenshots/01-overview.png",
+        "/projects/game-dialogue-simulator/screenshots/02-core-feature.png",
+        "/projects/game-dialogue-simulator/screenshots/03-detail-view.png",
+        "/projects/game-dialogue-simulator/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "gan-ae-vision-suite",
+      "title": "GAN-AE Vision Suite",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/gan-ae-vision-suite/screenshots/01-real-screenshot-landing.png",
+        "/projects/gan-ae-vision-suite/screenshots/02-real-screenshot-overview.png",
+        "/projects/gan-ae-vision-suite/videos/01-real-demo-walkthrough.mp4",
+        "/projects/gan-ae-vision-suite/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/gan-ae-vision-suite/screenshots/01-overview.png",
+        "/projects/gan-ae-vision-suite/screenshots/02-core-feature.png",
+        "/projects/gan-ae-vision-suite/screenshots/03-detail-view.png",
+        "/projects/gan-ae-vision-suite/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "geovideo-env-check",
+      "title": "GeoVideo Evidence Viewer",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/geovideo-env-check/",
+      "copiedAssets": [
+        "/projects/geovideo-env-check/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/geovideo-env-check/screenshots/01-overview.png",
+        "/projects/geovideo-env-check/screenshots/02-core-feature.png",
+        "/projects/geovideo-env-check/screenshots/03-detail-view.png",
+        "/projects/geovideo-env-check/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "govcase-tracker",
+      "title": "GovCase Tracker — Government Case Tracking System",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [
+        "/projects/govcase-tracker/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/govcase-tracker/screenshots/01-overview.png",
+        "/projects/govcase-tracker/screenshots/02-core-feature.png",
+        "/projects/govcase-tracker/screenshots/03-detail-view.png",
+        "/projects/govcase-tracker/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "HeritageMapStudio",
+      "title": "HeritageMap Studio",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/HeritageMapStudio/",
+      "copiedAssets": [
+        "/projects/HeritageMapStudio/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/HeritageMapStudio/screenshots/01-overview.png",
+        "/projects/HeritageMapStudio/screenshots/02-core-feature.png",
+        "/projects/HeritageMapStudio/screenshots/03-detail-view.png",
+        "/projects/HeritageMapStudio/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "highway-adventure-3d",
+      "title": "Highway Adventure 3d",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "failed: failed (1)",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "failed: failed (1)",
+      "testStatus": "no test script detected",
+      "lintStatus": "failed: failed (2)",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/highway-adventure-3d/screenshots/01-real-screenshot.png",
+        "/projects/highway-adventure-3d/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/highway-adventure-3d/screenshots/01-overview.png",
+        "/projects/highway-adventure-3d/screenshots/02-core-feature.png",
+        "/projects/highway-adventure-3d/screenshots/03-detail-view.png",
+        "/projects/highway-adventure-3d/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Install dependencies manually; automated npm install did not complete.",
+        "Fix the local build before publishing this as a fully runnable demo."
+      ],
+      "notes": [
+        "Build output tail: because no interface 'JSX.IntrinsicElements' exists.\nsrc/ui/TutorialOverlay.tsx(123,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.\nsrc/ui/TutorialOverlay.tsx(125,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.\nsrc/ui/TutorialOverlay.tsx(126,38): error TS7006: Parameter 's' implicitly has an 'any' type.\nsrc/ui/TutorialOverlay.tsx(130,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.\nsrc/ui/TutorialOverlay.tsx(132,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.\nsrc/ui/TutorialOverlay.tsx(133,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.\nsrc/ui/TutorialOverlay.tsx(134,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.\nsrc/utils/batchRenderer.ts(13,24): error TS2307: Cannot find module 'three' or its corresponding type declarations.\nsrc/utils/batchRenderer.ts(77,46): error TS7006: Parameter 'm' implicitly has an 'any' type.\nsrc/utils/batchRenderer.ts(250,46): error TS7006: Parameter 'm' implicitly has an 'any' type.\nsrc/utils/batchRenderer.ts(341,22): error TS7006: Parameter 'child' implicitly has an 'any' type.\nerror TS2688: Cannot find type definition file for 'node'.\n  The file is in the program because:\n    Entry point of type library 'node' specified in compilerOptions\n\n\nCommand failed: npm run build --if-present",
+        "Lint output tail: > highway-adventure-3d@2.0.0 lint\n> eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0\n\n\n\nOops! Something went wrong! :(\n\nESLint: 9.39.4\n\nESLint couldn't find an eslint.config.(js|mjs|cjs) file.\n\nFrom ESLint v9.0.0, the default configuration file is now eslint.config.js.\nIf you are using a .eslintrc.* file, please follow the migration guide\nto update your configuration file to the new format:\n\nhttps://eslint.org/docs/latest/use/configure/migration-guide\n\nIf you still have problems after following the migration guide, please stop by\nhttps://eslint.org/chat/help to chat with the team.\n\n\nCommand failed: npm run lint --if-present\n\nOops! Something went wrong! :(\n\nESLint: 9.39.4\n\nESLint couldn't find an eslint.config.(js|mjs|cjs) file.\n\nFrom ESLint v9.0.0, the default configuration file is now eslint.config.js.\nIf you are using a .eslintrc.* file, please follow the migration guide\nto update your configuration file to the new format:\n\nhttps://eslint.org/docs/latest/use/configure/migration-guide\n\nIf you still have problems after following the migration guide, please stop by\nhttps://eslint.org/chat/help to chat with the team."
+      ]
+    },
+    {
+      "slug": "image-process",
+      "title": "Browser-Based 3D Model Viewer & Editor",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "not run; node_modules already present or install not requested",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [
+        "/projects/image-process/screenshots/01-real-Gemini_Generated_Image_8s7e5m8s7e5m8s7e.png",
+        "/projects/image-process/screenshots/02-real-Gemini_Generated_Image_by6omwby6omwby6o.png",
+        "/projects/image-process/screenshots/03-real-Gemini_Generated_Image_f4cn67f4cn67f4cn.png",
+        "/projects/image-process/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/image-process/screenshots/01-overview.png",
+        "/projects/image-process/screenshots/02-core-feature.png",
+        "/projects/image-process/screenshots/03-detail-view.png",
+        "/projects/image-process/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "information-retrieval",
+      "title": "CNIRS Chinese News IR System",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/information-retrieval/screenshots/01-real-cover.png",
+        "/projects/information-retrieval/screenshots/02-real-01-search-results.png",
+        "/projects/information-retrieval/screenshots/03-real-02-facet-browse.png",
+        "/projects/information-retrieval/screenshots/04-real-03-document-detail.png",
+        "/projects/information-retrieval/screenshots/05-real-04-model-compare.png",
+        "/projects/information-retrieval/screenshots/06-real-05-corpus-dashboard.png",
+        "/projects/information-retrieval/videos/01-real-cnirs-demo.webm",
+        "/projects/information-retrieval/screenshots/07-real-demo-assistant-analysis-graph.png",
+        "/projects/information-retrieval/screenshots/08-real-demo-assistant-compare.png",
+        "/projects/information-retrieval/screenshots/09-real-demo-assistant-corpus.png",
+        "/projects/information-retrieval/screenshots/10-real-demo-assistant-facets.png",
+        "/projects/information-retrieval/screenshots/11-real-demo-assistant-first-visit.png",
+        "/projects/information-retrieval/screenshots/12-real-demo-assistant-guide.png",
+        "/projects/information-retrieval/videos/02-real-cnirs-demo.webm",
+        "/projects/information-retrieval/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/information-retrieval/screenshots/01-overview.png",
+        "/projects/information-retrieval/screenshots/02-core-feature.png",
+        "/projects/information-retrieval/screenshots/03-detail-view.png",
+        "/projects/information-retrieval/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "intro-to-dl",
+      "title": "Deep Learning Hands-On Tutorial Series",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/intro-to-dl/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/intro-to-dl/screenshots/01-overview.png",
+        "/projects/intro-to-dl/screenshots/02-core-feature.png",
+        "/projects/intro-to-dl/screenshots/03-detail-view.png",
+        "/projects/intro-to-dl/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "intro-to-ml",
+      "title": "Intro to ML: Classical Machine Learning From Scratch",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/intro-to-ml/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/intro-to-ml/screenshots/01-overview.png",
+        "/projects/intro-to-ml/screenshots/02-core-feature.png",
+        "/projects/intro-to-ml/screenshots/03-detail-view.png",
+        "/projects/intro-to-ml/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "intro-to-vml",
+      "title": "Intro to VML: Visual Machine Learning Primer",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/intro-to-vml/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/intro-to-vml/screenshots/01-overview.png",
+        "/projects/intro-to-vml/screenshots/02-core-feature.png",
+        "/projects/intro-to-vml/screenshots/03-detail-view.png",
+        "/projects/intro-to-vml/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "ir-rag-evaluation-lab",
+      "title": "IR / RAG Evaluation Lab",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/ir-rag-evaluation-lab/",
+      "copiedAssets": [
+        "/projects/ir-rag-evaluation-lab/screenshots/01-real-cover.png",
+        "/projects/ir-rag-evaluation-lab/screenshots/02-real-01-tour-overview.png",
+        "/projects/ir-rag-evaluation-lab/screenshots/03-real-16-journey-top.png",
+        "/projects/ir-rag-evaluation-lab/screenshots/04-real-20-query-evaluator-results.png",
+        "/projects/ir-rag-evaluation-lab/screenshots/05-real-22-analytics-top.png",
+        "/projects/ir-rag-evaluation-lab/screenshots/06-real-24-rag-citation-workbench.png",
+        "/projects/ir-rag-evaluation-lab/videos/01-real-ir-rag-evaluation-lab-demo.mp4",
+        "/projects/ir-rag-evaluation-lab/screenshots/07-real-01-tour-overview.png",
+        "/projects/ir-rag-evaluation-lab/screenshots/08-real-03-tour-step.png",
+        "/projects/ir-rag-evaluation-lab/screenshots/09-real-05-tour-step.png",
+        "/projects/ir-rag-evaluation-lab/screenshots/10-real-07-tour-step.png",
+        "/projects/ir-rag-evaluation-lab/screenshots/11-real-09-tour-step.png",
+        "/projects/ir-rag-evaluation-lab/screenshots/12-real-11-tour-step.png",
+        "/projects/ir-rag-evaluation-lab/videos/02-real-ir-rag-evaluation-lab-demo.mp4",
+        "/projects/ir-rag-evaluation-lab/videos/03-real-ir-rag-evaluation-lab-demo.webm"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "javascript-platformer-concepts",
+      "title": "JavaScript Platformer Concepts",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "not run; node_modules already present or install not requested",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/javascript-platformer-concepts/screenshots/01-real-01-playable-canvas.png",
+        "/projects/javascript-platformer-concepts/screenshots/02-real-02-debug-hitboxes-grid.png",
+        "/projects/javascript-platformer-concepts/screenshots/03-real-03-level-menu.png",
+        "/projects/javascript-platformer-concepts/screenshots/04-real-04-hyperdrive-combat.png",
+        "/projects/javascript-platformer-concepts/screenshots/05-real-05-mobile.png",
+        "/projects/javascript-platformer-concepts/videos/01-real-demo-walkthrough.webm",
+        "/projects/javascript-platformer-concepts/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/javascript-platformer-concepts/screenshots/01-overview.png",
+        "/projects/javascript-platformer-concepts/screenshots/02-core-feature.png",
+        "/projects/javascript-platformer-concepts/screenshots/03-detail-view.png",
+        "/projects/javascript-platformer-concepts/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "Justin21523",
+      "title": "Hi, I'm Justin 👋",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/Justin21523/",
+      "copiedAssets": [
+        "/projects/Justin21523/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/Justin21523/screenshots/01-overview.png",
+        "/projects/Justin21523/screenshots/02-core-feature.png",
+        "/projects/Justin21523/screenshots/03-detail-view.png",
+        "/projects/Justin21523/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Review generated case-study text against source evidence."
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "libradesk",
+      "title": "Libradesk",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Java/Maven",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "build capability detected by scanner, but no executable npm build was verified",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: catalog GitHub repo 'library-desk' is too ambiguous for deployment.",
+      "copiedAssets": [
+        "/projects/libradesk/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/libradesk/screenshots/01-overview.png",
+        "/projects/libradesk/screenshots/02-core-feature.png",
+        "/projects/libradesk/screenshots/03-detail-view.png",
+        "/projects/libradesk/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Verify build command from the project-specific documentation.",
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "catalog GitHub repo 'library-desk' is too ambiguous for deployment."
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: catalog GitHub repo 'library-desk' is too ambiguous for deployment."
+      ]
+    },
+    {
+      "slug": "library-reach-analysis",
+      "title": "Library Reach Analysis",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "no build script",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/library-reach-analysis/",
+      "copiedAssets": [
+        "/projects/library-reach-analysis/screenshots/01-real-brief.png",
+        "/projects/library-reach-analysis/screenshots/02-real-console-mobile.png",
+        "/projects/library-reach-analysis/screenshots/03-real-console.png",
+        "/projects/library-reach-analysis/screenshots/04-real-home.png",
+        "/projects/library-reach-analysis/screenshots/05-real-method.png",
+        "/projects/library-reach-analysis/screenshots/06-real-results.png",
+        "/projects/library-reach-analysis/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/library-reach-analysis/screenshots/01-overview.png",
+        "/projects/library-reach-analysis/screenshots/02-core-feature.png",
+        "/projects/library-reach-analysis/screenshots/03-detail-view.png",
+        "/projects/library-reach-analysis/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "llm-train-eval-ship",
+      "title": "LLM Train-Eval-Ship Release Console",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/llm-train-eval-ship/screenshots/01-real-cover.png",
+        "/projects/llm-train-eval-ship/screenshots/02-real-01-dashboard.png",
+        "/projects/llm-train-eval-ship/screenshots/03-real-02-safety-gate.png",
+        "/projects/llm-train-eval-ship/screenshots/04-real-03-rollback-gate.png",
+        "/projects/llm-train-eval-ship/screenshots/05-real-04-journey.png",
+        "/projects/llm-train-eval-ship/screenshots/06-real-05-evidence.png",
+        "/projects/llm-train-eval-ship/videos/01-real-guided-demo.webm",
+        "/projects/llm-train-eval-ship/screenshots/07-real-cover.png",
+        "/projects/llm-train-eval-ship/screenshots/08-real-01-dashboard.png",
+        "/projects/llm-train-eval-ship/screenshots/09-real-02-safety-gate.png",
+        "/projects/llm-train-eval-ship/screenshots/10-real-03-rollback-gate.png",
+        "/projects/llm-train-eval-ship/screenshots/11-real-04-journey.png",
+        "/projects/llm-train-eval-ship/screenshots/12-real-05-evidence.png",
+        "/projects/llm-train-eval-ship/videos/02-real-guided-demo.webm",
+        "/projects/llm-train-eval-ship/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/llm-train-eval-ship/screenshots/01-overview.png",
+        "/projects/llm-train-eval-ship/screenshots/02-core-feature.png",
+        "/projects/llm-train-eval-ship/screenshots/03-detail-view.png",
+        "/projects/llm-train-eval-ship/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "lyrics-cultural-analytics-lab",
+      "title": "Lyrics Cultural Analytics Lab",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: catalog GitHub repo 'agentic-bi-dataops-copilot' is too ambiguous for deployment.",
+      "copiedAssets": [
+        "/projects/lyrics-cultural-analytics-lab/screenshots/01-real-evaluation-viewport.png",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/02-real-guided-tour-step-01.png",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/03-real-ml-lab-journey-v2.png",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/04-real-ml-lab-viewport-01.png",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/05-real-ml-lab-viewport-02.png",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/06-real-overview-redesign.png",
+        "/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/07-real-artist-style-visual-upgrade.png",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/08-real-evaluation-journey-v2.png",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/09-real-evaluation-journey.png",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/10-real-evaluation-visual-upgrade.png",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/11-real-genre-classifier-visual-upgrade.png",
+        "/projects/lyrics-cultural-analytics-lab/screenshots/12-real-step-01.png",
+        "/projects/lyrics-cultural-analytics-lab/videos/02-real-demo-tour.webm"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "catalog GitHub repo 'agentic-bi-dataops-copilot' is too ambiguous for deployment."
+      ],
+      "notes": [
+        "Deployment automation: catalog GitHub repo 'agentic-bi-dataops-copilot' is too ambiguous for deployment."
+      ]
+    },
+    {
+      "slug": "MetaCleaner",
+      "title": "MetaCleaner Batch Metadata Scrubbing Tool",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [
+        "/projects/MetaCleaner/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/MetaCleaner/screenshots/01-overview.png",
+        "/projects/MetaCleaner/screenshots/02-core-feature.png",
+        "/projects/MetaCleaner/screenshots/03-detail-view.png",
+        "/projects/MetaCleaner/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "metashelf",
+      "title": "MetaShelf — Bibliographic Resource Discovery Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/metashelf/",
+      "copiedAssets": [
+        "/projects/metashelf/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/metashelf/screenshots/01-overview.png",
+        "/projects/metashelf/screenshots/02-core-feature.png",
+        "/projects/metashelf/screenshots/03-detail-view.png",
+        "/projects/metashelf/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "modelops-dashboard",
+      "title": "Modelops Dashboard",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Java/Maven",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "build capability detected by scanner, but no executable npm build was verified",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/modelops-dashboard/",
+      "copiedAssets": [
+        "/projects/modelops-dashboard/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/modelops-dashboard/screenshots/01-overview.png",
+        "/projects/modelops-dashboard/screenshots/02-core-feature.png",
+        "/projects/modelops-dashboard/screenshots/03-detail-view.png",
+        "/projects/modelops-dashboard/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Verify build command from the project-specific documentation."
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "mrt-ubike-analysis",
+      "title": "MetroBikeAtlas: Metro & Shared-Bike Urban Mobility Analytics",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/mrt-ubike-analysis/screenshots/01-real-about.png",
+        "/projects/mrt-ubike-analysis/screenshots/02-real-explorer.png",
+        "/projects/mrt-ubike-analysis/screenshots/03-real-home.png",
+        "/projects/mrt-ubike-analysis/screenshots/04-real-insights.png",
+        "/projects/mrt-ubike-analysis/screenshots/05-real-ops.png",
+        "/projects/mrt-ubike-analysis/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/mrt-ubike-analysis/screenshots/01-overview.png",
+        "/projects/mrt-ubike-analysis/screenshots/02-core-feature.png",
+        "/projects/mrt-ubike-analysis/screenshots/03-detail-view.png",
+        "/projects/mrt-ubike-analysis/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "multi-ai-agents",
+      "title": "Multi-AI Agents — Game Agent Ecosystem",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/multi-ai-agents/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/multi-ai-agents/screenshots/01-overview.png",
+        "/projects/multi-ai-agents/screenshots/02-core-feature.png",
+        "/projects/multi-ai-agents/screenshots/03-detail-view.png",
+        "/projects/multi-ai-agents/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "music-intelligence-platform",
+      "title": "Music Intelligence Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/music-intelligence-platform/",
+      "copiedAssets": [
+        "/projects/music-intelligence-platform/screenshots/01-real-cover.png",
+        "/projects/music-intelligence-platform/videos/01-real-demo-tour.webm",
+        "/projects/music-intelligence-platform/screenshots/02-real-page-artists.png",
+        "/projects/music-intelligence-platform/screenshots/03-real-page-cohorts.png",
+        "/projects/music-intelligence-platform/screenshots/04-real-page-correlation.png",
+        "/projects/music-intelligence-platform/screenshots/05-real-page-disagreement.png",
+        "/projects/music-intelligence-platform/screenshots/06-real-page-dna.png",
+        "/projects/music-intelligence-platform/screenshots/07-real-page-evaluation-profiles.png",
+        "/projects/music-intelligence-platform/videos/02-real-demo-tour.webm"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "my-3d-platformer",
+      "title": "My 3d Platformer",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "not run; node_modules already present or install not requested",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/my-3d-platformer/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/my-3d-platformer/screenshots/01-overview.png",
+        "/projects/my-3d-platformer/screenshots/02-core-feature.png",
+        "/projects/my-3d-platformer/screenshots/03-detail-view.png",
+        "/projects/my-3d-platformer/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "news-web-crawler",
+      "title": "News Web Crawler & Data Intelligence Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/news-web-crawler/",
+      "copiedAssets": [
+        "/projects/news-web-crawler/screenshots/01-real-cover.png",
+        "/projects/news-web-crawler/screenshots/02-real-01-pipeline-journey.png",
+        "/projects/news-web-crawler/screenshots/03-real-02-text-mining.png",
+        "/projects/news-web-crawler/screenshots/04-real-03-analysis-dashboard.png",
+        "/projects/news-web-crawler/screenshots/05-real-04-data-quality.png",
+        "/projects/news-web-crawler/screenshots/06-real-05-ml-diagnostics.png",
+        "/projects/news-web-crawler/videos/01-real-guided-tour.webm",
+        "/projects/news-web-crawler/screenshots/07-real-analysis-desktop-01.png",
+        "/projects/news-web-crawler/screenshots/08-real-analysis-desktop-02.png",
+        "/projects/news-web-crawler/screenshots/09-real-analysis-desktop-03.png",
+        "/projects/news-web-crawler/screenshots/10-real-analysis-desktop-04.png",
+        "/projects/news-web-crawler/screenshots/11-real-analysis-mobile-01.png",
+        "/projects/news-web-crawler/screenshots/12-real-analysis-mobile-02.png",
+        "/projects/news-web-crawler/videos/02-real-guided-tour.webm"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "nyc-taxi-mobility-analytics",
+      "title": "NYC Taxi Mobility Analytics Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "local dev server launched and Playwright media captured",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/nyc-taxi-mobility-analytics/",
+      "copiedAssets": [
+        "/projects/nyc-taxi-mobility-analytics/screenshots/01-real-cover.png",
+        "/projects/nyc-taxi-mobility-analytics/screenshots/02-real-01-overview.png",
+        "/projects/nyc-taxi-mobility-analytics/screenshots/03-real-02-pipeline-journey.png",
+        "/projects/nyc-taxi-mobility-analytics/screenshots/04-real-03-zone-map.png",
+        "/projects/nyc-taxi-mobility-analytics/screenshots/05-real-04-forecast.png",
+        "/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
+        "/projects/nyc-taxi-mobility-analytics/videos/02-real-demo-tour.webm",
+        "/projects/nyc-taxi-mobility-analytics/videos/playwright-local-dev-server.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/nyc-taxi-mobility-analytics/screenshots/01-overview.png",
+        "/projects/nyc-taxi-mobility-analytics/screenshots/02-core-feature.png",
+        "/projects/nyc-taxi-mobility-analytics/screenshots/03-detail-view.png",
+        "/projects/nyc-taxi-mobility-analytics/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "openalex-research-rag",
+      "title": "OpenAlex Research Intelligence (RAG)",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/openalex-research-rag/",
+      "copiedAssets": [
+        "/projects/openalex-research-rag/screenshots/01-real-cover.png",
+        "/projects/openalex-research-rag/screenshots/02-real-01-tour-welcome.png",
+        "/projects/openalex-research-rag/screenshots/03-real-11-search-results.png",
+        "/projects/openalex-research-rag/screenshots/04-real-16-rag-answer.png",
+        "/projects/openalex-research-rag/screenshots/05-real-30-citation-graph.png",
+        "/projects/openalex-research-rag/screenshots/06-real-47-i18n-english-dashboard.png",
+        "/projects/openalex-research-rag/videos/01-real-openalex-demo.mp4",
+        "/projects/openalex-research-rag/screenshots/07-real-01-tour-welcome.png",
+        "/projects/openalex-research-rag/screenshots/08-real-02-tour-step1.png",
+        "/projects/openalex-research-rag/screenshots/09-real-03-tour-step2.png",
+        "/projects/openalex-research-rag/screenshots/10-real-04-tour-step3.png",
+        "/projects/openalex-research-rag/screenshots/11-real-05-tour-step4.png",
+        "/projects/openalex-research-rag/screenshots/12-real-06-tour-step5.png",
+        "/projects/openalex-research-rag/videos/02-real-demo.mp4"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "openclaw-multimodal-stack",
+      "title": "OpenClaw Multimodal Stack",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/openclaw-multimodal-stack/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/openclaw-multimodal-stack/screenshots/01-overview.png",
+        "/projects/openclaw-multimodal-stack/screenshots/02-core-feature.png",
+        "/projects/openclaw-multimodal-stack/screenshots/03-detail-view.png",
+        "/projects/openclaw-multimodal-stack/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "platformer-game",
+      "title": "Platformer Game",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "not run; node_modules already present or install not requested",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/platformer-game/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/platformer-game/screenshots/01-overview.png",
+        "/projects/platformer-game/screenshots/02-core-feature.png",
+        "/projects/platformer-game/screenshots/03-detail-view.png",
+        "/projects/platformer-game/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "poker-ai-arena",
+      "title": "Poker AI Arena",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/poker-ai-arena/",
+      "copiedAssets": [
+        "/projects/poker-ai-arena/screenshots/01-real-home-desktop.png",
+        "/projects/poker-ai-arena/screenshots/02-real-lobby-desktop.png",
+        "/projects/poker-ai-arena/screenshots/03-real-mobile.png",
+        "/projects/poker-ai-arena/screenshots/04-real-screenshot.png",
+        "/projects/poker-ai-arena/screenshots/05-real-hero.png",
+        "/projects/poker-ai-arena/videos/01-real-demo-walkthrough.mp4",
+        "/projects/poker-ai-arena/videos/02-real-demo-walkthrough.webm"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "poker-ai-web",
+      "title": "Poker AI Web — Learning Card-Game AI Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "no build script",
+      "testStatus": "failed: failed (1)",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/poker-ai-web/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/poker-ai-web/screenshots/01-overview.png",
+        "/projects/poker-ai-web/screenshots/02-core-feature.png",
+        "/projects/poker-ai-web/screenshots/03-detail-view.png",
+        "/projects/poker-ai-web/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Test output tail:     707|       throw new Error(`Invalid move: ${validation.reason}`);\n       |             ^\n    708|     }\n    709| \n ❯ tests/unit/TexasHoldemGame.test.js:764:43\n ❯ tests/unit/TexasHoldemGame.test.js:764:25\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[23/26]⎯\n\n FAIL  tests/unit/TexasHoldemGame.test.js > TexasHoldemGame > Serialization > should serialize game state to JSON\nTypeError: game.toJSON is not a function\n ❯ tests/unit/TexasHoldemGame.test.js:791:25\n    789| \n    790|     it('should serialize game state to JSON', () => {\n    791|       const json = game.toJSON();\n       |                         ^\n    792| \n    793|       expect(json).toHaveProperty('state');\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[24/26]⎯\n\n FAIL  tests/unit/TexasHoldemGame.test.js > TexasHoldemGame > Serialization > should include poker-specific data in serialization\nTypeError: game.toJSON is not a function\n ❯ tests/unit/TexasHoldemGame.test.js:802:25\n    800| \n    801|     it('should include poker-specific data in serialization', () => {\n    802|       const json = game.toJSON();\n       |                         ^\n    803| \n    804|       expect(json).toHaveProperty('smallBlind');\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[25/26]⎯\n\n FAIL  tests/unit/TexasHoldemGame.test.js > TexasHoldemGame > Serialization > should serialize player hands\nTypeError: game.toJSON is not a function\n ❯ tests/unit/TexasHoldemGame.test.js:812:25\n    810| \n    811|     it('should serialize player hands', () => {\n    812|       const json = game.toJSON();\n       |                         ^\n    813| \n    814|       json.players.forEach(player => {\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[26/26]⎯"
+      ]
+    },
+    {
+      "slug": "prism-runner-3d",
+      "title": "Prism Runner 3d",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "failed: failed (2)",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/prism-runner-3d/",
+      "copiedAssets": [
+        "/projects/prism-runner-3d/screenshots/01-real-screenshot.png",
+        "/projects/prism-runner-3d/screenshots/02-real-hero.png",
+        "/projects/prism-runner-3d/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/prism-runner-3d/screenshots/01-overview.png",
+        "/projects/prism-runner-3d/screenshots/02-core-feature.png",
+        "/projects/prism-runner-3d/screenshots/03-detail-view.png",
+        "/projects/prism-runner-3d/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Fix the local build before publishing this as a fully runnable demo."
+      ],
+      "notes": [
+        "Build output tail: > prism-runner-3d@0.0.0 build\n> tsc -b && vite build\n\ntsconfig.json(18,5): error TS5101: Option 'baseUrl' is deprecated and will stop functioning in TypeScript 7.0. Specify compilerOption '\"ignoreDeprecations\": \"6.0\"' to silence this error.\n  Visit https://aka.ms/ts6 for migration information.\ntsconfig.json(24,18): error TS6310: Referenced project '[local-path]' may not disable emit.\n\n\nCommand failed: npm run build --if-present",
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "procedural-3d-maze",
+      "title": "Procedural 3D Maze",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/procedural-3d-maze/",
+      "copiedAssets": [
+        "/projects/procedural-3d-maze/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/procedural-3d-maze/screenshots/01-overview.png",
+        "/projects/procedural-3d-maze/screenshots/02-core-feature.png",
+        "/projects/procedural-3d-maze/screenshots/03-detail-view.png",
+        "/projects/procedural-3d-maze/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "procedural-dungeon-crawler",
+      "title": "Procedural Dungeon Crawler",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "failed: failed (2)",
+      "testStatus": "no test script detected",
+      "lintStatus": "failed: failed (1)",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/procedural-dungeon-crawler/screenshots/01-real-screenshot.png",
+        "/projects/procedural-dungeon-crawler/screenshots/02-real-hero.png",
+        "/projects/procedural-dungeon-crawler/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/procedural-dungeon-crawler/screenshots/01-overview.png",
+        "/projects/procedural-dungeon-crawler/screenshots/02-core-feature.png",
+        "/projects/procedural-dungeon-crawler/screenshots/03-detail-view.png",
+        "/projects/procedural-dungeon-crawler/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Fix the local build before publishing this as a fully runnable demo."
+      ],
+      "notes": [
+        "Build output tail: > procedural-dungeon-crawler@0.0.0 build\n> tsc -b && vite build\n\nsrc/hooks/useGameOver.ts(10,10): error TS1005: '>' expected.\nsrc/hooks/useGameOver.ts(10,19): error TS1005: ')' expected.\nsrc/hooks/useGameOver.ts(11,11): error TS1005: '>' expected.\nsrc/hooks/useGameOver.ts(11,20): error TS1005: ';' expected.\nsrc/hooks/useGameOver.ts(11,69): error TS1005: ';' expected.\nsrc/hooks/useGameOver.ts(11,74): error TS1161: Unterminated regular expression literal.\nsrc/hooks/useGameOver.ts(14,18): error TS1136: Property assignment expected.\nsrc/hooks/useGameOver.ts(14,21): error TS1005: ';' expected.\nsrc/hooks/useGameOver.ts(19,7): error TS1109: Expression expected.\nsrc/hooks/useGameOver.ts(20,13): error TS1005: ';' expected.\nsrc/hooks/useGameOver.ts(21,8): error TS1161: Unterminated regular expression literal.\nsrc/hooks/useGameOver.ts(22,6): error TS1161: Unterminated regular expression literal.\nsrc/hooks/useGameOver.ts(23,3): error TS1128: Declaration or statement expected.\nsrc/hooks/useGameOver.ts(24,1): error TS1128: Declaration or statement expected.\n\n\nCommand failed: npm run build --if-present",
+        "Lint output tail:                                                                                                                                                                                                                                                                                                                                                                                                                                 react-hooks/immutability\n\n[local-path]\n   1:18  error  'useEffect' is defined but never used       @typescript-eslint/no-unused-vars\n   5:10  error  'usePlayerStore' is defined but never used  @typescript-eslint/no-unused-vars\n  19:31  error  Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any\n  44:31  error  'other' is defined but never used           @typescript-eslint/no-unused-vars\n\n[local-path]\n  2:15  error  'EnemyInstance' is defined but never used  @typescript-eslint/no-unused-vars\n\n[local-path]\n  43:3  error  'roomCenter' is defined but never used    @typescript-eslint/no-unused-vars\n  44:3  error  'roomSize' is defined but never used      @typescript-eslint/no-unused-vars\n  47:9  error  'now' is assigned a value but never used  @typescript-eslint/no-unused-vars\n  90:3  error  'delta' is defined but never used         @typescript-eslint/no-unused-vars\n\n✖ 23 problems (19 errors, 4 warnings)\n\n\n\nCommand failed: npm run lint --if-present"
+      ]
+    },
+    {
+      "slug": "projectmind",
+      "title": "Projectmind",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Java/Maven",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "build capability detected by scanner, but no executable npm build was verified",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/project-mind/",
+      "copiedAssets": [
+        "/projects/projectmind/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/projectmind/screenshots/01-overview.png",
+        "/projects/projectmind/screenshots/02-core-feature.png",
+        "/projects/projectmind/screenshots/03-detail-view.png",
+        "/projects/projectmind/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Verify build command from the project-specific documentation."
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "quant-strategy-agent-lab",
+      "title": "Quant Strategy Agent Lab",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/quant-strategy-agent-lab/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/quant-strategy-agent-lab/screenshots/01-overview.png",
+        "/projects/quant-strategy-agent-lab/screenshots/02-core-feature.png",
+        "/projects/quant-strategy-agent-lab/screenshots/03-detail-view.png",
+        "/projects/quant-strategy-agent-lab/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "r3f-rpg-builder",
+      "title": "R3f RPG Builder",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: catalog GitHub repo 'react-three-fiber-rpg-builder' is too ambiguous for deployment.",
+      "copiedAssets": [
+        "/projects/r3f-rpg-builder/screenshots/01-real-screenshot.png",
+        "/projects/r3f-rpg-builder/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/r3f-rpg-builder/screenshots/01-overview.png",
+        "/projects/r3f-rpg-builder/screenshots/02-core-feature.png",
+        "/projects/r3f-rpg-builder/screenshots/03-detail-view.png",
+        "/projects/r3f-rpg-builder/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "catalog GitHub repo 'react-three-fiber-rpg-builder' is too ambiguous for deployment."
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: catalog GitHub repo 'react-three-fiber-rpg-builder' is too ambiguous for deployment."
+      ]
+    },
+    {
+      "slug": "recsys-benchmark-suite",
+      "title": "Recommendation Benchmark Suite",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/recsys-benchmark-suite/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/recsys-benchmark-suite/screenshots/01-overview.png",
+        "/projects/recsys-benchmark-suite/screenshots/02-core-feature.png",
+        "/projects/recsys-benchmark-suite/screenshots/03-detail-view.png",
+        "/projects/recsys-benchmark-suite/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "research-paper-and-knowledge-workspace",
+      "title": "Research Paper & Knowledge Workspace",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/research-paper-and-knowledge-workspace/",
+      "copiedAssets": [
+        "/projects/research-paper-and-knowledge-workspace/screenshots/01-real-cover.webp",
+        "/projects/research-paper-and-knowledge-workspace/screenshots/02-real-01-main-workspace.webp",
+        "/projects/research-paper-and-knowledge-workspace/screenshots/03-real-screenshot.png",
+        "/projects/research-paper-and-knowledge-workspace/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/research-paper-and-knowledge-workspace/screenshots/01-overview.png",
+        "/projects/research-paper-and-knowledge-workspace/screenshots/02-core-feature.png",
+        "/projects/research-paper-and-knowledge-workspace/screenshots/03-detail-view.png",
+        "/projects/research-paper-and-knowledge-workspace/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "restoreAI-studio",
+      "title": "RestorAI Studio — AI Image Restoration Portfolio Workbench",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/restoreAI-studio/screenshots/01-real-cover.webp",
+        "/projects/restoreAI-studio/screenshots/02-real-mobile.webp",
+        "/projects/restoreAI-studio/screenshots/03-real-pipeline-complete.webp",
+        "/projects/restoreAI-studio/screenshots/04-real-workspace.webp",
+        "/projects/restoreAI-studio/videos/01-real-demo-tour.webm",
+        "/projects/restoreAI-studio/screenshots/05-real-cover.webp",
+        "/projects/restoreAI-studio/screenshots/06-real-mobile.webp",
+        "/projects/restoreAI-studio/screenshots/07-real-pipeline-complete.webp",
+        "/projects/restoreAI-studio/screenshots/08-real-workspace.webp",
+        "/projects/restoreAI-studio/videos/02-real-demo-tour.webm",
+        "/projects/restoreAI-studio/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/restoreAI-studio/screenshots/01-overview.png",
+        "/projects/restoreAI-studio/screenshots/02-core-feature.png",
+        "/projects/restoreAI-studio/screenshots/03-detail-view.png",
+        "/projects/restoreAI-studio/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "retailpulse-bi-recommender",
+      "title": "RetailPulse BI & Recommendation Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/retailpulse-bi-recommender/",
+      "copiedAssets": [
+        "/projects/retailpulse-bi-recommender/screenshots/01-real-01-dashboard.png",
+        "/projects/retailpulse-bi-recommender/screenshots/02-real-02-customers.png",
+        "/projects/retailpulse-bi-recommender/screenshots/03-real-03-basket.png",
+        "/projects/retailpulse-bi-recommender/screenshots/04-real-04-recommendations.png",
+        "/projects/retailpulse-bi-recommender/screenshots/05-real-05-forecast.png",
+        "/projects/retailpulse-bi-recommender/screenshots/06-real-06-ml-insights.png",
+        "/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
+        "/projects/retailpulse-bi-recommender/screenshots/07-real-ab-testing-01.png",
+        "/projects/retailpulse-bi-recommender/screenshots/08-real-ab-testing-02.png",
+        "/projects/retailpulse-bi-recommender/screenshots/09-real-ab-testing-03.png",
+        "/projects/retailpulse-bi-recommender/screenshots/10-real-basket-01.png",
+        "/projects/retailpulse-bi-recommender/screenshots/11-real-basket-02.png",
+        "/projects/retailpulse-bi-recommender/screenshots/12-real-cohort-01.png"
+      ],
+      "capturedScreenshots": [],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "rigview3d",
+      "title": "Rigview3d",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/rigview3d/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/rigview3d/screenshots/01-overview.png",
+        "/projects/rigview3d/screenshots/02-core-feature.png",
+        "/projects/rigview3d/screenshots/03-detail-view.png",
+        "/projects/rigview3d/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "rocm-image-video-stack",
+      "title": "ROCm Image & Video AI Generation Stack",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/rocm-image-video-stack/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/rocm-image-video-stack/screenshots/01-overview.png",
+        "/projects/rocm-image-video-stack/screenshots/02-core-feature.png",
+        "/projects/rocm-image-video-stack/screenshots/03-detail-view.png",
+        "/projects/rocm-image-video-stack/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "runner-inspired-3d",
+      "title": "3D Rushy Runner",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/3d-rushy-runner/",
+      "copiedAssets": [
+        "/projects/runner-inspired-3d/screenshots/01-real-screenshot.png",
+        "/projects/runner-inspired-3d/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/runner-inspired-3d/screenshots/01-overview.png",
+        "/projects/runner-inspired-3d/screenshots/02-core-feature.png",
+        "/projects/runner-inspired-3d/screenshots/03-detail-view.png",
+        "/projects/runner-inspired-3d/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Review generated case-study text against source evidence."
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "sailing-adventure",
+      "title": "Sailing Adventure",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "failed: failed (2)",
+      "testStatus": "failed: failed (1)",
+      "lintStatus": "failed: failed (2)",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/sailing-adventure/screenshots/01-real-screenshot.png",
+        "/projects/sailing-adventure/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/sailing-adventure/screenshots/01-overview.png",
+        "/projects/sailing-adventure/screenshots/02-core-feature.png",
+        "/projects/sailing-adventure/screenshots/03-detail-view.png",
+        "/projects/sailing-adventure/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Fix the local build before publishing this as a fully runnable demo."
+      ],
+      "notes": [
+        "Build output tail: > sailing-adventure-3d@1.0.0 build\n> tsc && vite build\n\nsrc/App.tsx(66,10): error TS6133: 'ShipPlaceholder' is declared but its value is never read.\nsrc/App.tsx(268,38): error TS2322: Type '{ islands: IslandData[]; prompt: LandingPrompt | null; }' is not assignable to type 'IntrinsicAttributes'.\n  Property 'islands' does not exist on type 'IntrinsicAttributes'.\nsrc/components/environment/CelestialSystem.tsx(7,9): error TS6133: 'scene' is declared but its value is never read.\nsrc/stores/uiStore.ts(29,52): error TS2741: Property 'setActiveMerchant' is missing in type '{ isPaused: false; isDocked: false; showGameOver: false; activePrompt: \"NONE\"; targetIslandId: null; activeMerchantId: null; togglePause: () => void; pause: () => void; resume: () => void; setDocked: (docked: boolean, islandId?: string | ... 1 more ... | undefined) => void; setPrompt: (prompt: InteractionPromptType,...' but required in type 'UIState'.\nsrc/ui/MerchantTradePanel.tsx(20,29): error TS2339: Property 'getMerchantPrices' does not exist on type 'TradeSystem'.\nsrc/ui/MerchantTradePanel.tsx(48,21): error TS7006: Parameter 'g' implicitly has an 'any' type.\n\n\nCommand failed: npm run build --if-present",
+        "Lint output tail: > sailing-adventure-3d@1.0.0 lint\n> eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0\n\n\n\nOops! Something went wrong! :(\n\nESLint: 8.57.1\n\nESLint couldn't find a configuration file. To set up a configuration file for this project, please run:\n\n    npm init @eslint/config\n\nESLint looked for configuration files in [local-path] and its ancestors. If it found none, it then looked in your home directory.\n\nIf you think you already have a configuration file or if you need more help, please stop by the ESLint Discord server: https://eslint.org/chat\n\n\nCommand failed: npm run lint --if-present\n\nOops! Something went wrong! :(\n\nESLint: 8.57.1\n\nESLint couldn't find a configuration file. To set up a configuration file for this project, please run:\n\n    npm init @eslint/config\n\nESLint looked for configuration files in [local-path] and its ancestors. If it found none, it then looked in your home directory.\n\nIf you think you already have a configuration file or if you need more help, please stop by the ESLint Discord server: https://eslint.org/chat",
+        "Test output tail: > sailing-adventure-3d@1.0.0 test\n> vitest\n\n\n RUN  v1.6.1 [local-path]\n\n\n(!) the `splitVendorChunk` plugin doesn't have any effect when using the object form of `build.rollupOptions.output.manualChunks`. Consider using the function form instead.\ninclude: **/*.{test,spec}.?(c|m)[jt]s?(x)\nexclude:  **/node_modules/**, **/dist/**, **/cypress/**, **/.{idea,git,cache,output,temp}/**, **/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress,tsup,build,eslint,prettier}.config.*\nwatch exclude:  **/node_modules/**, **/dist/**\n\nNo test files found, exiting with code 1\n\nCommand failed: npm test --if-present\n(!) the `splitVendorChunk` plugin doesn't have any effect when using the object form of `build.rollupOptions.output.manualChunks`. Consider using the function form instead.\ninclude: **/*.{test,spec}.?(c|m)[jt]s?(x)\nexclude:  **/node_modules/**, **/dist/**, **/cypress/**, **/.{idea,git,cache,output,temp}/**, **/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress,tsup,build,eslint,prettier}.config.*\nwatch exclude:  **/node_modules/**, **/dist/**\n\nNo test files found, exiting with code 1"
+      ]
+    },
+    {
+      "slug": "school-library-lms",
+      "title": "School Library Lms",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "passed",
+      "testStatus": "passed",
+      "lintStatus": "passed",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/school-library-lms/",
+      "copiedAssets": [
+        "/projects/school-library-lms/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/school-library-lms/screenshots/01-overview.png",
+        "/projects/school-library-lms/screenshots/02-core-feature.png",
+        "/projects/school-library-lms/screenshots/03-detail-view.png",
+        "/projects/school-library-lms/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "scrapers",
+      "title": "Scrapers",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "blocked: no high-confidence existing GitHub repo; repo creation is disabled",
+      "copiedAssets": [
+        "/projects/scrapers/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/scrapers/screenshots/01-overview.png",
+        "/projects/scrapers/screenshots/02-core-feature.png",
+        "/projects/scrapers/screenshots/03-detail-view.png",
+        "/projects/scrapers/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Deploy an external live demo if this project should be showcased as runnable.",
+        "Review generated case-study text against source evidence.",
+        "no high-confidence existing GitHub repo; repo creation is disabled"
+      ],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage.",
+        "Deployment automation: no high-confidence existing GitHub repo; repo creation is disabled"
+      ]
+    },
+    {
+      "slug": "sd-multimodal-platform",
+      "title": "SD Multi-Modal Platform: Portfolio-Ready Stable Diffusion Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/sd-multimodal-platform/screenshots/01-real-cover.webp",
+        "/projects/sd-multimodal-platform/screenshots/02-real-01-workbench-desktop.png",
+        "/projects/sd-multimodal-platform/screenshots/03-real-02-generated-result-desktop.png",
+        "/projects/sd-multimodal-platform/screenshots/04-real-03-workbench-mobile.png",
+        "/projects/sd-multimodal-platform/videos/01-real-demo-walkthrough.webm",
+        "/projects/sd-multimodal-platform/screenshots/05-real-cover.webp",
+        "/projects/sd-multimodal-platform/screenshots/06-real-01-workbench-desktop.png",
+        "/projects/sd-multimodal-platform/screenshots/07-real-02-generated-result-desktop.png",
+        "/projects/sd-multimodal-platform/screenshots/08-real-03-workbench-mobile.png",
+        "/projects/sd-multimodal-platform/screenshots/09-real-cover.webp",
+        "/projects/sd-multimodal-platform/screenshots/10-real-01-workbench-desktop.png",
+        "/projects/sd-multimodal-platform/videos/02-real-demo-walkthrough.webm",
+        "/projects/sd-multimodal-platform/videos/03-real-demo-walkthrough.webm",
+        "/projects/sd-multimodal-platform/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/sd-multimodal-platform/screenshots/01-overview.png",
+        "/projects/sd-multimodal-platform/screenshots/02-core-feature.png",
+        "/projects/sd-multimodal-platform/screenshots/03-detail-view.png",
+        "/projects/sd-multimodal-platform/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "signal-diver-3d",
+      "title": "Signal Diver 3d",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "failed: failed (2)",
+      "testStatus": "no test script detected",
+      "lintStatus": "failed: failed (1)",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/signal-diver-3d/screenshots/01-real-Screenshot_20260614_141536.png",
+        "/projects/signal-diver-3d/screenshots/02-real-hero.png",
+        "/projects/signal-diver-3d/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/signal-diver-3d/screenshots/01-overview.png",
+        "/projects/signal-diver-3d/screenshots/02-core-feature.png",
+        "/projects/signal-diver-3d/screenshots/03-detail-view.png",
+        "/projects/signal-diver-3d/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [
+        "Fix the local build before publishing this as a fully runnable demo."
+      ],
+      "notes": [
+        "Build output tail: > signal-diver-3d@0.0.0 build\n> tsc -b && vite build\n\nsrc/components/entities/SourceNode.tsx(2,1): error TS6133: 'React' is declared but its value is never read.\nsrc/components/phaser/scenes/CoreAlignmentScene.ts(32,27): error TS6133: 'i' is declared but its value is never read.\nsrc/store/useGameStore.ts(84,34): error TS2339: Property 'slotId' does not exist on type 'SaveData'.\nsrc/store/useGameStore.ts(123,16): error TS2345: Argument of type 'string' is not assignable to parameter of type 'number'.\n\n\nCommand failed: npm run build --if-present",
+        "Lint output tail: > signal-diver-3d@0.0.0 lint\n> eslint .\n\n\n[local-path]\n  32:27  error  'i' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars\n\n[local-path]\n  15:7  error  The value assigned to 'title' is not used in subsequent statements  no-useless-assignment\n  16:7  error  The value assigned to 'text' is not used in subsequent statements   no-useless-assignment\n\n✖ 3 problems (3 errors, 0 warnings)\n\n\n\nCommand failed: npm run lint --if-present"
+      ]
+    },
+    {
+      "slug": "starforge-AI-narrative",
+      "title": "Starforge AI Narrative",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/starforge-AI-narrative/",
+      "copiedAssets": [
+        "/projects/starforge-AI-narrative/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/starforge-AI-narrative/screenshots/01-overview.png",
+        "/projects/starforge-AI-narrative/screenshots/02-core-feature.png",
+        "/projects/starforge-AI-narrative/screenshots/03-detail-view.png",
+        "/projects/starforge-AI-narrative/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "text2sql-evaluation-harness",
+      "title": "Text2SQL Evaluation Harness",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/text2sql-evaluation-harness/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/text2sql-evaluation-harness/screenshots/01-overview.png",
+        "/projects/text2sql-evaluation-harness/screenshots/02-core-feature.png",
+        "/projects/text2sql-evaluation-harness/screenshots/03-detail-view.png",
+        "/projects/text2sql-evaluation-harness/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "the-archive-that-watches-you",
+      "title": "The Archive That Watches You",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "failed: failed (1)",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/the-archive-that-watches-you/screenshots/01-real-screenshot.png",
+        "/projects/the-archive-that-watches-you/screenshots/02-real-hero.png",
+        "/projects/the-archive-that-watches-you/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/the-archive-that-watches-you/screenshots/01-overview.png",
+        "/projects/the-archive-that-watches-you/screenshots/02-core-feature.png",
+        "/projects/the-archive-that-watches-you/screenshots/03-detail-view.png",
+        "/projects/the-archive-that-watches-you/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Lint output tail: ^^^^^^^^^^ Cannot access ref value during render\n  71 |       colliders={false}\n  72 |     >\n  73 |       <CuboidCollider args={[0.5, 0.9, 0.5]} />                                    react-hooks/refs\n  70:84  error  Error: Cannot access refs during render\n\nReact refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef).\n\n[local-path]\n  68 |       ref={rigidBodyRef}\n  69 |       type=\"kinematicPosition\"\n> 70 |       position={[enemyDataRef.current.position.x, enemyDataRef.current.position.y, enemyDataRef.current.position.z]}\n     |                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Cannot access ref value during render\n  71 |       colliders={false}\n  72 |     >\n  73 |       <CuboidCollider args={[0.5, 0.9, 0.5]} />   react-hooks/refs\n\n[local-path]\n  13:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any\n\n[local-path]\n  101:14  error  '_' is defined but never used  @typescript-eslint/no-unused-vars\n  101:17  error  Empty block statement          no-empty\n\n✖ 22 problems (15 errors, 7 warnings)\n\n\n\nCommand failed: npm run lint --if-present"
+      ]
+    },
+    {
+      "slug": "the-classrooms",
+      "title": "The Classrooms",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "not run; node_modules already present or install not requested",
+      "runStatus": "run script detected; not executed",
+      "buildStatus": "passed",
+      "testStatus": "no test script detected",
+      "lintStatus": "failed: failed (2)",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/the-classrooms/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/the-classrooms/screenshots/01-overview.png",
+        "/projects/the-classrooms/screenshots/02-core-feature.png",
+        "/projects/the-classrooms/screenshots/03-detail-view.png",
+        "/projects/the-classrooms/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Lint output tail: > liminal-echo-horror@1.0.0 lint\n> eslint src --ext .ts\n\n\n\nOops! Something went wrong! :(\n\nESLint: 9.39.4\n\nESLint couldn't find an eslint.config.(js|mjs|cjs) file.\n\nFrom ESLint v9.0.0, the default configuration file is now eslint.config.js.\nIf you are using a .eslintrc.* file, please follow the migration guide\nto update your configuration file to the new format:\n\nhttps://eslint.org/docs/latest/use/configure/migration-guide\n\nIf you still have problems after following the migration guide, please stop by\nhttps://eslint.org/chat/help to chat with the team.\n\n\nCommand failed: npm run lint --if-present\n\nOops! Something went wrong! :(\n\nESLint: 9.39.4\n\nESLint couldn't find an eslint.config.(js|mjs|cjs) file.\n\nFrom ESLint v9.0.0, the default configuration file is now eslint.config.js.\nIf you are using a .eslintrc.* file, please follow the migration guide\nto update your configuration file to the new format:\n\nhttps://eslint.org/docs/latest/use/configure/migration-guide\n\nIf you still have problems after following the migration guide, please stop by\nhttps://eslint.org/chat/help to chat with the team."
+      ]
+    },
+    {
+      "slug": "threejs-product-viewer",
+      "title": "Threejs Product Viewer",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "dev launch attempted: dev server did not open a local port within timeout",
+      "buildStatus": "passed",
+      "testStatus": "failed: failed (1)",
+      "lintStatus": "failed: failed (2)",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/threejs-product-viewer/",
+      "copiedAssets": [
+        "/projects/threejs-product-viewer/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/threejs-product-viewer/screenshots/01-overview.png",
+        "/projects/threejs-product-viewer/screenshots/02-core-feature.png",
+        "/projects/threejs-product-viewer/screenshots/03-detail-view.png",
+        "/projects/threejs-product-viewer/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Lint output tail: > threejs-product-viewer@1.0.0 lint\n> eslint src --ext .js,.jsx,.ts,.tsx\n\n\n\nOops! Something went wrong! :(\n\nESLint: 9.39.4\n\nESLint couldn't find an eslint.config.(js|mjs|cjs) file.\n\nFrom ESLint v9.0.0, the default configuration file is now eslint.config.js.\nIf you are using a .eslintrc.* file, please follow the migration guide\nto update your configuration file to the new format:\n\nhttps://eslint.org/docs/latest/use/configure/migration-guide\n\nIf you still have problems after following the migration guide, please stop by\nhttps://eslint.org/chat/help to chat with the team.\n\n\nCommand failed: npm run lint --if-present\n\nOops! Something went wrong! :(\n\nESLint: 9.39.4\n\nESLint couldn't find an eslint.config.(js|mjs|cjs) file.\n\nFrom ESLint v9.0.0, the default configuration file is now eslint.config.js.\nIf you are using a .eslintrc.* file, please follow the migration guide\nto update your configuration file to the new format:\n\nhttps://eslint.org/docs/latest/use/configure/migration-guide\n\nIf you still have problems after following the migration guide, please stop by\nhttps://eslint.org/chat/help to chat with the team.",
+        "Test output tail: > threejs-product-viewer@1.0.0 test\n> vitest\n\n\n RUN  v3.2.6 [local-path]\n\n\nNo test files found, exiting with code 1\n\ninclude: **/*.{test,spec}.?(c|m)[jt]s?(x)\nexclude:  **/node_modules/**, **/dist/**, **/cypress/**, **/.{idea,git,cache,output,temp}/**, **/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress,tsup,build,eslint,prettier}.config.*\n\n\nCommand failed: npm test --if-present\nNo test files found, exiting with code 1\n\ninclude: **/*.{test,spec}.?(c|m)[jt]s?(x)\nexclude:  **/node_modules/**, **/dist/**, **/cypress/**, **/.{idea,git,cache,output,temp}/**, **/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress,tsup,build,eslint,prettier}.config.*",
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "traffic-pulse",
+      "title": "Traffic Pulse",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Web/Node",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "passed via npm install --ignore-scripts",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "no build script",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo deployed: https://justin21523.github.io/traffic-pulse/",
+      "copiedAssets": [
+        "/projects/traffic-pulse/screenshots/01-real-events.png",
+        "/projects/traffic-pulse/screenshots/02-real-explore-policy.png",
+        "/projects/traffic-pulse/screenshots/03-real-explore.png",
+        "/projects/traffic-pulse/screenshots/04-real-overview.png",
+        "/projects/traffic-pulse/screenshots/05-real-pipeline.png",
+        "/projects/traffic-pulse/screenshots/06-real-rankings.png",
+        "/projects/traffic-pulse/videos/playwright-portfolio-case-study.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/traffic-pulse/screenshots/01-overview.png",
+        "/projects/traffic-pulse/screenshots/02-core-feature.png",
+        "/projects/traffic-pulse/screenshots/03-detail-view.png",
+        "/projects/traffic-pulse/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": [
+        "Playwright captured a portfolio case-study fallback for missing verified screenshot or video coverage."
+      ]
+    },
+    {
+      "slug": "tripscore",
+      "title": "TripScore: Explainable Destination Scoring & Recommendation",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/tripscore/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/tripscore/screenshots/01-overview.png",
+        "/projects/tripscore/screenshots/02-core-feature.png",
+        "/projects/tripscore/screenshots/03-detail-view.png",
+        "/projects/tripscore/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "urban-analytics-core",
+      "title": "urban-analytics-core",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/urban-analytics-core/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/urban-analytics-core/screenshots/01-overview.png",
+        "/projects/urban-analytics-core/screenshots/02-core-feature.png",
+        "/projects/urban-analytics-core/screenshots/03-detail-view.png",
+        "/projects/urban-analytics-core/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "vanilla-dom-playground",
+      "title": "Vanilla DOM Playground",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/vanilla-dom-playground/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/vanilla-dom-playground/screenshots/01-overview.png",
+        "/projects/vanilla-dom-playground/screenshots/02-core-feature.png",
+        "/projects/vanilla-dom-playground/screenshots/03-detail-view.png",
+        "/projects/vanilla-dom-playground/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "video-family-lora-hub",
+      "title": "Video Family LoRA Hub",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/video-family-lora-hub/screenshots/01-real-cover.png",
+        "/projects/video-family-lora-hub/screenshots/02-real-01-showcase-console.png",
+        "/projects/video-family-lora-hub/screenshots/03-real-02-pipeline-manifest.png",
+        "/projects/video-family-lora-hub/screenshots/04-real-03-artifact-browser.png",
+        "/projects/video-family-lora-hub/screenshots/05-real-04-architecture.png",
+        "/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
+        "/projects/video-family-lora-hub/screenshots/06-real-cover.png",
+        "/projects/video-family-lora-hub/screenshots/07-real-01-showcase-console.png",
+        "/projects/video-family-lora-hub/screenshots/08-real-02-pipeline-manifest.png",
+        "/projects/video-family-lora-hub/screenshots/09-real-03-artifact-browser.png",
+        "/projects/video-family-lora-hub/screenshots/10-real-04-architecture.png",
+        "/projects/video-family-lora-hub/screenshots/11-real-cover.png",
+        "/projects/video-family-lora-hub/videos/02-real-demo-walkthrough.webm",
+        "/projects/video-family-lora-hub/videos/03-real-demo-walkthrough.webm",
+        "/projects/video-family-lora-hub/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/video-family-lora-hub/screenshots/01-overview.png",
+        "/projects/video-family-lora-hub/screenshots/02-core-feature.png",
+        "/projects/video-family-lora-hub/screenshots/03-detail-view.png",
+        "/projects/video-family-lora-hub/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "video-gen",
+      "title": "video-gen: ROCm Video-Gen Environment Governance Workspace",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Other",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/video-gen/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/video-gen/screenshots/01-overview.png",
+        "/projects/video-gen/screenshots/02-core-feature.png",
+        "/projects/video-gen/screenshots/03-detail-view.png",
+        "/projects/video-gen/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "vision-quest",
+      "title": "VisionQuest Multi-Modal AI Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/vision-quest/screenshots/01-real-cover.png",
+        "/projects/vision-quest/screenshots/02-real-01-workspace-overview.png",
+        "/projects/vision-quest/screenshots/03-real-02-pipeline-running.png",
+        "/projects/vision-quest/screenshots/04-real-03-vision-lab.png",
+        "/projects/vision-quest/screenshots/05-real-04-knowledge-base.png",
+        "/projects/vision-quest/screenshots/06-real-05-agent-trace.png",
+        "/projects/vision-quest/videos/01-real-demo-tour.webm",
+        "/projects/vision-quest/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/vision-quest/screenshots/01-overview.png",
+        "/projects/vision-quest/screenshots/02-core-feature.png",
+        "/projects/vision-quest/screenshots/03-detail-view.png",
+        "/projects/vision-quest/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "YouTube-Web-Automation-Analysis",
+      "title": "YouTube Web Automation & Analysis Platform",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/YouTube-Web-Automation-Analysis/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/YouTube-Web-Automation-Analysis/screenshots/01-overview.png",
+        "/projects/YouTube-Web-Automation-Analysis/screenshots/02-core-feature.png",
+        "/projects/YouTube-Web-Automation-Analysis/screenshots/03-detail-view.png",
+        "/projects/YouTube-Web-Automation-Analysis/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    },
+    {
+      "slug": "ytp-factory",
+      "title": "YTP Factory — AI-Driven Video Automation Factory",
+      "status": "completed",
+      "localRepo": "present",
+      "sourceType": "Python",
+      "readmeStatus": "portfolio-grade; updated-quality-section",
+      "installStatus": "no npm package manifest",
+      "runStatus": "no verified run command detected",
+      "buildStatus": "not applicable",
+      "testStatus": "no test script detected",
+      "lintStatus": "no lint script detected",
+      "screenshotStatus": "real screenshots present; captured 4 new",
+      "demoVideoStatus": "real video present",
+      "deploymentStatus": "external live demo link present",
+      "copiedAssets": [
+        "/projects/ytp-factory/videos/playwright-external-live-demo.webm"
+      ],
+      "capturedScreenshots": [
+        "/projects/ytp-factory/screenshots/01-overview.png",
+        "/projects/ytp-factory/screenshots/02-core-feature.png",
+        "/projects/ytp-factory/screenshots/03-detail-view.png",
+        "/projects/ytp-factory/screenshots/04-architecture-or-data-flow.png"
+      ],
+      "manualFollowUpNeeded": [],
+      "notes": []
+    }
+  ]
+}

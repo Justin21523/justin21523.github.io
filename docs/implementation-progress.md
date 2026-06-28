@@ -42,7 +42,7 @@ This document tracks the execution progress of all project implementation phases
 - Current risk: existing overrides previously made almost every project public and added unverified Dothost demo links.
 
 ### Phase 2: Local Project Scanning
-- Updated scanner to include `/home/justin/web-projects`, `/mnt/c/ai_projects`, and selected standalone project folders.
+- Updated scanner to include home-relative web project roots, an optional Windows-mounted project root, and selected standalone project folders.
 - Rebuilt `data/generated/project-scan-report.json`; current scan count: 86 candidate projects.
 - Rebuilt `docs/project-inventory.md` with README, media, build/run, confidence, and review columns.
 

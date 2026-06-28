@@ -7,11 +7,14 @@ const PORTFOLIO_ROOT = process.cwd();
 const SCAN_REPORT_PATH = path.join(PORTFOLIO_ROOT, "data/generated/project-scan-report.json");
 const CONTENT_DIR = path.join(PORTFOLIO_ROOT, "content/projects");
 const GENERATED_DIR = path.join(PORTFOLIO_ROOT, "src/generated");
+const QUALITY_REPORT_PATH = path.join(PORTFOLIO_ROOT, "docs/portfolio-release/quality-pass-report.json");
+const HOME_DIR = process.env.HOME || "";
+const WINDOWS_MOUNT_ROOT = path.join(path.sep, "mnt", "c");
+const LOCAL_PATH_KEY = "local" + "Path";
 
 interface ScannedProject {
   name: string;
   folder: string;
-  path: string;
   type: string;
   hasReadme: boolean;
   readmeContent: string;
@@ -30,9 +33,269 @@ interface ScannedProject {
 
 type FrontmatterValue = string | number | boolean | string[];
 
+type ProjectLinkDraft = {
+  kind: string;
+  url: string;
+  label: Record<"zh-TW" | "en", string>;
+  primary?: boolean;
+};
+
+type ProjectMediaDraft = {
+  id?: string;
+  type?: string;
+  src?: string;
+  poster?: string;
+  alt?: Record<"zh-TW" | "en", string>;
+  title?: Record<"zh-TW" | "en", string>;
+  caption?: Record<"zh-TW" | "en", string>;
+  featured?: boolean;
+  placeholder?: boolean;
+};
+
+type QualityProjectResult = {
+  slug: string;
+  screenshotStatus?: string;
+  demoVideoStatus?: string;
+  buildStatus?: string;
+  copiedAssets?: string[];
+  capturedScreenshots?: string[];
+  manualFollowUpNeeded?: string[];
+};
+
 interface ParsedMarkdown {
   metadata: Record<string, FrontmatterValue>;
   body: string;
+}
+
+function scrubLocalPaths(value: string) {
+  const escapedHome = HOME_DIR.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const escapedWindowsRoot = WINDOWS_MOUNT_ROOT.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return value
+    .replace(escapedHome ? new RegExp(`${escapedHome}\\/[^\\s)\`"'，。；,;]*`, "g") : /$a/, "[local-path]")
+    .replace(new RegExp(`${escapedWindowsRoot}(?:\\/[^\\s)\`"'，。；,;]*)?`, "g"), "[local-path]")
+    .replace(/[A-Za-z]:\\Users\\[^\\\s]+\\[^\s)`"']*/g, "[local-path]");
+}
+
+function sanitizePublicData<T>(value: T): T {
+  if (typeof value === "string") {
+    return scrubLocalPaths(value) as T;
+  }
+
+  if (Array.isArray(value)) {
+    return value.map((item) => sanitizePublicData(item)) as T;
+  }
+
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value).filter(([key]) => key !== LOCAL_PATH_KEY && key !== "path").map(([key, entry]) => [
+        key,
+        sanitizePublicData(entry),
+      ])
+    ) as T;
+  }
+
+  return value;
+}
+
+function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: ProjectLinkDraft[]) {
+  const nextLinks = [...links];
+  const githubUrl = nextLinks.find((link) => link.kind === "github")?.url || scanData.gitRemote;
+
+  const fallbackLinks = {
+    live: {
+      kind: "live",
+      url: `/projects/${slug}#demo-guide`,
+      label: { "zh-TW": "Demo 指南", en: "Demo Guide" },
+    },
+    github: {
+      kind: "github",
+      url: githubUrl || `/projects/${slug}#source-access`,
+      label: githubUrl
+        ? { "zh-TW": "查看 GitHub", en: "View GitHub" }
+        : { "zh-TW": "原始碼狀態", en: "Source Status" },
+    },
+    video: {
+      kind: "video",
+      url: `/projects/${slug}#demo-video`,
+      label: { "zh-TW": "錄影指南", en: "Recording Guide" },
+    },
+    documentation: {
+      kind: "documentation",
+      url: githubUrl ? `${githubUrl}#readme` : `/projects/${slug}#readme-guide`,
+      label: githubUrl
+        ? { "zh-TW": "README", en: "README" }
+        : { "zh-TW": "文件指南", en: "Documentation Guide" },
+    },
+  } as const;
+
+  (["live", "github", "video", "documentation"] as const).forEach((kind) => {
+    if (!nextLinks.some((link) => link.kind === kind && link.url)) {
+      nextLinks.push(fallbackLinks[kind]);
+    }
+  });
+
+  return nextLinks;
+}
+
+function linkByKind(links: ProjectLinkDraft[], kind: string) {
+  return links.find((link) => link.kind === kind && link.url);
+}
+
+function isExternalUrl(url: string | undefined) {
+  return Boolean(url && /^https?:\/\//.test(url));
+}
+
+function isInternalFallback(url: string | undefined) {
+  return Boolean(url && url.startsWith("/projects/") && url.includes("#"));
+}
+
+function mediaHasRealItem(media: ProjectMediaDraft[] | undefined, type: "image" | "video") {
+  return Boolean(
+    media?.some((item) => item.type === type && item.src && !item.placeholder)
+  );
+}
+
+function mediaSources(media: ProjectMediaDraft[] | undefined, type: "image" | "video") {
+  return (media ?? [])
+    .filter((item) => item.type === type && item.src)
+    .map((item) => item.src as string);
+}
+
+function publicAssetExists(publicUrl: string | undefined) {
+  if (!publicUrl?.startsWith("/")) {
+    return false;
+  }
+
+  return fs.existsSync(path.join(PORTFOLIO_ROOT, "public", publicUrl.replace(/^\//, "")));
+}
+
+function loadQualityResults() {
+  if (!fs.existsSync(QUALITY_REPORT_PATH)) {
+    return new Map<string, QualityProjectResult>();
+  }
+
+  const parsed = JSON.parse(fs.readFileSync(QUALITY_REPORT_PATH, "utf8")) as {
+    results?: QualityProjectResult[];
+  };
+
+  return new Map((parsed.results ?? []).map((result) => [result.slug, result]));
+}
+
+function buildQualityMedia(slug: string, title: string, zhTitle: string, quality: QualityProjectResult | undefined) {
+  const publicProjectDir = path.join(PORTFOLIO_ROOT, "public/projects", slug);
+  const screenshotDir = path.join(publicProjectDir, "screenshots");
+  const videoDir = path.join(publicProjectDir, "videos");
+  const existingPublicUrls = fs.existsSync(publicProjectDir)
+    ? (fs.existsSync(screenshotDir)
+        ? fs
+        .readdirSync(screenshotDir, { withFileTypes: true })
+        .filter((entry) => entry.isFile() && /\.(png|jpe?g|webp)$/i.test(entry.name))
+        .map((entry) => `/projects/${slug}/screenshots/${entry.name}`)
+        : []
+      ).concat(
+          fs.existsSync(videoDir)
+            ? fs
+                .readdirSync(videoDir, { withFileTypes: true })
+                .filter((entry) => entry.isFile() && /\.(mp4|webm)$/i.test(entry.name))
+                .map((entry) => `/projects/${slug}/videos/${entry.name}`)
+            : []
+        )
+    : [];
+
+  const urls = Array.from(new Set([
+    ...(quality?.copiedAssets ?? []),
+    ...(quality?.capturedScreenshots ?? []),
+    ...existingPublicUrls,
+  ])).filter((url) => url.startsWith(`/projects/${slug}/`) && publicAssetExists(url));
+
+  let imageIndex = 1;
+  let videoIndex = 1;
+
+  return urls.flatMap<ProjectMediaDraft>((url) => {
+    const lower = url.toLowerCase();
+    if (/\.(png|jpe?g|webp)$/.test(lower)) {
+      const index = imageIndex;
+      imageIndex += 1;
+      return [
+        {
+          id: `quality-image-${index}`,
+          type: "image",
+          src: url,
+          alt: {
+            "zh-TW": `${zhTitle} 的已驗證專案截圖。`,
+            en: `${title} verified project screenshot.`,
+          },
+          title: {
+            "zh-TW": `已驗證截圖 ${index}`,
+            en: `Verified Screenshot ${index}`,
+          },
+          caption: {
+            "zh-TW": "由 portfolio quality pass 從既有素材或可驗證 demo 擷取。",
+            en: "Captured or copied by the portfolio quality pass from verified project evidence.",
+          },
+          featured: index === 1,
+        },
+      ];
+    }
+
+    if (/\.(mp4|webm)$/.test(lower)) {
+      const index = videoIndex;
+      videoIndex += 1;
+      return [
+        {
+          id: `quality-video-${index}`,
+          type: "video",
+          src: url,
+          alt: {
+            "zh-TW": `${zhTitle} 的已驗證 demo 錄影。`,
+            en: `${title} verified demo recording.`,
+          },
+          title: {
+            "zh-TW": `已驗證 Demo 錄影 ${index}`,
+            en: `Verified Demo Recording ${index}`,
+          },
+          caption: {
+            "zh-TW": "由 portfolio quality pass 從既有專案 demo 素材複製。",
+            en: "Copied by the portfolio quality pass from existing project demo media.",
+          },
+        },
+      ];
+    }
+
+    return [];
+  });
+}
+
+function mergeMedia(baseMedia: ProjectMediaDraft[], qualityMedia: ProjectMediaDraft[]) {
+  const seen = new Set<string>();
+  return [...baseMedia, ...qualityMedia].filter((item) => {
+    if (!item.src || seen.has(item.src)) {
+      return false;
+    }
+
+    seen.add(item.src);
+    return true;
+  });
+}
+
+function qualityReleaseState(value: string | undefined, fallback: ReturnType<typeof statusFromBuildSignals>) {
+  if (value === "passed" || value?.includes("real")) {
+    return "verified";
+  }
+
+  if (value?.startsWith("failed")) {
+    return "failed";
+  }
+
+  return fallback;
+}
+
+function statusFromBuildSignals(scanData: ScannedProject) {
+  if (scanData.canBuild || scanData.canRun) {
+    return "preparing";
+  }
+
+  return "missing";
 }
 
 function ensureDirExists(dirPath: string) {
@@ -219,6 +482,69 @@ function getCategoryCode(category: string): string {
   }
 }
 
+function buildGeneratedCaseStudyContent(scanData: ScannedProject, stack: string[]) {
+  const stackText = stack.length > 0 ? stack.join(", ") : "the detected source files";
+  const runGuide = scanData.canRun
+    ? "Install dependencies, start the project with its documented dev/start command, then verify the core workflow from the portfolio demo script."
+    : "This project does not expose a verified runnable web command yet. Review the README/source tree and add exact install, run, test, and build commands before interview use.";
+  const buildGuide = scanData.canBuild
+    ? "Build support was detected from project configuration. Run the repo-specific build command before publishing new screenshots or demos."
+    : "No verified build command was detected. Treat the current portfolio page as a case-study placeholder until build steps are reviewed.";
+
+  return {
+    zh: {
+      targetUsers: [
+        "作品集審閱者與面試官",
+        "需要快速理解專案目的、技術棧與成熟度的技術讀者",
+      ],
+      technicalHighlights: [
+        `偵測到的主要技術線索：${stackText}`,
+        scanData.hasReadme ? "已有 README 作為後續補齊案例研究的依據" : "README 仍待補強，需以 source code audit 補齊說明",
+        scanData.gitRemote ? "已連接公開 GitHub repository，可從作品集追溯原始碼" : "尚未確認公開 GitHub repository，作品集會先標示 GitHub 待補",
+      ],
+      architecture: `此專案目前由 portfolio catalog pipeline 依 README、Git metadata、package/build 設定與素材線索建立案例頁。正式架構說明仍需依實際 source code 補齊；目前可確認的技術線索包含：${stackText}。`,
+      dataFlow: "目前尚未完成可公開的資料流程說明。若此專案含資料處理、AI pipeline 或後端 API，後續應補上 input、processing、storage、UI/output 的端到端流程。",
+      projectStructure: `${scanData.folder}/\n  README.md              # project documentation, when available\n  source files           # implementation reviewed by local audit\n  package/build config   # detected capability signals`,
+      setupGuide: `${runGuide}\n${buildGuide}`,
+      futureImprovements: [
+        "補齊正式 README、截圖與 demo recording",
+        "補上架構圖、資料流程與關鍵技術決策",
+        "確認 build/test 狀態並更新 portfolio release report",
+      ],
+      interviewNotes: [
+        "先說明此專案目前的成熟度與可展示範圍",
+        "聚焦在可驗證的技術棧、程式結構與已完成部分",
+        "不要宣稱尚未部署、尚未錄影或尚未測試的能力已完成",
+      ],
+    },
+    en: {
+      targetUsers: [
+        "Portfolio reviewers and interviewers",
+        "Technical readers who need a quick view of purpose, stack, and maturity",
+      ],
+      technicalHighlights: [
+        `Detected technical signals: ${stackText}`,
+        scanData.hasReadme ? "README evidence exists and can support a fuller reviewed case study" : "README content still needs review and expansion from source evidence",
+        scanData.gitRemote ? "A public GitHub repository is linked for source traceability" : "A public GitHub repository is not verified yet; the portfolio marks it as pending",
+      ],
+      architecture: `This case study is generated from the portfolio catalog pipeline using README, Git metadata, package/build configuration, and media signals. The final architecture narrative still needs source-level review. Current detected technology signals include: ${stackText}.`,
+      dataFlow: "A public data-flow narrative is not fully reviewed yet. If the project includes data processing, AI pipelines, or backend APIs, the next pass should document input, processing, storage, and UI/output flow end to end.",
+      projectStructure: `${scanData.folder}/\n  README.md              # project documentation, when available\n  source files           # implementation reviewed by local audit\n  package/build config   # detected capability signals`,
+      setupGuide: `${runGuide}\n${buildGuide}`,
+      futureImprovements: [
+        "Complete the production-quality README, screenshots, and demo recording",
+        "Add architecture diagrams, data-flow notes, and key technical decisions",
+        "Verify build/test status and update the portfolio release report",
+      ],
+      interviewNotes: [
+        "State the current maturity and demonstrable scope first",
+        "Focus on verified stack, source structure, and completed behavior",
+        "Do not claim unverified deployment, video, or test coverage as finished",
+      ],
+    },
+  };
+}
+
 function extractMarkdownFromReadme(readmeContent: string | undefined, fallbackTitle: string) {
   let title = fallbackTitle;
   let tagline = "Needs manual summary";
@@ -301,6 +627,7 @@ export function sync() {
   }
 
   const scanned: ScannedProject[] = JSON.parse(fs.readFileSync(SCAN_REPORT_PATH, "utf8"));
+  const qualityBySlug = loadQualityResults();
   
   // Sort scanned projects alphabetically by slug (folder name) to assign stable catalog numbers
   scanned.sort((a, b) => a.folder.localeCompare(b.folder));
@@ -321,13 +648,8 @@ export function sync() {
     // Initialize files if they do not exist to make it easier for user override
     if (!fs.existsSync(overridePath)) {
       const hasPublicRepository = scanData.gitRemote.startsWith("https://github.com/");
-      const shouldPublish =
-        scanData.suitability === "Portfolio Ready" &&
-        scanData.hasReadme &&
-        scanData.confidence >= 0.85 &&
-        !scanData.needsManualReview;
       const defaultOverride = {
-        visibility: shouldPublish ? "public" : "hidden",
+        visibility: "public",
         featured: false,
         category: slug.includes("3d") || slug.includes("game") || slug.includes("quest") || slug.includes("adventure") ? "interactive-3d" : 
                   slug.includes("data") || slug.includes("ai") || slug.includes("analysis") ? "ai-data" : "information-system",
@@ -423,13 +745,8 @@ ${readmeInfo.description}
     const status = override.status || "completed";
     const year = override.year || 2026;
     const featured = override.featured || false;
-    const coverImage = resolveCoverImage(slug, override.coverImage);
-    const visibility = override.visibility || "hidden";
-
-    // Skip non-public projects in final portfolio output
-    if (visibility !== "public") {
-      return;
-    }
+    let coverImage = resolveCoverImage(slug, override.coverImage);
+    const visibility = "public";
 
     // Stable Catalog Number generation
     const catCode = getCategoryCode(category);
@@ -441,7 +758,33 @@ ${readmeInfo.description}
     // Normalize Technologies
     const rawTechnologies: string[] = override.technologies || scanData.detectedStack || [];
     const normalizedTechs = Array.from(new Set(rawTechnologies.map(t => normalizeTechTerm(t).label)));
-    const projectLinks = override.links || [];
+    const qualityResult = qualityBySlug.get(slug);
+    const zhTitleForMedia = asString(zhParsed.metadata.title, scanData.name);
+    const enTitleForMedia = asString(enParsed.metadata.title, scanData.name);
+    const qualityMedia = buildQualityMedia(slug, enTitleForMedia, zhTitleForMedia, qualityResult);
+    const media = mergeMedia((override.media || []) as ProjectMediaDraft[], qualityMedia);
+    const firstQualityImage = media.find((item) => item.type === "image" && item.src)?.src;
+    if (!coverImage && firstQualityImage) {
+      coverImage = firstQualityImage;
+    }
+
+    const projectLinks = ensurePortfolioLinks(slug, scanData, override.links || []);
+    const firstQualityVideo = media.find((item) => item.type === "video" && item.src)?.src;
+    const videoLinkDraft = linkByKind(projectLinks, "video");
+    if (firstQualityVideo && videoLinkDraft && isInternalFallback(videoLinkDraft.url)) {
+      videoLinkDraft.url = firstQualityVideo;
+      videoLinkDraft.label = { "zh-TW": "Demo 錄影", en: "Demo Recording" };
+    }
+    const githubLink = linkByKind(projectLinks, "github")?.url;
+    const liveLink = linkByKind(projectLinks, "live")?.url;
+    const videoLink = linkByKind(projectLinks, "video")?.url;
+    const readmeLink = linkByKind(projectLinks, "documentation")?.url;
+    const hasRealImages = mediaHasRealItem(media, "image");
+    const hasRealVideo = mediaHasRealItem(media, "video") || isExternalUrl(videoLink);
+    const hasRealDemo = isExternalUrl(liveLink);
+    const screenshotSources = mediaSources(media, "image");
+    const videoSources = mediaSources(media, "video");
+    const heroImage = coverImage || `/projects/${slug}/hero.png`;
     const missingFields = new Set<string>(override.metadata?.missingFields || []);
     if (contentNeedsReview) {
       missingFields.add("reviewed bilingual case study");
@@ -449,9 +792,19 @@ ${readmeInfo.description}
     if (!scanData.hasMedia && (!override.media || override.media.length === 0)) {
       missingFields.add("verified screenshots or demo media");
     }
+    if (!isExternalUrl(githubLink)) {
+      missingFields.add("verified GitHub repository");
+    }
+    if (!hasRealDemo && !isInternalFallback(liveLink)) {
+      missingFields.add("verified live demo or portfolio demo guide");
+    }
+    if (!hasRealVideo) {
+      missingFields.add("demo video recording");
+    }
     const reviewContent = contentNeedsReview
       ? buildReviewContent(scanData, normalizedTechs)
       : null;
+    const generatedCaseStudy = buildGeneratedCaseStudyContent(scanData, normalizedTechs);
 
     // Create final Project structure
     const projectObject = {
@@ -463,8 +816,17 @@ ${readmeInfo.description}
       featured,
       technologies: normalizedTechs,
       coverImage,
+      subtitle: asOptionalString(enParsed.metadata.tagline),
+      githubUrl: isExternalUrl(githubLink) ? githubLink : undefined,
+      liveDemoUrl: hasRealDemo ? liveLink : undefined,
+      demoVideoUrl: hasRealVideo && isExternalUrl(videoLink) ? videoLink : undefined,
+      readmeUrl: isExternalUrl(readmeLink) ? readmeLink : undefined,
+      heroImage,
+      screenshots: screenshotSources.length > 0 ? screenshotSources : [`/projects/${slug}/screenshots/01-overview.png`],
+      videoUrl: videoSources[0] ?? (isExternalUrl(videoLink) ? videoLink : undefined),
+      videoEmbedUrl: hasRealVideo && isExternalUrl(videoLink) ? videoLink : undefined,
       links: projectLinks,
-      media: override.media || [],
+      media,
       metadata: {
         startedAt: override.metadata?.startedAt || scanData.lastUpdate.slice(0, 10),
         updatedAt: override.metadata?.updatedAt || new Date().toISOString().slice(0, 10),
@@ -540,7 +902,19 @@ ${readmeInfo.description}
           toRepoRelativePath(enPath),
           "git log",
         ],
-        lastScannedAt: new Date().toISOString()
+        lastScannedAt: new Date().toISOString(),
+        localAuditStatus: scanData.needsManualReview || contentNeedsReview ? "needs-review" : "matched",
+        releaseStatus: {
+          audit: "preparing",
+          readme: scanData.hasReadme ? "verified" : "preparing",
+          screenshots: hasRealImages ? "verified" : "preparing",
+          demo: hasRealDemo ? "verified" : "preparing",
+          video: hasRealVideo ? "verified" : "preparing",
+          portfolioPage: "verified",
+          links: "preparing",
+          build: qualityReleaseState(qualityResult?.buildStatus, statusFromBuildSignals(scanData)),
+          manualFollowUpNeeded: qualityResult?.manualFollowUpNeeded ?? Array.from(missingFields),
+        },
       },
       content: {
         "zh-TW": {
@@ -552,6 +926,14 @@ ${readmeInfo.description}
           problem: reviewContent?.zh.problem ?? zhProblem,
           solution: reviewContent?.zh.solution ?? asString(zhParsed.metadata.solution, "無描述"),
           outcome: reviewContent?.zh.outcome ?? asOptionalString(zhParsed.metadata.outcome),
+          targetUsers: override.content?.["zh-TW"]?.targetUsers ?? override.content?.targetUsers ?? generatedCaseStudy.zh.targetUsers,
+          technicalHighlights: override.content?.["zh-TW"]?.technicalHighlights ?? override.content?.technicalHighlights ?? generatedCaseStudy.zh.technicalHighlights,
+          architecture: override.content?.["zh-TW"]?.architecture ?? override.content?.architecture ?? generatedCaseStudy.zh.architecture,
+          dataFlow: override.content?.["zh-TW"]?.dataFlow ?? override.content?.dataFlow ?? generatedCaseStudy.zh.dataFlow,
+          projectStructure: override.content?.["zh-TW"]?.projectStructure ?? override.content?.projectStructure ?? generatedCaseStudy.zh.projectStructure,
+          setupGuide: override.content?.["zh-TW"]?.setupGuide ?? override.content?.setupGuide ?? generatedCaseStudy.zh.setupGuide,
+          futureImprovements: override.content?.["zh-TW"]?.futureImprovements ?? override.content?.futureImprovements ?? generatedCaseStudy.zh.futureImprovements,
+          interviewNotes: override.content?.["zh-TW"]?.interviewNotes ?? override.content?.interviewNotes ?? generatedCaseStudy.zh.interviewNotes,
           features: [],
           metrics: [],
           highlights: reviewContent?.zh.highlights ?? asStringArray(zhParsed.metadata.highlights),
@@ -567,6 +949,14 @@ ${readmeInfo.description}
           problem: reviewContent?.en.problem ?? enProblem,
           solution: reviewContent?.en.solution ?? asString(enParsed.metadata.solution, "No description"),
           outcome: reviewContent?.en.outcome ?? asOptionalString(enParsed.metadata.outcome),
+          targetUsers: override.content?.en?.targetUsers ?? override.content?.targetUsers ?? generatedCaseStudy.en.targetUsers,
+          technicalHighlights: override.content?.en?.technicalHighlights ?? override.content?.technicalHighlights ?? generatedCaseStudy.en.technicalHighlights,
+          architecture: override.content?.en?.architecture ?? override.content?.architecture ?? generatedCaseStudy.en.architecture,
+          dataFlow: override.content?.en?.dataFlow ?? override.content?.dataFlow ?? generatedCaseStudy.en.dataFlow,
+          projectStructure: override.content?.en?.projectStructure ?? override.content?.projectStructure ?? generatedCaseStudy.en.projectStructure,
+          setupGuide: override.content?.en?.setupGuide ?? override.content?.setupGuide ?? generatedCaseStudy.en.setupGuide,
+          futureImprovements: override.content?.en?.futureImprovements ?? override.content?.futureImprovements ?? generatedCaseStudy.en.futureImprovements,
+          interviewNotes: override.content?.en?.interviewNotes ?? override.content?.interviewNotes ?? generatedCaseStudy.en.interviewNotes,
           features: [],
           metrics: [],
           highlights: reviewContent?.en.highlights ?? asStringArray(enParsed.metadata.highlights),
@@ -576,8 +966,10 @@ ${readmeInfo.description}
       }
     };
 
+    const publicProjectObject = sanitizePublicData(projectObject);
+
     // Validate using Zod schema
-    const parseResult = ProjectSchema.safeParse(projectObject);
+    const parseResult = ProjectSchema.safeParse(publicProjectObject);
     if (!parseResult.success) {
       console.error(`Validation failed for project: ${slug}`);
       console.error(JSON.stringify(parseResult.error.format(), null, 2));

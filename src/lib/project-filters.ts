@@ -446,16 +446,21 @@ export function buildFacetOptions(projects: Project[]) {
 }
 
 export function projectMatchesHas(project: Project, value: HasFacet) {
+  const hasExternalLink = (kind: string) =>
+    project.links.some((link) => link.kind === kind && /^https?:\/\//.test(link.url));
+  const hasRealMedia = project.media.some((item) => !item.placeholder);
+
   switch (value) {
     case "github":
-      return project.links.some((link) => link.kind === "github");
+      return hasExternalLink("github");
     case "demo":
-      return project.links.some((link) => link.kind === "live" || link.kind === "video") ||
-        project.media.some((item) => item.type === "video");
+      return hasExternalLink("live") ||
+        hasExternalLink("video") ||
+        project.media.some((item) => item.type === "video" && !item.placeholder);
     case "media":
-      return Boolean(project.coverImage) || project.media.length > 0;
+      return Boolean(project.coverImage) || hasRealMedia;
     case "documentation":
-      return project.links.some((link) => link.kind === "documentation" || link.kind === "article");
+      return hasExternalLink("documentation") || hasExternalLink("article");
     case "featured":
       return project.featured;
     case "needs-review":

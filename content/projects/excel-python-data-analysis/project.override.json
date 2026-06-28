@@ -20,8 +20,8 @@
       "kind": "github",
       "url": "https://github.com/Justin21523/excel-python-data-analysis",
       "label": {
-        "zh-TW": "查看 GitHub",
-        "en": "View GitHub"
+        "en": "View GitHub",
+        "zh-TW": "查看 GitHub"
       }
     },
     {
@@ -34,10 +34,10 @@
     },
     {
       "kind": "documentation",
-      "url": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/DEMO.md",
+      "url": "https://github.com/Justin21523/excel-python-data-analysis#readme",
       "label": {
-        "zh-TW": "Demo 腳本",
-        "en": "Demo Script"
+        "en": "README",
+        "zh-TW": "README"
       }
     },
     {
@@ -46,6 +46,14 @@
       "label": {
         "zh-TW": "閱讀 README",
         "en": "Read README"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/excel-python-data-analysis/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "Live Demo"
       }
     }
   ],

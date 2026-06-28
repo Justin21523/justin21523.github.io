@@ -22,6 +22,9 @@ import {
 import {
   withBasePath,
 } from "@/lib/site-assets";
+import {
+  getProjectActionLinks,
+} from "@/lib/project-links";
 
 import type {
   PortfolioLocale,
@@ -203,11 +206,7 @@ export function ProjectArchiveCard({
 
   const features =
     content.features ?? [];
-  // Show up to 4 links per card, in a stable order, incl. GitHub.
-  const quickLinkOrder = ["github", "live", "video", "documentation"];
-  const quickLinks = quickLinkOrder
-    .map((kind) => project.links.find((link) => link.kind === kind))
-    .filter((link): link is (typeof project.links)[number] => Boolean(link));
+  const quickLinks = getProjectActionLinks(project, locale);
 
   if (viewMode === "catalog") {
     return (
@@ -312,19 +311,29 @@ export function ProjectArchiveCard({
               {locale === "en" ? "Full Record →" : "完整案例 →"}
             </Link>
             {quickLinks.slice(0, 4).map((link) => (
-              <a
-                key={`${project.slug}-${link.kind}`}
-                href={link.url}
-                target="_blank"
-                rel="noreferrer"
-                className={`text-xs font-semibold px-2 py-1 rounded border transition-colors ${
-                  link.kind === "live"
-                    ? "border-primary bg-primary text-primary-foreground hover:bg-primary/90"
-                    : "text-primary border-primary/20 bg-primary/5 hover:underline"
-                }`}
-              >
-                {link.label[locale]}
-              </a>
+              link.available ? (
+                <a
+                  key={`${project.slug}-${link.kind}`}
+                  href={link.url}
+                  target={link.url?.startsWith("http") ? "_blank" : undefined}
+                  rel={link.url?.startsWith("http") ? "noreferrer" : undefined}
+                  className={`text-xs font-semibold px-2 py-1 rounded border transition-colors ${
+                    link.kind === "live"
+                      ? "border-primary bg-primary text-primary-foreground hover:bg-primary/90"
+                      : "text-primary border-primary/20 bg-primary/5 hover:underline"
+                  }`}
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <span
+                  key={`${project.slug}-${link.kind}`}
+                  aria-disabled="true"
+                  className="cursor-not-allowed rounded border border-dashed border-border px-2 py-1 text-xs font-semibold text-muted-foreground"
+                >
+                  {link.unavailableLabel}
+                </span>
+              )
             ))}
           </div>
           <div className="flex items-center gap-1.5">
@@ -679,26 +688,34 @@ export function ProjectArchiveCard({
           </Link>
         </div>
 
-        {quickLinks.length > 0 && (
-          <div className="mt-4 flex flex-wrap gap-2">
-            {quickLinks.slice(0, 4).map((link) => (
+        <div className="mt-4 flex flex-wrap gap-2">
+          {quickLinks.slice(0, 4).map((link) => (
+            link.available ? (
               <a
                 key={`${project.slug}-${link.kind}`}
                 href={link.url}
-                target="_blank"
-                rel="noreferrer"
+                target={link.url?.startsWith("http") ? "_blank" : undefined}
+                rel={link.url?.startsWith("http") ? "noreferrer" : undefined}
                 className={`inline-flex items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors ${
                   link.kind === "live"
                     ? "border border-primary bg-primary text-primary-foreground shadow-sm hover:bg-primary/90"
                     : "border border-primary/20 bg-primary/5 text-primary hover:bg-primary/10"
                 }`}
               >
-                {link.label[locale]}
+                {link.label}
                 <ArrowUpRight className="h-3 w-3" />
               </a>
-            ))}
-          </div>
-        )}
+            ) : (
+              <span
+                key={`${project.slug}-${link.kind}`}
+                aria-disabled="true"
+                className="inline-flex cursor-not-allowed items-center gap-1 rounded-lg border border-dashed border-border px-3 py-1.5 text-xs font-semibold text-muted-foreground"
+              >
+                {link.unavailableLabel}
+              </span>
+            )
+          ))}
+        </div>
       </div>
     </m.article>
   );

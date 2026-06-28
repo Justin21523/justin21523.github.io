@@ -21,16 +21,24 @@
       "kind": "github",
       "url": "https://github.com/Justin21523/archive-flow-studio",
       "label": {
-        "zh-TW": "查看 GitHub",
-        "en": "View GitHub"
+        "en": "View GitHub",
+        "zh-TW": "查看 GitHub"
       }
     },
     {
       "kind": "documentation",
       "url": "https://github.com/Justin21523/archive-flow-studio#readme",
       "label": {
-        "zh-TW": "README 說明",
-        "en": "README"
+        "en": "README",
+        "zh-TW": "README"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/archive-flow-studio/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "Live Demo"
       }
     }
   ],

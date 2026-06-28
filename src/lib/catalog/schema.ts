@@ -42,6 +42,14 @@ export const LocalizedProjectContentSchema = z.object({
   problem: z.string(),
   solution: z.string(),
   outcome: z.string().optional(),
+  targetUsers: z.array(z.string()).optional(),
+  technicalHighlights: z.array(z.string()).optional(),
+  architecture: z.string().optional(),
+  dataFlow: z.string().optional(),
+  projectStructure: z.string().optional(),
+  setupGuide: z.string().optional(),
+  futureImprovements: z.array(z.string()).optional(),
+  interviewNotes: z.array(z.string()).optional(),
   features: z.array(ProjectFeatureSchema).optional(),
   metrics: z.array(ProjectMetricSchema).optional(),
   highlights: z.array(z.string()).default([]),
@@ -79,6 +87,28 @@ export const ProjectMediaSchema = z.object({
   title: LocalizedTextSchema,
   caption: LocalizedTextSchema.optional(),
   featured: z.boolean().optional(),
+  placeholder: z.boolean().optional(),
+});
+
+export const ProjectReleaseStateSchema = z.enum([
+  "verified",
+  "preparing",
+  "missing",
+  "blocked",
+  "failed",
+  "not-applicable",
+]);
+
+export const ProjectReleaseStatusSchema = z.object({
+  audit: ProjectReleaseStateSchema,
+  readme: ProjectReleaseStateSchema,
+  screenshots: ProjectReleaseStateSchema,
+  demo: ProjectReleaseStateSchema,
+  video: ProjectReleaseStateSchema,
+  portfolioPage: ProjectReleaseStateSchema,
+  links: ProjectReleaseStateSchema,
+  build: ProjectReleaseStateSchema,
+  manualFollowUpNeeded: z.array(z.string()).default([]),
 });
 
 export const ProjectMetadataSchema = z.object({
@@ -165,6 +195,8 @@ export const ProjectMetadataSchema = z.object({
   missingFields: z.array(z.string()).default([]),
   evidenceSources: z.array(z.string()).default([]),
   lastScannedAt: z.string().optional(),
+  localAuditStatus: z.enum(["matched", "unmatched", "excluded", "needs-review"]).optional(),
+  releaseStatus: ProjectReleaseStatusSchema.optional(),
 });
 
 export const ProjectSchema = z.object({
@@ -176,6 +208,15 @@ export const ProjectSchema = z.object({
   featured: z.boolean().default(false),
   technologies: z.array(z.string()).default([]),
   coverImage: z.string().optional(),
+  subtitle: z.string().optional(),
+  githubUrl: z.string().optional(),
+  liveDemoUrl: z.string().optional(),
+  demoVideoUrl: z.string().optional(),
+  readmeUrl: z.string().optional(),
+  heroImage: z.string().optional(),
+  screenshots: z.array(z.string()).optional(),
+  videoUrl: z.string().optional(),
+  videoEmbedUrl: z.string().optional(),
   links: z.array(ProjectLinkSchema).default([]),
   media: z.array(ProjectMediaSchema).default([]),
   metadata: ProjectMetadataSchema,

@@ -1,0 +1,51 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "interactive-3d",
+  "status": "prototype",
+  "year": 2026,
+  "technologies": [
+    "React Three Fiber",
+    "React",
+    "Three.js",
+    "Zustand",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "coverImage": "/portfolio/projects/runner-inspired-3d/cover.webp",
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/3d-rushy-runner",
+      "label": {
+        "en": "View GitHub",
+        "zh-TW": "查看 GitHub"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/3d-rushy-runner#readme",
+      "label": {
+        "en": "README",
+        "zh-TW": "README"
+      }
+    },
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/3d-rushy-runner/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "Live Demo"
+      }
+    }
+  ],
+  "metadata": {
+    "needsReview": true,
+    "missingFields": [
+      "reviewed zh-TW case study",
+      "reviewed English case study",
+      "verified media assets",
+      "verified public links"
+    ]
+  }
+}

@@ -44,8 +44,12 @@ import {
 import {
   statusLabels,
 } from "@/lib/project-taxonomy";
+import {
+  getProjectActionLinks,
+} from "@/lib/project-links";
 
 import type {
+  PortfolioLocale,
   ProjectLinkKind,
 } from "@/types/projects";
 
@@ -145,6 +149,12 @@ export default async function ProjectDetailPage({
       3
     );
 
+  const actionLinks =
+    getProjectActionLinks(
+      project,
+      locale
+    );
+
   const labels =
     locale === "en"
       ? {
@@ -187,6 +197,32 @@ export default async function ProjectDetailPage({
             "Team size",
           related:
             "Related projects",
+          resources:
+            "Project links and demo readiness",
+          sourceAccess:
+            "Source access",
+          demoGuide:
+            "Live demo guide",
+          demoVideo:
+            "Demo video",
+          readmeGuide:
+            "README and documentation",
+          architecture:
+            "Architecture",
+          dataFlow:
+            "Data flow",
+          projectStructure:
+            "Project structure",
+          setupGuide:
+            "Setup / Run guide",
+          technicalHighlights:
+            "Technical highlights",
+          targetUsers:
+            "Target users",
+          futureImprovements:
+            "Future improvements",
+          interviewNotes:
+            "Interview notes",
         }
       : {
           back:
@@ -228,6 +264,32 @@ export default async function ProjectDetailPage({
             "團隊人數",
           related:
             "相關作品",
+          resources:
+            "專案連結與 Demo 狀態",
+          sourceAccess:
+            "原始碼狀態",
+          demoGuide:
+            "Live Demo 指南",
+          demoVideo:
+            "Demo 影片",
+          readmeGuide:
+            "README 與文件",
+          architecture:
+            "系統架構",
+          dataFlow:
+            "資料流程",
+          projectStructure:
+            "專案結構",
+          setupGuide:
+            "安裝與執行",
+          technicalHighlights:
+            "技術亮點",
+          targetUsers:
+            "目標使用者",
+          futureImprovements:
+            "後續改進",
+          interviewNotes:
+            "面試說明重點",
         };
 
   const features =
@@ -297,12 +359,26 @@ export default async function ProjectDetailPage({
 
           <Reveal delay={0.26}>
             <div className="mt-8 flex flex-wrap gap-3">
-              {project.links.map(
+              {actionLinks.map(
                 (link) => {
                   const Icon =
                     getLinkIcon(
                       link.kind
                     );
+
+                  if (!link.available) {
+                    return (
+                      <span
+                        key={link.kind}
+                        aria-disabled="true"
+                        className="inline-flex cursor-not-allowed items-center gap-2 rounded-xl border border-dashed border-border px-5 py-3 font-medium text-muted-foreground"
+                      >
+                        <Icon className="h-4 w-4" />
+
+                        {link.unavailableLabel}
+                      </span>
+                    );
+                  }
 
                   return (
                     <a
@@ -310,21 +386,17 @@ export default async function ProjectDetailPage({
                       href={
                         link.url
                       }
-                      target="_blank"
-                      rel="noreferrer"
+                      target={link.url?.startsWith("http") ? "_blank" : undefined}
+                      rel={link.url?.startsWith("http") ? "noreferrer" : undefined}
                       className={
-                        link.primary
+                        link.kind === "live"
                           ? "inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 font-medium text-primary-foreground"
                           : "inline-flex items-center gap-2 rounded-xl border border-border px-5 py-3 font-medium transition-colors hover:bg-accent"
                       }
                     >
                       <Icon className="h-4 w-4" />
 
-                      {
-                        link.label[
-                          locale
-                        ]
-                      }
+                      {link.label}
 
                       <ArrowUpRight className="h-4 w-4" />
                     </a>
@@ -340,6 +412,71 @@ export default async function ProjectDetailPage({
             media={project.media}
             locale={locale}
           />
+        </Reveal>
+
+        <Reveal delay={0.16}>
+          <section
+            id="source-access"
+            className="mt-12 scroll-mt-28"
+          >
+            <h2 className="mb-5 text-2xl font-bold">
+              {labels.resources}
+            </h2>
+
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+              {actionLinks.map((link) => {
+                const id =
+                  link.kind === "live"
+                    ? "demo-guide"
+                    : link.kind === "video"
+                      ? "demo-video"
+                      : link.kind === "documentation"
+                        ? "readme-guide"
+                        : undefined;
+                const content = (
+                  <>
+                    <p className="text-xs font-semibold uppercase tracking-[0.14em] text-primary">
+                      {link.kind}
+                    </p>
+
+                    <h3 className="mt-2 font-bold transition-colors group-hover:text-primary">
+                      {link.available ? link.label : link.unavailableLabel}
+                    </h3>
+
+                    <p className="mt-3 text-sm leading-6 text-muted-foreground">
+                      {getActionDescription(link.kind, locale)}
+                    </p>
+                  </>
+                );
+
+                if (!link.available) {
+                  return (
+                    <div
+                      key={link.kind}
+                      id={id}
+                      aria-disabled="true"
+                      className="rounded-2xl border border-dashed border-border bg-card p-5 text-muted-foreground"
+                    >
+                      {content}
+                    </div>
+                  );
+                }
+
+                return (
+                  <a
+                    key={link.kind}
+                    id={id}
+                    href={link.url}
+                    target={link.url?.startsWith("http") ? "_blank" : undefined}
+                    rel={link.url?.startsWith("http") ? "noreferrer" : undefined}
+                    className="group rounded-2xl border border-border bg-card p-5 transition-colors hover:border-primary/40"
+                  >
+                    {content}
+                  </a>
+                );
+              })}
+            </div>
+          </section>
         </Reveal>
 
         {metrics.length > 0 && (
@@ -549,6 +686,98 @@ export default async function ProjectDetailPage({
                 content.challenges
               }
               icon={Wrench}
+              className="mt-12"
+            />
+
+            <ListSection
+              title={
+                labels.targetUsers
+              }
+              items={
+                content.targetUsers ?? []
+              }
+              icon={Target}
+              className="mt-12"
+            />
+
+            <ListSection
+              title={
+                labels.technicalHighlights
+              }
+              items={
+                content.technicalHighlights ?? []
+              }
+              icon={CheckCircle2}
+              className="mt-12"
+            />
+
+            {content.architecture && (
+              <ContentSection
+                title={labels.architecture}
+                icon={Wrench}
+                className="mt-12"
+              >
+                <p className="whitespace-pre-line leading-8 text-muted-foreground">
+                  {content.architecture}
+                </p>
+              </ContentSection>
+            )}
+
+            {content.dataFlow && (
+              <ContentSection
+                title={labels.dataFlow}
+                icon={Target}
+                className="mt-12"
+              >
+                <p className="whitespace-pre-line leading-8 text-muted-foreground">
+                  {content.dataFlow}
+                </p>
+              </ContentSection>
+            )}
+
+            {content.projectStructure && (
+              <ContentSection
+                title={labels.projectStructure}
+                icon={BookOpen}
+                className="mt-12"
+              >
+                <pre className="overflow-x-auto rounded-2xl border border-border bg-card p-5 text-sm leading-7 text-muted-foreground">
+                  {content.projectStructure}
+                </pre>
+              </ContentSection>
+            )}
+
+            {content.setupGuide && (
+              <ContentSection
+                title={labels.setupGuide}
+                icon={Wrench}
+                className="mt-12"
+              >
+                <pre className="overflow-x-auto rounded-2xl border border-border bg-card p-5 text-sm leading-7 text-muted-foreground">
+                  {content.setupGuide}
+                </pre>
+              </ContentSection>
+            )}
+
+            <ListSection
+              title={
+                labels.futureImprovements
+              }
+              items={
+                content.futureImprovements ?? []
+              }
+              icon={Lightbulb}
+              className="mt-12"
+            />
+
+            <ListSection
+              title={
+                labels.interviewNotes
+              }
+              items={
+                content.interviewNotes ?? []
+              }
+              icon={BookOpen}
               className="mt-12"
             />
 
@@ -802,6 +1031,10 @@ function ListSection({
   icon: Icon,
   className,
 }: ListSectionProps) {
+  if (items.length === 0) {
+    return null;
+  }
+
   return (
     <ContentSection
       title={title}
@@ -883,6 +1116,36 @@ function MetadataTags({
       </div>
     </div>
   );
+}
+
+function getActionDescription(
+  kind: "live" | "github" | "video" | "documentation",
+  locale: PortfolioLocale
+) {
+  const descriptions = {
+    en: {
+      live:
+        "Open the verified live demo when available, or use the internal run guide for manual demo preparation.",
+      github:
+        "Open the public repository when available, or review the source-access status captured by this case study.",
+      video:
+        "Open the demo recording when available, or use this section as the recording checklist for the project.",
+      documentation:
+        "Open the project README when available, or use this case study as the documentation baseline.",
+    },
+    "zh-TW": {
+      live:
+        "有已驗證 Live Demo 時直接開啟；尚未部署時，使用本頁的執行指南準備手動展示。",
+      github:
+        "有公開 repository 時直接開啟；尚未確認時，使用本頁原始碼狀態追蹤後續補齊。",
+      video:
+        "有 Demo 錄影時直接開啟；尚未錄影時，使用本段作為錄影檢查清單。",
+      documentation:
+        "有 README 時直接開啟；尚未補齊時，使用本案例頁作為文件基準。",
+    },
+  } as const;
+
+  return descriptions[locale][kind];
 }
 
 function getLinkIcon(

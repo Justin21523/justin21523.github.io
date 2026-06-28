@@ -1,12 +1,25 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import {
   ArrowUpRight,
+  BookOpen,
   GitBranch,
+  MonitorPlay,
+  PlayCircle,
 } from "lucide-react";
 
 import { Link } from "@/i18n/navigation";
+import {
+  getProjectActionLinks,
+} from "@/lib/project-links";
+import {
+  categoryLabels,
+} from "@/lib/project-taxonomy";
+import {
+  withBasePath,
+} from "@/lib/site-assets";
 import type {
   PortfolioLocale,
   Project,
@@ -45,6 +58,15 @@ export function ProjectCard({
   index,
 }: ProjectCardProps) {
   const content = project.content[locale];
+  const actions = getProjectActionLinks(project, locale);
+  const image =
+    project.heroImage ??
+    project.coverImage ??
+    project.media.find((item) => item.type === "image" && !item.placeholder)?.src ??
+    project.media.find((item) => item.type === "image")?.src;
+  const imageAlt =
+    project.media.find((item) => item.src === image)?.alt[locale] ??
+    content.title;
 
   return (
     <motion.article
@@ -63,13 +85,24 @@ export function ProjectCard({
       className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-card"
     >
       <div className="relative flex min-h-48 items-center justify-center overflow-hidden bg-gradient-to-br from-primary/20 via-background to-secondary/30">
-        <span className="select-none text-5xl font-bold text-primary/30">
-          {content.title
-            .split(" ")
-            .map((word) => word[0])
-            .join("")
-            .slice(0, 3)}
-        </span>
+        {image ? (
+          <Image
+            src={withBasePath(image) ?? image}
+            alt={imageAlt}
+            fill
+            sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+            className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <span className="select-none text-5xl font-bold text-primary/30">
+            {content.title
+              .split(" ")
+              .map((word) => word[0])
+              .join("")
+              .slice(0, 3)}
+          </span>
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-background/10" />
 
         <div className="absolute left-4 top-4 rounded-full border border-border bg-background/80 px-3 py-1 text-xs font-medium backdrop-blur">
           {statusLabels[locale][project.status]}
@@ -80,14 +113,14 @@ export function ProjectCard({
             {locale === "en" ? "Featured" : "精選"}
           </div>
         )}
+
+        <div className="absolute bottom-4 left-4 rounded-full border border-background/30 bg-background/85 px-3 py-1 text-xs font-semibold text-muted-foreground backdrop-blur">
+          {categoryLabels[locale][project.category]} · {project.year}
+        </div>
       </div>
 
       <div className="flex flex-1 flex-col p-6">
         <div className="mb-4">
-          <p className="mb-2 text-xs font-medium uppercase tracking-wider text-primary">
-            {project.year}
-          </p>
-
           <h2 className="mb-3 text-xl font-bold transition-colors group-hover:text-primary">
             {content.title}
           </h2>
@@ -110,6 +143,37 @@ export function ProjectCard({
             ))}
         </div>
 
+        <div className="mb-4 grid grid-cols-2 gap-2">
+          {actions.map((action) => {
+            const Icon = getActionIcon(action.kind);
+            if (!action.available) {
+              return (
+                <span
+                  key={action.kind}
+                  aria-disabled="true"
+                  className="inline-flex cursor-not-allowed items-center justify-center gap-1.5 rounded-lg border border-dashed border-border px-3 py-2 text-xs font-semibold text-muted-foreground"
+                >
+                  <Icon className="h-3.5 w-3.5" />
+                  {action.unavailableLabel}
+                </span>
+              );
+            }
+
+            return (
+              <a
+                key={action.kind}
+                href={action.url}
+                target={action.url?.startsWith("http") ? "_blank" : undefined}
+                rel={action.url?.startsWith("http") ? "noreferrer" : undefined}
+                className="inline-flex items-center justify-center gap-1.5 rounded-lg border border-border px-3 py-2 text-xs font-semibold transition-colors hover:bg-accent"
+              >
+                <Icon className="h-3.5 w-3.5" />
+                {action.label}
+              </a>
+            );
+          })}
+        </div>
+
         <div className="mt-auto flex items-center gap-3">
           <Link
             href={`/projects/${project.slug}`}
@@ -121,24 +185,22 @@ export function ProjectCard({
 
             <ArrowUpRight className="h-4 w-4" />
           </Link>
-
-          {project.links.find((l) => l.kind === "github")?.url && (
-            <a
-              href={project.links.find((l) => l.kind === "github")!.url}
-              target="_blank"
-              rel="noreferrer"
-              aria-label={
-                locale === "en"
-                  ? "Open source code"
-                  : "查看原始碼"
-              }
-              className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-border transition-colors hover:bg-accent"
-            >
-              <GitBranch className="h-4 w-4" />
-            </a>
-          )}
         </div>
       </div>
     </motion.article>
   );
+}
+
+function getActionIcon(kind: "live" | "github" | "video" | "documentation") {
+  switch (kind) {
+    case "github":
+      return GitBranch;
+    case "video":
+      return PlayCircle;
+    case "documentation":
+      return BookOpen;
+    case "live":
+    default:
+      return MonitorPlay;
+  }
 }

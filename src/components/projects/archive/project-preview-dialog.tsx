@@ -24,6 +24,9 @@ import {
 
 import { Link } from "@/i18n/navigation";
 import {
+  getProjectActionLinks,
+} from "@/lib/project-links";
+import {
   withBasePath,
 } from "@/lib/site-assets";
 
@@ -170,6 +173,11 @@ function PreviewContent({
 }: PreviewContentProps) {
   const content =
     project.content[locale];
+  const actionLinks =
+    getProjectActionLinks(
+      project,
+      locale
+    );
 
   const featuredMedia =
     project.media.find(
@@ -369,28 +377,36 @@ function PreviewContent({
             <ArrowUpRight className="h-4 w-4" />
           </Link>
 
-          {project.links.map(
+          {actionLinks.map(
             (link) => {
               const Icon =
                 getLinkIcon(
                   link.kind
                 );
 
+              if (!link.available) {
+                return (
+                  <span
+                    key={link.kind}
+                    aria-disabled="true"
+                    className="inline-flex cursor-not-allowed items-center gap-2 rounded-xl border border-dashed border-border px-5 py-3 font-medium text-muted-foreground"
+                  >
+                    <Icon className="h-4 w-4" />
+                    {link.unavailableLabel}
+                  </span>
+                );
+              }
+
               return (
                 <a
                   key={`${link.kind}-${link.url}`}
                   href={link.url}
-                  target="_blank"
-                  rel="noreferrer"
+                  target={link.url?.startsWith("http") ? "_blank" : undefined}
+                  rel={link.url?.startsWith("http") ? "noreferrer" : undefined}
                   className="inline-flex items-center gap-2 rounded-xl border border-border px-5 py-3 font-medium transition-colors hover:bg-accent"
                 >
                   <Icon className="h-4 w-4" />
-
-                  {
-                    link.label[
-                      locale
-                    ]
-                  }
+                  {link.label}
                 </a>
               );
             }
