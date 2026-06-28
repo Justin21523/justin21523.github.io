@@ -86,25 +86,6 @@
     ],
     "media": [
       {
-        "id": "demo-walkthrough",
-        "type": "video",
-        "src": "/portfolio/projects/2d-animation-lora-pipeline/demo/demo-walkthrough.webm",
-        "poster": "/portfolio/projects/2d-animation-lora-pipeline/demo/posters/demo-walkthrough.webp",
-        "alt": {
-          "zh-TW": "2D Animation LoRA Pipeline 的 mock-safe demo 錄影。",
-          "en": "A mock-safe demo recording of the 2D Animation LoRA Pipeline."
-        },
-        "title": {
-          "zh-TW": "Demo 操作錄影",
-          "en": "Demo Walkthrough Recording"
-        },
-        "caption": {
-          "zh-TW": "展示 pipeline readiness、synthetic character sheet、stage metrics、結果畫面與 portfolio demo 操作流程。",
-          "en": "Shows pipeline readiness, synthetic character sheet, stage metrics, result screens, and the portfolio demo flow."
-        },
-        "featured": true
-      },
-      {
         "id": "demo-home-desktop",
         "type": "image",
         "src": "/portfolio/projects/2d-animation-lora-pipeline/screenshots/01-demo-home-desktop.png",
@@ -665,7 +646,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.247Z",
+      "lastScannedAt": "2026-06-28T18:18:40.949Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -866,25 +847,6 @@
       }
     ],
     "media": [
-      {
-        "id": "demo-walkthrough",
-        "type": "video",
-        "src": "/portfolio/projects/3d-animation-lora-pipeline/demo/demo-walkthrough.mp4",
-        "poster": "/portfolio/projects/3d-animation-lora-pipeline/demo/posters/demo-walkthrough.webp",
-        "alt": {
-          "zh-TW": "3D Animation LoRA Pipeline 的匿名資料管線 demo 錄影。",
-          "en": "An anonymized demo recording of the 3D Animation LoRA Pipeline."
-        },
-        "title": {
-          "zh-TW": "Demo 操作錄影",
-          "en": "Demo Walkthrough Recording"
-        },
-        "caption": {
-          "zh-TW": "展示面試官可快速觀看的 portfolio demo：管線成果、階段狀態、匿名 sample outputs 與媒體展示。",
-          "en": "Shows the portfolio demo flow for reviewers: pipeline outputs, stage status, anonymized sample outputs, and media assets."
-        },
-        "featured": true
-      },
       {
         "id": "demo-home-desktop",
         "type": "image",
@@ -1448,7 +1410,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.252Z",
+      "lastScannedAt": "2026-06-28T18:18:40.954Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1793,7 +1755,7 @@
         "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.253Z",
+      "lastScannedAt": "2026-06-28T18:18:40.955Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -2140,7 +2102,7 @@
         "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.254Z",
+      "lastScannedAt": "2026-06-28T18:18:40.955Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -2353,25 +2315,6 @@
       }
     ],
     "media": [
-      {
-        "id": "demo-tour-video",
-        "type": "video",
-        "src": "/portfolio/projects/agentic-bi-dataops-copilot/demo/demo-tour.webm",
-        "poster": "/portfolio/projects/agentic-bi-dataops-copilot/demo/posters/demo-tour.webp",
-        "alt": {
-          "zh-TW": "Agentic BI DataOps Copilot 完整 16 步驟 Data Journey Tour 錄影。",
-          "en": "Full 16-step Data Journey Tour recording of Agentic BI DataOps Copilot."
-        },
-        "title": {
-          "zh-TW": "Data Journey Tour 導覽錄影",
-          "en": "Data Journey Tour Recording"
-        },
-        "caption": {
-          "zh-TW": "16 步驟互動導覽，涵蓋 Schema 探索、NL 查詢、SQL 驗證、儀表板分析到護欄審計的完整 DataOps 工作流程。",
-          "en": "16-step interactive tour covering Schema discovery, NL query, SQL validation, dashboard analytics, and guardrail audit — the full DataOps pipeline."
-        },
-        "featured": true
-      },
       {
         "id": "upload-screenshot",
         "type": "image",
@@ -3109,7 +3052,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.255Z",
+      "lastScannedAt": "2026-06-28T18:18:40.956Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3641,7 +3584,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.256Z",
+      "lastScannedAt": "2026-06-28T18:18:40.958Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -4015,7 +3958,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.257Z",
+      "lastScannedAt": "2026-06-28T18:18:40.958Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4480,7 +4423,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.257Z",
+      "lastScannedAt": "2026-06-28T18:18:40.959Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -5020,7 +4963,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.258Z",
+      "lastScannedAt": "2026-06-28T18:18:40.960Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -5216,25 +5159,6 @@
       }
     ],
     "media": [
-      {
-        "id": "demo-walkthrough",
-        "type": "video",
-        "src": "/portfolio/projects/animation-ai-studio/demo/demo-walkthrough.webm",
-        "poster": "/portfolio/projects/animation-ai-studio/demo/posters/demo-walkthrough.webp",
-        "alt": {
-          "zh-TW": "Animation AI Studio demo 錄影，展示作品頁、Job Dashboard、Results Browser 與 System Monitor。",
-          "en": "Animation AI Studio demo walkthrough showing the portfolio page, job dashboard, results browser, and system monitor."
-        },
-        "title": {
-          "zh-TW": "Demo 錄影",
-          "en": "Demo Walkthrough"
-        },
-        "caption": {
-          "zh-TW": "公開展示用 WebM 影片，使用 mock-safe demo mode 產生的真實截圖串接而成。",
-          "en": "A public WebM walkthrough assembled from real mock-safe demo-mode screenshots."
-        },
-        "featured": true
-      },
       {
         "id": "job-dashboard",
         "type": "image",
@@ -5788,7 +5712,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.259Z",
+      "lastScannedAt": "2026-06-28T18:18:40.960Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -5984,25 +5908,6 @@
       }
     ],
     "media": [
-      {
-        "id": "demo-recording",
-        "type": "video",
-        "src": "/portfolio/projects/anime-adventure-lab/demo/demo-recording.mp4",
-        "poster": "/portfolio/projects/anime-adventure-lab/demo/posters/demo-recording.webp",
-        "alt": {
-          "zh-TW": "Anime Adventure Lab 的 18 秒作品集 demo 錄影，展示 Story、RAG、Agent 與 T2I 展示流程。",
-          "en": "An 18-second portfolio demo recording for Anime Adventure Lab showing Story, RAG, Agent, and T2I showcase flows."
-        },
-        "title": {
-          "zh-TW": "作品集 Demo 錄影",
-          "en": "Portfolio Demo Recording"
-        },
-        "caption": {
-          "zh-TW": "可直接在作品頁播放的公開展示影片，說明穩定 mock demo 如何呈現故事引擎、RAG 檢索、Agent 決策與文生圖 hooks。",
-          "en": "A public recording embedded in the project page, showing how the stable mock demo presents the story engine, RAG retrieval, agent decisions, and text-to-image hooks."
-        },
-        "featured": true
-      },
       {
         "id": "story-showcase",
         "type": "image",
@@ -6383,7 +6288,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.260Z",
+      "lastScannedAt": "2026-06-28T18:18:40.962Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -6785,7 +6690,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.261Z",
+      "lastScannedAt": "2026-06-28T18:18:40.962Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -7315,7 +7220,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.262Z",
+      "lastScannedAt": "2026-06-28T18:18:40.963Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7651,7 +7556,7 @@
         "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.262Z",
+      "lastScannedAt": "2026-06-28T18:18:40.964Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8153,7 +8058,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.263Z",
+      "lastScannedAt": "2026-06-28T18:18:40.964Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8553,7 +8458,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.263Z",
+      "lastScannedAt": "2026-06-28T18:18:40.965Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -8754,25 +8659,6 @@
       }
     ],
     "media": [
-      {
-        "id": "recorded-walkthrough",
-        "type": "video",
-        "src": "/portfolio/projects/charaforge-t2i-lab/demo-walkthrough.mp4",
-        "poster": "/portfolio/projects/charaforge-t2i-lab/posters/demo-walkthrough.webp",
-        "alt": {
-          "zh-TW": "CharaForge T2I Lab 的完整作品集導覽錄影。",
-          "en": "Complete portfolio walkthrough recording for CharaForge T2I Lab."
-        },
-        "title": {
-          "zh-TW": "完整 Demo 導覽錄影",
-          "en": "Full Demo Walkthrough"
-        },
-        "caption": {
-          "zh-TW": "展示 dashboard、文生圖結果、ControlNet、批次佇列、LoRA 訓練監控與 API/job 狀態。",
-          "en": "Shows the dashboard, T2I result, ControlNet flow, batch queue, LoRA training monitor, and API/job state."
-        },
-        "featured": true
-      },
       {
         "id": "dashboard-overview",
         "type": "image",
@@ -9195,7 +9081,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.264Z",
+      "lastScannedAt": "2026-06-28T18:18:40.965Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9606,7 +9492,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.265Z",
+      "lastScannedAt": "2026-06-28T18:18:40.966Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -10068,7 +9954,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.266Z",
+      "lastScannedAt": "2026-06-28T18:18:40.967Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -10501,7 +10387,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.266Z",
+      "lastScannedAt": "2026-06-28T18:18:40.967Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -10923,7 +10809,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.267Z",
+      "lastScannedAt": "2026-06-28T18:18:40.968Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11335,7 +11221,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.267Z",
+      "lastScannedAt": "2026-06-28T18:18:40.968Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11728,7 +11614,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.268Z",
+      "lastScannedAt": "2026-06-28T18:18:40.968Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -12064,7 +11950,7 @@
         "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.268Z",
+      "lastScannedAt": "2026-06-28T18:18:40.969Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12515,7 +12401,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.269Z",
+      "lastScannedAt": "2026-06-28T18:18:40.969Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12868,7 +12754,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.269Z",
+      "lastScannedAt": "2026-06-28T18:18:40.970Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -13369,7 +13255,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.269Z",
+      "lastScannedAt": "2026-06-28T18:18:40.970Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -13739,7 +13625,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.270Z",
+      "lastScannedAt": "2026-06-28T18:18:40.971Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14104,7 +13990,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.270Z",
+      "lastScannedAt": "2026-06-28T18:18:40.971Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14535,7 +14421,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.271Z",
+      "lastScannedAt": "2026-06-28T18:18:40.972Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -14886,7 +14772,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.271Z",
+      "lastScannedAt": "2026-06-28T18:18:40.972Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -15100,25 +14986,6 @@
       }
     ],
     "media": [
-      {
-        "id": "guided-demo-video",
-        "type": "video",
-        "src": "/portfolio/projects/excel-python-data-analysis/demo/demo-walkthrough.mp4",
-        "poster": "/portfolio/projects/excel-python-data-analysis/demo/posters/demo-walkthrough.webp",
-        "alt": {
-          "zh-TW": "Excel Python Data Analysis Platform 的完整 Streamlit demo 錄影。",
-          "en": "A full Streamlit demo recording of the Excel Python Data Analysis Platform."
-        },
-        "title": {
-          "zh-TW": "完整平台 Demo 錄影",
-          "en": "Full Platform Demo Recording"
-        },
-        "caption": {
-          "zh-TW": "展示從 guided demo、資料概要分析、清理、商業分析到報表匯出的完整流程。",
-          "en": "Shows the guided demo flow from profiling and cleaning to business analytics and report export."
-        },
-        "featured": true
-      },
       {
         "id": "demo-steps-gif",
         "type": "image",
@@ -15709,7 +15576,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.272Z",
+      "lastScannedAt": "2026-06-28T18:18:40.973Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -15923,25 +15790,6 @@
     ],
     "media": [
       {
-        "id": "guided-demo-video",
-        "type": "video",
-        "src": "/portfolio/projects/fandom-gui-scraper/demo/guided-demo-desktop.webm",
-        "poster": "/portfolio/projects/fandom-gui-scraper/demo/posters/guided-demo-desktop.webp",
-        "alt": {
-          "zh-TW": "Fandom MediaWiki Scraper Platform 的完整使用者導覽錄影。",
-          "en": "A full user-guided walkthrough recording of the Fandom MediaWiki Scraper Platform."
-        },
-        "title": {
-          "zh-TW": "完整平台導覽錄影",
-          "en": "Full Platform Walkthrough Recording"
-        },
-        "caption": {
-          "zh-TW": "展示從 Campaigns、Scraper、Process、Browse、Analysis、Export 到 Compliance Log 的使用者導覽流程。",
-          "en": "Shows the user-guided flow through Campaigns, Scraper, Process, Browse, Analysis, Export, and Compliance Log."
-        },
-        "featured": true
-      },
-      {
         "id": "campaigns-overview",
         "type": "image",
         "src": "/portfolio/projects/fandom-gui-scraper/screenshots/01-campaigns-overview.png",
@@ -16030,20 +15878,6 @@
         "title": {
           "zh-TW": "Compliance Log",
           "en": "Compliance Log"
-        }
-      },
-      {
-        "id": "fandom-gui-scraper-guided-demo-mobile",
-        "type": "video",
-        "src": "/portfolio/projects/fandom-gui-scraper/demo/guided-demo-mobile.webm",
-        "poster": "/portfolio/projects/fandom-gui-scraper/demo/posters/guided-demo-mobile.webp",
-        "alt": {
-          "zh-TW": "Fandom 爬蟲平台 導覽 展示 行動版",
-          "en": "Fandom Scraper Guided Demo Mobile"
-        },
-        "title": {
-          "zh-TW": "Fandom 爬蟲平台 導覽 展示 行動版",
-          "en": "Guided Demo Mobile"
         }
       },
       {
@@ -16585,7 +16419,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.273Z",
+      "lastScannedAt": "2026-06-28T18:18:40.973Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -16996,7 +16830,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.274Z",
+      "lastScannedAt": "2026-06-28T18:18:40.974Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -17346,7 +17180,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.275Z",
+      "lastScannedAt": "2026-06-28T18:18:40.975Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -17845,7 +17679,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.275Z",
+      "lastScannedAt": "2026-06-28T18:18:40.975Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -18253,7 +18087,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.275Z",
+      "lastScannedAt": "2026-06-28T18:18:40.976Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -18687,7 +18521,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.276Z",
+      "lastScannedAt": "2026-06-28T18:18:40.976Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -19096,7 +18930,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.276Z",
+      "lastScannedAt": "2026-06-28T18:18:40.977Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -19496,7 +19330,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.277Z",
+      "lastScannedAt": "2026-06-28T18:18:40.977Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -19951,7 +19785,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.277Z",
+      "lastScannedAt": "2026-06-28T18:18:40.977Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -20201,25 +20035,6 @@
       }
     ],
     "media": [
-      {
-        "id": "cnirs-demo-video",
-        "type": "video",
-        "src": "/portfolio/projects/information-retrieval/demo/cnirs-demo.webm",
-        "poster": "/portfolio/projects/information-retrieval/demo/posters/cnirs-demo.webp",
-        "alt": {
-          "zh-TW": "CNIRS 中文新聞檢索系統完整操作錄影。",
-          "en": "Full demo recording of the CNIRS Chinese news retrieval system."
-        },
-        "title": {
-          "zh-TW": "完整 Search Engine Demo 錄影",
-          "en": "Full Search Engine Demo Recording"
-        },
-        "caption": {
-          "zh-TW": "展示小幫手導覽、新聞搜尋、facet browsing、模型對比、評估、診斷、分析圖譜與 feedback analytics。",
-          "en": "Shows the guided assistant, news search, facet browsing, model comparison, evaluation, diagnostics, analysis graph, and feedback analytics."
-        },
-        "featured": true
-      },
       {
         "id": "search-results",
         "type": "image",
@@ -21231,7 +21046,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.278Z",
+      "lastScannedAt": "2026-06-28T18:18:40.978Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -21672,7 +21487,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.279Z",
+      "lastScannedAt": "2026-06-28T18:18:40.979Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -22113,7 +21928,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.279Z",
+      "lastScannedAt": "2026-06-28T18:18:40.979Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -22538,7 +22353,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.280Z",
+      "lastScannedAt": "2026-06-28T18:18:40.980Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -22754,25 +22569,6 @@
       }
     ],
     "media": [
-      {
-        "id": "full-demo-video",
-        "type": "video",
-        "src": "/portfolio/projects/ir-rag-evaluation-lab/demo/ir-rag-evaluation-lab-demo.mp4",
-        "poster": "/portfolio/projects/ir-rag-evaluation-lab/demo/posters/ir-rag-evaluation-lab-demo.webp",
-        "alt": {
-          "zh-TW": "IR / RAG Evaluation Lab 的完整 Playwright 導覽錄影。",
-          "en": "Full Playwright walkthrough recording of IR / RAG Evaluation Lab."
-        },
-        "title": {
-          "zh-TW": "完整互動導覽錄影",
-          "en": "Full Interactive Demo Recording"
-        },
-        "caption": {
-          "zh-TW": "展示自動導覽小幫手、Pipeline Journey、查詢評估、評估分析、RAG citation、LLM judge、Text Mining 與雙語切換。",
-          "en": "Shows the auto-starting guide, Pipeline Journey, query evaluation, analytics, RAG citation, LLM judge, text mining, and bilingual switching."
-        },
-        "featured": true
-      },
       {
         "id": "guided-assistant",
         "type": "image",
@@ -23316,7 +23112,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.280Z",
+      "lastScannedAt": "2026-06-28T18:18:40.980Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -23858,7 +23654,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.281Z",
+      "lastScannedAt": "2026-06-28T18:18:40.981Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -24200,7 +23996,7 @@
         "content/projects/Justin21523/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.282Z",
+      "lastScannedAt": "2026-06-28T18:18:40.981Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -24531,7 +24327,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.282Z",
+      "lastScannedAt": "2026-06-28T18:18:40.982Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -24987,7 +24783,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.282Z",
+      "lastScannedAt": "2026-06-28T18:18:40.982Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -25189,25 +24985,6 @@
       }
     ],
     "media": [
-      {
-        "id": "guided-demo-video",
-        "type": "video",
-        "src": "/portfolio/projects/llm-train-eval-ship/demo/guided-demo.webm",
-        "poster": "/portfolio/projects/llm-train-eval-ship/demo/posters/guided-demo.webp",
-        "alt": {
-          "zh-TW": "LLM Train-Eval-Ship mock-safe 控制台操作錄影。",
-          "en": "Mock-safe walkthrough recording of the LLM Train-Eval-Ship control plane."
-        },
-        "title": {
-          "zh-TW": "Mock-safe Demo 錄影",
-          "en": "Mock-safe Demo Recording"
-        },
-        "caption": {
-          "zh-TW": "展示 scenario 切換、pipeline timeline、AutoEval scorecard、canary decision 與 rollback gate。",
-          "en": "Shows scenario switching, pipeline timeline, AutoEval scorecard, canary decisions, and rollback gates."
-        },
-        "featured": true
-      },
       {
         "id": "dashboard",
         "type": "image",
@@ -25790,7 +25567,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.283Z",
+      "lastScannedAt": "2026-06-28T18:18:40.983Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -26073,20 +25850,6 @@
         "title": {
           "zh-TW": "評估流程",
           "en": "Evaluation Flow"
-        }
-      },
-      {
-        "id": "guided-tour",
-        "type": "video",
-        "src": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
-        "poster": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/posters/guided-tour.webp",
-        "alt": {
-          "zh-TW": "Lyrics Cultural Analytics Lab 的互動導覽錄影。",
-          "en": "Interactive guided tour recording for Lyrics Cultural Analytics Lab."
-        },
-        "title": {
-          "zh-TW": "互動導覽錄影",
-          "en": "Guided Tour Recording"
         }
       },
       {
@@ -26580,7 +26343,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.284Z",
+      "lastScannedAt": "2026-06-28T18:18:40.984Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -26983,7 +26746,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.284Z",
+      "lastScannedAt": "2026-06-28T18:18:40.984Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -27414,7 +27177,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.285Z",
+      "lastScannedAt": "2026-06-28T18:18:40.985Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -27767,7 +27530,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.285Z",
+      "lastScannedAt": "2026-06-28T18:18:40.985Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -28297,7 +28060,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.285Z",
+      "lastScannedAt": "2026-06-28T18:18:40.985Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28741,7 +28504,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.286Z",
+      "lastScannedAt": "2026-06-28T18:18:40.986Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28981,25 +28744,6 @@
       }
     ],
     "media": [
-      {
-        "id": "guided-demo-video",
-        "type": "video",
-        "src": "/portfolio/projects/music-intelligence-platform/demo-tour.webm",
-        "poster": "/portfolio/projects/music-intelligence-platform/posters/demo-tour.webp",
-        "alt": {
-          "zh-TW": "Music Intelligence Platform 的完整 Playwright 導覽錄影。",
-          "en": "Full Playwright guided tour recording of Music Intelligence Platform."
-        },
-        "title": {
-          "zh-TW": "完整互動導覽錄影",
-          "en": "Full Interactive Guided Tour Recording"
-        },
-        "caption": {
-          "zh-TW": "展示資料生成、清理、特徵工程、模型訓練、搜尋、推薦、相似歌曲、artist network、evaluation 與 analytics 儀表板。",
-          "en": "Shows data generation, cleaning, feature engineering, model training, search, recommendations, similar tracks, artist network, evaluation, and analytics dashboards."
-        },
-        "featured": true
-      },
       {
         "id": "home-dashboard",
         "type": "image",
@@ -29984,7 +29728,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.286Z",
+      "lastScannedAt": "2026-06-28T18:18:40.987Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -30343,7 +30087,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.287Z",
+      "lastScannedAt": "2026-06-28T18:18:40.987Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -30546,25 +30290,6 @@
       }
     ],
     "media": [
-      {
-        "id": "guided-tour-video",
-        "type": "video",
-        "src": "/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
-        "poster": "/portfolio/projects/news-web-crawler/demo/posters/guided-tour.webp",
-        "alt": {
-          "zh-TW": "News Web Crawler 分析平台導覽錄影。",
-          "en": "Guided walkthrough recording of the News Web Crawler analytics platform."
-        },
-        "title": {
-          "zh-TW": "平台導覽錄影",
-          "en": "Platform Walkthrough"
-        },
-        "caption": {
-          "zh-TW": "展示新聞資料匯入、pipeline jobs、資料品質、EDA、文字探勘、文章搜尋、ML diagnostics 與報表輸出。",
-          "en": "Shows news ingestion, pipeline jobs, data quality, EDA, text mining, article search, ML diagnostics, and report export."
-        },
-        "featured": true
-      },
       {
         "id": "dashboard-overview",
         "type": "image",
@@ -31192,7 +30917,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.288Z",
+      "lastScannedAt": "2026-06-28T18:18:40.988Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -31385,25 +31110,6 @@
       }
     ],
     "media": [
-      {
-        "id": "guided-demo-video",
-        "type": "video",
-        "src": "/portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm",
-        "poster": "/portfolio/projects/nyc-taxi-mobility-analytics/demo/posters/demo-tour.webp",
-        "alt": {
-          "zh-TW": "NYC Taxi Mobility Analytics Platform 的完整 Playwright 導覽錄影。",
-          "en": "Full Playwright guided tour recording of NYC Taxi Mobility Analytics Platform."
-        },
-        "title": {
-          "zh-TW": "完整互動導覽錄影",
-          "en": "Full Interactive Guided Tour Recording"
-        },
-        "caption": {
-          "zh-TW": "展示中文預設介面、導覽小幫手、Pipeline Journey、資料上傳、Data Quality、Warehouse、Zone Map、Forecast 與 Saved Views。",
-          "en": "Shows the Chinese default UI, guided assistant, Pipeline Journey, data upload, Data Quality, Warehouse, Zone Map, Forecast, and Saved Views."
-        },
-        "featured": true
-      },
       {
         "id": "overview-dashboard",
         "type": "image",
@@ -31771,7 +31477,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.288Z",
+      "lastScannedAt": "2026-06-28T18:18:40.988Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -31980,25 +31686,6 @@
       }
     ],
     "media": [
-      {
-        "id": "openalex-demo-video",
-        "type": "video",
-        "src": "/portfolio/projects/openalex-research-rag/demo/openalex-demo.mp4",
-        "poster": "/portfolio/projects/openalex-research-rag/demo/posters/openalex-demo.webp",
-        "alt": {
-          "zh-TW": "OpenAlex 研究智能平台完整操作錄影。",
-          "en": "Full walkthrough recording of the OpenAlex Research Intelligence platform."
-        },
-        "title": {
-          "zh-TW": "完整平台 Demo 錄影",
-          "en": "Full Platform Demo Recording"
-        },
-        "caption": {
-          "zh-TW": "展示導覽小幫手、混合搜尋、引用接地 RAG、資料旅程、主題分析、引用網路與中英文切換。",
-          "en": "Shows the guided tour, hybrid search, citation-grounded RAG, the Data Story journey, topic analytics, citation network, and zh/en toggle."
-        },
-        "featured": true
-      },
       {
         "id": "tour-welcome",
         "type": "image",
@@ -32560,7 +32247,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.289Z",
+      "lastScannedAt": "2026-06-28T18:18:40.989Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -32989,7 +32676,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.290Z",
+      "lastScannedAt": "2026-06-28T18:18:40.990Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -33353,7 +33040,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.290Z",
+      "lastScannedAt": "2026-06-28T18:18:40.990Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -33822,7 +33509,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.291Z",
+      "lastScannedAt": "2026-06-28T18:18:40.991Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -34252,7 +33939,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.291Z",
+      "lastScannedAt": "2026-06-28T18:18:40.991Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -34651,7 +34338,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.292Z",
+      "lastScannedAt": "2026-06-28T18:18:40.991Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -35089,7 +34776,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.292Z",
+      "lastScannedAt": "2026-06-28T18:18:40.992Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -35508,7 +35195,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.293Z",
+      "lastScannedAt": "2026-06-28T18:18:40.992Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -35859,7 +35546,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.295Z",
+      "lastScannedAt": "2026-06-28T18:18:40.993Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -36289,7 +35976,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.295Z",
+      "lastScannedAt": "2026-06-28T18:18:40.993Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -36670,7 +36357,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.296Z",
+      "lastScannedAt": "2026-06-28T18:18:40.995Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -37123,7 +36810,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.296Z",
+      "lastScannedAt": "2026-06-28T18:18:40.995Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -37629,7 +37316,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.297Z",
+      "lastScannedAt": "2026-06-28T18:18:40.996Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -37832,25 +37519,6 @@
       }
     ],
     "media": [
-      {
-        "id": "demo-tour-video",
-        "type": "video",
-        "src": "/portfolio/projects/restoreAI-studio/demo/demo-tour.webm",
-        "poster": "/portfolio/projects/restoreAI-studio/demo/posters/demo-tour.webp",
-        "alt": {
-          "zh-TW": "RestorAI Studio 互動修復工作台導覽錄影。",
-          "en": "RestorAI Studio interactive restoration workbench demo recording."
-        },
-        "title": {
-          "zh-TW": "互動工作台導覽",
-          "en": "Interactive Workbench Tour"
-        },
-        "caption": {
-          "zh-TW": "展示 before/after slider、scenario 切換、pipeline 狀態與 mock-safe 推論流程。",
-          "en": "Shows the before/after slider, scenario switching, pipeline status, and mock-safe inference flow."
-        },
-        "featured": true
-      },
       {
         "id": "workspace",
         "type": "image",
@@ -38340,7 +38008,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.297Z",
+      "lastScannedAt": "2026-06-28T18:18:40.996Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -38558,25 +38226,6 @@
       }
     ],
     "media": [
-      {
-        "id": "full-verification-video",
-        "type": "video",
-        "src": "/portfolio/projects/retailpulse-bi-recommender/demo/full-verification.webm",
-        "poster": "/portfolio/projects/retailpulse-bi-recommender/demo/posters/full-verification.webp",
-        "alt": {
-          "zh-TW": "RetailPulse BI Recommender 的完整 Playwright 驗證錄影。",
-          "en": "Full Playwright verification recording of RetailPulse BI Recommender."
-        },
-        "title": {
-          "zh-TW": "完整功能驗證錄影",
-          "en": "Full Feature Verification Recording"
-        },
-        "caption": {
-          "zh-TW": "展示 dashboard、客戶分析、購物籃、推薦、預測、ML 洞察、A/B 測試、導覽與上傳流程。",
-          "en": "Shows dashboard, customer analytics, basket analysis, recommendations, forecasting, ML insights, A/B testing, tour, and upload flows."
-        },
-        "featured": true
-      },
       {
         "id": "dashboard-overview",
         "type": "image",
@@ -39156,7 +38805,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.298Z",
+      "lastScannedAt": "2026-06-28T18:18:40.997Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -39527,7 +39176,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.298Z",
+      "lastScannedAt": "2026-06-28T18:18:40.998Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -39953,7 +39602,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.299Z",
+      "lastScannedAt": "2026-06-28T18:18:40.998Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -40339,7 +39988,7 @@
         "content/projects/runner-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.299Z",
+      "lastScannedAt": "2026-06-28T18:18:40.998Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -40729,7 +40378,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.299Z",
+      "lastScannedAt": "2026-06-28T18:18:40.999Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -41069,7 +40718,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.300Z",
+      "lastScannedAt": "2026-06-28T18:18:40.999Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -41405,7 +41054,7 @@
         "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.300Z",
+      "lastScannedAt": "2026-06-28T18:18:40.999Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -41612,25 +41261,6 @@
       }
     ],
     "media": [
-      {
-        "id": "demo-walkthrough",
-        "type": "video",
-        "src": "/portfolio/projects/sd-multimodal-platform/demo/demo-walkthrough.webm",
-        "poster": "/portfolio/projects/sd-multimodal-platform/demo/posters/demo-walkthrough.webp",
-        "alt": {
-          "zh-TW": "SD Multi-Modal Platform demo 錄影，展示 prompt workbench、mock generation、architecture 與 runbook。",
-          "en": "SD Multi-Modal Platform demo walkthrough showing the prompt workbench, mock generation, architecture, and runbook."
-        },
-        "title": {
-          "zh-TW": "Demo 錄影",
-          "en": "Demo Walkthrough"
-        },
-        "caption": {
-          "zh-TW": "公開展示用 WebM，使用 mock-safe demo mode 展示無 GPU 也能跑的核心產品流程。",
-          "en": "A public WebM walkthrough of the mock-safe demo mode that runs without GPU access."
-        },
-        "featured": true
-      },
       {
         "id": "workbench-desktop",
         "type": "image",
@@ -42186,7 +41816,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.300Z",
+      "lastScannedAt": "2026-06-28T18:18:41.000Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -42610,7 +42240,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.301Z",
+      "lastScannedAt": "2026-06-28T18:18:41.000Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -43039,7 +42669,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.301Z",
+      "lastScannedAt": "2026-06-28T18:18:41.001Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -43482,7 +43112,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.302Z",
+      "lastScannedAt": "2026-06-28T18:18:41.001Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -43904,7 +43534,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.302Z",
+      "lastScannedAt": "2026-06-28T18:18:41.002Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44263,7 +43893,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.303Z",
+      "lastScannedAt": "2026-06-28T18:18:41.002Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44605,7 +44235,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.303Z",
+      "lastScannedAt": "2026-06-28T18:18:41.002Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -45057,7 +44687,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.304Z",
+      "lastScannedAt": "2026-06-28T18:18:41.003Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -45491,7 +45121,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.304Z",
+      "lastScannedAt": "2026-06-28T18:18:41.003Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -45935,7 +45565,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.304Z",
+      "lastScannedAt": "2026-06-28T18:18:41.004Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46354,7 +45984,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.305Z",
+      "lastScannedAt": "2026-06-28T18:18:41.004Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46561,25 +46191,6 @@
       }
     ],
     "media": [
-      {
-        "id": "demo-walkthrough",
-        "type": "video",
-        "src": "/portfolio/projects/video-family-lora-hub/demo/demo-walkthrough.webm",
-        "poster": "/portfolio/projects/video-family-lora-hub/demo/posters/demo-walkthrough.webp",
-        "alt": {
-          "zh-TW": "Video Family LoRA Hub 的 mock-safe demo 錄影。",
-          "en": "Mock-safe demo recording of Video Family LoRA Hub."
-        },
-        "title": {
-          "zh-TW": "Demo 操作錄影",
-          "en": "Demo Walkthrough"
-        },
-        "caption": {
-          "zh-TW": "展示多模型影片生成與身份 LoRA pipeline 的操作台、manifest、artifact browser 與架構狀態。",
-          "en": "Shows the product console, manifest, artifact browser, and architecture states for the multi-model video and identity LoRA pipeline."
-        },
-        "featured": true
-      },
       {
         "id": "showcase-console",
         "type": "image",
@@ -47160,7 +46771,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.305Z",
+      "lastScannedAt": "2026-06-28T18:18:41.005Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47582,7 +47193,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.306Z",
+      "lastScannedAt": "2026-06-28T18:18:41.005Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -48145,7 +47756,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.306Z",
+      "lastScannedAt": "2026-06-28T18:18:41.006Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -48590,7 +48201,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.307Z",
+      "lastScannedAt": "2026-06-28T18:18:41.006Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -49035,7 +48646,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T18:09:12.308Z",
+      "lastScannedAt": "2026-06-28T18:18:41.007Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",

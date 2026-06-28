@@ -305,10 +305,26 @@ function buildQualityMedia(slug: string, title: string, zhTitle: string, quality
   });
 }
 
-function mergeMedia(baseMedia: ProjectMediaDraft[], qualityMedia: ProjectMediaDraft[]) {
+function isProjectVideoForSlug(slug: string, item: ProjectMediaDraft) {
+  return item.type === "video" &&
+    Boolean(item.src?.startsWith(`/projects/${slug}/videos/`));
+}
+
+function isLegacyPortfolioVideo(item: ProjectMediaDraft) {
+  return item.type === "video" &&
+    Boolean(item.src?.startsWith("/portfolio/projects/"));
+}
+
+function mergeMedia(slug: string, baseMedia: ProjectMediaDraft[], qualityMedia: ProjectMediaDraft[]) {
+  const hasVerifiedProjectVideo = qualityMedia.some((item) => isProjectVideoForSlug(slug, item));
   const seen = new Set<string>();
   return [...baseMedia, ...qualityMedia].filter((item) => {
     if (!item.src || seen.has(item.src)) {
+      return false;
+    }
+
+    // 若已經有新版 verified demo，就不要再把舊 portfolio demo 放進 detail video gallery。
+    if (hasVerifiedProjectVideo && isLegacyPortfolioVideo(item)) {
       return false;
     }
 
@@ -801,7 +817,7 @@ ${readmeInfo.description}
     const zhTitleForMedia = asString(zhParsed.metadata.title, scanData.name);
     const enTitleForMedia = asString(enParsed.metadata.title, scanData.name);
     const qualityMedia = buildQualityMedia(slug, enTitleForMedia, zhTitleForMedia, qualityResult);
-    const media = addVideoPosters(mergeMedia((override.media || []) as ProjectMediaDraft[], qualityMedia));
+    const media = addVideoPosters(mergeMedia(slug, (override.media || []) as ProjectMediaDraft[], qualityMedia));
     const firstQualityImage = media.find((item) => item.type === "image" && item.src)?.src;
     if (!coverImage && firstQualityImage) {
       coverImage = firstQualityImage;
