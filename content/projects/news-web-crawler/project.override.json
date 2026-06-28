@@ -19,6 +19,23 @@
   "coverImage": "/portfolio/projects/news-web-crawler/cover.png",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/news-web-crawler/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
+      },
+      "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/news-web-crawler/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/news-web-crawler",
       "label": {
@@ -33,23 +50,6 @@
         "en": "README",
         "zh-TW": "README"
       }
-    },
-    {
-      "kind": "video",
-      "url": "/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
-      "label": {
-        "zh-TW": "Demo 錄影",
-        "en": "Demo Recording"
-      }
-    },
-    {
-      "kind": "live",
-      "url": "https://justin21523.github.io/news-web-crawler/",
-      "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
-      },
-      "primary": true
     }
   ],
   "media": [

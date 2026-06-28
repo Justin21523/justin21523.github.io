@@ -20,10 +20,18 @@
       "kind": "live",
       "url": "https://justin21523.github.io/rocm-image-video-stack/",
       "label": {
-        "zh-TW": "互動 Demo",
-        "en": "Interactive Demo"
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/rocm-image-video-stack/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
     },
     {
       "kind": "github",

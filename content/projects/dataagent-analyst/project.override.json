@@ -22,10 +22,18 @@
       "kind": "live",
       "url": "https://justin21523.github.io/dataagent-analyst/",
       "label": {
-        "zh-TW": "互動 Demo",
-        "en": "Interactive Demo"
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/dataagent-analyst/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
     },
     {
       "kind": "github",
@@ -41,14 +49,6 @@
       "label": {
         "zh-TW": "閱讀 README",
         "en": "Read README"
-      }
-    },
-    {
-      "kind": "video",
-      "url": "/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
-      "label": {
-        "zh-TW": "Demo 錄影",
-        "en": "Demo Recording"
       }
     }
   ],

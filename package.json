@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run catalog:validate && npm run validate:projects && next build",
+    "build": "npm run catalog:validate && npm run validate:projects && npm run validate:target-demo-media && next build",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "next typegen && tsc --noEmit",
@@ -19,6 +19,8 @@
     "deploy:project-demos": "tsx scripts/portfolio-release/deploy-project-demos.ts",
     "deploy:real-app-demos": "tsx scripts/portfolio-release/deploy-real-web-app-demos.ts",
     "remediate:original-app-demos": "tsx scripts/portfolio-release/remediate-original-app-demos.ts",
+    "portfolio:implement-target-demos": "tsx scripts/portfolio-release/implement-target-demo-sites.ts",
+    "validate:target-demo-media": "tsx scripts/validate-target-demo-media.ts",
     "deploy:static-project-demos": "tsx scripts/portfolio-release/deploy-static-project-demos.ts",
     "validate:static-demos": "tsx scripts/validate-static-demos.ts",
     "deploy": "bash scripts/deploy.sh",

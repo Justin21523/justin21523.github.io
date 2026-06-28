@@ -16,10 +16,18 @@
       "kind": "live",
       "url": "https://justin21523.github.io/frontend-interaction-lab/",
       "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/frontend-interaction-lab/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
     },
     {
       "kind": "github",
@@ -37,5 +45,8 @@
         "en": "Read README"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "needsReview": false
+  }
 }

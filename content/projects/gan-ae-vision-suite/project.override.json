@@ -23,10 +23,18 @@
       "kind": "live",
       "url": "https://justin21523.github.io/GAN-AE-vision-suite/",
       "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/gan-ae-vision-suite/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
     },
     {
       "kind": "github",

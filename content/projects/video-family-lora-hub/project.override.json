@@ -22,17 +22,17 @@
       "kind": "live",
       "url": "https://justin21523.github.io/video-family-lora-hub/",
       "label": {
-        "zh-TW": "開啟互動 Demo",
-        "en": "Open Interactive Demo"
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
       },
       "primary": true
     },
     {
       "kind": "video",
-      "url": "/portfolio/projects/video-family-lora-hub/demo/demo-walkthrough.webm",
+      "url": "/projects/video-family-lora-hub/videos/01-demo-walkthrough.webm",
       "label": {
-        "zh-TW": "Demo 錄影",
-        "en": "Demo Recording"
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
       }
     },
     {

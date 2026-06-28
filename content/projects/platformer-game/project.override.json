@@ -10,6 +10,23 @@
   "coverImage": "/portfolio/projects/platformer-game/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/platformer-game/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
+      },
+      "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/platformer-game/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/platformer-game",
       "label": {
@@ -24,15 +41,9 @@
         "en": "README",
         "zh-TW": "README"
       }
-    },
-    {
-      "kind": "live",
-      "url": "https://justin21523.github.io/platformer-game/",
-      "label": {
-        "zh-TW": "線上 Demo",
-        "en": "Live Demo"
-      },
-      "primary": true
     }
-  ]
+  ],
+  "metadata": {
+    "needsReview": false
+  }
 }

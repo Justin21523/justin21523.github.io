@@ -20,19 +20,28 @@
   "coverImage": "/portfolio/projects/music-intelligence-platform/cover.png",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/music-intelligence-platform/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
+      },
+      "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/music-intelligence-platform/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/music-intelligence-platform",
       "label": {
         "en": "View GitHub",
         "zh-TW": "查看 GitHub"
-      }
-    },
-    {
-      "kind": "video",
-      "url": "/portfolio/projects/music-intelligence-platform/demo-tour.webm",
-      "label": {
-        "zh-TW": "Demo 錄影",
-        "en": "Demo Recording"
       }
     },
     {
@@ -42,15 +51,6 @@
         "en": "README",
         "zh-TW": "README"
       }
-    },
-    {
-      "kind": "live",
-      "url": "https://justin21523.github.io/music-intelligence-platform/",
-      "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
-      },
-      "primary": true
     }
   ],
   "media": [

@@ -23,6 +23,23 @@
   "coverImage": "/portfolio/projects/procedural-3d-maze/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/procedural-3d-maze/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
+      },
+      "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/procedural-3d-maze/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/procedural-3d-maze",
       "label": {
@@ -37,15 +54,6 @@
         "en": "README",
         "zh-TW": "README"
       }
-    },
-    {
-      "kind": "live",
-      "url": "https://justin21523.github.io/procedural-3d-maze/",
-      "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
-      },
-      "primary": true
     }
   ],
   "metadata": {

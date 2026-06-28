@@ -23,12 +23,20 @@
   "links": [
     {
       "kind": "live",
-      "url": "https://neojustin.dothost.net/projects/information-retrieval/",
+      "url": "https://justin21523.github.io/news-information-retrieval-system/",
       "label": {
-        "zh-TW": "開啟 Live Demo",
-        "en": "Open Live Demo"
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/information-retrieval/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
     },
     {
       "kind": "github",
@@ -36,14 +44,6 @@
       "label": {
         "zh-TW": "查看 GitHub",
         "en": "View GitHub"
-      }
-    },
-    {
-      "kind": "video",
-      "url": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
-      "label": {
-        "zh-TW": "Demo 錄影",
-        "en": "Demo Recording"
       }
     },
     {
@@ -694,7 +694,7 @@
       "tests/test_ir_app_api.py",
       "scripts/verify_ui_playwright.py"
     ],
-    "extractionConfidence": 1.0,
+    "extractionConfidence": 1,
     "needsReview": false
   }
 }

@@ -15,6 +15,23 @@
   "coverImage": "/portfolio/projects/prism-runner-3d/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/prism-runner-3d/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
+      },
+      "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/prism-runner-3d/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/prism-runner-3d",
       "label": {
@@ -29,15 +46,9 @@
         "en": "README",
         "zh-TW": "README"
       }
-    },
-    {
-      "kind": "live",
-      "url": "https://justin21523.github.io/prism-runner-3d/",
-      "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
-      },
-      "primary": true
     }
-  ]
+  ],
+  "metadata": {
+    "needsReview": false
+  }
 }

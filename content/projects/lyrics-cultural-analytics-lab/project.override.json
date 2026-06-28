@@ -19,17 +19,17 @@
       "kind": "live",
       "url": "https://justin21523.github.io/lyrics-cultural-analytics-lab/",
       "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
       },
       "primary": true
     },
     {
       "kind": "video",
-      "url": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+      "url": "/projects/lyrics-cultural-analytics-lab/videos/01-demo-walkthrough.webm",
       "label": {
-        "zh-TW": "Demo 影片",
-        "en": "Demo Recording"
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
       }
     },
     {

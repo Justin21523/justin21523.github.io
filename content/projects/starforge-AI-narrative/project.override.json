@@ -21,6 +21,23 @@
   "coverImage": "/portfolio/projects/starforge-AI-narrative/cover.webp",
   "links": [
     {
+      "kind": "live",
+      "url": "https://justin21523.github.io/starforge-AI-narrative/",
+      "label": {
+        "en": "Live Demo",
+        "zh-TW": "網站 Demo"
+      },
+      "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/projects/starforge-AI-narrative/videos/01-demo-walkthrough.webm",
+      "label": {
+        "en": "Demo Recording",
+        "zh-TW": "Demo 錄影"
+      }
+    },
+    {
       "kind": "github",
       "url": "https://github.com/Justin21523/starforge-AI-narrative",
       "label": {
@@ -35,15 +52,6 @@
         "en": "README",
         "zh-TW": "README"
       }
-    },
-    {
-      "kind": "live",
-      "url": "https://justin21523.github.io/starforge-AI-narrative/",
-      "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
-      },
-      "primary": true
     }
   ],
   "metadata": {
