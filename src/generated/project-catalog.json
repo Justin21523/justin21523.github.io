@@ -198,7 +198,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.552Z"
+      "lastScannedAt": "2026-06-28T12:01:51.329Z"
     },
     "content": {
       "zh-TW": {
@@ -575,7 +575,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.555Z"
+      "lastScannedAt": "2026-06-28T12:01:51.332Z"
     },
     "content": {
       "zh-TW": {
@@ -1092,7 +1092,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.556Z"
+      "lastScannedAt": "2026-06-28T12:01:51.333Z"
     },
     "content": {
       "zh-TW": {
@@ -1343,7 +1343,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.556Z"
+      "lastScannedAt": "2026-06-28T12:01:51.333Z"
     },
     "content": {
       "zh-TW": {
@@ -1528,7 +1528,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.556Z"
+      "lastScannedAt": "2026-06-28T12:01:51.333Z"
     },
     "content": {
       "zh-TW": {
@@ -1703,7 +1703,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.556Z"
+      "lastScannedAt": "2026-06-28T12:01:51.334Z"
     },
     "content": {
       "zh-TW": {
@@ -1933,7 +1933,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.557Z"
+      "lastScannedAt": "2026-06-28T12:01:51.334Z"
     },
     "content": {
       "zh-TW": {
@@ -2178,7 +2178,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.557Z"
+      "lastScannedAt": "2026-06-28T12:01:51.335Z"
     },
     "content": {
       "zh-TW": {
@@ -2536,7 +2536,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.558Z"
+      "lastScannedAt": "2026-06-28T12:01:51.335Z"
     },
     "content": {
       "zh-TW": {
@@ -2730,7 +2730,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.558Z"
+      "lastScannedAt": "2026-06-28T12:01:51.335Z"
     },
     "content": {
       "zh-TW": {
@@ -3008,7 +3008,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.558Z"
+      "lastScannedAt": "2026-06-28T12:01:51.336Z"
     },
     "content": {
       "zh-TW": {
@@ -3274,7 +3274,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.559Z"
+      "lastScannedAt": "2026-06-28T12:01:51.336Z"
     },
     "content": {
       "zh-TW": {
@@ -3440,7 +3440,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.559Z"
+      "lastScannedAt": "2026-06-28T12:01:51.336Z"
     },
     "content": {
       "zh-TW": {
@@ -3523,7 +3523,7 @@
       "Docker",
       "GitHub Pages"
     ],
-    "coverImage": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
+    "coverImage": "/portfolio/projects/charaforge-t2i-lab/cover.png",
     "links": [
       {
         "kind": "live",
@@ -3536,7 +3536,7 @@
       },
       {
         "kind": "video",
-        "url": "/portfolio/projects/charaforge-T2I-Lab/demo-walkthrough.mp4",
+        "url": "/portfolio/projects/charaforge-t2i-lab/demo-walkthrough.mp4",
         "label": {
           "zh-TW": "Demo 錄影",
           "en": "Demo Recording"
@@ -3563,8 +3563,8 @@
       {
         "id": "recorded-walkthrough",
         "type": "video",
-        "src": "/portfolio/projects/charaforge-T2I-Lab/demo-walkthrough.mp4",
-        "poster": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
+        "src": "/portfolio/projects/charaforge-t2i-lab/demo-walkthrough.mp4",
+        "poster": "/portfolio/projects/charaforge-t2i-lab/cover.png",
         "alt": {
           "zh-TW": "CharaForge T2I Lab 的完整作品集導覽錄影。",
           "en": "Complete portfolio walkthrough recording for CharaForge T2I Lab."
@@ -3582,7 +3582,7 @@
       {
         "id": "dashboard-overview",
         "type": "image",
-        "src": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
+        "src": "/portfolio/projects/charaforge-t2i-lab/cover.png",
         "alt": {
           "zh-TW": "CharaForge T2I Lab dashboard 總覽截圖。",
           "en": "CharaForge T2I Lab dashboard overview screenshot."
@@ -3600,7 +3600,7 @@
       {
         "id": "text-to-image-result",
         "type": "image",
-        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-portrait.png",
+        "src": "/portfolio/projects/charaforge-t2i-lab/scenario-portrait.png",
         "alt": {
           "zh-TW": "文生圖角色生成結果與 metadata 截圖。",
           "en": "Text-to-image character result and metadata screenshot."
@@ -3617,7 +3617,7 @@
       {
         "id": "controlnet-flow",
         "type": "image",
-        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-controlnet.png",
+        "src": "/portfolio/projects/charaforge-t2i-lab/scenario-controlnet.png",
         "alt": {
           "zh-TW": "ControlNet 條件控制生成流程截圖。",
           "en": "ControlNet conditioned generation flow screenshot."
@@ -3634,7 +3634,7 @@
       {
         "id": "batch-processing",
         "type": "image",
-        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-batch.png",
+        "src": "/portfolio/projects/charaforge-t2i-lab/scenario-batch.png",
         "alt": {
           "zh-TW": "批次文生圖佇列與輸出流程截圖。",
           "en": "Batch text-to-image queue and output flow screenshot."
@@ -3651,7 +3651,7 @@
       {
         "id": "lora-training-monitor",
         "type": "image",
-        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-lora.png",
+        "src": "/portfolio/projects/charaforge-t2i-lab/scenario-lora.png",
         "alt": {
           "zh-TW": "LoRA 訓練監控、loss 與 checkpoint 匯出截圖。",
           "en": "LoRA training monitor, loss, and checkpoint export screenshot."
@@ -3668,7 +3668,7 @@
       {
         "id": "api-job-contract",
         "type": "image",
-        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-api.png",
+        "src": "/portfolio/projects/charaforge-t2i-lab/scenario-api.png",
         "alt": {
           "zh-TW": "API contract 與非同步 job state 截圖。",
           "en": "API contract and async job state screenshot."
@@ -3685,7 +3685,7 @@
       {
         "id": "gallery-review",
         "type": "image",
-        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-gallery.png",
+        "src": "/portfolio/projects/charaforge-t2i-lab/scenario-gallery.png",
         "alt": {
           "zh-TW": "生成圖庫與結果審閱狀態截圖。",
           "en": "Generated gallery and result review state screenshot."
@@ -3857,7 +3857,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.559Z"
+      "lastScannedAt": "2026-06-28T12:01:51.336Z"
     },
     "content": {
       "zh-TW": {
@@ -4075,7 +4075,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.559Z"
+      "lastScannedAt": "2026-06-28T12:01:51.336Z"
     },
     "content": {
       "zh-TW": {
@@ -4344,7 +4344,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.559Z"
+      "lastScannedAt": "2026-06-28T12:01:51.337Z"
     },
     "content": {
       "zh-TW": {
@@ -4588,7 +4588,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.560Z"
+      "lastScannedAt": "2026-06-28T12:01:51.337Z"
     },
     "content": {
       "zh-TW": {
@@ -4821,7 +4821,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.560Z"
+      "lastScannedAt": "2026-06-28T12:01:51.337Z"
     },
     "content": {
       "zh-TW": {
@@ -5040,7 +5040,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.560Z"
+      "lastScannedAt": "2026-06-28T12:01:51.337Z"
     },
     "content": {
       "zh-TW": {
@@ -5215,7 +5215,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.560Z"
+      "lastScannedAt": "2026-06-28T12:01:51.337Z"
     },
     "content": {
       "zh-TW": {
@@ -5473,7 +5473,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.560Z"
+      "lastScannedAt": "2026-06-28T12:01:51.338Z"
     },
     "content": {
       "zh-TW": {
@@ -5648,7 +5648,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.560Z"
+      "lastScannedAt": "2026-06-28T12:01:51.338Z"
     },
     "content": {
       "zh-TW": {
@@ -5837,7 +5837,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.561Z"
+      "lastScannedAt": "2026-06-28T12:01:51.338Z"
     },
     "content": {
       "zh-TW": {
@@ -5995,7 +5995,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.561Z"
+      "lastScannedAt": "2026-06-28T12:01:51.338Z"
     },
     "content": {
       "zh-TW": {
@@ -6154,7 +6154,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.561Z"
+      "lastScannedAt": "2026-06-28T12:01:51.338Z"
     },
     "content": {
       "zh-TW": {
@@ -6390,7 +6390,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.561Z"
+      "lastScannedAt": "2026-06-28T12:01:51.338Z"
     },
     "content": {
       "zh-TW": {
@@ -6563,7 +6563,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.561Z"
+      "lastScannedAt": "2026-06-28T12:01:51.338Z"
     },
     "content": {
       "zh-TW": {
@@ -6962,7 +6962,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.561Z"
+      "lastScannedAt": "2026-06-28T12:01:51.338Z"
     },
     "content": {
       "zh-TW": {
@@ -7380,7 +7380,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.562Z"
+      "lastScannedAt": "2026-06-28T12:01:51.339Z"
     },
     "content": {
       "zh-TW": {
@@ -7564,7 +7564,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.562Z"
+      "lastScannedAt": "2026-06-28T12:01:51.339Z"
     },
     "content": {
       "zh-TW": {
@@ -7736,7 +7736,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.563Z"
+      "lastScannedAt": "2026-06-28T12:01:51.339Z"
     },
     "content": {
       "zh-TW": {
@@ -7992,7 +7992,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.563Z"
+      "lastScannedAt": "2026-06-28T12:01:51.340Z"
     },
     "content": {
       "zh-TW": {
@@ -8205,7 +8205,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.563Z"
+      "lastScannedAt": "2026-06-28T12:01:51.340Z"
     },
     "content": {
       "zh-TW": {
@@ -8446,7 +8446,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.563Z"
+      "lastScannedAt": "2026-06-28T12:01:51.340Z"
     },
     "content": {
       "zh-TW": {
@@ -8657,7 +8657,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.563Z"
+      "lastScannedAt": "2026-06-28T12:01:51.340Z"
     },
     "content": {
       "zh-TW": {
@@ -8849,7 +8849,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.563Z"
+      "lastScannedAt": "2026-06-28T12:01:51.340Z"
     },
     "content": {
       "zh-TW": {
@@ -9078,7 +9078,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.563Z"
+      "lastScannedAt": "2026-06-28T12:01:51.340Z"
     },
     "content": {
       "zh-TW": {
@@ -9284,7 +9284,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.563Z"
+      "lastScannedAt": "2026-06-28T12:01:51.340Z"
     },
     "content": {
       "zh-TW": {
@@ -10075,7 +10075,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.564Z"
+      "lastScannedAt": "2026-06-28T12:01:51.341Z"
     },
     "content": {
       "zh-TW": {
@@ -10327,7 +10327,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.564Z"
+      "lastScannedAt": "2026-06-28T12:01:51.341Z"
     },
     "content": {
       "zh-TW": {
@@ -10579,7 +10579,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.564Z"
+      "lastScannedAt": "2026-06-28T12:01:51.341Z"
     },
     "content": {
       "zh-TW": {
@@ -10815,7 +10815,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.564Z"
+      "lastScannedAt": "2026-06-28T12:01:51.341Z"
     },
     "content": {
       "zh-TW": {
@@ -11153,7 +11153,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.564Z"
+      "lastScannedAt": "2026-06-28T12:01:51.341Z"
     },
     "content": {
       "zh-TW": {
@@ -11393,7 +11393,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.564Z"
+      "lastScannedAt": "2026-06-28T12:01:51.341Z"
     },
     "content": {
       "zh-TW": {
@@ -11561,7 +11561,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.565Z"
+      "lastScannedAt": "2026-06-28T12:01:51.341Z"
     },
     "content": {
       "zh-TW": {
@@ -11721,7 +11721,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.565Z"
+      "lastScannedAt": "2026-06-28T12:01:51.342Z"
     },
     "content": {
       "zh-TW": {
@@ -11942,7 +11942,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.565Z"
+      "lastScannedAt": "2026-06-28T12:01:51.342Z"
     },
     "content": {
       "zh-TW": {
@@ -12400,7 +12400,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.565Z"
+      "lastScannedAt": "2026-06-28T12:01:51.342Z"
     },
     "content": {
       "zh-TW": {
@@ -12607,7 +12607,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.565Z"
+      "lastScannedAt": "2026-06-28T12:01:51.342Z"
     },
     "content": {
       "zh-TW": {
@@ -12840,7 +12840,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.565Z"
+      "lastScannedAt": "2026-06-28T12:01:51.342Z"
     },
     "content": {
       "zh-TW": {
@@ -13015,7 +13015,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.565Z"
+      "lastScannedAt": "2026-06-28T12:01:51.342Z"
     },
     "content": {
       "zh-TW": {
@@ -13259,7 +13259,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.565Z"
+      "lastScannedAt": "2026-06-28T12:01:51.342Z"
     },
     "content": {
       "zh-TW": {
@@ -13514,7 +13514,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.566Z"
+      "lastScannedAt": "2026-06-28T12:01:51.343Z"
     },
     "content": {
       "zh-TW": {
@@ -14392,7 +14392,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.566Z"
+      "lastScannedAt": "2026-06-28T12:01:51.343Z"
     },
     "content": {
       "zh-TW": {
@@ -14548,7 +14548,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.566Z"
+      "lastScannedAt": "2026-06-28T12:01:51.343Z"
     },
     "content": {
       "zh-TW": {
@@ -14974,7 +14974,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.566Z"
+      "lastScannedAt": "2026-06-28T12:01:51.343Z"
     },
     "content": {
       "zh-TW": {
@@ -15250,7 +15250,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.566Z"
+      "lastScannedAt": "2026-06-28T12:01:51.344Z"
     },
     "content": {
       "zh-TW": {
@@ -15615,7 +15615,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.567Z"
+      "lastScannedAt": "2026-06-28T12:01:51.344Z"
     },
     "content": {
       "zh-TW": {
@@ -15855,7 +15855,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.567Z"
+      "lastScannedAt": "2026-06-28T12:01:51.344Z"
     },
     "content": {
       "zh-TW": {
@@ -16016,7 +16016,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.567Z"
+      "lastScannedAt": "2026-06-28T12:01:51.344Z"
     },
     "content": {
       "zh-TW": {
@@ -16194,7 +16194,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.567Z"
+      "lastScannedAt": "2026-06-28T12:01:51.344Z"
     },
     "content": {
       "zh-TW": {
@@ -16435,7 +16435,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.567Z"
+      "lastScannedAt": "2026-06-28T12:01:51.344Z"
     },
     "content": {
       "zh-TW": {
@@ -16618,7 +16618,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.567Z"
+      "lastScannedAt": "2026-06-28T12:01:51.344Z"
     },
     "content": {
       "zh-TW": {
@@ -16874,7 +16874,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.567Z"
+      "lastScannedAt": "2026-06-28T12:01:51.345Z"
     },
     "content": {
       "zh-TW": {
@@ -17066,7 +17066,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.567Z"
+      "lastScannedAt": "2026-06-28T12:01:51.345Z"
     },
     "content": {
       "zh-TW": {
@@ -17237,7 +17237,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.568Z"
+      "lastScannedAt": "2026-06-28T12:01:51.345Z"
     },
     "content": {
       "zh-TW": {
@@ -17476,7 +17476,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.568Z"
+      "lastScannedAt": "2026-06-28T12:01:51.345Z"
     },
     "content": {
       "zh-TW": {
@@ -17661,7 +17661,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.568Z"
+      "lastScannedAt": "2026-06-28T12:01:51.345Z"
     },
     "content": {
       "zh-TW": {
@@ -17922,7 +17922,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.568Z"
+      "lastScannedAt": "2026-06-28T12:01:51.345Z"
     },
     "content": {
       "zh-TW": {
@@ -18194,7 +18194,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.568Z"
+      "lastScannedAt": "2026-06-28T12:01:51.345Z"
     },
     "content": {
       "zh-TW": {
@@ -18461,7 +18461,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.568Z"
+      "lastScannedAt": "2026-06-28T12:01:51.346Z"
     },
     "content": {
       "zh-TW": {
@@ -18873,7 +18873,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.568Z"
+      "lastScannedAt": "2026-06-28T12:01:51.346Z"
     },
     "content": {
       "zh-TW": {
@@ -19055,7 +19055,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.568Z"
+      "lastScannedAt": "2026-06-28T12:01:51.346Z"
     },
     "content": {
       "zh-TW": {
@@ -19292,7 +19292,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.569Z"
+      "lastScannedAt": "2026-06-28T12:01:51.346Z"
     },
     "content": {
       "zh-TW": {
@@ -19486,7 +19486,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.569Z"
+      "lastScannedAt": "2026-06-28T12:01:51.346Z"
     },
     "content": {
       "zh-TW": {
@@ -19646,7 +19646,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.569Z"
+      "lastScannedAt": "2026-06-28T12:01:51.346Z"
     },
     "content": {
       "zh-TW": {
@@ -19895,7 +19895,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.569Z"
+      "lastScannedAt": "2026-06-28T12:01:51.346Z"
     },
     "content": {
       "zh-TW": {
@@ -20092,7 +20092,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.569Z"
+      "lastScannedAt": "2026-06-28T12:01:51.346Z"
     },
     "content": {
       "zh-TW": {
@@ -20265,7 +20265,7 @@
         "content/projects/sonic-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.569Z"
+      "lastScannedAt": "2026-06-28T12:01:51.347Z"
     },
     "content": {
       "zh-TW": {
@@ -20514,7 +20514,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.569Z"
+      "lastScannedAt": "2026-06-28T12:01:51.347Z"
     },
     "content": {
       "zh-TW": {
@@ -20768,7 +20768,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.570Z"
+      "lastScannedAt": "2026-06-28T12:01:51.347Z"
     },
     "content": {
       "zh-TW": {
@@ -20963,7 +20963,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.570Z"
+      "lastScannedAt": "2026-06-28T12:01:51.347Z"
     },
     "content": {
       "zh-TW": {
@@ -21119,7 +21119,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.570Z"
+      "lastScannedAt": "2026-06-28T12:01:51.348Z"
     },
     "content": {
       "zh-TW": {
@@ -21283,7 +21283,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.570Z"
+      "lastScannedAt": "2026-06-28T12:01:51.348Z"
     },
     "content": {
       "zh-TW": {
@@ -21443,7 +21443,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.570Z"
+      "lastScannedAt": "2026-06-28T12:01:51.349Z"
     },
     "content": {
       "zh-TW": {
@@ -21688,7 +21688,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.571Z"
+      "lastScannedAt": "2026-06-28T12:01:51.349Z"
     },
     "content": {
       "zh-TW": {
@@ -21943,7 +21943,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.571Z"
+      "lastScannedAt": "2026-06-28T12:01:51.349Z"
     },
     "content": {
       "zh-TW": {
@@ -22173,7 +22173,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.571Z"
+      "lastScannedAt": "2026-06-28T12:01:51.349Z"
     },
     "content": {
       "zh-TW": {
@@ -22416,7 +22416,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.571Z"
+      "lastScannedAt": "2026-06-28T12:01:51.349Z"
     },
     "content": {
       "zh-TW": {
@@ -22649,7 +22649,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.571Z"
+      "lastScannedAt": "2026-06-28T12:01:51.349Z"
     },
     "content": {
       "zh-TW": {
@@ -22891,7 +22891,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.571Z"
+      "lastScannedAt": "2026-06-28T12:01:51.349Z"
     },
     "content": {
       "zh-TW": {
@@ -23147,7 +23147,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.571Z"
+      "lastScannedAt": "2026-06-28T12:01:51.350Z"
     },
     "content": {
       "zh-TW": {
@@ -23403,7 +23403,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:57:56.571Z"
+      "lastScannedAt": "2026-06-28T12:01:51.350Z"
     },
     "content": {
       "zh-TW": {

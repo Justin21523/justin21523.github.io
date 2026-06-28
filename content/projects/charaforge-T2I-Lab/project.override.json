@@ -19,7 +19,7 @@
     "Docker",
     "GitHub Pages"
   ],
-  "coverImage": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
+  "coverImage": "/portfolio/projects/charaforge-t2i-lab/cover.png",
   "links": [
     {
       "kind": "live",
@@ -32,7 +32,7 @@
     },
     {
       "kind": "video",
-      "url": "/portfolio/projects/charaforge-T2I-Lab/demo-walkthrough.mp4",
+      "url": "/portfolio/projects/charaforge-t2i-lab/demo-walkthrough.mp4",
       "label": {
         "zh-TW": "Demo 錄影",
         "en": "Demo Recording"
@@ -59,8 +59,8 @@
     {
       "id": "recorded-walkthrough",
       "type": "video",
-      "src": "/portfolio/projects/charaforge-T2I-Lab/demo-walkthrough.mp4",
-      "poster": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
+      "src": "/portfolio/projects/charaforge-t2i-lab/demo-walkthrough.mp4",
+      "poster": "/portfolio/projects/charaforge-t2i-lab/cover.png",
       "alt": {
         "zh-TW": "CharaForge T2I Lab 的完整作品集導覽錄影。",
         "en": "Complete portfolio walkthrough recording for CharaForge T2I Lab."
@@ -78,7 +78,7 @@
     {
       "id": "dashboard-overview",
       "type": "image",
-      "src": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
+      "src": "/portfolio/projects/charaforge-t2i-lab/cover.png",
       "alt": {
         "zh-TW": "CharaForge T2I Lab dashboard 總覽截圖。",
         "en": "CharaForge T2I Lab dashboard overview screenshot."
@@ -96,7 +96,7 @@
     {
       "id": "text-to-image-result",
       "type": "image",
-      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-portrait.png",
+      "src": "/portfolio/projects/charaforge-t2i-lab/scenario-portrait.png",
       "alt": {
         "zh-TW": "文生圖角色生成結果與 metadata 截圖。",
         "en": "Text-to-image character result and metadata screenshot."
@@ -113,7 +113,7 @@
     {
       "id": "controlnet-flow",
       "type": "image",
-      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-controlnet.png",
+      "src": "/portfolio/projects/charaforge-t2i-lab/scenario-controlnet.png",
       "alt": {
         "zh-TW": "ControlNet 條件控制生成流程截圖。",
         "en": "ControlNet conditioned generation flow screenshot."
@@ -130,7 +130,7 @@
     {
       "id": "batch-processing",
       "type": "image",
-      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-batch.png",
+      "src": "/portfolio/projects/charaforge-t2i-lab/scenario-batch.png",
       "alt": {
         "zh-TW": "批次文生圖佇列與輸出流程截圖。",
         "en": "Batch text-to-image queue and output flow screenshot."
@@ -147,7 +147,7 @@
     {
       "id": "lora-training-monitor",
       "type": "image",
-      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-lora.png",
+      "src": "/portfolio/projects/charaforge-t2i-lab/scenario-lora.png",
       "alt": {
         "zh-TW": "LoRA 訓練監控、loss 與 checkpoint 匯出截圖。",
         "en": "LoRA training monitor, loss, and checkpoint export screenshot."
@@ -164,7 +164,7 @@
     {
       "id": "api-job-contract",
       "type": "image",
-      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-api.png",
+      "src": "/portfolio/projects/charaforge-t2i-lab/scenario-api.png",
       "alt": {
         "zh-TW": "API contract 與非同步 job state 截圖。",
         "en": "API contract and async job state screenshot."
@@ -181,7 +181,7 @@
     {
       "id": "gallery-review",
       "type": "image",
-      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-gallery.png",
+      "src": "/portfolio/projects/charaforge-t2i-lab/scenario-gallery.png",
       "alt": {
         "zh-TW": "生成圖庫與結果審閱狀態截圖。",
         "en": "Generated gallery and result review state screenshot."
