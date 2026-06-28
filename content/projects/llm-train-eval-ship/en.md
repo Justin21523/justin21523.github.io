@@ -1,37 +1,38 @@
 ---
-title: "LLM Train-Eval-Ship Pipeline"
-tagline: "One-click scaffold to fine-tune, evaluate, and ship LLMs"
-summary: "An early-stage LLM engineering pipeline built around a train-eval-ship flow: dataset upload, fine-tuning, auto-evaluation, then deployment via vLLM or TGI, with shared model caches to avoid re-downloads. Currently a FastAPI service skeleton with cache-path inspection and containerized delivery is implemented; advanced training and serving features are on the roadmap."
-role: "Solo developer (architecture and engineering)"
-problem: "Taking an LLM from fine-tuning through evaluation to production spans many tools and huge weight files; the workflow is fragmented, re-downloads are costly, and end-to-end runs with safe rollback are hard to achieve."
-solution: "Designed a three-stage train-eval-ship pipeline blueprint: a FastAPI entry point with health checks, shared caching via HF_HOME / TRANSFORMERS_CACHE / HF_HUB_CACHE, planned dual deploy engines (vLLM and TGI), extensible hooks for LoRA/PEFT and DPO fine-tuning, a RAG tool whitelist, and canary/rollback — all packaged with Docker + Nginx for the demo landing page."
-outcome: "Delivered a runnable FastAPI skeleton (/healthz plus startup cache-path printing), containerized deployment config, and a portfolio landing page; the full end-to-end training and serving pipeline remains on the roadmap and is honestly labeled a prototype."
+title: "LLM Train-Eval-Ship Control Plane"
+tagline: "A testable, recordable, mock-safe LLM MLOps portfolio demo"
+summary: "A portfolio demo that turns the LLM train → eval → ship path into an interactive control plane: dataset readiness, fine-tuning, automated evaluation, canary deployment, rollback decisions, and shared model-cache governance. It runs without a GPU, model weights, API keys, or external services by using deterministic mock-safe flows."
+role: "Solo developer (architecture, backend API, static demo, testing, capture pipeline, and deployment)"
+problem: "LLM projects are hard to showcase publicly. Real fine-tuning needs GPUs, large weights, private data, and serving infrastructure, while a README plus a health check is not enough for an interviewer to understand the engineering value."
+solution: "I turned a thin FastAPI skeleton into a mock-safe portfolio demo: demo APIs, three pipeline scenarios, AutoEval scorecards, deployment manifests, a GitHub Pages control plane, Playwright screenshots, a WebM walkthrough, and a Mermaid-rich README covering flow, architecture, data movement, deployment, module organization, and the technical stack."
+outcome: "Delivered a locally runnable, smoke-tested, Docker-buildable, GitHub Pages-ready LLM MLOps demo with screenshot and recording assets integrated into the main portfolio. Real LoRA/DPO training and production vLLM/TGI serving remain clearly labeled roadmap items."
 highlights:
-  - "Unified shared model-cache management via environment variables to avoid re-downloading large weights"
-  - "FastAPI skeleton with /healthz health check and startup cache-path logging"
-  - "Planned vLLM / TGI dual-engine deployment (OpenAI / HF-compatible)"
-  - "Reserved extension points for LoRA/PEFT, DPO, RAG, and human-in-the-loop feedback"
-  - "Docker (nginx:alpine) + Nginx containerized landing page with back-to-portfolio nav injection"
-  - "DEPLOYMENT.md documents the docker-compose rollout and update workflow"
+  - "The first screen shows the actual product: scenario selector, pipeline timeline, scorecard, and canary/rollback decision"
+  - "Mock-safe mode needs no GPU, model weights, API keys, or external services"
+  - "FastAPI exposes /healthz plus scenario, pipeline, scorecard, and manifest APIs"
+  - "Shared model-cache governance through MODEL_STORE_ROOT, HF_HOME, TRANSFORMERS_CACHE, and HF_HUB_CACHE"
+  - "Playwright + FFmpeg produce cover, screenshots, and WebM demo recording"
+  - "GitHub Pages workflow plus Docker/Nginx static smoke path"
 challenges:
-  - "Designing a single one-click, rollback-capable pipeline across fragmented training/eval/serving tools"
-  - "Shared caching and storage-path governance for large model weights"
+  - "Representing LLM MLOps decisions honestly without running a real model in the public demo"
+  - "Turning a /healthz-only skeleton into a portfolio entry that interviewers can understand quickly"
 nextSteps:
-  - "Implement real fine-tuning (LoRA/PEFT, DPO) and an auto-eval dashboard"
-  - "Wire up vLLM / TGI deploy engines with canary traffic shift and safe rollback"
-  - "Populate requirements.txt dependencies and an interactive end-to-end demo"
+  - "Wire in real LoRA/PEFT or DPO job runners"
+  - "Connect vLLM/TGI serving endpoints and real canary metrics"
+  - "Add real eval datasets, artifact registry, and model version governance"
 ---
 ## Overview
-**LLM Train-Eval-Ship** is an LLM-MLOps pipeline prototype that aims to chain "dataset upload → fine-tune → auto-eval → deploy" into a one-click flow, using shared model caches to cut redundant downloads. It is positioned as an extensible engineering scaffold: the README outlines the full vision, with several advanced capabilities marked as roadmap.
 
-## What's implemented
-The current code centers on a **FastAPI** service skeleton: it exposes a `/healthz` health-check endpoint and, on startup, calls `print_cache_paths()` to log shared cache locations (`MODEL_STORE_ROOT`, `HF_HOME`, `TRANSFORMERS_CACHE`, `HF_HUB_CACHE`), making model-storage governance easy to verify. The service runs under **Uvicorn** on port 8080.
+LLM Train-Eval-Ship does not pretend to fine-tune a large model in the browser. Its purpose is to make the most important engineering path visible: whether data is ready, whether a fine-tuning job completed, whether evaluation passed, whether the model should enter canary deployment, and how rollback happens when regression appears.
 
-## Deployment & demo
-The project ships **Docker** (`nginx:1.27-alpine`) and **Nginx** config that containerize and serve the portfolio landing page, injecting a "back to portfolio" link via `sub_filter` and guarding static assets with explicit 404 handling. `DEPLOYMENT.md` details the docker-compose rollout and update workflow.
+## What is implemented
 
-## Roadmap (not yet built)
-Capabilities described in the README but currently blueprint/hooks include: dual deploy engines **vLLM** and **TGI** (OpenAI / HF-compatible), **LoRA/PEFT** and **DPO** fine-tuning, a **RAG** tool whitelist, AutoEval dashboards, and canary deployment with safe rollback. `requirements.txt` is currently empty and the interactive end-to-end demo is still in progress.
+The FastAPI backend exposes a mock-safe API contract for health checks, demo scenarios, pipeline runs, AutoEval scorecards, and deployment manifests. The frontend is a GitHub Pages-ready static control plane with three switchable scenarios. The README includes Mermaid flow, architecture, data flow, deployment, module organization, and tech-stack diagrams.
 
-## Honest labeling
-This project is a prototype: the service skeleton, cache governance, and containerized deployment work, but the actual training, evaluation, and model-serving pipeline is not yet realized. It contains no keys, `.env` files, or passwords.
+## How to review it
+
+Open the interactive demo, switch between Support Copilot LoRA, Policy DPO Safety Pass, and RAG Agent Regression Gate, then review the video and screenshot gallery on this portfolio page. The README documents local startup, tests, deployment, API contracts, and roadmap boundaries.
+
+## Honest boundary
+
+This version is a portfolio-ready mock-safe demo. It demonstrates pipeline contracts, release decisions, tests, capture assets, and deployment. Real model training, production vLLM/TGI serving, artifact registries, and live canary metrics remain future extension points.

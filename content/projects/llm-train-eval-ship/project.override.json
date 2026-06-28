@@ -1,24 +1,29 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
     "Python",
     "FastAPI",
     "Uvicorn",
+    "Vanilla JavaScript",
+    "Playwright",
+    "FFmpeg",
     "Docker",
     "Nginx",
+    "GitHub Actions",
+    "GitHub Pages",
     "Hugging Face",
     "vLLM",
     "TGI"
   ],
-  "coverImage": "/portfolio/projects/llm-train-eval-ship/cover.webp",
+  "coverImage": "/portfolio/projects/llm-train-eval-ship/cover.png",
   "links": [
     {
       "kind": "live",
-      "url": "https://justin21523.github.io/llm-train-eval-ship/",
+      "url": "https://justin21523.github.io/LLM-train-eval-ship/",
       "label": {
         "zh-TW": "互動 Demo",
         "en": "Interactive Demo"
@@ -40,50 +45,196 @@
         "zh-TW": "閱讀 README",
         "en": "Read README"
       }
+    },
+    {
+      "kind": "video",
+      "url": "/portfolio/projects/llm-train-eval-ship/demo/guided-demo.webm",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": "guided-demo-video",
+      "type": "video",
+      "src": "/portfolio/projects/llm-train-eval-ship/demo/guided-demo.webm",
+      "poster": "/portfolio/projects/llm-train-eval-ship/cover.png",
+      "alt": {
+        "zh-TW": "LLM Train-Eval-Ship mock-safe 控制台操作錄影。",
+        "en": "Mock-safe walkthrough recording of the LLM Train-Eval-Ship control plane."
+      },
+      "title": {
+        "zh-TW": "Mock-safe Demo 錄影",
+        "en": "Mock-safe Demo Recording"
+      },
+      "caption": {
+        "zh-TW": "展示 scenario 切換、pipeline timeline、AutoEval scorecard、canary decision 與 rollback gate。",
+        "en": "Shows scenario switching, pipeline timeline, AutoEval scorecard, canary decisions, and rollback gates."
+      },
+      "featured": true
+    },
+    {
+      "id": "dashboard",
+      "type": "image",
+      "src": "/portfolio/projects/llm-train-eval-ship/screenshots/01-dashboard.png",
+      "alt": {
+        "zh-TW": "LLM Train-Eval-Ship 第一屏控制台。",
+        "en": "First-screen LLM Train-Eval-Ship control plane."
+      },
+      "title": {
+        "zh-TW": "Train-Eval-Ship 控制台",
+        "en": "Train-Eval-Ship Control Plane"
+      },
+      "caption": {
+        "zh-TW": "第一屏直接呈現產品本體：scenario selector、pipeline stage、scorecard 與 canary decision。",
+        "en": "The first screen shows the actual product: scenario selector, pipeline stages, scorecard, and canary decision."
+      },
+      "featured": true
+    },
+    {
+      "id": "safety-gate",
+      "type": "image",
+      "src": "/portfolio/projects/llm-train-eval-ship/screenshots/02-safety-gate.png",
+      "alt": {
+        "zh-TW": "Policy DPO Safety Pass scenario 的安全評估畫面。",
+        "en": "Safety evaluation screen for the Policy DPO Safety Pass scenario."
+      },
+      "title": {
+        "zh-TW": "DPO Safety Gate",
+        "en": "DPO Safety Gate"
+      },
+      "caption": {
+        "zh-TW": "展示 preference optimization 後如何用 safety refusal、jailbreak probes 與 reviewer sign-off 做 release gate。",
+        "en": "Shows how safety refusal, jailbreak probes, and reviewer sign-off form the release gate after preference optimization."
+      }
+    },
+    {
+      "id": "rollback-gate",
+      "type": "image",
+      "src": "/portfolio/projects/llm-train-eval-ship/screenshots/03-rollback-gate.png",
+      "alt": {
+        "zh-TW": "RAG Agent Regression Gate scenario 的 rollback hold 畫面。",
+        "en": "Rollback hold screen for the RAG Agent Regression Gate scenario."
+      },
+      "title": {
+        "zh-TW": "Regression Rollback Gate",
+        "en": "Regression Rollback Gate"
+      },
+      "caption": {
+        "zh-TW": "明確展示 grounding 與 latency regression 時如何 hold release 並回退 adapter。",
+        "en": "Clearly shows holding a release and rolling back an adapter when grounding and latency regress."
+      }
+    },
+    {
+      "id": "architecture",
+      "type": "image",
+      "src": "/portfolio/projects/llm-train-eval-ship/screenshots/04-architecture.png",
+      "alt": {
+        "zh-TW": "Mock-safe demo 的 pipeline architecture snapshot。",
+        "en": "Pipeline architecture snapshot for the mock-safe demo."
+      },
+      "title": {
+        "zh-TW": "架構 Snapshot",
+        "en": "Architecture Snapshot"
+      }
+    },
+    {
+      "id": "evidence",
+      "type": "image",
+      "src": "/portfolio/projects/llm-train-eval-ship/screenshots/05-evidence.png",
+      "alt": {
+        "zh-TW": "可截圖的 demo evidence 狀態畫面。",
+        "en": "Screenshot-ready demo evidence states."
+      },
+      "title": {
+        "zh-TW": "展示 Evidence States",
+        "en": "Demo Evidence States"
+      }
     }
   ],
   "metadata": {
-    "projectType": "LLM MLOps pipeline scaffold",
+    "startedAt": "2026-06-28",
+    "updatedAt": "2026-06-28",
+    "completedAt": "2026-06-28",
+    "teamSize": 1,
+    "version": "1.0.0",
+    "projectType": "Portfolio-ready LLM MLOps mock-safe demo",
     "domains": [
       "MLOps",
       "LLM fine-tuning",
       "Model evaluation",
-      "Model serving"
+      "Model serving",
+      "Portfolio demo engineering"
     ],
     "capabilities": [
-      "Fine-tune → evaluate → deploy flow design",
-      "Shared HF model cache management",
-      "FastAPI service skeleton with health check",
-      "Containerized static landing page delivery"
+      "Mock-safe train → eval → ship flow without GPU, model weights, API keys, or external services",
+      "FastAPI demo APIs for scenarios, pipeline runs, AutoEval scorecards, deployment manifests, and health checks",
+      "Interactive GitHub Pages control plane with screenshot-ready states",
+      "Shared Hugging Face cache governance via MODEL_STORE_ROOT, HF_HOME, TRANSFORMERS_CACHE, and HF_HUB_CACHE",
+      "Canary promotion and rollback decision modeling",
+      "Automated Playwright screenshot capture and FFmpeg WebM walkthrough generation",
+      "Dockerized static demo smoke path"
     ],
     "frameworks": [
-      "FastAPI"
+      "FastAPI",
+      "GitHub Actions",
+      "GitHub Pages"
     ],
     "libraries": [
-      "Uvicorn"
+      "Uvicorn",
+      "pytest",
+      "Playwright",
+      "FFmpeg"
     ],
     "backend": [
-      "Python",
-      "FastAPI",
-      "Uvicorn"
+      "FastAPI routes",
+      "Deterministic demo data",
+      "Health and readiness endpoint",
+      "Mock-safe pipeline contract"
     ],
     "platforms": [
-      "CLI"
+      "Web",
+      "CLI",
+      "GitHub Pages"
+    ],
+    "testing": [
+      "pytest backend smoke tests",
+      "Static demo smoke test",
+      "Docker build smoke test",
+      "Playwright screenshot capture"
+    ],
+    "deployment": [
+      "GitHub Pages static demo",
+      "GitHub Actions Pages workflow",
+      "Docker + Nginx local static service"
     ],
     "keywords": [
       "LLM",
+      "MLOps",
       "fine-tuning",
       "LoRA",
       "DPO",
-      "RAG",
+      "AutoEval",
       "vLLM",
       "TGI",
       "Hugging Face cache",
-      "auto-eval",
       "canary deploy",
-      "MLOps",
-      "train-eval-ship"
+      "rollback",
+      "mock-safe demo"
     ],
+    "skillsDemonstrated": [
+      "Turning a thin service skeleton into an interview-ready demo",
+      "Designing mock-safe AI workflows",
+      "API contract design for MLOps systems",
+      "Automated portfolio media capture",
+      "GitHub Pages deployment"
+    ],
+    "hasUnitTests": false,
+    "hasIntegrationTests": true,
+    "hasE2ETests": true,
+    "responsive": true,
     "needsReview": false
   }
 }
