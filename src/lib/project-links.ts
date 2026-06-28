@@ -11,6 +11,7 @@ export interface ProjectActionLink {
 }
 
 const actionOrder: ProjectActionKind[] = ["live", "github", "video", "documentation"];
+const videoOptionalSlugs = new Set(["ArchiveFlow"]);
 
 const labels: Record<PortfolioLocale, Record<ProjectActionKind, { available: string; unavailable: string }>> = {
   en: {
@@ -57,8 +58,12 @@ function isExternalUrl(url: string | undefined) {
 }
 
 export function getProjectActionLinks(project: Project, locale: PortfolioLocale): ProjectActionLink[] {
-  return actionOrder.map((kind) => {
+  return actionOrder.flatMap((kind) => {
     const link = project.links.find((item) => item.kind === kind);
+    if (kind === "video" && videoOptionalSlugs.has(project.slug) && !link) {
+      return [];
+    }
+
     const fallback = labels[locale][kind];
     const fallbackUrls: Record<ProjectActionKind, string> = {
       live: fallbackUrl(project, locale, "live"),
@@ -77,13 +82,13 @@ export function getProjectActionLinks(project: Project, locale: PortfolioLocale)
       documentation: fallback.unavailable,
     };
 
-    return {
+    return [{
       kind,
       label: fallbackLink ? fallbackLabels[kind] : link?.label[locale] ?? fallback.available,
       unavailableLabel: fallback.unavailable,
       url: available ? url : undefined,
       available,
-    };
+    }];
   });
 }
 

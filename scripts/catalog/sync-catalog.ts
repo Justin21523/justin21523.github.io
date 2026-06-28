@@ -97,7 +97,7 @@ function sanitizePublicData<T>(value: T): T {
   return value;
 }
 
-function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: ProjectLinkDraft[]) {
+function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: ProjectLinkDraft[], hideVideoLink = false) {
   const nextLinks = [...links];
   const githubUrl = nextLinks.find((link) => link.kind === "github")?.url || scanData.gitRemote;
   const githubRepoName = githubUrl?.match(/^https:\/\/github\.com\/Justin21523\/([^/#?]+)/i)?.[1]?.replace(/\.git$/, "");
@@ -132,6 +132,10 @@ function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: Pro
   } as const;
 
   (["github", "video", "documentation"] as const).forEach((kind) => {
+    if (kind === "video" && hideVideoLink) {
+      return;
+    }
+
     if (!nextLinks.some((link) => link.kind === kind && link.url)) {
       nextLinks.push(fallbackLinks[kind]);
     }
@@ -226,7 +230,7 @@ function loadQualityResults() {
   return new Map((parsed.results ?? []).map((result) => [result.slug, result]));
 }
 
-function buildQualityMedia(slug: string, title: string, zhTitle: string, quality: QualityProjectResult | undefined) {
+function buildQualityMedia(slug: string, title: string, zhTitle: string, quality: QualityProjectResult | undefined, hideVideoLink = false) {
   const publicProjectDir = path.join(PORTFOLIO_ROOT, "public/projects", slug);
   const screenshotDir = path.join(publicProjectDir, "screenshots");
   const videoDir = path.join(publicProjectDir, "videos");
@@ -238,7 +242,7 @@ function buildQualityMedia(slug: string, title: string, zhTitle: string, quality
         .map((entry) => `/projects/${slug}/screenshots/${entry.name}`)
         : []
       ).concat(
-          fs.existsSync(videoDir)
+          !hideVideoLink && fs.existsSync(videoDir)
             ? fs
                 .readdirSync(videoDir, { withFileTypes: true })
                 .filter((entry) => entry.isFile() && /\.(mp4|webm)$/i.test(entry.name))
@@ -248,7 +252,7 @@ function buildQualityMedia(slug: string, title: string, zhTitle: string, quality
     : [];
 
   const urls = Array.from(new Set([
-    ...(quality?.copiedAssets ?? []),
+    ...(hideVideoLink ? [] : (quality?.copiedAssets ?? [])),
     ...(quality?.capturedScreenshots ?? []),
     ...existingPublicUrls,
   ])).filter((url) => url.startsWith(`/projects/${slug}/`) && !url.includes("/videos/posters/") && publicAssetExists(url));
@@ -286,7 +290,7 @@ function buildQualityMedia(slug: string, title: string, zhTitle: string, quality
       ];
     }
 
-    if (/\.(mp4|webm)$/.test(lower)) {
+    if (!hideVideoLink && /\.(mp4|webm)$/.test(lower)) {
       const index = videoIndex;
       videoIndex += 1;
       return [
@@ -826,14 +830,15 @@ ${readmeInfo.description}
     const qualityResult = qualityBySlug.get(slug);
     const zhTitleForMedia = asString(zhParsed.metadata.title, scanData.name);
     const enTitleForMedia = asString(enParsed.metadata.title, scanData.name);
-    const qualityMedia = buildQualityMedia(slug, enTitleForMedia, zhTitleForMedia, qualityResult);
+    const hideVideoLink = Boolean(override.hideVideoLink);
+    const qualityMedia = buildQualityMedia(slug, enTitleForMedia, zhTitleForMedia, qualityResult, hideVideoLink);
     const media = addVideoPosters(mergeMedia(slug, (override.media || []) as ProjectMediaDraft[], qualityMedia));
     const firstQualityImage = media.find((item) => item.type === "image" && item.src)?.src;
     if (!coverImage && firstQualityImage) {
       coverImage = firstQualityImage;
     }
 
-    const projectLinks = ensurePortfolioLinks(slug, scanData, override.links || []);
+    const projectLinks = ensurePortfolioLinks(slug, scanData, override.links || [], hideVideoLink);
     const firstQualityVideo =
       media.find((item) => item.type === "video" && item.src?.startsWith(`/projects/${slug}/videos/`) && !isPlaceholderAsset(item.src) && publicAssetExists(item.src))?.src ??
       media.find((item) => item.type === "video" && item.src && !isPlaceholderAsset(item.src) && (isExternalUrl(item.src) || publicAssetExists(item.src)))?.src;
