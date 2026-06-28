@@ -97,7 +97,7 @@ function sanitizePublicData<T>(value: T): T {
   return value;
 }
 
-function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: ProjectLinkDraft[]) {
+function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: ProjectLinkDraft[], hideVideoLink = false) {
   const nextLinks = [...links];
   const githubUrl = nextLinks.find((link) => link.kind === "github")?.url || scanData.gitRemote;
   const githubRepoName = githubUrl?.match(/^https:\/\/github\.com\/Justin21523\/([^/#?]+)/i)?.[1]?.replace(/\.git$/, "");
@@ -132,6 +132,10 @@ function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: Pro
   } as const;
 
   (["github", "video", "documentation"] as const).forEach((kind) => {
+    if (kind === "video" && hideVideoLink) {
+      return;
+    }
+
     if (!nextLinks.some((link) => link.kind === kind && link.url)) {
       nextLinks.push(fallbackLinks[kind]);
     }
@@ -833,7 +837,7 @@ ${readmeInfo.description}
       coverImage = firstQualityImage;
     }
 
-    const projectLinks = ensurePortfolioLinks(slug, scanData, override.links || []);
+    const projectLinks = ensurePortfolioLinks(slug, scanData, override.links || [], Boolean(override.hideVideoLink));
     const firstQualityVideo =
       media.find((item) => item.type === "video" && item.src?.startsWith(`/projects/${slug}/videos/`) && !isPlaceholderAsset(item.src) && publicAssetExists(item.src))?.src ??
       media.find((item) => item.type === "video" && item.src && !isPlaceholderAsset(item.src) && (isExternalUrl(item.src) || publicAssetExists(item.src)))?.src;

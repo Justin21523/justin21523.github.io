@@ -4,6 +4,7 @@
   "category": "information-system",
   "status": "in-progress",
   "year": 2026,
+  "hideVideoLink": true,
   "technologies": [
     "C#",
     ".NET",

@@ -12,6 +12,7 @@ const windowsMountRootPattern = new RegExp(`${path.sep}mnt${path.sep}c(?:${path.
 const localPathKey = "local" + "Path";
 
 const requiredKinds = ["live", "github", "video", "documentation"] as const;
+const videoOptionalSlugs = new Set(["ArchiveFlow"]);
 const forbiddenPatterns = [
   new RegExp(`${path.sep}home${path.sep}[^${path.sep}\\s]+${path.sep}`),
   windowsMountRootPattern,
@@ -297,6 +298,10 @@ function main() {
     }
 
     requiredKinds.forEach((kind) => {
+      if (kind === "video" && videoOptionalSlugs.has(project.slug)) {
+        return;
+      }
+
       const link = linkFor(project, kind);
       if (!link) {
         errors.push(`${project.slug} is missing required ${kind} link or fallback state`);
