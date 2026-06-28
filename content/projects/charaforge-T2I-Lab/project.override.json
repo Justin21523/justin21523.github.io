@@ -1,22 +1,25 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "ai-data",
   "status": "prototype",
   "year": 2026,
   "technologies": [
     "FastAPI",
+    "Python",
     "PyTorch",
     "Diffusers",
     "PEFT (LoRA)",
+    "Accelerate",
     "Celery",
     "Redis",
     "React 19",
     "Vite",
     "Zustand",
-    "Docker"
+    "Docker",
+    "GitHub Pages"
   ],
-  "coverImage": "/portfolio/projects/charaforge-T2I-Lab/cover.webp",
+  "coverImage": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
   "links": [
     {
       "kind": "live",
@@ -26,6 +29,14 @@
         "en": "Interactive Demo"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/portfolio/projects/charaforge-T2I-Lab/demo-walkthrough.mp4",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
     },
     {
       "kind": "github",
@@ -44,35 +55,183 @@
       }
     }
   ],
+  "media": [
+    {
+      "id": "recorded-walkthrough",
+      "type": "video",
+      "src": "/portfolio/projects/charaforge-T2I-Lab/demo-walkthrough.mp4",
+      "poster": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
+      "alt": {
+        "zh-TW": "CharaForge T2I Lab 的完整作品集導覽錄影。",
+        "en": "Complete portfolio walkthrough recording for CharaForge T2I Lab."
+      },
+      "title": {
+        "zh-TW": "完整 Demo 導覽錄影",
+        "en": "Full Demo Walkthrough"
+      },
+      "caption": {
+        "zh-TW": "展示 dashboard、文生圖結果、ControlNet、批次佇列、LoRA 訓練監控與 API/job 狀態。",
+        "en": "Shows the dashboard, T2I result, ControlNet flow, batch queue, LoRA training monitor, and API/job state."
+      },
+      "featured": true
+    },
+    {
+      "id": "dashboard-overview",
+      "type": "image",
+      "src": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
+      "alt": {
+        "zh-TW": "CharaForge T2I Lab dashboard 總覽截圖。",
+        "en": "CharaForge T2I Lab dashboard overview screenshot."
+      },
+      "title": {
+        "zh-TW": "Dashboard 總覽",
+        "en": "Dashboard Overview"
+      },
+      "caption": {
+        "zh-TW": "GitHub Pages 靜態展示入口，讓面試官不用 GPU 也能理解產品定位與主要流程。",
+        "en": "Static GitHub Pages entry point that explains the product positioning and main flows without requiring a GPU."
+      },
+      "featured": true
+    },
+    {
+      "id": "text-to-image-result",
+      "type": "image",
+      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-portrait.png",
+      "alt": {
+        "zh-TW": "文生圖角色生成結果與 metadata 截圖。",
+        "en": "Text-to-image character result and metadata screenshot."
+      },
+      "title": {
+        "zh-TW": "文生圖結果",
+        "en": "Text-to-Image Result"
+      },
+      "caption": {
+        "zh-TW": "展示 prompt、seed、LoRA stack、輸出 metadata 與可複現的生成狀態。",
+        "en": "Shows prompt, seed, LoRA stack, output metadata, and reproducible generation state."
+      }
+    },
+    {
+      "id": "controlnet-flow",
+      "type": "image",
+      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-controlnet.png",
+      "alt": {
+        "zh-TW": "ControlNet 條件控制生成流程截圖。",
+        "en": "ControlNet conditioned generation flow screenshot."
+      },
+      "title": {
+        "zh-TW": "ControlNet 條件控制",
+        "en": "ControlNet Conditioning"
+      },
+      "caption": {
+        "zh-TW": "呈現 pose/depth/canny/lineart 類條件輸入如何接進非同步生成流程。",
+        "en": "Shows how pose/depth/canny/lineart conditioning fits into the async generation flow."
+      }
+    },
+    {
+      "id": "batch-processing",
+      "type": "image",
+      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-batch.png",
+      "alt": {
+        "zh-TW": "批次文生圖佇列與輸出流程截圖。",
+        "en": "Batch text-to-image queue and output flow screenshot."
+      },
+      "title": {
+        "zh-TW": "批次處理",
+        "en": "Batch Processing"
+      },
+      "caption": {
+        "zh-TW": "展示多 prompt 批次、佇列狀態、下載輸出與成本治理的介面。",
+        "en": "Shows multi-prompt batches, queue state, downloadable outputs, and cost governance."
+      }
+    },
+    {
+      "id": "lora-training-monitor",
+      "type": "image",
+      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-lora.png",
+      "alt": {
+        "zh-TW": "LoRA 訓練監控、loss 與 checkpoint 匯出截圖。",
+        "en": "LoRA training monitor, loss, and checkpoint export screenshot."
+      },
+      "title": {
+        "zh-TW": "LoRA 訓練監控",
+        "en": "LoRA Training Monitor"
+      },
+      "caption": {
+        "zh-TW": "展示 dataset validation、訓練進度、loss trend、checkpoint export 與 WebSocket 更新。",
+        "en": "Shows dataset validation, training progress, loss trend, checkpoint export, and WebSocket updates."
+      }
+    },
+    {
+      "id": "api-job-contract",
+      "type": "image",
+      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-api.png",
+      "alt": {
+        "zh-TW": "API contract 與非同步 job state 截圖。",
+        "en": "API contract and async job state screenshot."
+      },
+      "title": {
+        "zh-TW": "API 與 Job State",
+        "en": "API and Job State"
+      },
+      "caption": {
+        "zh-TW": "用 reviewer-friendly 的方式呈現 submit/status/cancel 合約與狀態模型。",
+        "en": "Presents the submit/status/cancel contract and state model in a reviewer-friendly format."
+      }
+    },
+    {
+      "id": "gallery-review",
+      "type": "image",
+      "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-gallery.png",
+      "alt": {
+        "zh-TW": "生成圖庫與結果審閱狀態截圖。",
+        "en": "Generated gallery and result review state screenshot."
+      },
+      "title": {
+        "zh-TW": "圖庫與審閱",
+        "en": "Gallery Review"
+      },
+      "caption": {
+        "zh-TW": "展示生成結果如何被保存、整理與用於後續篩選比較。",
+        "en": "Shows how generated results are saved, organized, and prepared for later review."
+      }
+    }
+  ],
   "metadata": {
+    "startedAt": "2026-01-04",
+    "updatedAt": "2026-06-28",
+    "teamSize": 1,
+    "version": "1.0.0",
     "needsReview": false,
-    "missingFields": [
-      "reviewed zh-TW case study",
-      "reviewed English case study",
-      "verified media assets",
-      "verified public links"
-    ],
-    "projectType": "Text-to-image + LoRA fine-tuning platform",
+    "missingFields": [],
+    "projectType": "Text-to-image + LoRA fine-tuning platform / portfolio demo",
     "domains": [
       "生成式 AI",
       "擴散模型",
       "MLOps",
-      "角色一致性生成"
+      "角色一致性生成",
+      "AI 工具平台",
+      "作品集展示"
     ],
     "capabilities": [
       "文生圖推論 (SD1.5 / SDXL)",
       "LoRA 微調訓練與管理",
       "ControlNet 條件控制 (pose/depth/canny/lineart)",
+      "批次 prompt 佇列與輸出管理",
       "非同步任務佇列與並發治理",
       "模型倉儲掃描與註冊",
+      "Dataset validation 與訓練前檢查",
       "WebSocket 即時訓練進度推送",
-      "API Key / JWT 認證與速率限制"
+      "API Key / JWT 認證與速率限制",
+      "Prometheus 指標與結構化日誌",
+      "GitHub Pages 靜態 demo 展示"
     ],
     "frameworks": [
       "FastAPI",
       "React 19",
       "Celery",
-      "Diffusers"
+      "Diffusers",
+      "PEFT",
+      "Vite"
     ],
     "libraries": [
       "PyTorch",
@@ -82,17 +241,21 @@
       "safetensors",
       "Zustand",
       "Axios",
-      "Recharts"
+      "lucide-react"
     ],
     "backend": [
       "Python",
       "FastAPI",
       "Celery",
       "Redis",
-      "Uvicorn"
+      "Uvicorn",
+      "WebSocket"
     ],
     "platforms": [
-      "Web"
+      "Web",
+      "GitHub Pages",
+      "Docker Compose",
+      "Local GPU workstation"
     ],
     "keywords": [
       "Stable Diffusion",
@@ -104,7 +267,10 @@
       "diffusion models",
       "MLOps",
       "JWT",
-      "Prometheus"
+      "Prometheus",
+      "Celery",
+      "Redis",
+      "portfolio demo"
     ]
   }
 }

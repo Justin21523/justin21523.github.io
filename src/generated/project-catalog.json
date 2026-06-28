@@ -198,7 +198,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.680Z"
+      "lastScannedAt": "2026-06-28T11:57:56.552Z"
     },
     "content": {
       "zh-TW": {
@@ -575,7 +575,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.682Z"
+      "lastScannedAt": "2026-06-28T11:57:56.555Z"
     },
     "content": {
       "zh-TW": {
@@ -1092,7 +1092,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.683Z"
+      "lastScannedAt": "2026-06-28T11:57:56.556Z"
     },
     "content": {
       "zh-TW": {
@@ -1343,7 +1343,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.684Z"
+      "lastScannedAt": "2026-06-28T11:57:56.556Z"
     },
     "content": {
       "zh-TW": {
@@ -1528,7 +1528,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.684Z"
+      "lastScannedAt": "2026-06-28T11:57:56.556Z"
     },
     "content": {
       "zh-TW": {
@@ -1593,26 +1593,16 @@
     "id": "project-ai-knowledge-workspace-pf-2026-ai-005",
     "slug": "ai-knowledge-workspace",
     "category": "ai-data",
-    "status": "completed",
+    "status": "prototype",
     "year": 2026,
-    "featured": true,
+    "featured": false,
     "technologies": [
       "Next.js",
       "React",
       "Tailwind CSS",
       "TypeScript"
     ],
-    "coverImage": "/portfolio/projects/ai-knowledge-workspace/cover.png",
     "links": [
-      {
-        "kind": "live",
-        "url": "https://justin21523.github.io/ai-knowledge-workspace/",
-        "label": {
-          "zh-TW": "開啟線上 Demo",
-          "en": "Open Live Demo"
-        },
-        "primary": true
-      },
       {
         "kind": "github",
         "url": "https://github.com/Justin21523/ai-knowledge-workspace",
@@ -1628,72 +1618,9 @@
           "zh-TW": "閱讀 README",
           "en": "Read README"
         }
-      },
-      {
-        "kind": "video",
-        "url": "/portfolio/projects/ai-knowledge-workspace/demo/demo-walkthrough.mp4",
-        "label": {
-          "zh-TW": "觀看 Demo 影片",
-          "en": "Watch Demo Video"
-        }
       }
     ],
-    "media": [
-      {
-        "id": "dashboard-light",
-        "type": "image",
-        "src": "/portfolio/projects/ai-knowledge-workspace/screenshots/home-light-desktop.png",
-        "alt": {
-          "zh-TW": "AI Knowledge Workspace 淺色桌面儀表板",
-          "en": "AI Knowledge Workspace light desktop dashboard"
-        },
-        "title": {
-          "zh-TW": "淺色桌面儀表板",
-          "en": "Light desktop dashboard"
-        },
-        "featured": true
-      },
-      {
-        "id": "dashboard-dark",
-        "type": "image",
-        "src": "/portfolio/projects/ai-knowledge-workspace/screenshots/dashboard-dark-desktop.png",
-        "alt": {
-          "zh-TW": "AI Knowledge Workspace 深色桌面儀表板",
-          "en": "AI Knowledge Workspace dark desktop dashboard"
-        },
-        "title": {
-          "zh-TW": "深色桌面儀表板",
-          "en": "Dark desktop dashboard"
-        }
-      },
-      {
-        "id": "mobile",
-        "type": "image",
-        "src": "/portfolio/projects/ai-knowledge-workspace/screenshots/mobile.png",
-        "alt": {
-          "zh-TW": "AI Knowledge Workspace 手機版儀表板",
-          "en": "AI Knowledge Workspace mobile dashboard"
-        },
-        "title": {
-          "zh-TW": "手機版儀表板",
-          "en": "Mobile dashboard"
-        }
-      },
-      {
-        "id": "walkthrough",
-        "type": "video",
-        "src": "/portfolio/projects/ai-knowledge-workspace/demo/demo-walkthrough.mp4",
-        "poster": "/portfolio/projects/ai-knowledge-workspace/screenshots/home-light-desktop.png",
-        "alt": {
-          "zh-TW": "AI Knowledge Workspace Demo 影片",
-          "en": "AI Knowledge Workspace demo walkthrough video"
-        },
-        "title": {
-          "zh-TW": "Demo 影片",
-          "en": "Demo walkthrough"
-        }
-      }
-    ],
+    "media": [],
     "metadata": {
       "startedAt": "2026-06-15",
       "updatedAt": "2026-06-28",
@@ -1740,7 +1667,7 @@
       "deployment": [],
       "developmentTools": [],
       "roles": [
-        "Independent Developer"
+        "獨立開發者 / 學習型專案實作者"
       ],
       "responsibilities": [],
       "collaborationType": "Solo",
@@ -1767,70 +1694,66 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [],
+      "missingFields": [
+        "verified screenshots or demo media"
+      ],
       "evidenceSources": [
         "content/projects/ai-knowledge-workspace/project.override.json",
         "content/projects/ai-knowledge-workspace/zh-TW.md",
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.684Z"
+      "lastScannedAt": "2026-06-28T11:57:56.556Z"
     },
     "content": {
       "zh-TW": {
-        "title": "AI Knowledge Workspace",
-        "summary": "AI Knowledge Workspace 是一個 Next.js 作品集 Demo，將分散的研究資料整理成可檢查的工作區，包含文件狀態、帶引用的 AI 回答、RWD 畫面、截圖、Demo 影片與 GitHub Pages 部署。",
-        "description": "AI Knowledge Workspace 是一個小而完整、適合面試展示的 source-grounded research workflow demo。它聚焦在 AI knowledge tool 最容易被檢查的部分：有哪些文件、哪些仍在處理、AI 回答了什麼，以及哪些來源片段支撐答案。\n\n目前實作刻意保持為靜態且可公開的 demo。它使用 typed mock data，而不是後端、資料庫、向量索引或外部 LLM provider。這讓展示結果可重現，同時仍能清楚呈現預期的產品行為與 UI 狀態。\n\n專案現在已部署為 GitHub Pages static export，並包含自動產生的截圖與短版 walkthrough 影片。",
-        "tagline": "用文件狀態、AI 回答與引用來源組成的研究工作區 Demo。",
-        "role": "Independent Developer",
-        "problem": "研究筆記、政策 PDF、試算表與訪談逐字稿常散落在不同工具中。若 AI 摘要沒有來源狀態、引用片段與證據覆蓋率，使用者很難信任結果。",
-        "solution": "我將原本的 starter dashboard 改造成 typed mock product demo。畫面現在由 deterministic mock data 驅動，呈現 workspace health、document pipeline、cited answer preview，以及 loading / empty / error / success 狀態。",
-        "outcome": "專案已具備 GitHub Pages live demo、作品集等級 README、project audit、production screenshots、Demo 影片、static export workflow，以及可放入主作品集的 case-study entry。",
+        "title": "Ai Knowledge Workspace",
+        "summary": "Ai Knowledge Workspace 是一個以 Next.js、React、Tailwind CSS、TypeScript 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。",
+        "description": "Ai Knowledge Workspace 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。\n\n從掃描資料來看，這個專案的主要技術線索包含 Next.js、React、Tailwind CSS、TypeScript。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。\n\n這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。 我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。\n\n後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。",
+        "tagline": "資料處理、AI、分析或自動化流程練習專案。",
+        "role": "獨立開發者 / 學習型專案實作者",
+        "problem": "這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。",
+        "solution": "我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。",
+        "outcome": "目前適合作為資料整理、分析、自動化或 AI 應用流程的學習型作品。",
         "features": [],
         "metrics": [],
         "highlights": [
-          "Next.js static export 部署到 GitHub Pages project page",
-          "以 typed mock data 表示 documents、citations、chat messages 與 UI states",
-          "具備 desktop、tablet、mobile 的 RWD Demo 截圖",
-          "可重跑的 Playwright capture script 與 MP4 walkthrough"
+          "README 顯示：Next.js Documentationhttps://nextjs.or"
         ],
         "challenges": [
-          "專案起點是 create-next-app starter，README 仍是預設內容。",
-          "第一次截圖揭露 missing root layout runtime issue，這是 build 沒有直接攔下的問題。",
-          "目前尚未包含 upload、vector search、authentication 或 live LLM，因此文件需誠實標示 demo 邊界。"
+          "需要從 README 與原始碼中整理出可信、可展示的專案範圍。",
+          "需要把技術名詞轉換成清楚的功能、資料流與學習成果。",
+          "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
         ],
         "nextSteps": [
-          "在 mock API 邊界後加入真正的 upload / parsing flow。",
-          "增加 source filtering 與 evidence review interactions。",
-          "當資料轉換邏輯增加後，再補單元測試。"
+          "補齊更完整的中英文案例研究與操作截圖。",
+          "確認 GitHub、Demo、文件與素材是否適合公開展示。",
+          "依完成度補強測試、README 與部署或執行說明。"
         ]
       },
       "en": {
-        "title": "AI Knowledge Workspace",
-        "summary": "AI Knowledge Workspace is a portfolio-ready Next.js demo that turns scattered research material into a reviewable workspace with document states, cited AI answers, responsive layouts, screenshots, and a GitHub Pages deployment.",
-        "description": "AI Knowledge Workspace is a compact, interview-friendly demo for a source-grounded research workflow. It focuses on the part of AI knowledge tools that is easiest to evaluate visually: what documents are available, which ones are still processing, what answer the assistant produced, and which source snippets support that answer.\n\nThe current implementation is intentionally static and safe to publish. It uses typed mock data instead of a backend, database, vector index, or external LLM provider. That keeps the demo reproducible while still showing the intended product behavior and UI states.\n\nThe project is now deployed as a GitHub Pages static export and includes generated screenshots plus a short walkthrough video.",
-        "tagline": "A source-grounded research dashboard for reviewing documents, AI answers, and citations.",
-        "role": "Independent Developer",
-        "problem": "Research notes, policy PDFs, spreadsheets, and interview transcripts often live in separate tools. AI summaries are difficult to trust unless the user can inspect source status, source snippets, and citation coverage.",
-        "solution": "I rebuilt the starter dashboard into a typed mock product demo. The app now renders workspace health metrics, document pipeline states, a cited answer preview, and loading/empty/error/success examples from deterministic mock data.",
-        "outcome": "The project now has a live GitHub Pages demo, portfolio-grade README, project audit, production screenshots, demo video, static export workflow, lint/typecheck/build verification, and a deployable case-study entry.",
+        "title": "Ai Knowledge Workspace",
+        "summary": "Ai Knowledge Workspace is a learning-focused project with detected technology signals including Next.js, React, Tailwind CSS, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts.",
+        "description": "Ai Knowledge Workspace is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.\n\nThe scanned project data points to Next.js, React, Tailwind CSS, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.\n\nThis project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.\n\nNext, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.",
+        "tagline": "A data processing, AI, analysis, or automation workflow practice project.",
+        "role": "Independent Developer / Learning Project Builder",
+        "problem": "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output.",
+        "solution": "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus.",
+        "outcome": "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project.",
         "features": [],
         "metrics": [],
         "highlights": [
-          "Live GitHub Pages demo with Next.js static export and project-page base path",
-          "Typed mock workspace data for documents, citations, chat messages, and UI states",
-          "Responsive dashboard with desktop, tablet, and mobile screenshots",
-          "Repeatable Playwright capture script and MP4 walkthrough"
+          "README signal: Next.js Documentationhttps://nextjs.or"
         ],
         "challenges": [
-          "The project began as a thin create-next-app starter with default README content.",
-          "The first capture exposed a missing root layout runtime issue that build alone did not surface.",
-          "The demo needed honest wording because it does not yet include upload, vector search, authentication, or live LLM calls."
+          "The project scope needs to be summarized from README content and source evidence in a credible way.",
+          "Technical terms need to be translated into clear features, data flow, and learning outcomes.",
+          "More screenshots, test notes, or operation details can still improve the case study."
         ],
         "nextSteps": [
-          "Add a real upload and parsing flow behind a mock API boundary.",
-          "Add source filtering and evidence review interactions.",
-          "Introduce unit tests when data transformation logic moves beyond static mock data."
+          "Complete a more detailed bilingual case study and add operation screenshots.",
+          "Verify which GitHub, demo, documentation, and media assets should be public.",
+          "Improve tests, README details, and deployment or run instructions based on actual completion level."
         ]
       }
     }
@@ -2010,7 +1933,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.685Z"
+      "lastScannedAt": "2026-06-28T11:57:56.557Z"
     },
     "content": {
       "zh-TW": {
@@ -2255,7 +2178,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.685Z"
+      "lastScannedAt": "2026-06-28T11:57:56.557Z"
     },
     "content": {
       "zh-TW": {
@@ -2339,6 +2262,7 @@
       "React 19 + Vite",
       "Gradio"
     ],
+    "coverImage": "/portfolio/projects/anime-adventure-lab/cover.webp",
     "links": [
       {
         "kind": "live",
@@ -2348,6 +2272,14 @@
           "en": "Interactive Demo"
         },
         "primary": true
+      },
+      {
+        "kind": "video",
+        "url": "/portfolio/projects/anime-adventure-lab/demo/demo-recording.mp4",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
       },
       {
         "kind": "github",
@@ -2366,12 +2298,83 @@
         }
       }
     ],
-    "media": [],
+    "media": [
+      {
+        "id": "demo-recording",
+        "type": "video",
+        "src": "/portfolio/projects/anime-adventure-lab/demo/demo-recording.mp4",
+        "poster": "/portfolio/projects/anime-adventure-lab/demo/demo-video-poster.svg",
+        "alt": {
+          "zh-TW": "Anime Adventure Lab 的 18 秒作品集 demo 錄影，展示 Story、RAG、Agent 與 T2I 展示流程。",
+          "en": "An 18-second portfolio demo recording for Anime Adventure Lab showing Story, RAG, Agent, and T2I showcase flows."
+        },
+        "title": {
+          "zh-TW": "作品集 Demo 錄影",
+          "en": "Portfolio Demo Recording"
+        },
+        "caption": {
+          "zh-TW": "可直接在作品頁播放的公開展示影片，說明穩定 mock demo 如何呈現故事引擎、RAG 檢索、Agent 決策與文生圖 hooks。",
+          "en": "A public recording embedded in the project page, showing how the stable mock demo presents the story engine, RAG retrieval, agent decisions, and text-to-image hooks."
+        },
+        "featured": true
+      },
+      {
+        "id": "story-showcase",
+        "type": "image",
+        "src": "/portfolio/projects/anime-adventure-lab/screenshots/story-showcase.svg",
+        "alt": {
+          "zh-TW": "Anime Adventure Lab 的故事回合展示截圖，包含情境選擇、視覺小說舞台、對話與 pipeline 指標。",
+          "en": "Story turn showcase screenshot with scenario controls, visual novel stage, dialogue, and pipeline metrics."
+        },
+        "title": {
+          "zh-TW": "Story-first 互動故事展示",
+          "en": "Story-first Interactive Showcase"
+        },
+        "caption": {
+          "zh-TW": "用可截圖的方式呈現玩家輸入、世界狀態、對話輸出、mock latency 與 traceable state delta。",
+          "en": "A screenshot-ready view of player input, world state, dialogue output, mock latency, and traceable state delta."
+        }
+      },
+      {
+        "id": "rag-retrieval",
+        "type": "image",
+        "src": "/portfolio/projects/anime-adventure-lab/screenshots/rag-retrieval.svg",
+        "alt": {
+          "zh-TW": "RAG 世界觀檢索展示截圖，包含 query、rerank 狀態、文件引用與分數。",
+          "en": "RAG world-lore retrieval screenshot with query, rerank state, document citations, and scores."
+        },
+        "title": {
+          "zh-TW": "World-scoped RAG 檢索",
+          "en": "World-scoped RAG Retrieval"
+        },
+        "caption": {
+          "zh-TW": "展示故事回合如何從 WorldPack lore 取回 grounded evidence，並以 citation score 解釋下一步線索。",
+          "en": "Shows how a story turn retrieves grounded evidence from WorldPack lore and explains the next clue through citation scores."
+        }
+      },
+      {
+        "id": "agent-choice",
+        "type": "image",
+        "src": "/portfolio/projects/anime-adventure-lab/screenshots/agent-choice.svg",
+        "alt": {
+          "zh-TW": "Agent 輔助選擇展示截圖，包含工具計畫、推薦路徑、風險理由與 review queue。",
+          "en": "Agent-assisted choice screenshot with tool plan, recommended path, risk rationale, and review queue."
+        },
+        "title": {
+          "zh-TW": "Agent 輔助決策流程",
+          "en": "Agent-assisted Decision Flow"
+        },
+        "caption": {
+          "zh-TW": "說明 Agent 如何根據 relationship state、world state 與 risk estimator 提供可審核的建議。",
+          "en": "Explains how the agent uses relationship state, world state, and a risk estimator to produce reviewable recommendations."
+        }
+      }
+    ],
     "metadata": {
       "startedAt": "2026-05-13",
       "updatedAt": "2026-06-28",
       "teamSize": 1,
-      "version": "1.0.0",
+      "version": "1.0.0-demo",
       "catalogNumber": "PF-2026-AI-008",
       "visibility": "public",
       "aliases": [],
@@ -2408,15 +2411,29 @@
         "game state",
         "citations",
         "bge-m3",
-        "low-VRAM"
+        "low-VRAM",
+        "portfolio demo",
+        "GitHub Pages"
       ],
-      "audiences": [],
-      "contentTypes": [],
+      "audiences": [
+        "Interviewers",
+        "AI product reviewers",
+        "Full-stack reviewers",
+        "Portfolio visitors"
+      ],
+      "contentTypes": [
+        "Static demo site",
+        "Screenshot gallery",
+        "Demo recording",
+        "Technical case study",
+        "Mock-safe AI product walkthrough"
+      ],
       "dataTypes": [],
       "platforms": [
         "Web",
         "Desktop (Qt prototype)",
-        "Docker Compose"
+        "Docker Compose",
+        "GitHub Pages"
       ],
       "operatingSystems": [],
       "languages": [
@@ -2457,10 +2474,18 @@
       "desktop": [],
       "gameEngine": [],
       "threeD": [],
-      "testing": [],
+      "testing": [
+        "pytest smoke",
+        "React production build",
+        "GitHub Actions Demo CI"
+      ],
       "buildTools": [],
       "infrastructure": [],
-      "deployment": [],
+      "deployment": [
+        "GitHub Pages",
+        "GitHub Actions",
+        "Docker Compose optional full stack"
+      ],
       "developmentTools": [],
       "roles": [
         "獨立全端 / AI 工程師：負責整體架構、後端 API、RAG 與故事引擎、前端介面與部署設定。"
@@ -2486,7 +2511,8 @@
         "Manage persistent game state and memory",
         "Generate scene images via diffusion pipelines",
         "Fine-tune and hot-swap LoRA adapters",
-        "Orchestrate long-running jobs asynchronously"
+        "Orchestrate long-running jobs asynchronously",
+        "Present a mock-safe public portfolio demo with screenshots and video"
       ],
       "tools": [],
       "hasUnitTests": false,
@@ -2503,16 +2529,14 @@
       "dependencies": [],
       "extractionConfidence": 0.8,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/anime-adventure-lab/project.override.json",
         "content/projects/anime-adventure-lab/zh-TW.md",
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.686Z"
+      "lastScannedAt": "2026-06-28T11:57:56.558Z"
     },
     "content": {
       "zh-TW": {
@@ -2706,7 +2730,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.686Z"
+      "lastScannedAt": "2026-06-28T11:57:56.558Z"
     },
     "content": {
       "zh-TW": {
@@ -2984,7 +3008,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.686Z"
+      "lastScannedAt": "2026-06-28T11:57:56.558Z"
     },
     "content": {
       "zh-TW": {
@@ -3250,7 +3274,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.687Z"
+      "lastScannedAt": "2026-06-28T11:57:56.559Z"
     },
     "content": {
       "zh-TW": {
@@ -3416,7 +3440,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.687Z"
+      "lastScannedAt": "2026-06-28T11:57:56.559Z"
     },
     "content": {
       "zh-TW": {
@@ -3483,19 +3507,23 @@
     "category": "ai-data",
     "status": "prototype",
     "year": 2026,
-    "featured": false,
+    "featured": true,
     "technologies": [
       "FastAPI",
+      "Python",
       "PyTorch",
       "Diffusers",
       "PEFT (LoRA)",
+      "Accelerate",
       "Celery",
       "Redis",
       "React 19",
       "Vite",
       "Zustand",
-      "Docker"
+      "Docker",
+      "GitHub Pages"
     ],
+    "coverImage": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
     "links": [
       {
         "kind": "live",
@@ -3505,6 +3533,14 @@
           "en": "Interactive Demo"
         },
         "primary": true
+      },
+      {
+        "kind": "video",
+        "url": "/portfolio/projects/charaforge-T2I-Lab/demo-walkthrough.mp4",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
       },
       {
         "kind": "github",
@@ -3523,7 +3559,147 @@
         }
       }
     ],
-    "media": [],
+    "media": [
+      {
+        "id": "recorded-walkthrough",
+        "type": "video",
+        "src": "/portfolio/projects/charaforge-T2I-Lab/demo-walkthrough.mp4",
+        "poster": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
+        "alt": {
+          "zh-TW": "CharaForge T2I Lab 的完整作品集導覽錄影。",
+          "en": "Complete portfolio walkthrough recording for CharaForge T2I Lab."
+        },
+        "title": {
+          "zh-TW": "完整 Demo 導覽錄影",
+          "en": "Full Demo Walkthrough"
+        },
+        "caption": {
+          "zh-TW": "展示 dashboard、文生圖結果、ControlNet、批次佇列、LoRA 訓練監控與 API/job 狀態。",
+          "en": "Shows the dashboard, T2I result, ControlNet flow, batch queue, LoRA training monitor, and API/job state."
+        },
+        "featured": true
+      },
+      {
+        "id": "dashboard-overview",
+        "type": "image",
+        "src": "/portfolio/projects/charaforge-T2I-Lab/cover.png",
+        "alt": {
+          "zh-TW": "CharaForge T2I Lab dashboard 總覽截圖。",
+          "en": "CharaForge T2I Lab dashboard overview screenshot."
+        },
+        "title": {
+          "zh-TW": "Dashboard 總覽",
+          "en": "Dashboard Overview"
+        },
+        "caption": {
+          "zh-TW": "GitHub Pages 靜態展示入口，讓面試官不用 GPU 也能理解產品定位與主要流程。",
+          "en": "Static GitHub Pages entry point that explains the product positioning and main flows without requiring a GPU."
+        },
+        "featured": true
+      },
+      {
+        "id": "text-to-image-result",
+        "type": "image",
+        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-portrait.png",
+        "alt": {
+          "zh-TW": "文生圖角色生成結果與 metadata 截圖。",
+          "en": "Text-to-image character result and metadata screenshot."
+        },
+        "title": {
+          "zh-TW": "文生圖結果",
+          "en": "Text-to-Image Result"
+        },
+        "caption": {
+          "zh-TW": "展示 prompt、seed、LoRA stack、輸出 metadata 與可複現的生成狀態。",
+          "en": "Shows prompt, seed, LoRA stack, output metadata, and reproducible generation state."
+        }
+      },
+      {
+        "id": "controlnet-flow",
+        "type": "image",
+        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-controlnet.png",
+        "alt": {
+          "zh-TW": "ControlNet 條件控制生成流程截圖。",
+          "en": "ControlNet conditioned generation flow screenshot."
+        },
+        "title": {
+          "zh-TW": "ControlNet 條件控制",
+          "en": "ControlNet Conditioning"
+        },
+        "caption": {
+          "zh-TW": "呈現 pose/depth/canny/lineart 類條件輸入如何接進非同步生成流程。",
+          "en": "Shows how pose/depth/canny/lineart conditioning fits into the async generation flow."
+        }
+      },
+      {
+        "id": "batch-processing",
+        "type": "image",
+        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-batch.png",
+        "alt": {
+          "zh-TW": "批次文生圖佇列與輸出流程截圖。",
+          "en": "Batch text-to-image queue and output flow screenshot."
+        },
+        "title": {
+          "zh-TW": "批次處理",
+          "en": "Batch Processing"
+        },
+        "caption": {
+          "zh-TW": "展示多 prompt 批次、佇列狀態、下載輸出與成本治理的介面。",
+          "en": "Shows multi-prompt batches, queue state, downloadable outputs, and cost governance."
+        }
+      },
+      {
+        "id": "lora-training-monitor",
+        "type": "image",
+        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-lora.png",
+        "alt": {
+          "zh-TW": "LoRA 訓練監控、loss 與 checkpoint 匯出截圖。",
+          "en": "LoRA training monitor, loss, and checkpoint export screenshot."
+        },
+        "title": {
+          "zh-TW": "LoRA 訓練監控",
+          "en": "LoRA Training Monitor"
+        },
+        "caption": {
+          "zh-TW": "展示 dataset validation、訓練進度、loss trend、checkpoint export 與 WebSocket 更新。",
+          "en": "Shows dataset validation, training progress, loss trend, checkpoint export, and WebSocket updates."
+        }
+      },
+      {
+        "id": "api-job-contract",
+        "type": "image",
+        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-api.png",
+        "alt": {
+          "zh-TW": "API contract 與非同步 job state 截圖。",
+          "en": "API contract and async job state screenshot."
+        },
+        "title": {
+          "zh-TW": "API 與 Job State",
+          "en": "API and Job State"
+        },
+        "caption": {
+          "zh-TW": "用 reviewer-friendly 的方式呈現 submit/status/cancel 合約與狀態模型。",
+          "en": "Presents the submit/status/cancel contract and state model in a reviewer-friendly format."
+        }
+      },
+      {
+        "id": "gallery-review",
+        "type": "image",
+        "src": "/portfolio/projects/charaforge-T2I-Lab/scenario-gallery.png",
+        "alt": {
+          "zh-TW": "生成圖庫與結果審閱狀態截圖。",
+          "en": "Generated gallery and result review state screenshot."
+        },
+        "title": {
+          "zh-TW": "圖庫與審閱",
+          "en": "Gallery Review"
+        },
+        "caption": {
+          "zh-TW": "展示生成結果如何被保存、整理與用於後續篩選比較。",
+          "en": "Shows how generated results are saved, organized, and prepared for later review."
+        }
+      }
+    ],
     "metadata": {
       "startedAt": "2026-01-04",
       "updatedAt": "2026-06-28",
@@ -3534,25 +3710,30 @@
       "aliases": [],
       "primaryCategory": "ai-data",
       "secondaryCategories": [],
-      "projectType": "Text-to-image + LoRA fine-tuning platform",
+      "projectType": "Text-to-image + LoRA fine-tuning platform / portfolio demo",
       "domains": [
         "生成式 AI",
         "擴散模型",
         "MLOps",
-        "角色一致性生成"
+        "角色一致性生成",
+        "AI 工具平台",
+        "作品集展示"
       ],
       "subjects": [],
       "controlledTerms": [
         "FastAPI",
+        "Python",
         "PyTorch",
         "Diffusers",
         "PEFT (LoRA)",
+        "Accelerate",
         "Celery",
         "Redis",
         "React 19",
         "Vite",
         "Zustand",
-        "Docker"
+        "Docker",
+        "GitHub Pages"
       ],
       "keywords": [
         "Stable Diffusion",
@@ -3564,13 +3745,19 @@
         "diffusion models",
         "MLOps",
         "JWT",
-        "Prometheus"
+        "Prometheus",
+        "Celery",
+        "Redis",
+        "portfolio demo"
       ],
       "audiences": [],
       "contentTypes": [],
       "dataTypes": [],
       "platforms": [
-        "Web"
+        "Web",
+        "GitHub Pages",
+        "Docker Compose",
+        "Local GPU workstation"
       ],
       "operatingSystems": [],
       "languages": [
@@ -3581,7 +3768,9 @@
         "FastAPI",
         "React 19",
         "Celery",
-        "Diffusers"
+        "Diffusers",
+        "PEFT",
+        "Vite"
       ],
       "libraries": [
         "PyTorch",
@@ -3591,7 +3780,7 @@
         "safetensors",
         "Zustand",
         "Axios",
-        "Recharts"
+        "lucide-react"
       ],
       "stateManagement": [],
       "styling": [],
@@ -3601,7 +3790,8 @@
         "FastAPI",
         "Celery",
         "Redis",
-        "Uvicorn"
+        "Uvicorn",
+        "WebSocket"
       ],
       "desktop": [],
       "gameEngine": [],
@@ -3612,31 +3802,38 @@
       "deployment": [],
       "developmentTools": [],
       "roles": [
-        "獨立開發者：負責後端 API、推論與訓練核心、Celery worker、React 前端、認證與部署的端到端設計與實作。"
+        "獨立開發者：負責產品定位、FastAPI 後端、T2I/LoRA/ControlNet 核心流程、Celery worker、React 操作介面、認證安全、文件、靜態 demo 與 GitHub Pages 部署。"
       ],
       "responsibilities": [],
       "collaborationType": "Solo",
       "learningGoals": [],
       "skillsDemonstrated": [
         "FastAPI",
+        "Python",
         "PyTorch",
         "Diffusers",
         "PEFT (LoRA)",
+        "Accelerate",
         "Celery",
         "Redis",
         "React 19",
         "Vite",
         "Zustand",
-        "Docker"
+        "Docker",
+        "GitHub Pages"
       ],
       "capabilities": [
         "文生圖推論 (SD1.5 / SDXL)",
         "LoRA 微調訓練與管理",
         "ControlNet 條件控制 (pose/depth/canny/lineart)",
+        "批次 prompt 佇列與輸出管理",
         "非同步任務佇列與並發治理",
         "模型倉儲掃描與註冊",
+        "Dataset validation 與訓練前檢查",
         "WebSocket 即時訓練進度推送",
-        "API Key / JWT 認證與速率限制"
+        "API Key / JWT 認證與速率限制",
+        "Prometheus 指標與結構化日誌",
+        "GitHub Pages 靜態 demo 展示"
       ],
       "tools": [],
       "hasUnitTests": false,
@@ -3653,80 +3850,76 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "reviewed zh-TW case study",
-        "reviewed English case study",
-        "verified media assets",
-        "verified public links",
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/charaforge-T2I-Lab/project.override.json",
         "content/projects/charaforge-T2I-Lab/zh-TW.md",
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.687Z"
+      "lastScannedAt": "2026-06-28T11:57:56.559Z"
     },
     "content": {
       "zh-TW": {
-        "title": "CharaForge T2I Lab — 文生圖與 LoRA 微調平台",
-        "summary": "以 FastAPI 與 React 打造的文生圖平台，整合 Stable Diffusion 1.5/SDXL 推論、PEFT LoRA 微調、ControlNet 條件控制與模型倉儲管理。透過 Celery + Redis 非同步佇列處理長時間生成與訓練任務，並以 WebSocket 即時推送訓練進度，配備 JWT/API Key 認證與速率限制，可在本機 GPU 與 Docker 環境運行。",
-        "description": "## 概述\n\nCharaForge T2I Lab 是一個以角色生成為核心的文生圖（Text-to-Image）實驗平台，將擴散模型推論、LoRA 微調訓練與模型治理整合於單一全端系統。後端採 FastAPI 提供版本化的 `/api/v1` REST API 與 WebSocket，前端為 React 19 + Vite 單頁應用，長時間的生成與訓練工作則交由 Celery + Redis 非同步處理。\n\n## 架構\n\n專案採清楚的分層設計：`core/` 收斂與框架無關的領域邏輯，包含統一的 T2I Pipeline 管理器（支援 Stable Diffusion 1.5 與 SDXL、多種排程器、LoRA 動態載入、NSFW 安全過濾與浮水印）以及基於 Accelerate/Diffusers/PEFT 的 LoRA 訓練器；`api/` 提供 t2i、controlnet、lora、batch、finetune、datasets、models 與 auth 等路由；`workers/` 以 Celery 消費生成與訓練佇列。模型、快取、資料集與訓練輸出皆依照 AI_WAREHOUSE 規範外部化於檔案系統，透過環境變數而非硬編碼路徑存取。\n\n## 非同步任務與治理\n\n為避免同步請求阻塞昂貴的 GPU 運算，生成與訓練皆採用提交式（submit / status / cancel）模式。系統實作每使用者與全域的並發與佇列上限、基於成本單位的節流，以及輸出檔案 TTL 清理，讓平台在有限 GPU 資源下仍可受控運行。\n\n## 安全與可觀測性\n\n認證層支援雜湊儲存的受管 API Key（`cfk_` 格式）、可交換的 JWT 存取／刷新權杖（含 HttpOnly cookie 與 CSRF 防護），以及針對瀏覽器 WebSocket 的短效、單次使用票券。多桶速率限制涵蓋認證、上傳、資料集與 T2I 成本。可觀測性方面提供 Prometheus 指標、JSON 結構化請求日誌、`X-Request-ID` 追蹤與統一錯誤回應格式。\n\n## 現況\n\n本平台為可運行的原型，可在本機 GPU 與 Docker Compose 環境啟動。依專案定位分析，其分散式訓練佇列、認證與訓練評估等獨特模組規劃整併進範圍更廣的內容創作平台。",
-        "tagline": "整合擴散模型推論、LoRA 訓練與模型治理的全端 AI 實驗平台",
-        "role": "獨立開發者：負責後端 API、推論與訓練核心、Celery worker、React 前端、認證與部署的端到端設計與實作。",
-        "problem": "角色導向的文生圖工作流通常分散在多個腳本與筆記本中：模型散落於檔案系統、LoRA 訓練缺乏排程與進度可視化、生成任務同步阻塞且難以治理並發與成本，亦缺乏對外服務所需的認證與速率限制。我需要一個能把推論、訓練、模型管理與權限控管統一起來的單一平台。",
-        "solution": "設計分層架構：core/ 封裝統一的 T2I Pipeline 管理器（多排程器、SD1.5/SDXL、LoRA 動態載入、NSFW 安全過濾與浮水印）與 LoRA 訓練器（Accelerate + Diffusers + PEFT）；api/ 以 FastAPI 提供 /api/v1 版本化路由，涵蓋 t2i、controlnet、lora、batch、finetune、datasets、models 與 auth；workers/ 以 Celery 消費 t2i 與訓練佇列，長任務改為提交式（submit/status/cancel）非同步處理；前端以 React 19 + Vite + Zustand 構建生成、批次、訓練、LoRA 與圖庫等模組，並透過 WebSocket 接收即時訓練進度。安全面實作 API Key（cfk_ 格式、雜湊儲存）、JWT 存取/刷新權杖、CSRF、WebSocket 短效票券與多桶速率限制。",
-        "outcome": "完成可運行的原型：本機可一鍵啟動 API、T2I worker、訓練 worker 與 React UI，並以 Docker Compose 編排後端、Redis 與 worker。模型掃描可建立 registry、生成與訓練支援非同步佇列與並發/成本治理，並導入 CLIP 與臉部一致性評估器、Prometheus 指標與結構化請求日誌。專案後續規劃將其獨特模組（分散式訓練佇列、認證、訓練評估）整併進更大的內容創作平台。",
+        "title": "CharaForge T2I Lab — 文生圖、ControlNet 與 LoRA 訓練平台",
+        "summary": "CharaForge T2I Lab 是一個 portfolio-ready 的 AI 影像生成平台：後端以 FastAPI 提供文生圖、ControlNet、批次生成、LoRA 訓練、模型掃描、資料集驗證與認證 API；長時間任務交由 Redis/Celery 非同步處理；前端以 React + Vite 呈現生成、訓練、job state 與圖庫流程。公開展示版部署在 GitHub Pages，內含互動 mock scenario、截圖牆、MP4 錄影與 reviewer runbook，讓面試官不用 GPU 或模型權重也能理解專案價值。",
+        "description": "## 專案定位\n\nCharaForge T2I Lab 不是單純的圖片生成頁面，而是把「本機 AI 影像生成實驗」整理成一個可操作、可治理、可展示的全端平台。它同時處理三個問題：\n\n- AI 工具層：文生圖、ControlNet、批次生成、LoRA 訓練、模型掃描與資料集驗證。\n- 平台工程層：API 合約、非同步 queue、job state、認證、安全、可觀測性與部署。\n- 作品集展示層：GitHub Pages、截圖牆、錄影 demo、操作腳本與 README。\n\n## Demo 展示策略\n\n公開 demo 採用 static-first 策略。GitHub Pages 不能執行 GPU inference、Redis、Celery 或私有模型權重，因此 demo 以 mock state 和錄製素材呈現完整產品體驗：\n\n1. 先看 Dashboard，理解平台定位與技術棧。\n2. 切換 Text-to-Image、ControlNet、Batch、LoRA Training 四個 scenario。\n3. 觀察 prompt/config、output preview、job timeline 與 API contract 如何互相對應。\n4. 打開 media section 查看截圖牆與 MP4 walkthrough。\n5. 進入 architecture/runbook 理解本機 full-stack 啟動方式。\n\n## 技術架構\n\n```text\nReact/Vite Operator UI\n  -> FastAPI /api/v1\n  -> Redis + Celery queues\n  -> Diffusers / PEFT / PyTorch workers\n  -> AI_WAREHOUSE filesystem\n```\n\n後端以 FastAPI 提供版本化 API，路由拆分為 `t2i`、`controlnet`、`batch`、`finetune`、`datasets`、`models`、`auth` 與 WebSocket。長時間任務不直接阻塞 HTTP request，而是使用 submit/status/cancel 模型：前端提交任務後取得 `job_id`，後續透過 status endpoint 或 WebSocket 追蹤進度。\n\n## 工程亮點\n\n| 面向 | 實作重點 | 面試官可觀察的能力 |\n| --- | --- | --- |\n| API 設計 | FastAPI routers、typed request/response、Swagger docs | 清楚的 backend boundary 與 API 合約 |\n| 非同步工作 | Redis/Celery、job state、cancel/cleanup | 長任務治理與 GPU 資源控管 |\n| AI 整合 | Diffusers、PEFT、Accelerate、ControlNet hooks | 能把 AI library 包成產品流程 |\n| 安全 | API Key、JWT、CSRF、WebSocket ticket | 對公開 API 的基本安全設計 |\n| 前端 | React/Vite dashboard、scenario UI、gallery | 能把工程流程轉成可操作介面 |\n| 展示 | GitHub Pages、截圖、錄影、README | 能把專案整理成可被快速理解的作品 |\n\n## 現況\n\n目前最適合以作品集方式評估：線上 demo 用於快速理解產品與流程，本機 repo 則保留完整 API、worker、React dashboard 與測試。若要跑真實 inference，需要準備相容的 PyTorch/Diffusers/PEFT 環境、Stable Diffusion/SDXL/ControlNet/LoRA 權重、Redis 與足夠 GPU/CPU 記憶體。",
+        "tagline": "把本機 AI 生成工作流整理成可展示、可治理、可部署的全端平台",
+        "role": "獨立開發者：負責產品定位、FastAPI 後端、T2I/LoRA/ControlNet 核心流程、Celery worker、React 操作介面、認證安全、文件、靜態 demo 與 GitHub Pages 部署。",
+        "problem": "本機 AI 圖像生成通常散落在 WebUI、腳本、Notebook 和模型資料夾中：prompt、seed、LoRA、ControlNet、資料集、訓練結果與輸出檔案難以統一管理；長時間生成和訓練容易阻塞 API；共享 GPU 缺乏佇列、並發限制、成本治理與可觀測性；作品集展示時又不能要求面試官安裝大型模型或啟動 GPU 環境。",
+        "solution": "我把系統拆成兩層：實際可執行的本機全端平台，以及穩定可公開的靜態 demo。全端平台以 FastAPI 暴露 `/api/v1` 合約，將 t2i、controlnet、batch、lora、finetune、datasets、models、auth 等能力分開；`core/` 封裝 Diffusers/PEFT/PyTorch 相關邏輯；`workers/` 以 Celery 消費生成與訓練任務；Redis 管理 queue、job state 與 progress；React 前端集中呈現操作流程。靜態 demo 則使用可重現的 mock state、截圖與錄影，部署到 GitHub Pages，專門服務面試展示與截圖錄影需求。",
+        "outcome": "專案已整理成可展示版本：GitHub Pages 線上 demo 可直接瀏覽，含互動 scenario、完整截圖、錄影 demo、架構說明與操作 runbook；README 補齊啟動、測試、部署與架構說明；CI/Pages workflow 可從 `main` 部署。程式碼面通過 ruff、pytest、React lint/test/build 與 npm audit 檢查，後端測試涵蓋健康檢查、模型掃描、資料集、auth/security、ownership、WebSocket ticket 與 observability。",
         "features": [],
         "metrics": [],
         "highlights": [
-          "統一 T2I Pipeline 管理器：支援 SD1.5/SDXL、多種排程器（DDIM/DPM++/Euler-A/LMS/PNDM）與 LoRA 動態載入／卸載",
-          "Celery + Redis 非同步佇列：生成與訓練皆採 submit/status/cancel 模式，含每使用者與全域並發/佇列上限",
-          "完整 ControlNet 端點：pose、depth、canny、lineart 條件控制生成",
-          "生產級認證：API Key、JWT（含刷新與 CSRF）、WebSocket 短效票券與多桶速率限制",
-          "LoRA 訓練核心：Accelerate + Diffusers + PEFT，搭配 CLIP 與臉部一致性評估器",
-          "可觀測性：Prometheus 指標、JSON 請求日誌、X-Request-ID 追蹤與統一錯誤格式"
+          "GitHub Pages demo 可免 GPU 展示：互動 scenario、截圖牆、MP4 walkthrough、架構與 reviewer runbook",
+          "FastAPI `/api/v1` API：t2i、controlnet、batch、finetune、datasets、models、auth、WebSocket",
+          "Celery + Redis 非同步任務：submit/status/cancel job model，支援生成、模型掃描與 LoRA 訓練",
+          "AI pipeline 整合：PyTorch、Diffusers、Transformers、Accelerate、PEFT、safetensors",
+          "安全與治理：API Key、JWT refresh cookies、CSRF、WebSocket 短效票券、rate-limit buckets",
+          "可觀測性與維運：Prometheus metrics、JSON request logs、X-Request-ID、統一錯誤格式",
+          "Portfolio packaging：README、docs、截圖、錄影、demo script 與 deployment workflow 都已整理"
         ],
         "challenges": [
-          "在共享 GPU 與單一 pipeline 鎖下協調並發生成與訓練任務，避免顯存衝突並維持任務治理",
-          "為瀏覽器 WebSocket 設計安全的認證流程：以短效、單次使用的票券取代 query 參數傳遞憑證",
-          "將模型、快取、資料集與訓練輸出依 AI_WAREHOUSE 規範外部化，避免硬編碼路徑並讓容器與本機共用倉儲"
+          "將重 GPU 工作轉成可治理的非同步 API 模式，同時保留本機模型與資料集路徑的彈性",
+          "在 GitHub Pages 不能跑後端/GPU 的限制下，設計仍能讓面試官看懂價值的展示層",
+          "把原本偏工程內部的 AI 工具整理成有 screenshot、recording、flow、runbook 的作品集專案"
         ],
         "nextSteps": [
-          "將分散式訓練佇列、認證與訓練評估等獨特模組整併進 anime-adventure-lab 內容創作平台",
-          "擴充 ControlNet 與多 LoRA 組合的進階生成工作流",
-          "強化端到端整合測試與 GPU 環境的回歸測試覆蓋率"
+          "補上更多真實 GPU inference/training 的錄影與效能數據",
+          "增加 Playwright 自動截圖與影片錄製流程，讓展示資產可重複生成",
+          "擴充 E2E 測試與 GPU smoke test，讓本機完整推論流程更容易驗收"
         ]
       },
       "en": {
-        "title": "CharaForge T2I Lab — Text-to-Image & LoRA Fine-tuning Platform",
-        "summary": "A text-to-image platform built with FastAPI and React that unifies Stable Diffusion 1.5/SDXL inference, PEFT LoRA fine-tuning, ControlNet conditioning, and model-warehouse management. Long-running generation and training jobs run on a Celery + Redis async queue with live WebSocket progress, guarded by JWT/API-key auth and rate limiting, and run on local GPU or Docker.",
-        "description": "## Overview\n\nCharaForge T2I Lab is a character-centric text-to-image lab that unifies diffusion inference, LoRA fine-tuning, and model governance in a single full-stack system. The backend is a FastAPI service exposing a versioned `/api/v1` REST API plus WebSocket; the frontend is a React 19 + Vite single-page app; and long-running generation and training jobs are offloaded to a Celery + Redis async queue.\n\n## Architecture\n\nThe project follows a clean layered design. `core/` holds framework-agnostic domain logic — a unified T2I Pipeline manager (Stable Diffusion 1.5 and SDXL, multiple schedulers, dynamic LoRA loading, NSFW safety filtering, and watermarking) plus a LoRA trainer built on Accelerate, Diffusers, and PEFT. `api/` provides routers for t2i, controlnet, lora, batch, finetune, datasets, models, and auth. `workers/` runs Celery consumers for the generation and training queues. Models, caches, datasets, and training outputs are externalized on the filesystem per the AI_WAREHOUSE convention and accessed via environment variables rather than hard-coded paths.\n\n## Async jobs and governance\n\nTo keep synchronous requests from blocking expensive GPU work, both generation and training use a submit/status/cancel model. The system enforces per-owner and global concurrency/queue limits, cost-based throttling, and TTL cleanup of output files, keeping the platform controllable under limited GPU resources.\n\n## Security and observability\n\nThe auth layer supports hashed managed API keys (the `cfk_` format), exchangeable JWT access/refresh tokens (with HttpOnly cookies and CSRF protection), and short-lived single-use tickets for browser WebSockets. Multi-bucket rate limiting covers auth, uploads, datasets, and T2I cost. For observability it offers Prometheus metrics, structured JSON request logs, `X-Request-ID` tracing, and a uniform error response format.\n\n## Status\n\nThe platform is a working prototype that runs on local GPU and via Docker Compose. Per the project positioning analysis, its distinctive modules — distributed training queue, authentication, and training evaluators — are slated to be merged into a broader content-creation platform.",
-        "tagline": "A full-stack AI lab unifying diffusion inference, LoRA training, and model governance",
-        "role": "Solo developer: end-to-end design and implementation of the backend API, inference/training core, Celery workers, React frontend, authentication, and deployment.",
-        "problem": "Character-focused text-to-image workflows are usually scattered across ad-hoc scripts and notebooks: models live loosely on the filesystem, LoRA training lacks scheduling and progress visibility, generation calls block synchronously with no concurrency or cost governance, and there is no auth or rate limiting for exposing the service. I needed one platform that unified inference, training, model management, and access control.",
-        "solution": "I designed a layered architecture. `core/` encapsulates a unified T2I Pipeline manager (multiple schedulers, SD1.5/SDXL, dynamic LoRA load/unload, NSFW safety filtering, and watermarking) and a LoRA trainer (Accelerate + Diffusers + PEFT). `api/` exposes versioned `/api/v1` FastAPI routers spanning t2i, controlnet, lora, batch, finetune, datasets, models, and auth, with long jobs handled via a submit/status/cancel async model. `workers/` runs Celery consumers for the t2i and training queues. The React 19 + Vite + Zustand frontend provides generation, batch, training, LoRA, and gallery modules and receives live training progress over WebSocket. The security layer implements hashed managed API keys (the `cfk_` format), JWT access/refresh tokens with CSRF protection, short-lived single-use WebSocket tickets, and multi-bucket rate limiting.",
-        "outcome": "Delivered a working prototype: the API, T2I worker, training worker, and React UI all start locally, with Docker Compose orchestrating the backend, Redis, and workers. Model scanning builds a registry; generation and training run on async queues with per-owner/global concurrency and cost governance; CLIP and face-consistency evaluators, Prometheus metrics, and structured request logs are integrated. The project is positioned to have its distinctive modules (distributed training queue, auth, training evaluators) absorbed into a larger content-creation platform.",
+        "title": "CharaForge T2I Lab — Text-to-Image, ControlNet, and LoRA Training Platform",
+        "summary": "CharaForge T2I Lab is a portfolio-ready AI image generation platform. The FastAPI backend exposes text-to-image, ControlNet, batch generation, LoRA training, model scanning, dataset validation, and authentication APIs; Redis/Celery handles long-running jobs; and the React + Vite frontend presents generation, training, job state, and gallery flows. The public GitHub Pages demo includes interactive mock scenarios, screenshot gallery, MP4 walkthrough, architecture notes, and a reviewer runbook so interviewers can understand the system without GPU access or model weights.",
+        "description": "## Positioning\n\nCharaForge T2I Lab is not just an image generation screen. It packages a local AI image-generation workflow into a full-stack platform that can be operated, governed, and reviewed. It covers three layers:\n\n- AI tooling: text-to-image, ControlNet, batch generation, LoRA training, model scanning, and dataset validation.\n- Platform engineering: API contracts, async queues, job state, auth, security, observability, and deployment.\n- Portfolio presentation: GitHub Pages, screenshots, recorded demo, walkthrough script, and README.\n\n## Demo Strategy\n\nThe public demo uses a static-first approach. GitHub Pages cannot run GPU inference, Redis, Celery, or private model weights, so the demo presents the product experience through mock state and recorded assets:\n\n1. Start with the dashboard to understand product positioning and stack.\n2. Switch through Text-to-Image, ControlNet, Batch, and LoRA Training scenarios.\n3. Observe how prompt/config, output preview, job timeline, and API contract map to each other.\n4. Open the media section for screenshot gallery and MP4 walkthrough.\n5. Review architecture/runbook to understand the local full-stack path.\n\n## Technical Architecture\n\n```text\nReact/Vite Operator UI\n  -> FastAPI /api/v1\n  -> Redis + Celery queues\n  -> Diffusers / PEFT / PyTorch workers\n  -> AI_WAREHOUSE filesystem\n```\n\nThe backend exposes a versioned FastAPI API with separate routers for `t2i`, `controlnet`, `batch`, `finetune`, `datasets`, `models`, `auth`, and WebSocket progress. Long-running work does not block HTTP requests directly. Instead, the frontend submits a job, receives a `job_id`, then tracks progress through status endpoints or WebSocket updates.\n\n## Engineering Highlights\n\n| Area | Implementation | What it demonstrates |\n| --- | --- | --- |\n| API design | FastAPI routers, typed request/response, Swagger docs | Clear backend boundaries and contracts |\n| Async jobs | Redis/Celery, job state, cancel/cleanup | Long-running workload governance |\n| AI integration | Diffusers, PEFT, Accelerate, ControlNet hooks | Turning AI libraries into product workflows |\n| Security | API keys, JWT, CSRF, WebSocket tickets | Practical API exposure and auth design |\n| Frontend | React/Vite dashboard, scenario UI, gallery | Translating engineering flows into usable screens |\n| Portfolio packaging | GitHub Pages, screenshots, recording, README | Making a complex project quickly reviewable |\n\n## Current Status\n\nThe project is best evaluated as an engineering portfolio case study. The live demo explains the product and workflow quickly, while the repository keeps the full API, worker, React dashboard, and tests. Real inference requires compatible PyTorch/Diffusers/PEFT packages, Stable Diffusion/SDXL/ControlNet/LoRA weights, Redis, and enough GPU/CPU memory.",
+        "tagline": "A local AI generation workflow packaged into a reviewable full-stack demo platform",
+        "role": "Solo developer: product framing, FastAPI backend, T2I/LoRA/ControlNet workflow design, Celery workers, React operator UI, auth/security, documentation, static demo, and GitHub Pages deployment.",
+        "problem": "Local AI image generation often lives across WebUIs, scripts, notebooks, and loose model folders. Prompt, seed, LoRA, ControlNet, datasets, training output, and generated files are hard to govern together; long-running generation and training can block APIs; shared GPU resources need queueing, concurrency limits, cost controls, and observability; and a portfolio reviewer should not need to install model weights or start a GPU environment.",
+        "solution": "I split the project into two layers: a runnable local full-stack platform and a stable public static demo. The full-stack platform exposes a versioned FastAPI `/api/v1` contract for t2i, controlnet, batch, lora, finetune, datasets, models, and auth; `core/` encapsulates Diffusers/PEFT/PyTorch logic; `workers/` consumes generation and training jobs with Celery; Redis stores queue/job/progress state; and the React UI turns the workflow into an operator dashboard. The static demo uses reproducible mock state, screenshots, and a recorded walkthrough deployed to GitHub Pages for interview review.",
+        "outcome": "The project is now packaged as a demonstrable portfolio piece. The GitHub Pages demo can be opened directly and includes interactive scenarios, screenshots, recorded demo, architecture explanation, and runbook. The README documents setup, tests, deployment, and architecture. CI/Pages deployment works from `main`. The codebase passes ruff, pytest, React lint/test/build, and npm audit checks; backend tests cover health, model scanning, datasets, auth/security, ownership, WebSocket tickets, and observability behavior.",
         "features": [],
         "metrics": [],
         "highlights": [
-          "Unified T2I Pipeline manager supporting SD1.5/SDXL, multiple schedulers (DDIM/DPM++/Euler-A/LMS/PNDM), and dynamic LoRA load/unload",
-          "Celery + Redis async queue: both generation and training use a submit/status/cancel model with per-owner and global concurrency/queue limits",
-          "Full ControlNet endpoints: pose, depth, canny, and lineart conditioned generation",
-          "Production-grade auth: API keys, JWT (with refresh and CSRF), short-lived WebSocket tickets, and multi-bucket rate limiting",
-          "LoRA training core on Accelerate + Diffusers + PEFT, paired with CLIP and face-consistency evaluators",
-          "Observability: Prometheus metrics, JSON request logs, X-Request-ID tracing, and a uniform error format"
+          "GPU-free GitHub Pages demo with interactive scenarios, screenshot gallery, MP4 walkthrough, architecture notes, and reviewer runbook",
+          "FastAPI `/api/v1` API covering t2i, controlnet, batch, finetune, datasets, models, auth, and WebSocket flows",
+          "Celery + Redis async jobs with submit/status/cancel modeling for generation, model scanning, and LoRA training",
+          "AI pipeline integration with PyTorch, Diffusers, Transformers, Accelerate, PEFT, and safetensors",
+          "Security and governance: API keys, JWT refresh cookies, CSRF, short-lived WebSocket tickets, and rate-limit buckets",
+          "Observability and operations: Prometheus metrics, JSON request logs, X-Request-ID, and consistent error responses",
+          "Portfolio packaging: README, docs, screenshots, recording, demo script, and deployment workflow"
         ],
         "challenges": [
-          "Coordinating concurrent generation and training on a shared GPU under a single pipeline lock to avoid VRAM contention while keeping jobs governed",
-          "Designing a secure auth flow for browser WebSockets, replacing credentials-in-query-params with short-lived single-use tickets",
-          "Externalizing models, caches, datasets, and training outputs per the AI_WAREHOUSE convention, avoiding hard-coded paths so containers and local runs share one warehouse"
+          "Turning heavy GPU workloads into governed async API flows while keeping local model/dataset paths flexible",
+          "Designing a GitHub Pages showcase that communicates the project clearly despite not being able to run backend/GPU work",
+          "Converting an internal AI tooling project into a portfolio artifact with screenshots, recording, flow, and runbook"
         ],
         "nextSteps": [
-          "Absorb the distinctive modules (distributed training queue, auth, training evaluators) into the broader anime-adventure-lab content platform",
-          "Expand advanced workflows for ControlNet and multi-LoRA composition",
-          "Strengthen end-to-end integration tests and regression coverage for GPU environments"
+          "Add more recordings and metrics from real GPU inference/training sessions",
+          "Automate screenshots and demo recording through Playwright so showcase assets are reproducible",
+          "Expand E2E and GPU smoke tests so the local full inference path is easier to validate"
         ]
       }
     }
@@ -3882,7 +4075,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.687Z"
+      "lastScannedAt": "2026-06-28T11:57:56.559Z"
     },
     "content": {
       "zh-TW": {
@@ -4151,7 +4344,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.687Z"
+      "lastScannedAt": "2026-06-28T11:57:56.559Z"
     },
     "content": {
       "zh-TW": {
@@ -4395,7 +4588,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.688Z"
+      "lastScannedAt": "2026-06-28T11:57:56.560Z"
     },
     "content": {
       "zh-TW": {
@@ -4628,7 +4821,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.688Z"
+      "lastScannedAt": "2026-06-28T11:57:56.560Z"
     },
     "content": {
       "zh-TW": {
@@ -4847,7 +5040,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.688Z"
+      "lastScannedAt": "2026-06-28T11:57:56.560Z"
     },
     "content": {
       "zh-TW": {
@@ -5022,7 +5215,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.688Z"
+      "lastScannedAt": "2026-06-28T11:57:56.560Z"
     },
     "content": {
       "zh-TW": {
@@ -5280,7 +5473,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.688Z"
+      "lastScannedAt": "2026-06-28T11:57:56.560Z"
     },
     "content": {
       "zh-TW": {
@@ -5455,7 +5648,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.688Z"
+      "lastScannedAt": "2026-06-28T11:57:56.560Z"
     },
     "content": {
       "zh-TW": {
@@ -5644,7 +5837,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.688Z"
+      "lastScannedAt": "2026-06-28T11:57:56.561Z"
     },
     "content": {
       "zh-TW": {
@@ -5802,7 +5995,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.689Z"
+      "lastScannedAt": "2026-06-28T11:57:56.561Z"
     },
     "content": {
       "zh-TW": {
@@ -5961,7 +6154,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.689Z"
+      "lastScannedAt": "2026-06-28T11:57:56.561Z"
     },
     "content": {
       "zh-TW": {
@@ -6197,7 +6390,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.689Z"
+      "lastScannedAt": "2026-06-28T11:57:56.561Z"
     },
     "content": {
       "zh-TW": {
@@ -6370,7 +6563,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.689Z"
+      "lastScannedAt": "2026-06-28T11:57:56.561Z"
     },
     "content": {
       "zh-TW": {
@@ -6769,7 +6962,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.689Z"
+      "lastScannedAt": "2026-06-28T11:57:56.561Z"
     },
     "content": {
       "zh-TW": {
@@ -7187,7 +7380,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.689Z"
+      "lastScannedAt": "2026-06-28T11:57:56.562Z"
     },
     "content": {
       "zh-TW": {
@@ -7371,7 +7564,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.689Z"
+      "lastScannedAt": "2026-06-28T11:57:56.562Z"
     },
     "content": {
       "zh-TW": {
@@ -7543,7 +7736,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.690Z"
+      "lastScannedAt": "2026-06-28T11:57:56.563Z"
     },
     "content": {
       "zh-TW": {
@@ -7799,7 +7992,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.690Z"
+      "lastScannedAt": "2026-06-28T11:57:56.563Z"
     },
     "content": {
       "zh-TW": {
@@ -8012,7 +8205,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.691Z"
+      "lastScannedAt": "2026-06-28T11:57:56.563Z"
     },
     "content": {
       "zh-TW": {
@@ -8253,7 +8446,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.691Z"
+      "lastScannedAt": "2026-06-28T11:57:56.563Z"
     },
     "content": {
       "zh-TW": {
@@ -8464,7 +8657,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.691Z"
+      "lastScannedAt": "2026-06-28T11:57:56.563Z"
     },
     "content": {
       "zh-TW": {
@@ -8656,7 +8849,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.691Z"
+      "lastScannedAt": "2026-06-28T11:57:56.563Z"
     },
     "content": {
       "zh-TW": {
@@ -8885,7 +9078,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.691Z"
+      "lastScannedAt": "2026-06-28T11:57:56.563Z"
     },
     "content": {
       "zh-TW": {
@@ -9091,7 +9284,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.691Z"
+      "lastScannedAt": "2026-06-28T11:57:56.563Z"
     },
     "content": {
       "zh-TW": {
@@ -9882,7 +10075,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.691Z"
+      "lastScannedAt": "2026-06-28T11:57:56.564Z"
     },
     "content": {
       "zh-TW": {
@@ -10134,7 +10327,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.692Z"
+      "lastScannedAt": "2026-06-28T11:57:56.564Z"
     },
     "content": {
       "zh-TW": {
@@ -10386,7 +10579,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.692Z"
+      "lastScannedAt": "2026-06-28T11:57:56.564Z"
     },
     "content": {
       "zh-TW": {
@@ -10622,7 +10815,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.692Z"
+      "lastScannedAt": "2026-06-28T11:57:56.564Z"
     },
     "content": {
       "zh-TW": {
@@ -10960,7 +11153,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.692Z"
+      "lastScannedAt": "2026-06-28T11:57:56.564Z"
     },
     "content": {
       "zh-TW": {
@@ -11200,7 +11393,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.692Z"
+      "lastScannedAt": "2026-06-28T11:57:56.564Z"
     },
     "content": {
       "zh-TW": {
@@ -11368,7 +11561,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.693Z"
+      "lastScannedAt": "2026-06-28T11:57:56.565Z"
     },
     "content": {
       "zh-TW": {
@@ -11528,7 +11721,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.693Z"
+      "lastScannedAt": "2026-06-28T11:57:56.565Z"
     },
     "content": {
       "zh-TW": {
@@ -11749,7 +11942,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.693Z"
+      "lastScannedAt": "2026-06-28T11:57:56.565Z"
     },
     "content": {
       "zh-TW": {
@@ -12207,7 +12400,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.693Z"
+      "lastScannedAt": "2026-06-28T11:57:56.565Z"
     },
     "content": {
       "zh-TW": {
@@ -12414,7 +12607,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.693Z"
+      "lastScannedAt": "2026-06-28T11:57:56.565Z"
     },
     "content": {
       "zh-TW": {
@@ -12647,7 +12840,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.693Z"
+      "lastScannedAt": "2026-06-28T11:57:56.565Z"
     },
     "content": {
       "zh-TW": {
@@ -12822,7 +13015,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.693Z"
+      "lastScannedAt": "2026-06-28T11:57:56.565Z"
     },
     "content": {
       "zh-TW": {
@@ -13066,7 +13259,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.693Z"
+      "lastScannedAt": "2026-06-28T11:57:56.565Z"
     },
     "content": {
       "zh-TW": {
@@ -13321,7 +13514,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.694Z"
+      "lastScannedAt": "2026-06-28T11:57:56.566Z"
     },
     "content": {
       "zh-TW": {
@@ -14199,7 +14392,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.694Z"
+      "lastScannedAt": "2026-06-28T11:57:56.566Z"
     },
     "content": {
       "zh-TW": {
@@ -14355,7 +14548,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.694Z"
+      "lastScannedAt": "2026-06-28T11:57:56.566Z"
     },
     "content": {
       "zh-TW": {
@@ -14781,7 +14974,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.694Z"
+      "lastScannedAt": "2026-06-28T11:57:56.566Z"
     },
     "content": {
       "zh-TW": {
@@ -15057,7 +15250,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.694Z"
+      "lastScannedAt": "2026-06-28T11:57:56.566Z"
     },
     "content": {
       "zh-TW": {
@@ -15422,7 +15615,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.695Z"
+      "lastScannedAt": "2026-06-28T11:57:56.567Z"
     },
     "content": {
       "zh-TW": {
@@ -15662,7 +15855,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.695Z"
+      "lastScannedAt": "2026-06-28T11:57:56.567Z"
     },
     "content": {
       "zh-TW": {
@@ -15823,7 +16016,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.695Z"
+      "lastScannedAt": "2026-06-28T11:57:56.567Z"
     },
     "content": {
       "zh-TW": {
@@ -16001,7 +16194,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.695Z"
+      "lastScannedAt": "2026-06-28T11:57:56.567Z"
     },
     "content": {
       "zh-TW": {
@@ -16242,7 +16435,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.695Z"
+      "lastScannedAt": "2026-06-28T11:57:56.567Z"
     },
     "content": {
       "zh-TW": {
@@ -16425,7 +16618,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.695Z"
+      "lastScannedAt": "2026-06-28T11:57:56.567Z"
     },
     "content": {
       "zh-TW": {
@@ -16681,7 +16874,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.695Z"
+      "lastScannedAt": "2026-06-28T11:57:56.567Z"
     },
     "content": {
       "zh-TW": {
@@ -16873,7 +17066,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.696Z"
+      "lastScannedAt": "2026-06-28T11:57:56.567Z"
     },
     "content": {
       "zh-TW": {
@@ -17044,7 +17237,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.696Z"
+      "lastScannedAt": "2026-06-28T11:57:56.568Z"
     },
     "content": {
       "zh-TW": {
@@ -17283,7 +17476,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.696Z"
+      "lastScannedAt": "2026-06-28T11:57:56.568Z"
     },
     "content": {
       "zh-TW": {
@@ -17468,7 +17661,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.696Z"
+      "lastScannedAt": "2026-06-28T11:57:56.568Z"
     },
     "content": {
       "zh-TW": {
@@ -17729,7 +17922,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.696Z"
+      "lastScannedAt": "2026-06-28T11:57:56.568Z"
     },
     "content": {
       "zh-TW": {
@@ -18001,7 +18194,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.696Z"
+      "lastScannedAt": "2026-06-28T11:57:56.568Z"
     },
     "content": {
       "zh-TW": {
@@ -18268,7 +18461,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.696Z"
+      "lastScannedAt": "2026-06-28T11:57:56.568Z"
     },
     "content": {
       "zh-TW": {
@@ -18680,7 +18873,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.697Z"
+      "lastScannedAt": "2026-06-28T11:57:56.568Z"
     },
     "content": {
       "zh-TW": {
@@ -18862,7 +19055,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.697Z"
+      "lastScannedAt": "2026-06-28T11:57:56.568Z"
     },
     "content": {
       "zh-TW": {
@@ -19099,7 +19292,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.697Z"
+      "lastScannedAt": "2026-06-28T11:57:56.569Z"
     },
     "content": {
       "zh-TW": {
@@ -19293,7 +19486,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.697Z"
+      "lastScannedAt": "2026-06-28T11:57:56.569Z"
     },
     "content": {
       "zh-TW": {
@@ -19453,7 +19646,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.697Z"
+      "lastScannedAt": "2026-06-28T11:57:56.569Z"
     },
     "content": {
       "zh-TW": {
@@ -19702,7 +19895,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.697Z"
+      "lastScannedAt": "2026-06-28T11:57:56.569Z"
     },
     "content": {
       "zh-TW": {
@@ -19899,7 +20092,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.697Z"
+      "lastScannedAt": "2026-06-28T11:57:56.569Z"
     },
     "content": {
       "zh-TW": {
@@ -20072,7 +20265,7 @@
         "content/projects/sonic-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.698Z"
+      "lastScannedAt": "2026-06-28T11:57:56.569Z"
     },
     "content": {
       "zh-TW": {
@@ -20321,7 +20514,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.698Z"
+      "lastScannedAt": "2026-06-28T11:57:56.569Z"
     },
     "content": {
       "zh-TW": {
@@ -20575,7 +20768,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.698Z"
+      "lastScannedAt": "2026-06-28T11:57:56.570Z"
     },
     "content": {
       "zh-TW": {
@@ -20770,7 +20963,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.698Z"
+      "lastScannedAt": "2026-06-28T11:57:56.570Z"
     },
     "content": {
       "zh-TW": {
@@ -20926,7 +21119,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.698Z"
+      "lastScannedAt": "2026-06-28T11:57:56.570Z"
     },
     "content": {
       "zh-TW": {
@@ -21090,7 +21283,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.699Z"
+      "lastScannedAt": "2026-06-28T11:57:56.570Z"
     },
     "content": {
       "zh-TW": {
@@ -21250,7 +21443,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.699Z"
+      "lastScannedAt": "2026-06-28T11:57:56.570Z"
     },
     "content": {
       "zh-TW": {
@@ -21495,7 +21688,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.699Z"
+      "lastScannedAt": "2026-06-28T11:57:56.571Z"
     },
     "content": {
       "zh-TW": {
@@ -21750,7 +21943,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.699Z"
+      "lastScannedAt": "2026-06-28T11:57:56.571Z"
     },
     "content": {
       "zh-TW": {
@@ -21980,7 +22173,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.700Z"
+      "lastScannedAt": "2026-06-28T11:57:56.571Z"
     },
     "content": {
       "zh-TW": {
@@ -22223,7 +22416,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.700Z"
+      "lastScannedAt": "2026-06-28T11:57:56.571Z"
     },
     "content": {
       "zh-TW": {
@@ -22456,7 +22649,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.700Z"
+      "lastScannedAt": "2026-06-28T11:57:56.571Z"
     },
     "content": {
       "zh-TW": {
@@ -22698,7 +22891,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.700Z"
+      "lastScannedAt": "2026-06-28T11:57:56.571Z"
     },
     "content": {
       "zh-TW": {
@@ -22954,7 +23147,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.700Z"
+      "lastScannedAt": "2026-06-28T11:57:56.571Z"
     },
     "content": {
       "zh-TW": {
@@ -23210,7 +23403,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T11:41:18.700Z"
+      "lastScannedAt": "2026-06-28T11:57:56.571Z"
     },
     "content": {
       "zh-TW": {

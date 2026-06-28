@@ -1,43 +1,70 @@
 ---
-title: "CharaForge T2I Lab — 文生圖與 LoRA 微調平台"
-tagline: "整合擴散模型推論、LoRA 訓練與模型治理的全端 AI 實驗平台"
-summary: "以 FastAPI 與 React 打造的文生圖平台，整合 Stable Diffusion 1.5/SDXL 推論、PEFT LoRA 微調、ControlNet 條件控制與模型倉儲管理。透過 Celery + Redis 非同步佇列處理長時間生成與訓練任務，並以 WebSocket 即時推送訓練進度，配備 JWT/API Key 認證與速率限制，可在本機 GPU 與 Docker 環境運行。"
-role: "獨立開發者：負責後端 API、推論與訓練核心、Celery worker、React 前端、認證與部署的端到端設計與實作。"
-problem: "角色導向的文生圖工作流通常分散在多個腳本與筆記本中：模型散落於檔案系統、LoRA 訓練缺乏排程與進度可視化、生成任務同步阻塞且難以治理並發與成本，亦缺乏對外服務所需的認證與速率限制。我需要一個能把推論、訓練、模型管理與權限控管統一起來的單一平台。"
-solution: "設計分層架構：core/ 封裝統一的 T2I Pipeline 管理器（多排程器、SD1.5/SDXL、LoRA 動態載入、NSFW 安全過濾與浮水印）與 LoRA 訓練器（Accelerate + Diffusers + PEFT）；api/ 以 FastAPI 提供 /api/v1 版本化路由，涵蓋 t2i、controlnet、lora、batch、finetune、datasets、models 與 auth；workers/ 以 Celery 消費 t2i 與訓練佇列，長任務改為提交式（submit/status/cancel）非同步處理；前端以 React 19 + Vite + Zustand 構建生成、批次、訓練、LoRA 與圖庫等模組，並透過 WebSocket 接收即時訓練進度。安全面實作 API Key（cfk_ 格式、雜湊儲存）、JWT 存取/刷新權杖、CSRF、WebSocket 短效票券與多桶速率限制。"
-outcome: "完成可運行的原型：本機可一鍵啟動 API、T2I worker、訓練 worker 與 React UI，並以 Docker Compose 編排後端、Redis 與 worker。模型掃描可建立 registry、生成與訓練支援非同步佇列與並發/成本治理，並導入 CLIP 與臉部一致性評估器、Prometheus 指標與結構化請求日誌。專案後續規劃將其獨特模組（分散式訓練佇列、認證、訓練評估）整併進更大的內容創作平台。"
+title: "CharaForge T2I Lab — 文生圖、ControlNet 與 LoRA 訓練平台"
+tagline: "把本機 AI 生成工作流整理成可展示、可治理、可部署的全端平台"
+summary: "CharaForge T2I Lab 是一個 portfolio-ready 的 AI 影像生成平台：後端以 FastAPI 提供文生圖、ControlNet、批次生成、LoRA 訓練、模型掃描、資料集驗證與認證 API；長時間任務交由 Redis/Celery 非同步處理；前端以 React + Vite 呈現生成、訓練、job state 與圖庫流程。公開展示版部署在 GitHub Pages，內含互動 mock scenario、截圖牆、MP4 錄影與 reviewer runbook，讓面試官不用 GPU 或模型權重也能理解專案價值。"
+role: "獨立開發者：負責產品定位、FastAPI 後端、T2I/LoRA/ControlNet 核心流程、Celery worker、React 操作介面、認證安全、文件、靜態 demo 與 GitHub Pages 部署。"
+problem: "本機 AI 圖像生成通常散落在 WebUI、腳本、Notebook 和模型資料夾中：prompt、seed、LoRA、ControlNet、資料集、訓練結果與輸出檔案難以統一管理；長時間生成和訓練容易阻塞 API；共享 GPU 缺乏佇列、並發限制、成本治理與可觀測性；作品集展示時又不能要求面試官安裝大型模型或啟動 GPU 環境。"
+solution: "我把系統拆成兩層：實際可執行的本機全端平台，以及穩定可公開的靜態 demo。全端平台以 FastAPI 暴露 `/api/v1` 合約，將 t2i、controlnet、batch、lora、finetune、datasets、models、auth 等能力分開；`core/` 封裝 Diffusers/PEFT/PyTorch 相關邏輯；`workers/` 以 Celery 消費生成與訓練任務；Redis 管理 queue、job state 與 progress；React 前端集中呈現操作流程。靜態 demo 則使用可重現的 mock state、截圖與錄影，部署到 GitHub Pages，專門服務面試展示與截圖錄影需求。"
+outcome: "專案已整理成可展示版本：GitHub Pages 線上 demo 可直接瀏覽，含互動 scenario、完整截圖、錄影 demo、架構說明與操作 runbook；README 補齊啟動、測試、部署與架構說明；CI/Pages workflow 可從 `main` 部署。程式碼面通過 ruff、pytest、React lint/test/build 與 npm audit 檢查，後端測試涵蓋健康檢查、模型掃描、資料集、auth/security、ownership、WebSocket ticket 與 observability。"
 highlights:
-  - "統一 T2I Pipeline 管理器：支援 SD1.5/SDXL、多種排程器（DDIM/DPM++/Euler-A/LMS/PNDM）與 LoRA 動態載入／卸載"
-  - "Celery + Redis 非同步佇列：生成與訓練皆採 submit/status/cancel 模式，含每使用者與全域並發/佇列上限"
-  - "完整 ControlNet 端點：pose、depth、canny、lineart 條件控制生成"
-  - "生產級認證：API Key、JWT（含刷新與 CSRF）、WebSocket 短效票券與多桶速率限制"
-  - "LoRA 訓練核心：Accelerate + Diffusers + PEFT，搭配 CLIP 與臉部一致性評估器"
-  - "可觀測性：Prometheus 指標、JSON 請求日誌、X-Request-ID 追蹤與統一錯誤格式"
+  - "GitHub Pages demo 可免 GPU 展示：互動 scenario、截圖牆、MP4 walkthrough、架構與 reviewer runbook"
+  - "FastAPI `/api/v1` API：t2i、controlnet、batch、finetune、datasets、models、auth、WebSocket"
+  - "Celery + Redis 非同步任務：submit/status/cancel job model，支援生成、模型掃描與 LoRA 訓練"
+  - "AI pipeline 整合：PyTorch、Diffusers、Transformers、Accelerate、PEFT、safetensors"
+  - "安全與治理：API Key、JWT refresh cookies、CSRF、WebSocket 短效票券、rate-limit buckets"
+  - "可觀測性與維運：Prometheus metrics、JSON request logs、X-Request-ID、統一錯誤格式"
+  - "Portfolio packaging：README、docs、截圖、錄影、demo script 與 deployment workflow 都已整理"
 challenges:
-  - "在共享 GPU 與單一 pipeline 鎖下協調並發生成與訓練任務，避免顯存衝突並維持任務治理"
-  - "為瀏覽器 WebSocket 設計安全的認證流程：以短效、單次使用的票券取代 query 參數傳遞憑證"
-  - "將模型、快取、資料集與訓練輸出依 AI_WAREHOUSE 規範外部化，避免硬編碼路徑並讓容器與本機共用倉儲"
+  - "將重 GPU 工作轉成可治理的非同步 API 模式，同時保留本機模型與資料集路徑的彈性"
+  - "在 GitHub Pages 不能跑後端/GPU 的限制下，設計仍能讓面試官看懂價值的展示層"
+  - "把原本偏工程內部的 AI 工具整理成有 screenshot、recording、flow、runbook 的作品集專案"
 nextSteps:
-  - "將分散式訓練佇列、認證與訓練評估等獨特模組整併進 anime-adventure-lab 內容創作平台"
-  - "擴充 ControlNet 與多 LoRA 組合的進階生成工作流"
-  - "強化端到端整合測試與 GPU 環境的回歸測試覆蓋率"
+  - "補上更多真實 GPU inference/training 的錄影與效能數據"
+  - "增加 Playwright 自動截圖與影片錄製流程，讓展示資產可重複生成"
+  - "擴充 E2E 測試與 GPU smoke test，讓本機完整推論流程更容易驗收"
 ---
-## 概述
 
-CharaForge T2I Lab 是一個以角色生成為核心的文生圖（Text-to-Image）實驗平台，將擴散模型推論、LoRA 微調訓練與模型治理整合於單一全端系統。後端採 FastAPI 提供版本化的 `/api/v1` REST API 與 WebSocket，前端為 React 19 + Vite 單頁應用，長時間的生成與訓練工作則交由 Celery + Redis 非同步處理。
+## 專案定位
 
-## 架構
+CharaForge T2I Lab 不是單純的圖片生成頁面，而是把「本機 AI 影像生成實驗」整理成一個可操作、可治理、可展示的全端平台。它同時處理三個問題：
 
-專案採清楚的分層設計：`core/` 收斂與框架無關的領域邏輯，包含統一的 T2I Pipeline 管理器（支援 Stable Diffusion 1.5 與 SDXL、多種排程器、LoRA 動態載入、NSFW 安全過濾與浮水印）以及基於 Accelerate/Diffusers/PEFT 的 LoRA 訓練器；`api/` 提供 t2i、controlnet、lora、batch、finetune、datasets、models 與 auth 等路由；`workers/` 以 Celery 消費生成與訓練佇列。模型、快取、資料集與訓練輸出皆依照 AI_WAREHOUSE 規範外部化於檔案系統，透過環境變數而非硬編碼路徑存取。
+- AI 工具層：文生圖、ControlNet、批次生成、LoRA 訓練、模型掃描與資料集驗證。
+- 平台工程層：API 合約、非同步 queue、job state、認證、安全、可觀測性與部署。
+- 作品集展示層：GitHub Pages、截圖牆、錄影 demo、操作腳本與 README。
 
-## 非同步任務與治理
+## Demo 展示策略
 
-為避免同步請求阻塞昂貴的 GPU 運算，生成與訓練皆採用提交式（submit / status / cancel）模式。系統實作每使用者與全域的並發與佇列上限、基於成本單位的節流，以及輸出檔案 TTL 清理，讓平台在有限 GPU 資源下仍可受控運行。
+公開 demo 採用 static-first 策略。GitHub Pages 不能執行 GPU inference、Redis、Celery 或私有模型權重，因此 demo 以 mock state 和錄製素材呈現完整產品體驗：
 
-## 安全與可觀測性
+1. 先看 Dashboard，理解平台定位與技術棧。
+2. 切換 Text-to-Image、ControlNet、Batch、LoRA Training 四個 scenario。
+3. 觀察 prompt/config、output preview、job timeline 與 API contract 如何互相對應。
+4. 打開 media section 查看截圖牆與 MP4 walkthrough。
+5. 進入 architecture/runbook 理解本機 full-stack 啟動方式。
 
-認證層支援雜湊儲存的受管 API Key（`cfk_` 格式）、可交換的 JWT 存取／刷新權杖（含 HttpOnly cookie 與 CSRF 防護），以及針對瀏覽器 WebSocket 的短效、單次使用票券。多桶速率限制涵蓋認證、上傳、資料集與 T2I 成本。可觀測性方面提供 Prometheus 指標、JSON 結構化請求日誌、`X-Request-ID` 追蹤與統一錯誤回應格式。
+## 技術架構
+
+```text
+React/Vite Operator UI
+  -> FastAPI /api/v1
+  -> Redis + Celery queues
+  -> Diffusers / PEFT / PyTorch workers
+  -> AI_WAREHOUSE filesystem
+```
+
+後端以 FastAPI 提供版本化 API，路由拆分為 `t2i`、`controlnet`、`batch`、`finetune`、`datasets`、`models`、`auth` 與 WebSocket。長時間任務不直接阻塞 HTTP request，而是使用 submit/status/cancel 模型：前端提交任務後取得 `job_id`，後續透過 status endpoint 或 WebSocket 追蹤進度。
+
+## 工程亮點
+
+| 面向 | 實作重點 | 面試官可觀察的能力 |
+| --- | --- | --- |
+| API 設計 | FastAPI routers、typed request/response、Swagger docs | 清楚的 backend boundary 與 API 合約 |
+| 非同步工作 | Redis/Celery、job state、cancel/cleanup | 長任務治理與 GPU 資源控管 |
+| AI 整合 | Diffusers、PEFT、Accelerate、ControlNet hooks | 能把 AI library 包成產品流程 |
+| 安全 | API Key、JWT、CSRF、WebSocket ticket | 對公開 API 的基本安全設計 |
+| 前端 | React/Vite dashboard、scenario UI、gallery | 能把工程流程轉成可操作介面 |
+| 展示 | GitHub Pages、截圖、錄影、README | 能把專案整理成可被快速理解的作品 |
 
 ## 現況
 
-本平台為可運行的原型，可在本機 GPU 與 Docker Compose 環境啟動。依專案定位分析，其分散式訓練佇列、認證與訓練評估等獨特模組規劃整併進範圍更廣的內容創作平台。
+目前最適合以作品集方式評估：線上 demo 用於快速理解產品與流程，本機 repo 則保留完整 API、worker、React dashboard 與測試。若要跑真實 inference，需要準備相容的 PyTorch/Diffusers/PEFT 環境、Stable Diffusion/SDXL/ControlNet/LoRA 權重、Redis 與足夠 GPU/CPU 記憶體。

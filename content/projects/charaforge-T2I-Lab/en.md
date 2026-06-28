@@ -1,43 +1,70 @@
 ---
-title: "CharaForge T2I Lab — Text-to-Image & LoRA Fine-tuning Platform"
-tagline: "A full-stack AI lab unifying diffusion inference, LoRA training, and model governance"
-summary: "A text-to-image platform built with FastAPI and React that unifies Stable Diffusion 1.5/SDXL inference, PEFT LoRA fine-tuning, ControlNet conditioning, and model-warehouse management. Long-running generation and training jobs run on a Celery + Redis async queue with live WebSocket progress, guarded by JWT/API-key auth and rate limiting, and run on local GPU or Docker."
-role: "Solo developer: end-to-end design and implementation of the backend API, inference/training core, Celery workers, React frontend, authentication, and deployment."
-problem: "Character-focused text-to-image workflows are usually scattered across ad-hoc scripts and notebooks: models live loosely on the filesystem, LoRA training lacks scheduling and progress visibility, generation calls block synchronously with no concurrency or cost governance, and there is no auth or rate limiting for exposing the service. I needed one platform that unified inference, training, model management, and access control."
-solution: "I designed a layered architecture. `core/` encapsulates a unified T2I Pipeline manager (multiple schedulers, SD1.5/SDXL, dynamic LoRA load/unload, NSFW safety filtering, and watermarking) and a LoRA trainer (Accelerate + Diffusers + PEFT). `api/` exposes versioned `/api/v1` FastAPI routers spanning t2i, controlnet, lora, batch, finetune, datasets, models, and auth, with long jobs handled via a submit/status/cancel async model. `workers/` runs Celery consumers for the t2i and training queues. The React 19 + Vite + Zustand frontend provides generation, batch, training, LoRA, and gallery modules and receives live training progress over WebSocket. The security layer implements hashed managed API keys (the `cfk_` format), JWT access/refresh tokens with CSRF protection, short-lived single-use WebSocket tickets, and multi-bucket rate limiting."
-outcome: "Delivered a working prototype: the API, T2I worker, training worker, and React UI all start locally, with Docker Compose orchestrating the backend, Redis, and workers. Model scanning builds a registry; generation and training run on async queues with per-owner/global concurrency and cost governance; CLIP and face-consistency evaluators, Prometheus metrics, and structured request logs are integrated. The project is positioned to have its distinctive modules (distributed training queue, auth, training evaluators) absorbed into a larger content-creation platform."
+title: "CharaForge T2I Lab — Text-to-Image, ControlNet, and LoRA Training Platform"
+tagline: "A local AI generation workflow packaged into a reviewable full-stack demo platform"
+summary: "CharaForge T2I Lab is a portfolio-ready AI image generation platform. The FastAPI backend exposes text-to-image, ControlNet, batch generation, LoRA training, model scanning, dataset validation, and authentication APIs; Redis/Celery handles long-running jobs; and the React + Vite frontend presents generation, training, job state, and gallery flows. The public GitHub Pages demo includes interactive mock scenarios, screenshot gallery, MP4 walkthrough, architecture notes, and a reviewer runbook so interviewers can understand the system without GPU access or model weights."
+role: "Solo developer: product framing, FastAPI backend, T2I/LoRA/ControlNet workflow design, Celery workers, React operator UI, auth/security, documentation, static demo, and GitHub Pages deployment."
+problem: "Local AI image generation often lives across WebUIs, scripts, notebooks, and loose model folders. Prompt, seed, LoRA, ControlNet, datasets, training output, and generated files are hard to govern together; long-running generation and training can block APIs; shared GPU resources need queueing, concurrency limits, cost controls, and observability; and a portfolio reviewer should not need to install model weights or start a GPU environment."
+solution: "I split the project into two layers: a runnable local full-stack platform and a stable public static demo. The full-stack platform exposes a versioned FastAPI `/api/v1` contract for t2i, controlnet, batch, lora, finetune, datasets, models, and auth; `core/` encapsulates Diffusers/PEFT/PyTorch logic; `workers/` consumes generation and training jobs with Celery; Redis stores queue/job/progress state; and the React UI turns the workflow into an operator dashboard. The static demo uses reproducible mock state, screenshots, and a recorded walkthrough deployed to GitHub Pages for interview review."
+outcome: "The project is now packaged as a demonstrable portfolio piece. The GitHub Pages demo can be opened directly and includes interactive scenarios, screenshots, recorded demo, architecture explanation, and runbook. The README documents setup, tests, deployment, and architecture. CI/Pages deployment works from `main`. The codebase passes ruff, pytest, React lint/test/build, and npm audit checks; backend tests cover health, model scanning, datasets, auth/security, ownership, WebSocket tickets, and observability behavior."
 highlights:
-  - "Unified T2I Pipeline manager supporting SD1.5/SDXL, multiple schedulers (DDIM/DPM++/Euler-A/LMS/PNDM), and dynamic LoRA load/unload"
-  - "Celery + Redis async queue: both generation and training use a submit/status/cancel model with per-owner and global concurrency/queue limits"
-  - "Full ControlNet endpoints: pose, depth, canny, and lineart conditioned generation"
-  - "Production-grade auth: API keys, JWT (with refresh and CSRF), short-lived WebSocket tickets, and multi-bucket rate limiting"
-  - "LoRA training core on Accelerate + Diffusers + PEFT, paired with CLIP and face-consistency evaluators"
-  - "Observability: Prometheus metrics, JSON request logs, X-Request-ID tracing, and a uniform error format"
+  - "GPU-free GitHub Pages demo with interactive scenarios, screenshot gallery, MP4 walkthrough, architecture notes, and reviewer runbook"
+  - "FastAPI `/api/v1` API covering t2i, controlnet, batch, finetune, datasets, models, auth, and WebSocket flows"
+  - "Celery + Redis async jobs with submit/status/cancel modeling for generation, model scanning, and LoRA training"
+  - "AI pipeline integration with PyTorch, Diffusers, Transformers, Accelerate, PEFT, and safetensors"
+  - "Security and governance: API keys, JWT refresh cookies, CSRF, short-lived WebSocket tickets, and rate-limit buckets"
+  - "Observability and operations: Prometheus metrics, JSON request logs, X-Request-ID, and consistent error responses"
+  - "Portfolio packaging: README, docs, screenshots, recording, demo script, and deployment workflow"
 challenges:
-  - "Coordinating concurrent generation and training on a shared GPU under a single pipeline lock to avoid VRAM contention while keeping jobs governed"
-  - "Designing a secure auth flow for browser WebSockets, replacing credentials-in-query-params with short-lived single-use tickets"
-  - "Externalizing models, caches, datasets, and training outputs per the AI_WAREHOUSE convention, avoiding hard-coded paths so containers and local runs share one warehouse"
+  - "Turning heavy GPU workloads into governed async API flows while keeping local model/dataset paths flexible"
+  - "Designing a GitHub Pages showcase that communicates the project clearly despite not being able to run backend/GPU work"
+  - "Converting an internal AI tooling project into a portfolio artifact with screenshots, recording, flow, and runbook"
 nextSteps:
-  - "Absorb the distinctive modules (distributed training queue, auth, training evaluators) into the broader anime-adventure-lab content platform"
-  - "Expand advanced workflows for ControlNet and multi-LoRA composition"
-  - "Strengthen end-to-end integration tests and regression coverage for GPU environments"
+  - "Add more recordings and metrics from real GPU inference/training sessions"
+  - "Automate screenshots and demo recording through Playwright so showcase assets are reproducible"
+  - "Expand E2E and GPU smoke tests so the local full inference path is easier to validate"
 ---
-## Overview
 
-CharaForge T2I Lab is a character-centric text-to-image lab that unifies diffusion inference, LoRA fine-tuning, and model governance in a single full-stack system. The backend is a FastAPI service exposing a versioned `/api/v1` REST API plus WebSocket; the frontend is a React 19 + Vite single-page app; and long-running generation and training jobs are offloaded to a Celery + Redis async queue.
+## Positioning
 
-## Architecture
+CharaForge T2I Lab is not just an image generation screen. It packages a local AI image-generation workflow into a full-stack platform that can be operated, governed, and reviewed. It covers three layers:
 
-The project follows a clean layered design. `core/` holds framework-agnostic domain logic — a unified T2I Pipeline manager (Stable Diffusion 1.5 and SDXL, multiple schedulers, dynamic LoRA loading, NSFW safety filtering, and watermarking) plus a LoRA trainer built on Accelerate, Diffusers, and PEFT. `api/` provides routers for t2i, controlnet, lora, batch, finetune, datasets, models, and auth. `workers/` runs Celery consumers for the generation and training queues. Models, caches, datasets, and training outputs are externalized on the filesystem per the AI_WAREHOUSE convention and accessed via environment variables rather than hard-coded paths.
+- AI tooling: text-to-image, ControlNet, batch generation, LoRA training, model scanning, and dataset validation.
+- Platform engineering: API contracts, async queues, job state, auth, security, observability, and deployment.
+- Portfolio presentation: GitHub Pages, screenshots, recorded demo, walkthrough script, and README.
 
-## Async jobs and governance
+## Demo Strategy
 
-To keep synchronous requests from blocking expensive GPU work, both generation and training use a submit/status/cancel model. The system enforces per-owner and global concurrency/queue limits, cost-based throttling, and TTL cleanup of output files, keeping the platform controllable under limited GPU resources.
+The public demo uses a static-first approach. GitHub Pages cannot run GPU inference, Redis, Celery, or private model weights, so the demo presents the product experience through mock state and recorded assets:
 
-## Security and observability
+1. Start with the dashboard to understand product positioning and stack.
+2. Switch through Text-to-Image, ControlNet, Batch, and LoRA Training scenarios.
+3. Observe how prompt/config, output preview, job timeline, and API contract map to each other.
+4. Open the media section for screenshot gallery and MP4 walkthrough.
+5. Review architecture/runbook to understand the local full-stack path.
 
-The auth layer supports hashed managed API keys (the `cfk_` format), exchangeable JWT access/refresh tokens (with HttpOnly cookies and CSRF protection), and short-lived single-use tickets for browser WebSockets. Multi-bucket rate limiting covers auth, uploads, datasets, and T2I cost. For observability it offers Prometheus metrics, structured JSON request logs, `X-Request-ID` tracing, and a uniform error response format.
+## Technical Architecture
 
-## Status
+```text
+React/Vite Operator UI
+  -> FastAPI /api/v1
+  -> Redis + Celery queues
+  -> Diffusers / PEFT / PyTorch workers
+  -> AI_WAREHOUSE filesystem
+```
 
-The platform is a working prototype that runs on local GPU and via Docker Compose. Per the project positioning analysis, its distinctive modules — distributed training queue, authentication, and training evaluators — are slated to be merged into a broader content-creation platform.
+The backend exposes a versioned FastAPI API with separate routers for `t2i`, `controlnet`, `batch`, `finetune`, `datasets`, `models`, `auth`, and WebSocket progress. Long-running work does not block HTTP requests directly. Instead, the frontend submits a job, receives a `job_id`, then tracks progress through status endpoints or WebSocket updates.
+
+## Engineering Highlights
+
+| Area | Implementation | What it demonstrates |
+| --- | --- | --- |
+| API design | FastAPI routers, typed request/response, Swagger docs | Clear backend boundaries and contracts |
+| Async jobs | Redis/Celery, job state, cancel/cleanup | Long-running workload governance |
+| AI integration | Diffusers, PEFT, Accelerate, ControlNet hooks | Turning AI libraries into product workflows |
+| Security | API keys, JWT, CSRF, WebSocket tickets | Practical API exposure and auth design |
+| Frontend | React/Vite dashboard, scenario UI, gallery | Translating engineering flows into usable screens |
+| Portfolio packaging | GitHub Pages, screenshots, recording, README | Making a complex project quickly reviewable |
+
+## Current Status
+
+The project is best evaluated as an engineering portfolio case study. The live demo explains the product and workflow quickly, while the repository keeps the full API, worker, React dashboard, and tests. Real inference requires compatible PyTorch/Diffusers/PEFT packages, Stable Diffusion/SDXL/ControlNet/LoRA weights, Redis, and enough GPU/CPU memory.
