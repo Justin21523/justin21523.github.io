@@ -14,7 +14,7 @@
     "Vite",
     "Docker"
   ],
-  "coverImage": "/portfolio/projects/quant-strategy-agent-lab/cover.webp",
+  "coverImage": "/projects/quant-strategy-agent-lab/videos/posters/playwright-external-live-demo.webp",
   "links": [
     {
       "kind": "live",
@@ -40,16 +40,19 @@
         "zh-TW": "閱讀 README",
         "en": "Read README"
       }
+    },
+    {
+      "kind": "video",
+      "url": "/projects/quant-strategy-agent-lab#demo-video",
+      "label": {
+        "zh-TW": "觀看導覽影片",
+        "en": "Watch Demo Video"
+      }
     }
   ],
   "metadata": {
     "needsReview": false,
-    "missingFields": [
-      "reviewed zh-TW case study",
-      "reviewed English case study",
-      "verified media assets",
-      "verified public links"
-    ],
+    "missingFields": [],
     "projectType": "全端量化研究工作台",
     "domains": [
       "量化交易",
@@ -97,7 +100,9 @@
       "local-first",
       "sharpe-ratio",
       "fastapi",
-      "vanilla-js"
+      "vanilla-js",
+      "github-pages",
+      "playwright"
     ]
   }
 }

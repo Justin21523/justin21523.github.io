@@ -2,14 +2,17 @@
 
 ## Completed
 - Portfolio case study exists for `quant-strategy-agent-lab`.
-- Four CTA slots are present with verified links or honest preparing states.
-- Public asset folders, preview media, and external static demo are available.
-- README release notes status: updated-release-section.
+- Live demo, GitHub, README, and demo video links are present.
+- Playwright showcase media was regenerated from the current app.
+- GitHub Pages live demo target is `https://justin21523.github.io/quant-strategy-agent-lab/`.
+- Public demo uses static fixture snapshots so it can run without a FastAPI backend.
 
 ## Changed Files
-- `docs/portfolio-release/projects/quant-strategy-agent-lab/audit.md`
-- `docs/portfolio-release/projects/quant-strategy-agent-lab/release-report.md`
+- `content/projects/quant-strategy-agent-lab/project.override.json`
+- `content/projects/quant-strategy-agent-lab/zh-TW.md`
+- `content/projects/quant-strategy-agent-lab/en.md`
 - `docs/demo-scripts/quant-strategy-agent-lab.md`
+- `docs/portfolio-release/projects/quant-strategy-agent-lab/release-report.md`
 - `public/projects/quant-strategy-agent-lab/`
 
 ## Links
@@ -20,41 +23,21 @@
 - Demo Video: /projects/quant-strategy-agent-lab#demo-video
 
 ## Build / Run Status
-- Install: No package install command detected.
-- Run: No verified run command detected.
-- Build: No verified build command detected.
-- Test: No test script detected.
-- Lint: No lint script detected.
+- Quant frontend static build: `npm run build:pages`
+- Quant showcase capture: `npm run showcase:capture`
+- Full local app: FastAPI backend + Vite frontend
+- Public demo: static GitHub Pages fixture mode
 
 ## Assets
-- Hero image: public/projects/quant-strategy-agent-lab/hero.png
-- Screenshots: public/projects/quant-strategy-agent-lab/screenshots/
-- Demo video: manual recording guide
-- Diagrams: public/projects/quant-strategy-agent-lab/diagrams/
+- Hero image: `public/projects/quant-strategy-agent-lab/hero.png`
+- Screenshots: `public/projects/quant-strategy-agent-lab/screenshots/`
+- Demo video: `public/projects/quant-strategy-agent-lab/videos/playwright-external-live-demo.webm`
+- Video poster: `public/projects/quant-strategy-agent-lab/videos/posters/playwright-external-live-demo.webp`
 
 ## Manual Follow-up Needed
-- Replace placeholder screenshots with real project screenshots.
-- Record and link a real demo video.
-- Verify or add build instructions.
-- Verify or add run instructions.
+- None.
 
 ## Notes for Interview
-- State the current maturity and demonstrable scope first
-- Focus on verified stack, source structure, and completed behavior
-- Do not claim unverified deployment, video, or test coverage as finished
-
-<!-- quality-pass:start -->
-## Quality Pass
-- README: portfolio-grade; updated-quality-section
-- Install: no npm package manifest
-- Run: no verified run command detected
-- Build: not applicable
-- Test: no test script detected
-- Lint: no lint script detected
-- Screenshots: real screenshots present; captured 4 new
-- Demo video: real video present
-- Deployment: external live demo link present
-
-### Remaining Manual Work
-- None.
-<!-- quality-pass:end -->
+- Emphasize the workflow breadth: universe, sync, quality, scanner, portfolio, jobs, performance, and report exports.
+- State clearly that public demo data is deterministic synthetic fixture data and not investment advice.
+- Mention that GitHub Pages uses static snapshots while the local version runs the full FastAPI/SQLite stack.
