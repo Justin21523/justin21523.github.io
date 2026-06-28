@@ -91,6 +91,34 @@
       "featured": true
     }
   ],
+  "content": {
+    "zh-TW": {
+      "technicalHighlights": [
+        "FastAPI 分層 service 架構串接資料剖析、EDA、視覺化、ML 訓練、模型評估、SHAP 解釋、漂移檢查與報告產生",
+        "LangGraph 多代理 workflow 將 Planner、Profiler、Visualizer、Trainer、Explainer、Reporter 組成可重跑的資料科學流程",
+        "Vanilla JavaScript frontend 採 lazy-loaded partials、sidebar/top context bar/right inspector、section subnav 與 workspace context persistence",
+        "19 步小幫手導覽會跨 route 聚焦 UI 區塊，包含高亮框、粒子效果、右下角步驟面板與自動導覽流程",
+        "GitHub Pages 靜態 demo 使用 browser mock API 與 deterministic fixture，在沒有後端服務時仍能展示完整主要工作流",
+        "Playwright UI backtest、full workflow backtest、pytest、ruff、mypy 與 DOM contract check 覆蓋主要展示與工程品質"
+      ],
+      "dataFlow": "使用者上傳 CSV 後，系統建立 active workspace context，接著依序執行 dataset preview、schema profiling、EDA、Visualization Lab、ML Workbench、model registry、prediction、explainability、drift center、report center 與 backtest artifact viewer。靜態 GitHub Pages demo 以 mock API 回傳相同契約資料，因此 portfolio 訪客能在瀏覽器中操作完整流程；本機或 Docker 環境則可接 FastAPI、PostgreSQL、Qdrant 與 llama.cpp 執行真實 service。",
+      "projectStructure": "dataagent-analyst/\n  backend/                 # FastAPI routes, schemas, services, core settings, model lifecycle logic\n  frontend/                # Vanilla JS app shell, partials, feature modules, UI state and guided tour\n  scripts/                 # static demo build, Playwright media capture, UI/full backtest workflows\n  data/                    # sample datasets, generated reports, backtest artifacts and local runtime files\n  deploy/                  # nginx and deployment support\n  compose.yaml             # PostgreSQL, Qdrant, llama.cpp, API and frontend services\n  README.md                # setup, demo, validation and deployment documentation",
+      "setupGuide": "Static demo: open https://justin21523.github.io/dataagent-analyst/ or run `make static-demo` and serve `dist/github-pages` locally.\nLocal validation: run `bash scripts/check_project.sh`, `make ui-backtest`, and `make full-backtest` from the repo root.\nPortfolio media: run `make portfolio-media` to regenerate the Playwright screenshots and demo recording used by this case study.\nFull stack: copy `.env.example`, then use Docker Compose or the README's local FastAPI/frontend commands to run the API, frontend, PostgreSQL, Qdrant and optional llama.cpp services."
+    },
+    "en": {
+      "technicalHighlights": [
+        "Layered FastAPI services connect profiling, EDA, visualization, ML training, evaluation, SHAP explanation, drift checks, and report generation",
+        "LangGraph orchestrates Planner, Profiler, Visualizer, Trainer, Explainer, and Reporter agents into a repeatable data-science workflow",
+        "The vanilla-JavaScript frontend uses lazy-loaded partials, sidebar/top context bar/right inspector layout, section subnav, and workspace context persistence",
+        "A 19-step guided tour moves across routes with focus frames, particle effects, a lower-right step panel, and automatic navigation",
+        "The GitHub Pages static demo uses a browser mock API and deterministic fixtures so the main workflow works without backend services",
+        "Playwright UI backtests, full workflow backtests, pytest, ruff, mypy, and DOM contract checks cover the showcase and engineering quality"
+      ],
+      "dataFlow": "After a user uploads a CSV, the app creates an active workspace context and moves through dataset preview, schema profiling, EDA, Visualization Lab, ML Workbench, model registry, prediction, explainability, drift center, report center, and the backtest artifact viewer. The static GitHub Pages demo returns the same API contracts through a browser mock API, so portfolio visitors can operate the full flow in-browser; local or Docker environments can connect the real FastAPI services with PostgreSQL, Qdrant, and llama.cpp.",
+      "projectStructure": "dataagent-analyst/\n  backend/                 # FastAPI routes, schemas, services, core settings, and model lifecycle logic\n  frontend/                # Vanilla JS app shell, partials, feature modules, UI state, and guided tour\n  scripts/                 # static demo build, Playwright media capture, UI/full backtest workflows\n  data/                    # sample datasets, generated reports, backtest artifacts, and local runtime files\n  deploy/                  # nginx and deployment support\n  compose.yaml             # PostgreSQL, Qdrant, llama.cpp, API, and frontend services\n  README.md                # setup, demo, validation, and deployment documentation",
+      "setupGuide": "Static demo: open https://justin21523.github.io/dataagent-analyst/ or run `make static-demo` and serve `dist/github-pages` locally.\nLocal validation: run `bash scripts/check_project.sh`, `make ui-backtest`, and `make full-backtest` from the repo root.\nPortfolio media: run `make portfolio-media` to regenerate the Playwright screenshots and demo recording used by this case study.\nFull stack: copy `.env.example`, then use Docker Compose or the README's local FastAPI/frontend commands to run the API, frontend, PostgreSQL, Qdrant, and optional llama.cpp services."
+    }
+  },
   "metadata": {
     "needsReview": false,
     "missingFields": [],

@@ -646,7 +646,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.855Z",
+      "lastScannedAt": "2026-06-28T22:06:44.494Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1410,7 +1410,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.860Z",
+      "lastScannedAt": "2026-06-28T22:06:44.498Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1757,7 +1757,7 @@
         "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.861Z",
+      "lastScannedAt": "2026-06-28T22:06:44.499Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -2107,7 +2107,7 @@
         "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.861Z",
+      "lastScannedAt": "2026-06-28T22:06:44.500Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -3057,7 +3057,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.863Z",
+      "lastScannedAt": "2026-06-28T22:06:44.501Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3589,7 +3589,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.864Z",
+      "lastScannedAt": "2026-06-28T22:06:44.503Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3963,7 +3963,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.865Z",
+      "lastScannedAt": "2026-06-28T22:06:44.503Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4429,7 +4429,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.865Z",
+      "lastScannedAt": "2026-06-28T22:06:44.504Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4970,7 +4970,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.866Z",
+      "lastScannedAt": "2026-06-28T22:06:44.505Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -5719,7 +5719,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.867Z",
+      "lastScannedAt": "2026-06-28T22:06:44.506Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -6295,7 +6295,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.868Z",
+      "lastScannedAt": "2026-06-28T22:06:44.507Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -6635,7 +6635,7 @@
         "content/projects/anime-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.869Z",
+      "lastScannedAt": "2026-06-28T22:06:44.508Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7026,7 +7026,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.870Z",
+      "lastScannedAt": "2026-06-28T22:06:44.509Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -7557,7 +7557,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.871Z",
+      "lastScannedAt": "2026-06-28T22:06:44.509Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7881,7 +7881,7 @@
         "content/projects/AutoForge-llm-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.871Z",
+      "lastScannedAt": "2026-06-28T22:06:44.510Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8213,7 +8213,7 @@
         "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.872Z",
+      "lastScannedAt": "2026-06-28T22:06:44.511Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8716,7 +8716,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.872Z",
+      "lastScannedAt": "2026-06-28T22:06:44.511Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -9117,7 +9117,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.873Z",
+      "lastScannedAt": "2026-06-28T22:06:44.512Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9740,7 +9740,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.874Z",
+      "lastScannedAt": "2026-06-28T22:06:44.513Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -10154,7 +10154,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.874Z",
+      "lastScannedAt": "2026-06-28T22:06:44.514Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -10616,7 +10616,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.875Z",
+      "lastScannedAt": "2026-06-28T22:06:44.514Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11049,7 +11049,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.875Z",
+      "lastScannedAt": "2026-06-28T22:06:44.515Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11471,7 +11471,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.876Z",
+      "lastScannedAt": "2026-06-28T22:06:44.515Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11886,7 +11886,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.876Z",
+      "lastScannedAt": "2026-06-28T22:06:44.516Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12280,7 +12280,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.877Z",
+      "lastScannedAt": "2026-06-28T22:06:44.516Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -12619,7 +12619,7 @@
         "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.877Z",
+      "lastScannedAt": "2026-06-28T22:06:44.517Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -13391,7 +13391,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.877Z",
+      "lastScannedAt": "2026-06-28T22:06:44.518Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -13420,14 +13420,17 @@
           "需要快速理解專案目的、技術棧與成熟度的技術讀者"
         ],
         "technicalHighlights": [
-          "偵測到的主要技術線索：FastAPI, Python 3.12, scikit-learn, LangGraph, llama.cpp, pandas, SHAP, Vanilla JavaScript, Docker Compose, Apache ECharts",
-          "已有 README 作為後續補齊案例研究的依據",
-          "尚未確認公開 GitHub repository，作品集會先標示 GitHub 待補"
+          "FastAPI 分層 service 架構串接資料剖析、EDA、視覺化、ML 訓練、模型評估、SHAP 解釋、漂移檢查與報告產生",
+          "LangGraph 多代理 workflow 將 Planner、Profiler、Visualizer、Trainer、Explainer、Reporter 組成可重跑的資料科學流程",
+          "Vanilla JavaScript frontend 採 lazy-loaded partials、sidebar/top context bar/right inspector、section subnav 與 workspace context persistence",
+          "19 步小幫手導覽會跨 route 聚焦 UI 區塊，包含高亮框、粒子效果、右下角步驟面板與自動導覽流程",
+          "GitHub Pages 靜態 demo 使用 browser mock API 與 deterministic fixture，在沒有後端服務時仍能展示完整主要工作流",
+          "Playwright UI backtest、full workflow backtest、pytest、ruff、mypy 與 DOM contract check 覆蓋主要展示與工程品質"
         ],
         "architecture": "此專案目前由 portfolio catalog pipeline 依 README、Git metadata、package/build 設定與素材線索建立案例頁。正式架構說明仍需依實際 source code 補齊；目前可確認的技術線索包含：FastAPI, Python 3.12, scikit-learn, LangGraph, llama.cpp, pandas, SHAP, Vanilla JavaScript, Docker Compose, Apache ECharts。",
-        "dataFlow": "目前尚未完成可公開的資料流程說明。若此專案含資料處理、AI pipeline 或後端 API，後續應補上 input、processing、storage、UI/output 的端到端流程。",
-        "projectStructure": "dataagent-analyst/\n  README.md              # project documentation, when available\n  source files           # implementation reviewed by local audit\n  package/build config   # detected capability signals",
-        "setupGuide": "This project does not expose a verified runnable web command yet. Review the README/source tree and add exact install, run, test, and build commands before interview use.\nNo verified build command was detected. Treat the current portfolio page as a case-study placeholder until build steps are reviewed.",
+        "dataFlow": "使用者上傳 CSV 後，系統建立 active workspace context，接著依序執行 dataset preview、schema profiling、EDA、Visualization Lab、ML Workbench、model registry、prediction、explainability、drift center、report center 與 backtest artifact viewer。靜態 GitHub Pages demo 以 mock API 回傳相同契約資料，因此 portfolio 訪客能在瀏覽器中操作完整流程；本機或 Docker 環境則可接 FastAPI、PostgreSQL、Qdrant 與 llama.cpp 執行真實 service。",
+        "projectStructure": "dataagent-analyst/\n  backend/                 # FastAPI routes, schemas, services, core settings, model lifecycle logic\n  frontend/                # Vanilla JS app shell, partials, feature modules, UI state and guided tour\n  scripts/                 # static demo build, Playwright media capture, UI/full backtest workflows\n  data/                    # sample datasets, generated reports, backtest artifacts and local runtime files\n  deploy/                  # nginx and deployment support\n  compose.yaml             # PostgreSQL, Qdrant, llama.cpp, API and frontend services\n  README.md                # setup, demo, validation and deployment documentation",
+        "setupGuide": "Static demo: open https://justin21523.github.io/dataagent-analyst/ or run `make static-demo` and serve `dist/github-pages` locally.\nLocal validation: run `bash scripts/check_project.sh`, `make ui-backtest`, and `make full-backtest` from the repo root.\nPortfolio media: run `make portfolio-media` to regenerate the Playwright screenshots and demo recording used by this case study.\nFull stack: copy `.env.example`, then use Docker Compose or the README's local FastAPI/frontend commands to run the API, frontend, PostgreSQL, Qdrant and optional llama.cpp services.",
         "futureImprovements": [
           "補齊正式 README、截圖與 demo recording",
           "補上架構圖、資料流程與關鍵技術決策",
@@ -13474,14 +13477,17 @@
           "Technical readers who need a quick view of purpose, stack, and maturity"
         ],
         "technicalHighlights": [
-          "Detected technical signals: FastAPI, Python 3.12, scikit-learn, LangGraph, llama.cpp, pandas, SHAP, Vanilla JavaScript, Docker Compose, Apache ECharts",
-          "README evidence exists and can support a fuller reviewed case study",
-          "A public GitHub repository is not verified yet; the portfolio marks it as pending"
+          "Layered FastAPI services connect profiling, EDA, visualization, ML training, evaluation, SHAP explanation, drift checks, and report generation",
+          "LangGraph orchestrates Planner, Profiler, Visualizer, Trainer, Explainer, and Reporter agents into a repeatable data-science workflow",
+          "The vanilla-JavaScript frontend uses lazy-loaded partials, sidebar/top context bar/right inspector layout, section subnav, and workspace context persistence",
+          "A 19-step guided tour moves across routes with focus frames, particle effects, a lower-right step panel, and automatic navigation",
+          "The GitHub Pages static demo uses a browser mock API and deterministic fixtures so the main workflow works without backend services",
+          "Playwright UI backtests, full workflow backtests, pytest, ruff, mypy, and DOM contract checks cover the showcase and engineering quality"
         ],
         "architecture": "This case study is generated from the portfolio catalog pipeline using README, Git metadata, package/build configuration, and media signals. The final architecture narrative still needs source-level review. Current detected technology signals include: FastAPI, Python 3.12, scikit-learn, LangGraph, llama.cpp, pandas, SHAP, Vanilla JavaScript, Docker Compose, Apache ECharts.",
-        "dataFlow": "A public data-flow narrative is not fully reviewed yet. If the project includes data processing, AI pipelines, or backend APIs, the next pass should document input, processing, storage, and UI/output flow end to end.",
-        "projectStructure": "dataagent-analyst/\n  README.md              # project documentation, when available\n  source files           # implementation reviewed by local audit\n  package/build config   # detected capability signals",
-        "setupGuide": "This project does not expose a verified runnable web command yet. Review the README/source tree and add exact install, run, test, and build commands before interview use.\nNo verified build command was detected. Treat the current portfolio page as a case-study placeholder until build steps are reviewed.",
+        "dataFlow": "After a user uploads a CSV, the app creates an active workspace context and moves through dataset preview, schema profiling, EDA, Visualization Lab, ML Workbench, model registry, prediction, explainability, drift center, report center, and the backtest artifact viewer. The static GitHub Pages demo returns the same API contracts through a browser mock API, so portfolio visitors can operate the full flow in-browser; local or Docker environments can connect the real FastAPI services with PostgreSQL, Qdrant, and llama.cpp.",
+        "projectStructure": "dataagent-analyst/\n  backend/                 # FastAPI routes, schemas, services, core settings, and model lifecycle logic\n  frontend/                # Vanilla JS app shell, partials, feature modules, UI state, and guided tour\n  scripts/                 # static demo build, Playwright media capture, UI/full backtest workflows\n  data/                    # sample datasets, generated reports, backtest artifacts, and local runtime files\n  deploy/                  # nginx and deployment support\n  compose.yaml             # PostgreSQL, Qdrant, llama.cpp, API, and frontend services\n  README.md                # setup, demo, validation, and deployment documentation",
+        "setupGuide": "Static demo: open https://justin21523.github.io/dataagent-analyst/ or run `make static-demo` and serve `dist/github-pages` locally.\nLocal validation: run `bash scripts/check_project.sh`, `make ui-backtest`, and `make full-backtest` from the repo root.\nPortfolio media: run `make portfolio-media` to regenerate the Playwright screenshots and demo recording used by this case study.\nFull stack: copy `.env.example`, then use Docker Compose or the README's local FastAPI/frontend commands to run the API, frontend, PostgreSQL, Qdrant, and optional llama.cpp services.",
         "futureImprovements": [
           "Complete the production-quality README, screenshots, and demo recording",
           "Add architecture diagrams, data-flow notes, and key technical decisions",
@@ -13747,7 +13753,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.878Z",
+      "lastScannedAt": "2026-06-28T22:06:44.519Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14249,7 +14255,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.879Z",
+      "lastScannedAt": "2026-06-28T22:06:44.520Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -14622,7 +14628,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.879Z",
+      "lastScannedAt": "2026-06-28T22:06:44.520Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14987,7 +14993,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.880Z",
+      "lastScannedAt": "2026-06-28T22:06:44.521Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -15419,7 +15425,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.880Z",
+      "lastScannedAt": "2026-06-28T22:06:44.521Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -15762,7 +15768,7 @@
         "content/projects/dom-visualizer-oop/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.881Z",
+      "lastScannedAt": "2026-06-28T22:06:44.522Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -16091,7 +16097,7 @@
         "content/projects/edge-deid-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.881Z",
+      "lastScannedAt": "2026-06-28T22:06:44.522Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -16432,7 +16438,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.881Z",
+      "lastScannedAt": "2026-06-28T22:06:44.523Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -17237,7 +17243,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.882Z",
+      "lastScannedAt": "2026-06-28T22:06:44.524Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -18081,7 +18087,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.883Z",
+      "lastScannedAt": "2026-06-28T22:06:44.525Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -18492,7 +18498,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.884Z",
+      "lastScannedAt": "2026-06-28T22:06:44.526Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -18843,7 +18849,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.884Z",
+      "lastScannedAt": "2026-06-28T22:06:44.526Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -19342,7 +19348,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.885Z",
+      "lastScannedAt": "2026-06-28T22:06:44.527Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -19751,7 +19757,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.885Z",
+      "lastScannedAt": "2026-06-28T22:06:44.527Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -20188,7 +20194,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.886Z",
+      "lastScannedAt": "2026-06-28T22:06:44.528Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -20598,7 +20604,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.886Z",
+      "lastScannedAt": "2026-06-28T22:06:44.528Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -20998,7 +21004,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.886Z",
+      "lastScannedAt": "2026-06-28T22:06:44.529Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -21325,7 +21331,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.887Z",
+      "lastScannedAt": "2026-06-28T22:06:44.529Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -21773,7 +21779,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.887Z",
+      "lastScannedAt": "2026-06-28T22:06:44.530Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -23034,7 +23040,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.888Z",
+      "lastScannedAt": "2026-06-28T22:06:44.531Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -23475,7 +23481,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.889Z",
+      "lastScannedAt": "2026-06-28T22:06:44.532Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -23916,7 +23922,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.889Z",
+      "lastScannedAt": "2026-06-28T22:06:44.532Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -24341,7 +24347,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.890Z",
+      "lastScannedAt": "2026-06-28T22:06:44.533Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -25101,7 +25107,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.890Z",
+      "lastScannedAt": "2026-06-28T22:06:44.534Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -25438,7 +25444,7 @@
         "content/projects/javascript-game-physics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.891Z",
+      "lastScannedAt": "2026-06-28T22:06:44.535Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -25969,7 +25975,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.892Z",
+      "lastScannedAt": "2026-06-28T22:06:44.535Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -26316,7 +26322,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.892Z",
+      "lastScannedAt": "2026-06-28T22:06:44.536Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -26773,7 +26779,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.892Z",
+      "lastScannedAt": "2026-06-28T22:06:44.536Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -27097,7 +27103,7 @@
         "content/projects/llm-switch-chat/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.893Z",
+      "lastScannedAt": "2026-06-28T22:06:44.537Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -27880,7 +27886,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.893Z",
+      "lastScannedAt": "2026-06-28T22:06:44.537Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28658,7 +28664,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.894Z",
+      "lastScannedAt": "2026-06-28T22:06:44.538Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -29064,7 +29070,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.895Z",
+      "lastScannedAt": "2026-06-28T22:06:44.539Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -29496,7 +29502,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.895Z",
+      "lastScannedAt": "2026-06-28T22:06:44.539Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -29824,7 +29830,7 @@
         "content/projects/mock-master/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.895Z",
+      "lastScannedAt": "2026-06-28T22:06:44.540Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -30167,7 +30173,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.896Z",
+      "lastScannedAt": "2026-06-28T22:06:44.540Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -30697,7 +30703,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.896Z",
+      "lastScannedAt": "2026-06-28T22:06:44.541Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -31141,7 +31147,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.897Z",
+      "lastScannedAt": "2026-06-28T22:06:44.541Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -32366,7 +32372,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.898Z",
+      "lastScannedAt": "2026-06-28T22:06:44.542Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -32725,7 +32731,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.898Z",
+      "lastScannedAt": "2026-06-28T22:06:44.543Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -33057,7 +33063,7 @@
         "content/projects/mystery-phenomena-files/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.899Z",
+      "lastScannedAt": "2026-06-28T22:06:44.544Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -33885,7 +33891,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.899Z",
+      "lastScannedAt": "2026-06-28T22:06:44.544Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -34446,7 +34452,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.900Z",
+      "lastScannedAt": "2026-06-28T22:06:44.547Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -35217,7 +35223,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.901Z",
+      "lastScannedAt": "2026-06-28T22:06:44.548Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -35646,7 +35652,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.901Z",
+      "lastScannedAt": "2026-06-28T22:06:44.549Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -36010,7 +36016,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.902Z",
+      "lastScannedAt": "2026-06-28T22:06:44.550Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -36340,7 +36346,7 @@
         "content/projects/playwright-automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.902Z",
+      "lastScannedAt": "2026-06-28T22:06:44.550Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -36803,7 +36809,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.902Z",
+      "lastScannedAt": "2026-06-28T22:06:44.551Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -37233,7 +37239,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.905Z",
+      "lastScannedAt": "2026-06-28T22:06:44.551Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -37633,7 +37639,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.905Z",
+      "lastScannedAt": "2026-06-28T22:06:44.552Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -38072,7 +38078,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.906Z",
+      "lastScannedAt": "2026-06-28T22:06:44.552Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -38491,7 +38497,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.906Z",
+      "lastScannedAt": "2026-06-28T22:06:44.553Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -38843,7 +38849,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.906Z",
+      "lastScannedAt": "2026-06-28T22:06:44.553Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -39273,7 +39279,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.907Z",
+      "lastScannedAt": "2026-06-28T22:06:44.554Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -39656,7 +39662,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.907Z",
+      "lastScannedAt": "2026-06-28T22:06:44.554Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -40109,7 +40115,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.908Z",
+      "lastScannedAt": "2026-06-28T22:06:44.555Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -40616,7 +40622,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.908Z",
+      "lastScannedAt": "2026-06-28T22:06:44.556Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -41308,7 +41314,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.909Z",
+      "lastScannedAt": "2026-06-28T22:06:44.556Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -42106,7 +42112,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.909Z",
+      "lastScannedAt": "2026-06-28T22:06:44.557Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -42477,7 +42483,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.910Z",
+      "lastScannedAt": "2026-06-28T22:06:44.558Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -42903,7 +42909,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.910Z",
+      "lastScannedAt": "2026-06-28T22:06:44.559Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -43290,7 +43296,7 @@
         "content/projects/runner-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.910Z",
+      "lastScannedAt": "2026-06-28T22:06:44.559Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -43680,7 +43686,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.911Z",
+      "lastScannedAt": "2026-06-28T22:06:44.560Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44021,7 +44027,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.911Z",
+      "lastScannedAt": "2026-06-28T22:06:44.560Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44360,7 +44366,7 @@
         "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.911Z",
+      "lastScannedAt": "2026-06-28T22:06:44.561Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -45122,7 +45128,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.912Z",
+      "lastScannedAt": "2026-06-28T22:06:44.561Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -45546,7 +45552,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.913Z",
+      "lastScannedAt": "2026-06-28T22:06:44.562Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -45884,7 +45890,7 @@
         "content/projects/smart-home-energy-monitor/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.913Z",
+      "lastScannedAt": "2026-06-28T22:06:44.562Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46216,7 +46222,7 @@
         "content/projects/soundscape-taiwan/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.913Z",
+      "lastScannedAt": "2026-06-28T22:06:44.563Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46637,7 +46643,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.914Z",
+      "lastScannedAt": "2026-06-28T22:06:44.563Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47080,7 +47086,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.914Z",
+      "lastScannedAt": "2026-06-28T22:06:44.564Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47412,7 +47418,7 @@
         "content/projects/TGW-playbook/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.914Z",
+      "lastScannedAt": "2026-06-28T22:06:44.564Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47825,7 +47831,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.915Z",
+      "lastScannedAt": "2026-06-28T22:06:44.565Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -48184,7 +48190,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.915Z",
+      "lastScannedAt": "2026-06-28T22:06:44.565Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -48527,7 +48533,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.915Z",
+      "lastScannedAt": "2026-06-28T22:06:44.566Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -48980,7 +48986,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.916Z",
+      "lastScannedAt": "2026-06-28T22:06:44.566Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -49304,7 +49310,7 @@
         "content/projects/transformer-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.916Z",
+      "lastScannedAt": "2026-06-28T22:06:44.566Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -49731,7 +49737,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.916Z",
+      "lastScannedAt": "2026-06-28T22:06:44.567Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -50063,7 +50069,7 @@
         "content/projects/tts-voice-app/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.917Z",
+      "lastScannedAt": "2026-06-28T22:06:44.568Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -50498,7 +50504,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.917Z",
+      "lastScannedAt": "2026-06-28T22:06:44.568Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -50917,7 +50923,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.918Z",
+      "lastScannedAt": "2026-06-28T22:06:44.569Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -51704,7 +51710,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.918Z",
+      "lastScannedAt": "2026-06-28T22:06:44.570Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -52126,7 +52132,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.919Z",
+      "lastScannedAt": "2026-06-28T22:06:44.570Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -52458,7 +52464,7 @@
         "content/projects/video-gen-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.919Z",
+      "lastScannedAt": "2026-06-28T22:06:44.571Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -53012,7 +53018,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.920Z",
+      "lastScannedAt": "2026-06-28T22:06:44.571Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -53349,7 +53355,7 @@
         "content/projects/web-auto-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.920Z",
+      "lastScannedAt": "2026-06-28T22:06:44.572Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -53783,7 +53789,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.921Z",
+      "lastScannedAt": "2026-06-28T22:06:44.572Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -54228,7 +54234,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:01:34.921Z",
+      "lastScannedAt": "2026-06-28T22:06:44.573Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
