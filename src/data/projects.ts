@@ -2,6 +2,8 @@ import projectCatalog from "@/generated/project-catalog.json";
 import type { Project } from "@/types/projects";
 
 const catalog = projectCatalog as Project[];
+// Projects already showcased (with demo media) on the previous neojustin site
+// are ranked first, in curated order.
 const priorityProjectSlugs = [
   "dcard-trending-crawler",
   "ir-rag-evaluation-lab",
@@ -10,6 +12,15 @@ const priorityProjectSlugs = [
   "openalex-research-rag",
   "music-intelligence-platform",
   "lyrics-cultural-analytics-lab",
+  "news-web-crawler",
+  "amazon-review-intelligence",
+  "retailpulse-bi-recommender",
+  "information-retrieval",
+  "excel-python-data-analysis",
+  "fandom-gui-scraper",
+  "research-paper-and-knowledge-workspace",
+  "ArchiveFlow",
+  "cafe-net-manager",
 ];
 
 function getPriorityRank(project: Project) {

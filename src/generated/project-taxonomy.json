@@ -1,12 +1,13 @@
 {
   "categories": [
-    "ai-data",
     "information-system",
+    "interactive-3d",
+    "ai-data",
     "backend-desktop"
   ],
   "statuses": [
-    "completed",
     "prototype",
+    "completed",
     "in-progress"
   ],
   "years": [
@@ -37,15 +38,18 @@
     "FluentMigrator",
     "HTML",
     "ImageSharp",
+    "Java",
     "JavaScript",
     "Jieba",
     "Language Model Retrieval",
     "llama.cpp",
+    "Maven",
     "MediaWiki API",
     "MVVM",
     "Next.js",
     "openpyxl",
     "pandas",
+    "Phaser",
     "Playwright",
     "Plotly",
     "PyQt6",
@@ -55,17 +59,21 @@
     "Qt Widgets",
     "RAG",
     "React",
+    "React Three Fiber",
     "Recharts",
     "Recommender Systems",
     "scikit-learn",
     "Sentence Transformers",
     "sentence-transformers",
+    "Spring Boot",
     "SQLite",
     "Streamlit",
     "Tailwind CSS",
     "TF-IDF",
+    "Three.js",
     "TypeScript",
-    "Vite"
+    "Vite",
+    "Zustand"
   ],
   "domains": [
     "academic literature management",

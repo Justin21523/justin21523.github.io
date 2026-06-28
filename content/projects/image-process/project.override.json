@@ -1,5 +1,5 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "information-system",
   "status": "prototype",
@@ -8,15 +8,5 @@
     "Three.js"
   ],
   "coverImage": "/portfolio/projects/image-process/cover.webp",
-  "links": [
-    {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/image-process/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    }
-  ]
+  "links": []
 }

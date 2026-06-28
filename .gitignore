@@ -15,7 +15,9 @@
 
 # next.js
 /.next/
-# /out/ is intentionally tracked: it is the deploy payload pulled by the dothost server
+# /out/ is the static export output; GitHub Actions rebuilds it on deploy,
+# so it is no longer tracked (keeps the repo small).
+/out/
 
 # production
 /build

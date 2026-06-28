@@ -17,15 +17,6 @@
   "coverImage": "/portfolio/projects/agentic-bi-dataops-copilot/cover.webp",
   "links": [
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/agentic-bi-dataops-copilot/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "github",
       "url": "https://github.com/Justin21523/agentic-bi-dataops-copilot",
       "label": {
@@ -35,7 +26,7 @@
     },
     {
       "kind": "video",
-      "url": "https://neojustin.dothost.net/portfolio/projects/agentic-bi-dataops-copilot/demo/demo-tour.webm",
+      "url": "/portfolio/projects/agentic-bi-dataops-copilot/demo/demo-tour.webm",
       "label": {
         "zh-TW": "查看 Demo 影片",
         "en": "Demo Recording"

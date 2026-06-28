@@ -193,6 +193,25 @@ function buildReviewContent(scanData: ScannedProject, stack: string[]) {
   };
 }
 
+// Resolve a cover image only if the file actually exists under public/.
+// Returns undefined when no real cover is present so the UI shows its icon
+// fallback instead of a broken image.
+function resolveCoverImage(slug: string, overrideCover: unknown): string | undefined {
+  const candidates: string[] = [];
+  if (typeof overrideCover === "string" && overrideCover.length > 0) {
+    candidates.push(overrideCover);
+  }
+  candidates.push(`/portfolio/projects/${slug}/cover.webp`);
+  candidates.push(`/portfolio/projects/${slug}/cover.png`);
+  for (const candidate of candidates) {
+    const abs = path.join(PORTFOLIO_ROOT, "public", candidate.replace(/^\//, ""));
+    if (fs.existsSync(abs)) {
+      return candidate;
+    }
+  }
+  return undefined;
+}
+
 function getCategoryCode(category: string): string {
   switch (category) {
     case "information-system": return "IS";
@@ -408,7 +427,7 @@ ${readmeInfo.description}
     const status = override.status || "completed";
     const year = override.year || 2026;
     const featured = override.featured || false;
-    const coverImage = override.coverImage || `/portfolio/projects/${slug}/cover.webp`;
+    const coverImage = resolveCoverImage(slug, override.coverImage);
     const visibility = override.visibility || "hidden";
 
     // Skip non-public projects in final portfolio output

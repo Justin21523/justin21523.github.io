@@ -9,7 +9,7 @@ export type HomeLocale =
   | "en";
 
 export const siteUrl =
-  "https://neojustin.dothost.net";
+  "https://justin21523.github.io";
 
 export const homeContent = {
   "zh-TW": {

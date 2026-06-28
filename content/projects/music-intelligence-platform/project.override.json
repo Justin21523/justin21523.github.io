@@ -28,17 +28,8 @@
       }
     },
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/projects/music-intelligence-platform/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "video",
-      "url": "https://neojustin.dothost.net/portfolio/projects/music-intelligence-platform/demo-tour.webm",
+      "url": "/portfolio/projects/music-intelligence-platform/demo-tour.webm",
       "label": {
         "zh-TW": "Demo 錄影",
         "en": "Demo Recording"

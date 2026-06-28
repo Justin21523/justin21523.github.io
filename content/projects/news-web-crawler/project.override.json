@@ -17,15 +17,6 @@
   "coverImage": "/portfolio/projects/news-web-crawler/cover.png",
   "links": [
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/news-web-crawler",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "github",
       "url": "https://github.com/Justin21523/news-web-crawler",
       "label": {
@@ -43,7 +34,7 @@
     },
     {
       "kind": "video",
-      "url": "https://neojustin.dothost.net/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
+      "url": "/portfolio/projects/news-web-crawler/demo/guided-tour.webm",
       "label": {
         "zh-TW": "Demo 錄影",
         "en": "Demo Recording"

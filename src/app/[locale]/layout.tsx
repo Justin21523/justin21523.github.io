@@ -11,9 +11,6 @@ import {
 } from "@/components/command/project-command-palette";
 
 import {
-  projects,
-} from "@/data/projects";
-import {
   normalizePortfolioLocale,
 } from "@/lib/projects";
 
@@ -54,7 +51,6 @@ export default async function LocaleLayout({
           <Header />
 
           <ProjectCommandPalette
-            projects={projects}
             locale={
               portfolioLocale
             }

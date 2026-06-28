@@ -29,17 +29,8 @@
       }
     },
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/projects/ir-rag-evaluation-lab/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "video",
-      "url": "https://neojustin.dothost.net/portfolio/projects/ir-rag-evaluation-lab/demo/ir-rag-evaluation-lab-demo.mp4",
+      "url": "/portfolio/projects/ir-rag-evaluation-lab/demo/ir-rag-evaluation-lab-demo.mp4",
       "label": {
         "zh-TW": "Demo 錄影",
         "en": "Demo Recording"

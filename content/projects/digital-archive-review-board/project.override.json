@@ -1,5 +1,5 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "information-system",
   "status": "prototype",
@@ -11,15 +11,5 @@
     "TypeScript"
   ],
   "coverImage": "/portfolio/projects/digital-archive-review-board/cover.webp",
-  "links": [
-    {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/digital-archive-review-board/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    }
-  ]
+  "links": []
 }

@@ -13,17 +13,8 @@
     "scikit-learn",
     "Playwright"
   ],
-  "coverImage": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-viewport.png",
+  "coverImage": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-viewport.png",
   "links": [
-    {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/lyrics-cultural-analytics-lab/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
     {
       "kind": "github",
       "url": "https://github.com/Justin21523/agentic-bi-dataops-copilot/tree/lyrics-cultural-analytics-lab",
@@ -42,7 +33,7 @@
     },
     {
       "kind": "video",
-      "url": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+      "url": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
       "label": {
         "zh-TW": "Demo 影片",
         "en": "Demo Recording"
@@ -53,7 +44,7 @@
     {
       "id": "overview-dashboard",
       "type": "image",
-      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-viewport.png",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-viewport.png",
       "alt": {
         "zh-TW": "Lyrics Cultural Analytics Lab 的總覽 dashboard，包含資料集狀態與文化分析摘要。",
         "en": "Lyrics Cultural Analytics Lab overview dashboard with dataset status and cultural analytics summary."
@@ -67,7 +58,7 @@
     {
       "id": "workflow-upload",
       "type": "image",
-      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-viewport-01.png",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-viewport-01.png",
       "alt": {
         "zh-TW": "Lyrics Cultural Analytics Lab 的資料匯入畫面，展示安全資料集載入與品質檢查。",
         "en": "Lyrics Cultural Analytics Lab ingestion screen showing safe dataset loading and quality checks."
@@ -80,7 +71,7 @@
     {
       "id": "workflow-inspect",
       "type": "image",
-      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-viewport-02.png",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/workflow-viewport-02.png",
       "alt": {
         "zh-TW": "資料檢查畫面展示欄位結構、合規摘要與分析前檢查。",
         "en": "Inspection screen showing schema, compliance summary, and pre-analysis checks."
@@ -93,7 +84,7 @@
     {
       "id": "ml-lab-comparison",
       "type": "image",
-      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-viewport-01.png",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-viewport-01.png",
       "alt": {
         "zh-TW": "ML Lab 頁面展示模型比較、分類器與解釋分析。",
         "en": "ML Lab page showing model comparison, classifier results, and explainability analysis."
@@ -106,7 +97,7 @@
     {
       "id": "ml-lab-tree",
       "type": "image",
-      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-viewport-02.png",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/ml-lab-viewport-02.png",
       "alt": {
         "zh-TW": "決策樹分析畫面展示分類規則、模型判斷與可解釋線索。",
         "en": "Decision tree analytics screen showing classifier rules, model decisions, and explainability cues."
@@ -119,7 +110,7 @@
     {
       "id": "evaluation-flow",
       "type": "image",
-      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/evaluation-viewport.png",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/evaluation-viewport.png",
       "alt": {
         "zh-TW": "評估流程畫面展示模型結果、錯誤分析與報告路徑。",
         "en": "Evaluation flow screen showing model results, error analysis, and reporting path."
@@ -132,8 +123,8 @@
     {
       "id": "guided-tour",
       "type": "video",
-      "src": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
-      "poster": "https://justin21523.github.io/justin-portfolio/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/guided-tour-step-01.png",
+      "src": "/portfolio/projects/lyrics-cultural-analytics-lab/demo/guided-tour.webm",
+      "poster": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/guided-tour-step-01.png",
       "alt": {
         "zh-TW": "Lyrics Cultural Analytics Lab 的互動導覽錄影。",
         "en": "Interactive guided tour recording for Lyrics Cultural Analytics Lab."

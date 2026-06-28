@@ -23,17 +23,8 @@
       }
     },
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/retailpulse-bi-recommender",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "video",
-      "url": "https://neojustin.dothost.net/portfolio/projects/retailpulse-bi-recommender/demo/full-verification.webm",
+      "url": "/portfolio/projects/retailpulse-bi-recommender/demo/full-verification.webm",
       "label": {
         "zh-TW": "Demo 錄影",
         "en": "Demo Recording"

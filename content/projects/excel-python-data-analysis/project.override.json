@@ -25,15 +25,6 @@
       }
     },
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/projects/excel-python-data-analysis",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "video",
       "url": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
       "label": {

@@ -1,5 +1,5 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "interactive-3d",
   "status": "prototype",
@@ -8,15 +8,5 @@
     "Phaser"
   ],
   "coverImage": "/portfolio/projects/platformer-game/cover.webp",
-  "links": [
-    {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/platformer-game/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    }
-  ]
+  "links": []
 }

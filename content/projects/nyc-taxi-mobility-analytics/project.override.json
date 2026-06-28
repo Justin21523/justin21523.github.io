@@ -21,17 +21,8 @@
       }
     },
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/nyc-taxi-mobility-analytics",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "video",
-      "url": "https://neojustin.dothost.net/portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm",
+      "url": "/portfolio/projects/nyc-taxi-mobility-analytics/demo/demo-tour.webm",
       "label": {
         "zh-TW": "Demo 錄影",
         "en": "Demo Recording"

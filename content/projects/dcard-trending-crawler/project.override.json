@@ -10,15 +10,6 @@
   "coverImage": "/portfolio/projects/dcard-trending-crawler/cover.webp",
   "links": [
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/dcard-trending-crawler/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "github",
       "url": "https://github.com/Justin21523/posts-trending-crawler",
       "label": {

@@ -1,5 +1,5 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "ai-data",
   "status": "prototype",
@@ -9,15 +9,5 @@
     "FastAPI"
   ],
   "coverImage": "/portfolio/projects/multi-ai-agents/cover.webp",
-  "links": [
-    {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/multi-ai-agents/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    }
-  ]
+  "links": []
 }

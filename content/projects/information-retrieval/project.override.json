@@ -30,15 +30,6 @@
       }
     },
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/projects/information-retrieval",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "video",
       "url": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
       "label": {

@@ -48,14 +48,18 @@ import {
   useMounted,
 } from "@/hooks/use-mounted";
 
+import { projects } from "@/data/projects";
 import type {
   PortfolioLocale,
   Project,
   ProjectCategory,
 } from "@/types/projects";
 
+// `projects` is imported directly as a client-bundle module (shared, loaded
+// once) instead of being passed from the server layout as a prop. Passing it as
+// a prop serialized the entire catalog into every page's RSC payload, which
+// ballooned the static export to hundreds of MB once all projects were public.
 interface ProjectCommandPaletteProps {
-  projects: Project[];
   locale: PortfolioLocale;
 }
 
@@ -80,7 +84,6 @@ const categoryIcons: Record<
 };
 
 export function ProjectCommandPalette({
-  projects,
   locale,
 }: ProjectCommandPaletteProps) {
   const router =

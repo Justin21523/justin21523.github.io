@@ -27,17 +27,8 @@
       }
     },
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/fandom-gui-scraper/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "video",
-      "url": "https://neojustin.dothost.net/portfolio/projects/fandom-gui-scraper/demo/guided-demo-desktop.webm",
+      "url": "/portfolio/projects/fandom-gui-scraper/demo/guided-demo-desktop.webm",
       "label": {
         "zh-TW": "Demo 錄影",
         "en": "Demo Recording"

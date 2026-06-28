@@ -1,5 +1,5 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "interactive-3d",
   "status": "prototype",
@@ -21,15 +21,6 @@
         "zh-TW": "查看 GitHub",
         "en": "View GitHub"
       }
-    },
-    {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/highway-adventure-3d/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "information-system",
   "status": "prototype",
@@ -8,15 +8,5 @@
     "Python"
   ],
   "coverImage": "/portfolio/projects/urban-analytics-core/cover.webp",
-  "links": [
-    {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/urban-analytics-core/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    }
-  ]
+  "links": []
 }

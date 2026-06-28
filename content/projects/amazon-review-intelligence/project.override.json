@@ -18,15 +18,6 @@
   "coverImage": "/portfolio/projects/amazon-review-intelligence/cover.webp",
   "links": [
     {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/amazon-review-intelligence",
-      "label": {
-        "zh-TW": "開啟 Demo",
-        "en": "Open demo"
-      },
-      "primary": true
-    },
-    {
       "kind": "github",
       "url": "https://github.com/Justin21523/amazon-review-intelligence",
       "label": {

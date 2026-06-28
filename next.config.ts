@@ -3,25 +3,18 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin();
 
-const isGithubPages =
-  process.env.GITHUB_PAGES === "true";
-
+// Deployed as the user site at the root of justin21523.github.io,
+// so there is no base path / asset prefix.
 const nextConfig: NextConfig = {
   output: "export",
   experimental: {
     cpus: 1,
   },
   trailingSlash: true,
-  basePath: isGithubPages
-    ? "/justin-portfolio"
-    : undefined,
-  assetPrefix: isGithubPages
-    ? "/justin-portfolio/"
-    : undefined,
+  basePath: undefined,
+  assetPrefix: undefined,
   env: {
-    NEXT_PUBLIC_BASE_PATH: isGithubPages
-      ? "/justin-portfolio"
-      : "",
+    NEXT_PUBLIC_BASE_PATH: "",
   },
   images: {
     unoptimized: true,

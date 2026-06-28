@@ -1,5 +1,5 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "information-system",
   "status": "prototype",
@@ -16,15 +16,6 @@
         "zh-TW": "查看 GitHub",
         "en": "View GitHub"
       }
-    },
-    {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/javascript-platformer-concepts/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
     }
   ]
 }

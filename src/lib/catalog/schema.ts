@@ -60,7 +60,12 @@ export const ProjectLinkKindSchema = z.enum([
 
 export const ProjectLinkSchema = z.object({
   kind: ProjectLinkKindSchema,
-  url: z.string().url(),
+  // Absolute URL (external) or site-relative path (e.g. /portfolio/.../demo.webm).
+  url: z
+    .string()
+    .refine((v) => /^https?:\/\//.test(v) || v.startsWith("/"), {
+      message: "Must be an absolute URL or a site-relative path",
+    }),
   label: LocalizedTextSchema,
   primary: z.boolean().optional(),
 });

@@ -6,15 +6,5 @@
   "year": 2026,
   "technologies": [],
   "coverImage": "/portfolio/projects/scrapers/cover.webp",
-  "links": [
-    {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/scrapers/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    }
-  ]
+  "links": []
 }

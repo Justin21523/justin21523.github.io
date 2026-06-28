@@ -1,5 +1,5 @@
 {
-  "visibility": "hidden",
+  "visibility": "public",
   "featured": false,
   "category": "ai-data",
   "status": "prototype",
@@ -9,15 +9,5 @@
     "Plotly"
   ],
   "coverImage": "/portfolio/projects/commercial-ml-analysis/cover.webp",
-  "links": [
-    {
-      "kind": "live",
-      "url": "https://neojustin.dothost.net/p/commercial-ml-analysis/",
-      "label": {
-        "zh-TW": "線上展示",
-        "en": "Live Demo"
-      },
-      "primary": true
-    }
-  ]
+  "links": []
 }
