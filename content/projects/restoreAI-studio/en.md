@@ -3,7 +3,7 @@ title: "RestorAI Studio — AI Image Restoration Portfolio Workbench"
 tagline: "A public, mock-safe AI restoration demo with before/after viewing, pipeline status, and reproducible media"
 summary: "RestorAI Studio is an AI image restoration and super-resolution platform prototype reshaped into an interview-ready portfolio demo. The public demo uses browser Canvas to simulate the inference workflow without GPU, model weights, or external services; the local smoke path exposes a FastAPI + Pillow API to validate upload, processing, and PNG response behavior."
 role: "Solo developer (portfolio demo design, frontend demo, FastAPI demo API, CI/CD, documentation, and portfolio integration)"
-problem: "The original project had a useful AI restoration service architecture, but true model inference depends on large weights, GPU availability, and version-sensitive packages, making it hard for interviewers to launch, inspect, screenshot, or evaluate quickly."
+problem: "The original project had a useful AI restoration service architecture, but true model inference depends on large weights, GPU availability, and version-sensitive packages, making it hard for users to launch, inspect, screenshot, or evaluate quickly."
 solution: "Split the project into two presentation-safe paths: a pure static GitHub Pages demo whose first screen is the restoration workbench, and a local FastAPI/Pillow smoke API for upload and processing verification. The README now documents the system with Mermaid product flow, architecture, data flow, deployment, and module diagrams."
 outcome: "Delivered a public interactive demo, cover image, desktop/mobile screenshots, and a WebM demo recording. GitHub Actions verifies compile, pytest, API smoke, and static build before GitHub Pages deployment. The real model path is honestly labeled as a prototype scaffold instead of being presented as production-ready inference."
 highlights:
@@ -24,7 +24,7 @@ nextSteps:
 ---
 ## Overview
 
-RestorAI Studio demonstrates how to turn an AI model prototype into an evaluable product demo. The public demo does not assume the interviewer has a GPU or model weights. It presents a browser-based image restoration workbench where users can load samples, tune scale/strength, run a pipeline, compare before/after output, and inspect a job payload.
+RestorAI Studio demonstrates how to turn an AI model prototype into an evaluable product demo. The public demo does not assume the user has a GPU or model weights. It presents a browser-based image restoration workbench where users can load samples, tune scale/strength, run a pipeline, compare before/after output, and inspect a job payload.
 
 ## Architecture
 
@@ -32,4 +32,4 @@ The repository keeps the broader AI service scaffold: FastAPI routers, job manag
 
 ## Portfolio Value
 
-The value is not just the model list. The project shows practical engineering judgment: isolate GPU/model-weight risk, provide a reproducible mock-safe demo, add CI, generate portfolio media, and document the production path clearly enough for interviewers to understand product scope and next steps.
+The value is not just the model list. The project shows practical engineering judgment: isolate GPU/model-weight risk, provide a reproducible mock-safe demo, add CI, generate portfolio media, and document the production path clearly enough for users to understand product scope and next steps.

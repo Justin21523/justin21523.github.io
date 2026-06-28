@@ -106,8 +106,8 @@
         "en": "DPO Safety Gate"
       },
       "caption": {
-        "zh-TW": "展示 preference optimization 後如何用 safety refusal、jailbreak probes 與 reviewer sign-off 做 release gate。",
-        "en": "Shows how safety refusal, jailbreak probes, and reviewer sign-off form the release gate after preference optimization."
+        "zh-TW": "展示 preference optimization 後如何用 safety refusal、jailbreak probes 與 policy approval 做 release gate。",
+        "en": "Shows how safety refusal, jailbreak probes, and policy approval form the release gate after preference optimization."
       }
     },
     {
@@ -130,14 +130,14 @@
     {
       "id": "architecture",
       "type": "image",
-      "src": "/portfolio/projects/llm-train-eval-ship/screenshots/04-architecture.png",
+      "src": "/portfolio/projects/llm-train-eval-ship/screenshots/04-journey.png",
       "alt": {
-        "zh-TW": "Mock-safe demo 的 pipeline architecture snapshot。",
-        "en": "Pipeline architecture snapshot for the mock-safe demo."
+        "zh-TW": "Mock-safe demo 的 guided release journey 畫面。",
+        "en": "Guided release journey screen for the mock-safe demo."
       },
       "title": {
-        "zh-TW": "架構 Snapshot",
-        "en": "Architecture Snapshot"
+        "zh-TW": "Guided Release Journey",
+        "en": "Guided Release Journey"
       }
     },
     {

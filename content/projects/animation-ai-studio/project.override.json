@@ -86,7 +86,7 @@
         "en": "Job Dashboard"
       },
       "caption": {
-        "zh-TW": "Seeded demo data 讓面試官可立即看到排程、進度、錯誤狀態與 mock-safe pipeline 行為。",
+        "zh-TW": "Seeded demo data 讓使用者可立即看到排程、進度、錯誤狀態與 mock-safe pipeline 行為。",
         "en": "Seeded demo data makes queue state, progress, failure handling, and mock-safe pipeline behavior immediately visible."
       },
       "featured": true

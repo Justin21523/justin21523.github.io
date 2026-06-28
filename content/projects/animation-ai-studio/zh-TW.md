@@ -1,7 +1,7 @@
 ---
 title: "Animation AI Studio：可展示的 AI 動畫工作流 Demo 平台"
-tagline: "把分鏡規劃、生成任務、結果瀏覽與系統監控整理成面試官能快速理解的產品介面"
-summary: "Animation AI Studio 是一個本地優先的 AI 動畫工作流平台。這次整理後，專案不再只是研究型 scripts，而是具備 GitHub Pages 作品頁、可重跑的 mock-safe Web UI、seeded demo scenarios、截圖與錄影素材的 portfolio demo。面試官可以先看公開頁面理解價值，再用本機 demo mode 看到 FastAPI、SQLite、Job Queue、Results Browser 與 System Monitor 的完整操作流程。"
+tagline: "把分鏡規劃、生成任務、結果瀏覽與系統監控整理成使用者能快速理解的產品介面"
+summary: "Animation AI Studio 是一個本地優先的 AI 動畫工作流平台。這次整理後，專案不再只是研究型 scripts，而是具備 GitHub Pages 作品頁、可重跑的 mock-safe Web UI、seeded demo scenarios、截圖與錄影素材的 portfolio demo。使用者可以先看公開頁面理解價值，再用本機 demo mode 看到 FastAPI、SQLite、Job Queue、Results Browser 與 System Monitor 的完整操作流程。"
 role: "獨立開發者（產品定位、全端實作、demo engineering、部署與文件整理）"
 problem: "AI 動畫專案很容易停留在模型腳本或半成品狀態：需要 GPU、模型權重、ComfyUI、API key、影片素材與多個 batch scripts 才能展示。這對面試情境很不友善，因為審查者無法在短時間內理解專案價值，也無法穩定看到功能成果。這個專案要解決的是：如何把研究型 AI pipeline 包裝成可以展示、截圖、錄影、重跑且誠實標示能力邊界的作品集專案。"
 solution: "我建立了雙模式架構：demo mode 使用 repo-local SQLite 與 outputs/demo，透過 deterministic mock runner 產生 logs、summary、storyboard、quality report 與 gallery preview，不需要私密金鑰、GPU 或模型檔；full mode 則保留原本通往 ComfyUI、image providers、TTS、FFmpeg 與 batch scripts 的整合路徑。Web UI 使用 Vanilla JS SPA + FastAPI，提供 Jobs、Action、Image、Creative、Results、System 等頁面；後端以 FastAPI routers、SQLite job database 與 JobService 管理任務、輸出與進度。另有 GitHub Pages 的 portfolio-web，第一屏直接展示產品本體，並包含截圖、WebM demo 影片、架構說明與本機啟動指令。"
@@ -14,11 +14,11 @@ highlights:
   - "Vanilla JS Web UI：Jobs Dashboard、Results Browser、System Monitor 與 job detail"
   - "Demo artifacts：summary.json、quality_report.json、storyboard manifest、logs、gallery preview"
 challenges:
-  - "把原本分散的 AI scripts 包裝成可被面試官快速理解的產品型 demo，而不是只展示程式碼"
+  - "把原本分散的 AI scripts 包裝成可被使用者快速理解的產品型 demo，而不是只展示程式碼"
   - "在不依賴 GPU、ComfyUI、模型權重或私密金鑰的情況下，仍保留可信的資料流與結果輸出"
   - "維持 demo mode 與 full mode 的界線，避免公開展示時誇大尚需外部 runtime 的能力"
 nextSteps:
-  - "將互動式 FastAPI demo 部署到 Render / Railway / Fly.io，讓面試官不必本機啟動也能操作"
+  - "將互動式 FastAPI demo 部署到 Render / Railway / Fly.io，讓使用者不必本機啟動也能操作"
   - "補上更多真實模型輸出案例，讓 demo artifacts 從 mock preview 擴展到真實生成結果"
   - "把 full-mode provider execution、queue retry、job cancellation 與 artifact preview 做更完整的端到端測試"
 ---
@@ -36,4 +36,4 @@ nextSteps:
 
 ## 工程取捨
 
-我刻意把 demo mode 和 full mode 分開。demo mode 的目標是穩定展示：不需要私密環境、不讀大型模型、不依賴 `/mnt/data`，所有輸出都在 repo-local `outputs/demo` 產生。full mode 則保留通往 ComfyUI、LTX/Wan providers、TTS、FFmpeg 與既有 scripts 的路徑，但文件明確標示這部分需要本機 runtime、模型資產與 credentials。這樣做可以讓作品展示誠實，同時也讓面試官看到我對部署、可觀測性與 demo engineering 的重視。
+我刻意把 demo mode 和 full mode 分開。demo mode 的目標是穩定展示：不需要私密環境、不讀大型模型、不依賴 `/mnt/data`，所有輸出都在 repo-local `outputs/demo` 產生。full mode 則保留通往 ComfyUI、LTX/Wan providers、TTS、FFmpeg 與既有 scripts 的路徑，但文件明確標示這部分需要本機 runtime、模型資產與 credentials。這樣做可以讓作品展示誠實，同時也讓使用者看到我對部署、可觀測性與 demo engineering 的重視。
