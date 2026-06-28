@@ -2330,5 +2330,30 @@
     "needsManualReview": true,
     "suitability": "Prototype",
     "confidence": 0.8
+  },
+  {
+    "name": "LibraCore",
+    "folder": "libracore",
+    "type": "Django / Library Services Platform",
+    "hasReadme": true,
+    "readmeContent": "# LibraCore\n\nLibraCore is a Django-based library information system scaffold designed around library and information science concepts rather than a single `Book` table.\n\nImplemented baseline:\n\n- Work / Expression / Instance / BibliographicRecord catalog model.\n- MARC21 raw record storage, ISO2709 parser, validator, and bibliographic mapping service.\n- MARC import batches for ISO2709, MARCXML, and JSON MARC with review-first approval workflow.\n- Staff cataloging workbench for upload, parsing, mapping preview, approval/rejection, and authority suggestions.\n- Discovery indexing and public OPAC with PostgreSQL FTS strategy, SQLite fallback, OpenCC/jieba CJK normalization, facets, and availability display.\n- Authority control models with authorized and variant access-point proxy concepts.\n- Authority control workbench with preferred/variant access points, relations, deprecation, merge, URI validation, and public authority/subject browse.\n- Controlled vocabulary, classification, and call-number models.\n- Branch, location, holding, item, patron, loan, hold request, acquisitions, serials, ERM, repository, discovery, analytics, and audit models.\n- Circulation policy engine, staff checkout/return/renew workflows, hold queues, overdue fees, payment allocation, fee waivers, and circulation audit logging.\n- DRF endpoints under `/api/` and Django admin registration.\n- Tests for MARC parsing/mapping/import, cataloging workbench, discovery/OPAC, Work/Instance/Item/Loan separation, and circulation workflows.\n- Authority service/API/view tests for merge, deprecation, browse, and Discovery variant-label indexing.\n\n## Local Setup\n\n```bash\npython3 -m pip install -r requirements.txt\npython3 manage.py migrate\npython3 manage.py seed_libracore\npython3 manage.py runserver\n```\n\nDefault development database is SQLite. For PostgreSQL, set `DATABASE_URL` to a value beginning with `postgres` and provide `POSTGRES_DB`, `POSTGRES_USER`, `POSTGRES_PASSWORD`, `POSTGRES_HOST`, and `POSTGRES_PORT`.\n\n## Verification\n\n```bash\npython3 manage.py check\npython3 manage.py makemigrations --check --dry-run\npytest -q\n```\n\n## Current Boundaries\n\nThis is the executable MVP architecture, not the full production system. The next implementation steps are:\n\n- Add explicit RBAC permission policies per endpoint and staff workflow.\n- Add automatic discovery reindex hooks or async indexing queue.\n- Add OpenSearch/Elasticsearch as the production-scale discovery backend.\n- Add MARC Authority and Holdings mapping services.\n- Add duplicate bibliographic conflict resolution and merge/update workflows.\n- Add notice generation and reader-facing account pages for existing circulation workflows.\n- Add OAI-PMH provider and Dublin Core export for repository records.\n- Add external authority lookup adapters for id.loc.gov, VIAF, and ORCID.\n",
+    "detectedStack": [
+      "Python",
+      "Django",
+      "Django REST Framework",
+      "SQLite",
+      "PostgreSQL",
+      "Playwright"
+    ],
+    "lastUpdate": "2026-06-29T06:20:00.000Z",
+    "gitRemote": "https://github.com/Justin21523/libracore",
+    "gitBranch": "main",
+    "gitLastCommitMessage": "Initial LibraCore portfolio demo",
+    "canBuild": true,
+    "canRun": true,
+    "hasMedia": true,
+    "needsManualReview": false,
+    "suitability": "Portfolio Demo",
+    "confidence": 0.98
   }
 ]

@@ -1,0 +1,78 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "information-system",
+  "status": "prototype",
+  "year": 2026,
+  "technologies": [
+    "Python",
+    "Django",
+    "Django REST Framework",
+    "PostgreSQL",
+    "SQLite",
+    "Playwright",
+    "MARC21",
+    "RDA",
+    "OPAC",
+    "ERM"
+  ],
+  "coverImage": "/projects/libracore/videos/posters/libracore-guided-tour.webp",
+  "heroImage": "/projects/libracore/screenshots/01-opac-home.png",
+  "videoUrl": "/projects/libracore/videos/libracore-guided-tour.webm",
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/libracore/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/libracore",
+      "label": {
+        "zh-TW": "查看 GitHub",
+        "en": "View GitHub"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/libracore#readme",
+      "label": {
+        "zh-TW": "閱讀 README",
+        "en": "Read README"
+      }
+    },
+    {
+      "kind": "video",
+      "url": "/projects/libracore/videos/libracore-guided-tour.webm",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Video"
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": "demo-video",
+      "type": "video",
+      "src": "/projects/libracore/videos/libracore-guided-tour.webm",
+      "poster": "/projects/libracore/videos/posters/libracore-guided-tour.webp",
+      "title": {
+        "zh-TW": "LibraCore 小幫手導覽錄影",
+        "en": "LibraCore guided tour recording"
+      },
+      "alt": {
+        "zh-TW": "LibraCore 作品集 demo 錄影，畫面包含 OPAC、館員工作台與小幫手導覽效果。",
+        "en": "LibraCore portfolio demo recording showing OPAC, staff workbenches, and guided tour effects."
+      },
+      "caption": {
+        "zh-TW": "Playwright 自動錄製 OPAC、MARC 編目、權威控制、流通、採購、ERM 與資料治理流程。",
+        "en": "Playwright recording of OPAC, MARC cataloging, authority control, circulation, acquisitions, ERM, and governance workflows."
+      },
+      "featured": true
+    }
+  ]
+}

@@ -2012,6 +2012,24 @@
       ],
       "updatedAt": "2026-06-28T19:00:16.868Z",
       "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "libracore",
+      "title": "LibraCore",
+      "priority": 115,
+      "status": "completed",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-grade",
+      "screenshotStatus": "real screenshots present; captured 20 new",
+      "demoStatus": "real video present",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "passed",
+      "manualFollowUpNeeded": [
+        "Deploy a full Django backend separately if live staff workflows are required."
+      ],
+      "updatedAt": "2026-06-29T06:20:00.000Z",
+      "qualityStatus": "manual-follow-up-needed"
     }
   ]
 }
