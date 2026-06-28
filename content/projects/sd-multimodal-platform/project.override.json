@@ -1,12 +1,20 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
   "technologies": [
-    "Python",
-    "FastAPI"
+    "FastAPI",
+    "PyTorch",
+    "Diffusers",
+    "Hugging Face Transformers",
+    "Stable Diffusion / SDXL",
+    "Celery",
+    "Redis",
+    "React",
+    "TypeScript",
+    "Docker"
   ],
   "coverImage": "/portfolio/projects/sd-multimodal-platform/cover.webp",
   "links": [
@@ -18,5 +26,65 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "Stable Diffusion multimodal generation & inference platform",
+    "domains": [
+      "Generative AI",
+      "Computer Vision",
+      "Multimodal AI",
+      "MLOps"
+    ],
+    "capabilities": [
+      "Generate images from text and image prompts",
+      "Inpaint and edit images with mask editor",
+      "Upscale and restore faces in post-processing",
+      "Caption images and answer visual questions",
+      "Route and lazy-load multiple model backends",
+      "Queue long-running jobs asynchronously"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "React",
+      "Vite",
+      "Celery",
+      "Gradio",
+      "PyQt6"
+    ],
+    "libraries": [
+      "diffusers",
+      "transformers",
+      "accelerate",
+      "controlnet-aux",
+      "safetensors",
+      "xformers",
+      "pydantic",
+      "Pillow",
+      "OpenCV"
+    ],
+    "backend": [
+      "FastAPI (async)",
+      "Celery workers",
+      "Redis",
+      "PyTorch / CUDA"
+    ],
+    "platforms": [
+      "Web",
+      "CLI",
+      "Desktop"
+    ],
+    "keywords": [
+      "Stable Diffusion",
+      "SDXL",
+      "ControlNet",
+      "BLIP-2",
+      "LLaVA",
+      "txt2img",
+      "img2img",
+      "inpaint",
+      "task queue",
+      "model router"
+    ],
+    "needsReview": false
+  }
 }

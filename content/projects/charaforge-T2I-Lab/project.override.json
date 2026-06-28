@@ -1,10 +1,21 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "FastAPI",
+    "PyTorch",
+    "Diffusers",
+    "PEFT (LoRA)",
+    "Celery",
+    "Redis",
+    "React 19",
+    "Vite",
+    "Zustand",
+    "Docker"
+  ],
   "coverImage": "/portfolio/projects/charaforge-T2I-Lab/cover.webp",
   "links": [
     {
@@ -17,12 +28,66 @@
     }
   ],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "Text-to-image + LoRA fine-tuning platform",
+    "domains": [
+      "生成式 AI",
+      "擴散模型",
+      "MLOps",
+      "角色一致性生成"
+    ],
+    "capabilities": [
+      "文生圖推論 (SD1.5 / SDXL)",
+      "LoRA 微調訓練與管理",
+      "ControlNet 條件控制 (pose/depth/canny/lineart)",
+      "非同步任務佇列與並發治理",
+      "模型倉儲掃描與註冊",
+      "WebSocket 即時訓練進度推送",
+      "API Key / JWT 認證與速率限制"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "React 19",
+      "Celery",
+      "Diffusers"
+    ],
+    "libraries": [
+      "PyTorch",
+      "PEFT",
+      "Accelerate",
+      "Transformers",
+      "safetensors",
+      "Zustand",
+      "Axios",
+      "Recharts"
+    ],
+    "backend": [
+      "Python",
+      "FastAPI",
+      "Celery",
+      "Redis",
+      "Uvicorn"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "keywords": [
+      "Stable Diffusion",
+      "SDXL",
+      "LoRA",
+      "ControlNet",
+      "text-to-image",
+      "fine-tuning",
+      "diffusion models",
+      "MLOps",
+      "JWT",
+      "Prometheus"
     ]
   }
 }

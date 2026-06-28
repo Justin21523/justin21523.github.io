@@ -1,13 +1,80 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "interactive-3d",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
   "technologies": [
     "Python",
-    "FastAPI"
+    "PyTorch",
+    "Pydantic v2",
+    "trimesh",
+    "rembg",
+    "xatlas",
+    "Blender (headless/bpy)",
+    "ComfyUI",
+    "FastAPI",
+    "pytest"
   ],
   "coverImage": "/portfolio/projects/ai-3d-studio/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "AI 3D asset generation",
+    "domains": [
+      "AI 3D 生成",
+      "資產後製管線",
+      "影片條件化"
+    ],
+    "capabilities": [
+      "統一多後端 image-to-3D 介面",
+      "編排 11 階段生成管線",
+      "headless Blender 轉台與深度/法線渲染",
+      "輸出影片條件化資料包",
+      "透過 HTTP 編排 ComfyUI 工作流",
+      "以 YAML 追蹤資產溯源"
+    ],
+    "frameworks": [
+      "Pydantic v2",
+      "FastAPI"
+    ],
+    "libraries": [
+      "trimesh",
+      "rembg",
+      "xatlas",
+      "Pillow",
+      "OpenCV",
+      "requests"
+    ],
+    "backend": [
+      "Python",
+      "PyTorch",
+      "argparse CLI",
+      "subprocess 隔離"
+    ],
+    "threeD": [
+      "Blender",
+      "GLB/OBJ/FBX/PLY",
+      "3D Gaussian Splatting",
+      "UV unwrapping",
+      "SF3D",
+      "TripoSR",
+      "TRELLIS",
+      "Hunyuan3D"
+    ],
+    "platforms": [
+      "Desktop",
+      "Server",
+      "CLI"
+    ],
+    "keywords": [
+      "image-to-3D",
+      "Blender 整合",
+      "ComfyUI",
+      "PBR 資產",
+      "影片條件化",
+      "後端適配器",
+      "可重現管線"
+    ],
+    "needsReview": false
+  }
 }

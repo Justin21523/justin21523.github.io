@@ -1,12 +1,20 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "interactive-3d",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
   "technologies": [
-    "Python",
-    "FastAPI"
+    "FastAPI",
+    "Celery + Redis",
+    "PyTorch",
+    "Transformers",
+    "PEFT / LoRA",
+    "sentence-transformers (bge-m3)",
+    "FAISS",
+    "Diffusers (SD/SDXL)",
+    "React 19 + Vite",
+    "Gradio"
   ],
   "coverImage": "/portfolio/projects/anime-adventure-lab/cover.webp",
   "links": [
@@ -18,5 +26,69 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "RAG + LLM story-driven game world generation service stack",
+    "domains": [
+      "Generative AI",
+      "Interactive fiction / game worlds",
+      "Retrieval-Augmented Generation",
+      "Chinese NLP",
+      "Multimodal (text-to-image / vision)"
+    ],
+    "capabilities": [
+      "Generate branching narrative and choices",
+      "Retrieve and cite grounded world lore",
+      "Manage persistent game state and memory",
+      "Generate scene images via diffusion pipelines",
+      "Fine-tune and hot-swap LoRA adapters",
+      "Orchestrate long-running jobs asynchronously"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "Gradio",
+      "React",
+      "Vite",
+      "Celery"
+    ],
+    "libraries": [
+      "Transformers",
+      "PEFT",
+      "sentence-transformers",
+      "FAISS",
+      "rank-bm25",
+      "Diffusers",
+      "Pydantic",
+      "TanStack Query/Router",
+      "Zustand",
+      "Tailwind CSS",
+      "Radix UI",
+      "OpenCC"
+    ],
+    "backend": [
+      "FastAPI",
+      "Celery workers",
+      "Redis",
+      "SQLAlchemy / PostgreSQL",
+      "llama.cpp server adapter"
+    ],
+    "platforms": [
+      "Web",
+      "Desktop (Qt prototype)",
+      "Docker Compose"
+    ],
+    "keywords": [
+      "RAG",
+      "LLM",
+      "story engine",
+      "LoRA",
+      "text-to-image",
+      "VLM",
+      "game state",
+      "citations",
+      "bge-m3",
+      "low-VRAM"
+    ],
+    "needsReview": false
+  }
 }

@@ -1,12 +1,19 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "interactive-3d",
+  "category": "ai-data",
   "status": "prototype",
   "year": 2026,
   "technologies": [
+    "FastAPI",
     "Python",
-    "FastAPI"
+    "PyTorch",
+    "Transformers",
+    "LangChain",
+    "React",
+    "TypeScript",
+    "PostgreSQL / pgvector",
+    "Docker"
   ],
   "coverImage": "/portfolio/projects/vision-quest/cover.webp",
   "links": [
@@ -18,5 +25,59 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "Multi-modal AI platform (computer vision task suite)",
+    "domains": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Multimodal AI",
+      "Knowledge Retrieval (RAG)"
+    ],
+    "capabilities": [
+      "Generating image captions",
+      "Answering visual questions",
+      "Holding multi-turn conversations",
+      "Retrieving knowledge with citations",
+      "Orchestrating tool-using agents",
+      "Running an interactive text adventure",
+      "Scanning and managing local models"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "React",
+      "LangChain"
+    ],
+    "libraries": [
+      "PyTorch",
+      "Transformers",
+      "sentence-transformers",
+      "Pillow",
+      "Tailwind CSS",
+      "React Flow"
+    ],
+    "backend": [
+      "FastAPI",
+      "Uvicorn",
+      "PostgreSQL",
+      "pgvector",
+      "SQLAlchemy"
+    ],
+    "platforms": [
+      "Web",
+      "CLI"
+    ],
+    "keywords": [
+      "BLIP-2",
+      "LLaVA",
+      "Qwen-VL",
+      "VQA",
+      "RAG",
+      "Agent",
+      "LoRA",
+      "Mock mode",
+      "Vector search"
+    ],
+    "needsReview": false
+  }
 }

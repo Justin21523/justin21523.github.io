@@ -6,7 +6,15 @@
   "year": 2026,
   "technologies": [
     "Python",
-    "FastAPI"
+    "PyTorch",
+    "FastAPI",
+    "Pydantic",
+    "vLLM",
+    "Stable Diffusion / Diffusers",
+    "FFmpeg",
+    "ComfyUI",
+    "Whisper",
+    "FAISS"
   ],
   "coverImage": "/portfolio/projects/animation-ai-studio/cover.webp",
   "links": [
@@ -18,5 +26,69 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "Local-first modular AI animation pipeline",
+    "domains": [
+      "Generative AI",
+      "AI animation",
+      "Voice synthesis",
+      "Media production tooling",
+      "MLOps"
+    ],
+    "capabilities": [
+      "Scaffolding shot-based animation production workflows",
+      "Creating typed project workspaces and registries",
+      "Preparing provider-based video generation task manifests",
+      "Generating dialogue-driven TTS and subtitle tasks",
+      "Analyzing source video for speaker segmentation",
+      "Exporting per-character voice-clone training datasets",
+      "Orchestrating self-hosted LLM inference via a gateway"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "PyTorch",
+      "Pydantic",
+      "LangChain / LangGraph",
+      "Diffusers"
+    ],
+    "libraries": [
+      "vLLM",
+      "Transformers",
+      "OpenAI Whisper",
+      "librosa",
+      "moviepy",
+      "OpenCV",
+      "FAISS",
+      "ChromaDB",
+      "sentence-transformers",
+      "ControlNet-aux",
+      "InsightFace"
+    ],
+    "backend": [
+      "FastAPI gateway",
+      "vLLM inference servers",
+      "Redis cache",
+      "FFmpeg",
+      "ComfyUI",
+      "Server-Sent Events"
+    ],
+    "platforms": [
+      "CLI",
+      "Web"
+    ],
+    "keywords": [
+      "AI animation",
+      "text-to-video",
+      "image-to-video",
+      "LTX-2.3",
+      "Wan2.2",
+      "voice cloning",
+      "RVC",
+      "singing voice conversion",
+      "pipeline architecture",
+      "local-first"
+    ],
+    "needsReview": false
+  }
 }
