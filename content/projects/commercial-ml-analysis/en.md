@@ -1,29 +1,42 @@
 ---
-title: "Commercial Ml Analysis"
-tagline: "A data processing, AI, analysis, or automation workflow practice project."
-summary: "Commercial Ml Analysis is a learning-focused project with detected technology signals including Python, Plotly. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts."
-role: "Independent Developer / Learning Project Builder"
-problem: "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output."
-solution: "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus."
-outcome: "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project."
+title: "Commercial ML Analysis Platform"
+tagline: "Production-grade traditional-ML and MLOps platform for tens-of-GB Amazon review analytics"
+summary: "An end-to-end e-commerce ML analytics platform that processes tens of GB of Amazon review data with Polars, spanning ETL, feature engineering, gradient-boosting training with Optuna, drift monitoring with automated retraining, and a rich set of business modules (NLP, CLV, segmentation, recommendation, causal inference), surfaced through React and Streamlit dashboards."
+role: "Solo developer: led architecture, data pipelines, model training, MLOps monitoring, and full-stack dashboard implementation."
+problem: "E-commerce teams facing tens of GB of review and interaction data lacked a reproducible, CPU-friendly, end-to-end pipeline that could also continuously monitor model quality, while needing to turn raw reviews into actionable business insight."
+solution: "Built a memory-safe ETL on Polars lazy evaluation and partitioned Parquet, with RFM / rolling-window / CV target-encoding feature engineering. Trained LightGBM and CatBoost with Optuna and TimeSeriesSplit cross-validation, tracked via MLflow and exported to ONNX for fast inference. Added Evidently AI drift detection (PSI / Wasserstein / target drift) with Prefect-orchestrated conditional retraining, plus analysis modules for NLP, CLV, segmentation, recommendation, market basket, and causal/uplift modeling, all served to a React dashboard through a Starlette ASGI API."
+outcome: "Delivered across multiple phases (Phase 1/2 marked complete) with a pytest suite and coverage reports, DVC data versioning, one-command Makefile pipelines, and a portfolio-safe quick demo that generates labeled sample data when no raw files are present."
 highlights:
-  - "README signal: Tech Stack-tech-stack"
-  - "README signal: Project Structure-project-structure"
-  - "README signal: Quick Start-quick-start"
-  - "README signal: Data Preparation-data-preparation"
+  - "Handles tens of GB on CPU only via Polars lazy/streaming evaluation and partitioned Parquet"
+  - "LightGBM/CatBoost with Optuna Bayesian tuning, TimeSeriesSplit to prevent leakage, and ONNX export for fast inference"
+  - "Evidently AI drift detection (PSI, Wasserstein, target drift) with Prefect-orchestrated automated retraining triggers"
+  - "Full business-analytics suite: NLP sentiment/topics, CLV (BG/NBD, Gamma-Gamma), segmentation, recommendation, market basket, causal inference and uplift"
+  - "Dual dashboards: a React analytics UI backed by a Starlette ASGI API plus a Streamlit fallback"
+  - "Reproducibility via MLflow + DVC + YAML configs, backed by a pytest suite and coverage reporting"
 challenges:
-  - "The project scope needs to be summarized from README content and source evidence in a credible way."
-  - "Technical terms need to be translated into clear features, data flow, and learning outcomes."
-  - "More screenshots, test notes, or operation details can still improve the case study."
+  - "Processing tens of GB on CPU with limited memory, requiring lazy evaluation, streaming, and chunked cleaning to avoid OOM"
+  - "Honestly modeling raw reviews as user-product-rating interactions rather than complete order transactions, while keeping a derived-only public data policy"
 nextSteps:
-  - "Complete a more detailed bilingual case study and add operation screenshots."
-  - "Verify which GitHub, demo, documentation, and media assets should be public."
-  - "Improve tests, README details, and deployment or run instructions based on actual completion level."
+  - "Introduce distributed or GPU acceleration to scale data volume further"
+  - "Harden online inference serving and API deployment with containerization"
+  - "Extend causal and uplift models with an online A/B validation loop"
 ---
-Commercial Ml Analysis is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.
+## Overview
 
-The scanned project data points to Python, Plotly. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.
+The Commercial ML Analysis Platform is a production-grade "traditional ML" analytics and prediction system for e-commerce, designed around large-scale Amazon review data (tens of GB). It turns raw reviews into actionable business insight and covers the full MLOps lifecycle from ingestion to in-production monitoring, running efficiently on CPU throughout.
 
-This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.
+## Technical Architecture
 
-Next, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.
+The data layer is built on Polars lazy evaluation and partitioned Parquet, with Dask for out-of-core compute and Great Expectations for data-quality validation. Feature engineering covers RFM, 7d/30d/90d rolling-window statistics, cross-validated target encoding, and cyclic temporal features. The modeling layer uses LightGBM/CatBoost/XGBoost gradient boosting, Optuna for Bayesian hyperparameter search, TimeSeriesSplit cross-validation, MLflow experiment tracking, and ONNX export for accelerated CPU inference.
+
+## MLOps and Monitoring
+
+Evidently AI detects data and concept drift (PSI, Wasserstein distance, target drift, and performance decay), with Prefect orchestrating conditional automated retraining. DVC handles data and pipeline versioning, and YAML centralizes hyperparameters and thresholds for end-to-end reproducibility.
+
+## Business Analysis Modules
+
+Beyond core prediction, the platform ships several analysis modules: NLP sentiment and LDA topic modeling with aspect-based sentiment and summarization; probabilistic CLV via BG/NBD and Gamma-Gamma; HDBSCAN segmentation and cohort analysis; ALS/SVD recommendation; FP-Growth market-basket rules; and causal inference and uplift modeling based on DML/IV and S/T/X-Learners.
+
+## Presentation Layer
+
+The frontend is a React analytics dashboard (recharts, light theme, reproducible screenshots and contrast checks) driven by a Starlette ASGI API, with a Streamlit dashboard retained as a fallback. The project includes a pytest suite, coverage reports, and a portfolio-safe quick-demo flow that auto-generates clearly labeled sample data to reproduce the full artifact contract when raw data is unavailable.

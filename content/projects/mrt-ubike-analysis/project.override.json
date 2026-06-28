@@ -2,11 +2,19 @@
   "visibility": "public",
   "featured": false,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "in-progress",
   "year": 2026,
   "technologies": [
     "Python",
-    "FastAPI"
+    "FastAPI",
+    "pandas",
+    "NumPy",
+    "Uvicorn",
+    "Leaflet",
+    "Chart.js",
+    "Docker",
+    "SQLite",
+    "Playwright"
   ],
   "coverImage": "/portfolio/projects/mrt-ubike-analysis/cover.webp",
   "links": [
@@ -18,5 +26,62 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "資料工程與都市交通分析平台 / Data engineering & urban mobility analytics platform",
+    "domains": [
+      "urban-mobility",
+      "transportation",
+      "geospatial-analysis",
+      "smart-city",
+      "open-data"
+    ],
+    "capabilities": [
+      "data-pipeline",
+      "spatial-join",
+      "temporal-alignment",
+      "correlation-analysis",
+      "linear-regression",
+      "kmeans-clustering",
+      "station-similarity",
+      "interactive-dashboard",
+      "data-quality-validation",
+      "continuous-ingestion"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "Uvicorn"
+    ],
+    "libraries": [
+      "pandas",
+      "NumPy",
+      "requests",
+      "Leaflet",
+      "Chart.js"
+    ],
+    "backend": [
+      "FastAPI",
+      "SQLite",
+      "REST API",
+      "Server-Sent Events"
+    ],
+    "platforms": [
+      "Docker",
+      "docker-compose",
+      "Nginx"
+    ],
+    "keywords": [
+      "MRT",
+      "YouBike",
+      "TDX",
+      "medallion-architecture",
+      "bronze-silver-gold",
+      "Open-Meteo",
+      "OpenStreetMap-Overpass",
+      "spatial-buffer",
+      "metro-bike-link",
+      "portfolio"
+    ],
+    "needsReview": false
+  }
 }

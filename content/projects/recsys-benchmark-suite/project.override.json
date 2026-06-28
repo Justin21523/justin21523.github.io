@@ -1,19 +1,95 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "completed",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "FastAPI",
+    "DuckDB",
+    "scikit-learn",
+    "pandas",
+    "Polars",
+    "React",
+    "TypeScript",
+    "Recharts",
+    "React Query",
+    "llama.cpp"
+  ],
   "coverImage": "/portfolio/projects/recsys-benchmark-suite/cover.webp",
   "links": [],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "全端推薦系統離線評估平台 / Full-stack offline recommender evaluation platform",
+    "domains": [
+      "recommender-systems",
+      "machine-learning",
+      "offline-evaluation",
+      "data-analytics"
+    ],
+    "capabilities": [
+      "multi-dataset-loading",
+      "deterministic-train-test-splits",
+      "ranking-metric-evaluation",
+      "model-leaderboard",
+      "bad-case-analysis",
+      "interactive-recommendation-sandbox",
+      "bilingual-dashboard",
+      "local-llm-metric-explanation"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "React",
+      "Vite"
+    ],
+    "libraries": [
+      "scikit-learn",
+      "pandas",
+      "Polars",
+      "numpy",
+      "Recharts",
+      "TanStack React Query",
+      "i18next",
+      "react-router-dom"
+    ],
+    "backend": [
+      "FastAPI",
+      "DuckDB",
+      "Uvicorn",
+      "Pydantic"
+    ],
+    "platforms": [
+      "Web",
+      "Local llama.cpp OpenAI-compatible server"
+    ],
+    "keywords": [
+      "recommender benchmark",
+      "nDCG",
+      "Precision@K",
+      "Recall@K",
+      "MAP@K",
+      "collaborative filtering",
+      "matrix factorization",
+      "ALS",
+      "BPR",
+      "content-based",
+      "hybrid",
+      "temporal split",
+      "leave-one-out",
+      "coverage",
+      "diversity",
+      "novelty",
+      "popularity bias",
+      "cold start",
+      "MovieLens",
+      "ListenBrainz",
+      "Amazon Reviews"
     ]
   }
 }

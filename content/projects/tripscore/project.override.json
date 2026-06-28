@@ -1,12 +1,20 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "completed",
   "year": 2026,
   "technologies": [
     "Python",
-    "FastAPI"
+    "FastAPI",
+    "Pydantic",
+    "Jinja2",
+    "httpx",
+    "Leaflet",
+    "Docker",
+    "pytest",
+    "TDX API",
+    "Open-Meteo"
   ],
   "coverImage": "/portfolio/projects/tripscore/cover.webp",
   "links": [
@@ -18,5 +26,61 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "可解釋推薦／評分引擎 (Explainable recommendation & scoring engine)",
+    "domains": [
+      "旅遊決策",
+      "交通開放資料",
+      "地理空間資料",
+      "推薦系統"
+    ],
+    "capabilities": [
+      "多源資料整合",
+      "規則式加權評分",
+      "特徵工程",
+      "可解釋分數拆解",
+      "候選生成與排序",
+      "快取與速率限制",
+      "always-on 背景擷取",
+      "資料品質／覆蓋率監控"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "Pydantic v2",
+      "Jinja2"
+    ],
+    "libraries": [
+      "httpx",
+      "PyYAML",
+      "python-dotenv",
+      "Leaflet",
+      "Uvicorn"
+    ],
+    "backend": [
+      "Python 3",
+      "FastAPI",
+      "REST API",
+      "檔案快取 (FileCache)",
+      "網格空間索引 (spatial index)"
+    ],
+    "platforms": [
+      "Docker / Docker Compose",
+      "Linux systemd",
+      "CLI",
+      "Jupyter"
+    ],
+    "keywords": [
+      "TDX",
+      "Open-Meteo",
+      "YouBike",
+      "可達性",
+      "天氣適宜度",
+      "偏好匹配",
+      "可解釋 AI",
+      "台北 POI",
+      "旅程評分"
+    ],
+    "needsReview": false
+  }
 }

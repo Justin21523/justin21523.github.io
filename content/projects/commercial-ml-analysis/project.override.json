@@ -2,12 +2,100 @@
   "visibility": "public",
   "featured": false,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
     "Python",
-    "Plotly"
+    "Polars",
+    "LightGBM",
+    "CatBoost",
+    "Optuna",
+    "MLflow",
+    "Evidently AI",
+    "Prefect",
+    "ONNX Runtime",
+    "React"
   ],
   "coverImage": "/portfolio/projects/commercial-ml-analysis/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "ML platform / MLOps pipeline",
+    "domains": [
+      "e-commerce analytics",
+      "customer intelligence",
+      "machine learning operations",
+      "business intelligence"
+    ],
+    "capabilities": [
+      "large-scale ETL",
+      "feature engineering (RFM, rolling windows, target encoding)",
+      "gradient boosting model training",
+      "hyperparameter optimization",
+      "time-series cross-validation",
+      "drift detection & automated retraining",
+      "NLP sentiment & topic modeling",
+      "customer lifetime value modeling",
+      "customer segmentation & cohort analysis",
+      "recommendation system",
+      "market basket analysis",
+      "causal inference & uplift modeling",
+      "interactive dashboards"
+    ],
+    "frameworks": [
+      "Polars",
+      "Dask",
+      "Prefect",
+      "MLflow",
+      "DVC",
+      "Starlette/ASGI",
+      "React",
+      "Vite",
+      "Streamlit"
+    ],
+    "libraries": [
+      "LightGBM",
+      "CatBoost",
+      "XGBoost",
+      "scikit-learn",
+      "Optuna",
+      "Evidently AI",
+      "ONNX",
+      "onnxruntime",
+      "SHAP",
+      "Prophet",
+      "PyTorch",
+      "lifetimes",
+      "hdbscan",
+      "NLTK",
+      "vaderSentiment",
+      "mlxtend",
+      "Great Expectations",
+      "Plotly",
+      "recharts"
+    ],
+    "backend": [
+      "Python",
+      "Starlette ASGI / uvicorn",
+      "Redis"
+    ],
+    "platforms": [
+      "CPU-optimized",
+      "Linux"
+    ],
+    "keywords": [
+      "MLOps",
+      "Amazon reviews",
+      "gradient boosting",
+      "drift monitoring",
+      "continuous training",
+      "feature store",
+      "ONNX inference",
+      "RFM",
+      "CLV",
+      "uplift modeling",
+      "recommendation",
+      "data versioning"
+    ],
+    "needsReview": false
+  }
 }

@@ -1,19 +1,71 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "backend-desktop",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "C++20",
+    "Qt6",
+    "Qt6 Widgets",
+    "Qt6 Multimedia",
+    "Qt6 OpenGLWidgets",
+    "OpenCV",
+    "SQLite",
+    "CMake",
+    "Ninja",
+    "clangd"
+  ],
   "coverImage": "/portfolio/projects/geovideo-env-check/cover.webp",
   "links": [],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "desktop-application",
+    "domains": [
+      "video-evidence-review",
+      "security-monitoring",
+      "spatial-visualization",
+      "smart-city"
+    ],
+    "capabilities": [
+      "video-import",
+      "video-metadata-extraction",
+      "event-indexing",
+      "roi-modeling",
+      "event-review-workflow",
+      "spatial-visualization",
+      "layout-persistence"
+    ],
+    "frameworks": [
+      "Qt6"
+    ],
+    "libraries": [
+      "OpenCV",
+      "SQLite3",
+      "Qt Multimedia",
+      "Qt OpenGLWidgets"
+    ],
+    "backend": [
+      "SQLite (embedded)"
+    ],
+    "platforms": [
+      "Linux desktop",
+      "Windows",
+      "macOS"
+    ],
+    "keywords": [
+      "clean-architecture",
+      "domain-driven-design",
+      "schema-migration",
+      "dock-workspace",
+      "cmake",
+      "C++20"
     ]
   }
 }

@@ -5,11 +5,15 @@
   "status": "completed",
   "year": 2026,
   "technologies": [
-    "Next.js",
+    "Python",
     "FastAPI",
     "DuckDB",
-    "Python",
-    "Playwright",
+    "scikit-learn",
+    "PyTorch",
+    "statsmodels",
+    "Next.js",
+    "TypeScript",
+    "Streamlit",
     "Docker"
   ],
   "coverImage": "/portfolio/projects/retailpulse-bi-recommender/screenshots/01-dashboard.png",
@@ -186,7 +190,10 @@
       "Recommendation System"
     ],
     "platforms": [
-      "Web"
+      "Docker",
+      "Docker Compose",
+      "Playwright",
+      "Linux"
     ],
     "languages": [
       "Python",
@@ -194,11 +201,72 @@
     ],
     "frameworks": [
       "FastAPI",
-      "Next.js"
+      "Next.js",
+      "Streamlit",
+      "React",
+      "Tailwind CSS"
     ],
     "database": [
       "DuckDB"
     ],
-    "missingFields": []
+    "missingFields": [],
+    "projectType": "零售 BI 與推薦系統端到端資料產品 / End-to-end retail BI & recommendation data product",
+    "domains": [
+      "零售電商分析 / Retail & e-commerce analytics",
+      "商業智慧 / Business intelligence",
+      "推薦系統 / Recommender systems",
+      "客戶分群與留存 / Customer segmentation & retention"
+    ],
+    "capabilities": [
+      "ETL 資料清洗與倉儲",
+      "RFM 分群",
+      "Cohort 留存分析",
+      "購物籃關聯分析",
+      "三層推薦串接",
+      "時序銷售預測",
+      "深度學習客戶建模",
+      "A/B 測試框架",
+      "互動式儀表板"
+    ],
+    "libraries": [
+      "scikit-learn",
+      "mlxtend",
+      "statsmodels",
+      "PyTorch",
+      "gensim",
+      "implicit",
+      "sentence-transformers",
+      "pandas",
+      "Plotly",
+      "Recharts",
+      "TanStack Query",
+      "shadcn/ui"
+    ],
+    "backend": [
+      "FastAPI",
+      "DuckDB",
+      "Pydantic",
+      "Uvicorn"
+    ],
+    "keywords": [
+      "RFM",
+      "Apriori",
+      "K-Means",
+      "cohort retention",
+      "market basket",
+      "Top-N recommendation",
+      "collaborative filtering",
+      "ALS",
+      "item2vec",
+      "SARIMA",
+      "LSTM",
+      "churn",
+      "CLV",
+      "precision@K",
+      "DuckDB",
+      "FastAPI",
+      "Next.js"
+    ],
+    "needsReview": false
   }
 }

@@ -2,18 +2,96 @@
   "visibility": "public",
   "featured": false,
   "category": "information-system",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "Java 21",
+    "Spring Boot 3.5",
+    "PostgreSQL 16",
+    "Spring Security + JWT",
+    "MyBatis",
+    "Redis",
+    "MinIO",
+    "React 18",
+    "Vue 3 + TypeScript",
+    "Docker Compose"
+  ],
   "coverImage": "/portfolio/projects/govcase-tracker/cover.webp",
   "links": [],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "Enterprise government case-tracking and workflow platform",
+    "domains": [
+      "govtech",
+      "public-sector case management",
+      "workflow automation",
+      "e-government services"
+    ],
+    "capabilities": [
+      "case intake and submission",
+      "multi-stage workflow state machine",
+      "role-based access control (RBAC)",
+      "JWT authentication",
+      "SLA / deadline monitoring",
+      "audit logging",
+      "in-app notifications",
+      "file attachment upload/download",
+      "public progress lookup",
+      "reporting and dashboards"
+    ],
+    "frameworks": [
+      "Spring Boot",
+      "Spring Security",
+      "Spring Data JPA",
+      "React",
+      "Vue 3",
+      "Vite"
+    ],
+    "libraries": [
+      "MyBatis",
+      "Flyway",
+      "MinIO client",
+      "TanStack Query",
+      "Pinia",
+      "React Router",
+      "Vue Router",
+      "Tailwind CSS",
+      "D3",
+      "Plotly.js",
+      "Testcontainers",
+      "Vitest"
+    ],
+    "backend": [
+      "Java 21",
+      "Spring Boot 3.5",
+      "PostgreSQL 16",
+      "Redis",
+      "MinIO",
+      "Maven"
+    ],
+    "platforms": [
+      "Docker",
+      "Docker Compose",
+      "Nginx",
+      "GitHub Actions"
+    ],
+    "keywords": [
+      "government case tracking",
+      "workflow state machine",
+      "RBAC",
+      "JWT",
+      "SLA monitoring",
+      "audit log",
+      "MinIO object storage",
+      "Flyway migrations",
+      "OpenAPI / Swagger",
+      "Testcontainers"
     ]
   }
 }

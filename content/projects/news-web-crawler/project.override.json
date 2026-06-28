@@ -1,17 +1,19 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "in-progress",
   "year": 2026,
   "technologies": [
     "Python",
+    "Scrapy",
     "FastAPI",
+    "CKIP Transformers",
+    "scikit-learn",
     "Next.js",
     "TypeScript",
-    "SQLite",
-    "scikit-learn",
-    "Playwright",
+    "SQLite (FTS5)",
+    "ECharts",
     "Docker"
   ],
   "coverImage": "/portfolio/projects/news-web-crawler/cover.png",
@@ -215,5 +217,74 @@
         "en": "Runs demo, crawl, analysis, ML training, and diagnostics report export from the UI."
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "全端新聞資料智慧平台",
+    "domains": [
+      "新聞網路爬蟲",
+      "中文自然語言處理",
+      "資料工程",
+      "機器學習分析",
+      "資料視覺化",
+      "資訊檢索"
+    ],
+    "capabilities": [
+      "反偵測網路爬蟲",
+      "CKIP 中文斷詞/詞性標註/命名實體辨識",
+      "文字探勘與主題建模",
+      "文件分群與分類",
+      "關鍵詞搭配與情感分析",
+      "時間序列趨勢與突發偵測",
+      "可解釋 ML 模型訓練與診斷",
+      "全文檢索與資料匯出"
+    ],
+    "frameworks": [
+      "Scrapy",
+      "FastAPI",
+      "Next.js 15 (App Router)",
+      "React 19",
+      "Tailwind CSS"
+    ],
+    "libraries": [
+      "scrapy-playwright",
+      "ckip-transformers",
+      "jieba",
+      "transformers",
+      "scikit-learn",
+      "pandas",
+      "pyarrow",
+      "opencc",
+      "matplotlib",
+      "ECharts",
+      "Recharts",
+      "TanStack Query"
+    ],
+    "backend": [
+      "FastAPI",
+      "Pydantic",
+      "SQLite FTS5",
+      "SQL",
+      "APScheduler",
+      "joblib"
+    ],
+    "platforms": [
+      "Docker",
+      "Docker Compose",
+      "CUDA GPU",
+      "Linux"
+    ],
+    "keywords": [
+      "news crawler",
+      "Chinese NLP",
+      "CKIP",
+      "topic modeling",
+      "text mining",
+      "machine learning",
+      "data pipeline",
+      "FastAPI",
+      "Next.js",
+      "information retrieval"
+    ],
+    "needsReview": false
+  }
 }

@@ -1,19 +1,77 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "Pydantic",
+    "pandas",
+    "SQLite",
+    "Vanilla JavaScript",
+    "Vite",
+    "Docker"
+  ],
   "coverImage": "/portfolio/projects/quant-strategy-agent-lab/cover.webp",
   "links": [],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "全端量化研究工作台",
+    "domains": [
+      "量化交易",
+      "金融科技",
+      "資料工程",
+      "Agent 工作流"
+    ],
+    "capabilities": [
+      "市場資料正規化",
+      "技術指標計算",
+      "策略模板與 DSL",
+      "確定性回測引擎",
+      "績效與風險指標",
+      "Agent 式執行時間軸"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "Vite"
+    ],
+    "libraries": [
+      "Pydantic",
+      "pandas",
+      "yfinance",
+      "ESLint",
+      "Prettier",
+      "Pytest",
+      "Ruff"
+    ],
+    "backend": [
+      "Python 3.11+",
+      "FastAPI",
+      "SQLite (sqlite3)"
+    ],
+    "platforms": [
+      "Linux",
+      "Docker Compose"
+    ],
+    "keywords": [
+      "quantitative-trading",
+      "backtesting",
+      "technical-indicators",
+      "strategy-dsl",
+      "ohlcv",
+      "agent-workflow",
+      "local-first",
+      "sharpe-ratio",
+      "fastapi",
+      "vanilla-js"
     ]
   }
 }

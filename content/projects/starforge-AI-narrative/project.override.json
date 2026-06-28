@@ -1,10 +1,23 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "Pydantic",
+    "SQLAlchemy",
+    "OpenAI API",
+    "Transformers",
+    "PyTorch",
+    "TypeScript",
+    "Vite",
+    "Docker",
+    "pytest",
+    "SQLite"
+  ],
   "coverImage": "/portfolio/projects/starforge-AI-narrative/cover.webp",
   "links": [
     {
@@ -15,5 +28,68 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "AI 敘事生成遊戲 / AI-driven narrative game",
+    "domains": [
+      "AI narrative generation",
+      "game development",
+      "conversational AI",
+      "RAG",
+      "multi-agent orchestration"
+    ],
+    "capabilities": [
+      "multi-agent dialogue orchestration",
+      "LLM multi-step tool planning",
+      "retrieval-augmented generation (RAG)",
+      "NPC dialogue generation",
+      "custom lore ingestion",
+      "relationship/quest simulation",
+      "mock-first AI testing",
+      "provider abstraction (mock/OpenAI/local)"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "Vite"
+    ],
+    "libraries": [
+      "Pydantic",
+      "pydantic-settings",
+      "SQLAlchemy (async)",
+      "aiosqlite",
+      "Alembic",
+      "asyncpg",
+      "OpenAI SDK",
+      "Transformers",
+      "PyTorch",
+      "accelerate",
+      "NumPy",
+      "httpx",
+      "Pillow",
+      "pytest-asyncio"
+    ],
+    "backend": [
+      "FastAPI",
+      "Uvicorn",
+      "SQLAlchemy async",
+      "SQLite/PostgreSQL"
+    ],
+    "platforms": [
+      "Web",
+      "Docker"
+    ],
+    "keywords": [
+      "AI agents",
+      "RAG",
+      "LLM",
+      "narrative game",
+      "FastAPI",
+      "TypeScript",
+      "mock-first",
+      "tool calling",
+      "Stable Diffusion",
+      "2D game engine"
+    ],
+    "needsReview": false
+  }
 }

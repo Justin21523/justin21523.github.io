@@ -1,10 +1,21 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "FastAPI",
+    "DuckDB",
+    "SQLGlot",
+    "Pydantic",
+    "React",
+    "TypeScript",
+    "Apache ECharts",
+    "Vite",
+    "Docker",
+    "llama.cpp"
+  ],
   "coverImage": "/portfolio/projects/text2sql-evaluation-harness/cover.webp",
   "links": [
     {
@@ -17,12 +28,70 @@
     }
   ],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "LLM evaluation harness",
+    "domains": [
+      "Text-to-SQL",
+      "Agentic BI",
+      "LLM evaluation",
+      "data analytics"
+    ],
+    "capabilities": [
+      "benchmark loading",
+      "prompt/retrieval ablation",
+      "schema retrieval",
+      "SQL safety validation",
+      "execution accuracy scoring",
+      "bad case replay",
+      "LLM self-correction",
+      "error taxonomy classification",
+      "report export"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "React",
+      "Vite",
+      "Tailwind CSS"
+    ],
+    "libraries": [
+      "SQLGlot",
+      "SQLAlchemy",
+      "Pydantic",
+      "httpx",
+      "Apache ECharts",
+      "TanStack Query",
+      "i18next",
+      "react-router"
+    ],
+    "backend": [
+      "Python 3.11",
+      "DuckDB",
+      "FastAPI"
+    ],
+    "platforms": [
+      "Docker",
+      "docker-compose",
+      "Nginx",
+      "Tailscale",
+      "GitHub Actions"
+    ],
+    "keywords": [
+      "Text2SQL",
+      "Spider",
+      "DuckDB Text2SQL 25k",
+      "execution accuracy",
+      "SQL safety",
+      "prompt engineering",
+      "schema linking",
+      "ablation",
+      "OpenAI-compatible",
+      "Qwen2.5"
     ]
   }
 }

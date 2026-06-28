@@ -1,11 +1,20 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "completed",
   "year": 2026,
   "technologies": [
-    "Python"
+    "Python",
+    "PyTorch",
+    "FFmpeg",
+    "faster-whisper",
+    "FAISS",
+    "Hugging Face Transformers",
+    "Diffusers (Stable Diffusion)",
+    "XGBoost",
+    "moviepy",
+    "FastAPI"
   ],
   "coverImage": "/portfolio/projects/ytp-factory/cover.webp",
   "links": [
@@ -17,5 +26,70 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "AI 影片自動化生產管線 / AI video automation pipeline",
+    "domains": [
+      "生成式 AI",
+      "多模態內容生成",
+      "影音處理",
+      "多智能體系統",
+      "檢索增強生成 (RAG)"
+    ],
+    "capabilities": [
+      "語音轉錄與字幕對齊",
+      "LLM 腳本改寫與風格轉移",
+      "TTS 語音合成",
+      "ML 趣味度偵測與品質評分",
+      "多模態素材生成 (圖像/影片)",
+      "RAG 歷史學習檢索",
+      "GPU 記憶體調度",
+      "批次與斷點續傳處理"
+    ],
+    "frameworks": [
+      "PyTorch",
+      "FastAPI",
+      "Hugging Face Transformers",
+      "Diffusers",
+      "PEFT (LoRA)"
+    ],
+    "libraries": [
+      "faster-whisper",
+      "openai-whisper",
+      "moviepy",
+      "pydub",
+      "librosa",
+      "FAISS",
+      "sentence-transformers",
+      "XGBoost",
+      "scikit-learn",
+      "OpenCV",
+      "yt-dlp"
+    ],
+    "backend": [
+      "FastAPI",
+      "Uvicorn",
+      "WebSockets",
+      "systemd",
+      "Docker"
+    ],
+    "platforms": [
+      "Linux (Ubuntu 22.04)",
+      "NVIDIA CUDA",
+      "CPU fallback"
+    ],
+    "keywords": [
+      "YouTube Poop",
+      "multi-agent",
+      "RAG",
+      "Whisper",
+      "Stable Diffusion",
+      "LLM",
+      "TTS",
+      "pipeline orchestration",
+      "GPU optimization",
+      "multimodal"
+    ],
+    "needsReview": false
+  }
 }

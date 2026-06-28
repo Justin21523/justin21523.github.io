@@ -1,12 +1,81 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "in-progress",
   "year": 2026,
   "technologies": [
-    "Python"
+    "Python",
+    "FastAPI",
+    "Pydantic v2",
+    "httpx",
+    "DuckDB",
+    "SQLite",
+    "pandas",
+    "NumPy",
+    "Starlette",
+    "Uvicorn",
+    "PyYAML",
+    "SciPy"
   ],
   "coverImage": "/portfolio/projects/urban-analytics-core/cover.webp",
-  "links": []
+  "links": [],
+  "metadata": {
+    "projectType": "shared-infrastructure-library",
+    "domains": [
+      "urban-analytics",
+      "smart-city",
+      "mobility",
+      "open-data",
+      "geospatial"
+    ],
+    "capabilities": [
+      "TDX OAuth2 authentication",
+      "HTTP client with rate limiting and retry/backoff",
+      "typed settings with YAML loading and env override",
+      "unified logging configuration",
+      "file-based JSON cache with TTL",
+      "SQLite and DuckDB/Parquet storage backends",
+      "FastAPI app factory with CORS/cache/rate-limit middleware",
+      "haversine geospatial helpers",
+      "timezone-aware time parsing"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "Starlette",
+      "Pydantic"
+    ],
+    "libraries": [
+      "httpx",
+      "pandas",
+      "numpy",
+      "scipy",
+      "PyYAML",
+      "duckdb"
+    ],
+    "backend": [
+      "Python 3.10+",
+      "Uvicorn",
+      "SQLite (WAL)",
+      "DuckDB",
+      "Parquet"
+    ],
+    "platforms": [
+      "TDX Transport Data eXchange (Taiwan)"
+    ],
+    "keywords": [
+      "TDX",
+      "Taiwan",
+      "traffic",
+      "MRT",
+      "YouBike",
+      "commute",
+      "monorepo-shared-package",
+      "DRY",
+      "rate-limit",
+      "retry-backoff",
+      "editable-install"
+    ],
+    "needsReview": false
+  }
 }

@@ -5,14 +5,16 @@
   "status": "completed",
   "year": 2026,
   "technologies": [
-    "Python",
+    "Python 3.11",
     "FastAPI",
-    "React",
-    "TypeScript",
-    "Vite",
     "DuckDB",
-    "Playwright",
-    "Docker"
+    "Pydantic v2",
+    "sqlparse / sqlglot",
+    "React + TypeScript",
+    "Vite",
+    "TailwindCSS",
+    "Recharts",
+    "Playwright"
   ],
   "coverImage": "/portfolio/projects/agentic-bi-dataops-copilot/cover.webp",
   "links": [
@@ -299,5 +301,64 @@
         "en": "Per-table completeness, uniqueness, NULL rate, and data quality score overview."
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "自然語言 BI / DataOps 副駕平台",
+    "domains": [
+      "Business Intelligence",
+      "DataOps",
+      "Text2SQL",
+      "資料治理與安全",
+      "資料品質"
+    ],
+    "capabilities": [
+      "Schema-aware Text2SQL",
+      "三重 SQL 安全驗證 (regex + AST + table whitelist)",
+      "唯讀 DuckDB 查詢執行與逾時保護",
+      "圖表自動推薦",
+      "查詢歷史追蹤",
+      "資料品質報告 (null rate / distinct count)",
+      "基準測試評估 (valid_sql_rate / unsafe_rejection_rate)",
+      "中英雙語自然語言提問"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "React",
+      "Streamlit (legacy)",
+      "Vite"
+    ],
+    "libraries": [
+      "pandas",
+      "numpy",
+      "sqlparse",
+      "sqlglot",
+      "Plotly",
+      "Recharts",
+      "pydantic-settings",
+      "httpx",
+      "sentence-transformers"
+    ],
+    "backend": [
+      "FastAPI",
+      "DuckDB",
+      "Pydantic v2",
+      "uv"
+    ],
+    "platforms": [
+      "Docker",
+      "docker-compose"
+    ],
+    "keywords": [
+      "Text2SQL",
+      "SQL guardrails",
+      "DuckDB",
+      "DataOps",
+      "BI copilot",
+      "read-only safety",
+      "data quality",
+      "schema retrieval",
+      "zero-API-key"
+    ],
+    "needsReview": false
+  }
 }

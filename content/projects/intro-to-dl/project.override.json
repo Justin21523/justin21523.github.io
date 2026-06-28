@@ -1,10 +1,20 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "PyTorch",
+    "Transformers",
+    "PEFT (LoRA/QLoRA)",
+    "Diffusers",
+    "FAISS",
+    "sentence-transformers",
+    "Jupyter",
+    "Gymnasium",
+    "PyTorch Geometric"
+  ],
   "coverImage": "/portfolio/projects/intro-to-dl/cover.webp",
   "links": [
     {
@@ -15,5 +25,67 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "learning-project",
+    "domains": [
+      "deep-learning",
+      "machine-learning",
+      "nlp",
+      "computer-vision",
+      "generative-ai",
+      "reinforcement-learning"
+    ],
+    "capabilities": [
+      "hands-on-tutorials",
+      "model-implementation",
+      "llm-finetuning",
+      "rag",
+      "ai-agents",
+      "diffusion-generation",
+      "model-compression"
+    ],
+    "frameworks": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Diffusers",
+      "PEFT",
+      "PyTorch Geometric"
+    ],
+    "libraries": [
+      "numpy",
+      "pandas",
+      "matplotlib",
+      "scikit-learn",
+      "accelerate",
+      "bitsandbytes",
+      "sentence-transformers",
+      "faiss",
+      "gymnasium"
+    ],
+    "backend": [
+      "Python",
+      "CUDA"
+    ],
+    "platforms": [
+      "Jupyter Notebook",
+      "Linux",
+      "NVIDIA GPU"
+    ],
+    "keywords": [
+      "李宏毅",
+      "deep learning",
+      "transformer",
+      "LLM",
+      "RAG",
+      "LoRA",
+      "diffusion",
+      "GAN",
+      "RLHF",
+      "GNN",
+      "self-learning",
+      "education"
+    ],
+    "needsReview": false
+  }
 }

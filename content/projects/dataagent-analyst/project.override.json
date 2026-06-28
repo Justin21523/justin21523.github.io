@@ -2,21 +2,93 @@
   "visibility": "public",
   "featured": false,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "in-progress",
   "year": 2026,
   "technologies": [
-    "Python",
-    "FastAPI"
+    "FastAPI",
+    "Python 3.12",
+    "scikit-learn",
+    "LangGraph",
+    "llama.cpp",
+    "pandas",
+    "SHAP",
+    "Vanilla JavaScript",
+    "Docker Compose",
+    "Apache ECharts"
   ],
   "coverImage": "/portfolio/projects/dataagent-analyst/cover.webp",
   "links": [],
   "metadata": {
-    "needsReview": true,
+    "needsReview": false,
     "missingFields": [
       "reviewed zh-TW case study",
       "reviewed English case study",
       "verified media assets",
       "verified public links"
+    ],
+    "projectType": "AI data analysis & machine learning workbench",
+    "domains": [
+      "data analysis",
+      "machine learning",
+      "exploratory data analysis",
+      "AI agents",
+      "model explainability",
+      "MLOps"
+    ],
+    "capabilities": [
+      "CSV dataset ingestion & registry",
+      "automatic column profiling",
+      "automated EDA (missing values, duplicates, outliers, correlation)",
+      "chart recommendation & rendering",
+      "baseline ML training (classification/regression)",
+      "model evaluation & leaderboard",
+      "SHAP-based model explainability",
+      "local LLM insight generation",
+      "LangGraph multi-agent orchestration",
+      "async agent jobs with progress streaming",
+      "markdown analysis report generation"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "LangGraph",
+      "Pydantic v2"
+    ],
+    "libraries": [
+      "pandas",
+      "NumPy",
+      "SciPy",
+      "scikit-learn",
+      "joblib",
+      "SHAP",
+      "httpx",
+      "Apache ECharts"
+    ],
+    "backend": [
+      "Python 3.12",
+      "FastAPI",
+      "Uvicorn",
+      "layered service architecture",
+      "PostgreSQL",
+      "Qdrant",
+      "llama.cpp (OpenAI-compatible server)"
+    ],
+    "platforms": [
+      "Docker",
+      "Docker Compose",
+      "Nginx"
+    ],
+    "keywords": [
+      "AI agent",
+      "data analysis",
+      "AutoEDA",
+      "AutoML",
+      "model explainability",
+      "SHAP",
+      "local LLM",
+      "RAG",
+      "LangGraph",
+      "FastAPI",
+      "portfolio"
     ]
   }
 }

@@ -1,25 +1,35 @@
 ---
 title: "Agentic BI / DataOps Copilot"
-tagline: "Schema-aware Text2SQL with three-pass SQL guardrails over a DuckDB retail warehouse"
-summary: "A bilingual (EN/ZH) natural language analytics platform that turns plain questions into safe SQL queries. Features three-layer SQL validation, DuckDB in-process analytics, a React dashboard with 14 pages, a 16-step guided Data Journey tour, and full Playwright E2E evidence."
-role: "Full-stack Data Product Developer"
-problem: "BI analysts need to query retail warehouse data in natural language without risking unsafe SQL execution — every LLM-generated SQL must be validated before touching the database."
-solution: "A schema-aware Text2SQL pipeline with three independent safety passes (regex, AST, table whitelist), read-only DuckDB execution, and a React frontend with a guided onboarding tour that walks through every DataOps stage."
-outcome: "Deployed a production-like AI data product with 41 passing tests, Playwright-validated UI across 14 pages, and a live guided tour covering 16 DataOps pipeline stages."
+tagline: "Local BI copilot: schema-aware Text2SQL with three-pass SQL guardrails"
+summary: "A bilingual (EN/ZH) natural-language analytics platform over a retail DuckDB warehouse. Users ask in plain language; the system runs schema retrieval, Text2SQL, three-pass SQL safety validation, read-only execution, and chart recommendation. A rule-based adapter runs with zero API key, paired with a 16-stage DataOps guided React frontend. The focus is safety, explainability, and evaluability."
+role: "Full-stack developer: backend architecture, SQL safety validator, evaluation harness, and React frontend"
+problem: "Letting non-technical users query a warehouse in natural language is compelling, but trusting LLM-generated SQL directly risks destructive writes, injection attacks, and runaway queries — and most demos lack any evaluable, verifiable safety layer."
+solution: "A schema-aware Text2SQL pipeline where every SQL string (including LLM output) passes a three-pass validator — regex blacklist, sqlparse AST analysis, and table whitelist — then executes on a read-only DuckDB connection with injected LIMIT and timeouts, backed by benchmark YAML and quantitative metrics."
+outcome: "A working end-to-end, portfolio-grade platform: zero-cost rule-based adapter, 20+ pytest tests, a 12-case benchmark (targeting 100% unsafe-query rejection), and a Playwright-verified 16-stage React guided tour."
 highlights:
-  - "Three-pass SQL validator: regex → AST → table whitelist for defense-in-depth"
-  - "Rule-based Text2SQL baseline runs with zero API key — OpenAI GPT-4o available as upgrade"
-  - "DuckDB read-only connection as a second layer of defense against write operations"
-  - "React + Vite frontend with 14 pages, internationalization (ZH/EN), and dark mode"
-  - "16-step Data Journey guided tour auto-starts on every page load with Playwright evidence"
-  - "FastAPI backend with structured benchmark evaluation (valid_sql_rate, unsafe_rejection_rate)"
+  - "Defense-in-depth: three-pass SQL validation plus read-only DuckDB"
+  - "Full demo with zero API key via rule-based Text2SQL"
+  - "12-case benchmark with quantified safety/accuracy metrics"
+  - "Playwright-verified 16-stage guided React frontend"
+  - "Clean FastAPI REST API with interactive docs"
+  - "Bilingual EN/ZH querying over a semantic catalog (catalog.yaml)"
 challenges:
-  - "Restoring all BI Copilot source files overwritten by an unrelated project merge via git rebase"
-  - "Deploying through GitHub Actions SSH to a server behind a non-standard port"
-  - "Configuring Vite base path and API routing to integrate into the portfolio proxy structure"
+  - "Blocking dangerous statements while keeping the false-positive rate low"
+  - "Keyword-scored schema retrieval trades simplicity against recall"
+  - "Sharing one validation layer across both rule-based and LLM paths"
 nextSteps:
-  - "Add JWT authentication middleware to FastAPI"
-  - "Replace keyword scoring with sentence-transformer embeddings"
-  - "Add streaming SSE responses for real-time query progress"
+  - "Complete the OpenAI adapter (currently a stub) with real API calls"
+  - "Replace keyword scoring with sentence-transformer semantic retrieval"
+  - "Add JWT/OAuth auth and rate limiting for production readiness"
 ---
-Agentic BI / DataOps Copilot is a portfolio-quality demonstration of safe, schema-aware natural language querying over a synthetic retail DuckDB warehouse. It shows production-like SQL safety patterns, evaluability, and a polished frontend with guided onboarding — all running without a paid LLM API key by default.
+## Overview
+Agentic BI / DataOps Copilot is a natural-language analytics platform over a retail data warehouse. Users ask questions in English or Chinese, and the system performs schema retrieval, Text2SQL generation, SQL safety validation, query execution, chart recommendation, query history, and data-quality checks. Its guiding principle is safety, explainability, and evaluability — not making the agent look flashy.
+
+## Safety Architecture
+Every SQL string (including future LLM output) must clear the three-pass validator in `validator.py`: Pass 1 uses regex to block DROP/DELETE/UPDATE and 20+ dangerous keywords plus comment injection; Pass 2 parses the AST with sqlparse to reject multi-statement, non-SELECT, and comment-token injection; Pass 3 permits only whitelisted retail tables. Validated queries run on a `read_only=True` DuckDB connection with injected LIMIT and a thread timeout, forming layered defense — the LLM is never trusted directly.
+
+## Tech Stack & Evaluability
+The backend uses Python 3.11, FastAPI, Pydantic v2, and in-process DuckDB (OLAP), managed with uv; SQL parsing relies on sqlparse and sqlglot. The frontend is React + TypeScript + Vite + TailwindCSS, visualized with Recharts and verified by Playwright across a 16-stage tour and feature pages. Evaluation ships benchmark YAML and metrics such as `unsafe_rejection_rate`, `valid_sql_rate`, `execution_accuracy`, and `false_positive_rate`.
+
+## Honest Completeness
+The rule-based Text2SQL path, validator, query executor, evaluation harness, and frontend all run end-to-end with 20+ pytest tests; data is fully synthetic with no real PII. The OpenAI adapter is currently a stub, and authentication, rate limiting, semantic retrieval, and external benchmarks (Spider/BIRD) are tracked as production follow-ups.

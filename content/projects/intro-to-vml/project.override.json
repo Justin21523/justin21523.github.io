@@ -1,11 +1,18 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "in-progress",
   "year": 2026,
   "technologies": [
-    "Python"
+    "Python",
+    "NumPy",
+    "PyTorch",
+    "Pillow",
+    "Jupyter Notebook",
+    "pytest",
+    "Docker",
+    "Nginx"
   ],
   "coverImage": "/portfolio/projects/intro-to-vml/cover.webp",
   "links": [
@@ -17,5 +24,56 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "educational-curriculum",
+    "domains": [
+      "computer-vision",
+      "machine-learning",
+      "deep-learning",
+      "image-processing"
+    ],
+    "capabilities": [
+      "from-scratch-algorithm-implementation",
+      "image-filtering-convolution",
+      "edge-detection-segmentation",
+      "feature-extraction",
+      "classical-ml-classifiers",
+      "cnn-training-loops",
+      "semantic-segmentation",
+      "performance-optimization"
+    ],
+    "frameworks": [
+      "PyTorch"
+    ],
+    "libraries": [
+      "NumPy",
+      "Pillow",
+      "pytest"
+    ],
+    "backend": [
+      "Python CLI (vml)"
+    ],
+    "platforms": [
+      "Linux",
+      "Docker"
+    ],
+    "keywords": [
+      "computer vision",
+      "machine learning",
+      "教學",
+      "from scratch",
+      "CNN",
+      "LeNet",
+      "U-Net",
+      "SIFT",
+      "HOG",
+      "SVM",
+      "gradient descent",
+      "backpropagation",
+      "im2col",
+      "vectorization"
+    ],
+    "needsReview": false
+  }
 }

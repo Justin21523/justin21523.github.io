@@ -1,12 +1,19 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "in-progress",
   "year": 2026,
   "technologies": [
-    "Python",
-    "FastAPI"
+    "FastAPI",
+    "SQLAlchemy (async)",
+    "Celery + Redis",
+    "YouTube Data API v3",
+    "Playwright / Selenium",
+    "Transformers / Sentence-Transformers",
+    "RAG & LLM",
+    "Docker",
+    "Prometheus + Grafana"
   ],
   "coverImage": "/portfolio/projects/YouTube-Web-Automation-Analysis/cover.webp",
   "links": [
@@ -18,5 +25,71 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "data-platform",
+    "domains": [
+      "data-engineering",
+      "nlp",
+      "web-automation",
+      "social-media-analytics"
+    ],
+    "capabilities": [
+      "youtube-data-ingestion",
+      "web-scraping-fallback",
+      "sentiment-analysis",
+      "topic-modeling",
+      "rag-retrieval",
+      "visual-question-answering",
+      "conversational-ai",
+      "caption-extraction",
+      "trend-tracking",
+      "async-task-orchestration",
+      "real-time-websocket"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "SQLAlchemy 2.0",
+      "Celery",
+      "Pydantic v2",
+      "Alembic"
+    ],
+    "libraries": [
+      "transformers",
+      "sentence-transformers",
+      "torch",
+      "nltk",
+      "spaCy",
+      "scikit-learn",
+      "pandas",
+      "numpy",
+      "BeautifulSoup",
+      "httpx"
+    ],
+    "backend": [
+      "Python",
+      "Redis",
+      "SQLite / PostgreSQL",
+      "Flower"
+    ],
+    "platforms": [
+      "Docker",
+      "docker-compose",
+      "Nginx",
+      "Linux"
+    ],
+    "keywords": [
+      "YouTube analytics",
+      "web automation",
+      "RAG",
+      "sentiment analysis",
+      "ETL pipeline",
+      "clean architecture",
+      "repository pattern",
+      "task queue",
+      "LLM integration",
+      "quota management"
+    ],
+    "needsReview": false
+  }
 }

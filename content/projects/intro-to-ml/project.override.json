@@ -1,10 +1,19 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "information-system",
-  "status": "prototype",
+  "category": "ai-data",
+  "status": "in-progress",
   "year": 2026,
-  "technologies": [],
+  "technologies": [
+    "Python",
+    "NumPy",
+    "Matplotlib",
+    "SciPy",
+    "scikit-learn (datasets only)",
+    "Jupyter Notebook",
+    "Docker",
+    "Nginx"
+  ],
   "coverImage": "/portfolio/projects/intro-to-ml/cover.webp",
   "links": [
     {
@@ -15,5 +24,72 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "learning",
+    "domains": [
+      "machine-learning",
+      "data-science",
+      "education"
+    ],
+    "capabilities": [
+      "supervised-learning",
+      "unsupervised-learning",
+      "classification",
+      "regression",
+      "clustering",
+      "dimensionality-reduction",
+      "ensemble-methods",
+      "model-evaluation",
+      "from-scratch-algorithm-implementation",
+      "data-visualization"
+    ],
+    "frameworks": [
+      "Jupyter"
+    ],
+    "libraries": [
+      "NumPy",
+      "Matplotlib",
+      "SciPy",
+      "scikit-learn"
+    ],
+    "backend": [
+      "Python"
+    ],
+    "platforms": [
+      "Docker",
+      "Nginx",
+      "Linux"
+    ],
+    "keywords": [
+      "machine-learning",
+      "from-scratch",
+      "numpy",
+      "linear-regression",
+      "gradient-descent",
+      "logistic-regression",
+      "knn",
+      "naive-bayes",
+      "perceptron",
+      "lda-qda",
+      "decision-tree",
+      "random-forest",
+      "adaboost",
+      "gradient-boosting",
+      "svm",
+      "smo",
+      "kmeans",
+      "gmm-em",
+      "dbscan",
+      "pca",
+      "kernel-pca",
+      "svd",
+      "t-sne",
+      "bias-variance",
+      "regularization",
+      "kernel-trick",
+      "parallelization"
+    ],
+    "needsReview": false
+  }
 }

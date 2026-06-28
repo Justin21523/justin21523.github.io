@@ -1,28 +1,30 @@
 ---
-title: "Intro To Dl"
-tagline: "資料處理、AI、分析或自動化流程練習專案。"
-summary: "Intro To Dl 是一個以 目前掃描到的專案檔案與 README 線索 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。"
-role: "獨立開發者 / 學習型專案實作者"
-problem: "這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。"
-solution: "我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。"
-outcome: "目前適合作為資料整理、分析、自動化或 AI 應用流程的學習型作品。"
+title: "Deep Learning 系統化實戰教程"
+tagline: "從基礎到 LLM 與生成式 AI 的個人深度學習實作筆記集"
+summary: "整合台大李宏毅 ML/GenAI 課程內容，建構橫跨 15 個模組、近 40 本 Jupyter notebook 的系統化深度學習學習專案。涵蓋 CNN、Transformer、BERT、LLM 微調、RAG、AI Agent、Diffusion、RLHF 至模型壓縮等主幹技術，並針對 RTX 5080 16GB 環境最佳化。"
+role: "獨立學習者與內容作者（規劃學習地圖、實作 notebook、整理論文與範例）"
+problem: "現代深度學習技術龐雜且更新快速，缺乏一條從數學基礎、經典模型到最新 LLM／生成式 AI 的清晰學習路徑，零散教材也難以在有限 GPU 上實際動手練習。"
+solution: "依模型家族建立 15 個主題模組（基礎、監督學習、CV、序列建模、語言模型、生成模型、圖學習、魯棒性、遷移、強化學習、AI Agent、LLM 進階、多模態等），對應李宏毅課程作業與核心論文，逐一以 PyTorch 實作，並提供環境配置、學習順序與 VRAM 需求指引。"
+outcome: "完成涵蓋從 MLP、ResNet、Transformer 到 LoRA 微調、RAG、Diffusion、RLHF、知識編輯與模型合併的近 40 本可執行 notebook，形成可重複使用的個人學習與教學資源，仍持續擴充新模組。"
 highlights:
-  - "README 顯示：ML 2021 Springhttps://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php - 機器學習基礎"
-  - "README 顯示：ML 2025 Springhttps://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php - 進階 LLM 技術 NEW"
-  - "README 顯示：GenAI-ML 2025 Fallhttps://speech.ee.ntu.edu.tw/~hylee/GenAI-ML/2025-fall.php - 生成式 AI NEW"
+  - "15 個模組、近 40 本 notebook，系統涵蓋現代深度學習主幹技術"
+  - "對接李宏毅 ML 2021/2025、GenAI 2025 課程作業與經典論文出處"
+  - "含 LLM 微調 (LoRA/QLoRA)、RAG、AI Agent、模型編輯與合併等 2025 前沿主題"
+  - "針對 RTX 5080 16GB 最佳化：混合精度、梯度累積、4-bit 量化"
+  - "提供初學者／進階／LLM 專題等多條建議學習路線"
+  - "涵蓋 XAI、對抗攻擊、LLM 安全等魯棒性與安全議題"
 challenges:
-  - "需要從 README 與原始碼中整理出可信、可展示的專案範圍。"
-  - "需要把技術名詞轉換成清楚的功能、資料流與學習成果。"
-  - "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
+  - "在 16GB VRAM 限制下實作 LLM 微調與 Diffusion 等大模型任務，需量化與梯度累積等技巧"
+  - "整合多年度、多課程作業並補齊論文脈絡，維持模組間概念連貫"
 nextSteps:
-  - "補齊更完整的中英文案例研究與操作截圖。"
-  - "確認 GitHub、Demo、文件與素材是否適合公開展示。"
-  - "依完成度補強測試、README 與部署或執行說明。"
+  - "補齊尚在規劃的模組並統一新舊 notebook 目錄結構"
+  - "將教程內容打包並透過 Docker 部署為線上可瀏覽版本"
+  - "持續追蹤新的 LLM／多模態技術並新增對應實作"
 ---
-Intro To Dl 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。
+這是一個以自學為目的的深度學習系統化教學專案，目標是「把現代深度學習整棟大樓走一遍」並以 PyTorch 親手實作。專案整合台大李宏毅老師的 ML 2021、ML 2025 與 GenAI-ML 2025 課程內容，將龐雜的技術整理成清晰的學習地圖與模組化的 Jupyter notebook 集。
 
-從掃描資料來看，這個專案的主要技術線索包含 目前掃描到的專案檔案與 README 線索。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。
+內容依模型家族劃分為 15 個模組，從 Foundations（數學、PyTorch 基礎）出發，經監督學習、電腦視覺（CNN）、序列建模（RNN/LSTM、Attention、Transformer）、語言模型（BERT、LLM 微調、推理），延伸至生成模型（Autoencoder/VAE、GAN、Diffusion）、圖學習（GNN）、魯棒性與安全（XAI、對抗攻擊、LLM Safety）、遷移與適應、強化學習（Policy Gradient、RLHF/DPO），再到 AI Agent（RAG、ReAct、Tool Use）、LLM 進階（模型編輯、模型合併）與多模態（語音生成）。每個 notebook 皆標註對應課程作業與核心論文出處。
 
-這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。 我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。
+專案在工程面針對 32 核心 CPU + RTX 5080 16GB VRAM 的環境最佳化，採用 CUDA、混合精度訓練、torch.compile、4-bit 量化（QLoRA）與梯度累積等技巧，使大型模型任務能在消費級 GPU 上實際運行，並提供各 notebook 的 VRAM 需求參考。
 
-後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。
+專案同時規劃了初學者、進階與 LLM 專題等多條學習路線，方便依興趣與程度循序漸進。此為持續演進中的個人學習與教學資源，部分新模組仍在補充，並計畫以 Docker 打包後部署為可線上瀏覽的版本。

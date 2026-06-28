@@ -2,10 +2,19 @@
   "visibility": "public",
   "featured": false,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
-    "Python"
+    "Python",
+    "FastAPI",
+    "Pydantic v2",
+    "httpx",
+    "SQLite",
+    "PyYAML",
+    "Uvicorn",
+    "Docker",
+    "TDX Open API",
+    "Vanilla JS"
   ],
   "coverImage": "/portfolio/projects/commute-reliability-analysis/cover.webp",
   "links": [
@@ -17,5 +26,58 @@
         "en": "View GitHub"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "projectType": "資料分析與 Web 應用 / Data analytics web app",
+    "domains": [
+      "public-transit",
+      "mobility",
+      "reliability-analytics",
+      "commute-planning",
+      "data-engineering"
+    ],
+    "capabilities": [
+      "eta-accuracy-evaluation",
+      "transfer-miss-risk-scoring",
+      "route-reliability-ranking",
+      "multi-leg-commute-scoring",
+      "auto-candidate-generation",
+      "time-window-data-ingestion",
+      "background-job-orchestration",
+      "runtime-config-hot-reload"
+    ],
+    "frameworks": [
+      "FastAPI"
+    ],
+    "libraries": [
+      "Pydantic",
+      "httpx",
+      "python-dotenv",
+      "PyYAML",
+      "Uvicorn"
+    ],
+    "backend": [
+      "Python",
+      "FastAPI",
+      "SQLite"
+    ],
+    "platforms": [
+      "Docker",
+      "Linux",
+      "Web"
+    ],
+    "keywords": [
+      "TDX",
+      "commute-reliability",
+      "bus-ETA",
+      "transfer-risk",
+      "public-transport",
+      "baseline-statistics",
+      "explainable-analytics",
+      "Taipei-transit",
+      "reliability-ranking",
+      "data-pipeline"
+    ],
+    "needsReview": false
+  }
 }
