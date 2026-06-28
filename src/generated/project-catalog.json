@@ -54,8 +54,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/2d-animation-lora-pipeline/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -646,7 +646,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.543Z",
+      "lastScannedAt": "2026-06-28T20:09:52.140Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1410,7 +1410,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.548Z",
+      "lastScannedAt": "2026-06-28T20:09:52.146Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1561,8 +1561,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/3d-maze-explorer/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -1757,7 +1757,7 @@
         "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.549Z",
+      "lastScannedAt": "2026-06-28T20:09:52.147Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -1905,8 +1905,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/3d-platformer-runner/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -2107,7 +2107,7 @@
         "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.549Z",
+      "lastScannedAt": "2026-06-28T20:09:52.148Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -2289,8 +2289,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -3057,7 +3057,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.551Z",
+      "lastScannedAt": "2026-06-28T20:09:52.149Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3222,8 +3222,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/ai-3d-studio/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -3589,7 +3589,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.552Z",
+      "lastScannedAt": "2026-06-28T20:09:52.150Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3743,8 +3743,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/ai-game-website/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -3963,7 +3963,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.553Z",
+      "lastScannedAt": "2026-06-28T20:09:52.151Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4133,8 +4133,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/ai-knowledge-workspace/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -4429,7 +4429,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.553Z",
+      "lastScannedAt": "2026-06-28T20:09:52.152Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4602,8 +4602,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/amazon-review-intelligence/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -4970,7 +4970,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.554Z",
+      "lastScannedAt": "2026-06-28T20:09:52.153Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -5135,8 +5135,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/animation-ai-studio/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -5719,7 +5719,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.555Z",
+      "lastScannedAt": "2026-06-28T20:09:52.155Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -5884,8 +5884,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/anime-adventure-lab/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -6295,7 +6295,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.556Z",
+      "lastScannedAt": "2026-06-28T20:09:52.156Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -6450,8 +6450,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/anime-lora-pipeline/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -6635,7 +6635,7 @@
         "content/projects/anime-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.557Z",
+      "lastScannedAt": "2026-06-28T20:09:52.157Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -6782,8 +6782,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/aqua-rush/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -7026,7 +7026,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.557Z",
+      "lastScannedAt": "2026-06-28T20:09:52.157Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -7201,8 +7201,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/archive-flow-studio/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -7557,7 +7557,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.558Z",
+      "lastScannedAt": "2026-06-28T20:09:52.158Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7704,8 +7704,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/AutoForge-llm-studio/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -7881,7 +7881,7 @@
         "content/projects/AutoForge-llm-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.559Z",
+      "lastScannedAt": "2026-06-28T20:09:52.158Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8019,8 +8019,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/automation/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -8213,7 +8213,7 @@
         "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.559Z",
+      "lastScannedAt": "2026-06-28T20:09:52.159Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8386,8 +8386,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/cafe-net-manager/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -8716,7 +8716,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.559Z",
+      "lastScannedAt": "2026-06-28T20:09:52.159Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8881,8 +8881,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/campus-quest-3d/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -9117,7 +9117,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.560Z",
+      "lastScannedAt": "2026-06-28T20:09:52.160Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9740,7 +9740,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.561Z",
+      "lastScannedAt": "2026-06-28T20:09:52.161Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9901,8 +9901,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/ChronosMap/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -10154,7 +10154,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.562Z",
+      "lastScannedAt": "2026-06-28T20:09:52.162Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -10616,7 +10616,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.562Z",
+      "lastScannedAt": "2026-06-28T20:09:52.162Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11049,7 +11049,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.563Z",
+      "lastScannedAt": "2026-06-28T20:09:52.163Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11471,7 +11471,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.563Z",
+      "lastScannedAt": "2026-06-28T20:09:52.163Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11630,8 +11630,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/CulturePOS/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -11886,7 +11886,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.563Z",
+      "lastScannedAt": "2026-06-28T20:09:52.164Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12056,8 +12056,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/data-narrative-studio/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -12280,7 +12280,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.564Z",
+      "lastScannedAt": "2026-06-28T20:09:52.165Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -12425,8 +12425,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/data-pipelines/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -12619,7 +12619,7 @@
         "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.564Z",
+      "lastScannedAt": "2026-06-28T20:09:52.166Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -13070,7 +13070,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.565Z",
+      "lastScannedAt": "2026-06-28T20:09:52.166Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -13239,8 +13239,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/datalab-studio/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -13424,7 +13424,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.565Z",
+      "lastScannedAt": "2026-06-28T20:09:52.167Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -13596,8 +13596,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/posts-trending-crawler/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -13926,7 +13926,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.566Z",
+      "lastScannedAt": "2026-06-28T20:09:52.167Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -14077,8 +14077,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/digital-archive-review-board/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -14299,7 +14299,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.566Z",
+      "lastScannedAt": "2026-06-28T20:09:52.168Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14664,7 +14664,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.567Z",
+      "lastScannedAt": "2026-06-28T20:09:52.168Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14841,8 +14841,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/discord-clone/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -15096,7 +15096,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.567Z",
+      "lastScannedAt": "2026-06-28T20:09:52.168Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -15252,8 +15252,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/dom-visualizer-oop/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -15439,7 +15439,7 @@
         "content/projects/dom-visualizer-oop/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.568Z",
+      "lastScannedAt": "2026-06-28T20:09:52.169Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -15583,8 +15583,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/edge-deid-studio/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -15768,7 +15768,7 @@
         "content/projects/edge-deid-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.568Z",
+      "lastScannedAt": "2026-06-28T20:09:52.169Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -15925,8 +15925,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/elio-discord-bot/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -16109,7 +16109,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.568Z",
+      "lastScannedAt": "2026-06-28T20:09:52.170Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -16317,8 +16317,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/excel-python-data-analysis/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       }
@@ -16914,7 +16914,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.569Z",
+      "lastScannedAt": "2026-06-28T20:09:52.170Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -17121,8 +17121,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/fandom-gui-scraper/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       }
@@ -17758,7 +17758,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.570Z",
+      "lastScannedAt": "2026-06-28T20:09:52.171Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -17911,8 +17911,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/frontend-interaction-lab/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -18169,7 +18169,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.571Z",
+      "lastScannedAt": "2026-06-28T20:09:52.172Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -18334,8 +18334,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/game-dialogue-simulator/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -18520,7 +18520,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.571Z",
+      "lastScannedAt": "2026-06-28T20:09:52.172Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -18680,8 +18680,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/GAN-AE-vision-suite/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -19019,7 +19019,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.572Z",
+      "lastScannedAt": "2026-06-28T20:09:52.173Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -19193,8 +19193,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/geovideo-env-check/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -19428,7 +19428,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.572Z",
+      "lastScannedAt": "2026-06-28T20:09:52.173Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -19588,8 +19588,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/govcase-tracker/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -19865,7 +19865,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.572Z",
+      "lastScannedAt": "2026-06-28T20:09:52.174Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -20039,8 +20039,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/HeritageMapStudio/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -20275,7 +20275,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.573Z",
+      "lastScannedAt": "2026-06-28T20:09:52.175Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -20431,8 +20431,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/highway-adventure-3d/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -20675,7 +20675,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.573Z",
+      "lastScannedAt": "2026-06-28T20:09:52.175Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -20825,8 +20825,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/html-css-interactive-lab/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -21002,7 +21002,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.574Z",
+      "lastScannedAt": "2026-06-28T20:09:52.176Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -21151,8 +21151,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/image-process/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -21450,7 +21450,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.574Z",
+      "lastScannedAt": "2026-06-28T20:09:52.177Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -22711,7 +22711,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.575Z",
+      "lastScannedAt": "2026-06-28T20:09:52.178Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -23152,7 +23152,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.576Z",
+      "lastScannedAt": "2026-06-28T20:09:52.181Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -23593,7 +23593,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.576Z",
+      "lastScannedAt": "2026-06-28T20:09:52.182Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -24018,7 +24018,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.577Z",
+      "lastScannedAt": "2026-06-28T20:09:52.182Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -24228,8 +24228,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/ir-rag-evaluation-lab/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       }
@@ -24778,7 +24778,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.577Z",
+      "lastScannedAt": "2026-06-28T20:09:52.183Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -24932,8 +24932,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/javascript-game-physics/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -25115,7 +25115,7 @@
         "content/projects/javascript-game-physics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.578Z",
+      "lastScannedAt": "2026-06-28T20:09:52.184Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -25271,8 +25271,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/javascript-platformer-concepts/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -25646,7 +25646,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.579Z",
+      "lastScannedAt": "2026-06-28T20:09:52.184Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -25794,8 +25794,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/library-desk/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -25993,7 +25993,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.579Z",
+      "lastScannedAt": "2026-06-28T20:09:52.185Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -26164,8 +26164,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/library-reach-analysis/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -26450,7 +26450,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.579Z",
+      "lastScannedAt": "2026-06-28T20:09:52.185Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -26593,8 +26593,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/llm-switch-chat/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -26774,7 +26774,7 @@
         "content/projects/llm-switch-chat/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.580Z",
+      "lastScannedAt": "2026-06-28T20:09:52.186Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -27557,7 +27557,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.580Z",
+      "lastScannedAt": "2026-06-28T20:09:52.186Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -27734,8 +27734,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/lyrics-cultural-analytics-lab/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -28335,7 +28335,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.581Z",
+      "lastScannedAt": "2026-06-28T20:09:52.187Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28486,8 +28486,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/MetaCleaner/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -28741,7 +28741,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.582Z",
+      "lastScannedAt": "2026-06-28T20:09:52.188Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28921,8 +28921,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/metashelf/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -29173,7 +29173,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.582Z",
+      "lastScannedAt": "2026-06-28T20:09:52.188Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -29324,8 +29324,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/mock-master/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -29501,7 +29501,7 @@
         "content/projects/mock-master/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.582Z",
+      "lastScannedAt": "2026-06-28T20:09:52.189Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -29659,8 +29659,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/modelops-dashboard/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -29844,7 +29844,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.583Z",
+      "lastScannedAt": "2026-06-28T20:09:52.189Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -30374,7 +30374,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.583Z",
+      "lastScannedAt": "2026-06-28T20:09:52.189Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -30818,7 +30818,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.584Z",
+      "lastScannedAt": "2026-06-28T20:09:52.190Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -31052,8 +31052,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/music-intelligence-platform/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       }
@@ -32043,7 +32043,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.584Z",
+      "lastScannedAt": "2026-06-28T20:09:52.191Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -32402,7 +32402,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.585Z",
+      "lastScannedAt": "2026-06-28T20:09:52.192Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -32549,8 +32549,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/mystery-phenomena-files/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -32734,7 +32734,7 @@
         "content/projects/mystery-phenomena-files/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.586Z",
+      "lastScannedAt": "2026-06-28T20:09:52.192Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -32928,8 +32928,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/news-web-crawler/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       }
@@ -33562,7 +33562,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.586Z",
+      "lastScannedAt": "2026-06-28T20:09:52.193Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -33749,8 +33749,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/nyc-taxi-mobility-analytics/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       }
@@ -34123,7 +34123,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.587Z",
+      "lastScannedAt": "2026-06-28T20:09:52.194Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -34326,8 +34326,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/openalex-research-rag/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       }
@@ -34894,7 +34894,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.588Z",
+      "lastScannedAt": "2026-06-28T20:09:52.194Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -35323,7 +35323,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.588Z",
+      "lastScannedAt": "2026-06-28T20:09:52.195Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -35687,7 +35687,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.589Z",
+      "lastScannedAt": "2026-06-28T20:09:52.195Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -35836,8 +35836,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/playwright-automation/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -36017,7 +36017,7 @@
         "content/projects/playwright-automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.589Z",
+      "lastScannedAt": "2026-06-28T20:09:52.196Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -36182,8 +36182,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/poker-ai-arena/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -36480,7 +36480,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.591Z",
+      "lastScannedAt": "2026-06-28T20:09:52.196Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -36637,8 +36637,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/poker-AI-web/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -36910,7 +36910,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.592Z",
+      "lastScannedAt": "2026-06-28T20:09:52.197Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -37082,8 +37082,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/prism-runner-3d/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -37310,7 +37310,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.592Z",
+      "lastScannedAt": "2026-06-28T20:09:52.197Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -37488,8 +37488,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/procedural-3d-maze/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -37749,7 +37749,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.592Z",
+      "lastScannedAt": "2026-06-28T20:09:52.198Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -37906,8 +37906,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/procedural-dungeon-crawler/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -38168,7 +38168,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.593Z",
+      "lastScannedAt": "2026-06-28T20:09:52.198Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -38335,8 +38335,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/project-mind/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -38520,7 +38520,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.593Z",
+      "lastScannedAt": "2026-06-28T20:09:52.199Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -38950,7 +38950,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.594Z",
+      "lastScannedAt": "2026-06-28T20:09:52.200Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -39107,8 +39107,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/react-three-fiber-rpg-builder/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -39333,7 +39333,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.594Z",
+      "lastScannedAt": "2026-06-28T20:09:52.200Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -39786,7 +39786,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.594Z",
+      "lastScannedAt": "2026-06-28T20:09:52.201Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -39961,8 +39961,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/research-paper-and-knowledge-workspace/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -40293,7 +40293,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.595Z",
+      "lastScannedAt": "2026-06-28T20:09:52.202Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -40985,7 +40985,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.596Z",
+      "lastScannedAt": "2026-06-28T20:09:52.203Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -41197,8 +41197,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/retailpulse-bi-recommender/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       }
@@ -41783,7 +41783,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.596Z",
+      "lastScannedAt": "2026-06-28T20:09:52.204Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -41936,8 +41936,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/rigview3d/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -42154,7 +42154,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.597Z",
+      "lastScannedAt": "2026-06-28T20:09:52.204Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -42580,7 +42580,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.597Z",
+      "lastScannedAt": "2026-06-28T20:09:52.205Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -42753,8 +42753,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/3d-rushy-runner/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -42967,7 +42967,7 @@
         "content/projects/runner-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.597Z",
+      "lastScannedAt": "2026-06-28T20:09:52.205Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -43113,8 +43113,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/sailing-adventure/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -43357,7 +43357,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.598Z",
+      "lastScannedAt": "2026-06-28T20:09:52.206Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -43520,8 +43520,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/school-library-lms/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -43698,7 +43698,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.598Z",
+      "lastScannedAt": "2026-06-28T20:09:52.206Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -43843,8 +43843,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/scrapers/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -44037,7 +44037,7 @@
         "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.598Z",
+      "lastScannedAt": "2026-06-28T20:09:52.207Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -44213,8 +44213,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/sd-multimodal-platform/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -44799,7 +44799,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.599Z",
+      "lastScannedAt": "2026-06-28T20:09:52.207Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -44959,8 +44959,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/signal-diver-3d/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -45223,7 +45223,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.600Z",
+      "lastScannedAt": "2026-06-28T20:09:52.208Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -45376,8 +45376,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/smart-home-energy-monitor/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -45561,7 +45561,7 @@
         "content/projects/smart-home-energy-monitor/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.600Z",
+      "lastScannedAt": "2026-06-28T20:09:52.208Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -45706,8 +45706,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/soundscape-taiwan/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -45893,7 +45893,7 @@
         "content/projects/soundscape-taiwan/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.600Z",
+      "lastScannedAt": "2026-06-28T20:09:52.208Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46060,8 +46060,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/starforge-AI-narrative/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -46314,7 +46314,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.601Z",
+      "lastScannedAt": "2026-06-28T20:09:52.210Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46757,7 +46757,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.601Z",
+      "lastScannedAt": "2026-06-28T20:09:52.210Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46908,8 +46908,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/TGW-playbook/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -47089,7 +47089,7 @@
         "content/projects/TGW-playbook/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.602Z",
+      "lastScannedAt": "2026-06-28T20:09:52.211Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47238,8 +47238,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/3d-library-searching-quest/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -47502,7 +47502,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.602Z",
+      "lastScannedAt": "2026-06-28T20:09:52.211Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -47861,7 +47861,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.602Z",
+      "lastScannedAt": "2026-06-28T20:09:52.211Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -48022,8 +48022,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/threejs-product-viewer/",
         "label": {
-          "zh-TW": "App Demo",
-          "en": "App Demo"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -48204,7 +48204,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.603Z",
+      "lastScannedAt": "2026-06-28T20:09:52.212Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -48371,8 +48371,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/traffic-pulse/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -48657,7 +48657,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.603Z",
+      "lastScannedAt": "2026-06-28T20:09:52.212Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -48804,8 +48804,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/transformer-core/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -48981,7 +48981,7 @@
         "content/projects/transformer-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.603Z",
+      "lastScannedAt": "2026-06-28T20:09:52.213Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -49131,8 +49131,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/tripscore/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -49408,7 +49408,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.604Z",
+      "lastScannedAt": "2026-06-28T20:09:52.213Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -49559,8 +49559,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/tts-voice-app/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -49740,7 +49740,7 @@
         "content/projects/tts-voice-app/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.604Z",
+      "lastScannedAt": "2026-06-28T20:09:52.213Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -50175,7 +50175,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.604Z",
+      "lastScannedAt": "2026-06-28T20:09:52.214Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -50331,8 +50331,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/vanilla-dom-playground/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -50594,7 +50594,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.605Z",
+      "lastScannedAt": "2026-06-28T20:09:52.214Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -51381,7 +51381,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.605Z",
+      "lastScannedAt": "2026-06-28T20:09:52.215Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -51803,7 +51803,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.606Z",
+      "lastScannedAt": "2026-06-28T20:09:52.215Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -51954,8 +51954,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/video-gen-factory/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -52135,7 +52135,7 @@
         "content/projects/video-gen-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.607Z",
+      "lastScannedAt": "2026-06-28T20:09:52.216Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -52689,7 +52689,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.607Z",
+      "lastScannedAt": "2026-06-28T20:09:52.216Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -52843,8 +52843,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/web-auto-concepts/",
         "label": {
-          "zh-TW": "Static Demo Site",
-          "en": "Static Demo Site"
+          "zh-TW": "網站 Demo",
+          "en": "Live Demo"
         },
         "primary": true
       },
@@ -53026,7 +53026,7 @@
         "content/projects/web-auto-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.608Z",
+      "lastScannedAt": "2026-06-28T20:09:52.217Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -53460,7 +53460,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.608Z",
+      "lastScannedAt": "2026-06-28T20:09:52.217Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -53905,7 +53905,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T19:34:14.608Z",
+      "lastScannedAt": "2026-06-28T20:09:52.218Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",

@@ -47,8 +47,8 @@ function githubPagesLiveLink(links: ProjectLink[]): ProjectLink | undefined {
     kind: "live",
     url: `https://justin21523.github.io/${repoName}/`,
     label: {
-      "zh-TW": "Static Demo Site",
-      en: "Static Demo Site",
+      "zh-TW": "網站 Demo",
+      en: "Live Demo",
     },
     primary: true,
   };

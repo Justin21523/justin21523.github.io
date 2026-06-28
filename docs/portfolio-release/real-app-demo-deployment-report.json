@@ -1,1379 +1,510 @@
 {
-  "generatedAt": "2026-06-28T19:32:38.387Z",
-  "totalProjects": 114,
-  "externalLiveDemoLinks": 114,
-  "portfolioFallbackChecks": 0,
-  "generatedCaseStudyLiveLinks": 0,
-  "brokenLiveChecks": 0,
-  "note": "Supersedes the previous real-app demo audit. Portfolio cards must link to external static demo URLs, not portfolio detail fallback anchors.",
-  "projects": [
-    {
-      "slug": "2d-animation-lora-pipeline",
-      "title": "2D Animation Character LoRA Training Pipeline",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/2d-animation-lora-pipeline/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/2d-animation-lora-pipeline/"
-      ]
-    },
-    {
-      "slug": "3d-animation-lora-pipeline",
-      "title": "3D Animation LoRA Pipeline and Demo Showcase",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/3d-animation-lora-pipeline/",
-      "label": "Interactive Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/3d-animation-lora-pipeline/"
-      ]
-    },
+  "generatedAt": "2026-06-28T20:05:30.779Z",
+  "dryRun": false,
+  "results": [
     {
       "slug": "3d-maze-explorer",
-      "title": "3d Maze Explorer",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/3d-maze-explorer/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/3d-maze-explorer/"
-      ]
+      "status": "deployed",
+      "repo": "3d-maze-explorer",
+      "url": "https://justin21523.github.io/3d-maze-explorer/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "3d-platformer-runner",
-      "title": "3d Platformer Runner",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/3d-platformer-runner/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/3d-platformer-runner/"
-      ]
+      "status": "deployed",
+      "repo": "3d-platformer-runner",
+      "url": "https://justin21523.github.io/3d-platformer-runner/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "agentic-bi-dataops-copilot",
-      "title": "Agentic BI / DataOps Copilot",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/agentic-bi-dataops-copilot/"
-      ]
+      "status": "deployed",
+      "repo": "agentic-bi-dataops-copilot",
+      "url": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "ai-3d-studio",
-      "title": "AI 3D Studio — A Unified Multi-Backend Image-to-3D Generation and Blender Integration Framework",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/ai-3d-studio/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/ai-3d-studio/"
-      ]
-    },
-    {
-      "slug": "ai-game-website",
-      "title": "Ai Game Website",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/ai-game-website/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/ai-game-website/"
-      ]
-    },
-    {
-      "slug": "ai-knowledge-workspace",
-      "title": "Ai Knowledge Workspace",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/ai-knowledge-workspace/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/ai-knowledge-workspace/"
-      ]
+      "status": "deployed",
+      "repo": "ai-3d-studio",
+      "url": "https://justin21523.github.io/ai-3d-studio/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "amazon-review-intelligence",
-      "title": "Amazon Review Intelligence",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/amazon-review-intelligence/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/amazon-review-intelligence/"
-      ]
+      "status": "deployed",
+      "repo": "amazon-review-intelligence",
+      "url": "https://justin21523.github.io/amazon-review-intelligence/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "animation-ai-studio",
-      "title": "Animation AI Studio: A Demoable AI Animation Workflow Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/animation-ai-studio/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/animation-ai-studio/"
-      ]
+      "status": "deployed",
+      "repo": "animation-ai-studio",
+      "url": "https://justin21523.github.io/animation-ai-studio/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "anime-adventure-lab",
-      "title": "Anime Adventure Lab — RAG + LLM Story World Generation Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/anime-adventure-lab/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/anime-adventure-lab/"
-      ]
+      "status": "deployed",
+      "repo": "anime-adventure-lab",
+      "url": "https://justin21523.github.io/anime-adventure-lab/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "anime-lora-pipeline",
-      "title": "Anime Lora Pipeline",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/anime-lora-pipeline/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/anime-lora-pipeline/"
-      ]
-    },
-    {
-      "slug": "aqua-rush",
-      "title": "Aqua Rush",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/aqua-rush/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/aqua-rush/"
-      ]
+      "status": "deployed",
+      "repo": "anime-lora-pipeline",
+      "url": "https://justin21523.github.io/anime-lora-pipeline/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "ArchiveFlow",
-      "title": "ArchiveFlow Studio",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/archive-flow-studio/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/archive-flow-studio/"
-      ]
+      "status": "deployed",
+      "repo": "archive-flow-studio",
+      "url": "https://justin21523.github.io/archive-flow-studio/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "AutoForge-llm-studio",
-      "title": "AutoForge LLM Studio",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/AutoForge-llm-studio/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/AutoForge-llm-studio/"
-      ]
+      "status": "deployed",
+      "repo": "AutoForge-llm-studio",
+      "url": "https://justin21523.github.io/AutoForge-llm-studio/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "automation",
-      "title": "Automation",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/automation/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/automation/"
-      ]
+      "status": "deployed",
+      "repo": "automation",
+      "url": "https://justin21523.github.io/automation/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "cafe-net-manager",
-      "title": "CafeNet Manager",
-      "category": "backend-desktop",
-      "liveUrl": "https://justin21523.github.io/cafe-net-manager/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/cafe-net-manager/"
-      ]
-    },
-    {
-      "slug": "campus-quest-3d",
-      "title": "Campus Quest 3d",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/campus-quest-3d/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/campus-quest-3d/"
-      ]
-    },
-    {
-      "slug": "charaforge-T2I-Lab",
-      "title": "CharaForge T2I Lab — Text-to-Image, ControlNet, and LoRA Training Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/charaforge-T2I-Lab/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/charaforge-T2I-Lab/"
-      ]
+      "status": "deployed",
+      "repo": "cafe-net-manager",
+      "url": "https://justin21523.github.io/cafe-net-manager/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "ChronosMap",
-      "title": "ChronosMap Spatio-Temporal Weaver",
-      "category": "backend-desktop",
-      "liveUrl": "https://justin21523.github.io/ChronosMap/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/ChronosMap/"
-      ]
-    },
-    {
-      "slug": "commercial-ml-analysis",
-      "title": "Commercial ML Analysis Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/commercial-ml-analysis/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/commercial-ml-analysis/"
-      ]
-    },
-    {
-      "slug": "commute-reliability-analysis",
-      "title": "CommuteReliability Analytics",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/commute-reliability-analysis/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/commute-reliability-analysis/"
-      ]
-    },
-    {
-      "slug": "css-advanced-mastery",
-      "title": "CSS Advanced Mastery — Hands-on Advanced CSS Lab",
-      "category": "frontend",
-      "liveUrl": "https://justin21523.github.io/css-advanced-mastery/",
-      "label": "Live Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/css-advanced-mastery/"
-      ]
+      "status": "deployed",
+      "repo": "ChronosMap",
+      "url": "https://justin21523.github.io/ChronosMap/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "CulturePOS",
-      "title": "CulturePOS Cultural-Retail POS Desktop System",
-      "category": "backend-desktop",
-      "liveUrl": "https://justin21523.github.io/CulturePOS/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/CulturePOS/"
-      ]
+      "status": "deployed",
+      "repo": "CulturePOS",
+      "url": "https://justin21523.github.io/CulturePOS/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "data-narrative-studio",
-      "title": "Data Narrative Studio",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/data-narrative-studio/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/data-narrative-studio/"
-      ]
+      "status": "deployed",
+      "repo": "data-narrative-studio",
+      "url": "https://justin21523.github.io/data-narrative-studio/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "data-pipelines",
-      "title": "Data Pipelines",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/data-pipelines/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/data-pipelines/"
-      ]
-    },
-    {
-      "slug": "dataagent-analyst",
-      "title": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/dataagent-analyst/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/dataagent-analyst/"
-      ]
+      "status": "deployed",
+      "repo": "data-pipelines",
+      "url": "https://justin21523.github.io/data-pipelines/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "datalab-studio",
-      "title": "Datalab Studio",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/datalab-studio/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/datalab-studio/"
-      ]
+      "status": "deployed",
+      "repo": "datalab-studio",
+      "url": "https://justin21523.github.io/datalab-studio/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "dcard-trending-crawler",
-      "title": "posts-trending-crawler",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/posts-trending-crawler/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/posts-trending-crawler/"
-      ]
+      "status": "deployed",
+      "repo": "posts-trending-crawler",
+      "url": "https://justin21523.github.io/posts-trending-crawler/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "digital-archive-review-board",
-      "title": "Digital Archive Review Board",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/digital-archive-review-board/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/digital-archive-review-board/"
-      ]
-    },
-    {
-      "slug": "digital-living",
-      "title": "Digital Living",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/digital-living/",
-      "label": "Live Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/digital-living/"
-      ]
+      "status": "deployed",
+      "repo": "digital-archive-review-board",
+      "url": "https://justin21523.github.io/digital-archive-review-board/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "discord-clone",
-      "title": "Discord Clone Real-Time Chat Platform",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/discord-clone/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/discord-clone/"
-      ]
+      "status": "deployed",
+      "repo": "discord-clone",
+      "url": "https://justin21523.github.io/discord-clone/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "dom-visualizer-oop",
-      "title": "Dom Visualizer Oop",
-      "category": "frontend",
-      "liveUrl": "https://justin21523.github.io/dom-visualizer-oop/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/dom-visualizer-oop/"
-      ]
+      "status": "deployed",
+      "repo": "dom-visualizer-oop",
+      "url": "https://justin21523.github.io/dom-visualizer-oop/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "edge-deid-studio",
-      "title": "Edge Deid Studio",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/edge-deid-studio/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/edge-deid-studio/"
-      ]
-    },
-    {
-      "slug": "elio-discord-bot",
-      "title": "Elio Discord Bot",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/elio-discord-bot/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/elio-discord-bot/"
-      ]
+      "status": "deployed",
+      "repo": "edge-deid-studio",
+      "url": "https://justin21523.github.io/edge-deid-studio/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "excel-python-data-analysis",
-      "title": "Excel Python Data Analysis Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/excel-python-data-analysis/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/excel-python-data-analysis/"
-      ]
+      "status": "deployed",
+      "repo": "excel-python-data-analysis",
+      "url": "https://justin21523.github.io/excel-python-data-analysis/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "fandom-gui-scraper",
-      "title": "Fandom / MediaWiki Scraper Platform",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/fandom-gui-scraper/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/fandom-gui-scraper/"
-      ]
-    },
-    {
-      "slug": "frontend-interaction-lab",
-      "title": "Frontend Interaction Lab",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/frontend-interaction-lab/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/frontend-interaction-lab/"
-      ]
-    },
-    {
-      "slug": "game-dialogue-simulator",
-      "title": "Game Dialogue Simulator",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/game-dialogue-simulator/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/game-dialogue-simulator/"
-      ]
-    },
-    {
-      "slug": "gan-ae-vision-suite",
-      "title": "GAN-AE Vision Suite",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/GAN-AE-vision-suite/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/GAN-AE-vision-suite/"
-      ]
+      "status": "deployed",
+      "repo": "fandom-gui-scraper",
+      "url": "https://justin21523.github.io/fandom-gui-scraper/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "geovideo-env-check",
-      "title": "GeoVideo Evidence Viewer",
-      "category": "backend-desktop",
-      "liveUrl": "https://justin21523.github.io/geovideo-env-check/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/geovideo-env-check/"
-      ]
+      "status": "deployed",
+      "repo": "geovideo-env-check",
+      "url": "https://justin21523.github.io/geovideo-env-check/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "govcase-tracker",
-      "title": "GovCase Tracker — Government Case Tracking System",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/govcase-tracker/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/govcase-tracker/"
-      ]
+      "status": "deployed",
+      "repo": "govcase-tracker",
+      "url": "https://justin21523.github.io/govcase-tracker/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "HeritageMapStudio",
-      "title": "HeritageMap Studio",
-      "category": "backend-desktop",
-      "liveUrl": "https://justin21523.github.io/HeritageMapStudio/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/HeritageMapStudio/"
-      ]
-    },
-    {
-      "slug": "highway-adventure-3d",
-      "title": "Highway Adventure 3d",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/highway-adventure-3d/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/highway-adventure-3d/"
-      ]
+      "status": "deployed",
+      "repo": "HeritageMapStudio",
+      "url": "https://justin21523.github.io/HeritageMapStudio/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "html-css-interactive-lab",
-      "title": "Html Css Interactive Lab",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/html-css-interactive-lab/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/html-css-interactive-lab/"
-      ]
+      "status": "deployed",
+      "repo": "html-css-interactive-lab",
+      "url": "https://justin21523.github.io/html-css-interactive-lab/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "image-process",
-      "title": "Browser-Based 3D Model Viewer & Editor",
-      "category": "frontend",
-      "liveUrl": "https://justin21523.github.io/image-process/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/image-process/"
-      ]
-    },
-    {
-      "slug": "information-retrieval",
-      "title": "CNIRS Chinese News IR System",
-      "category": "information-system",
-      "liveUrl": "https://neojustin.dothost.net/projects/information-retrieval/",
-      "label": "Open Live Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://neojustin.dothost.net/projects/information-retrieval/"
-      ]
-    },
-    {
-      "slug": "intro-to-dl",
-      "title": "Deep Learning Hands-On Tutorial Series",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/intro-to-dl/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/intro-to-dl/"
-      ]
-    },
-    {
-      "slug": "intro-to-ml",
-      "title": "Intro to ML: Classical Machine Learning From Scratch",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/intro-to-ml/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/intro-to-ml/"
-      ]
-    },
-    {
-      "slug": "intro-to-vml",
-      "title": "Intro to VML: Visual Machine Learning Primer",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/intro-to-vml/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/intro-to-vml/"
-      ]
+      "status": "deployed",
+      "repo": "image-process",
+      "url": "https://justin21523.github.io/image-process/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "ir-rag-evaluation-lab",
-      "title": "IR / RAG Evaluation Lab",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/ir-rag-evaluation-lab/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/ir-rag-evaluation-lab/"
-      ]
+      "status": "deployed",
+      "repo": "ir-rag-evaluation-lab",
+      "url": "https://justin21523.github.io/ir-rag-evaluation-lab/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "javascript-game-physics",
-      "title": "Javascript Game Physics",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/javascript-game-physics/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/javascript-game-physics/"
-      ]
-    },
-    {
-      "slug": "javascript-platformer-concepts",
-      "title": "JavaScript Platformer Concepts",
-      "category": "frontend",
-      "liveUrl": "https://justin21523.github.io/javascript-platformer-concepts/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/javascript-platformer-concepts/"
-      ]
+      "status": "deployed",
+      "repo": "javascript-game-physics",
+      "url": "https://justin21523.github.io/javascript-game-physics/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "libradesk",
-      "title": "Libradesk",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/library-desk/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/library-desk/"
-      ]
+      "status": "deployed",
+      "repo": "library-desk",
+      "url": "https://justin21523.github.io/library-desk/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "library-reach-analysis",
-      "title": "Library Reach Analysis",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/library-reach-analysis/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/library-reach-analysis/"
-      ]
+      "status": "deployed",
+      "repo": "library-reach-analysis",
+      "url": "https://justin21523.github.io/library-reach-analysis/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "llm-switch-chat",
-      "title": "LLM Switch Chat",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/llm-switch-chat/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/llm-switch-chat/"
-      ]
-    },
-    {
-      "slug": "llm-train-eval-ship",
-      "title": "LLM Train-Eval-Ship Release Console",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/LLM-train-eval-ship/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/LLM-train-eval-ship/"
-      ]
+      "status": "deployed",
+      "repo": "llm-switch-chat",
+      "url": "https://justin21523.github.io/llm-switch-chat/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "lyrics-cultural-analytics-lab",
-      "title": "Lyrics Cultural Analytics Lab",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/lyrics-cultural-analytics-lab/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/lyrics-cultural-analytics-lab/"
-      ]
+      "status": "deployed",
+      "repo": "lyrics-cultural-analytics-lab",
+      "url": "https://justin21523.github.io/lyrics-cultural-analytics-lab/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "MetaCleaner",
-      "title": "MetaCleaner Batch Metadata Scrubbing Tool",
-      "category": "backend-desktop",
-      "liveUrl": "https://justin21523.github.io/MetaCleaner/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/MetaCleaner/"
-      ]
+      "status": "deployed",
+      "repo": "MetaCleaner",
+      "url": "https://justin21523.github.io/MetaCleaner/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "metashelf",
-      "title": "MetaShelf — Bibliographic Resource Discovery Platform",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/metashelf/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/metashelf/"
-      ]
+      "status": "deployed",
+      "repo": "metashelf",
+      "url": "https://justin21523.github.io/metashelf/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "mock-master",
-      "title": "Mock Master",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/mock-master/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/mock-master/"
-      ]
+      "status": "deployed",
+      "repo": "mock-master",
+      "url": "https://justin21523.github.io/mock-master/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "modelops-dashboard",
-      "title": "Modelops Dashboard",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/modelops-dashboard/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/modelops-dashboard/"
-      ]
-    },
-    {
-      "slug": "mrt-ubike-analysis",
-      "title": "MetroBikeAtlas: Metro & Shared-Bike Urban Mobility Analytics",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/mrt-ubike-analysis/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/mrt-ubike-analysis/"
-      ]
-    },
-    {
-      "slug": "multi-ai-agents",
-      "title": "Multi-AI Agents — Game Agent Ecosystem",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/multi-ai-agents/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/multi-ai-agents/"
-      ]
+      "status": "deployed",
+      "repo": "modelops-dashboard",
+      "url": "https://justin21523.github.io/modelops-dashboard/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "music-intelligence-platform",
-      "title": "Music Intelligence Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/music-intelligence-platform/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/music-intelligence-platform/"
-      ]
-    },
-    {
-      "slug": "my-3d-platformer",
-      "title": "My 3d Platformer",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/my-3d-platformer/",
-      "label": "Live Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/my-3d-platformer/"
-      ]
+      "status": "deployed",
+      "repo": "music-intelligence-platform",
+      "url": "https://justin21523.github.io/music-intelligence-platform/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "mystery-phenomena-files",
-      "title": "Mystery Phenomena Files",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/mystery-phenomena-files/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/mystery-phenomena-files/"
-      ]
+      "status": "deployed",
+      "repo": "mystery-phenomena-files",
+      "url": "https://justin21523.github.io/mystery-phenomena-files/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "news-web-crawler",
-      "title": "News Web Crawler & Data Intelligence Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/news-web-crawler/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/news-web-crawler/"
-      ]
+      "status": "deployed",
+      "repo": "news-web-crawler",
+      "url": "https://justin21523.github.io/news-web-crawler/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "nyc-taxi-mobility-analytics",
-      "title": "NYC Taxi Mobility Analytics Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/nyc-taxi-mobility-analytics/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/nyc-taxi-mobility-analytics/"
-      ]
+      "status": "deployed",
+      "repo": "nyc-taxi-mobility-analytics",
+      "url": "https://justin21523.github.io/nyc-taxi-mobility-analytics/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "openalex-research-rag",
-      "title": "OpenAlex Research Intelligence (RAG)",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/openalex-research-rag/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/openalex-research-rag/"
-      ]
-    },
-    {
-      "slug": "openclaw-multimodal-stack",
-      "title": "OpenClaw Multimodal Stack",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/openclaw-multimodal-stack/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/openclaw-multimodal-stack/"
-      ]
-    },
-    {
-      "slug": "platformer-game",
-      "title": "Platformer Game",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/platformer-game/",
-      "label": "Live Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/platformer-game/"
-      ]
+      "status": "deployed",
+      "repo": "openalex-research-rag",
+      "url": "https://justin21523.github.io/openalex-research-rag/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "playwright-automation",
-      "title": "Playwright Automation",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/playwright-automation/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/playwright-automation/"
-      ]
-    },
-    {
-      "slug": "poker-ai-arena",
-      "title": "Poker AI Arena",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/poker-ai-arena/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/poker-ai-arena/"
-      ]
+      "status": "deployed",
+      "repo": "playwright-automation",
+      "url": "https://justin21523.github.io/playwright-automation/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "poker-ai-web",
-      "title": "Poker AI Web — Learning Card-Game AI Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/poker-AI-web/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/poker-AI-web/"
-      ]
-    },
-    {
-      "slug": "prism-runner-3d",
-      "title": "Prism Runner 3d",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/prism-runner-3d/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/prism-runner-3d/"
-      ]
-    },
-    {
-      "slug": "procedural-3d-maze",
-      "title": "Procedural 3D Maze",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/procedural-3d-maze/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/procedural-3d-maze/"
-      ]
-    },
-    {
-      "slug": "procedural-dungeon-crawler",
-      "title": "Procedural Dungeon Crawler",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/procedural-dungeon-crawler/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/procedural-dungeon-crawler/"
-      ]
+      "status": "deployed",
+      "repo": "poker-AI-web",
+      "url": "https://justin21523.github.io/poker-AI-web/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "projectmind",
-      "title": "Projectmind",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/project-mind/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/project-mind/"
-      ]
-    },
-    {
-      "slug": "quant-strategy-agent-lab",
-      "title": "Quant Strategy Agent Lab",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/quant-strategy-agent-lab/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/quant-strategy-agent-lab/"
-      ]
-    },
-    {
-      "slug": "r3f-rpg-builder",
-      "title": "R3f RPG Builder",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/react-three-fiber-rpg-builder/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/react-three-fiber-rpg-builder/"
-      ]
-    },
-    {
-      "slug": "recsys-benchmark-suite",
-      "title": "Recommendation Benchmark Suite",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/recsys-benchmark-suite/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/recsys-benchmark-suite/"
-      ]
+      "status": "deployed",
+      "repo": "project-mind",
+      "url": "https://justin21523.github.io/project-mind/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "research-paper-and-knowledge-workspace",
-      "title": "Research Paper & Knowledge Workspace",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/research-paper-and-knowledge-workspace/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/research-paper-and-knowledge-workspace/"
-      ]
-    },
-    {
-      "slug": "restoreAI-studio",
-      "title": "RestorAI Studio — AI Image Restoration Portfolio Workbench",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/restoreAI-studio/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/restoreAI-studio/"
-      ]
+      "status": "deployed",
+      "repo": "research-paper-and-knowledge-workspace",
+      "url": "https://justin21523.github.io/research-paper-and-knowledge-workspace/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "retailpulse-bi-recommender",
-      "title": "RetailPulse BI & Recommendation Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/retailpulse-bi-recommender/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/retailpulse-bi-recommender/"
-      ]
-    },
-    {
-      "slug": "rigview3d",
-      "title": "Rigview3d",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/rigview3d/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/rigview3d/"
-      ]
-    },
-    {
-      "slug": "rocm-image-video-stack",
-      "title": "ROCm Image & Video AI Generation Stack",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/rocm-image-video-stack/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/rocm-image-video-stack/"
-      ]
-    },
-    {
-      "slug": "runner-inspired-3d",
-      "title": "3D Rushy Runner",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/3d-rushy-runner/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/3d-rushy-runner/"
-      ]
-    },
-    {
-      "slug": "sailing-adventure",
-      "title": "Sailing Adventure",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/sailing-adventure/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/sailing-adventure/"
-      ]
+      "status": "deployed",
+      "repo": "retailpulse-bi-recommender",
+      "url": "https://justin21523.github.io/retailpulse-bi-recommender/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "school-library-lms",
-      "title": "School Library Lms",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/school-library-lms/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/school-library-lms/"
-      ]
+      "status": "deployed",
+      "repo": "school-library-lms",
+      "url": "https://justin21523.github.io/school-library-lms/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "scrapers",
-      "title": "Scrapers",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/scrapers/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/scrapers/"
-      ]
+      "status": "deployed",
+      "repo": "scrapers",
+      "url": "https://justin21523.github.io/scrapers/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "sd-multimodal-platform",
-      "title": "SD Multi-Modal Platform: Portfolio-Ready Stable Diffusion Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/sd-multimodal-platform/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/sd-multimodal-platform/"
-      ]
-    },
-    {
-      "slug": "signal-diver-3d",
-      "title": "Signal Diver 3d",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/signal-diver-3d/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/signal-diver-3d/"
-      ]
+      "status": "deployed",
+      "repo": "sd-multimodal-platform",
+      "url": "https://justin21523.github.io/sd-multimodal-platform/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "smart-home-energy-monitor",
-      "title": "Smart Home Energy Monitor",
-      "category": "interactive-3d",
-      "liveUrl": "https://justin21523.github.io/smart-home-energy-monitor/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/smart-home-energy-monitor/"
-      ]
+      "status": "deployed",
+      "repo": "smart-home-energy-monitor",
+      "url": "https://justin21523.github.io/smart-home-energy-monitor/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "soundscape-taiwan",
-      "title": "Soundscape Taiwan",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/soundscape-taiwan/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/soundscape-taiwan/"
-      ]
+      "status": "deployed",
+      "repo": "soundscape-taiwan",
+      "url": "https://justin21523.github.io/soundscape-taiwan/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "starforge-AI-narrative",
-      "title": "Starforge AI Narrative",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/starforge-AI-narrative/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/starforge-AI-narrative/"
-      ]
-    },
-    {
-      "slug": "text2sql-evaluation-harness",
-      "title": "Text2SQL Evaluation Harness",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/text2sql-evaluation-harness/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/text2sql-evaluation-harness/"
-      ]
+      "status": "deployed",
+      "repo": "starforge-AI-narrative",
+      "url": "https://justin21523.github.io/starforge-AI-narrative/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "TGW-playbook",
-      "title": "TGW Playbook",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/TGW-playbook/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/TGW-playbook/"
-      ]
-    },
-    {
-      "slug": "the-archive-that-watches-you",
-      "title": "The Archive That Watches You",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/3d-library-searching-quest/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/3d-library-searching-quest/"
-      ]
-    },
-    {
-      "slug": "the-classrooms",
-      "title": "The Classrooms",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/the-classrooms/",
-      "label": "Live Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/the-classrooms/"
-      ]
-    },
-    {
-      "slug": "threejs-product-viewer",
-      "title": "Threejs Product Viewer",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/threejs-product-viewer/",
-      "label": "App Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/threejs-product-viewer/"
-      ]
+      "status": "deployed",
+      "repo": "TGW-playbook",
+      "url": "https://justin21523.github.io/TGW-playbook/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "traffic-pulse",
-      "title": "Traffic Pulse",
-      "category": "information-system",
-      "liveUrl": "https://justin21523.github.io/traffic-pulse/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/traffic-pulse/"
-      ]
+      "status": "deployed",
+      "repo": "traffic-pulse",
+      "url": "https://justin21523.github.io/traffic-pulse/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "transformer-core",
-      "title": "Transformer Core",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/transformer-core/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/transformer-core/"
-      ]
+      "status": "deployed",
+      "repo": "transformer-core",
+      "url": "https://justin21523.github.io/transformer-core/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "tripscore",
-      "title": "TripScore: Explainable Destination Scoring & Recommendation",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/tripscore/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/tripscore/"
-      ]
+      "status": "deployed",
+      "repo": "tripscore",
+      "url": "https://justin21523.github.io/tripscore/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "tts-voice-app",
-      "title": "TTS Voice App",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/tts-voice-app/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/tts-voice-app/"
-      ]
-    },
-    {
-      "slug": "urban-analytics-core",
-      "title": "urban-analytics-core",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/urban-analytics-core/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/urban-analytics-core/"
-      ]
+      "status": "deployed",
+      "repo": "tts-voice-app",
+      "url": "https://justin21523.github.io/tts-voice-app/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "vanilla-dom-playground",
-      "title": "Vanilla DOM Playground",
-      "category": "frontend",
-      "liveUrl": "https://justin21523.github.io/vanilla-dom-playground/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/vanilla-dom-playground/"
-      ]
-    },
-    {
-      "slug": "video-family-lora-hub",
-      "title": "Video Family LoRA Hub",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/video-family-lora-hub/",
-      "label": "Open Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/video-family-lora-hub/"
-      ]
-    },
-    {
-      "slug": "video-gen",
-      "title": "video-gen: ROCm Video-Gen Environment Governance Workspace",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/video-gen/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/video-gen/"
-      ]
+      "status": "deployed",
+      "repo": "vanilla-dom-playground",
+      "url": "https://justin21523.github.io/vanilla-dom-playground/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "video-gen-factory",
-      "title": "Video Gen Factory",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/video-gen-factory/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/video-gen-factory/"
-      ]
-    },
-    {
-      "slug": "vision-quest",
-      "title": "VisionQuest Multi-Modal AI Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/vision-quest/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/vision-quest/"
-      ]
+      "status": "deployed",
+      "repo": "video-gen-factory",
+      "url": "https://justin21523.github.io/video-gen-factory/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     },
     {
       "slug": "web-auto-concepts",
-      "title": "Web Auto Concepts",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/web-auto-concepts/",
-      "label": "Static Demo Site",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/web-auto-concepts/"
-      ]
-    },
-    {
-      "slug": "YouTube-Web-Automation-Analysis",
-      "title": "YouTube Web Automation & Analysis Platform",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/YouTube-Web-Automation-Analysis/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/YouTube-Web-Automation-Analysis/"
-      ]
-    },
-    {
-      "slug": "ytp-factory",
-      "title": "YTP Factory — AI-Driven Video Automation Factory",
-      "category": "ai-data",
-      "liveUrl": "https://justin21523.github.io/ytp-factory/",
-      "label": "Interactive Demo",
-      "demoType": "external-static-demo",
-      "ok": true,
-      "checkedUrls": [
-        "https://justin21523.github.io/ytp-factory/"
-      ]
+      "status": "deployed",
+      "repo": "web-auto-concepts",
+      "url": "https://justin21523.github.io/web-auto-concepts/",
+      "reason": "deployed repo-local demo-app to gh-pages",
+      "strategy": "repo-demo-app"
     }
   ]
 }

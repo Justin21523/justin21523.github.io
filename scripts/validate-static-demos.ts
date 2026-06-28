@@ -47,6 +47,7 @@ async function check(project: Project): Promise<Result> {
     });
     const text = await response.text();
     const generatedCaseStudy = /Portfolio Case Study|Case Study Demo/.test(text);
+    const generatedStaticShowcase = /Static Project Demo|Static Demo Site|backend-free static demo/i.test(text);
 
     if (response.status >= 400) {
       return { slug: project.slug, url: live.url, ok: false, status: response.status, reason: "HTTP error" };
@@ -58,6 +59,10 @@ async function check(project: Project): Promise<Result> {
 
     if (generatedCaseStudy) {
       return { slug: project.slug, url: live.url, ok: false, status: response.status, reason: "generated portfolio case-study page detected" };
+    }
+
+    if (generatedStaticShowcase) {
+      return { slug: project.slug, url: live.url, ok: false, status: response.status, reason: "generated static showcase page detected" };
     }
 
     return { slug: project.slug, url: live.url, ok: true, status: response.status };

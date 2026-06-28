@@ -101,13 +101,13 @@ function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: Pro
   const nextLinks = [...links];
   const githubUrl = nextLinks.find((link) => link.kind === "github")?.url || scanData.gitRemote;
   const githubRepoName = githubUrl?.match(/^https:\/\/github\.com\/Justin21523\/([^/#?]+)/i)?.[1]?.replace(/\.git$/, "");
-  const staticDemoUrl = githubRepoName ? `https://justin21523.github.io/${githubRepoName}/` : "";
+  const liveDemoUrl = githubRepoName ? `https://justin21523.github.io/${githubRepoName}/` : "";
 
   const fallbackLinks = {
     live: {
       kind: "live",
-      url: staticDemoUrl,
-      label: { "zh-TW": "Static Demo Site", en: "Static Demo Site" },
+      url: liveDemoUrl,
+      label: { "zh-TW": "網站 Demo", en: "Live Demo" },
       primary: true,
     },
     github: {
@@ -136,7 +136,7 @@ function ensurePortfolioLinks(slug: string, scanData: ScannedProject, links: Pro
       nextLinks.push(fallbackLinks[kind]);
     }
   });
-  if (!nextLinks.some((link) => link.kind === "live" && link.url) && staticDemoUrl) {
+  if (!nextLinks.some((link) => link.kind === "live" && link.url) && liveDemoUrl) {
     nextLinks.push(fallbackLinks.live);
   }
 

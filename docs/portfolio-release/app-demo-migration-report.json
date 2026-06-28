@@ -1,0 +1,854 @@
+{
+  "generatedAt": "2026-06-28T20:09:12.359Z",
+  "total": 65,
+  "verified": 65,
+  "oldStaticMarkers": 0,
+  "repoDemoApps": 63,
+  "results": [
+    {
+      "slug": "2d-animation-lora-pipeline",
+      "title": "2D Animation Character LoRA Training Pipeline",
+      "liveUrl": "https://justin21523.github.io/2d-animation-lora-pipeline/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "3d-maze-explorer",
+      "title": "3d Maze Explorer",
+      "liveUrl": "https://justin21523.github.io/3d-maze-explorer/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "3d-platformer-runner",
+      "title": "3d Platformer Runner",
+      "liveUrl": "https://justin21523.github.io/3d-platformer-runner/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "agentic-bi-dataops-copilot",
+      "title": "Agentic BI / DataOps Copilot",
+      "liveUrl": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "ai-3d-studio",
+      "title": "AI 3D Studio — A Unified Multi-Backend Image-to-3D Generation and Blender Integration Framework",
+      "liveUrl": "https://justin21523.github.io/ai-3d-studio/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "amazon-review-intelligence",
+      "title": "Amazon Review Intelligence",
+      "liveUrl": "https://justin21523.github.io/amazon-review-intelligence/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "animation-ai-studio",
+      "title": "Animation AI Studio: A Demoable AI Animation Workflow Platform",
+      "liveUrl": "https://justin21523.github.io/animation-ai-studio/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "anime-adventure-lab",
+      "title": "Anime Adventure Lab — RAG + LLM Story World Generation Platform",
+      "liveUrl": "https://justin21523.github.io/anime-adventure-lab/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "anime-lora-pipeline",
+      "title": "Anime Lora Pipeline",
+      "liveUrl": "https://justin21523.github.io/anime-lora-pipeline/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "ArchiveFlow",
+      "title": "ArchiveFlow Studio",
+      "liveUrl": "https://justin21523.github.io/archive-flow-studio/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "AutoForge-llm-studio",
+      "title": "AutoForge LLM Studio",
+      "liveUrl": "https://justin21523.github.io/AutoForge-llm-studio/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "automation",
+      "title": "Automation",
+      "liveUrl": "https://justin21523.github.io/automation/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "cafe-net-manager",
+      "title": "CafeNet Manager",
+      "liveUrl": "https://justin21523.github.io/cafe-net-manager/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "charaforge-T2I-Lab",
+      "title": "CharaForge T2I Lab — Text-to-Image, ControlNet, and LoRA Training Platform",
+      "liveUrl": "https://justin21523.github.io/charaforge-T2I-Lab/",
+      "label": {
+        "zh-TW": "互動 Demo",
+        "en": "Interactive Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": false,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "ChronosMap",
+      "title": "ChronosMap Spatio-Temporal Weaver",
+      "liveUrl": "https://justin21523.github.io/ChronosMap/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "CulturePOS",
+      "title": "CulturePOS Cultural-Retail POS Desktop System",
+      "liveUrl": "https://justin21523.github.io/CulturePOS/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "data-narrative-studio",
+      "title": "Data Narrative Studio",
+      "liveUrl": "https://justin21523.github.io/data-narrative-studio/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "data-pipelines",
+      "title": "Data Pipelines",
+      "liveUrl": "https://justin21523.github.io/data-pipelines/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "datalab-studio",
+      "title": "Datalab Studio",
+      "liveUrl": "https://justin21523.github.io/datalab-studio/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "dcard-trending-crawler",
+      "title": "posts-trending-crawler",
+      "liveUrl": "https://justin21523.github.io/posts-trending-crawler/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "digital-archive-review-board",
+      "title": "Digital Archive Review Board",
+      "liveUrl": "https://justin21523.github.io/digital-archive-review-board/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "discord-clone",
+      "title": "Discord Clone Real-Time Chat Platform",
+      "liveUrl": "https://justin21523.github.io/discord-clone/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "dom-visualizer-oop",
+      "title": "Dom Visualizer Oop",
+      "liveUrl": "https://justin21523.github.io/dom-visualizer-oop/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "edge-deid-studio",
+      "title": "Edge Deid Studio",
+      "liveUrl": "https://justin21523.github.io/edge-deid-studio/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "excel-python-data-analysis",
+      "title": "Excel Python Data Analysis Platform",
+      "liveUrl": "https://justin21523.github.io/excel-python-data-analysis/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "fandom-gui-scraper",
+      "title": "Fandom / MediaWiki Scraper Platform",
+      "liveUrl": "https://justin21523.github.io/fandom-gui-scraper/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "geovideo-env-check",
+      "title": "GeoVideo Evidence Viewer",
+      "liveUrl": "https://justin21523.github.io/geovideo-env-check/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "govcase-tracker",
+      "title": "GovCase Tracker — Government Case Tracking System",
+      "liveUrl": "https://justin21523.github.io/govcase-tracker/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "HeritageMapStudio",
+      "title": "HeritageMap Studio",
+      "liveUrl": "https://justin21523.github.io/HeritageMapStudio/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "html-css-interactive-lab",
+      "title": "Html Css Interactive Lab",
+      "liveUrl": "https://justin21523.github.io/html-css-interactive-lab/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "image-process",
+      "title": "Browser-Based 3D Model Viewer & Editor",
+      "liveUrl": "https://justin21523.github.io/image-process/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "ir-rag-evaluation-lab",
+      "title": "IR / RAG Evaluation Lab",
+      "liveUrl": "https://justin21523.github.io/ir-rag-evaluation-lab/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "javascript-game-physics",
+      "title": "Javascript Game Physics",
+      "liveUrl": "https://justin21523.github.io/javascript-game-physics/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "libradesk",
+      "title": "Libradesk",
+      "liveUrl": "https://justin21523.github.io/library-desk/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "library-reach-analysis",
+      "title": "Library Reach Analysis",
+      "liveUrl": "https://justin21523.github.io/library-reach-analysis/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "llm-switch-chat",
+      "title": "LLM Switch Chat",
+      "liveUrl": "https://justin21523.github.io/llm-switch-chat/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "lyrics-cultural-analytics-lab",
+      "title": "Lyrics Cultural Analytics Lab",
+      "liveUrl": "https://justin21523.github.io/lyrics-cultural-analytics-lab/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "MetaCleaner",
+      "title": "MetaCleaner Batch Metadata Scrubbing Tool",
+      "liveUrl": "https://justin21523.github.io/MetaCleaner/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "metashelf",
+      "title": "MetaShelf — Bibliographic Resource Discovery Platform",
+      "liveUrl": "https://justin21523.github.io/metashelf/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "mock-master",
+      "title": "Mock Master",
+      "liveUrl": "https://justin21523.github.io/mock-master/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "modelops-dashboard",
+      "title": "Modelops Dashboard",
+      "liveUrl": "https://justin21523.github.io/modelops-dashboard/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "music-intelligence-platform",
+      "title": "Music Intelligence Platform",
+      "liveUrl": "https://justin21523.github.io/music-intelligence-platform/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "mystery-phenomena-files",
+      "title": "Mystery Phenomena Files",
+      "liveUrl": "https://justin21523.github.io/mystery-phenomena-files/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "news-web-crawler",
+      "title": "News Web Crawler & Data Intelligence Platform",
+      "liveUrl": "https://justin21523.github.io/news-web-crawler/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "nyc-taxi-mobility-analytics",
+      "title": "NYC Taxi Mobility Analytics Platform",
+      "liveUrl": "https://justin21523.github.io/nyc-taxi-mobility-analytics/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "openalex-research-rag",
+      "title": "OpenAlex Research Intelligence (RAG)",
+      "liveUrl": "https://justin21523.github.io/openalex-research-rag/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "playwright-automation",
+      "title": "Playwright Automation",
+      "liveUrl": "https://justin21523.github.io/playwright-automation/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "poker-ai-web",
+      "title": "Poker AI Web — Learning Card-Game AI Platform",
+      "liveUrl": "https://justin21523.github.io/poker-AI-web/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "projectmind",
+      "title": "Projectmind",
+      "liveUrl": "https://justin21523.github.io/project-mind/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "research-paper-and-knowledge-workspace",
+      "title": "Research Paper & Knowledge Workspace",
+      "liveUrl": "https://justin21523.github.io/research-paper-and-knowledge-workspace/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "retailpulse-bi-recommender",
+      "title": "RetailPulse BI & Recommendation Platform",
+      "liveUrl": "https://justin21523.github.io/retailpulse-bi-recommender/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "school-library-lms",
+      "title": "School Library Lms",
+      "liveUrl": "https://justin21523.github.io/school-library-lms/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "scrapers",
+      "title": "Scrapers",
+      "liveUrl": "https://justin21523.github.io/scrapers/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "sd-multimodal-platform",
+      "title": "SD Multi-Modal Platform: Portfolio-Ready Stable Diffusion Platform",
+      "liveUrl": "https://justin21523.github.io/sd-multimodal-platform/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": false,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "smart-home-energy-monitor",
+      "title": "Smart Home Energy Monitor",
+      "liveUrl": "https://justin21523.github.io/smart-home-energy-monitor/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "soundscape-taiwan",
+      "title": "Soundscape Taiwan",
+      "liveUrl": "https://justin21523.github.io/soundscape-taiwan/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "starforge-AI-narrative",
+      "title": "Starforge AI Narrative",
+      "liveUrl": "https://justin21523.github.io/starforge-AI-narrative/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "TGW-playbook",
+      "title": "TGW Playbook",
+      "liveUrl": "https://justin21523.github.io/TGW-playbook/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "traffic-pulse",
+      "title": "Traffic Pulse",
+      "liveUrl": "https://justin21523.github.io/traffic-pulse/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "transformer-core",
+      "title": "Transformer Core",
+      "liveUrl": "https://justin21523.github.io/transformer-core/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "tripscore",
+      "title": "TripScore: Explainable Destination Scoring & Recommendation",
+      "liveUrl": "https://justin21523.github.io/tripscore/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "tts-voice-app",
+      "title": "TTS Voice App",
+      "liveUrl": "https://justin21523.github.io/tts-voice-app/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "vanilla-dom-playground",
+      "title": "Vanilla DOM Playground",
+      "liveUrl": "https://justin21523.github.io/vanilla-dom-playground/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "video-gen-factory",
+      "title": "Video Gen Factory",
+      "liveUrl": "https://justin21523.github.io/video-gen-factory/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    },
+    {
+      "slug": "web-auto-concepts",
+      "title": "Web Auto Concepts",
+      "liveUrl": "https://justin21523.github.io/web-auto-concepts/",
+      "label": {
+        "zh-TW": "網站 Demo",
+        "en": "Live Demo"
+      },
+      "status": "verified",
+      "httpStatus": 200,
+      "hasDemoApp": true,
+      "hasOldMarker": false
+    }
+  ]
+}

@@ -95,6 +95,7 @@ async function checkUrl(slug: string, kind: LinkKind, sourceUrl: string, checked
 
     const isPortfolioFallback = checkedUrl.includes(`/projects/${slug}/#${fallbackAnchor(kind)}`);
     const generatedCaseStudy = kind === "live" && /Portfolio Case Study|Case Study Demo/.test(firstChunk);
+    const generatedStaticShowcase = kind === "live" && /Static Project Demo|Static Demo Site|backend-free static demo/i.test(firstChunk);
 
     return {
       slug,
@@ -105,6 +106,8 @@ async function checkUrl(slug: string, kind: LinkKind, sourceUrl: string, checked
         ? "portfolio-fallback"
         : generatedCaseStudy
           ? "generated-case-study-demo"
+          : generatedStaticShowcase
+            ? "generated-case-study-demo"
           : kind === "video"
             ? "external-media"
             : "external-app-demo",
