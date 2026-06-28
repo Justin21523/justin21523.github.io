@@ -198,18 +198,18 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.930Z"
+      "lastScannedAt": "2026-06-28T11:41:18.680Z"
     },
     "content": {
       "zh-TW": {
         "title": "2D 動畫角色 LoRA 訓練管線",
-        "summary": "針對西方 2D 卡通（辛普森家庭、蓋酷家庭等）打造的端到端 LoRA 訓練管線。涵蓋影格抽取、YOLO 多物件追蹤、ToonOut 角色分割、人臉身份分群、DWpose 姿態、VLM 字幕、到 LoRA／ControlNet 訓練；以 OmegaConf 階層設定與分階段協調器串接，支援 checkpoint 續跑與無權重的 stub 模式快速驗證。",
-        "description": "## 概述\n\n**2D Animation LoRA Pipeline** 是一條針對西方 2D 卡通（如辛普森家庭、蓋酷家庭、瑞克和莫蒂）打造的端到端角色 LoRA 訓練資料管線。它將「影片 → 影格 → 多角色抽取 → 姿態 → 資料集 → LoRA 訓練」整合為可重現、可續跑的自動化流程，並複用既有 3D 動畫管線的成熟基礎、針對 2D 特性重新調校。\n\n## 架構與技術\n\n核心採分階段協調器（orchestrator）＋階段相依管理（stage manager），以 OmegaConf 做階層式設定並提供 2D／3D 參數自動轉換。視覺處理串接 Ultralytics YOLO + ByteTrack 多物件追蹤、ToonOut（ONNX）逐軌角色分割、InsightFace 人臉嵌入＋HDBSCAN 身份分群，以及 DWpose 姿態抽取。訓練端整合 kohya-ss 與 Diffusers／PEFT，訓練 Stable Diffusion / SDXL 的角色 LoRA 與 ControlNet-Pose，搭配 bitsandbytes/Prodigy 等最佳化器與 TensorBoard/W&B 監控。\n\n## 工程化特色\n\n全模組支援 **stub 模式** 與 dry-run，讓開發者在無模型權重、無 GPU 的情況下也能快速冒煙測試整條管線；並提供統一的 MetadataIO（parquet 優先）、資源監控與 checkpoint/resume。周邊另含 RealESRGAN/GFPGAN 影像增強、RIFE 補幀、LaMa/PowerPaint 背景修補與 GPT-4V 自動字幕。\n\n## 成果與現況\n\n專案已實際訓練出多個角色 LoRA（如經 CLIP 多參考驗證過濾的 Luca 乾淨資料集、Inazuma 系列），並附完整 kohya .toml 設定、提示測試集與訓練監控腳本。目前仍屬持續演進的個人研究雛形：許多階段以 stub 驅動、訓練腳本尚分散，下一步將收斂為單一 CLI 工作流並補齊端到端測試。\n\n> 註：字幕模組透過環境變數讀取 OpenAI 金鑰；本文不含任何金鑰或機密資訊。",
+        "summary": "針對西方 2D 卡通風格素材打造的端到端 LoRA 訓練管線。涵蓋影格抽取、YOLO 多物件追蹤、ToonOut 角色分割、人臉身份分群、DWpose 姿態、VLM 字幕、到 LoRA／ControlNet 訓練；以 OmegaConf 階層設定與分階段協調器串接，支援 checkpoint 續跑與無權重的 stub 模式快速驗證。",
+        "description": "## 概述\n\n**2D Animation LoRA Pipeline** 是一條針對西方 2D 卡通風格素材打造的端到端角色 LoRA 訓練資料管線。它將「影片 → 影格 → 多角色抽取 → 姿態 → 資料集 → LoRA 訓練」整合為可重現、可續跑的自動化流程，並複用既有 3D 動畫管線的成熟基礎、針對 2D 特性重新調校。\n\n## 架構與技術\n\n核心採分階段協調器（orchestrator）＋階段相依管理（stage manager），以 OmegaConf 做階層式設定並提供 2D／3D 參數自動轉換。視覺處理串接 Ultralytics YOLO + ByteTrack 多物件追蹤、ToonOut（ONNX）逐軌角色分割、InsightFace 人臉嵌入＋HDBSCAN 身份分群，以及 DWpose 姿態抽取。訓練端整合 kohya-ss 與 Diffusers／PEFT，訓練 Stable Diffusion / SDXL 的角色 LoRA 與 ControlNet-Pose，搭配 bitsandbytes/Prodigy 等最佳化器與 TensorBoard/W&B 監控。\n\n## 工程化特色\n\n全模組支援 **stub 模式** 與 dry-run，讓開發者在無模型權重、無 GPU 的情況下也能快速冒煙測試整條管線；並提供統一的 MetadataIO（parquet 優先）、資源監控與 checkpoint/resume。周邊另含 RealESRGAN/GFPGAN 影像增強、RIFE 補幀、LaMa/PowerPaint 背景修補與 GPT-4V 自動字幕。\n\n## 成果與現況\n\n專案已實際訓練出多組匿名角色 LoRA，並附完整 kohya .toml 設定、提示測試集與訓練監控腳本。目前仍屬持續演進的個人研究雛形：許多階段以 stub 驅動、訓練腳本尚分散，下一步將收斂為單一 CLI 工作流並補齊端到端測試。\n\n> 註：字幕模組透過環境變數讀取 OpenAI 金鑰；本文不含任何金鑰或機密資訊。",
         "tagline": "從影片到角色 LoRA 的端到端 2D 動畫資料與訓練自動化管線",
         "role": "獨立開發者：負責管線架構、各階段模組、設定系統與訓練實驗（個人 AI 研究專案）",
         "problem": "從 2D 動畫影片建立高品質角色 LoRA 訓練集需處理大量繁瑣步驟：同一畫面多角色須分離、跨鏡頭同一角色須合併、2D 硬邊線稿與跨集風格差異使既有 3D 流程的參數不適用，且整段流程缺乏可重現、可續跑的自動化。",
         "solution": "設計分階段（frame → 多角色抽取 → 姿態 → 資料集 → 訓練）的協調器架構：YOLO+ByteTrack 偵測追蹤、ToonOut 逐軌分割、以 HDBSCAN 對人臉嵌入做身份分群來合併同一角色；用 OmegaConf 階層設定並自動套用 2D／3D 參數轉換（alpha/blur 門檻、cluster 大小等）。訓練端整合 kohya-ss 與 diffusers 訓練 SD/SDXL LoRA 與 ControlNet，並以 GPT-4V 產生字幕。全模組支援 stub 模式與 dry-run 以利無 GPU 快速驗證。",
-        "outcome": "完成可運作的多階段管線雛形，並實際訓練出多個角色 LoRA（如 Luca、Inazuma 系列，含 CLIP 驗證過濾的乾淨資料集與 kohya .toml 設定）；具備 checkpoint／resume、資源監控、批次提示測試與監控腳本，整體可重現性與工程化程度高。",
+        "outcome": "完成可運作的多階段管線雛形，並實際訓練出多組匿名角色 LoRA，含 CLIP 驗證過濾的乾淨資料集與 kohya .toml 設定；具備 checkpoint／resume、資源監控、批次提示測試與監控腳本，整體可重現性與工程化程度高。",
         "features": [],
         "metrics": [],
         "highlights": [
@@ -231,13 +231,13 @@
       },
       "en": {
         "title": "2D Animation Character LoRA Training Pipeline",
-        "summary": "An end-to-end LoRA training pipeline for Western 2D cartoons (The Simpsons, Family Guy, etc.). It spans frame extraction, YOLO multi-object tracking, ToonOut character segmentation, face-based identity clustering, DWpose, VLM captioning, and LoRA/ControlNet training — wired together by a staged orchestrator with hierarchical OmegaConf config, checkpoint/resume, and a weight-free stub mode for fast validation.",
-        "description": "## Overview\n\n**2D Animation LoRA Pipeline** is an end-to-end character LoRA training data pipeline built for Western 2D cartoons (The Simpsons, Family Guy, Rick and Morty). It turns \"video → frames → multi-character extraction → pose → dataset → LoRA training\" into a reproducible, resumable automated flow, reusing mature 3D-pipeline infrastructure retuned for 2D characteristics.\n\n## Architecture & Stack\n\nThe core is a staged orchestrator plus stage-dependency manager, using OmegaConf for hierarchical config with automatic 2D/3D parameter conversion. Vision processing chains Ultralytics YOLO + ByteTrack multi-object tracking, per-track ToonOut (ONNX) segmentation, InsightFace embeddings + HDBSCAN identity clustering, and DWpose extraction. Training integrates kohya-ss with Diffusers/PEFT to train Stable Diffusion / SDXL character LoRAs and ControlNet-Pose, with optimizers like bitsandbytes/Prodigy and TensorBoard/W&B monitoring.\n\n## Engineering Features\n\nEvery module supports **stub mode** and dry-run, letting developers smoke-test the whole pipeline with no model weights and no GPU. It also provides a unified MetadataIO (parquet-first), resource monitoring, and checkpoint/resume. Surrounding tooling includes RealESRGAN/GFPGAN enhancement, RIFE interpolation, LaMa/PowerPaint background inpainting, and GPT-4V auto-captioning.\n\n## Results & Status\n\nThe project has trained several real character LoRAs (e.g. a CLIP multi-reference-verified clean Luca dataset and an Inazuma series), shipping complete kohya .toml configs, prompt-test suites, and training-monitoring scripts. It remains an evolving personal research prototype: many stages are stub-driven and training scripts are still scattered, with consolidation into a single CLI workflow and fuller end-to-end tests as next steps.\n\n> Note: the captioning module reads an OpenAI key from an environment variable; no keys or secrets are included here.",
+        "summary": "An end-to-end LoRA training pipeline for Western 2D cartoon-style footage. It spans frame extraction, YOLO multi-object tracking, ToonOut character segmentation, face-based identity clustering, DWpose, VLM captioning, and LoRA/ControlNet training — wired together by a staged orchestrator with hierarchical OmegaConf config, checkpoint/resume, and a weight-free stub mode for fast validation.",
+        "description": "## Overview\n\n**2D Animation LoRA Pipeline** is an end-to-end character LoRA training data pipeline built for Western 2D cartoon-style footage. It turns \"video → frames → multi-character extraction → pose → dataset → LoRA training\" into a reproducible, resumable automated flow, reusing mature 3D-pipeline infrastructure retuned for 2D characteristics.\n\n## Architecture & Stack\n\nThe core is a staged orchestrator plus stage-dependency manager, using OmegaConf for hierarchical config with automatic 2D/3D parameter conversion. Vision processing chains Ultralytics YOLO + ByteTrack multi-object tracking, per-track ToonOut (ONNX) segmentation, InsightFace embeddings + HDBSCAN identity clustering, and DWpose extraction. Training integrates kohya-ss with Diffusers/PEFT to train Stable Diffusion / SDXL character LoRAs and ControlNet-Pose, with optimizers like bitsandbytes/Prodigy and TensorBoard/W&B monitoring.\n\n## Engineering Features\n\nEvery module supports **stub mode** and dry-run, letting developers smoke-test the whole pipeline with no model weights and no GPU. It also provides a unified MetadataIO (parquet-first), resource monitoring, and checkpoint/resume. Surrounding tooling includes RealESRGAN/GFPGAN enhancement, RIFE interpolation, LaMa/PowerPaint background inpainting, and GPT-4V auto-captioning.\n\n## Results & Status\n\nThe project has trained several anonymized character LoRAs, shipping complete kohya .toml configs, prompt-test suites, and training-monitoring scripts. It remains an evolving personal research prototype: many stages are stub-driven and training scripts are still scattered, with consolidation into a single CLI workflow and fuller end-to-end tests as next steps.\n\n> Note: the captioning module reads an OpenAI key from an environment variable; no keys or secrets are included here.",
         "tagline": "End-to-end pipeline turning 2D cartoon video into character LoRA adapters",
         "role": "Solo developer: pipeline architecture, per-stage modules, config system, and training experiments (personal AI research project)",
         "problem": "Building high-quality character LoRA datasets from 2D animation is tedious: multiple characters in one frame must be separated, the same character across cuts must be merged, hard-edge line art and per-episode style drift make 3D pipeline defaults unsuitable, and the whole flow lacks reproducible, resumable automation.",
         "solution": "A staged orchestrator (frame → multi-character extraction → pose → dataset → training): YOLO+ByteTrack for detection/tracking, per-track ToonOut segmentation, and HDBSCAN clustering over face embeddings to merge the same identity. OmegaConf provides hierarchical config with automatic 2D/3D parameter conversion (alpha/blur thresholds, cluster sizes). Training integrates kohya-ss and Diffusers to train SD/SDXL LoRA and ControlNet, with GPT-4V captioning. Every module supports stub mode and dry-run for GPU-free smoke testing.",
-        "outcome": "A working multi-stage pipeline prototype that has trained several real character LoRAs (e.g. Luca and Inazuma series, with CLIP-verified clean datasets and kohya .toml configs), backed by checkpoint/resume, resource monitoring, batch prompt-test suites, and monitoring scripts.",
+        "outcome": "A working multi-stage pipeline prototype that has trained several anonymized character LoRAs with CLIP-verified clean datasets and kohya .toml configs, backed by checkpoint/resume, resource monitoring, batch prompt-test suites, and monitoring scripts.",
         "features": [],
         "metrics": [],
         "highlights": [
@@ -263,9 +263,9 @@
     "id": "project-3d-animation-lora-pipeline-pf-2026-ai-002",
     "slug": "3d-animation-lora-pipeline",
     "category": "ai-data",
-    "status": "prototype",
+    "status": "completed",
     "year": 2026,
-    "featured": false,
+    "featured": true,
     "technologies": [
       "Python",
       "PyTorch",
@@ -276,17 +276,28 @@
       "BLIP2",
       "Segment Anything",
       "ControlNet",
-      "ComfyUI"
+      "ComfyUI",
+      "Playwright",
+      "Docker"
     ],
+    "coverImage": "/portfolio/projects/3d-animation-lora-pipeline/cover.webp",
     "links": [
       {
         "kind": "live",
         "url": "https://justin21523.github.io/3d-animation-lora-pipeline/",
         "label": {
-          "zh-TW": "互動 Demo",
-          "en": "Interactive Demo"
+          "zh-TW": "互動 Demo 網站",
+          "en": "Interactive Demo Site"
         },
         "primary": true
+      },
+      {
+        "kind": "video",
+        "url": "/portfolio/projects/3d-animation-lora-pipeline/demo/demo-walkthrough.mp4",
+        "label": {
+          "zh-TW": "Demo 錄影",
+          "en": "Demo Recording"
+        }
       },
       {
         "kind": "github",
@@ -305,23 +316,92 @@
         }
       }
     ],
-    "media": [],
+    "media": [
+      {
+        "id": "demo-walkthrough",
+        "type": "video",
+        "src": "/portfolio/projects/3d-animation-lora-pipeline/demo/demo-walkthrough.mp4",
+        "poster": "/portfolio/projects/3d-animation-lora-pipeline/cover.webp",
+        "alt": {
+          "zh-TW": "3D Animation LoRA Pipeline 的匿名資料管線 demo 錄影。",
+          "en": "An anonymized demo recording of the 3D Animation LoRA Pipeline."
+        },
+        "title": {
+          "zh-TW": "Demo 操作錄影",
+          "en": "Demo Walkthrough Recording"
+        },
+        "caption": {
+          "zh-TW": "展示面試官可快速觀看的 portfolio demo：管線成果、階段狀態、匿名 sample outputs 與媒體展示。",
+          "en": "Shows the portfolio demo flow for reviewers: pipeline outputs, stage status, anonymized sample outputs, and media assets."
+        },
+        "featured": true
+      },
+      {
+        "id": "demo-home-desktop",
+        "type": "image",
+        "src": "/portfolio/projects/3d-animation-lora-pipeline/screenshots/01-demo-home-desktop.png",
+        "alt": {
+          "zh-TW": "3D Animation LoRA Pipeline demo 首頁與總覽畫面。",
+          "en": "The 3D Animation LoRA Pipeline demo home and overview screen."
+        },
+        "title": {
+          "zh-TW": "Demo 首頁總覽",
+          "en": "Demo Home Overview"
+        },
+        "caption": {
+          "zh-TW": "以匿名資料與可展示指標呈現專案價值、技術堆疊與操作入口。",
+          "en": "Presents project value, stack, and entry points through anonymized demo data and showcase metrics."
+        }
+      },
+      {
+        "id": "demo-results-desktop",
+        "type": "image",
+        "src": "/portfolio/projects/3d-animation-lora-pipeline/screenshots/02-demo-results-desktop.png",
+        "alt": {
+          "zh-TW": "匿名 demo results 區塊，包含資料集、訓練與評估結果卡片。",
+          "en": "The anonymized demo results section with dataset, training, and evaluation result cards."
+        },
+        "title": {
+          "zh-TW": "產品化成果展示",
+          "en": "Product-Style Result Showcase"
+        },
+        "caption": {
+          "zh-TW": "用可截圖的方式呈現 sample data、training metrics、evaluation matrix 與 animation strip。",
+          "en": "Makes sample data, training metrics, evaluation matrix, and animation strip visible in a screenshot-ready layout."
+        }
+      },
+      {
+        "id": "demo-mobile",
+        "type": "image",
+        "src": "/portfolio/projects/3d-animation-lora-pipeline/screenshots/03-demo-home-mobile.png",
+        "alt": {
+          "zh-TW": "3D Animation LoRA Pipeline demo 的行動版畫面。",
+          "en": "The mobile view of the 3D Animation LoRA Pipeline demo."
+        },
+        "title": {
+          "zh-TW": "響應式行動版",
+          "en": "Responsive Mobile View"
+        }
+      }
+    ],
     "metadata": {
-      "startedAt": "2026-02-05",
+      "startedAt": "2026-06-01",
       "updatedAt": "2026-06-28",
+      "completedAt": "2026-06-28",
+      "duration": "Pipeline audit, anonymous demo layer, portfolio media packaging",
       "teamSize": 1,
-      "version": "1.0.0",
+      "version": "1.0.0-demo",
       "catalogNumber": "PF-2026-AI-002",
       "visibility": "public",
       "aliases": [],
       "primaryCategory": "ai-data",
       "secondaryCategories": [],
-      "projectType": "AI training pipeline / CLI toolkit",
+      "projectType": "AI training pipeline / portfolio demo platform",
       "domains": [
-        "generative-ai",
-        "computer-vision",
-        "diffusion-models",
-        "dataset-engineering"
+        "Generative AI",
+        "Computer Vision",
+        "Dataset Engineering",
+        "Diffusion Model Tooling"
       ],
       "subjects": [],
       "controlledTerms": [
@@ -334,25 +414,48 @@
         "BLIP2",
         "Segment Anything",
         "ControlNet",
-        "ComfyUI"
+        "ComfyUI",
+        "Playwright",
+        "Docker"
       ],
       "keywords": [
         "LoRA",
         "Stable Diffusion XL",
         "3D animation",
-        "Pixar style",
         "character consistency",
         "BLIP2 captioning",
         "SAM segmentation",
         "pose estimation",
         "ComfyUI",
-        "dataset pipeline"
+        "dataset pipeline",
+        "portfolio demo"
       ],
-      "audiences": [],
-      "contentTypes": [],
-      "dataTypes": [],
+      "audiences": [
+        "Interviewers",
+        "AI tooling reviewers",
+        "Computer vision reviewers",
+        "Portfolio visitors"
+      ],
+      "contentTypes": [
+        "Pipeline dashboard",
+        "Static demo site",
+        "Screenshot gallery",
+        "Demo recording",
+        "Technical case study"
+      ],
+      "dataTypes": [
+        "Video frames",
+        "Segmentation masks",
+        "Pose conditioning data",
+        "Embedding metadata",
+        "Training manifests",
+        "Evaluation snapshots"
+      ],
       "platforms": [
-        "CLI"
+        "CLI",
+        "Static web demo",
+        "GitHub Pages",
+        "Docker"
       ],
       "operatingSystems": [],
       "languages": [
@@ -379,13 +482,8 @@
         "scenedetect",
         "PyAV",
         "decord",
-        "bitsandbytes",
-        "lion-pytorch",
-        "prodigyopt",
         "lpips",
         "pytorch-fid",
-        "basicsr",
-        "gfpgan",
         "omegaconf"
       ],
       "stateManagement": [],
@@ -393,7 +491,7 @@
       "database": [],
       "backend": [
         "Python 3.10+",
-        "CUDA"
+        "CUDA-ready CLI tooling"
       ],
       "desktop": [],
       "gameEngine": [],
@@ -406,12 +504,23 @@
       "testing": [],
       "buildTools": [],
       "infrastructure": [],
-      "deployment": [],
+      "deployment": [
+        "GitHub Pages",
+        "Nginx Docker image"
+      ],
       "developmentTools": [],
       "roles": [
-        "獨立開發者：管線架構、各階段工具與訓練設定設計、評估流程與文件撰寫"
+        "Solo developer",
+        "Pipeline architect",
+        "Demo designer",
+        "Technical writer"
       ],
-      "responsibilities": [],
+      "responsibilities": [
+        "Designed the staged pipeline architecture",
+        "Built the CPU-safe demo path and static showcase",
+        "Packaged screenshots, recording, README, and deployment notes",
+        "Added demo-safe tests for manifest and media assets"
+      ],
       "collaborationType": "Solo",
       "learningGoals": [],
       "skillsDemonstrated": [
@@ -424,20 +533,29 @@
         "BLIP2",
         "Segment Anything",
         "ControlNet",
-        "ComfyUI"
+        "ComfyUI",
+        "Playwright",
+        "Docker"
       ],
       "capabilities": [
         "video frame extraction with scene detection",
         "multi-layer character segmentation",
-        "CLIP + HDBSCAN character clustering",
+        "CLIP + HDBSCAN identity clustering",
         "automatic caption generation",
         "LoRA / ControlNet / AnimateDiff training",
         "CPU-parallel pose data preparation",
-        "LoRA quality evaluation"
+        "LoRA quality evaluation",
+        "anonymous portfolio demo packaging"
       ],
-      "tools": [],
-      "hasUnitTests": false,
-      "hasIntegrationTests": false,
+      "tools": [
+        "pytest",
+        "Docker",
+        "GitHub Pages",
+        "Chromium",
+        "FFmpeg"
+      ],
+      "hasUnitTests": true,
+      "hasIntegrationTests": true,
       "hasE2ETests": false,
       "responsive": true,
       "browserSupport": [],
@@ -450,76 +568,74 @@
       "dependencies": [],
       "extractionConfidence": 0.7,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/3d-animation-lora-pipeline/project.override.json",
         "content/projects/3d-animation-lora-pipeline/zh-TW.md",
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.932Z"
+      "lastScannedAt": "2026-06-28T11:41:18.682Z"
     },
     "content": {
       "zh-TW": {
-        "title": "3D 動畫角色 LoRA 訓練管線",
-        "summary": "專為 Pixar 風格等 3D CGI 角色打造的 LoRA 訓練工具鏈。整合影片抽幀、多層分割、CLIP 角色聚類、BLIP2 自動標註、SDXL/Kohya LoRA 與 ControlNet/AnimateDiff 訓練，並以協調器管理階段、資源監控與斷點續訓，搭配 ComfyUI 進行視覺化測試與評估。",
-        "description": "## 概述\n這是一套專為 **3D 動畫角色**（Pixar 等 CGI 風格）設計的 LoRA 訓練管線，目標是把一整部動畫影片自動轉換成乾淨、可訓練的角色資料集並產出高品質 LoRA 模型。專案有別於一般 2D 動漫流程，針對平滑著色、真實光照、材質（SSS、高光）與 3D 角色一致性做了專門最佳化。\n\n## 架構\n管線以模組化、設定檔驅動方式組織，由協調器（orchestrator）串接七個階段：抽幀 → 實例分割 → 角色聚類 → 自動標註 → 資料集準備 → LoRA 訓練 → 評估。協調器整合資源監控與階段管理，支援進度追蹤與斷點續訓。前處理採場景偵測抽幀與 RIFE 補幀、U²-Net/SAM/ISNet 多層與深度感知分割、LaMa 背景修補；角色分群結合 CLIP 嵌入、HDBSCAN 與 UMAP 並提供互動式複核。\n\n## 訓練與評估\n訓練端整合 Kohya_ss/sd-scripts 與 Diffusers，支援 SDXL LoRA、ControlNet 姿態與 AnimateDiff，並可選用 bitsandbytes 8-bit Adam、Lion 與 Prodigy 等優化器。姿態資料準備以 MediaPipe/DWPose 在多執行緒 CPU 上與 GPU 訓練平行進行。評估端提供 LoRA 檢查點測試、模型比較與 LPIPS/FID 品質指標，並整合 ComfyUI 工作流進行視覺化比較與影片生成測試。\n\n## 定位\n專案為個人研究用途的可運作原型（v1.0.0），已實際產出多個角色 LoRA，重點在於建立可重現、可擴充的 3D 角色資料工程流程，而非對外部署的產品。",
-        "tagline": "從影片到可用 LoRA 的端到端 3D 角色生成資料管線",
-        "role": "獨立開發者：管線架構、各階段工具與訓練設定設計、評估流程與文件撰寫",
-        "problem": "3D 動畫角色與 2D 動漫在著色、光照、材質與一致性上差異甚大，既有 2D 流程難以直接套用，且從原始影片到高品質訓練資料集需大量手動清洗、分群與標註，耗時且難以重現。",
-        "solution": "建立模組化、設定檔驅動的端到端管線：以場景偵測抽幀並用 RIFE 補幀，採 U²-Net/SAM/ISNet 多層與深度感知分割並用 LaMa 修補背景，透過 CLIP+HDBSCAN 聚類角色，BLIP2 自動產生標註，再交由 Kohya/Diffusers 進行 SDXL LoRA、ControlNet 姿態與 AnimateDiff 訓練；協調器負責階段管理、資源監控與斷點續訓，姿態資料準備可在 CPU 多執行緒與 GPU 訓練平行進行。",
-        "outcome": "完成 v1.0.0 可運作管線，能由整部 3D 動畫影片自動產出乾淨的角色資料集並訓練出多個角色 LoRA，並透過 LPIPS/FID 與 ComfyUI 工作流進行品質比較。屬個人研究原型，尚未產品化。",
+        "title": "3D 動畫 LoRA 訓練管線與 Demo 展示平台",
+        "summary": "一套以 3D CGI 動畫素材為對象的 LoRA 資料工程與訓練管線。專案整合影片抽幀、角色實例分割、CLIP/HDBSCAN 分群、自動標註、姿態資料、LoRA/ControlNet 訓練與評估流程，並額外建立匿名 demo 網站、截圖、錄影與 README，讓面試官可以快速理解系統價值與技術成果。",
+        "description": "## 專案概述\n\n這個專案原本是一套研究型的 3D 動畫 LoRA 資料管線，核心目標是把長影片素材轉換成可訓練的角色資料集，再接到 LoRA、ControlNet 與影片生成相關工作流。這次整理後，重點不只放在「管線能跑」，也補上面試展示需要的外層：匿名資料、可截圖頁面、demo 錄影、公開網站與清楚的 README。\n\n## 架構與資料流程\n\n資料流程以 stage-based orchestrator 串接：影片抽幀、感知去重、偵測追蹤、前景/背景分割、姿態條件資料、embedding index、LoRA dataset、ControlNet dataset、inference samples 與 animation export。每個階段會輸出 metadata 與 artifact，demo manifest 再把這些狀態整理成前端可讀的展示資料。\n\n## Demo 展示設計\n\n公開 demo 不使用私有影片或具名角色，而是用匿名 sample data 模擬真實產線結果。網站首頁先讓面試官看到 pipeline value proposition，再用 product results 區塊呈現 character sheet、before/after、training metrics、evaluation matrix 與 animation strip。作品集頁面則整合 cover、截圖與 MP4 walkthrough，讓整個專案在瀏覽作品集時就像完整作品，而不是只有 README。\n\n## 工程重點\n\n專案包含 Python CLI、pytest smoke tests、Docker/Nginx 靜態部署、GitHub Pages 發布與 media asset packaging。對面試官來說，這個作品展示的不只是 AI 名詞，而是如何把資料處理、模型訓練、前端展示、文件與部署串成一個可信的 portfolio project。",
+        "tagline": "把動畫素材整理成可訓練資料集，並包裝成可展示、可截圖、可錄影的 portfolio demo",
+        "role": "獨立開發者：管線架構、demo 包裝、測試驗證、作品頁素材與文件整理",
+        "problem": "原始動畫素材通常無法直接拿來訓練 LoRA。從影片到可用資料集需要抽幀、去重、分割、分群、標註、姿態資料與評估報告；如果只展示 CLI 或資料夾結構，面試官很難在短時間內理解專案價值。",
+        "solution": "建立設定檔驅動的多階段 Python 管線，將影片前處理、視覺分割、嵌入分群、資料集組裝與訓練評估拆成可重跑的階段；同時新增 CPU-safe stub demo、靜態展示網站、匿名 sample data、產品化結果卡片、截圖與 walkthrough 影片，使專案能在沒有私有素材與 GPU 權重的情況下被公開展示。",
+        "outcome": "完成可公開展示的 demo 版本：GitHub Pages 上有互動 demo 網站，作品集頁面有完整 media gallery、截圖、錄影與 GitHub/README 連結；測試涵蓋 demo manifest 與媒體資產，並可用 Docker/Nginx 部署靜態站。",
         "features": [],
         "metrics": [],
         "highlights": [
-          "設定檔（YAML/TOML）驅動的多階段協調器，支援資源監控與斷點續訓",
-          "針對 3D 內容調校的分割與聚類參數（較低 alpha/模糊門檻、較小聚類規模）",
-          "CLIP + HDBSCAN + UMAP 角色自動分群並提供互動式人工複核",
-          "BLIP2 自動標註並以觸發詞/身分標籤策略強化身分型 LoRA 學習",
-          "CPU 多執行緒姿態資料準備（32 緒可達 60+ FPS）與 GPU 訓練平行運作",
-          "整合 ComfyUI 進行 LoRA 比較、ControlNet 姿態控制與影片生成測試"
+          "以匿名 sample data 展示資料管線成果，不暴露原始素材或角色名稱",
+          "完整 portfolio media package：cover、桌面截圖、行動截圖、結果頁截圖與 MP4 walkthrough",
+          "多階段 pipeline manifest 呈現抽幀、去重、分割、姿態、嵌入、訓練資料與輸出成果",
+          "Demo-safe 測試可在 CPU-only 環境快速驗證，不依賴私有影片或大型權重",
+          "靜態 demo 可部署到 GitHub Pages，也能以 Docker/Nginx 打包",
+          "README 與作品頁把技術棧、架構、啟動方式與展示流程整理成面試可讀格式"
         ],
         "challenges": [
-          "3D 角色的平滑著色與真實光照使分割與去背門檻需重新調校",
-          "在有限 VRAM 下平衡 SDXL/ControlNet 訓練與多階段前處理的資源消耗",
-          "身分型 LoRA 的標註策略需精準教導年齡/性別等屬性以避免特徵漂移"
+          "需要把研究型 pipeline 轉換成面試官能快速理解的產品化展示介面",
+          "公開展示時必須匿名化素材脈絡，避免暴露角色名稱與私有資料來源",
+          "原始流程依賴 GPU、模型權重與大量媒體檔，因此需要另外設計 CPU-safe demo path"
         ],
         "nextSteps": [
-          "將 2D 與 3D 兩套管線收斂為單一統一介面",
-          "補強自動化品質評估與回歸測試以提升可重現性",
-          "強化跨角色一致性（InstantID/IPAdapter）與影片生成工作流"
+          "補更多匿名 demo scenario，例如資料品質檢查、訓練設定比較與 checkpoint evaluation",
+          "把錄影腳本自動化，讓 demo 影片能隨 UI 更新重新產生",
+          "將 2D/3D 訓練管線整理成單一可展示控制台"
         ]
       },
       "en": {
-        "title": "3D Animation Character LoRA Pipeline",
-        "summary": "A LoRA training toolkit purpose-built for Pixar-style and other 3D CGI characters. It chains video frame extraction, multi-layer segmentation, CLIP-based character clustering, BLIP2 auto-captioning, and SDXL/Kohya LoRA plus ControlNet/AnimateDiff training, coordinated by an orchestrator with resource monitoring and checkpoint resume, with ComfyUI for visual testing and evaluation.",
-        "description": "## Overview\nThis is a LoRA training pipeline built specifically for **3D animated characters** (Pixar-style and other CGI). Its goal is to turn an entire animated film into a clean, trainable character dataset and produce high-quality LoRA models. Unlike typical 2D anime pipelines, it is optimized for smooth shading, realistic lighting, material properties (SSS, specular), and consistent 3D character models.\n\n## Architecture\nThe pipeline is modular and config-driven, with an orchestrator chaining seven stages: frame extraction, instance segmentation, character clustering, caption generation, dataset preparation, LoRA training, and evaluation. The orchestrator integrates resource monitoring and stage management with progress tracking and checkpoint/resume. Preprocessing uses scene-detected extraction with RIFE interpolation, multi-layer depth-aware segmentation (U²-Net/SAM/ISNet), and LaMa background inpainting; clustering combines CLIP embeddings, HDBSCAN, and UMAP with an interactive review step.\n\n## Training and evaluation\nTraining integrates Kohya_ss/sd-scripts and Diffusers, supporting SDXL LoRA, ControlNet pose, and AnimateDiff, with optional optimizers such as bitsandbytes 8-bit Adam, Lion, and Prodigy. Pose-data preparation runs MediaPipe/DWPose on multi-threaded CPU in parallel with GPU training. Evaluation provides LoRA checkpoint testing, model comparison, and LPIPS/FID quality metrics, plus ComfyUI workflows for visual comparison and video generation testing.\n\n## Positioning\nThe project is a working personal-research prototype (v1.0.0) that has produced multiple character LoRAs. Its emphasis is on a reproducible, extensible data-engineering workflow for 3D characters rather than a deployed product.",
-        "tagline": "End-to-end data pipeline turning 3D animation footage into trainable character LoRAs",
-        "role": "Solo developer: pipeline architecture, per-stage tooling and training configs, evaluation workflow, and documentation",
-        "problem": "3D animated characters differ sharply from 2D anime in shading, lighting, materials, and consistency, so existing 2D pipelines do not transfer directly. Going from raw footage to a high-quality training dataset demands heavy manual cleaning, clustering, and captioning that is slow and hard to reproduce.",
-        "solution": "A modular, config-driven end-to-end pipeline: scene-detected frame extraction with RIFE interpolation, depth-aware multi-layer segmentation (U²-Net/SAM/ISNet) with LaMa background inpainting, CLIP + HDBSCAN character clustering, BLIP2 auto-captioning, then SDXL LoRA, ControlNet pose, and AnimateDiff training via Kohya/Diffusers. An orchestrator handles stage management, resource monitoring, and checkpoint resume, while pose-data prep runs on multi-threaded CPU in parallel with GPU training.",
-        "outcome": "Delivered a working v1.0.0 pipeline that automatically produces clean character datasets from full 3D films and trains multiple character LoRAs, with LPIPS/FID metrics and ComfyUI workflows for quality comparison. It is a personal research prototype, not productized.",
+        "title": "3D Animation LoRA Pipeline and Demo Showcase",
+        "summary": "A LoRA data-engineering and training pipeline for 3D CGI animation footage. It combines frame extraction, instance segmentation, CLIP/HDBSCAN clustering, auto-captioning, pose data, LoRA/ControlNet training, and evaluation, then adds an anonymized demo site, screenshots, recording, and README so reviewers can understand the project quickly.",
+        "description": "## Overview\n\nThis project started as a research-style 3D animation LoRA data pipeline. Its core goal is to turn long-form animation footage into trainable character datasets, then connect those datasets to LoRA, ControlNet, and video-generation workflows. The latest version also adds the outer layer needed for interviews: anonymized data, screenshot-ready pages, demo recording, public website, and a clear README.\n\n## Architecture and data flow\n\nThe data flow is organized around a stage-based orchestrator: frame extraction, perceptual dedupe, detection/tracking, foreground/background segmentation, pose conditioning data, embedding index, LoRA dataset, ControlNet dataset, inference samples, and animation export. Each stage writes metadata and artifacts; the demo manifest then turns those outputs into frontend-readable showcase data.\n\n## Demo strategy\n\nThe public demo does not use private footage or named characters. Instead, it uses anonymized sample data to simulate production outputs. The site first communicates the pipeline value proposition, then uses a product results section to show a character sheet, before/after panel, training metrics, evaluation matrix, and animation strip. The portfolio detail page integrates the cover, screenshots, and MP4 walkthrough so the project reads like a complete product case study instead of only a README.\n\n## Engineering focus\n\nThe project includes a Python CLI, pytest smoke tests, Docker/Nginx static deployment, GitHub Pages publishing, and media asset packaging. For reviewers, the important point is not just the AI terminology; it is how the data workflow, training flow, frontend demo, documentation, and deployment are tied together into a credible portfolio project.",
+        "tagline": "Turning animation footage into trainable datasets, then packaging the result as a screenshot-ready portfolio demo",
+        "role": "Solo developer: pipeline architecture, demo packaging, test verification, portfolio media, and documentation",
+        "problem": "Raw animation footage is not directly usable for LoRA training. A usable dataset requires frame extraction, dedupe, segmentation, clustering, captions, pose data, and evaluation reports; if the project only exposes CLI commands and folders, reviewers cannot quickly understand its product value.",
+        "solution": "I built a config-driven multi-stage Python pipeline that separates video preprocessing, visual segmentation, embedding clustering, dataset assembly, training, and evaluation into rerunnable stages. I also added a CPU-safe stub demo, static showcase website, anonymized sample data, product-style result cards, screenshots, and a walkthrough video so the project can be reviewed publicly without private media or GPU weights.",
+        "outcome": "Delivered a public demo version: the GitHub Pages site hosts an interactive showcase, the portfolio detail page includes a full media gallery with screenshots, recording, GitHub, README, and live demo links, and the demo tests verify manifest and media assets. The static site can also be deployed through Docker/Nginx.",
         "features": [],
         "metrics": [],
         "highlights": [
-          "Config-driven (YAML/TOML) multi-stage orchestrator with resource monitoring and checkpoint resume",
-          "Segmentation and clustering parameters tuned for 3D content (lower alpha/blur thresholds, smaller clusters)",
-          "Automatic character grouping via CLIP + HDBSCAN + UMAP with interactive human review",
-          "BLIP2 auto-captioning with a trigger-token / identity-tag strategy for identity LoRAs",
-          "CPU multi-threaded pose-data prep (60+ FPS on 32 threads) running parallel to GPU training",
-          "ComfyUI integration for LoRA comparison, ControlNet pose control, and video generation tests"
+          "Uses anonymized sample data to demonstrate pipeline outputs without exposing source material or character names",
+          "Complete portfolio media package: cover, desktop screenshots, mobile screenshot, results screenshot, and MP4 walkthrough",
+          "Stage manifest shows frame extraction, dedupe, segmentation, pose data, embeddings, training data, and generated outputs",
+          "Demo-safe tests run in CPU-only environments without private videos or large model weights",
+          "Static demo deploys to GitHub Pages and can also be packaged with Docker/Nginx",
+          "README and portfolio page explain stack, architecture, startup commands, and interview walkthrough flow"
         ],
         "challenges": [
-          "Smooth 3D shading and realistic lighting required re-tuning segmentation and matting thresholds",
-          "Balancing SDXL/ControlNet training against multi-stage preprocessing under limited VRAM",
-          "Identity LoRA captioning had to explicitly teach attributes like age/gender to avoid feature drift"
+          "Converting a research-style pipeline into a product-style demo that reviewers can understand quickly",
+          "Anonymizing public materials so the page does not reveal character names or private source context",
+          "Designing a CPU-safe demo path for a workflow that normally depends on GPU models and large media files"
         ],
         "nextSteps": [
-          "Converge the separate 2D and 3D pipelines behind a single unified interface",
-          "Strengthen automated quality evaluation and regression testing for reproducibility",
-          "Improve cross-character consistency (InstantID/IPAdapter) and video generation workflows"
+          "Add more anonymized demo scenarios, such as data-quality review, training-config comparison, and checkpoint evaluation",
+          "Automate the recording script so the demo video can be regenerated after UI changes",
+          "Unify the 2D and 3D training pipelines behind a single showcase dashboard"
         ]
       }
     }
@@ -976,7 +1092,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.933Z"
+      "lastScannedAt": "2026-06-28T11:41:18.683Z"
     },
     "content": {
       "zh-TW": {
@@ -1227,7 +1343,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.933Z"
+      "lastScannedAt": "2026-06-28T11:41:18.684Z"
     },
     "content": {
       "zh-TW": {
@@ -1412,7 +1528,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.934Z"
+      "lastScannedAt": "2026-06-28T11:41:18.684Z"
     },
     "content": {
       "zh-TW": {
@@ -1477,16 +1593,26 @@
     "id": "project-ai-knowledge-workspace-pf-2026-ai-005",
     "slug": "ai-knowledge-workspace",
     "category": "ai-data",
-    "status": "prototype",
+    "status": "completed",
     "year": 2026,
-    "featured": false,
+    "featured": true,
     "technologies": [
       "Next.js",
       "React",
       "Tailwind CSS",
       "TypeScript"
     ],
+    "coverImage": "/portfolio/projects/ai-knowledge-workspace/cover.png",
     "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/ai-knowledge-workspace/",
+        "label": {
+          "zh-TW": "開啟線上 Demo",
+          "en": "Open Live Demo"
+        },
+        "primary": true
+      },
       {
         "kind": "github",
         "url": "https://github.com/Justin21523/ai-knowledge-workspace",
@@ -1502,9 +1628,72 @@
           "zh-TW": "閱讀 README",
           "en": "Read README"
         }
+      },
+      {
+        "kind": "video",
+        "url": "/portfolio/projects/ai-knowledge-workspace/demo/demo-walkthrough.mp4",
+        "label": {
+          "zh-TW": "觀看 Demo 影片",
+          "en": "Watch Demo Video"
+        }
       }
     ],
-    "media": [],
+    "media": [
+      {
+        "id": "dashboard-light",
+        "type": "image",
+        "src": "/portfolio/projects/ai-knowledge-workspace/screenshots/home-light-desktop.png",
+        "alt": {
+          "zh-TW": "AI Knowledge Workspace 淺色桌面儀表板",
+          "en": "AI Knowledge Workspace light desktop dashboard"
+        },
+        "title": {
+          "zh-TW": "淺色桌面儀表板",
+          "en": "Light desktop dashboard"
+        },
+        "featured": true
+      },
+      {
+        "id": "dashboard-dark",
+        "type": "image",
+        "src": "/portfolio/projects/ai-knowledge-workspace/screenshots/dashboard-dark-desktop.png",
+        "alt": {
+          "zh-TW": "AI Knowledge Workspace 深色桌面儀表板",
+          "en": "AI Knowledge Workspace dark desktop dashboard"
+        },
+        "title": {
+          "zh-TW": "深色桌面儀表板",
+          "en": "Dark desktop dashboard"
+        }
+      },
+      {
+        "id": "mobile",
+        "type": "image",
+        "src": "/portfolio/projects/ai-knowledge-workspace/screenshots/mobile.png",
+        "alt": {
+          "zh-TW": "AI Knowledge Workspace 手機版儀表板",
+          "en": "AI Knowledge Workspace mobile dashboard"
+        },
+        "title": {
+          "zh-TW": "手機版儀表板",
+          "en": "Mobile dashboard"
+        }
+      },
+      {
+        "id": "walkthrough",
+        "type": "video",
+        "src": "/portfolio/projects/ai-knowledge-workspace/demo/demo-walkthrough.mp4",
+        "poster": "/portfolio/projects/ai-knowledge-workspace/screenshots/home-light-desktop.png",
+        "alt": {
+          "zh-TW": "AI Knowledge Workspace Demo 影片",
+          "en": "AI Knowledge Workspace demo walkthrough video"
+        },
+        "title": {
+          "zh-TW": "Demo 影片",
+          "en": "Demo walkthrough"
+        }
+      }
+    ],
     "metadata": {
       "startedAt": "2026-06-15",
       "updatedAt": "2026-06-28",
@@ -1551,7 +1740,7 @@
       "deployment": [],
       "developmentTools": [],
       "roles": [
-        "獨立開發者 / 學習型專案實作者"
+        "Independent Developer"
       ],
       "responsibilities": [],
       "collaborationType": "Solo",
@@ -1578,66 +1767,70 @@
       "dependencies": [],
       "extractionConfidence": 0.9,
       "needsReview": false,
-      "missingFields": [
-        "verified screenshots or demo media"
-      ],
+      "missingFields": [],
       "evidenceSources": [
         "content/projects/ai-knowledge-workspace/project.override.json",
         "content/projects/ai-knowledge-workspace/zh-TW.md",
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.934Z"
+      "lastScannedAt": "2026-06-28T11:41:18.684Z"
     },
     "content": {
       "zh-TW": {
-        "title": "Ai Knowledge Workspace",
-        "summary": "Ai Knowledge Workspace 是一個以 Next.js、React、Tailwind CSS、TypeScript 為主要技術線索的學習型作品。這個頁面根據本機專案掃描、README 摘要與既有 metadata 重新整理，重點放在它練習了什麼功能、資料流程與開發概念。",
-        "description": "Ai Knowledge Workspace 目前定位為 portfolio / learning project。我把它放進作品集時，會以「正在練習與整理中的作品」來呈現，而不是把它描述成已經成熟上線的正式產品。\n\n從掃描資料來看，這個專案的主要技術線索包含 Next.js、React、Tailwind CSS、TypeScript。我會用這些線索說明自己在介面、資料、流程或架構上的練習重點，並保留未來繼續補強文件、截圖與功能說明的空間。\n\n這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。 我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。 這樣的整理方式也符合我目前的作品集方向：把每個 side project 當成一次需求拆解、資料建模、互動流程與技術實作的練習。\n\n後續我會依照實際完成度補上更具體的畫面、操作步驟、限制條件與改進紀錄，讓作品內容更容易被閱讀與檢視。",
-        "tagline": "資料處理、AI、分析或自動化流程練習專案。",
-        "role": "獨立開發者 / 學習型專案實作者",
-        "problem": "這個專案用來練習資料如何被收集、清理、分析、組織或轉換成可閱讀的輸出。",
-        "solution": "我依照掃描到的 README 與技術棧，整理資料來源、處理流程、工具選擇與目前能展示的學習重點。",
-        "outcome": "目前適合作為資料整理、分析、自動化或 AI 應用流程的學習型作品。",
+        "title": "AI Knowledge Workspace",
+        "summary": "AI Knowledge Workspace 是一個 Next.js 作品集 Demo，將分散的研究資料整理成可檢查的工作區，包含文件狀態、帶引用的 AI 回答、RWD 畫面、截圖、Demo 影片與 GitHub Pages 部署。",
+        "description": "AI Knowledge Workspace 是一個小而完整、適合面試展示的 source-grounded research workflow demo。它聚焦在 AI knowledge tool 最容易被檢查的部分：有哪些文件、哪些仍在處理、AI 回答了什麼，以及哪些來源片段支撐答案。\n\n目前實作刻意保持為靜態且可公開的 demo。它使用 typed mock data，而不是後端、資料庫、向量索引或外部 LLM provider。這讓展示結果可重現，同時仍能清楚呈現預期的產品行為與 UI 狀態。\n\n專案現在已部署為 GitHub Pages static export，並包含自動產生的截圖與短版 walkthrough 影片。",
+        "tagline": "用文件狀態、AI 回答與引用來源組成的研究工作區 Demo。",
+        "role": "Independent Developer",
+        "problem": "研究筆記、政策 PDF、試算表與訪談逐字稿常散落在不同工具中。若 AI 摘要沒有來源狀態、引用片段與證據覆蓋率，使用者很難信任結果。",
+        "solution": "我將原本的 starter dashboard 改造成 typed mock product demo。畫面現在由 deterministic mock data 驅動，呈現 workspace health、document pipeline、cited answer preview，以及 loading / empty / error / success 狀態。",
+        "outcome": "專案已具備 GitHub Pages live demo、作品集等級 README、project audit、production screenshots、Demo 影片、static export workflow，以及可放入主作品集的 case-study entry。",
         "features": [],
         "metrics": [],
         "highlights": [
-          "README 顯示：Next.js Documentationhttps://nextjs.or"
+          "Next.js static export 部署到 GitHub Pages project page",
+          "以 typed mock data 表示 documents、citations、chat messages 與 UI states",
+          "具備 desktop、tablet、mobile 的 RWD Demo 截圖",
+          "可重跑的 Playwright capture script 與 MP4 walkthrough"
         ],
         "challenges": [
-          "需要從 README 與原始碼中整理出可信、可展示的專案範圍。",
-          "需要把技術名詞轉換成清楚的功能、資料流與學習成果。",
-          "後續仍需補上更多截圖、測試紀錄或實際操作說明。"
+          "專案起點是 create-next-app starter，README 仍是預設內容。",
+          "第一次截圖揭露 missing root layout runtime issue，這是 build 沒有直接攔下的問題。",
+          "目前尚未包含 upload、vector search、authentication 或 live LLM，因此文件需誠實標示 demo 邊界。"
         ],
         "nextSteps": [
-          "補齊更完整的中英文案例研究與操作截圖。",
-          "確認 GitHub、Demo、文件與素材是否適合公開展示。",
-          "依完成度補強測試、README 與部署或執行說明。"
+          "在 mock API 邊界後加入真正的 upload / parsing flow。",
+          "增加 source filtering 與 evidence review interactions。",
+          "當資料轉換邏輯增加後，再補單元測試。"
         ]
       },
       "en": {
-        "title": "Ai Knowledge Workspace",
-        "summary": "Ai Knowledge Workspace is a learning-focused project with detected technology signals including Next.js, React, Tailwind CSS, TypeScript. This page was rewritten from local scan data, README summaries, and existing metadata, with a focus on what the project practices in features, data flow, and development concepts.",
-        "description": "Ai Knowledge Workspace is currently presented as a portfolio / learning project. I describe it as a project I am practicing and organizing, not as a mature production product.\n\nThe scanned project data points to Next.js, React, Tailwind CSS, TypeScript. I use those signals to explain what I practiced in interfaces, data handling, workflow, or architecture, while leaving room to continue improving documentation, screenshots, and implementation notes.\n\nThis project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output. Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus. This matches my current portfolio direction: treating each side project as practice in requirement breakdown, data modeling, interaction flow, and technical implementation.\n\nNext, I plan to add more concrete screens, usage steps, limitations, and improvement records based on the actual completion level of the project.",
-        "tagline": "A data processing, AI, analysis, or automation workflow practice project.",
-        "role": "Independent Developer / Learning Project Builder",
-        "problem": "This project is used to practice how data can be collected, cleaned, analyzed, organized, or transformed into readable output.",
-        "solution": "Based on the scanned README and tech stack, I summarized the data flow, tool choices, and current learning focus.",
-        "outcome": "It currently works best as a learning-focused data organization, analysis, automation, or AI workflow project.",
+        "title": "AI Knowledge Workspace",
+        "summary": "AI Knowledge Workspace is a portfolio-ready Next.js demo that turns scattered research material into a reviewable workspace with document states, cited AI answers, responsive layouts, screenshots, and a GitHub Pages deployment.",
+        "description": "AI Knowledge Workspace is a compact, interview-friendly demo for a source-grounded research workflow. It focuses on the part of AI knowledge tools that is easiest to evaluate visually: what documents are available, which ones are still processing, what answer the assistant produced, and which source snippets support that answer.\n\nThe current implementation is intentionally static and safe to publish. It uses typed mock data instead of a backend, database, vector index, or external LLM provider. That keeps the demo reproducible while still showing the intended product behavior and UI states.\n\nThe project is now deployed as a GitHub Pages static export and includes generated screenshots plus a short walkthrough video.",
+        "tagline": "A source-grounded research dashboard for reviewing documents, AI answers, and citations.",
+        "role": "Independent Developer",
+        "problem": "Research notes, policy PDFs, spreadsheets, and interview transcripts often live in separate tools. AI summaries are difficult to trust unless the user can inspect source status, source snippets, and citation coverage.",
+        "solution": "I rebuilt the starter dashboard into a typed mock product demo. The app now renders workspace health metrics, document pipeline states, a cited answer preview, and loading/empty/error/success examples from deterministic mock data.",
+        "outcome": "The project now has a live GitHub Pages demo, portfolio-grade README, project audit, production screenshots, demo video, static export workflow, lint/typecheck/build verification, and a deployable case-study entry.",
         "features": [],
         "metrics": [],
         "highlights": [
-          "README signal: Next.js Documentationhttps://nextjs.or"
+          "Live GitHub Pages demo with Next.js static export and project-page base path",
+          "Typed mock workspace data for documents, citations, chat messages, and UI states",
+          "Responsive dashboard with desktop, tablet, and mobile screenshots",
+          "Repeatable Playwright capture script and MP4 walkthrough"
         ],
         "challenges": [
-          "The project scope needs to be summarized from README content and source evidence in a credible way.",
-          "Technical terms need to be translated into clear features, data flow, and learning outcomes.",
-          "More screenshots, test notes, or operation details can still improve the case study."
+          "The project began as a thin create-next-app starter with default README content.",
+          "The first capture exposed a missing root layout runtime issue that build alone did not surface.",
+          "The demo needed honest wording because it does not yet include upload, vector search, authentication, or live LLM calls."
         ],
         "nextSteps": [
-          "Complete a more detailed bilingual case study and add operation screenshots.",
-          "Verify which GitHub, demo, documentation, and media assets should be public.",
-          "Improve tests, README details, and deployment or run instructions based on actual completion level."
+          "Add a real upload and parsing flow behind a mock API boundary.",
+          "Add source filtering and evidence review interactions.",
+          "Introduce unit tests when data transformation logic moves beyond static mock data."
         ]
       }
     }
@@ -1817,7 +2010,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.935Z"
+      "lastScannedAt": "2026-06-28T11:41:18.685Z"
     },
     "content": {
       "zh-TW": {
@@ -2062,7 +2255,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.935Z"
+      "lastScannedAt": "2026-06-28T11:41:18.685Z"
     },
     "content": {
       "zh-TW": {
@@ -2319,7 +2512,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.936Z"
+      "lastScannedAt": "2026-06-28T11:41:18.686Z"
     },
     "content": {
       "zh-TW": {
@@ -2513,7 +2706,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.936Z"
+      "lastScannedAt": "2026-06-28T11:41:18.686Z"
     },
     "content": {
       "zh-TW": {
@@ -2791,7 +2984,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.936Z"
+      "lastScannedAt": "2026-06-28T11:41:18.686Z"
     },
     "content": {
       "zh-TW": {
@@ -3057,7 +3250,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.937Z"
+      "lastScannedAt": "2026-06-28T11:41:18.687Z"
     },
     "content": {
       "zh-TW": {
@@ -3223,7 +3416,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.937Z"
+      "lastScannedAt": "2026-06-28T11:41:18.687Z"
     },
     "content": {
       "zh-TW": {
@@ -3473,7 +3666,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.937Z"
+      "lastScannedAt": "2026-06-28T11:41:18.687Z"
     },
     "content": {
       "zh-TW": {
@@ -3689,7 +3882,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.937Z"
+      "lastScannedAt": "2026-06-28T11:41:18.687Z"
     },
     "content": {
       "zh-TW": {
@@ -3958,7 +4151,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.937Z"
+      "lastScannedAt": "2026-06-28T11:41:18.687Z"
     },
     "content": {
       "zh-TW": {
@@ -4202,7 +4395,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.937Z"
+      "lastScannedAt": "2026-06-28T11:41:18.688Z"
     },
     "content": {
       "zh-TW": {
@@ -4435,7 +4628,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.937Z"
+      "lastScannedAt": "2026-06-28T11:41:18.688Z"
     },
     "content": {
       "zh-TW": {
@@ -4654,7 +4847,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.938Z"
+      "lastScannedAt": "2026-06-28T11:41:18.688Z"
     },
     "content": {
       "zh-TW": {
@@ -4829,7 +5022,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.938Z"
+      "lastScannedAt": "2026-06-28T11:41:18.688Z"
     },
     "content": {
       "zh-TW": {
@@ -5087,7 +5280,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.938Z"
+      "lastScannedAt": "2026-06-28T11:41:18.688Z"
     },
     "content": {
       "zh-TW": {
@@ -5262,7 +5455,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.938Z"
+      "lastScannedAt": "2026-06-28T11:41:18.688Z"
     },
     "content": {
       "zh-TW": {
@@ -5451,7 +5644,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.938Z"
+      "lastScannedAt": "2026-06-28T11:41:18.688Z"
     },
     "content": {
       "zh-TW": {
@@ -5609,7 +5802,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.938Z"
+      "lastScannedAt": "2026-06-28T11:41:18.689Z"
     },
     "content": {
       "zh-TW": {
@@ -5768,7 +5961,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.938Z"
+      "lastScannedAt": "2026-06-28T11:41:18.689Z"
     },
     "content": {
       "zh-TW": {
@@ -6004,7 +6197,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.938Z"
+      "lastScannedAt": "2026-06-28T11:41:18.689Z"
     },
     "content": {
       "zh-TW": {
@@ -6177,7 +6370,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.938Z"
+      "lastScannedAt": "2026-06-28T11:41:18.689Z"
     },
     "content": {
       "zh-TW": {
@@ -6576,7 +6769,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.939Z"
+      "lastScannedAt": "2026-06-28T11:41:18.689Z"
     },
     "content": {
       "zh-TW": {
@@ -6994,7 +7187,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.939Z"
+      "lastScannedAt": "2026-06-28T11:41:18.689Z"
     },
     "content": {
       "zh-TW": {
@@ -7178,7 +7371,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.939Z"
+      "lastScannedAt": "2026-06-28T11:41:18.689Z"
     },
     "content": {
       "zh-TW": {
@@ -7350,7 +7543,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.939Z"
+      "lastScannedAt": "2026-06-28T11:41:18.690Z"
     },
     "content": {
       "zh-TW": {
@@ -7606,7 +7799,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.940Z"
+      "lastScannedAt": "2026-06-28T11:41:18.690Z"
     },
     "content": {
       "zh-TW": {
@@ -7819,7 +8012,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.940Z"
+      "lastScannedAt": "2026-06-28T11:41:18.691Z"
     },
     "content": {
       "zh-TW": {
@@ -8060,7 +8253,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.940Z"
+      "lastScannedAt": "2026-06-28T11:41:18.691Z"
     },
     "content": {
       "zh-TW": {
@@ -8271,7 +8464,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.940Z"
+      "lastScannedAt": "2026-06-28T11:41:18.691Z"
     },
     "content": {
       "zh-TW": {
@@ -8463,7 +8656,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.941Z"
+      "lastScannedAt": "2026-06-28T11:41:18.691Z"
     },
     "content": {
       "zh-TW": {
@@ -8692,7 +8885,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.941Z"
+      "lastScannedAt": "2026-06-28T11:41:18.691Z"
     },
     "content": {
       "zh-TW": {
@@ -8898,7 +9091,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.941Z"
+      "lastScannedAt": "2026-06-28T11:41:18.691Z"
     },
     "content": {
       "zh-TW": {
@@ -9689,7 +9882,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.941Z"
+      "lastScannedAt": "2026-06-28T11:41:18.691Z"
     },
     "content": {
       "zh-TW": {
@@ -9941,7 +10134,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.941Z"
+      "lastScannedAt": "2026-06-28T11:41:18.692Z"
     },
     "content": {
       "zh-TW": {
@@ -10193,7 +10386,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.941Z"
+      "lastScannedAt": "2026-06-28T11:41:18.692Z"
     },
     "content": {
       "zh-TW": {
@@ -10429,7 +10622,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.941Z"
+      "lastScannedAt": "2026-06-28T11:41:18.692Z"
     },
     "content": {
       "zh-TW": {
@@ -10767,7 +10960,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.942Z"
+      "lastScannedAt": "2026-06-28T11:41:18.692Z"
     },
     "content": {
       "zh-TW": {
@@ -11007,7 +11200,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.942Z"
+      "lastScannedAt": "2026-06-28T11:41:18.692Z"
     },
     "content": {
       "zh-TW": {
@@ -11175,7 +11368,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.942Z"
+      "lastScannedAt": "2026-06-28T11:41:18.693Z"
     },
     "content": {
       "zh-TW": {
@@ -11335,7 +11528,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.942Z"
+      "lastScannedAt": "2026-06-28T11:41:18.693Z"
     },
     "content": {
       "zh-TW": {
@@ -11556,7 +11749,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.942Z"
+      "lastScannedAt": "2026-06-28T11:41:18.693Z"
     },
     "content": {
       "zh-TW": {
@@ -12014,7 +12207,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.942Z"
+      "lastScannedAt": "2026-06-28T11:41:18.693Z"
     },
     "content": {
       "zh-TW": {
@@ -12221,7 +12414,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.942Z"
+      "lastScannedAt": "2026-06-28T11:41:18.693Z"
     },
     "content": {
       "zh-TW": {
@@ -12454,7 +12647,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.942Z"
+      "lastScannedAt": "2026-06-28T11:41:18.693Z"
     },
     "content": {
       "zh-TW": {
@@ -12629,7 +12822,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.943Z"
+      "lastScannedAt": "2026-06-28T11:41:18.693Z"
     },
     "content": {
       "zh-TW": {
@@ -12873,7 +13066,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.943Z"
+      "lastScannedAt": "2026-06-28T11:41:18.693Z"
     },
     "content": {
       "zh-TW": {
@@ -13128,7 +13321,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.943Z"
+      "lastScannedAt": "2026-06-28T11:41:18.694Z"
     },
     "content": {
       "zh-TW": {
@@ -14006,7 +14199,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.943Z"
+      "lastScannedAt": "2026-06-28T11:41:18.694Z"
     },
     "content": {
       "zh-TW": {
@@ -14162,7 +14355,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.943Z"
+      "lastScannedAt": "2026-06-28T11:41:18.694Z"
     },
     "content": {
       "zh-TW": {
@@ -14588,7 +14781,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.943Z"
+      "lastScannedAt": "2026-06-28T11:41:18.694Z"
     },
     "content": {
       "zh-TW": {
@@ -14864,7 +15057,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.944Z"
+      "lastScannedAt": "2026-06-28T11:41:18.694Z"
     },
     "content": {
       "zh-TW": {
@@ -15229,7 +15422,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.944Z"
+      "lastScannedAt": "2026-06-28T11:41:18.695Z"
     },
     "content": {
       "zh-TW": {
@@ -15469,7 +15662,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.944Z"
+      "lastScannedAt": "2026-06-28T11:41:18.695Z"
     },
     "content": {
       "zh-TW": {
@@ -15630,7 +15823,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.944Z"
+      "lastScannedAt": "2026-06-28T11:41:18.695Z"
     },
     "content": {
       "zh-TW": {
@@ -15808,7 +16001,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.944Z"
+      "lastScannedAt": "2026-06-28T11:41:18.695Z"
     },
     "content": {
       "zh-TW": {
@@ -16049,7 +16242,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.944Z"
+      "lastScannedAt": "2026-06-28T11:41:18.695Z"
     },
     "content": {
       "zh-TW": {
@@ -16232,7 +16425,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.944Z"
+      "lastScannedAt": "2026-06-28T11:41:18.695Z"
     },
     "content": {
       "zh-TW": {
@@ -16488,7 +16681,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.945Z"
+      "lastScannedAt": "2026-06-28T11:41:18.695Z"
     },
     "content": {
       "zh-TW": {
@@ -16680,7 +16873,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.945Z"
+      "lastScannedAt": "2026-06-28T11:41:18.696Z"
     },
     "content": {
       "zh-TW": {
@@ -16851,7 +17044,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.945Z"
+      "lastScannedAt": "2026-06-28T11:41:18.696Z"
     },
     "content": {
       "zh-TW": {
@@ -17090,7 +17283,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.945Z"
+      "lastScannedAt": "2026-06-28T11:41:18.696Z"
     },
     "content": {
       "zh-TW": {
@@ -17275,7 +17468,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.945Z"
+      "lastScannedAt": "2026-06-28T11:41:18.696Z"
     },
     "content": {
       "zh-TW": {
@@ -17536,7 +17729,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.945Z"
+      "lastScannedAt": "2026-06-28T11:41:18.696Z"
     },
     "content": {
       "zh-TW": {
@@ -17808,7 +18001,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.945Z"
+      "lastScannedAt": "2026-06-28T11:41:18.696Z"
     },
     "content": {
       "zh-TW": {
@@ -18075,7 +18268,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.945Z"
+      "lastScannedAt": "2026-06-28T11:41:18.696Z"
     },
     "content": {
       "zh-TW": {
@@ -18487,7 +18680,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.946Z"
+      "lastScannedAt": "2026-06-28T11:41:18.697Z"
     },
     "content": {
       "zh-TW": {
@@ -18669,7 +18862,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.946Z"
+      "lastScannedAt": "2026-06-28T11:41:18.697Z"
     },
     "content": {
       "zh-TW": {
@@ -18906,7 +19099,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.946Z"
+      "lastScannedAt": "2026-06-28T11:41:18.697Z"
     },
     "content": {
       "zh-TW": {
@@ -19100,7 +19293,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.946Z"
+      "lastScannedAt": "2026-06-28T11:41:18.697Z"
     },
     "content": {
       "zh-TW": {
@@ -19260,7 +19453,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.946Z"
+      "lastScannedAt": "2026-06-28T11:41:18.697Z"
     },
     "content": {
       "zh-TW": {
@@ -19509,7 +19702,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.946Z"
+      "lastScannedAt": "2026-06-28T11:41:18.697Z"
     },
     "content": {
       "zh-TW": {
@@ -19706,7 +19899,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.946Z"
+      "lastScannedAt": "2026-06-28T11:41:18.697Z"
     },
     "content": {
       "zh-TW": {
@@ -19879,7 +20072,7 @@
         "content/projects/sonic-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.947Z"
+      "lastScannedAt": "2026-06-28T11:41:18.698Z"
     },
     "content": {
       "zh-TW": {
@@ -20128,7 +20321,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.947Z"
+      "lastScannedAt": "2026-06-28T11:41:18.698Z"
     },
     "content": {
       "zh-TW": {
@@ -20382,7 +20575,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.947Z"
+      "lastScannedAt": "2026-06-28T11:41:18.698Z"
     },
     "content": {
       "zh-TW": {
@@ -20577,7 +20770,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.947Z"
+      "lastScannedAt": "2026-06-28T11:41:18.698Z"
     },
     "content": {
       "zh-TW": {
@@ -20733,7 +20926,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.947Z"
+      "lastScannedAt": "2026-06-28T11:41:18.698Z"
     },
     "content": {
       "zh-TW": {
@@ -20897,7 +21090,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.947Z"
+      "lastScannedAt": "2026-06-28T11:41:18.699Z"
     },
     "content": {
       "zh-TW": {
@@ -21057,7 +21250,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.948Z"
+      "lastScannedAt": "2026-06-28T11:41:18.699Z"
     },
     "content": {
       "zh-TW": {
@@ -21302,7 +21495,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.948Z"
+      "lastScannedAt": "2026-06-28T11:41:18.699Z"
     },
     "content": {
       "zh-TW": {
@@ -21557,7 +21750,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.948Z"
+      "lastScannedAt": "2026-06-28T11:41:18.699Z"
     },
     "content": {
       "zh-TW": {
@@ -21787,7 +21980,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.948Z"
+      "lastScannedAt": "2026-06-28T11:41:18.700Z"
     },
     "content": {
       "zh-TW": {
@@ -22030,7 +22223,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.948Z"
+      "lastScannedAt": "2026-06-28T11:41:18.700Z"
     },
     "content": {
       "zh-TW": {
@@ -22263,7 +22456,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.948Z"
+      "lastScannedAt": "2026-06-28T11:41:18.700Z"
     },
     "content": {
       "zh-TW": {
@@ -22505,7 +22698,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.948Z"
+      "lastScannedAt": "2026-06-28T11:41:18.700Z"
     },
     "content": {
       "zh-TW": {
@@ -22761,7 +22954,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.949Z"
+      "lastScannedAt": "2026-06-28T11:41:18.700Z"
     },
     "content": {
       "zh-TW": {
@@ -23017,7 +23210,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:43:20.949Z"
+      "lastScannedAt": "2026-06-28T11:41:18.700Z"
     },
     "content": {
       "zh-TW": {

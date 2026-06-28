@@ -1,8 +1,8 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
     "Python",
@@ -14,7 +14,9 @@
     "BLIP2",
     "Segment Anything",
     "ControlNet",
-    "ComfyUI"
+    "ComfyUI",
+    "Playwright",
+    "Docker"
   ],
   "coverImage": "/portfolio/projects/3d-animation-lora-pipeline/cover.webp",
   "links": [
@@ -22,10 +24,18 @@
       "kind": "live",
       "url": "https://justin21523.github.io/3d-animation-lora-pipeline/",
       "label": {
-        "zh-TW": "互動 Demo",
-        "en": "Interactive Demo"
+        "zh-TW": "互動 Demo 網站",
+        "en": "Interactive Demo Site"
       },
       "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "/portfolio/projects/3d-animation-lora-pipeline/demo/demo-walkthrough.mp4",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
     },
     {
       "kind": "github",
@@ -44,22 +54,131 @@
       }
     }
   ],
+  "media": [
+    {
+      "id": "demo-walkthrough",
+      "type": "video",
+      "src": "/portfolio/projects/3d-animation-lora-pipeline/demo/demo-walkthrough.mp4",
+      "poster": "/portfolio/projects/3d-animation-lora-pipeline/cover.webp",
+      "alt": {
+        "zh-TW": "3D Animation LoRA Pipeline 的匿名資料管線 demo 錄影。",
+        "en": "An anonymized demo recording of the 3D Animation LoRA Pipeline."
+      },
+      "title": {
+        "zh-TW": "Demo 操作錄影",
+        "en": "Demo Walkthrough Recording"
+      },
+      "caption": {
+        "zh-TW": "展示面試官可快速觀看的 portfolio demo：管線成果、階段狀態、匿名 sample outputs 與媒體展示。",
+        "en": "Shows the portfolio demo flow for reviewers: pipeline outputs, stage status, anonymized sample outputs, and media assets."
+      },
+      "featured": true
+    },
+    {
+      "id": "demo-home-desktop",
+      "type": "image",
+      "src": "/portfolio/projects/3d-animation-lora-pipeline/screenshots/01-demo-home-desktop.png",
+      "alt": {
+        "zh-TW": "3D Animation LoRA Pipeline demo 首頁與總覽畫面。",
+        "en": "The 3D Animation LoRA Pipeline demo home and overview screen."
+      },
+      "title": {
+        "zh-TW": "Demo 首頁總覽",
+        "en": "Demo Home Overview"
+      },
+      "caption": {
+        "zh-TW": "以匿名資料與可展示指標呈現專案價值、技術堆疊與操作入口。",
+        "en": "Presents project value, stack, and entry points through anonymized demo data and showcase metrics."
+      }
+    },
+    {
+      "id": "demo-results-desktop",
+      "type": "image",
+      "src": "/portfolio/projects/3d-animation-lora-pipeline/screenshots/02-demo-results-desktop.png",
+      "alt": {
+        "zh-TW": "匿名 demo results 區塊，包含資料集、訓練與評估結果卡片。",
+        "en": "The anonymized demo results section with dataset, training, and evaluation result cards."
+      },
+      "title": {
+        "zh-TW": "產品化成果展示",
+        "en": "Product-Style Result Showcase"
+      },
+      "caption": {
+        "zh-TW": "用可截圖的方式呈現 sample data、training metrics、evaluation matrix 與 animation strip。",
+        "en": "Makes sample data, training metrics, evaluation matrix, and animation strip visible in a screenshot-ready layout."
+      }
+    },
+    {
+      "id": "demo-mobile",
+      "type": "image",
+      "src": "/portfolio/projects/3d-animation-lora-pipeline/screenshots/03-demo-home-mobile.png",
+      "alt": {
+        "zh-TW": "3D Animation LoRA Pipeline demo 的行動版畫面。",
+        "en": "The mobile view of the 3D Animation LoRA Pipeline demo."
+      },
+      "title": {
+        "zh-TW": "響應式行動版",
+        "en": "Responsive Mobile View"
+      }
+    }
+  ],
   "metadata": {
-    "projectType": "AI training pipeline / CLI toolkit",
+    "startedAt": "2026-06-01",
+    "updatedAt": "2026-06-28",
+    "completedAt": "2026-06-28",
+    "duration": "Pipeline audit, anonymous demo layer, portfolio media packaging",
+    "teamSize": 1,
+    "version": "1.0.0-demo",
+    "catalogNumber": "PF-2026-AI-3D-LORA",
+    "projectType": "AI training pipeline / portfolio demo platform",
     "domains": [
-      "generative-ai",
-      "computer-vision",
-      "diffusion-models",
-      "dataset-engineering"
+      "Generative AI",
+      "Computer Vision",
+      "Dataset Engineering",
+      "Diffusion Model Tooling"
+    ],
+    "keywords": [
+      "LoRA",
+      "Stable Diffusion XL",
+      "3D animation",
+      "character consistency",
+      "BLIP2 captioning",
+      "SAM segmentation",
+      "pose estimation",
+      "ComfyUI",
+      "dataset pipeline",
+      "portfolio demo"
+    ],
+    "audiences": [
+      "Interviewers",
+      "AI tooling reviewers",
+      "Computer vision reviewers",
+      "Portfolio visitors"
+    ],
+    "contentTypes": [
+      "Pipeline dashboard",
+      "Static demo site",
+      "Screenshot gallery",
+      "Demo recording",
+      "Technical case study"
+    ],
+    "dataTypes": [
+      "Video frames",
+      "Segmentation masks",
+      "Pose conditioning data",
+      "Embedding metadata",
+      "Training manifests",
+      "Evaluation snapshots"
     ],
     "capabilities": [
       "video frame extraction with scene detection",
       "multi-layer character segmentation",
-      "CLIP + HDBSCAN character clustering",
+      "CLIP + HDBSCAN identity clustering",
       "automatic caption generation",
       "LoRA / ControlNet / AnimateDiff training",
       "CPU-parallel pose data preparation",
-      "LoRA quality evaluation"
+      "LoRA quality evaluation",
+      "anonymous portfolio demo packaging"
     ],
     "frameworks": [
       "PyTorch",
@@ -81,18 +200,13 @@
       "scenedetect",
       "PyAV",
       "decord",
-      "bitsandbytes",
-      "lion-pytorch",
-      "prodigyopt",
       "lpips",
       "pytorch-fid",
-      "basicsr",
-      "gfpgan",
       "omegaconf"
     ],
     "backend": [
       "Python 3.10+",
-      "CUDA"
+      "CUDA-ready CLI tooling"
     ],
     "threeD": [
       "3D animated character LoRA",
@@ -101,19 +215,37 @@
       "RIFE frame interpolation"
     ],
     "platforms": [
-      "CLI"
+      "CLI",
+      "Static web demo",
+      "GitHub Pages",
+      "Docker"
     ],
-    "keywords": [
-      "LoRA",
-      "Stable Diffusion XL",
-      "3D animation",
-      "Pixar style",
-      "character consistency",
-      "BLIP2 captioning",
-      "SAM segmentation",
-      "pose estimation",
-      "ComfyUI",
-      "dataset pipeline"
+    "roles": [
+      "Solo developer",
+      "Pipeline architect",
+      "Demo designer",
+      "Technical writer"
+    ],
+    "responsibilities": [
+      "Designed the staged pipeline architecture",
+      "Built the CPU-safe demo path and static showcase",
+      "Packaged screenshots, recording, README, and deployment notes",
+      "Added demo-safe tests for manifest and media assets"
+    ],
+    "tools": [
+      "pytest",
+      "Docker",
+      "GitHub Pages",
+      "Chromium",
+      "FFmpeg"
+    ],
+    "hasUnitTests": true,
+    "hasIntegrationTests": true,
+    "hasE2ETests": false,
+    "responsive": true,
+    "deployment": [
+      "GitHub Pages",
+      "Nginx Docker image"
     ],
     "needsReview": false
   }
