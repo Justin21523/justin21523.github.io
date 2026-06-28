@@ -30,8 +30,8 @@
       "kind": "live",
       "url": "https://justin21523.github.io/elio-discord-bot/",
       "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
+        "en": "Live Demo",
+        "zh-TW": "Live Demo"
       },
       "primary": true
     }

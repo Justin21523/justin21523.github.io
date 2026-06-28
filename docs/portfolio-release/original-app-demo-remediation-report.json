@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-06-28T22:09:55.838Z",
+  "dryRun": false,
+  "total": 1,
+  "deployedOriginalApps": 0,
+  "caseStudyFallbacks": 1,
+  "implementedWebApps": 0,
+  "failed": 0,
+  "results": [
+    {
+      "slug": "nyc-taxi-mobility-analytics",
+      "title": "NYC Taxi Mobility Analytics Platform",
+      "repo": "nyc-taxi-mobility-analytics",
+            "candidate": {
+                "rel": ".",
+        "kind": "next",
+        "score": 128,
+        "hasPackage": true,
+        "hasDev": true,
+        "hasBuild": true,
+        "dev": "npm run data:ensure && next dev",
+        "build": "next build",
+        "packageName": "nyc-taxi-mobility-analytics"
+      },
+      "status": "case-study-fallback",
+      "reason": "build failed: > nyc-taxi-mobility-analytics@1.0.0 build\n> next build\n\n▲ Next.js 16.2.9 (Turbopack)\n\n  Creating an optimized production build ...\n✓ Compiled successfully in 8.5s\n  Running TypeScript ...\n  Finished TypeScript in 2.3s ...\n  Collecting page data using 31 workers ...\n\n\n> Build error occurred\nError: Page \"/api/uploads/[datasetId]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.\n    at ignore-listed frames\n\nCommand failed: npm run build\n\n> Build error occurred\nError: Page \"/api/uploads/[datasetId]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.\n    at ignore-listed frames; live link moved back to portfolio case study",
+      "cleanup": "no-demo-app-found"
+    }
+  ]
+}

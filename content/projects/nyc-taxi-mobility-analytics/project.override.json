@@ -40,8 +40,8 @@
       "kind": "live",
       "url": "https://justin21523.github.io/nyc-taxi-mobility-analytics/",
       "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
+        "en": "Live Demo",
+        "zh-TW": "Live Demo"
       },
       "primary": true
     }

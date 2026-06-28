@@ -18,6 +18,7 @@
     "validate:project-demos": "tsx scripts/validate-project-demos.ts",
     "deploy:project-demos": "tsx scripts/portfolio-release/deploy-project-demos.ts",
     "deploy:real-app-demos": "tsx scripts/portfolio-release/deploy-real-web-app-demos.ts",
+    "remediate:original-app-demos": "tsx scripts/portfolio-release/remediate-original-app-demos.ts",
     "deploy:static-project-demos": "tsx scripts/portfolio-release/deploy-static-project-demos.ts",
     "validate:static-demos": "tsx scripts/validate-static-demos.ts",
     "deploy": "bash scripts/deploy.sh",
