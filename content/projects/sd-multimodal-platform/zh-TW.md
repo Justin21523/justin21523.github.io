@@ -1,33 +1,29 @@
 ---
-title: "SD 多模態生成平台"
-tagline: "文生圖到多模態理解的一站式 Stable Diffusion 推理後端"
-summary: "以 FastAPI 為核心打造的 Stable Diffusion 多模態平台，整合文生圖、圖生圖、區域修補與放大／面部修復後處理，並串接 BLIP-2 影像描述與 LLaVA 視覺問答。後端採模組化路由與懶載入模型管理，搭配 Redis + Celery 非同步佇列；前端以 React + TypeScript 提供操作介面，全程遵循嚴謹的模型／快取／產出儲存規範。"
-role: "全端與 ML 平台開發者：負責後端 API、模型推理服務、非同步佇列、前端介面與容器化部署的整體設計與實作。"
-problem: "個別的 Stable Diffusion 工具往往各自為政——文生圖、圖生圖、修補、放大、影像理解分散在不同腳本或 WebUI 中，缺乏統一 API、任務佇列與模型管理，也難以在有限 GPU 記憶體下穩定切換多個模型，更不利於容器化部署與測試。"
-solution: "建立以 FastAPI 為核心的單一後端，將各能力拆成獨立 v1 路由（txt2img / img2img / inpaint / upscale / face_restore / caption / vqa / queue / models / history / assets / health）。透過 services 層的模型註冊表與懶載入快取統一管理 SD 1.5、SDXL、ControlNet、BLIP-2、LLaVA 等模型；長任務交由 Redis + Celery 的 generation／postprocess 佇列處理。後端設計成即使缺少 Redis 或模型權重仍能開機（回傳 503 而非崩潰），前端則以 React + TypeScript（Vite）提供含遮罩編輯器的操作介面。"
-outcome: "完成可運行的原型：涵蓋多種生成與後處理能力的統一 REST API、可降級啟動的非同步佇列、模型自動選擇與快取，以及 React 前端。專案附帶 pytest 測試套件（覆蓋率門檻 80%）、Docker Compose（含 GPU profile）與 K8s 部署設定，並嚴格落實「模型／快取置於 /mnt/c、產出置於 /mnt/data」的儲存規範與 .env 密鑰隔離。"
+title: "SD Multi-Modal Platform：可展示的 Stable Diffusion 多模態平台"
+tagline: "把文生圖、圖生圖、inpaint、後處理、queue、assets 與 history 收斂成面試官能直接操作的產品 demo"
+summary: "SD Multi-Modal Platform 是一個以 FastAPI + React 為核心的生成式 AI 平台 demo。整理後的版本不只保留 Stable Diffusion / SDXL / ControlNet / postprocess 的 full-mode 架構，也新增 mock-safe demo mode，讓公開 GitHub Pages、截圖、錄影與本機 smoke test 在沒有 GPU、模型權重、Redis 或外部服務時仍能穩定展示。"
+role: "獨立開發者（全端平台設計、API 實作、React 工作台、mock-safe demo engineering、README/架構文件、部署與 portfolio 整合）"
+problem: "Stable Diffusion 專案常常卡在「只能在我的本機 GPU 跑」：需要模型權重、CUDA、Redis、Celery、後處理模型與大量環境變數，面試官很難在短時間內看懂系統價值。原專案已有不少 API 與服務模組，但缺少可公開展示、可截圖、可錄影、可 smoke test 的穩定入口。"
+solution: "我把專案整理成雙模式：full mode 保留 ModelRegistry、Diffusers pipeline、Redis/Celery queue、assets/history 與 postprocess 服務；mock-safe mode 則在同一組 FastAPI 路由下用 deterministic PIL renderer 產生代表性結果，不需要大型模型或 GPU。前端 React workbench 可連 mock API，本 repo 也提供 GitHub Pages 靜態 demo、Playwright 截圖/錄影腳本、完整 README Mermaid 架構圖與面試 runbook。"
+outcome: "目前公開展示鏈路已可用：GitHub Pages 第一屏直接展示產品工作台，portfolio 頁包含 cover、screenshots 與 WebM demo 影片；本機可用 MOCK_GENERATION=true 啟動 FastAPI，並用 smoke script 驗證 health、models、txt2img、img2img 與 queue graceful degradation。React typecheck/build 也已修復為可重現流程。"
 highlights:
-  - "模組化 FastAPI v1 API，將 txt2img／img2img／inpaint／upscale／face_restore／caption／vqa 等能力統一收斂於同一後端"
-  - "多模型管理：以模型註冊表與懶載入快取在 SD 1.5、SDXL、ControlNet、BLIP-2、LLaVA、Qwen2 等之間切換"
-  - "Redis + Celery 非同步佇列（generation／postprocess），長任務不阻塞 API"
-  - "可降級設計：缺少 Redis、ControlNet 或模型權重時仍可開機，相關端點優雅回傳 503"
-  - "React + TypeScript 前端，內建遮罩編輯器、狀態輪詢與歷史紀錄瀏覽"
-  - "完整工程化：pytest 標記與 80% 覆蓋率門檻、auth／rate-limit／logging 中介層、Docker Compose 與 K8s 設定"
+  - "第一屏直接展示產品本體：prompt panel、generated result、queue monitor、assets/history，而不是純 landing page"
+  - "Mock-safe demo mode：沒有 GPU、模型權重、Redis 或外部服務也能跑核心 API flow"
+  - "FastAPI v1 routers：generation、postprocess、assets、history、models、queue、health 都有清楚邊界"
+  - "React + TypeScript workbench：prompt presets、mask workflow、queue monitor、assets/history 操作集中在同一介面"
+  - "Graceful degradation：optional dependencies 缺席時服務可啟動，相關功能回傳明確狀態"
+  - "README 視覺化：用 Mermaid 補齊產品流程、架構、資料流、queue lifecycle、部署與模組圖"
 challenges:
-  - "在有限 GPU 記憶體下協調多個重量級模型的載入與卸載，需要懶載入、快取與裝置／精度（float16）策略以避免 OOM"
-  - "為支援 RTX 5080（sm_120）必須採用 PyTorch Nightly（CUDA 12.8），同時維持與 diffusers／xformers 的相容性"
-  - "讓後端在可選元件（Redis／Celery／ControlNet／模型權重）缺席時仍可開機並回傳明確錯誤，而非整體崩潰"
+  - "把原本依賴 GPU/model weights 的 AI 專案轉成公開可展示 demo，同時不誇大 mock output 是真模型結果"
+  - "處理 optional ML 套件 import-time failure，避免 GFPGAN/basicsr 類依賴阻止整個 FastAPI app 啟動"
+  - "在主 portfolio repo 已有大量不相關髒檔的情況下，只提交本專案 slug 的 content 與 media"
 nextSteps:
-  - "依存檔規劃，將獨特模組（放大、面部修復、佇列管理、K8s／Gradio／桌面端）遷移併入後續主力專案"
-  - "強化多模態聊天與 VQA 路由的串接，整合 Qwen2 與 BGE-m3 嵌入以支援檢索式互動"
-  - "補強整合測試與 GPU 環境的端到端壓力測試，並完善前端錯誤回饋與任務進度視覺化"
+  - "把 live backend 部署到 Render/Railway/Fly.io 類平台，提供可互動的遠端 API demo"
+  - "補更多真模型輸出案例，讓 portfolio 除 mock-safe flow 外也能展示實際 SDXL output"
+  - "針對 Redis/Celery full queue 和 GPU model switching 補端到端壓力測試"
 ---
-SD 多模態生成平台是一個以 **FastAPI** 為核心、整合多種影像生成與理解能力的 Stable Diffusion 推理後端原型。它把原本分散在各種腳本與 WebUI 的功能——文生圖、圖生圖、區域修補、放大、面部修復、影像描述與視覺問答——收斂到單一、模組化的 REST API 之中。
+這個專案現在的重點不是單純展示「我能呼叫 Stable Diffusion」，而是展示我能把一組本地 AI 推理能力包裝成可理解、可測試、可部署、可維護的產品型平台。
 
-架構分為三層協作：**前端**以 React + TypeScript（Vite）呈現操作介面，內含遮罩編輯器與任務狀態輪詢；**API 層**由 FastAPI 提供 `/api/v1` 下的獨立路由，並套用 auth、rate-limit、logging、CORS 與 gzip 中介層；**推理層**位於 `services/`，以模型註冊表與懶載入快取管理 SD 1.5／SDXL（diffusers）、ControlNet，以及 BLIP-2 描述、LLaVA 視覺問答等 transformers 模型。長時間任務透過 **Redis + Celery** 的 generation／postprocess 佇列非同步處理，避免阻塞 API。
+公開 demo 採用 mock-safe 模式，因為面試展示最重要的是穩定與可重現：面試官打開頁面就能看到 prompt 工作台、生成結果、queue 狀態、assets/history 與架構說明；本機則可以啟動 FastAPI mock backend，直接跑 smoke test 驗證 API contract。
 
-工程取捨上特別強調**韌性與可重現性**：即使缺少 Redis、ControlNet 或尚未下載模型權重，後端仍可正常開機，相關端點以 503 明確回報而非崩潰；模型、快取與產出路徑透過環境變數集中管理（模型／快取於 `/mnt/c`、產出於 `/mnt/data`），密鑰一律以 `.env` 隔離且不入庫。
-
-專案具備完整工程化配套：**pytest** 測試套件搭配 unit／integration／api 等標記與 80% 覆蓋率門檻、**Docker Compose**（含 GPU profile）與 **Kubernetes** 部署設定。為支援 RTX 5080（sm_120），環境採用 PyTorch Nightly（CUDA 12.8）。
-
-此平台目前定位為原型；依其存檔說明，放大、面部修復、佇列管理與部署等獨特模組將被後續主力專案吸收。
+Full mode 仍保留通往真模型的架構：ModelManager 管理 SDXL/SD 1.5/SD 2.1，postprocess layer 對應 Real-ESRGAN/GFPGAN/CodeFormer，Redis/Celery 負責長任務 queue。README 明確標示模型、快取、outputs、assets、logs 的儲存位置，避免大型檔案和本機私有路徑混進 Git。

@@ -1,20 +1,24 @@
 {
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "category": "ai-data",
-  "status": "prototype",
+  "status": "completed",
   "year": 2026,
   "technologies": [
+    "Python",
     "FastAPI",
+    "React",
+    "TypeScript",
+    "Vite",
     "PyTorch",
     "Diffusers",
     "Hugging Face Transformers",
-    "Stable Diffusion / SDXL",
-    "Celery",
     "Redis",
-    "React",
-    "TypeScript",
-    "Docker"
+    "Celery",
+    "Pydantic",
+    "Pillow",
+    "Docker",
+    "GitHub Pages"
   ],
   "coverImage": "/portfolio/projects/sd-multimodal-platform/cover.webp",
   "links": [
@@ -22,8 +26,8 @@
       "kind": "live",
       "url": "https://justin21523.github.io/sd-multimodal-platform/",
       "label": {
-        "zh-TW": "互動 Demo",
-        "en": "Interactive Demo"
+        "zh-TW": "開啟互動 Demo",
+        "en": "Open Interactive Demo"
       },
       "primary": true
     },
@@ -42,66 +46,165 @@
         "zh-TW": "閱讀 README",
         "en": "Read README"
       }
+    },
+    {
+      "kind": "video",
+      "url": "/portfolio/projects/sd-multimodal-platform/demo/demo-walkthrough.webm",
+      "label": {
+        "zh-TW": "觀看 Demo 錄影",
+        "en": "Watch Demo Video"
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": "demo-walkthrough",
+      "type": "video",
+      "src": "/portfolio/projects/sd-multimodal-platform/demo/demo-walkthrough.webm",
+      "poster": "/portfolio/projects/sd-multimodal-platform/screenshots/02-generated-result-desktop.png",
+      "alt": {
+        "zh-TW": "SD Multi-Modal Platform demo 錄影，展示 prompt workbench、mock generation、architecture 與 runbook。",
+        "en": "SD Multi-Modal Platform demo walkthrough showing the prompt workbench, mock generation, architecture, and runbook."
+      },
+      "title": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Walkthrough"
+      },
+      "caption": {
+        "zh-TW": "公開展示用 WebM，使用 mock-safe demo mode 展示無 GPU 也能跑的核心產品流程。",
+        "en": "A public WebM walkthrough of the mock-safe demo mode that runs without GPU access."
+      },
+      "featured": true
+    },
+    {
+      "id": "workbench-desktop",
+      "type": "image",
+      "src": "/portfolio/projects/sd-multimodal-platform/screenshots/01-workbench-desktop.png",
+      "alt": {
+        "zh-TW": "SD Multi-Modal Platform 工作台桌面截圖，顯示 prompt、生成結果、queue 與 assets/history。",
+        "en": "Desktop screenshot of the SD Multi-Modal Platform workbench with prompt, result, queue, and assets/history panels."
+      },
+      "title": {
+        "zh-TW": "AI 生成工作台",
+        "en": "AI Generation Workbench"
+      },
+      "caption": {
+        "zh-TW": "第一屏直接呈現產品本體，面試官不需要先讀 marketing copy 才知道系統能做什麼。",
+        "en": "The first viewport shows the product itself so reviewers immediately understand the workflow."
+      },
+      "featured": true
+    },
+    {
+      "id": "generated-result",
+      "type": "image",
+      "src": "/portfolio/projects/sd-multimodal-platform/screenshots/02-generated-result-desktop.png",
+      "alt": {
+        "zh-TW": "Mock-safe generation 完成狀態，包含 task id、model、mode 與 queue completed 狀態。",
+        "en": "Completed mock-safe generation state with task id, model, mode, and queue completed status."
+      },
+      "title": {
+        "zh-TW": "可截圖的完成狀態",
+        "en": "Screenshot-ready Completed State"
+      },
+      "caption": {
+        "zh-TW": "Deterministic demo result 讓公開頁、錄影與本機 smoke test 都能穩定重現。",
+        "en": "The deterministic demo result keeps the public page, walkthrough video, and local smoke tests reproducible."
+      }
+    },
+    {
+      "id": "mobile-workbench",
+      "type": "image",
+      "src": "/portfolio/projects/sd-multimodal-platform/screenshots/03-workbench-mobile.png",
+      "alt": {
+        "zh-TW": "SD Multi-Modal Platform mobile demo 截圖。",
+        "en": "Mobile screenshot of the SD Multi-Modal Platform demo."
+      },
+      "title": {
+        "zh-TW": "Mobile Demo",
+        "en": "Mobile Demo"
+      },
+      "caption": {
+        "zh-TW": "公開展示頁在手機視窗也能清楚呈現 prompt workbench 與 health 狀態。",
+        "en": "The public demo keeps the prompt workbench and health state readable on mobile."
+      }
     }
   ],
   "metadata": {
-    "projectType": "Stable Diffusion multimodal generation & inference platform",
+    "projectType": "Portfolio-ready generative AI platform demo",
     "domains": [
       "Generative AI",
       "Computer Vision",
-      "Multimodal AI",
-      "MLOps"
+      "MLOps",
+      "AI demo engineering",
+      "Full-stack platform engineering"
     ],
     "capabilities": [
-      "Generate images from text and image prompts",
-      "Inpaint and edit images with mask editor",
-      "Upscale and restore faces in post-processing",
-      "Caption images and answer visual questions",
-      "Route and lazy-load multiple model backends",
-      "Queue long-running jobs asynchronously"
+      "Mock-safe demo mode that runs without GPU, model weights, Redis, or external services",
+      "FastAPI v1 routers for generation, postprocess, assets, history, queue, models, and health",
+      "React + TypeScript workbench with prompt presets, mask workflow, queue monitor, assets, and history",
+      "Deterministic txt2img/img2img/inpaint mock generation for smoke tests and public demos",
+      "Graceful degradation when optional Redis/Celery/model/postprocess dependencies are missing",
+      "Storage discipline for models, caches, outputs, assets, logs, and generated metadata",
+      "GitHub Pages static demo with screenshots and WebM walkthrough"
     ],
     "frameworks": [
       "FastAPI",
       "React",
       "Vite",
       "Celery",
-      "Gradio",
-      "PyQt6"
+      "GitHub Actions"
     ],
     "libraries": [
-      "diffusers",
-      "transformers",
-      "accelerate",
-      "controlnet-aux",
-      "safetensors",
-      "xformers",
-      "pydantic",
+      "PyTorch",
+      "Diffusers",
+      "Transformers",
+      "Pydantic",
       "Pillow",
-      "OpenCV"
+      "OpenCV",
+      "pytest",
+      "Playwright",
+      "FFmpeg"
     ],
     "backend": [
-      "FastAPI (async)",
-      "Celery workers",
-      "Redis",
-      "PyTorch / CUDA"
+      "FastAPI routers",
+      "ModelManager",
+      "AssetManager",
+      "HistoryStore",
+      "QueueManager",
+      "Mock-safe generation pipeline"
+    ],
+    "testing": [
+      "pytest",
+      "API smoke tests",
+      "React typecheck",
+      "Vite build",
+      "Playwright screenshot capture"
+    ],
+    "deployment": [
+      "GitHub Pages",
+      "GitHub Actions",
+      "Docker Compose local stack"
     ],
     "platforms": [
       "Web",
+      "API",
       "CLI",
-      "Desktop"
+      "Docker"
     ],
     "keywords": [
       "Stable Diffusion",
       "SDXL",
-      "ControlNet",
-      "BLIP-2",
-      "LLaVA",
-      "txt2img",
-      "img2img",
-      "inpaint",
-      "task queue",
-      "model router"
+      "FastAPI",
+      "React",
+      "mock-safe demo",
+      "portfolio demo",
+      "Redis",
+      "Celery",
+      "MLOps"
     ],
+    "hasUnitTests": true,
+    "hasIntegrationTests": true,
+    "hasE2ETests": false,
     "needsReview": false
   }
 }
