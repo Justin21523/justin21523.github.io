@@ -17,7 +17,33 @@
     "pytest"
   ],
   "coverImage": "/portfolio/projects/ai-3d-studio/cover.webp",
-  "links": [],
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/ai-3d-studio/",
+      "label": {
+        "zh-TW": "互動 Demo",
+        "en": "Interactive Demo"
+      },
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/ai-3d-studio",
+      "label": {
+        "zh-TW": "查看原始碼",
+        "en": "View Source"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/ai-3d-studio#readme",
+      "label": {
+        "zh-TW": "閱讀 README",
+        "en": "Read README"
+      }
+    }
+  ],
   "metadata": {
     "projectType": "AI 3D asset generation",
     "domains": [

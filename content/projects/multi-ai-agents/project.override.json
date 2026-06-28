@@ -17,7 +17,33 @@
     "Tailwind CSS"
   ],
   "coverImage": "/portfolio/projects/multi-ai-agents/cover.webp",
-  "links": [],
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/multi-ai-agents/",
+      "label": {
+        "zh-TW": "互動 Demo",
+        "en": "Interactive Demo"
+      },
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/multi-ai-agents",
+      "label": {
+        "zh-TW": "查看原始碼",
+        "en": "View Source"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/multi-ai-agents#readme",
+      "label": {
+        "zh-TW": "閱讀 README",
+        "en": "Read README"
+      }
+    }
+  ],
   "metadata": {
     "projectType": "Multi-agent AI game ecosystem",
     "domains": [

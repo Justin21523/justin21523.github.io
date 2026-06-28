@@ -172,7 +172,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.653Z"
+      "lastScannedAt": "2026-06-28T09:30:26.536Z"
     },
     "content": {
       "zh-TW": {
@@ -424,7 +424,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.655Z"
+      "lastScannedAt": "2026-06-28T09:30:26.538Z"
     },
     "content": {
       "zh-TW": {
@@ -510,6 +510,15 @@
     ],
     "coverImage": "/portfolio/projects/agentic-bi-dataops-copilot/cover.webp",
     "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
       {
         "kind": "github",
         "url": "https://github.com/Justin21523/agentic-bi-dataops-copilot",
@@ -932,7 +941,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.655Z"
+      "lastScannedAt": "2026-06-28T09:30:26.539Z"
     },
     "content": {
       "zh-TW": {
@@ -1016,7 +1025,33 @@
       "FastAPI",
       "pytest"
     ],
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/ai-3d-studio/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/ai-3d-studio",
+        "label": {
+          "zh-TW": "查看原始碼",
+          "en": "View Source"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/ai-3d-studio#readme",
+        "label": {
+          "zh-TW": "閱讀 README",
+          "en": "Read README"
+        }
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-09",
@@ -1157,7 +1192,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.656Z"
+      "lastScannedAt": "2026-06-28T09:30:26.540Z"
     },
     "content": {
       "zh-TW": {
@@ -1342,7 +1377,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.656Z"
+      "lastScannedAt": "2026-06-28T09:30:26.540Z"
     },
     "content": {
       "zh-TW": {
@@ -1517,7 +1552,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.656Z"
+      "lastScannedAt": "2026-06-28T09:30:26.540Z"
     },
     "content": {
       "zh-TW": {
@@ -1747,7 +1782,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.657Z"
+      "lastScannedAt": "2026-06-28T09:30:26.541Z"
     },
     "content": {
       "zh-TW": {
@@ -1820,6 +1855,15 @@
       "FAISS"
     ],
     "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/animation-ai-studio/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
       {
         "kind": "github",
         "url": "https://github.com/Justin21523/animation-ai-studio",
@@ -1983,7 +2027,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.657Z"
+      "lastScannedAt": "2026-06-28T09:30:26.541Z"
     },
     "content": {
       "zh-TW": {
@@ -2068,6 +2112,15 @@
       "Gradio"
     ],
     "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/anime-adventure-lab/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
       {
         "kind": "github",
         "url": "https://github.com/Justin21523/anime-adventure-lab",
@@ -2231,7 +2284,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.658Z"
+      "lastScannedAt": "2026-06-28T09:30:26.541Z"
     },
     "content": {
       "zh-TW": {
@@ -2425,7 +2478,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.658Z"
+      "lastScannedAt": "2026-06-28T09:30:26.542Z"
     },
     "content": {
       "zh-TW": {
@@ -2703,7 +2756,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.658Z"
+      "lastScannedAt": "2026-06-28T09:30:26.542Z"
     },
     "content": {
       "zh-TW": {
@@ -2969,7 +3022,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.658Z"
+      "lastScannedAt": "2026-06-28T09:30:26.542Z"
     },
     "content": {
       "zh-TW": {
@@ -3135,7 +3188,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.659Z"
+      "lastScannedAt": "2026-06-28T09:30:26.542Z"
     },
     "content": {
       "zh-TW": {
@@ -3216,6 +3269,15 @@
       "Docker"
     ],
     "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/charaforge-T2I-Lab/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
       {
         "kind": "github",
         "url": "https://github.com/Justin21523/charaforge-T2I-Lab",
@@ -3376,7 +3438,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.659Z"
+      "lastScannedAt": "2026-06-28T09:30:26.542Z"
     },
     "content": {
       "zh-TW": {
@@ -3592,7 +3654,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.659Z"
+      "lastScannedAt": "2026-06-28T09:30:26.543Z"
     },
     "content": {
       "zh-TW": {
@@ -3835,7 +3897,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.659Z"
+      "lastScannedAt": "2026-06-28T09:30:26.543Z"
     },
     "content": {
       "zh-TW": {
@@ -4070,7 +4132,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.659Z"
+      "lastScannedAt": "2026-06-28T09:30:26.543Z"
     },
     "content": {
       "zh-TW": {
@@ -4303,7 +4365,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.659Z"
+      "lastScannedAt": "2026-06-28T09:30:26.543Z"
     },
     "content": {
       "zh-TW": {
@@ -4522,7 +4584,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.659Z"
+      "lastScannedAt": "2026-06-28T09:30:26.543Z"
     },
     "content": {
       "zh-TW": {
@@ -4697,7 +4759,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.659Z"
+      "lastScannedAt": "2026-06-28T09:30:26.543Z"
     },
     "content": {
       "zh-TW": {
@@ -4775,7 +4837,33 @@
       "Docker Compose",
       "Apache ECharts"
     ],
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/dataagent-analyst/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/dataagent-analyst",
+        "label": {
+          "zh-TW": "查看原始碼",
+          "en": "View Source"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/dataagent-analyst#readme",
+        "label": {
+          "zh-TW": "閱讀 README",
+          "en": "Read README"
+        }
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-06-26",
@@ -4929,7 +5017,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.660Z"
+      "lastScannedAt": "2026-06-28T09:30:26.543Z"
     },
     "content": {
       "zh-TW": {
@@ -5104,7 +5192,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.660Z"
+      "lastScannedAt": "2026-06-28T09:30:26.544Z"
     },
     "content": {
       "zh-TW": {
@@ -5293,7 +5381,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.660Z"
+      "lastScannedAt": "2026-06-28T09:30:26.544Z"
     },
     "content": {
       "zh-TW": {
@@ -5451,7 +5539,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.660Z"
+      "lastScannedAt": "2026-06-28T09:30:26.544Z"
     },
     "content": {
       "zh-TW": {
@@ -5610,7 +5698,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.660Z"
+      "lastScannedAt": "2026-06-28T09:30:26.544Z"
     },
     "content": {
       "zh-TW": {
@@ -5846,7 +5934,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.660Z"
+      "lastScannedAt": "2026-06-28T09:30:26.544Z"
     },
     "content": {
       "zh-TW": {
@@ -6019,7 +6107,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.660Z"
+      "lastScannedAt": "2026-06-28T09:30:26.544Z"
     },
     "content": {
       "zh-TW": {
@@ -6418,7 +6506,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.660Z"
+      "lastScannedAt": "2026-06-28T09:30:26.545Z"
     },
     "content": {
       "zh-TW": {
@@ -6836,7 +6924,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.661Z"
+      "lastScannedAt": "2026-06-28T09:30:26.545Z"
     },
     "content": {
       "zh-TW": {
@@ -7020,7 +7108,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.661Z"
+      "lastScannedAt": "2026-06-28T09:30:26.545Z"
     },
     "content": {
       "zh-TW": {
@@ -7192,7 +7280,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.661Z"
+      "lastScannedAt": "2026-06-28T09:30:26.545Z"
     },
     "content": {
       "zh-TW": {
@@ -7274,6 +7362,15 @@
       "pytest"
     ],
     "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/gan-ae-vision-suite/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
       {
         "kind": "github",
         "url": "https://github.com/Justin21523/GAN-AE-vision-suite",
@@ -7439,7 +7536,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.661Z"
+      "lastScannedAt": "2026-06-28T09:30:26.546Z"
     },
     "content": {
       "zh-TW": {
@@ -7652,7 +7749,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.662Z"
+      "lastScannedAt": "2026-06-28T09:30:26.546Z"
     },
     "content": {
       "zh-TW": {
@@ -7893,7 +7990,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.662Z"
+      "lastScannedAt": "2026-06-28T09:30:26.546Z"
     },
     "content": {
       "zh-TW": {
@@ -8104,7 +8201,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.662Z"
+      "lastScannedAt": "2026-06-28T09:30:26.546Z"
     },
     "content": {
       "zh-TW": {
@@ -8296,7 +8393,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.662Z"
+      "lastScannedAt": "2026-06-28T09:30:26.546Z"
     },
     "content": {
       "zh-TW": {
@@ -8525,7 +8622,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.662Z"
+      "lastScannedAt": "2026-06-28T09:30:26.547Z"
     },
     "content": {
       "zh-TW": {
@@ -8731,7 +8828,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.662Z"
+      "lastScannedAt": "2026-06-28T09:30:26.547Z"
     },
     "content": {
       "zh-TW": {
@@ -9522,7 +9619,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.662Z"
+      "lastScannedAt": "2026-06-28T09:30:26.547Z"
     },
     "content": {
       "zh-TW": {
@@ -9765,7 +9862,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.662Z"
+      "lastScannedAt": "2026-06-28T09:30:26.547Z"
     },
     "content": {
       "zh-TW": {
@@ -10008,7 +10105,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.663Z"
+      "lastScannedAt": "2026-06-28T09:30:26.547Z"
     },
     "content": {
       "zh-TW": {
@@ -10235,7 +10332,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.663Z"
+      "lastScannedAt": "2026-06-28T09:30:26.547Z"
     },
     "content": {
       "zh-TW": {
@@ -10573,7 +10670,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.663Z"
+      "lastScannedAt": "2026-06-28T09:30:26.547Z"
     },
     "content": {
       "zh-TW": {
@@ -10813,7 +10910,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.663Z"
+      "lastScannedAt": "2026-06-28T09:30:26.548Z"
     },
     "content": {
       "zh-TW": {
@@ -10981,7 +11078,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.663Z"
+      "lastScannedAt": "2026-06-28T09:30:26.548Z"
     },
     "content": {
       "zh-TW": {
@@ -11141,7 +11238,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.663Z"
+      "lastScannedAt": "2026-06-28T09:30:26.548Z"
     },
     "content": {
       "zh-TW": {
@@ -11353,7 +11450,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.663Z"
+      "lastScannedAt": "2026-06-28T09:30:26.548Z"
     },
     "content": {
       "zh-TW": {
@@ -11811,7 +11908,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.663Z"
+      "lastScannedAt": "2026-06-28T09:30:26.548Z"
     },
     "content": {
       "zh-TW": {
@@ -12018,7 +12115,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.664Z"
+      "lastScannedAt": "2026-06-28T09:30:26.548Z"
     },
     "content": {
       "zh-TW": {
@@ -12251,7 +12348,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.664Z"
+      "lastScannedAt": "2026-06-28T09:30:26.548Z"
     },
     "content": {
       "zh-TW": {
@@ -12426,7 +12523,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.664Z"
+      "lastScannedAt": "2026-06-28T09:30:26.548Z"
     },
     "content": {
       "zh-TW": {
@@ -12661,7 +12758,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.664Z"
+      "lastScannedAt": "2026-06-28T09:30:26.549Z"
     },
     "content": {
       "zh-TW": {
@@ -12745,7 +12842,33 @@
       "WebSocket",
       "Tailwind CSS"
     ],
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/multi-ai-agents/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/multi-ai-agents",
+        "label": {
+          "zh-TW": "查看原始碼",
+          "en": "View Source"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/multi-ai-agents#readme",
+        "label": {
+          "zh-TW": "閱讀 README",
+          "en": "Read README"
+        }
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-05-16",
@@ -12890,7 +13013,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.664Z"
+      "lastScannedAt": "2026-06-28T09:30:26.549Z"
     },
     "content": {
       "zh-TW": {
@@ -13768,7 +13891,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.664Z"
+      "lastScannedAt": "2026-06-28T09:30:26.549Z"
     },
     "content": {
       "zh-TW": {
@@ -13924,7 +14047,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.665Z"
+      "lastScannedAt": "2026-06-28T09:30:26.549Z"
     },
     "content": {
       "zh-TW": {
@@ -14350,7 +14473,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.665Z"
+      "lastScannedAt": "2026-06-28T09:30:26.549Z"
     },
     "content": {
       "zh-TW": {
@@ -14626,7 +14749,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.665Z"
+      "lastScannedAt": "2026-06-28T09:30:26.550Z"
     },
     "content": {
       "zh-TW": {
@@ -14991,7 +15114,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.665Z"
+      "lastScannedAt": "2026-06-28T09:30:26.550Z"
     },
     "content": {
       "zh-TW": {
@@ -15205,7 +15328,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.665Z"
+      "lastScannedAt": "2026-06-28T09:30:26.550Z"
     },
     "content": {
       "zh-TW": {
@@ -15366,7 +15489,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.665Z"
+      "lastScannedAt": "2026-06-28T09:30:26.550Z"
     },
     "content": {
       "zh-TW": {
@@ -15544,7 +15667,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.665Z"
+      "lastScannedAt": "2026-06-28T09:30:26.550Z"
     },
     "content": {
       "zh-TW": {
@@ -15776,7 +15899,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.666Z"
+      "lastScannedAt": "2026-06-28T09:30:26.550Z"
     },
     "content": {
       "zh-TW": {
@@ -15959,7 +16082,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.666Z"
+      "lastScannedAt": "2026-06-28T09:30:26.551Z"
     },
     "content": {
       "zh-TW": {
@@ -16215,7 +16338,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.666Z"
+      "lastScannedAt": "2026-06-28T09:30:26.551Z"
     },
     "content": {
       "zh-TW": {
@@ -16407,7 +16530,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.666Z"
+      "lastScannedAt": "2026-06-28T09:30:26.551Z"
     },
     "content": {
       "zh-TW": {
@@ -16578,7 +16701,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.666Z"
+      "lastScannedAt": "2026-06-28T09:30:26.551Z"
     },
     "content": {
       "zh-TW": {
@@ -16791,7 +16914,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.666Z"
+      "lastScannedAt": "2026-06-28T09:30:26.551Z"
     },
     "content": {
       "zh-TW": {
@@ -16976,7 +17099,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.666Z"
+      "lastScannedAt": "2026-06-28T09:30:26.551Z"
     },
     "content": {
       "zh-TW": {
@@ -17211,7 +17334,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.666Z"
+      "lastScannedAt": "2026-06-28T09:30:26.551Z"
     },
     "content": {
       "zh-TW": {
@@ -17483,7 +17606,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.667Z"
+      "lastScannedAt": "2026-06-28T09:30:26.551Z"
     },
     "content": {
       "zh-TW": {
@@ -17568,6 +17691,15 @@
       "Docker"
     ],
     "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/restoreAI-studio/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
       {
         "kind": "github",
         "url": "https://github.com/Justin21523/restoreAI-studio",
@@ -17741,7 +17873,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.667Z"
+      "lastScannedAt": "2026-06-28T09:30:26.552Z"
     },
     "content": {
       "zh-TW": {
@@ -18153,7 +18285,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.667Z"
+      "lastScannedAt": "2026-06-28T09:30:26.552Z"
     },
     "content": {
       "zh-TW": {
@@ -18335,7 +18467,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.667Z"
+      "lastScannedAt": "2026-06-28T09:30:26.552Z"
     },
     "content": {
       "zh-TW": {
@@ -18546,7 +18678,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.667Z"
+      "lastScannedAt": "2026-06-28T09:30:26.552Z"
     },
     "content": {
       "zh-TW": {
@@ -18740,7 +18872,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.667Z"
+      "lastScannedAt": "2026-06-28T09:30:26.552Z"
     },
     "content": {
       "zh-TW": {
@@ -18900,7 +19032,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.667Z"
+      "lastScannedAt": "2026-06-28T09:30:26.552Z"
     },
     "content": {
       "zh-TW": {
@@ -18981,6 +19113,15 @@
       "Docker"
     ],
     "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/sd-multimodal-platform/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
       {
         "kind": "github",
         "url": "https://github.com/Justin21523/sd-multimodal-platform",
@@ -19140,7 +19281,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.668Z"
+      "lastScannedAt": "2026-06-28T09:30:26.552Z"
     },
     "content": {
       "zh-TW": {
@@ -19337,7 +19478,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.668Z"
+      "lastScannedAt": "2026-06-28T09:30:26.553Z"
     },
     "content": {
       "zh-TW": {
@@ -19510,7 +19651,7 @@
         "content/projects/sonic-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.668Z"
+      "lastScannedAt": "2026-06-28T09:30:26.553Z"
     },
     "content": {
       "zh-TW": {
@@ -19759,7 +19900,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.668Z"
+      "lastScannedAt": "2026-06-28T09:30:26.553Z"
     },
     "content": {
       "zh-TW": {
@@ -20004,7 +20145,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.668Z"
+      "lastScannedAt": "2026-06-28T09:30:26.553Z"
     },
     "content": {
       "zh-TW": {
@@ -20199,7 +20340,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.668Z"
+      "lastScannedAt": "2026-06-28T09:30:26.553Z"
     },
     "content": {
       "zh-TW": {
@@ -20355,7 +20496,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.668Z"
+      "lastScannedAt": "2026-06-28T09:30:26.553Z"
     },
     "content": {
       "zh-TW": {
@@ -20519,7 +20660,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.669Z"
+      "lastScannedAt": "2026-06-28T09:30:26.553Z"
     },
     "content": {
       "zh-TW": {
@@ -20679,7 +20820,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.669Z"
+      "lastScannedAt": "2026-06-28T09:30:26.554Z"
     },
     "content": {
       "zh-TW": {
@@ -20915,7 +21056,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.669Z"
+      "lastScannedAt": "2026-06-28T09:30:26.554Z"
     },
     "content": {
       "zh-TW": {
@@ -21144,7 +21285,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.669Z"
+      "lastScannedAt": "2026-06-28T09:30:26.554Z"
     },
     "content": {
       "zh-TW": {
@@ -21374,7 +21515,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.669Z"
+      "lastScannedAt": "2026-06-28T09:30:26.554Z"
     },
     "content": {
       "zh-TW": {
@@ -21457,7 +21598,33 @@
       "Accelerate / DeepSpeed",
       "Pydantic"
     ],
-    "links": [],
+    "links": [
+      {
+        "kind": "live",
+        "url": "https://justin21523.github.io/video-family-lora-hub/",
+        "label": {
+          "zh-TW": "互動 Demo",
+          "en": "Interactive Demo"
+        },
+        "primary": true
+      },
+      {
+        "kind": "github",
+        "url": "https://github.com/Justin21523/video-family-lora-hub",
+        "label": {
+          "zh-TW": "查看原始碼",
+          "en": "View Source"
+        }
+      },
+      {
+        "kind": "documentation",
+        "url": "https://github.com/Justin21523/video-family-lora-hub#readme",
+        "label": {
+          "zh-TW": "閱讀 README",
+          "en": "Read README"
+        }
+      }
+    ],
     "media": [],
     "metadata": {
       "startedAt": "2026-03-02",
@@ -21591,7 +21758,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.669Z"
+      "lastScannedAt": "2026-06-28T09:30:26.554Z"
     },
     "content": {
       "zh-TW": {
@@ -21798,7 +21965,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.669Z"
+      "lastScannedAt": "2026-06-28T09:30:26.555Z"
     },
     "content": {
       "zh-TW": {
@@ -22031,7 +22198,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.670Z"
+      "lastScannedAt": "2026-06-28T09:30:26.555Z"
     },
     "content": {
       "zh-TW": {
@@ -22278,7 +22445,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.670Z"
+      "lastScannedAt": "2026-06-28T09:30:26.555Z"
     },
     "content": {
       "zh-TW": {
@@ -22525,7 +22692,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T09:12:13.670Z"
+      "lastScannedAt": "2026-06-28T09:30:26.555Z"
     },
     "content": {
       "zh-TW": {
