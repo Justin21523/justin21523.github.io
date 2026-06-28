@@ -42,16 +42,58 @@
         "zh-TW": "閱讀 README",
         "en": "Read README"
       }
+    },
+    {
+      "kind": "video",
+      "url": "/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
+      "label": {
+        "zh-TW": "Demo 錄影",
+        "en": "Demo Recording"
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": "dataagent-guide-demo-video",
+      "type": "video",
+      "src": "/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
+      "poster": "/projects/dataagent-analyst/videos/posters/playwright-external-live-demo.webp",
+      "alt": {
+        "zh-TW": "DataAgent Analyst 小幫手導覽與資料分析工作流 Demo 錄影。",
+        "en": "DataAgent Analyst guide tour and data analysis workflow demo recording."
+      },
+      "title": {
+        "zh-TW": "小幫手導覽 Demo",
+        "en": "Guide Tour Demo"
+      },
+      "caption": {
+        "zh-TW": "Playwright 錄製的最新 UI 小幫手導覽與工作台操作流程。",
+        "en": "Playwright-recorded walkthrough of the latest guide tour and workbench flow."
+      },
+      "featured": true
+    },
+    {
+      "id": "dataagent-guide-overview",
+      "type": "image",
+      "src": "/projects/dataagent-analyst/screenshots/02-guide-sidebar.png",
+      "alt": {
+        "zh-TW": "DataAgent Analyst 小幫手聚焦側邊導覽的截圖。",
+        "en": "DataAgent Analyst guide tour focusing the sidebar navigation."
+      },
+      "title": {
+        "zh-TW": "小幫手導覽截圖",
+        "en": "Guide Tour Screenshot"
+      },
+      "caption": {
+        "zh-TW": "小幫手會自動框住重點區塊並在右下角說明下一步。",
+        "en": "The guide highlights key regions and explains the next step from the lower-right panel."
+      },
+      "featured": true
     }
   ],
   "metadata": {
     "needsReview": false,
-    "missingFields": [
-      "reviewed zh-TW case study",
-      "reviewed English case study",
-      "verified media assets",
-      "verified public links"
-    ],
+    "missingFields": [],
     "projectType": "AI data analysis & machine learning workbench",
     "domains": [
       "data analysis",
@@ -72,7 +114,10 @@
       "local LLM insight generation",
       "LangGraph multi-agent orchestration",
       "async agent jobs with progress streaming",
-      "markdown analysis report generation"
+      "markdown analysis report generation",
+      "guided UI tour with cross-route focus highlights",
+      "automated backtest runner and artifact viewer",
+      "static GitHub Pages demo with deterministic fixture API"
     ],
     "frameworks": [
       "FastAPI",
