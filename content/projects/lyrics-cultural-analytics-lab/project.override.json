@@ -16,20 +16,13 @@
   "coverImage": "/portfolio/projects/lyrics-cultural-analytics-lab/screenshots/overview-viewport.png",
   "links": [
     {
-      "kind": "github",
-      "url": "https://github.com/Justin21523/agentic-bi-dataops-copilot",
+      "kind": "live",
+      "url": "https://justin21523.github.io/lyrics-cultural-analytics-lab/",
       "label": {
-        "zh-TW": "查看 GitHub",
-        "en": "View GitHub"
-      }
-    },
-    {
-      "kind": "documentation",
-      "url": "https://github.com/Justin21523/agentic-bi-dataops-copilot/tree/lyrics-cultural-analytics-lab#readme",
-      "label": {
-        "zh-TW": "查看 README",
-        "en": "View README"
-      }
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
+      },
+      "primary": true
     },
     {
       "kind": "video",
@@ -37,6 +30,22 @@
       "label": {
         "zh-TW": "Demo 影片",
         "en": "Demo Recording"
+      }
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/lyrics-cultural-analytics-lab",
+      "label": {
+        "zh-TW": "GitHub",
+        "en": "GitHub"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/lyrics-cultural-analytics-lab#readme",
+      "label": {
+        "zh-TW": "Project Docs",
+        "en": "Project Docs"
       }
     }
   ],

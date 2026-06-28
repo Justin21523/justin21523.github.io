@@ -11,5 +11,31 @@
     "TypeScript"
   ],
   "coverImage": "/portfolio/projects/digital-archive-review-board/cover.webp",
-  "links": []
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/digital-archive-review-board/",
+      "label": {
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
+      },
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/digital-archive-review-board",
+      "label": {
+        "zh-TW": "GitHub",
+        "en": "GitHub"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/digital-archive-review-board#readme",
+      "label": {
+        "zh-TW": "Project Docs",
+        "en": "Project Docs"
+      }
+    }
+  ]
 }

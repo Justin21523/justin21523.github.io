@@ -36,11 +36,12 @@
     },
     {
       "kind": "live",
-      "url": "/projects/geovideo-env-check#demo-guide",
+      "url": "https://justin21523.github.io/geovideo-env-check/",
       "label": {
-        "en": "Portfolio Case Study Demo",
-        "zh-TW": "作品集案例 Demo"
-      }
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
+      },
+      "primary": true
     }
   ],
   "metadata": {

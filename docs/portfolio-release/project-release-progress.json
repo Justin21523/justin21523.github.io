@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T17:33:10.447Z",
+  "generatedAt": "2026-06-28T19:00:16.966Z",
   "projects": [
     {
       "slug": "dcard-trending-crawler",
@@ -1688,6 +1688,329 @@
         "Review generated case-study text against source evidence."
       ],
       "updatedAt": "2026-06-28T17:33:10.447Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "anime-lora-pipeline",
+      "title": "Anime Lora Pipeline",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:15.531Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "AutoForge-llm-studio",
+      "title": "AutoForge LLM Studio",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:15.291Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "dom-visualizer-oop",
+      "title": "Dom Visualizer Oop",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:15.626Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "edge-deid-studio",
+      "title": "Edge Deid Studio",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:15.716Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "html-css-interactive-lab",
+      "title": "Html Css Interactive Lab",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:15.813Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "javascript-game-physics",
+      "title": "Javascript Game Physics",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:15.906Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "llm-switch-chat",
+      "title": "LLM Switch Chat",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:16.007Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "mock-master",
+      "title": "Mock Master",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:16.108Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "mystery-phenomena-files",
+      "title": "Mystery Phenomena Files",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:16.208Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "playwright-automation",
+      "title": "Playwright Automation",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:16.299Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "smart-home-energy-monitor",
+      "title": "Smart Home Energy Monitor",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:16.396Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "soundscape-taiwan",
+      "title": "Soundscape Taiwan",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:16.493Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "TGW-playbook",
+      "title": "TGW Playbook",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:15.428Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "transformer-core",
+      "title": "Transformer Core",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:16.584Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "tts-voice-app",
+      "title": "TTS Voice App",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:16.677Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "video-gen-factory",
+      "title": "Video Gen Factory",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:16.773Z",
+      "qualityStatus": "manual-follow-up-needed"
+    },
+    {
+      "slug": "web-auto-concepts",
+      "title": "Web Auto Concepts",
+      "priority": 999,
+      "status": "prototype",
+      "auditStatus": "completed",
+      "readmeStatus": "portfolio-standardized",
+      "screenshotStatus": "placeholder generated; replace with real screenshots",
+      "demoStatus": "placeholder generated; replace with real demo video",
+      "portfolioPageStatus": "detail-page-generated",
+      "linkValidationStatus": "valid-four-links",
+      "buildStatus": "not verified",
+      "manualFollowUpNeeded": [
+        "Replace placeholder media with real project screenshots and walkthrough video.",
+        "Review the generated bilingual case study before interview use."
+      ],
+      "updatedAt": "2026-06-28T19:00:16.868Z",
       "qualityStatus": "manual-follow-up-needed"
     }
   ]

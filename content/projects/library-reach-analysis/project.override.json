@@ -25,11 +25,12 @@
     },
     {
       "kind": "live",
-      "url": "/projects/library-reach-analysis#demo-guide",
+      "url": "https://justin21523.github.io/library-reach-analysis/",
       "label": {
-        "en": "Portfolio Case Study Demo",
-        "zh-TW": "作品集案例 Demo"
-      }
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
+      },
+      "primary": true
     }
   ]
 }

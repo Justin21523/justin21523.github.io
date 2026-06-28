@@ -44,11 +44,12 @@
     },
     {
       "kind": "live",
-      "url": "/projects/news-web-crawler#demo-guide",
+      "url": "https://justin21523.github.io/news-web-crawler/",
       "label": {
-        "en": "Portfolio Case Study Demo",
-        "zh-TW": "作品集案例 Demo"
-      }
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
+      },
+      "primary": true
     }
   ],
   "media": [

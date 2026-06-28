@@ -149,15 +149,19 @@ function isInternalFallback(url: string | undefined) {
   return Boolean(url && url.startsWith("/projects/") && url.includes("#"));
 }
 
+function isPlaceholderAsset(url: string | undefined) {
+  return Boolean(url && /placeholder/i.test(url));
+}
+
 function mediaHasRealItem(media: ProjectMediaDraft[] | undefined, type: "image" | "video") {
   return Boolean(
-    media?.some((item) => item.type === type && item.src && !item.placeholder)
+    media?.some((item) => item.type === type && item.src && !item.placeholder && !isPlaceholderAsset(item.src) && (isExternalUrl(item.src) || publicAssetExists(item.src)))
   );
 }
 
 function mediaSources(media: ProjectMediaDraft[] | undefined, type: "image" | "video") {
   return (media ?? [])
-    .filter((item) => item.type === type && item.src)
+    .filter((item) => item.type === type && item.src && !isPlaceholderAsset(item.src) && (isExternalUrl(item.src) || publicAssetExists(item.src)))
     .map((item) => item.src as string);
 }
 
@@ -825,8 +829,8 @@ ${readmeInfo.description}
 
     const projectLinks = ensurePortfolioLinks(slug, scanData, override.links || []);
     const firstQualityVideo =
-      media.find((item) => item.type === "video" && item.src?.startsWith(`/projects/${slug}/videos/`))?.src ??
-      media.find((item) => item.type === "video" && item.src)?.src;
+      media.find((item) => item.type === "video" && item.src?.startsWith(`/projects/${slug}/videos/`) && !isPlaceholderAsset(item.src) && publicAssetExists(item.src))?.src ??
+      media.find((item) => item.type === "video" && item.src && !isPlaceholderAsset(item.src) && (isExternalUrl(item.src) || publicAssetExists(item.src)))?.src;
     const videoLinkDraft = linkByKind(projectLinks, "video");
     if (firstQualityVideo && videoLinkDraft && !isExternalUrl(videoLinkDraft.url)) {
       videoLinkDraft.url = firstQualityVideo;

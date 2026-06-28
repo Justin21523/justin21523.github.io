@@ -29,11 +29,12 @@
     },
     {
       "kind": "live",
-      "url": "/projects/projectmind#demo-guide",
+      "url": "https://justin21523.github.io/project-mind/",
       "label": {
-        "en": "Portfolio Case Study Demo",
-        "zh-TW": "作品集案例 Demo"
-      }
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
+      },
+      "primary": true
     }
   ]
 }

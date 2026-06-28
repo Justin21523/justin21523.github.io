@@ -1,0 +1,59 @@
+{
+  "visibility": "public",
+  "featured": false,
+  "category": "frontend",
+  "status": "prototype",
+  "year": 2026,
+  "technologies": [
+    "JavaScript",
+    "Node.js",
+    "TypeScript",
+    "Vite"
+  ],
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/dom-visualizer-oop/",
+      "label": {
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
+      },
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/dom-visualizer-oop",
+      "label": {
+        "en": "View GitHub",
+        "zh-TW": "查看 GitHub"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/dom-visualizer-oop#readme",
+      "label": {
+        "en": "README",
+        "zh-TW": "README"
+      }
+    },
+    {
+      "kind": "video",
+      "url": "https://justin21523.github.io/dom-visualizer-oop/#demo-video",
+      "label": {
+        "en": "Demo Video Guide",
+        "zh-TW": "Demo 影片指南"
+      }
+    }
+  ],
+  "metadata": {
+    "needsReview": true,
+    "missingFields": [
+      "reviewed case study",
+      "verified screenshots or demo media"
+    ],
+    "domains": [],
+    "platforms": [
+      "GitHub"
+    ]
+  }
+}

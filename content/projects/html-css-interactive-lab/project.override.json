@@ -1,29 +1,17 @@
 {
   "visibility": "public",
   "featured": false,
-  "category": "frontend",
-  "status": "in-progress",
+  "category": "interactive-3d",
+  "status": "prototype",
   "year": 2026,
-  "technologies": [
-    "HTML5",
-    "CSS",
-    "JavaScript",
-    "ES Modules",
-    "CSS @layer",
-    "CSS Custom Properties",
-    "Pointer Events API",
-    "Web Animations API",
-    "Docker",
-    "Nginx"
-  ],
-  "coverImage": "/portfolio/projects/html-css-interactive-lab/cover.webp",
+  "technologies": [],
   "links": [
     {
       "kind": "live",
       "url": "https://justin21523.github.io/html-css-interactive-lab/",
       "label": {
-        "zh-TW": "線上 Demo",
-        "en": "Live Demo"
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
       },
       "primary": true
     },
@@ -31,56 +19,36 @@
       "kind": "github",
       "url": "https://github.com/Justin21523/html-css-interactive-lab",
       "label": {
-        "zh-TW": "查看 GitHub",
-        "en": "View GitHub"
+        "en": "View GitHub",
+        "zh-TW": "查看 GitHub"
       }
     },
     {
       "kind": "documentation",
       "url": "https://github.com/Justin21523/html-css-interactive-lab#readme",
       "label": {
-        "zh-TW": "閱讀 README",
-        "en": "Read README"
+        "en": "README",
+        "zh-TW": "README"
+      }
+    },
+    {
+      "kind": "video",
+      "url": "https://justin21523.github.io/html-css-interactive-lab/#demo-video",
+      "label": {
+        "en": "Demo Video Guide",
+        "zh-TW": "Demo 影片指南"
       }
     }
   ],
   "metadata": {
-    "projectType": "互動式學習平台 / Interactive learning lab",
-    "domains": [
-      "前端開發 / Frontend development",
-      "CSS 教學 / CSS education",
-      "網頁無障礙 / Web accessibility",
-      "網頁動畫 / Web animation"
+    "needsReview": true,
+    "missingFields": [
+      "reviewed case study",
+      "verified screenshots or demo media"
     ],
-    "capabilities": [
-      "CSS 屬性即時操控",
-      "Schema 驅動控制面板生成",
-      "拖曳與鍵盤互動",
-      "效能監控 HUD (FPS)",
-      "多元素獨立屬性編輯",
-      "漸進增強與優雅降級"
-    ],
+    "domains": [],
     "platforms": [
-      "Web",
-      "Docker",
-      "Nginx"
-    ],
-    "keywords": [
-      "InteractCSS",
-      "CSS @layer",
-      "CSS custom properties",
-      "Pointer Events",
-      "3D transforms",
-      "OKLCH",
-      "Flexbox",
-      "Grid",
-      "scroll timeline",
-      "backdrop-filter",
-      "ARIA",
-      "prefers-reduced-motion",
-      "vanilla JS",
-      "ES Modules"
-    ],
-    "needsReview": false
+      "GitHub"
+    ]
   }
 }

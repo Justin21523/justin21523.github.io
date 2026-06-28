@@ -1,0 +1,1035 @@
+{
+  "generatedAt": "2026-06-28T19:19:43.161Z",
+  "totalProjects": 114,
+  "externalLiveDemos": 114,
+  "portfolioFallbackLiveDemos": 0,
+  "verifiedLiveDemos": 114,
+  "projects": [
+    {
+      "slug": "2d-animation-lora-pipeline",
+      "title": "2D Animation Character LoRA Training Pipeline",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/2d-animation-lora-pipeline/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/2d-animation-lora-pipeline/videos/01-real-demo-walkthrough.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "3d-animation-lora-pipeline",
+      "title": "3D Animation LoRA Pipeline and Demo Showcase",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/3d-animation-lora-pipeline/",
+      "liveLabel": "Interactive Demo Site",
+      "videoUrl": "/projects/3d-animation-lora-pipeline/videos/01-real-demo-walkthrough.mp4",
+      "status": "verified"
+    },
+    {
+      "slug": "3d-maze-explorer",
+      "title": "3d Maze Explorer",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/3d-maze-explorer/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/3d-maze-explorer/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "3d-platformer-runner",
+      "title": "3d Platformer Runner",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/3d-platformer-runner/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/3d-platformer-runner/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "agentic-bi-dataops-copilot",
+      "title": "Agentic BI / DataOps Copilot",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/agentic-bi-dataops-copilot/videos/01-real-demo-tour.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "ai-3d-studio",
+      "title": "AI 3D Studio — A Unified Multi-Backend Image-to-3D Generation and Blender Integration Framework",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/ai-3d-studio/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/ai-3d-studio/videos/01-real-demo-walkthrough.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "ai-game-website",
+      "title": "Ai Game Website",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/ai-game-website/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/ai-game-website/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "ai-knowledge-workspace",
+      "title": "Ai Knowledge Workspace",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/ai-knowledge-workspace/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/ai-knowledge-workspace/videos/01-real-demo-walkthrough.mp4",
+      "status": "verified"
+    },
+    {
+      "slug": "amazon-review-intelligence",
+      "title": "Amazon Review Intelligence",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/amazon-review-intelligence/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/amazon-review-intelligence/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "animation-ai-studio",
+      "title": "Animation AI Studio: A Demoable AI Animation Workflow Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/animation-ai-studio/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/animation-ai-studio/videos/01-real-demo-walkthrough.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "anime-adventure-lab",
+      "title": "Anime Adventure Lab — RAG + LLM Story World Generation Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/anime-adventure-lab/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/anime-adventure-lab/videos/01-real-demo-recording.mp4",
+      "status": "verified"
+    },
+    {
+      "slug": "anime-lora-pipeline",
+      "title": "Anime Lora Pipeline",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/anime-lora-pipeline/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/anime-lora-pipeline/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "aqua-rush",
+      "title": "Aqua Rush",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/aqua-rush/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/aqua-rush/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "ArchiveFlow",
+      "title": "ArchiveFlow Studio",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/archive-flow-studio/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/ArchiveFlow/videos/01-real-0329-lecture-recording-video.mp4",
+      "status": "verified"
+    },
+    {
+      "slug": "AutoForge-llm-studio",
+      "title": "AutoForge LLM Studio",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/AutoForge-llm-studio/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/AutoForge-llm-studio/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "automation",
+      "title": "Automation",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/automation/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/automation/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "cafe-net-manager",
+      "title": "CafeNet Manager",
+      "category": "backend-desktop",
+      "liveUrl": "https://justin21523.github.io/cafe-net-manager/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/cafe-net-manager/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "campus-quest-3d",
+      "title": "Campus Quest 3d",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/campus-quest-3d/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/campus-quest-3d/videos/playwright-local-dev-server.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "charaforge-T2I-Lab",
+      "title": "CharaForge T2I Lab — Text-to-Image, ControlNet, and LoRA Training Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/charaforge-T2I-Lab/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/charaforge-T2I-Lab/videos/01-real-demo-walkthrough.mp4",
+      "status": "verified"
+    },
+    {
+      "slug": "ChronosMap",
+      "title": "ChronosMap Spatio-Temporal Weaver",
+      "category": "backend-desktop",
+      "liveUrl": "https://justin21523.github.io/ChronosMap/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/ChronosMap/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "commercial-ml-analysis",
+      "title": "Commercial ML Analysis Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/commercial-ml-analysis/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/commercial-ml-analysis/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "commute-reliability-analysis",
+      "title": "CommuteReliability Analytics",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/commute-reliability-analysis/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/commute-reliability-analysis/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "css-advanced-mastery",
+      "title": "CSS Advanced Mastery — Hands-on Advanced CSS Lab",
+      "category": "frontend",
+      "liveUrl": "https://justin21523.github.io/css-advanced-mastery/",
+      "liveLabel": "Live Demo",
+      "videoUrl": "/projects/css-advanced-mastery/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "CulturePOS",
+      "title": "CulturePOS Cultural-Retail POS Desktop System",
+      "category": "backend-desktop",
+      "liveUrl": "https://justin21523.github.io/CulturePOS/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/CulturePOS/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "data-narrative-studio",
+      "title": "Data Narrative Studio",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/data-narrative-studio/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/data-narrative-studio/videos/playwright-local-dev-server.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "data-pipelines",
+      "title": "Data Pipelines",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/data-pipelines/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/data-pipelines/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "dataagent-analyst",
+      "title": "DataAgent Analyst: AI Agent Data Analysis & ML Workbench",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/dataagent-analyst/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/dataagent-analyst/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "datalab-studio",
+      "title": "Datalab Studio",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/datalab-studio/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/datalab-studio/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "dcard-trending-crawler",
+      "title": "posts-trending-crawler",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/posts-trending-crawler/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/dcard-trending-crawler/videos/01-real-full-guided-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "digital-archive-review-board",
+      "title": "Digital Archive Review Board",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/digital-archive-review-board/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/digital-archive-review-board/videos/playwright-local-dev-server.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "digital-living",
+      "title": "Digital Living",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/digital-living/",
+      "liveLabel": "Live Demo",
+      "videoUrl": "/projects/digital-living/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "discord-clone",
+      "title": "Discord Clone Real-Time Chat Platform",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/discord-clone/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/discord-clone/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "dom-visualizer-oop",
+      "title": "Dom Visualizer Oop",
+      "category": "frontend",
+      "liveUrl": "https://justin21523.github.io/dom-visualizer-oop/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/dom-visualizer-oop/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "edge-deid-studio",
+      "title": "Edge Deid Studio",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/edge-deid-studio/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/edge-deid-studio/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "elio-discord-bot",
+      "title": "Elio Discord Bot",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/elio-discord-bot/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/elio-discord-bot/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "excel-python-data-analysis",
+      "title": "Excel Python Data Analysis Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/excel-python-data-analysis/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://github.com/Justin21523/excel-python-data-analysis/blob/main/assets/demo/demo_walkthrough.mp4",
+      "status": "verified"
+    },
+    {
+      "slug": "fandom-gui-scraper",
+      "title": "Fandom / MediaWiki Scraper Platform",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/fandom-gui-scraper/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/fandom-gui-scraper/videos/01-real-guided-demo-desktop.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "frontend-interaction-lab",
+      "title": "Frontend Interaction Lab",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/frontend-interaction-lab/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/frontend-interaction-lab/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "game-dialogue-simulator",
+      "title": "Game Dialogue Simulator",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/game-dialogue-simulator/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/game-dialogue-simulator/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "gan-ae-vision-suite",
+      "title": "GAN-AE Vision Suite",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/GAN-AE-vision-suite/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/gan-ae-vision-suite/videos/01-real-demo-walkthrough.mp4",
+      "status": "verified"
+    },
+    {
+      "slug": "geovideo-env-check",
+      "title": "GeoVideo Evidence Viewer",
+      "category": "backend-desktop",
+      "liveUrl": "https://justin21523.github.io/geovideo-env-check/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/geovideo-env-check/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "govcase-tracker",
+      "title": "GovCase Tracker — Government Case Tracking System",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/govcase-tracker/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/govcase-tracker/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "HeritageMapStudio",
+      "title": "HeritageMap Studio",
+      "category": "backend-desktop",
+      "liveUrl": "https://justin21523.github.io/HeritageMapStudio/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/HeritageMapStudio/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "highway-adventure-3d",
+      "title": "Highway Adventure 3d",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/highway-adventure-3d/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/highway-adventure-3d/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "html-css-interactive-lab",
+      "title": "Html Css Interactive Lab",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/html-css-interactive-lab/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/html-css-interactive-lab/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "image-process",
+      "title": "Browser-Based 3D Model Viewer & Editor",
+      "category": "frontend",
+      "liveUrl": "https://justin21523.github.io/image-process/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/image-process/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "information-retrieval",
+      "title": "CNIRS Chinese News IR System",
+      "category": "information-system",
+      "liveUrl": "https://neojustin.dothost.net/projects/information-retrieval/",
+      "liveLabel": "Open Live Demo",
+      "videoUrl": "https://github.com/Justin21523/news-information-retrieval-system/blob/main/docs/assets/evaluation/cnirs-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "intro-to-dl",
+      "title": "Deep Learning Hands-On Tutorial Series",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/intro-to-dl/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/intro-to-dl/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "intro-to-ml",
+      "title": "Intro to ML: Classical Machine Learning From Scratch",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/intro-to-ml/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/intro-to-ml/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "intro-to-vml",
+      "title": "Intro to VML: Visual Machine Learning Primer",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/intro-to-vml/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/intro-to-vml/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "ir-rag-evaluation-lab",
+      "title": "IR / RAG Evaluation Lab",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/ir-rag-evaluation-lab/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/ir-rag-evaluation-lab/videos/01-real-ir-rag-evaluation-lab-demo.mp4",
+      "status": "verified"
+    },
+    {
+      "slug": "javascript-game-physics",
+      "title": "Javascript Game Physics",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/javascript-game-physics/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/javascript-game-physics/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "javascript-platformer-concepts",
+      "title": "JavaScript Platformer Concepts",
+      "category": "frontend",
+      "liveUrl": "https://justin21523.github.io/javascript-platformer-concepts/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/javascript-platformer-concepts/videos/01-real-demo-walkthrough.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "libradesk",
+      "title": "Libradesk",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/library-desk/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/libradesk/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "library-reach-analysis",
+      "title": "Library Reach Analysis",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/library-reach-analysis/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/library-reach-analysis/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "llm-switch-chat",
+      "title": "LLM Switch Chat",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/llm-switch-chat/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/llm-switch-chat/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "llm-train-eval-ship",
+      "title": "LLM Train-Eval-Ship Release Console",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/LLM-train-eval-ship/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/llm-train-eval-ship/videos/01-real-guided-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "lyrics-cultural-analytics-lab",
+      "title": "Lyrics Cultural Analytics Lab",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/lyrics-cultural-analytics-lab/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/lyrics-cultural-analytics-lab/videos/01-real-guided-tour.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "MetaCleaner",
+      "title": "MetaCleaner Batch Metadata Scrubbing Tool",
+      "category": "backend-desktop",
+      "liveUrl": "https://justin21523.github.io/MetaCleaner/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/MetaCleaner/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "metashelf",
+      "title": "MetaShelf — Bibliographic Resource Discovery Platform",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/metashelf/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/metashelf/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "mock-master",
+      "title": "Mock Master",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/mock-master/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/mock-master/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "modelops-dashboard",
+      "title": "Modelops Dashboard",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/modelops-dashboard/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/modelops-dashboard/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "mrt-ubike-analysis",
+      "title": "MetroBikeAtlas: Metro & Shared-Bike Urban Mobility Analytics",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/mrt-ubike-analysis/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/mrt-ubike-analysis/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "multi-ai-agents",
+      "title": "Multi-AI Agents — Game Agent Ecosystem",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/multi-ai-agents/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/multi-ai-agents/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "music-intelligence-platform",
+      "title": "Music Intelligence Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/music-intelligence-platform/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/music-intelligence-platform/videos/01-real-demo-tour.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "my-3d-platformer",
+      "title": "My 3d Platformer",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/my-3d-platformer/",
+      "liveLabel": "Live Demo",
+      "videoUrl": "/projects/my-3d-platformer/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "mystery-phenomena-files",
+      "title": "Mystery Phenomena Files",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/mystery-phenomena-files/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/mystery-phenomena-files/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "news-web-crawler",
+      "title": "News Web Crawler & Data Intelligence Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/news-web-crawler/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/news-web-crawler/videos/01-real-guided-tour.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "nyc-taxi-mobility-analytics",
+      "title": "NYC Taxi Mobility Analytics Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/nyc-taxi-mobility-analytics/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/nyc-taxi-mobility-analytics/videos/01-real-demo-tour.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "openalex-research-rag",
+      "title": "OpenAlex Research Intelligence (RAG)",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/openalex-research-rag/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://github.com/Justin21523/openalex-research-rag/blob/main/docs/demo.mp4",
+      "status": "verified"
+    },
+    {
+      "slug": "openclaw-multimodal-stack",
+      "title": "OpenClaw Multimodal Stack",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/openclaw-multimodal-stack/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/openclaw-multimodal-stack/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "platformer-game",
+      "title": "Platformer Game",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/platformer-game/",
+      "liveLabel": "Live Demo",
+      "videoUrl": "/projects/platformer-game/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "playwright-automation",
+      "title": "Playwright Automation",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/playwright-automation/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/playwright-automation/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "poker-ai-arena",
+      "title": "Poker AI Arena",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/poker-ai-arena/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/poker-ai-arena/videos/01-real-demo-walkthrough.mp4",
+      "status": "verified"
+    },
+    {
+      "slug": "poker-ai-web",
+      "title": "Poker AI Web — Learning Card-Game AI Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/poker-AI-web/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/poker-ai-web/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "prism-runner-3d",
+      "title": "Prism Runner 3d",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/prism-runner-3d/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/prism-runner-3d/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "procedural-3d-maze",
+      "title": "Procedural 3D Maze",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/procedural-3d-maze/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/procedural-3d-maze/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "procedural-dungeon-crawler",
+      "title": "Procedural Dungeon Crawler",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/procedural-dungeon-crawler/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/procedural-dungeon-crawler/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "projectmind",
+      "title": "Projectmind",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/project-mind/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/projectmind/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "quant-strategy-agent-lab",
+      "title": "Quant Strategy Agent Lab",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/quant-strategy-agent-lab/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/quant-strategy-agent-lab/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "r3f-rpg-builder",
+      "title": "R3f RPG Builder",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/react-three-fiber-rpg-builder/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/r3f-rpg-builder/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "recsys-benchmark-suite",
+      "title": "Recommendation Benchmark Suite",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/recsys-benchmark-suite/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/recsys-benchmark-suite/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "research-paper-and-knowledge-workspace",
+      "title": "Research Paper & Knowledge Workspace",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/research-paper-and-knowledge-workspace/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/research-paper-and-knowledge-workspace/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "restoreAI-studio",
+      "title": "RestorAI Studio — AI Image Restoration Portfolio Workbench",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/restoreAI-studio/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/restoreAI-studio/videos/01-real-demo-tour.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "retailpulse-bi-recommender",
+      "title": "RetailPulse BI & Recommendation Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/retailpulse-bi-recommender/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/retailpulse-bi-recommender/videos/01-real-full-verification.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "rigview3d",
+      "title": "Rigview3d",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/rigview3d/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/rigview3d/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "rocm-image-video-stack",
+      "title": "ROCm Image & Video AI Generation Stack",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/rocm-image-video-stack/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/rocm-image-video-stack/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "runner-inspired-3d",
+      "title": "3D Rushy Runner",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/3d-rushy-runner/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/runner-inspired-3d/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "sailing-adventure",
+      "title": "Sailing Adventure",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/sailing-adventure/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/sailing-adventure/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "school-library-lms",
+      "title": "School Library Lms",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/school-library-lms/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/school-library-lms/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "scrapers",
+      "title": "Scrapers",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/scrapers/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/scrapers/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "sd-multimodal-platform",
+      "title": "SD Multi-Modal Platform: Portfolio-Ready Stable Diffusion Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/sd-multimodal-platform/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/sd-multimodal-platform/videos/01-real-demo-walkthrough.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "signal-diver-3d",
+      "title": "Signal Diver 3d",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/signal-diver-3d/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/signal-diver-3d/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "smart-home-energy-monitor",
+      "title": "Smart Home Energy Monitor",
+      "category": "interactive-3d",
+      "liveUrl": "https://justin21523.github.io/smart-home-energy-monitor/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/smart-home-energy-monitor/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "soundscape-taiwan",
+      "title": "Soundscape Taiwan",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/soundscape-taiwan/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/soundscape-taiwan/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "starforge-AI-narrative",
+      "title": "Starforge AI Narrative",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/starforge-AI-narrative/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/starforge-AI-narrative/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "text2sql-evaluation-harness",
+      "title": "Text2SQL Evaluation Harness",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/text2sql-evaluation-harness/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/text2sql-evaluation-harness/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "TGW-playbook",
+      "title": "TGW Playbook",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/TGW-playbook/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/TGW-playbook/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "the-archive-that-watches-you",
+      "title": "The Archive That Watches You",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/3d-library-searching-quest/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/the-archive-that-watches-you/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "the-classrooms",
+      "title": "The Classrooms",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/the-classrooms/",
+      "liveLabel": "Live Demo",
+      "videoUrl": "/projects/the-classrooms/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "threejs-product-viewer",
+      "title": "Threejs Product Viewer",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/threejs-product-viewer/",
+      "liveLabel": "App Demo",
+      "videoUrl": "/projects/threejs-product-viewer/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "traffic-pulse",
+      "title": "Traffic Pulse",
+      "category": "information-system",
+      "liveUrl": "https://justin21523.github.io/traffic-pulse/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/traffic-pulse/videos/playwright-portfolio-case-study.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "transformer-core",
+      "title": "Transformer Core",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/transformer-core/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/transformer-core/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "tripscore",
+      "title": "TripScore: Explainable Destination Scoring & Recommendation",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/tripscore/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/tripscore/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "tts-voice-app",
+      "title": "TTS Voice App",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/tts-voice-app/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/tts-voice-app/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "urban-analytics-core",
+      "title": "urban-analytics-core",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/urban-analytics-core/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/urban-analytics-core/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "vanilla-dom-playground",
+      "title": "Vanilla DOM Playground",
+      "category": "frontend",
+      "liveUrl": "https://justin21523.github.io/vanilla-dom-playground/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "/projects/vanilla-dom-playground/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "video-family-lora-hub",
+      "title": "Video Family LoRA Hub",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/video-family-lora-hub/",
+      "liveLabel": "Open Interactive Demo",
+      "videoUrl": "/projects/video-family-lora-hub/videos/01-real-demo-walkthrough.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "video-gen",
+      "title": "video-gen: ROCm Video-Gen Environment Governance Workspace",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/video-gen/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/video-gen/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "video-gen-factory",
+      "title": "Video Gen Factory",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/video-gen-factory/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/video-gen-factory/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "vision-quest",
+      "title": "VisionQuest Multi-Modal AI Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/vision-quest/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/vision-quest/videos/01-real-demo-tour.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "web-auto-concepts",
+      "title": "Web Auto Concepts",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/web-auto-concepts/",
+      "liveLabel": "Static Demo Site",
+      "videoUrl": "https://justin21523.github.io/web-auto-concepts/#demo-video",
+      "status": "verified"
+    },
+    {
+      "slug": "YouTube-Web-Automation-Analysis",
+      "title": "YouTube Web Automation & Analysis Platform",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/YouTube-Web-Automation-Analysis/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/YouTube-Web-Automation-Analysis/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    },
+    {
+      "slug": "ytp-factory",
+      "title": "YTP Factory — AI-Driven Video Automation Factory",
+      "category": "ai-data",
+      "liveUrl": "https://justin21523.github.io/ytp-factory/",
+      "liveLabel": "Interactive Demo",
+      "videoUrl": "/projects/ytp-factory/videos/playwright-external-live-demo.webm",
+      "status": "verified"
+    }
+  ]
+}

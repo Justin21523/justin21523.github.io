@@ -16,7 +16,33 @@
     "xUnit"
   ],
   "coverImage": "/portfolio/projects/CulturePOS/cover.webp",
-  "links": [],
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/CulturePOS/",
+      "label": {
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
+      },
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/CulturePOS",
+      "label": {
+        "zh-TW": "GitHub",
+        "en": "GitHub"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/CulturePOS#readme",
+      "label": {
+        "zh-TW": "Project Docs",
+        "en": "Project Docs"
+      }
+    }
+  ],
   "metadata": {
     "needsReview": false,
     "missingFields": [

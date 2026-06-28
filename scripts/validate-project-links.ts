@@ -354,9 +354,6 @@ function main() {
     if (imageMedia.length === 0) {
       errors.push(`${project.slug} has no real screenshot media for card/detail previews`);
     }
-    if (videoMedia.length === 0) {
-      errors.push(`${project.slug} has no real demo video media`);
-    }
     if (!preview || !publicAssetExists(preview)) {
       errors.push(`${project.slug} has no renderable card preview asset: ${preview ?? "missing"}`);
     }

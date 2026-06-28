@@ -6,5 +6,31 @@
   "year": 2026,
   "technologies": [],
   "coverImage": "/portfolio/projects/data-pipelines/cover.webp",
-  "links": []
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/data-pipelines/",
+      "label": {
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
+      },
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/data-pipelines",
+      "label": {
+        "zh-TW": "GitHub",
+        "en": "GitHub"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/data-pipelines#readme",
+      "label": {
+        "zh-TW": "Project Docs",
+        "en": "Project Docs"
+      }
+    }
+  ]
 }

@@ -15,7 +15,33 @@
     "xUnit"
   ],
   "coverImage": "/portfolio/projects/MetaCleaner/cover.webp",
-  "links": [],
+  "links": [
+    {
+      "kind": "live",
+      "url": "https://justin21523.github.io/MetaCleaner/",
+      "label": {
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
+      },
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Justin21523/MetaCleaner",
+      "label": {
+        "zh-TW": "GitHub",
+        "en": "GitHub"
+      }
+    },
+    {
+      "kind": "documentation",
+      "url": "https://github.com/Justin21523/MetaCleaner#readme",
+      "label": {
+        "zh-TW": "Project Docs",
+        "en": "Project Docs"
+      }
+    }
+  ],
   "metadata": {
     "needsReview": false,
     "missingFields": [

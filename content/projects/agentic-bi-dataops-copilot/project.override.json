@@ -20,10 +20,10 @@
   "links": [
     {
       "kind": "live",
-      "url": "/projects/agentic-bi-dataops-copilot#demo-guide",
+      "url": "https://justin21523.github.io/agentic-bi-dataops-copilot/",
       "label": {
-        "zh-TW": "作品集案例 Demo",
-        "en": "Portfolio Case Study Demo"
+        "zh-TW": "Static Demo Site",
+        "en": "Static Demo Site"
       },
       "primary": true
     },
