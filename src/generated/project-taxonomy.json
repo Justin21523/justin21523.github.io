@@ -283,6 +283,7 @@
     "vLLM",
     "Vue 3 + TypeScript",
     "Web Audio API",
+    "WebAssembly",
     "WebGL",
     "WebSocket",
     "WebSockets",
@@ -507,6 +508,7 @@
   "platforms": [
     "API",
     "browser",
+    "Browser Demo",
     "CLI",
     "Command Line",
     "CPU fallback",

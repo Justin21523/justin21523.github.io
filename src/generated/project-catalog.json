@@ -646,7 +646,7 @@
         "content/projects/2d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.377Z",
+      "lastScannedAt": "2026-06-28T23:03:58.596Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1410,7 +1410,7 @@
         "content/projects/3d-animation-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.382Z",
+      "lastScannedAt": "2026-06-28T23:03:58.601Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -1757,7 +1757,7 @@
         "content/projects/3d-maze-explorer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.383Z",
+      "lastScannedAt": "2026-06-28T23:03:58.602Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -2107,7 +2107,7 @@
         "content/projects/3d-platformer-runner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.384Z",
+      "lastScannedAt": "2026-06-28T23:03:58.603Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -3057,7 +3057,7 @@
         "content/projects/agentic-bi-dataops-copilot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.385Z",
+      "lastScannedAt": "2026-06-28T23:03:58.603Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3589,7 +3589,7 @@
         "content/projects/ai-3d-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.387Z",
+      "lastScannedAt": "2026-06-28T23:03:58.605Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -3963,7 +3963,7 @@
         "content/projects/ai-game-website/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.387Z",
+      "lastScannedAt": "2026-06-28T23:03:58.605Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4429,7 +4429,7 @@
         "content/projects/ai-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.388Z",
+      "lastScannedAt": "2026-06-28T23:03:58.606Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -4970,7 +4970,7 @@
         "content/projects/amazon-review-intelligence/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.389Z",
+      "lastScannedAt": "2026-06-28T23:03:58.607Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -5719,7 +5719,7 @@
         "content/projects/animation-ai-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.390Z",
+      "lastScannedAt": "2026-06-28T23:03:58.609Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -6295,7 +6295,7 @@
         "content/projects/anime-adventure-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.391Z",
+      "lastScannedAt": "2026-06-28T23:03:58.610Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -6635,7 +6635,7 @@
         "content/projects/anime-lora-pipeline/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.392Z",
+      "lastScannedAt": "2026-06-28T23:03:58.610Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7026,7 +7026,7 @@
         "content/projects/aqua-rush/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.392Z",
+      "lastScannedAt": "2026-06-28T23:03:58.611Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -7160,11 +7160,12 @@
       "Dapper",
       "FluentMigrator",
       "ImageSharp",
+      "WebAssembly",
       "MVVM",
       "Clean Architecture"
     ],
     "coverImage": "/portfolio/projects/ArchiveFlow/cover.webp",
-    "subtitle": "A node-based desktop workflow system for personal digital archives, metadata, file processing, and Dublin Core export.",
+    "subtitle": "A node-based Workspace for personal digital archives, metadata, relationships, and export workflows.",
     "githubUrl": "https://github.com/Justin21523/archive-flow-studio",
     "liveDemoUrl": "https://justin21523.github.io/archive-flow-studio/",
     "readmeUrl": "https://github.com/Justin21523/archive-flow-studio#readme",
@@ -7201,8 +7202,8 @@
         "kind": "live",
         "url": "https://justin21523.github.io/archive-flow-studio/",
         "label": {
-          "zh-TW": "網站 Demo",
-          "en": "Live Demo"
+          "zh-TW": "Workspace 網頁 Demo",
+          "en": "Workspace Browser Demo"
         },
         "primary": true
       },
@@ -7225,12 +7226,12 @@
           "en": "ArchiveFlow Studio node workflow canvas with source, processing, and output nodes"
         },
         "title": {
-          "zh-TW": "節點式典藏工作流程畫布",
-          "en": "Node-based archive workflow canvas"
+          "zh-TW": "Browser Workspace 節點畫布 Demo",
+          "en": "Browser Workspace node canvas demo"
         },
         "caption": {
-          "zh-TW": "實際桌面應用截圖，展示視覺化工作流程、檔案處理與 Metadata 管線。",
-          "en": "Real desktop screenshot showing visual workflow design, file processing, and metadata pipeline controls."
+          "zh-TW": "瀏覽器版以 Demo Mode 展示節點畫布、inspector、結果表、mock import/export 與 metadata preview/apply 流程。",
+          "en": "The Browser Demo uses Demo Mode to show the node canvas, inspector, result table, mock import/export, and metadata preview/apply workflow."
         },
         "featured": true
       },
@@ -7432,15 +7433,16 @@
         "Dapper",
         "FluentMigrator",
         "ImageSharp",
+        "WebAssembly",
         "MVVM",
         "Clean Architecture"
       ],
       "keywords": [
         "visual workflow",
         "Dublin Core export",
-        "SQLite FTS5",
-        "plugin architecture",
-        "thumbnail generation"
+        "SQLite desktop storage",
+        "browser-safe demo mode",
+        "metadata preview apply"
       ],
       "audiences": [
         "archivists",
@@ -7450,6 +7452,7 @@
       ],
       "contentTypes": [
         "desktop app",
+        "browser demo",
         "case study",
         "source code"
       ],
@@ -7461,6 +7464,7 @@
       ],
       "platforms": [
         "Desktop",
+        "Browser Demo",
         "Windows",
         "macOS",
         "Linux"
@@ -7486,11 +7490,13 @@
       "styling": [],
       "database": [
         "SQLite",
-        "SQLite FTS5"
+        "SQLite for Desktop",
+        "In-memory Browser Demo storage"
       ],
       "backend": [],
       "desktop": [
         "Avalonia UI",
+        "Avalonia WebAssembly",
         "XAML",
         "MVVM"
       ],
@@ -7511,8 +7517,8 @@
       "responsibilities": [
         "Visual workflow canvas design",
         "Metadata model and Dublin Core export design",
-        "SQLite persistence and search architecture",
-        "Plugin and background job pipeline design"
+        "SQLite persistence and repository architecture",
+        "Browser Demo mode and GitHub Pages deployment"
       ],
       "collaborationType": "Solo",
       "myContribution": "Designed and implemented the node workflow concept, metadata architecture, persistence layer, file processing pipeline, and Avalonia interface.",
@@ -7521,8 +7527,8 @@
         "digital archive workflow design",
         "metadata standards",
         "desktop interaction design",
-        "SQLite full-text search",
-        "plugin-oriented architecture"
+        "browser demo deployment",
+        "workflow-centered UI"
       ],
       "capabilities": [
         "metadata workflow",
@@ -7557,7 +7563,7 @@
         "content/projects/ArchiveFlow/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.393Z",
+      "lastScannedAt": "2026-06-28T23:03:58.611Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -7574,23 +7580,23 @@
     "content": {
       "zh-TW": {
         "title": "ArchiveFlow Studio",
-        "summary": "ArchiveFlow Studio 是 C#、.NET 9 與 Avalonia 建立的跨平台桌面應用，核心是一個節點式 Metadata 工作流程畫布。它結合 SQLite、Dapper、FluentMigrator、ImageSharp、FTS5 全文檢索、背景工作佇列與外掛架構，用來整理檔案、產生縮圖、建立關聯、匯出 Dublin Core，呈現我在數位典藏與資訊架構上的特色。",
-        "description": "ArchiveFlow Studio 是目前最能代表我圖書資訊與工程交集的作品之一。它不是單純的檔案管理器，而是一個把「數位典藏流程」視覺化、模組化、可重複執行的桌面系統。\n\n這個專案的重點在於 Metadata 與 workflow。使用者可以在畫布上放入來源節點、篩選節點、Metadata 操作節點、關係節點與輸出節點，把原本散落的檔案整理流程變成一條可調整的管線。對我來說，這正好結合數位典藏、分類、檢索、知識組織與互動 UI 設計。\n\n技術上，ArchiveFlow 使用 Clean Architecture、MVVM 和 Repository Pattern。Avalonia UI 負責桌面介面與自訂畫布；SQLite + Dapper 負責本機資料存取；FluentMigrator 管理資料庫 schema；ImageSharp 產生縮圖；SQLite FTS5 提供全文檢索。這些不是為了堆技術名詞，而是對應到實際需求：大量檔案、彈性 Metadata、快速搜尋與背景處理。\n\n這個作品會是網站中的主力案例，因為它最清楚說明我不只是會寫前端或桌面 UI，也能把資訊架構、Metadata 標準與工程實作串成一個完整產品。",
-        "tagline": "以節點式工作流程管理個人數位典藏、Metadata、檔案處理與 Dublin Core 匯出。",
-        "role": "獨立開發者 / Metadata 系統設計者 / 桌面應用工程師",
-        "problem": "個人或小型單位的數位檔案常散落在資料夾中，缺少一致的 Metadata、關係脈絡、批次處理流程與可交換的典藏格式。",
-        "solution": "我設計一個節點式工作流程系統，讓使用者把檔案來源、篩選、Metadata 操作、關係建立與輸出串成可重複執行的管線，並用 SQLite + FTS5 支援本機檢索。",
-        "outcome": "完成一個能把數位典藏知識轉成互動桌面工具的代表作品，特別適合展示 Metadata、Dublin Core、全文檢索、工作流程設計與 Avalonia 自訂 UI 能力。",
+        "summary": "ArchiveFlow Studio 是以 C#、.NET 10 與 Avalonia 建立的跨平台桌面應用，核心是節點式 Workspace canvas。Desktop Full Version 使用本機 SQLite、Repository、Metadata editor、Graph Explorer、Import/Export pipeline；Browser Workspace Demo 則以 Avalonia WebAssembly 發布到 GitHub Pages，使用內建 sample data 與 in-memory storage 展示主要操作流程。",
+        "description": "ArchiveFlow Studio 是我用來展示「圖書資訊、Metadata、桌面 UI 與工程實作」交集的代表作品。它不是單純的檔案列表，而是把個人數位典藏流程變成可以操作的節點式 Workspace。\n\n目前完整能力以 Desktop Full Version 為主，包含本機資料庫、檔案匯入、Metadata 編輯、關係建立、Graph Explorer 與匯出紀錄。Browser Workspace Demo 則是為了 portfolio 線上展示而做的 WebAssembly 版本：它不掃描使用者電腦、不寫入本機 SQLite，也不直接輸出到任意資料夾，而是用內建 sample data 模擬主要流程。\n\nDemo 的重點是讓使用者一打開網頁就看到 Workspace canvas，可以理解 source、filter、search、metadata action、result table 之間如何連接，並在右側 inspector 看見不同節點的作用與目前輸出。這讓線上作品集可以展示產品核心互動，同時不誤導使用者以為瀏覽器版等同桌面版。",
+        "tagline": "以節點式 Workspace 管理個人數位典藏、Metadata、關係與匯出流程。",
+        "role": "獨立開發者 / Metadata 系統設計者 / .NET + Avalonia 工程師",
+        "problem": "個人或小型單位的數位檔案常散落在資料夾中，缺少一致 Metadata、關係脈絡、批次處理流程與可交換的典藏格式。",
+        "solution": "我設計一個節點式 Workspace，讓使用者把檔案來源、篩選、搜尋、Metadata 操作、關係建立與輸出串成可預覽、可套用、可重複執行的流程。瀏覽器 Demo 則保留這個互動模型，但用模擬資料避免觸碰瀏覽器 sandbox 無法支援的桌面功能。",
+        "outcome": "完成 Desktop Full Version 與 Browser Workspace Demo 的雙版本展示：桌面版保留完整本機能力，網頁版讓面試官可以直接在線上操作節點畫布、inspector、結果表、mock import/export 與 metadata preview/apply。",
         "targetUsers": [
           "作品集審閱者與面試官",
           "需要快速理解專案目的、技術棧與成熟度的技術讀者"
         ],
         "technicalHighlights": [
-          "偵測到的主要技術線索：C#, .NET, Avalonia, SQLite, Dapper, FluentMigrator, ImageSharp, MVVM, Clean Architecture",
+          "偵測到的主要技術線索：C#, .NET, Avalonia, SQLite, Dapper, FluentMigrator, ImageSharp, WebAssembly, MVVM, Clean Architecture",
           "已有 README 作為後續補齊案例研究的依據",
           "已連接公開 GitHub repository，可從作品集追溯原始碼"
         ],
-        "architecture": "此專案目前由 portfolio catalog pipeline 依 README、Git metadata、package/build 設定與素材線索建立案例頁。正式架構說明仍需依實際 source code 補齊；目前可確認的技術線索包含：C#, .NET, Avalonia, SQLite, Dapper, FluentMigrator, ImageSharp, MVVM, Clean Architecture。",
+        "architecture": "此專案目前由 portfolio catalog pipeline 依 README、Git metadata、package/build 設定與素材線索建立案例頁。正式架構說明仍需依實際 source code 補齊；目前可確認的技術線索包含：C#, .NET, Avalonia, SQLite, Dapper, FluentMigrator, ImageSharp, WebAssembly, MVVM, Clean Architecture。",
         "dataFlow": "目前尚未完成可公開的資料流程說明。若此專案含資料處理、AI pipeline 或後端 API，後續應補上 input、processing、storage、UI/output 的端到端流程。",
         "projectStructure": "ArchiveFlow/\n  README.md              # project documentation, when available\n  source files           # implementation reviewed by local audit\n  package/build config   # detected capability signals",
         "setupGuide": "This project does not expose a verified runnable web command yet. Review the README/source tree and add exact install, run, test, and build commands before interview use.\nNo verified build command was detected. Treat the current portfolio page as a case-study placeholder until build steps are reviewed.",
@@ -7607,41 +7613,41 @@
         "features": [],
         "metrics": [],
         "highlights": [
-          "從零設計節點式工作流程畫布，支援拖曳、縮放、節點選取與 Bezier 連線。",
-          "以 EAV Metadata 模型處理彈性欄位，並支援 Dublin Core XML 匯出。",
-          "使用 SQLite、Dapper 與 FTS5 建立本機檢索與資料保存能力。",
-          "加入背景工作佇列與 ImageSharp 縮圖產生，避免大量檔案處理卡住 UI。"
+          "Browser Demo 第一畫面即為 Workspace canvas，包含節點庫、可拖曳節點、inspector、result table 與 pending changes。",
+          "Desktop 版保留本機 SQLite、Metadata Editor、Graph Explorer、Import Pipeline 與 Export Job Log。",
+          "以 service abstraction 區分桌面功能與瀏覽器 Demo Mode，避免把平台差異散落在 UI 中。",
+          "GitHub Pages 部署的是 Avalonia WebAssembly publish 後的靜態 wwwroot，不是假裝執行桌面程式。"
         ],
         "challenges": [
-          "節點畫布需要同時處理互動、資料流、參數狀態與視覺連線。",
-          "典藏 Metadata 欄位不固定，資料模型必須兼顧彈性與可查詢性。",
-          "大量檔案索引與縮圖產生必須移到背景執行，不能影響操作體驗。"
+          "瀏覽器 sandbox 不能任意掃描本機資料夾、寫入 SQLite 檔案或使用原生 file dialog，因此需要清楚的 Demo Mode 邊界。",
+          "Workspace canvas 要在桌面與瀏覽器都維持可理解的節點流程、inspector 與結果回饋。",
+          "portfolio 頁面必須清楚區分 Desktop Full Version 與 Browser Demo Version，避免對功能完成度造成誤解。"
         ],
         "nextSteps": [
-          "強化外掛 API 文件，讓新的檔案處理節點可以獨立擴充。",
-          "加入更多 Metadata 標準格式，例如 MODS 或自訂欄位 mapping。",
-          "補上 workflow history、undo/redo 與匯入範本。"
+          "持續補齊更多 built-in nodes 的實際執行測試。",
+          "擴充 Workflow save/load 與更多 metadata mapping。",
+          "補上更完整的 demo screenshots 與短影片導覽。"
         ]
       },
       "en": {
         "title": "ArchiveFlow Studio",
-        "summary": "ArchiveFlow Studio is a cross-platform desktop app built with C#, .NET 9, and Avalonia. Its core is a node-based metadata workflow canvas backed by SQLite, Dapper, FluentMigrator, ImageSharp, FTS5 full-text search, background jobs, and a plugin-oriented architecture.",
-        "description": "ArchiveFlow Studio is one of the strongest examples of where my library and information science background meets software engineering. It is not just a file manager. It turns a digital archive workflow into a visual, modular, repeatable desktop system.\n\nThe central idea is metadata plus workflow. Users can place source nodes, filter nodes, metadata action nodes, relationship nodes, and output nodes on a canvas, turning scattered file organization tasks into an adjustable pipeline. This connects digital archives, classification, retrieval, knowledge organization, and interaction design in one product.\n\nTechnically, ArchiveFlow uses Clean Architecture, MVVM, and the Repository Pattern. Avalonia powers the desktop interface and custom canvas. SQLite and Dapper handle local data access. FluentMigrator manages schema changes. ImageSharp generates thumbnails. SQLite FTS5 powers full-text discovery. Each technology maps to an actual product need: large file sets, flexible metadata, fast search, and non-blocking processing.\n\nThis is a primary portfolio case study because it shows that I can connect information architecture and metadata standards with real engineering implementation, not just describe them at a conceptual level.",
-        "tagline": "A node-based desktop workflow system for personal digital archives, metadata, file processing, and Dublin Core export.",
-        "role": "Independent Developer / Metadata System Designer / Desktop Application Developer",
+        "summary": "ArchiveFlow Studio is a cross-platform desktop app built with C#, .NET 10, and Avalonia. Its core is a node-based Workspace canvas. The Desktop Full Version uses local SQLite, repositories, a metadata editor, graph explorer, import/export pipelines, and job logs. The Browser Workspace Demo is published to GitHub Pages with Avalonia WebAssembly and uses built-in sample data plus in-memory storage for online review.",
+        "description": "ArchiveFlow Studio is one of my strongest examples of combining library and information science, metadata workflow design, desktop UI, and practical engineering. It is not just a file list. It turns a personal digital archive workflow into an interactive node-based Workspace.\n\nThe complete product direction is represented by the Desktop Full Version, including local persistence, file import, metadata editing, relationship creation, graph exploration, and export history. The Browser Workspace Demo is a WebAssembly version for portfolio review. It does not scan the visitor's computer, write to a local SQLite database, or export to arbitrary folders. Instead, it uses built-in sample data to simulate the main workflow safely.\n\nThe demo opens on the Workspace canvas so reviewers immediately see how source, filter, search, metadata action, and result nodes connect. The inspector explains the selected node, while the result table and pending changes show the effect of executing the workflow. This keeps the online experience focused on the product's core interaction without pretending the browser version is the full desktop app.",
+        "tagline": "A node-based Workspace for personal digital archives, metadata, relationships, and export workflows.",
+        "role": "Independent Developer / Metadata System Designer / .NET + Avalonia Engineer",
         "problem": "Personal and small-organization digital files often live in scattered folders without consistent metadata, relationship context, batch processing workflows, or exchangeable archive formats.",
-        "solution": "I designed a node-based workflow system where users can connect file sources, filters, metadata actions, relationship builders, and output nodes into repeatable processing pipelines. SQLite and FTS5 provide local persistence and search.",
-        "outcome": "The project demonstrates how my digital archive background becomes a real interactive desktop tool, especially around metadata modeling, Dublin Core, full-text search, workflow design, and custom Avalonia UI.",
+        "solution": "I designed a node-based Workspace where users can connect file sources, filters, search nodes, metadata actions, relationship operations, and outputs into previewable and repeatable workflows. The Browser Demo preserves that interaction model with simulated data so it stays safe inside the browser sandbox.",
+        "outcome": "The project now has a Desktop Full Version and a Browser Workspace Demo: the desktop app keeps full local capabilities, while the web demo lets reviewers directly try the node canvas, inspector, result table, mock import/export, and metadata preview/apply flow online.",
         "targetUsers": [
           "Portfolio reviewers and interviewers",
           "Technical readers who need a quick view of purpose, stack, and maturity"
         ],
         "technicalHighlights": [
-          "Detected technical signals: C#, .NET, Avalonia, SQLite, Dapper, FluentMigrator, ImageSharp, MVVM, Clean Architecture",
+          "Detected technical signals: C#, .NET, Avalonia, SQLite, Dapper, FluentMigrator, ImageSharp, WebAssembly, MVVM, Clean Architecture",
           "README evidence exists and can support a fuller reviewed case study",
           "A public GitHub repository is linked for source traceability"
         ],
-        "architecture": "This case study is generated from the portfolio catalog pipeline using README, Git metadata, package/build configuration, and media signals. The final architecture narrative still needs source-level review. Current detected technology signals include: C#, .NET, Avalonia, SQLite, Dapper, FluentMigrator, ImageSharp, MVVM, Clean Architecture.",
+        "architecture": "This case study is generated from the portfolio catalog pipeline using README, Git metadata, package/build configuration, and media signals. The final architecture narrative still needs source-level review. Current detected technology signals include: C#, .NET, Avalonia, SQLite, Dapper, FluentMigrator, ImageSharp, WebAssembly, MVVM, Clean Architecture.",
         "dataFlow": "A public data-flow narrative is not fully reviewed yet. If the project includes data processing, AI pipelines, or backend APIs, the next pass should document input, processing, storage, and UI/output flow end to end.",
         "projectStructure": "ArchiveFlow/\n  README.md              # project documentation, when available\n  source files           # implementation reviewed by local audit\n  package/build config   # detected capability signals",
         "setupGuide": "This project does not expose a verified runnable web command yet. Review the README/source tree and add exact install, run, test, and build commands before interview use.\nNo verified build command was detected. Treat the current portfolio page as a case-study placeholder until build steps are reviewed.",
@@ -7658,20 +7664,20 @@
         "features": [],
         "metrics": [],
         "highlights": [
-          "Builds a custom node workflow canvas with drag, zoom, selection, and Bezier connections.",
-          "Uses an EAV metadata model for flexible fields and supports Dublin Core XML export.",
-          "Combines SQLite, Dapper, and FTS5 for local persistence and file discovery.",
-          "Runs heavy file indexing and thumbnail generation through background jobs with ImageSharp."
+          "The Browser Demo opens directly into the Workspace canvas with a node library, draggable nodes, inspector, result table, and pending changes.",
+          "The desktop app keeps local SQLite, Metadata Editor, Graph Explorer, Import Pipeline, and Export Job Log capabilities.",
+          "Platform-specific behavior is separated through service abstractions instead of scattered browser/desktop checks.",
+          "GitHub Pages deploys the static wwwroot produced by Avalonia WebAssembly publish, not a desktop executable."
         ],
         "challenges": [
-          "The canvas has to coordinate interaction state, data flow, parameters, and visual connections.",
-          "Archive metadata is flexible by nature, so the schema must stay adaptable while remaining searchable.",
-          "Large file indexing and thumbnail generation must not block the desktop UI."
+          "The browser sandbox cannot scan arbitrary local folders, write a native SQLite file, or use native file dialogs, so Demo Mode boundaries must be explicit.",
+          "The Workspace canvas needs to remain understandable across desktop and browser contexts.",
+          "The portfolio page must clearly distinguish Desktop Full Version from Browser Demo Version."
         ],
         "nextSteps": [
-          "Document the plugin API so new processing nodes can be added independently.",
-          "Support more metadata standards such as MODS or configurable field mappings.",
-          "Add workflow history, undo/redo, and reusable import templates."
+          "Add more execution tests for built-in nodes.",
+          "Expand workflow save/load and metadata mapping.",
+          "Add updated screenshots and a short guided demo video."
         ]
       }
     }
@@ -7881,7 +7887,7 @@
         "content/projects/AutoForge-llm-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.394Z",
+      "lastScannedAt": "2026-06-28T23:03:58.612Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8213,7 +8219,7 @@
         "content/projects/automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.394Z",
+      "lastScannedAt": "2026-06-28T23:03:58.612Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -8716,7 +8722,7 @@
         "content/projects/cafe-net-manager/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.394Z",
+      "lastScannedAt": "2026-06-28T23:03:58.613Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -9117,7 +9123,7 @@
         "content/projects/campus-quest-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.395Z",
+      "lastScannedAt": "2026-06-28T23:03:58.613Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -9740,7 +9746,7 @@
         "content/projects/charaforge-T2I-Lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.396Z",
+      "lastScannedAt": "2026-06-28T23:03:58.614Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -10154,7 +10160,7 @@
         "content/projects/ChronosMap/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.397Z",
+      "lastScannedAt": "2026-06-28T23:03:58.615Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -10616,7 +10622,7 @@
         "content/projects/commercial-ml-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.397Z",
+      "lastScannedAt": "2026-06-28T23:03:58.615Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11049,7 +11055,7 @@
         "content/projects/commute-reliability-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.398Z",
+      "lastScannedAt": "2026-06-28T23:03:58.616Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11471,7 +11477,7 @@
         "content/projects/css-advanced-mastery/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.398Z",
+      "lastScannedAt": "2026-06-28T23:03:58.616Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -11886,7 +11892,7 @@
         "content/projects/CulturePOS/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.399Z",
+      "lastScannedAt": "2026-06-28T23:03:58.617Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -12280,7 +12286,7 @@
         "content/projects/data-narrative-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.399Z",
+      "lastScannedAt": "2026-06-28T23:03:58.617Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -12619,7 +12625,7 @@
         "content/projects/data-pipelines/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.399Z",
+      "lastScannedAt": "2026-06-28T23:03:58.618Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -13391,7 +13397,7 @@
         "content/projects/dataagent-analyst/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.400Z",
+      "lastScannedAt": "2026-06-28T23:03:58.619Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -13753,7 +13759,7 @@
         "content/projects/datalab-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.401Z",
+      "lastScannedAt": "2026-06-28T23:03:58.619Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14255,7 +14261,7 @@
         "content/projects/dcard-trending-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.401Z",
+      "lastScannedAt": "2026-06-28T23:03:58.620Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -14628,7 +14634,7 @@
         "content/projects/digital-archive-review-board/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.402Z",
+      "lastScannedAt": "2026-06-28T23:03:58.620Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -14993,7 +14999,7 @@
         "content/projects/digital-living/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.402Z",
+      "lastScannedAt": "2026-06-28T23:03:58.621Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -15425,7 +15431,7 @@
         "content/projects/discord-clone/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.402Z",
+      "lastScannedAt": "2026-06-28T23:03:58.621Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -15768,7 +15774,7 @@
         "content/projects/dom-visualizer-oop/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.403Z",
+      "lastScannedAt": "2026-06-28T23:03:58.622Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -16097,7 +16103,7 @@
         "content/projects/edge-deid-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.403Z",
+      "lastScannedAt": "2026-06-28T23:03:58.622Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -16438,7 +16444,7 @@
         "content/projects/elio-discord-bot/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.404Z",
+      "lastScannedAt": "2026-06-28T23:03:58.622Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -17243,7 +17249,7 @@
         "content/projects/excel-python-data-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.404Z",
+      "lastScannedAt": "2026-06-28T23:03:58.623Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -18087,7 +18093,7 @@
         "content/projects/fandom-gui-scraper/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.405Z",
+      "lastScannedAt": "2026-06-28T23:03:58.624Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -18498,7 +18504,7 @@
         "content/projects/frontend-interaction-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.406Z",
+      "lastScannedAt": "2026-06-28T23:03:58.624Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -18849,7 +18855,7 @@
         "content/projects/game-dialogue-simulator/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.407Z",
+      "lastScannedAt": "2026-06-28T23:03:58.625Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -19348,7 +19354,7 @@
         "content/projects/gan-ae-vision-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.407Z",
+      "lastScannedAt": "2026-06-28T23:03:58.625Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -19757,7 +19763,7 @@
         "content/projects/geovideo-env-check/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.407Z",
+      "lastScannedAt": "2026-06-28T23:03:58.626Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -20194,7 +20200,7 @@
         "content/projects/govcase-tracker/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.408Z",
+      "lastScannedAt": "2026-06-28T23:03:58.627Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -20604,7 +20610,7 @@
         "content/projects/HeritageMapStudio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.408Z",
+      "lastScannedAt": "2026-06-28T23:03:58.627Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -21004,7 +21010,7 @@
         "content/projects/highway-adventure-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.409Z",
+      "lastScannedAt": "2026-06-28T23:03:58.628Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -21331,7 +21337,7 @@
         "content/projects/html-css-interactive-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.409Z",
+      "lastScannedAt": "2026-06-28T23:03:58.628Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -21779,7 +21785,7 @@
         "content/projects/image-process/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.409Z",
+      "lastScannedAt": "2026-06-28T23:03:58.629Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -23040,7 +23046,7 @@
         "content/projects/information-retrieval/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.410Z",
+      "lastScannedAt": "2026-06-28T23:03:58.631Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -23481,7 +23487,7 @@
         "content/projects/intro-to-dl/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.411Z",
+      "lastScannedAt": "2026-06-28T23:03:58.632Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -23922,7 +23928,7 @@
         "content/projects/intro-to-ml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.411Z",
+      "lastScannedAt": "2026-06-28T23:03:58.632Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -24347,7 +24353,7 @@
         "content/projects/intro-to-vml/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.412Z",
+      "lastScannedAt": "2026-06-28T23:03:58.633Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -25107,7 +25113,7 @@
         "content/projects/ir-rag-evaluation-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.413Z",
+      "lastScannedAt": "2026-06-28T23:03:58.633Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -25444,7 +25450,7 @@
         "content/projects/javascript-game-physics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.413Z",
+      "lastScannedAt": "2026-06-28T23:03:58.634Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -25975,7 +25981,7 @@
         "content/projects/javascript-platformer-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.414Z",
+      "lastScannedAt": "2026-06-28T23:03:58.634Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -26669,7 +26675,7 @@
         "content/projects/libracore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.414Z",
+      "lastScannedAt": "2026-06-28T23:03:58.635Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -27016,7 +27022,7 @@
         "content/projects/libradesk/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.415Z",
+      "lastScannedAt": "2026-06-28T23:03:58.635Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -27473,7 +27479,7 @@
         "content/projects/library-reach-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.415Z",
+      "lastScannedAt": "2026-06-28T23:03:58.636Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -27797,7 +27803,7 @@
         "content/projects/llm-switch-chat/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.416Z",
+      "lastScannedAt": "2026-06-28T23:03:58.636Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -28580,7 +28586,7 @@
         "content/projects/llm-train-eval-ship/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.416Z",
+      "lastScannedAt": "2026-06-28T23:03:58.636Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -29358,7 +29364,7 @@
         "content/projects/lyrics-cultural-analytics-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.417Z",
+      "lastScannedAt": "2026-06-28T23:03:58.637Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -29764,7 +29770,7 @@
         "content/projects/MetaCleaner/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.417Z",
+      "lastScannedAt": "2026-06-28T23:03:58.638Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -30196,7 +30202,7 @@
         "content/projects/metashelf/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.418Z",
+      "lastScannedAt": "2026-06-28T23:03:58.639Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -30524,7 +30530,7 @@
         "content/projects/mock-master/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.418Z",
+      "lastScannedAt": "2026-06-28T23:03:58.639Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -30867,7 +30873,7 @@
         "content/projects/modelops-dashboard/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.418Z",
+      "lastScannedAt": "2026-06-28T23:03:58.640Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -31397,7 +31403,7 @@
         "content/projects/mrt-ubike-analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.419Z",
+      "lastScannedAt": "2026-06-28T23:03:58.640Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -31841,7 +31847,7 @@
         "content/projects/multi-ai-agents/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.419Z",
+      "lastScannedAt": "2026-06-28T23:03:58.640Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -33066,7 +33072,7 @@
         "content/projects/music-intelligence-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.420Z",
+      "lastScannedAt": "2026-06-28T23:03:58.641Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -33425,7 +33431,7 @@
         "content/projects/my-3d-platformer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.421Z",
+      "lastScannedAt": "2026-06-28T23:03:58.642Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -33757,7 +33763,7 @@
         "content/projects/mystery-phenomena-files/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.422Z",
+      "lastScannedAt": "2026-06-28T23:03:58.642Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -34585,7 +34591,7 @@
         "content/projects/news-web-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.422Z",
+      "lastScannedAt": "2026-06-28T23:03:58.643Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -35146,7 +35152,7 @@
         "content/projects/nyc-taxi-mobility-analytics/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.425Z",
+      "lastScannedAt": "2026-06-28T23:03:58.643Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -35917,7 +35923,7 @@
         "content/projects/openalex-research-rag/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.426Z",
+      "lastScannedAt": "2026-06-28T23:03:58.644Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -36346,7 +36352,7 @@
         "content/projects/openclaw-multimodal-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.426Z",
+      "lastScannedAt": "2026-06-28T23:03:58.644Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -36710,7 +36716,7 @@
         "content/projects/platformer-game/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.427Z",
+      "lastScannedAt": "2026-06-28T23:03:58.645Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -37040,7 +37046,7 @@
         "content/projects/playwright-automation/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.427Z",
+      "lastScannedAt": "2026-06-28T23:03:58.645Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -37503,7 +37509,7 @@
         "content/projects/poker-ai-arena/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.427Z",
+      "lastScannedAt": "2026-06-28T23:03:58.646Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -37933,7 +37939,7 @@
         "content/projects/poker-ai-web/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.428Z",
+      "lastScannedAt": "2026-06-28T23:03:58.647Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -38333,7 +38339,7 @@
         "content/projects/prism-runner-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.428Z",
+      "lastScannedAt": "2026-06-28T23:03:58.647Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -38772,7 +38778,7 @@
         "content/projects/procedural-3d-maze/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.428Z",
+      "lastScannedAt": "2026-06-28T23:03:58.647Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -39191,7 +39197,7 @@
         "content/projects/procedural-dungeon-crawler/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.429Z",
+      "lastScannedAt": "2026-06-28T23:03:58.648Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -39543,7 +39549,7 @@
         "content/projects/projectmind/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.429Z",
+      "lastScannedAt": "2026-06-28T23:03:58.648Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -40104,7 +40110,7 @@
         "content/projects/quant-strategy-agent-lab/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.430Z",
+      "lastScannedAt": "2026-06-28T23:03:58.649Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -40489,7 +40495,7 @@
         "content/projects/r3f-rpg-builder/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.430Z",
+      "lastScannedAt": "2026-06-28T23:03:58.649Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -40942,7 +40948,7 @@
         "content/projects/recsys-benchmark-suite/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.430Z",
+      "lastScannedAt": "2026-06-28T23:03:58.649Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -41449,7 +41455,7 @@
         "content/projects/research-paper-and-knowledge-workspace/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.431Z",
+      "lastScannedAt": "2026-06-28T23:03:58.650Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -42141,7 +42147,7 @@
         "content/projects/restoreAI-studio/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.431Z",
+      "lastScannedAt": "2026-06-28T23:03:58.650Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -42939,7 +42945,7 @@
         "content/projects/retailpulse-bi-recommender/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.432Z",
+      "lastScannedAt": "2026-06-28T23:03:58.651Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -43310,7 +43316,7 @@
         "content/projects/rigview3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.433Z",
+      "lastScannedAt": "2026-06-28T23:03:58.652Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -43736,7 +43742,7 @@
         "content/projects/rocm-image-video-stack/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.433Z",
+      "lastScannedAt": "2026-06-28T23:03:58.652Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -44123,7 +44129,7 @@
         "content/projects/runner-inspired-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.434Z",
+      "lastScannedAt": "2026-06-28T23:03:58.653Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44513,7 +44519,7 @@
         "content/projects/sailing-adventure/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.434Z",
+      "lastScannedAt": "2026-06-28T23:03:58.653Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -44854,7 +44860,7 @@
         "content/projects/school-library-lms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.434Z",
+      "lastScannedAt": "2026-06-28T23:03:58.653Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -45193,7 +45199,7 @@
         "content/projects/scrapers/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.435Z",
+      "lastScannedAt": "2026-06-28T23:03:58.654Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -45955,7 +45961,7 @@
         "content/projects/sd-multimodal-platform/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.435Z",
+      "lastScannedAt": "2026-06-28T23:03:58.655Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -46379,7 +46385,7 @@
         "content/projects/signal-diver-3d/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.436Z",
+      "lastScannedAt": "2026-06-28T23:03:58.656Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -46717,7 +46723,7 @@
         "content/projects/smart-home-energy-monitor/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.436Z",
+      "lastScannedAt": "2026-06-28T23:03:58.656Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47049,7 +47055,7 @@
         "content/projects/soundscape-taiwan/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.437Z",
+      "lastScannedAt": "2026-06-28T23:03:58.656Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47470,7 +47476,7 @@
         "content/projects/starforge-AI-narrative/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.437Z",
+      "lastScannedAt": "2026-06-28T23:03:58.657Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -47913,7 +47919,7 @@
         "content/projects/text2sql-evaluation-harness/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.437Z",
+      "lastScannedAt": "2026-06-28T23:03:58.657Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -48245,7 +48251,7 @@
         "content/projects/TGW-playbook/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.438Z",
+      "lastScannedAt": "2026-06-28T23:03:58.657Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -48658,7 +48664,7 @@
         "content/projects/the-archive-that-watches-you/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.438Z",
+      "lastScannedAt": "2026-06-28T23:03:58.658Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -49017,7 +49023,7 @@
         "content/projects/the-classrooms/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.438Z",
+      "lastScannedAt": "2026-06-28T23:03:58.658Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -49360,7 +49366,7 @@
         "content/projects/threejs-product-viewer/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.439Z",
+      "lastScannedAt": "2026-06-28T23:03:58.658Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -49813,7 +49819,7 @@
         "content/projects/traffic-pulse/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.439Z",
+      "lastScannedAt": "2026-06-28T23:03:58.659Z",
       "localAuditStatus": "matched",
       "releaseStatus": {
         "audit": "preparing",
@@ -50137,7 +50143,7 @@
         "content/projects/transformer-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.439Z",
+      "lastScannedAt": "2026-06-28T23:03:58.659Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -50564,7 +50570,7 @@
         "content/projects/tripscore/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.440Z",
+      "lastScannedAt": "2026-06-28T23:03:58.659Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -50896,7 +50902,7 @@
         "content/projects/tts-voice-app/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.440Z",
+      "lastScannedAt": "2026-06-28T23:03:58.660Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -51331,7 +51337,7 @@
         "content/projects/urban-analytics-core/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.441Z",
+      "lastScannedAt": "2026-06-28T23:03:58.660Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -51750,7 +51756,7 @@
         "content/projects/vanilla-dom-playground/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.441Z",
+      "lastScannedAt": "2026-06-28T23:03:58.661Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -52537,7 +52543,7 @@
         "content/projects/video-family-lora-hub/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.442Z",
+      "lastScannedAt": "2026-06-28T23:03:58.661Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -52959,7 +52965,7 @@
         "content/projects/video-gen/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.442Z",
+      "lastScannedAt": "2026-06-28T23:03:58.662Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -53291,7 +53297,7 @@
         "content/projects/video-gen-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.443Z",
+      "lastScannedAt": "2026-06-28T23:03:58.662Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -53845,7 +53851,7 @@
         "content/projects/vision-quest/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.443Z",
+      "lastScannedAt": "2026-06-28T23:03:58.663Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -54182,7 +54188,7 @@
         "content/projects/web-auto-concepts/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.444Z",
+      "lastScannedAt": "2026-06-28T23:03:58.663Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -54616,7 +54622,7 @@
         "content/projects/YouTube-Web-Automation-Analysis/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.444Z",
+      "lastScannedAt": "2026-06-28T23:03:58.664Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",
@@ -55061,7 +55067,7 @@
         "content/projects/ytp-factory/en.md",
         "git log"
       ],
-      "lastScannedAt": "2026-06-28T22:19:59.444Z",
+      "lastScannedAt": "2026-06-28T23:03:58.664Z",
       "localAuditStatus": "needs-review",
       "releaseStatus": {
         "audit": "preparing",

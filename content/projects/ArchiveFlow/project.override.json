@@ -12,6 +12,7 @@
     "Dapper",
     "FluentMigrator",
     "ImageSharp",
+    "WebAssembly",
     "MVVM",
     "Clean Architecture"
   ],
@@ -37,8 +38,8 @@
       "kind": "live",
       "url": "https://justin21523.github.io/archive-flow-studio/",
       "label": {
-        "zh-TW": "網站 Demo",
-        "en": "Live Demo"
+        "zh-TW": "Workspace 網頁 Demo",
+        "en": "Workspace Browser Demo"
       },
       "primary": true
     }
@@ -53,12 +54,12 @@
         "en": "ArchiveFlow Studio node workflow canvas with source, processing, and output nodes"
       },
       "title": {
-        "zh-TW": "節點式典藏工作流程畫布",
-        "en": "Node-based archive workflow canvas"
+        "zh-TW": "Browser Workspace 節點畫布 Demo",
+        "en": "Browser Workspace node canvas demo"
       },
       "caption": {
-        "zh-TW": "實際桌面應用截圖，展示視覺化工作流程、檔案處理與 Metadata 管線。",
-        "en": "Real desktop screenshot showing visual workflow design, file processing, and metadata pipeline controls."
+        "zh-TW": "瀏覽器版以 Demo Mode 展示節點畫布、inspector、結果表、mock import/export 與 metadata preview/apply 流程。",
+        "en": "The Browser Demo uses Demo Mode to show the node canvas, inspector, result table, mock import/export, and metadata preview/apply workflow."
       },
       "featured": true
     }
@@ -86,9 +87,9 @@
     "keywords": [
       "visual workflow",
       "Dublin Core export",
-      "SQLite FTS5",
-      "plugin architecture",
-      "thumbnail generation"
+      "SQLite desktop storage",
+      "browser-safe demo mode",
+      "metadata preview apply"
     ],
     "audiences": [
       "archivists",
@@ -98,6 +99,7 @@
     ],
     "contentTypes": [
       "desktop app",
+      "browser demo",
       "case study",
       "source code"
     ],
@@ -109,6 +111,7 @@
     ],
     "platforms": [
       "Desktop",
+      "Browser Demo",
       "Windows",
       "macOS",
       "Linux"
@@ -132,10 +135,12 @@
     ],
     "database": [
       "SQLite",
-      "SQLite FTS5"
+      "SQLite for Desktop",
+      "In-memory Browser Demo storage"
     ],
     "desktop": [
       "Avalonia UI",
+      "Avalonia WebAssembly",
       "XAML",
       "MVVM"
     ],
@@ -150,8 +155,8 @@
     "responsibilities": [
       "Visual workflow canvas design",
       "Metadata model and Dublin Core export design",
-      "SQLite persistence and search architecture",
-      "Plugin and background job pipeline design"
+      "SQLite persistence and repository architecture",
+      "Browser Demo mode and GitHub Pages deployment"
     ],
     "collaborationType": "Solo",
     "myContribution": "Designed and implemented the node workflow concept, metadata architecture, persistence layer, file processing pipeline, and Avalonia interface.",
@@ -159,8 +164,8 @@
       "digital archive workflow design",
       "metadata standards",
       "desktop interaction design",
-      "SQLite full-text search",
-      "plugin-oriented architecture"
+      "browser demo deployment",
+      "workflow-centered UI"
     ],
     "capabilities": [
       "metadata workflow",
