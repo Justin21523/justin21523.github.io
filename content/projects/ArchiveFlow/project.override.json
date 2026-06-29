@@ -65,6 +65,32 @@
       "featured": true
     }
   ],
+  "content": {
+    "zh-TW": {
+      "futureImprovements": [
+        "補齊正式 README、截圖與操作腳本",
+        "補上架構圖、資料流程與關鍵技術決策",
+        "確認 build/test 狀態並更新 portfolio release report"
+      ],
+      "interviewNotes": [
+        "先說明此專案目前的成熟度與可展示範圍",
+        "聚焦在可驗證的技術棧、程式結構與已完成部分",
+        "不要宣稱尚未部署或尚未測試的能力已完成"
+      ]
+    },
+    "en": {
+      "futureImprovements": [
+        "Complete the production-quality README, screenshots, and demo script",
+        "Add architecture diagrams, data-flow notes, and key technical decisions",
+        "Verify build/test status and update the portfolio release report"
+      ],
+      "interviewNotes": [
+        "State the current maturity and demonstrable scope first",
+        "Focus on verified stack, source structure, and completed behavior",
+        "Do not claim unverified deployment or test coverage as finished"
+      ]
+    }
+  },
   "metadata": {
     "catalogNumber": "PF-2026-IS-002",
     "aliases": [

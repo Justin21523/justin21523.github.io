@@ -873,7 +873,7 @@ ${readmeInfo.description}
     if (!hasRealDemo && !isInternalFallback(liveLink)) {
       missingFields.add("verified live demo or portfolio demo guide");
     }
-    if (!hasRealVideo) {
+    if (!hideVideoLink && !hasRealVideo) {
       missingFields.add("demo video recording");
     }
     const reviewContent = contentNeedsReview

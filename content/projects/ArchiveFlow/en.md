@@ -18,7 +18,7 @@ challenges:
 nextSteps:
   - "Add more execution tests for built-in nodes."
   - "Expand workflow save/load and metadata mapping."
-  - "Add updated screenshots and a short guided demo video."
+  - "Add updated screenshots and a concise demo script."
 ---
 ArchiveFlow Studio is one of my strongest examples of combining library and information science, metadata workflow design, desktop UI, and practical engineering. It is not just a file list. It turns a personal digital archive workflow into an interactive node-based Workspace.
 

@@ -18,7 +18,7 @@ challenges:
 nextSteps:
   - "持續補齊更多 built-in nodes 的實際執行測試。"
   - "擴充 Workflow save/load 與更多 metadata mapping。"
-  - "補上更完整的 demo screenshots 與短影片導覽。"
+  - "補上更完整的 demo screenshots 與操作腳本。"
 ---
 ArchiveFlow Studio 是我用來展示「圖書資訊、Metadata、桌面 UI 與工程實作」交集的代表作品。它不是單純的檔案列表，而是把個人數位典藏流程變成可以操作的節點式 Workspace。
 

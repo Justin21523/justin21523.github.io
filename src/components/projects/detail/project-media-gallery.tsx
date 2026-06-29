@@ -281,9 +281,13 @@ export function ProjectMediaGallery({
             </h2>
 
             <p className="mt-1 text-sm text-muted-foreground">
-              {locale === "en"
-                ? "Browse the project screenshots and recorded walkthroughs."
-                : "快速瀏覽這個專案的截圖與錄影展示。"}
+              {videoCount > 0
+                ? locale === "en"
+                  ? "Browse the project screenshots and recorded walkthroughs."
+                  : "快速瀏覽這個專案的截圖與錄影展示。"
+                : locale === "en"
+                  ? "Browse the project screenshots."
+                  : "快速瀏覽這個專案的截圖。"}
             </p>
           </div>
 
