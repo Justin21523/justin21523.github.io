@@ -24,7 +24,8 @@
     "deploy:static-project-demos": "tsx scripts/portfolio-release/deploy-static-project-demos.ts",
     "validate:static-demos": "tsx scripts/validate-static-demos.ts",
     "deploy": "bash scripts/deploy.sh",
-    "validate:projects": "tsx scripts/validate-project-links.ts"
+    "validate:projects": "tsx scripts/validate-project-links.ts",
+    "postbuild": "tsx scripts/create-github-pages-legacy-redirects.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
